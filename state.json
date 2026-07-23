@@ -1,0 +1,876 @@
+{
+  "updated_at": "2026-07-23T15:49:26.002633+00:00",
+  "total": 145,
+  "items": {
+    "012aef2c-93b7-4abb-a7fc-07030911cf21": {
+      "code": "5HF272",
+      "name": "MoneyGram Haas F1 Team - Ollie Bearman - British GP 2026",
+      "photo_id": "c25413b0-8d29-4337-9211-893637513924",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c25413b0-8d29-4337-9211-893637513924.webp"
+    },
+    "079c925f-7982-43d9-8f3e-0f1173fcb9dc": {
+      "code": "LS18F1088",
+      "name": "Ferrari SF-26 No.44 3rd British GP 2026\nLewis Hamilton",
+      "photo_id": "ba862019-4ace-4589-910f-d36d2abc3d95",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ba862019-4ace-4589-910f-d36d2abc3d95.webp"
+    },
+    "084643a1-93d9-4137-b315-30881658bf9c": {
+      "code": "S9385",
+      "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 \nIsack Hadjar",
+      "photo_id": "9f4a7e68-4dee-4d07-8424-339aea4ada4a",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9f4a7e68-4dee-4d07-8424-339aea4ada4a.webp"
+    },
+    "0b2004a2-7b7b-4d5b-94a5-5b272099355f": {
+      "code": "LS18F1082",
+      "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026\nCharles Leclerc",
+      "photo_id": "c737bc74-2cde-45ce-a88a-9d0d324e8303",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c737bc74-2cde-45ce-a88a-9d0d324e8303.webp"
+    },
+    "0b82dfc3-2794-4290-8758-00b229dc1d73": {
+      "code": "18S1275",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 \nGeorge Russell\n(With figurine)",
+      "photo_id": "31198c48-6d3f-4588-bd49-dd5df2e7ed10",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/31198c48-6d3f-4588-bd49-dd5df2e7ed10.webp"
+    },
+    "0c4c1345-ffc6-45d5-8402-d1a7574d68df": {
+      "code": "64S133",
+      "name": "Atlassian Williams F1 Team FW48 No.23 Japanese GP 2026 \nAlexander Albon",
+      "photo_id": "26855395-a666-441a-a230-7d41840a82dc",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/26855395-a666-441a-a230-7d41840a82dc.webp"
+    },
+    "129d4242-0054-4b03-83da-52ebbbb32fec": {
+      "code": "18S1268",
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri",
+      "photo_id": "6ea31b8d-a026-4c6c-b868-a3637ae6ddfd",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6ea31b8d-a026-4c6c-b868-a3637ae6ddfd.webp"
+    },
+    "12c45bc8-7cc2-4477-9017-8f174fa56c43": {
+      "code": "64S142",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 7th Chinese GP 2026 \nLiam Lawson",
+      "photo_id": "a1c2e3d4-0091-44dc-8340-f9728b42c9ca",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a1c2e3d4-0091-44dc-8340-f9728b42c9ca.webp"
+    },
+    "12fc8171-ebc5-45aa-b39e-7ad2ab098eb4": {
+      "code": "LSHEL036",
+      "name": "Charles Leclerc – Scuderia Ferrari HP Monaco GP 2026",
+      "photo_id": "03064f99-5dda-47f0-94fc-ad665db2c321",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/03064f99-5dda-47f0-94fc-ad665db2c321.webp"
+    },
+    "13b561f1-bf62-492f-932f-656a92b3f34b": {
+      "code": "64S135",
+      "name": "Audi Revolut F1 Team R26 No.5 9th Australian GP 2026 \nGabriel Bortoleto",
+      "photo_id": "add3b6e0-c1e2-4d96-9cd7-d838702528c8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/add3b6e0-c1e2-4d96-9cd7-d838702528c8.webp"
+    },
+    "181ec62e-8210-4e97-af2a-f86546f1be8e": {
+      "code": "S9384",
+      "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 \nMax Verstappen",
+      "photo_id": "a016afdc-a7cd-4805-8d45-34294aec79b0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a016afdc-a7cd-4805-8d45-34294aec79b0.webp"
+    },
+    "1b6a9778-bd8b-4bcb-b167-028b07a5cc22": {
+      "code": "LSHEL037",
+      "name": "Lewis Hamilton – Scuderia Ferrari HP British GP 2026",
+      "photo_id": "c58c24c7-bf1a-458e-a7e2-0acaaf01b172",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c58c24c7-bf1a-458e-a7e2-0acaaf01b172.webp"
+    },
+    "1c460d9f-7e4c-4bad-96de-76dc1447543e": {
+      "code": "18S1258",
+      "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 \nOliver Bearman",
+      "photo_id": "7a97f0ae-2c72-4b8f-b1eb-b7f79bfd5e8b",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7a97f0ae-2c72-4b8f-b1eb-b7f79bfd5e8b.webp"
+    },
+    "1c80ac7e-05df-4cd1-b0fc-8bc08207db9b": {
+      "code": "64S120",
+      "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026\nSergio Perez",
+      "photo_id": "afd9481c-eb61-4ded-b241-bf6637eb506a",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/afd9481c-eb61-4ded-b241-bf6637eb506a.webp"
+    },
+    "1e0516d7-3ca4-4ff7-9692-3af3cc243987": {
+      "code": "S9373",
+      "name": "Audi Revolut F1 Team R26 No.5 Australian GP 2026\nAudi First Race, First Point \nGabriel Bortoleto",
+      "photo_id": "1a9192c9-97f7-491e-874a-30d112b10aa1",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1a9192c9-97f7-491e-874a-30d112b10aa1.webp"
+    },
+    "1e7a50c0-4b5f-4193-abb3-b5d9347d3b2d": {
+      "code": "S9370",
+      "name": "Atlassian Williams F1 Team FW48 No.55 Japanese GP 2026 \nCarlos Sainz",
+      "photo_id": "cc3c0b82-cf2e-4698-9b3c-6369f41e6799",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/cc3c0b82-cf2e-4698-9b3c-6369f41e6799.webp"
+    },
+    "1f0573f3-9d2b-4313-b7ce-1437542b0beb": {
+      "code": "18S1263",
+      "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
+      "photo_id": "0a168c28-54d8-46c6-8a8f-2597d3f94ab6",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0a168c28-54d8-46c6-8a8f-2597d3f94ab6.webp"
+    },
+    "1f920129-c1e6-4db9-86ed-4bb8f8f90cb7": {
+      "code": "64S123",
+      "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 \nOliver Bearman",
+      "photo_id": "a6d1f2be-771a-487e-a2f9-cc7c8796f5cb",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a6d1f2be-771a-487e-a2f9-cc7c8796f5cb.webp"
+    },
+    "20a97535-72d9-44ec-a8d1-9ee67976ea54": {
+      "code": "S9369",
+      "name": "Aston Martin Aramco Formula One Team AMR26 No.18 Japanese GP 2026 \nLance Stroll",
+      "photo_id": "61bc0a16-14a3-4126-aada-a24df673d810",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/61bc0a16-14a3-4126-aada-a24df673d810.webp"
+    },
+    "218a12cd-e275-419a-9c10-06247a650c6c": {
+      "code": "5HF273",
+      "name": "McLaren Mastercard F1 Team - Oscar Piastri - British GP 2026",
+      "photo_id": "02941159-52a3-4cb3-8ced-88df7e14ab60",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/02941159-52a3-4cb3-8ced-88df7e14ab60.webp"
+    },
+    "22e051c1-fbd4-4302-85a2-51a3f7bc5f9d": {
+      "code": "64S122",
+      "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 \nEsteban Ocon",
+      "photo_id": "c886039f-bec2-4b9e-baae-7b6b26c53a69",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c886039f-bec2-4b9e-baae-7b6b26c53a69.webp"
+    },
+    "25eb6090-60d8-4ec4-927a-7af93940dfd2": {
+      "code": "S9387",
+      "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 \nOliver Bearman",
+      "photo_id": "e7906cd9-7c08-455d-ab92-62c32861c1c9",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e7906cd9-7c08-455d-ab92-62c32861c1c9.webp"
+    },
+    "286b4fc1-6543-4f50-bcb8-bd295a31a382": {
+      "code": "18S1260",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
+      "photo_id": "c4da54ee-0ca4-4474-a42a-868adc7fb263",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c4da54ee-0ca4-4474-a42a-868adc7fb263.webp"
+    },
+    "2a959428-62fa-4fe8-a887-52da193754cc": {
+      "code": "LSF1083",
+      "name": "Ferrari SF-26 No.44 Japanese GP 2026\nLewis Hamilton",
+      "photo_id": "35feac77-9679-45e4-8bd9-22e5fd10d626",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/35feac77-9679-45e4-8bd9-22e5fd10d626.webp"
+    },
+    "2b83464d-39bf-4008-a1d9-20f95d27b055": {
+      "code": "64S121",
+      "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026\nValtteri Bottas",
+      "photo_id": "89b5aa65-3f6a-47ea-9eae-4f444af761da",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/89b5aa65-3f6a-47ea-9eae-4f444af761da.webp"
+    },
+    "2f340c73-9c15-47b9-b43b-6c1cb7608e65": {
+      "code": "18S1264",
+      "name": "Audi Revolut F1 Team R26 No.5 9th Australian GP 2026 \nGabriel Bortoleto",
+      "photo_id": "6d941d0b-7efe-4522-adab-07033f66da9e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6d941d0b-7efe-4522-adab-07033f66da9e.webp"
+    },
+    "3027d99c-fc17-4e08-bc6a-387f4326c2d2": {
+      "code": "S9386",
+      "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 \nEsteban Ocon",
+      "photo_id": "f8edd827-8d7a-406b-91ef-47c5d677a3d8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f8edd827-8d7a-406b-91ef-47c5d677a3d8.webp"
+    },
+    "3124b89f-0141-4466-a0d0-da641e14b455": {
+      "code": "S9344",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 6th Monaco GP 2026 \nArvid Lindblad \n(With pit board)",
+      "photo_id": "2d980195-7d1b-4ea0-b350-b398ac3cc04f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/2d980195-7d1b-4ea0-b350-b398ac3cc04f.webp"
+    },
+    "3140cec2-15e1-4e07-a09f-66c62f95d6db": {
+      "code": "S9406",
+      "name": "Cadillac Formula 1 Team MAC-26 No.77 Miami GP 2026 \nValtteri Bottas",
+      "photo_id": "94678e15-4e5f-47da-9fc0-f5c8ba2dd8b8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/94678e15-4e5f-47da-9fc0-f5c8ba2dd8b8.webp"
+    },
+    "31ad9140-c33c-42da-9a2d-af1bf32c28c9": {
+      "code": "18S1272",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 8th Australian GP 2026 Arvid Lindblad",
+      "photo_id": "ff5957bf-96b5-4abb-9736-f5e2844e45c3",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ff5957bf-96b5-4abb-9736-f5e2844e45c3.webp"
+    },
+    "350377eb-3c8f-47fe-ad66-b1c3e12826ce": {
+      "code": "64S143",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 8th Australian GP 2026 \nArvid Lindblad",
+      "photo_id": "f7ea971e-668d-48f8-acad-fc874b5103b3",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f7ea971e-668d-48f8-acad-fc874b5103b3.webp"
+    },
+    "370cec99-61af-4001-b689-77a717ebf184": {
+      "code": "S9380",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026\nGeorge Russell\nWith pit board",
+      "photo_id": "6e30eece-6184-4002-af80-f6a5537868b5",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6e30eece-6184-4002-af80-f6a5537868b5.webp"
+    },
+    "37426fc9-1e7d-4861-9467-5a6b62771b39": {
+      "code": "S9334",
+      "name": "Cadillac Formula 1 Team MA26 British GP 2026\nSergio Perez",
+      "photo_id": "6749fcd3-4d89-4401-99fc-5a2283508748",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6749fcd3-4d89-4401-99fc-5a2283508748.webp"
+    },
+    "39aaf9a1-59c6-4b60-9d12-39554c329af7": {
+      "code": "LS18F1085",
+      "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026\nLewis Hamilton",
+      "photo_id": "e58e753f-c780-4f09-86d5-562658e2a6c6",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e58e753f-c780-4f09-86d5-562658e2a6c6.webp"
+    },
+    "3df49158-409e-4c3a-9521-a17d5bec688e": {
+      "code": "S9341",
+      "name": "Oracle Red Bull Racing RB22 No.6 4th Monaco GP 2026 \nIsack Hadjar \n(With number board)",
+      "photo_id": "abe52525-b852-4d02-af75-a39c7808a565",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/abe52525-b852-4d02-af75-a39c7808a565.webp"
+    },
+    "3fb69727-4fbd-4e71-a4bf-d5c29481ad9f": {
+      "code": "LSF1084",
+      "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026\nLewis Hamilton",
+      "photo_id": "4859470f-a1c8-47a0-9a6b-4b64c5e313b4",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4859470f-a1c8-47a0-9a6b-4b64c5e313b4.webp"
+    },
+    "40d30c7e-01c4-497b-9e9a-e86ab64bf98c": {
+      "code": "S9404",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 2nd Miami GP 2026 \nLando Norris",
+      "photo_id": "5fb0c672-ae9c-46c7-88d2-e670e8b80063",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/5fb0c672-ae9c-46c7-88d2-e670e8b80063.webp"
+    },
+    "4340140b-d4a5-4e3b-b58f-e56ce626a857": {
+      "code": "S9340",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Monaco GP 2026 \nKimi Antonelli \n(With fugurine, number and pit board)",
+      "photo_id": "6f93b41b-d24d-4e12-b7bb-87a8fe911eb0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6f93b41b-d24d-4e12-b7bb-87a8fe911eb0.webp"
+    },
+    "44895812-8cb1-47f3-b882-1b94c6a47f2e": {
+      "code": "S9346",
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 4th Monaco GP 2026 \nOscar Piastri",
+      "photo_id": "818bd913-e2bd-4e0e-af3b-b48164a61841",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/818bd913-e2bd-4e0e-af3b-b48164a61841.webp"
+    },
+    "49538452-3a86-4fcd-8dc1-25f585732999": {
+      "code": "18S1255",
+      "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026\nSergio Perez",
+      "photo_id": "972b68fd-cea8-4861-b979-ba743cf5d7a3",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/972b68fd-cea8-4861-b979-ba743cf5d7a3.webp"
+    },
+    "4c4f36df-b9a9-424c-b12c-38b3bbcf136d": {
+      "code": "LS18F1081",
+      "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026\nLewis Hamilton",
+      "photo_id": "3d0b2569-30b9-45d1-88c4-964495dfea33",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/3d0b2569-30b9-45d1-88c4-964495dfea33.webp"
+    },
+    "4eb67885-11b6-4cb2-9ec2-0378817779f9": {
+      "code": "S9376",
+      "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 \nEsteban Ocon",
+      "photo_id": "95651509-dcd0-4874-bff3-51fc3ff0520f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/95651509-dcd0-4874-bff3-51fc3ff0520f.webp"
+    },
+    "526ae28e-d9ae-461f-b0e4-3961ee5e25ef": {
+      "code": "S9349",
+      "name": "Audi Revolut F1 Team R26 No.5 Monaco GP 2026 \nGabriel Bortoleto",
+      "photo_id": "c0a4dea3-74f5-40e8-8aae-b735d6757b07",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c0a4dea3-74f5-40e8-8aae-b735d6757b07.webp"
+    },
+    "55e8953c-b086-46d8-ad25-16bb7927b0dc": {
+      "code": "18S1266",
+      "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 \nOliver Bearman",
+      "photo_id": "41a08944-f692-4975-b419-84160763cd16",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/41a08944-f692-4975-b419-84160763cd16.webp"
+    },
+    "56008407-5cf6-4e9e-856d-0f4c8a814c8e": {
+      "code": "64S130",
+      "name": "Aston Martin Aramco Formula One Team AMR26 No.14 Japanese GP 2026 \nFernando Alonso",
+      "photo_id": "2897be8b-aa4c-47e2-bf7c-80c5a41624cf",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/2897be8b-aa4c-47e2-bf7c-80c5a41624cf.webp"
+    },
+    "568e6629-61b8-407a-89b4-29dd2866aac4": {
+      "code": "S9378",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
+      "photo_id": "33cabd06-f23c-4e33-a9bf-376bfd7da1a8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/33cabd06-f23c-4e33-a9bf-376bfd7da1a8.webp"
+    },
+    "59215077-4973-4985-922e-b466a335d51b": {
+      "code": "64S127",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 Japanese GP 2026 \nArvid Lindblad",
+      "photo_id": "226a43e8-1be8-4e1b-81bd-3cfa4ab5e0a0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/226a43e8-1be8-4e1b-81bd-3cfa4ab5e0a0.webp"
+    },
+    "594d6451-59f5-4dd1-a6f2-73e64f979f35": {
+      "code": "S9405",
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 3rd Miami GP 2026 \nOscar Piastri",
+      "photo_id": "ad15397f-68ce-40f0-96d5-c1fb70426838",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ad15397f-68ce-40f0-96d5-c1fb70426838.webp"
+    },
+    "5986bc64-3ec6-4658-998e-0ece1c86d5e6": {
+      "code": "S9388",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
+      "photo_id": "04cd2321-ed1e-47b0-b222-67d84eb51dee",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/04cd2321-ed1e-47b0-b222-67d84eb51dee.webp"
+    },
+    "59fa29d8-e6cd-4f33-ae95-297e3b4916b9": {
+      "code": "18S1265",
+      "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 \nEsteban Ocon",
+      "photo_id": "733addc5-4cac-437e-9b50-b2b8684da62e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/733addc5-4cac-437e-9b50-b2b8684da62e.webp"
+    },
+    "5a0bfec4-2a28-42e1-8df2-21b3ba85fdd0": {
+      "code": "64S132",
+      "name": "Atlassian Williams F1 Team FW48 No.55 Japanese GP 2026 \nCarlos Sainz",
+      "photo_id": "019f1ea1-f371-4cdc-8152-3b150748e8b8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/019f1ea1-f371-4cdc-8152-3b150748e8b8.webp"
+    },
+    "5abac7f7-c548-4ae7-bad8-1cc0ccce5ab7": {
+      "code": "LS18F1080",
+      "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026\nCharles Leclerc",
+      "photo_id": "96be3322-e71a-47c8-be7b-239af8236cb7",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/96be3322-e71a-47c8-be7b-239af8236cb7.webp"
+    },
+    "5ac77a5f-d53a-4edf-ae95-53ae95e363bb": {
+      "code": "64S124",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
+      "photo_id": "9820cef6-7afe-4107-86b2-22b1d145fde0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9820cef6-7afe-4107-86b2-22b1d145fde0.webp"
+    },
+    "5e834e3d-3cc5-4edf-a91a-3c4de27910ab": {
+      "code": "LS64041",
+      "name": "Ferrari SF-26 No.16 Winner British GP 2026\nCharles Leclerc",
+      "photo_id": "c81a3e2d-e91f-45ec-afeb-1fba96ee550e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c81a3e2d-e91f-45ec-afeb-1fba96ee550e.webp"
+    },
+    "61703c26-2b2e-41a7-b8ad-05d89ecba8f6": {
+      "code": "18S1259",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
+      "photo_id": "b63182ce-bcf6-4d1e-b996-dffab1cd1c17",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b63182ce-bcf6-4d1e-b996-dffab1cd1c17.webp"
+    },
+    "64b10d69-0aec-4d91-864b-15a56a8d709b": {
+      "code": "S9374",
+      "name": "Cadillac Formula 1 Team No.11 Australian GP 2026 \nSergio Perez\nWith pit board",
+      "photo_id": "eed6c070-114b-4815-bd2b-e546e1bb270d",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/eed6c070-114b-4815-bd2b-e546e1bb270d.webp"
+    },
+    "6607b17e-66a0-4128-bfdc-88266baae91e": {
+      "code": "LS64037",
+      "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+      "photo_id": "1c3f8a79-14c7-442d-9265-116b4270f61b",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1c3f8a79-14c7-442d-9265-116b4270f61b.webp"
+    },
+    "67edc3b2-2fcf-44c5-8b8a-bf5384ce5050": {
+      "code": "64S136",
+      "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 \nEsteban Ocon",
+      "photo_id": "8ce50e66-62bb-4642-92c0-b72986cc3834",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8ce50e66-62bb-4642-92c0-b72986cc3834.webp"
+    },
+    "68817a48-1a6a-419c-a903-886842ab20fe": {
+      "code": "18S1256",
+      "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026\nValtteri Bottas",
+      "photo_id": "df655159-5b82-4ffa-8bcf-aa8a874371fa",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/df655159-5b82-4ffa-8bcf-aa8a874371fa.webp"
+    },
+    "68abac47-179b-40b3-9671-eb9e6b896420": {
+      "code": "S9338",
+      "name": "Atlassian Williams F1 Team FW47 British GP 2026\nAlex Albon",
+      "photo_id": "c83b96fd-965d-4425-961d-53755307597f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c83b96fd-965d-4425-961d-53755307597f.webp"
+    },
+    "69c3b18c-ae0d-4a27-8ebb-b168986bac38": {
+      "code": "LS64031",
+      "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026\nCharles Leclerc",
+      "photo_id": "ad812402-3f96-4b6a-b111-5924b451a556",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ad812402-3f96-4b6a-b111-5924b451a556.webp"
+    },
+    "6b863397-a05c-4788-a7e9-02f7f03f86dd": {
+      "code": "LSF1086",
+      "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026\nLewis Hamilton",
+      "photo_id": "350c5d30-b8d6-4612-b073-80f91c173f78",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/350c5d30-b8d6-4612-b073-80f91c173f78.webp"
+    },
+    "6c8a95ae-9a8e-422c-ba9b-5decad4f8eed": {
+      "code": "S9343",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 5th Monaco GP 2026 \nLiam Lawson \n(With pit board)",
+      "photo_id": "de4dd105-97c5-418c-971c-d0b63ab07586",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/de4dd105-97c5-418c-971c-d0b63ab07586.webp"
+    },
+    "6cb13376-035a-4adc-83e0-95a3356cde75": {
+      "code": "64S128",
+      "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
+      "photo_id": "1dda1841-8d2e-412d-8491-731bc57889c6",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1dda1841-8d2e-412d-8491-731bc57889c6.webp"
+    },
+    "6eca8936-6c09-4a30-8044-b406a5d0316e": {
+      "code": "64S140",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 \nGeorge Russell",
+      "photo_id": "21bba31c-6a54-4995-8a3f-1992b2201c17",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/21bba31c-6a54-4995-8a3f-1992b2201c17.webp"
+    },
+    "715104ee-d3d5-459f-a568-8815787d75cf": {
+      "code": "S9345",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 Monaco GP 2026 \nLando Norris",
+      "photo_id": "e9ebdaf9-febc-468d-93b4-54f3cd9bf61a",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e9ebdaf9-febc-468d-93b4-54f3cd9bf61a.webp"
+    },
+    "7227472e-1bd4-4aaf-a987-10ee2c27b600": {
+      "code": "64S139",
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri",
+      "photo_id": "c7590cb7-a9b0-428f-b747-07b385b0fb2f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c7590cb7-a9b0-428f-b747-07b385b0fb2f.webp"
+    },
+    "7415000c-c24b-4d00-833b-7799df452071": {
+      "code": "5HF254",
+      "name": "Audi Revolut F1 Team - Gabriel Bortoleto - 2026",
+      "photo_id": "0534022a-b21c-4310-9f61-ddf6a12f03c0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0534022a-b21c-4310-9f61-ddf6a12f03c0.webp"
+    },
+    "761e8ae2-d4f5-4652-86db-88ffb022671d": {
+      "code": "S9409",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 Spanish GP 2026\nLiam Lawson",
+      "photo_id": "d4883af4-d57e-44cb-acd9-bec7637d50dd",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d4883af4-d57e-44cb-acd9-bec7637d50dd.webp"
+    },
+    "762cd635-2f8c-4c9b-9c9d-91140c9ee444": {
+      "code": "64S138",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
+      "photo_id": "83936a4e-1765-41df-8c11-a01afee70e3e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/83936a4e-1765-41df-8c11-a01afee70e3e.webp"
+    },
+    "7924f6b7-788e-4adf-bc4d-bcbf15428910": {
+      "code": "S9403",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 Miami GP 2026 \nArvid Lindblad",
+      "photo_id": "a60ec99c-94c3-410b-9b07-83a49fa0d168",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a60ec99c-94c3-410b-9b07-83a49fa0d168.webp"
+    },
+    "796a990b-5d45-4518-8207-1854d9d1a79a": {
+      "code": "LS18F1084",
+      "name": "Ferrari SF-26 No.16 Canadian GP 2026\nCharles Leclerc",
+      "photo_id": "11ba88c5-746b-46a7-b27e-c54632b2e297",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/11ba88c5-746b-46a7-b27e-c54632b2e297.webp"
+    },
+    "7ab5e159-2654-4e26-a8ed-66804204ce66": {
+      "code": "LSF1081",
+      "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026\nLewis Hamilton",
+      "photo_id": "98c04e1e-9565-4d67-822b-bb9d4210bf71",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/98c04e1e-9565-4d67-822b-bb9d4210bf71.webp"
+    },
+    "7bb91d82-8a78-45d1-9acc-6abaddee5b59": {
+      "code": "64S134",
+      "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
+      "photo_id": "199a36cc-5009-494f-ad5b-b661c82cb915",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/199a36cc-5009-494f-ad5b-b661c82cb915.webp"
+    },
+    "7f2b128c-bdda-42ee-befe-08f41e132ca4": {
+      "code": "LS64033",
+      "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026\nCharles Leclerc",
+      "photo_id": "d172d1e6-f1f0-4352-9909-42245194227d",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d172d1e6-f1f0-4352-9909-42245194227d.webp"
+    },
+    "80c348f4-5602-4fac-ad2e-ed17b2ed126b": {
+      "code": "S9393",
+      "name": "McLaren Mastercard Formula 1 Team MCL40 Barcelona Pre-Season Shakedown 2026\nOscar Piastri",
+      "photo_id": "a841ef88-22e7-47f5-9cf7-5dacc3ac4928",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a841ef88-22e7-47f5-9cf7-5dacc3ac4928.webp"
+    },
+    "82c92d00-dc44-43dc-bcfc-3a1f7befe2d0": {
+      "code": "64S148",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 & No.63 Japanese GP 2026\nGeorge Russell & Kimi Antonelli",
+      "photo_id": "7ee9e95f-4723-44e3-8bcf-0eb293665fe8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7ee9e95f-4723-44e3-8bcf-0eb293665fe8.webp"
+    },
+    "85a57dfe-f5c4-41c9-8464-cb53f561eb18": {
+      "code": "S9342",
+      "name": "BWT Alpine Formula One Team A526 No.10 3rd Monaco GP 2026 \nPierre Gasly",
+      "photo_id": "56b70faa-11dd-4695-8d14-39fe40d0e3fa",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/56b70faa-11dd-4695-8d14-39fe40d0e3fa.webp"
+    },
+    "85ba0a18-31c1-4f8f-829b-694c86f6877e": {
+      "code": "S9407",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Miami GP 2026 \nKimi Antonelli",
+      "photo_id": "42b55355-4fee-406f-a30c-a2450531fb6e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/42b55355-4fee-406f-a30c-a2450531fb6e.webp"
+    },
+    "884d2d5c-fadf-4678-926b-b9a2e7e985ba": {
+      "code": "LS64035",
+      "name": "Ferrari SF-26 No.16 Canadian GP 2026\nCharles Leclerc",
+      "photo_id": "7ec1e6e3-8194-4c8e-8aae-f8f96b135c91",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7ec1e6e3-8194-4c8e-8aae-f8f96b135c91.webp"
+    },
+    "8866edbc-724b-4313-b238-1777004cbaad": {
+      "code": "S9394",
+      "name": "Audi Revolut F1 Team R26 Barcelona Pre-Season Shakedown 2026\nGabriel Bortoleto",
+      "photo_id": "200c9949-d7aa-4493-8cdb-55b38eb072c6",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/200c9949-d7aa-4493-8cdb-55b38eb072c6.webp"
+    },
+    "888b0d7b-a591-4a11-b142-e157d92bc406": {
+      "code": "64S144",
+      "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 \nMax Verstappen",
+      "photo_id": "94212df4-b114-4d5e-9fd2-7d12e6a6c046",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/94212df4-b114-4d5e-9fd2-7d12e6a6c046.webp"
+    },
+    "8969ec00-ea22-4436-81f0-6d8088c7c797": {
+      "code": "LS18F1086",
+      "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+      "photo_id": "8eb49ab4-4901-40c5-a0b1-bfacea79f0b1",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8eb49ab4-4901-40c5-a0b1-bfacea79f0b1.webp"
+    },
+    "8991de44-2748-4830-8148-5395be14e7d7": {
+      "code": "18S1273",
+      "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 \nMax Verstappen",
+      "photo_id": "a0041b16-d37a-4df2-8b22-fd1b6b00acce",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a0041b16-d37a-4df2-8b22-fd1b6b00acce.webp"
+    },
+    "8b95c648-9563-4822-8b9b-e8544e861659": {
+      "code": "S9392",
+      "name": "McLaren Mastercard Formula 1 Team MCL40 Barcelona Pre-Season Shakedown 2026\nLando Norris",
+      "photo_id": "cb27a5be-6dfc-4368-b0cc-24bbe0e9ecad",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/cb27a5be-6dfc-4368-b0cc-24bbe0e9ecad.webp"
+    },
+    "8bfb11d0-6ddf-4295-99b0-7e79e3ee460e": {
+      "code": "18S1270",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 \nKimi Antonelli",
+      "photo_id": "c09d79ad-7786-498d-9552-7f10b5f69586",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c09d79ad-7786-498d-9552-7f10b5f69586.webp"
+    },
+    "8c316420-b360-4f1f-977b-eebdc827ae6c": {
+      "code": "64S131",
+      "name": "Aston Martin Aramco Formula One Team AMR26 No.18 Japanese GP 2026 \nLance Stroll",
+      "photo_id": "450f769e-9d0e-4a2b-8644-0560603cb4b3",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/450f769e-9d0e-4a2b-8644-0560603cb4b3.webp"
+    },
+    "8ca55fce-edc9-4fa1-a455-5fa0aac71d50": {
+      "code": "18S1267",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
+      "photo_id": "31dae8e8-d3b8-4068-8c2e-95319978693d",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/31dae8e8-d3b8-4068-8c2e-95319978693d.webp"
+    },
+    "8e4f4f30-8168-4fb5-b85e-f07f6e32679c": {
+      "code": "S9348",
+      "name": "Audi Revolut F1 Team R26 No.27 Monaco GP 2026 \nNico Hulkenberg",
+      "photo_id": "064d7c6e-ccbd-457c-a5ab-479ae129496f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/064d7c6e-ccbd-457c-a5ab-479ae129496f.webp"
+    },
+    "8fa72b8f-cae6-4741-985a-4698fd3b5ab7": {
+      "code": "LS18F1083",
+      "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026\nLewis Hamilton",
+      "photo_id": "b43ebd30-64b3-4d0d-9ab4-b2a215c80bac",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b43ebd30-64b3-4d0d-9ab4-b2a215c80bac.webp"
+    },
+    "97ce6f6e-d7c0-4a95-b88b-686a257dd41a": {
+      "code": "64S137",
+      "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 \nOliver Bearman",
+      "photo_id": "62d523ab-04f8-46a3-a44d-a9ac91181c3e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/62d523ab-04f8-46a3-a44d-a9ac91181c3e.webp"
+    },
+    "9855e923-f95f-4385-982c-c1feb7521456": {
+      "code": "LSF1089",
+      "name": "Ferrari SF-26 No.44 3rd British GP 2026\nLewis Hamilton",
+      "photo_id": "7d8ec6a6-b46f-4e79-a01f-31e81561541e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7d8ec6a6-b46f-4e79-a01f-31e81561541e.webp"
+    },
+    "9c45972f-6b99-47b7-a27a-8be73d3eb5fa": {
+      "code": "64S147",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
+      "photo_id": "7ba1ab81-3f30-40ee-9b35-5d2a2fa2b948",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7ba1ab81-3f30-40ee-9b35-5d2a2fa2b948.webp"
+    },
+    "9f9fe042-a6b8-4011-b2c5-308d9c728be2": {
+      "code": "18S1274",
+      "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 \nIsack Hadjar",
+      "photo_id": "b0ee7cd2-3b5f-4e3a-a8ce-d45ac7b1fb93",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b0ee7cd2-3b5f-4e3a-a8ce-d45ac7b1fb93.webp"
+    },
+    "a1fae421-0918-48b4-859f-cf08ab08aada": {
+      "code": "S9397",
+      "name": "Oracle Red Bull Racing RB22 No.3 3rd Canada GP 2026 \nMax Verstappen",
+      "photo_id": "a7d56b8f-0505-4409-8b86-e86114f65376",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a7d56b8f-0505-4409-8b86-e86114f65376.webp"
+    },
+    "a5d9bcde-dd1a-401b-8dda-2182e3384ab7": {
+      "code": "S9377",
+      "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026\nOliver Bearman",
+      "photo_id": "f481eabb-48f4-4667-a22b-26811b9850f5",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f481eabb-48f4-4667-a22b-26811b9850f5.webp"
+    },
+    "a73e7476-f3c6-48ad-a4e1-156a5f260720": {
+      "code": "S9367",
+      "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto\nWith pit board",
+      "photo_id": "5b419ba0-c7e6-498a-a943-51ec92229362",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/5b419ba0-c7e6-498a-a943-51ec92229362.webp"
+    },
+    "a7da3da9-91c8-49d4-8197-afe5531910c5": {
+      "code": "S9375",
+      "name": "Cadillac Formula 1 Team No.77 Australian GP 2026 \nValtteri Bottas\nWith pit board",
+      "photo_id": "9abd18e3-6231-4810-82fe-67603496ac61",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9abd18e3-6231-4810-82fe-67603496ac61.webp"
+    },
+    "a82d5e43-ca44-48af-9f45-f0c2d5b30db2": {
+      "code": "64S146",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 \nGeorge Russell\n(With figurine)",
+      "photo_id": "a2b24ca6-0953-4e0a-9b62-3aa4b03c96b8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a2b24ca6-0953-4e0a-9b62-3aa4b03c96b8.webp"
+    },
+    "a921e516-7ae4-4c7e-bac7-f30a2874003d": {
+      "code": "S9395",
+      "name": "Cadillac Formula 1 Team MAC-26 Barcelona Pre-Season Shakedown 2026\nSergio Perez",
+      "photo_id": "a565715e-76a9-4f6e-8424-dc5870cab7fc",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a565715e-76a9-4f6e-8424-dc5870cab7fc.webp"
+    },
+    "a9df2e91-2046-4bad-9eb9-171ff20a10a8": {
+      "code": "LS64032",
+      "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026\nLewis Hamilton",
+      "photo_id": "19337950-6917-4ee4-a433-5a0f76e57e56",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/19337950-6917-4ee4-a433-5a0f76e57e56.webp"
+    },
+    "a9f0059a-2b1e-400e-a54e-ffa41f6c8394": {
+      "code": "5HF274",
+      "name": "Cadillac Formula 1 Team - Valtteri Bottas - British GP 2026",
+      "photo_id": "f8133e1c-7e02-416b-b1a3-71073ded2741",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f8133e1c-7e02-416b-b1a3-71073ded2741.webp"
+    },
+    "aaa4f9e9-3e96-4698-ab6a-6dc63d594542": {
+      "code": "LSF1088",
+      "name": "Ferrari SF-26 No.16 Winner British GP 2026\nCharles Leclerc",
+      "photo_id": "743c3e81-ea0d-4beb-93db-4bfd62d0c9c8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/743c3e81-ea0d-4beb-93db-4bfd62d0c9c8.webp"
+    },
+    "ac4fdcf7-74d3-447b-8a89-a1d31d25bbda": {
+      "code": "LS64034",
+      "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026\nLewis Hamilton",
+      "photo_id": "5b32728c-901a-40e5-bcce-9b4dc6316ea5",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/5b32728c-901a-40e5-bcce-9b4dc6316ea5.webp"
+    },
+    "adac1f87-3707-4668-8aeb-9b1830836671": {
+      "code": "64S125",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
+      "photo_id": "57fda0da-1615-409c-813a-9d037ddc404f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/57fda0da-1615-409c-813a-9d037ddc404f.webp"
+    },
+    "b1158008-79d6-4e6f-9472-0e54ef41d7ac": {
+      "code": "LS1230",
+      "name": "Ferrari SF-26 No.16 Winner British GP 2026\nCharles Leclerc",
+      "photo_id": "996e1283-2c57-45b6-aa0a-1b0bc569dce4",
+      "primary_image_url": null
+    },
+    "b337f5cf-144a-41aa-8a5d-e76e926aba6c": {
+      "code": "64S129",
+      "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto",
+      "photo_id": "9014fe57-4dd9-48fb-89f7-e69b68cfc989",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9014fe57-4dd9-48fb-89f7-e69b68cfc989.webp"
+    },
+    "b5153089-7211-4d0d-bca9-5be9709ee95f": {
+      "code": "S9339",
+      "name": "Atlassian Williams F1 Team FW47 British GP 2026\nCarlos Sainz",
+      "photo_id": "cc5f45b8-f708-45ba-a7f2-f0233bc9a695",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/cc5f45b8-f708-45ba-a7f2-f0233bc9a695.webp"
+    },
+    "b58488b6-c6aa-499e-8995-9f765c5791ea": {
+      "code": "18S1261",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 Japanese GP 2026 \nLiam Lawson",
+      "photo_id": "ed5702f4-cc04-4af7-9946-e4ad09985dcd",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ed5702f4-cc04-4af7-9946-e4ad09985dcd.webp"
+    },
+    "b6c125ed-f352-4b60-903b-142b79ee94f1": {
+      "code": "5HF270",
+      "name": "Aston Martin Aramco Formula One Team - Lance Stroll - British GP 2026",
+      "photo_id": "b6ee394c-22d2-4a76-8716-3057b88317f0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b6ee394c-22d2-4a76-8716-3057b88317f0.webp"
+    },
+    "b973da1c-bacd-41bd-9374-353f8b3e74b9": {
+      "code": "S9366",
+      "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
+      "photo_id": "277885dc-9dd5-472b-a686-a1e0821b65b5",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/277885dc-9dd5-472b-a686-a1e0821b65b5.webp"
+    },
+    "bb3e2a7b-2d34-482c-952e-2ee3835020f3": {
+      "code": "S9347",
+      "name": "Aston Martin Aramco Formula One Team AMR26 No.14 Monaco GP 2026 \nFernando Alonso",
+      "photo_id": "26978622-6a58-4013-b6a0-b0108ab553c0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/26978622-6a58-4013-b6a0-b0108ab553c0.webp"
+    },
+    "c1d4e2e5-d99c-4cd2-8fbf-a577a92f3c4a": {
+      "code": "S9337",
+      "name": "McLaren Mastercard F1 Team MCL40 British GP 2026\nOscar Piastri",
+      "photo_id": "1face502-24fd-4076-8e44-32f8658aeec2",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1face502-24fd-4076-8e44-32f8658aeec2.webp"
+    },
+    "c1e4dd95-bb2b-4803-aa48-7c8fdf0f13bb": {
+      "code": "18S1257",
+      "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 \nEsteban Ocon",
+      "photo_id": "8cb1bbcc-e928-494f-ba23-05495f687b15",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8cb1bbcc-e928-494f-ba23-05495f687b15.webp"
+    },
+    "c1ee9a46-881d-4f48-8f2d-3c6cd319ae66": {
+      "code": "S9371",
+      "name": "Atlassian Williams F1 Team FW48 No.23 Japanese GP 2026 \nAlexander Albon",
+      "photo_id": "e0bb8223-0c08-4cad-838e-4af192580e8c",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e0bb8223-0c08-4cad-838e-4af192580e8c.webp"
+    },
+    "c2098e0e-681f-4267-a415-6082ac448091": {
+      "code": "64S141",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 \nKimi Antonelli",
+      "photo_id": "7d58f360-5961-4c68-ba18-176e50da91d2",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7d58f360-5961-4c68-ba18-176e50da91d2.webp"
+    },
+    "c84fc5e7-832b-443b-901f-b21b97b545f9": {
+      "code": "S9383",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 8th Australian GP 2026 \nArvid Lindblad\nWith pit board",
+      "photo_id": "c2e03bff-d0cf-49b5-80d1-c4b81299b98c",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c2e03bff-d0cf-49b5-80d1-c4b81299b98c.webp"
+    },
+    "c88492a2-d7cf-4a49-8bfe-4f1935fd5c56": {
+      "code": "S9399",
+      "name": "BWT Alpine Formula One Team A526 No.43 6th Canada GP 2026 \nFranco Colapinto",
+      "photo_id": "4ddbac66-bd09-44e0-9ef5-295c1919112e",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4ddbac66-bd09-44e0-9ef5-295c1919112e.webp"
+    },
+    "c98e13fe-c246-49c4-8bf7-5c42480a7c5a": {
+      "code": "64S126",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 Japanese GP 2026 \nLiam Lawson",
+      "photo_id": "d338bff9-2aee-4a7e-9e88-8c2407759f91",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d338bff9-2aee-4a7e-9e88-8c2407759f91.webp"
+    },
+    "cb21432d-5581-4950-a211-07645d18f3d1": {
+      "code": "64S145",
+      "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 \nIsack Hadjar",
+      "photo_id": "d63891be-d8b6-450b-9463-b2e60caad039",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d63891be-d8b6-450b-9463-b2e60caad039.webp"
+    },
+    "cbf5048e-20f1-4d67-8e5a-1ca219c1b82e": {
+      "code": "S9335",
+      "name": "Cadillac Formula 1 Team MA26 British GP 2026\nValterri Bottas",
+      "photo_id": "548cfaa5-8e11-4ff2-837f-11344066bce0",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/548cfaa5-8e11-4ff2-837f-11344066bce0.webp"
+    },
+    "cd11d3b7-c094-45e8-b0bd-87450512cecd": {
+      "code": "LSF1087",
+      "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+      "photo_id": "c63678ab-66a4-4bae-a4c0-94e1f08e010d",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c63678ab-66a4-4bae-a4c0-94e1f08e010d.webp"
+    },
+    "cda9a4d2-024d-4d6d-b484-320a24fdb723": {
+      "code": "18S1271",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 7th Chinese GP 2026 \nLiam Lawson",
+      "photo_id": "f9ae56ce-3aa3-4978-90b4-c5499151c4cd",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f9ae56ce-3aa3-4978-90b4-c5499151c4cd.webp"
+    },
+    "cdbdf344-53e1-4372-9efe-1c8e8966c689": {
+      "code": "18S1269",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 \nGeorge Russell",
+      "photo_id": "8e66803c-63de-4176-b850-f858e4012cef",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8e66803c-63de-4176-b850-f858e4012cef.webp"
+    },
+    "d223a057-0aef-45e2-8e80-8acc2ec1267c": {
+      "code": "LSF1082",
+      "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026\nCharles Leclerc",
+      "photo_id": "32fb828c-474b-4014-a9d6-60221cdac1b8",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/32fb828c-474b-4014-a9d6-60221cdac1b8.webp"
+    },
+    "d81922e3-e5bf-4d04-9bec-76a3d9ac3677": {
+      "code": "18S1262",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 Japanese GP 2026 \nArvid Lindblad",
+      "photo_id": "4f2d3faf-a2a6-4f0f-b4c7-3cd1f1327c2f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4f2d3faf-a2a6-4f0f-b4c7-3cd1f1327c2f.webp"
+    },
+    "da9655c3-8ccc-49b1-937a-d4e703cbce22": {
+      "code": "S9390",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 Japanese GP 2026 \nLiam Lawson",
+      "photo_id": "a1c9606f-9139-4c91-b1b8-d7882702591c",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a1c9606f-9139-4c91-b1b8-d7882702591c.webp"
+    },
+    "dc5ca703-cb72-4e7c-a069-623dfb34a9aa": {
+      "code": "18S1276",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
+      "photo_id": "1d6317ae-ee61-4efb-835f-71f47b87faa2",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1d6317ae-ee61-4efb-835f-71f47b87faa2.webp"
+    },
+    "dd08cc87-81bf-4cb1-8bbc-94ea27fce466": {
+      "code": "S9391",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 Japanese GP 2026 \nArvid Lindblad",
+      "photo_id": "bee1cf32-a1a4-42ee-8ad1-6ba9327c4c27",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/bee1cf32-a1a4-42ee-8ad1-6ba9327c4c27.webp"
+    },
+    "dd59f8e8-e8f5-431d-87fb-781a3ab7ce6a": {
+      "code": "S9382",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 7th Chinese GP 2026 \nLiam Lawson",
+      "photo_id": "8d775d7c-83b5-408c-8c8f-7f2e5e79d39f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8d775d7c-83b5-408c-8c8f-7f2e5e79d39f.webp"
+    },
+    "df38917a-7ed4-430e-9935-9abe45fd76d8": {
+      "code": "S9372",
+      "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
+      "photo_id": "428c4a69-946d-4090-9b8b-e5526ee9673f",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/428c4a69-946d-4090-9b8b-e5526ee9673f.webp"
+    },
+    "df5ff936-1617-4353-8a9a-2a34780013ed": {
+      "code": "LSF1085",
+      "name": "Ferrari SF-26 No.16 Canadian GP 2026\nCharles Leclerc",
+      "photo_id": "264aa7de-c9cb-4867-a27f-56a91fed8766",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/264aa7de-c9cb-4867-a27f-56a91fed8766.webp"
+    },
+    "e040343b-6a63-418f-aaa8-aab67fd9a99c": {
+      "code": "LS18F1087",
+      "name": "Ferrari SF-26 No.16 Winner British GP 2026\nCharles Leclerc",
+      "photo_id": "32a2fa45-497a-4289-8e13-96e6a0e18406",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/32a2fa45-497a-4289-8e13-96e6a0e18406.webp"
+    },
+    "e2ebf153-8f2f-4aa1-af54-e656f150e772": {
+      "code": "LSF1080",
+      "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026\nCharles Leclerc",
+      "photo_id": "05607cbe-08a3-4f67-a06e-8a37215a86a1",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/05607cbe-08a3-4f67-a06e-8a37215a86a1.webp"
+    },
+    "e68db069-b435-4611-8354-9fb006d72ac8": {
+      "code": "5HF267",
+      "name": "McLaren Mastercard F1 Team - Oscar Piastri - Austrian GP 2026",
+      "photo_id": "226c0136-aa27-4c38-a04f-2d8009cfb173",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/226c0136-aa27-4c38-a04f-2d8009cfb173.webp"
+    },
+    "f04cd0f4-a732-46a0-ac4e-e848d4243734": {
+      "code": "S9368",
+      "name": "Aston Martin Aramco Formula One Team AMR26 No.14 Japanese GP 2026 \nFernando Alonso",
+      "photo_id": "d21421b8-efa8-4eba-b5e7-cb65509fd879",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d21421b8-efa8-4eba-b5e7-cb65509fd879.webp"
+    },
+    "f20927fa-4740-4ba2-b94a-e68d493cfd84": {
+      "code": "LSHEL035",
+      "name": "Lewis Hamilton – Scuderia Ferrari HP Monaco GP 2026",
+      "photo_id": "ad22a0be-bb90-47e9-84d2-cf5978ce9fff",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ad22a0be-bb90-47e9-84d2-cf5978ce9fff.webp"
+    },
+    "f24e7825-32bd-4f68-ac7f-26972dcf2150": {
+      "code": "LS1228",
+      "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+      "photo_id": "c956f35d-4076-4a14-b8a3-a71cd772dda2",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c956f35d-4076-4a14-b8a3-a71cd772dda2.webp"
+    },
+    "f257433e-019d-44ad-a72f-8adc4ea1fe1f": {
+      "code": "S9379",
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri\nWith pit board",
+      "photo_id": "0d0e073e-638f-4e4e-b116-58b394371879",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0d0e073e-638f-4e4e-b116-58b394371879.webp"
+    },
+    "f94db35a-64d6-4c2d-a3b4-76581fabdf7e": {
+      "code": "S9408",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 Spanish GP 2026\nArvid Lindblad",
+      "photo_id": "35ca109e-71e7-4bd2-86e3-296e82c5b14a",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/35ca109e-71e7-4bd2-86e3-296e82c5b14a.webp"
+    },
+    "f998e179-00b9-42d2-845d-0d6ea1484f7b": {
+      "code": "S9381",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026\nKimi Antonelli\nBigger base plate & pit board",
+      "photo_id": "ef48e033-5db6-4022-a997-a9e63bb2510b",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ef48e033-5db6-4022-a997-a9e63bb2510b.webp"
+    },
+    "f9c0def5-24a2-4715-a992-00f6a5b9710b": {
+      "code": "5HF268",
+      "name": "Atlassian Williams F1 Team - Carlos Sainz - British GP 2026",
+      "photo_id": "65493749-5a69-40fa-a5e4-4b026a22a2fa",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/65493749-5a69-40fa-a5e4-4b026a22a2fa.webp"
+    },
+    "fb068e58-a6ab-4327-b7af-c676f7eefa52": {
+      "code": "LS64036",
+      "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026\nLewis Hamilton",
+      "photo_id": "02b30215-df48-44fa-a9c8-c1cd85ea981a",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/02b30215-df48-44fa-a9c8-c1cd85ea981a.webp"
+    },
+    "fc35c966-2bcf-40c4-910c-3fc29c4071c0": {
+      "code": "S9336",
+      "name": "McLaren Mastercard F1 Team MCL40 4th British GP 2026\nLando Norris",
+      "photo_id": "b33a2402-2f64-4021-addf-a6e3ada03d12",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b33a2402-2f64-4021-addf-a6e3ada03d12.webp"
+    },
+    "fd74ba6e-174b-4a94-b6c9-d348f8686dd7": {
+      "code": "S9389",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
+      "photo_id": "58f0d4b4-7543-4e08-8f62-830af0abf209",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/58f0d4b4-7543-4e08-8f62-830af0abf209.webp"
+    }
+  }
+}
