@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-07-25T10:02:21.847932+00:00",
+  "total": 3,
+  "items": {
+    "69c3b18c-ae0d-4a27-8ebb-b168986bac38": {
+      "code": "LS64031",
+      "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026\nCharles Leclerc",
+      "photo_id": "305cc69b-4353-48d6-ada8-a25a6ef5ff54",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/305cc69b-4353-48d6-ada8-a25a6ef5ff54.webp"
+    },
+    "7f2b128c-bdda-42ee-befe-08f41e132ca4": {
+      "code": "LS64033",
+      "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026\nCharles Leclerc",
+      "photo_id": "a57f3401-2be8-4f6a-964b-99569a9d0eb6",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a57f3401-2be8-4f6a-964b-99569a9d0eb6.webp"
+    },
+    "a9df2e91-2046-4bad-9eb9-171ff20a10a8": {
+      "code": "LS64032",
+      "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026\nLewis Hamilton",
+      "photo_id": "ede3351f-4215-4d24-8d8e-cf8f351ddc7b",
+      "primary_image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ede3351f-4215-4d24-8d8e-cf8f351ddc7b.webp"
+    }
+  }
+}
