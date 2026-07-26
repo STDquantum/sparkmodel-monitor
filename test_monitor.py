@@ -1,5 +1,6 @@
 import unittest
 
+from catalog import parse_detail
 from monitor import compare, parse_listing
 
 
@@ -28,6 +29,18 @@ class CompareTest(unittest.TestCase):
         items, total = parse_listing(html)
         self.assertEqual(total, 1)
         self.assertEqual(items, [{"product_id": "id-1", "name": "F1 car", "url": "https://example.test/item", "image_url": "https://example.test/cover.webp"}])
+
+    def test_detail_parser(self):
+        html = '''<h1 class="product-detail-name">F1 Car</h1><meta itemprop="price" content="19.95">
+        <div class="product-detail-properties"><th>Scale</th><td>1/43</td></div>
+        <div class="product-detail-description-text">A <strong>fast</strong> car</div>
+        <img class="gallery-slider-image" data-full-image="https://example.test/a.webp">'''
+        fields, properties, images = parse_detail(html)
+        self.assertEqual(fields["name"], "F1 Car")
+        self.assertEqual(fields["price"], "19.95")
+        self.assertEqual(fields["description"], "A fast car")
+        self.assertEqual(properties, {"Scale": "1/43"})
+        self.assertEqual(images, ["https://example.test/a.webp"])
 
 
 if __name__ == "__main__":

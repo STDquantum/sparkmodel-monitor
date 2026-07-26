@@ -187,14 +187,15 @@ def main():
         send_dingtalk(build_message(len(current), [], [], [], initial=True))
         save_state(current)
         print(f"Initialized with {len(current)} products")
-        return
+        return True
     added, changed, removed = compare(previous, current)
     if not any((added, changed, removed)):
         print(f"No change ({len(current)} products)")
-        return
+        return False
     send_dingtalk(build_message(len(current), added, changed, removed))
     save_state(current)
     print(f"Changed: +{len(added)} cover={len(changed)} -{len(removed)}")
+    return True
 
 
 if __name__ == "__main__":

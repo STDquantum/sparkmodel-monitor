@@ -13,6 +13,12 @@
 
 定时表达式为每小时第 17 分钟执行。GitHub 的定时任务可能有几分钟延迟，并非严格整点。
 
+## GitHub Pages
+
+列表变化后，工作流会抓取每个商品详情及全部原图，生成并提交 `docs/index.html`、`docs/catalog.json` 与 `docs/images/`。在仓库 `Settings` → `Pages` 中选择 `Deploy from a branch`，设置为默认分支的 `/docs` 目录即可发布静态网页。首次手动运行监控也会生成该目录。
+
+若需本地重新生成静态目录，运行 `python catalog.py`。该脚本会覆盖同名图片并更新 `catalog.json`。
+
 ## 本地检查
 
 PowerShell：

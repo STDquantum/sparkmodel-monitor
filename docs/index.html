@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spark Model Shop · Formula 1</title>
+<style>
+  :root { color-scheme: dark; font-family: system-ui, sans-serif; background:#101217; color:#f5f7fa; }
+  body { margin:0; } header { padding:2rem max(1rem,calc((100% - 1280px)/2)); background:#171b23; position:sticky;top:0;z-index:1; }
+  h1 { margin:0 0 .4rem; } p { color:#b9c2d0; } input { width:min(100%,500px);padding:.8rem;border-radius:.5rem;border:1px solid #526074;background:#101217;color:#fff;font-size:1rem; }
+  main { max-width:1280px;margin:auto;padding:1.25rem; } #count { font-size:.9rem; } #grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem; }
+  article { background:#1a1f28;border:1px solid #29313d;border-radius:.75rem;overflow:hidden; } article img { width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;cursor:zoom-in; }
+  .text { padding:1rem; } h2 { font-size:1rem;margin:0 0 .6rem;line-height:1.4; } dl { margin:0;display:grid;grid-template-columns:auto 1fr;gap:.25rem .6rem;font-size:.85rem; } dt { color:#9da9ba; } dd { margin:0; }
+  details { margin-top:.8rem;font-size:.85rem; } summary { cursor:pointer;color:#85b9ff; } a { color:#85b9ff; } #modal { position:fixed;inset:0;background:#000c;display:none;place-items:center;padding:2rem;z-index:2; } #modal.open { display:grid; } #modal img { max-width:100%;max-height:100%; }
+</style>
+<header><h1>Spark Model Shop · Formula 1</h1><p id="updated">正在载入商品目录…</p><input id="search" placeholder="搜索商品、型号、年份、车手…" autofocus></header>
+<main><p id="count"></p><section id="grid"></section></main><div id="modal"><img alt="商品大图"></div>
+<script>
+const grid = document.querySelector('#grid'), search = document.querySelector('#search'), modal = document.querySelector('#modal'); let products=[];
+const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function render() { const q=search.value.toLowerCase(); const shown=products.filter(p=>JSON.stringify(p).toLowerCase().includes(q)); document.querySelector('#count').textContent=`显示 ${shown.length} / ${products.length} 件商品`;
+  grid.innerHTML=shown.map(p=>`<article><img src="${esc(p.images[0]||'')}" alt="${esc(p.name)}" data-full="${esc(p.images[0]||'')}"><div class="text"><h2><a href="${esc(p.url)}" target="_blank" rel="noreferrer">${esc(p.name)}</a></h2><dl>${Object.entries({...p.properties,'Price':p.price&&p.currency?`${p.currency} ${p.price}`:'','GTIN/EAN':p.gtin,'Availability':p.availability,'Weight':p.weight,'Length':p.length}).filter(([,v])=>v).map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl><details><summary>详情与全部图片（${p.images.length}）</summary><p>${esc(p.description)}</p>${p.images.slice(1).map(src=>`<p><img src="${esc(src)}" alt="${esc(p.name)}" data-full="${esc(src)}"></p>`).join('')}</details></div></article>`).join(''); }
+grid.addEventListener('click',e=>{const src=e.target.dataset.full;if(src){modal.querySelector('img').src=src;modal.classList.add('open')}}); modal.addEventListener('click',()=>modal.classList.remove('open')); search.addEventListener('input',render);
+fetch('catalog.json').then(r=>r.json()).then(data=>{products=data.products;document.querySelector('#updated').textContent=`更新于 ${new Date(data.generated_at).toLocaleString()} · 本站图片均为本地副本`;render()}).catch(()=>document.querySelector('#updated').textContent='无法载入 catalog.json');
+</script>
+</html>
