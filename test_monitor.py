@@ -1,7 +1,7 @@
 import unittest
 
 from catalog import parse_detail
-from monitor import compare, parse_listing
+from monitor import TEAM_SEARCHES, compare, ferrari_match, parse_listing
 
 
 class CompareTest(unittest.TestCase):
@@ -29,6 +29,12 @@ class CompareTest(unittest.TestCase):
         items, total = parse_listing(html)
         self.assertEqual(total, 1)
         self.assertEqual(items, [{"product_id": "id-1", "name": "F1 car", "url": "https://example.test/item", "image_url": "https://example.test/cover.webp"}])
+
+    def test_team_sources_and_ferrari_filter(self):
+        self.assertEqual(len(TEAM_SEARCHES), 11)
+        self.assertTrue(ferrari_match("Scuderia Ferrari HP SF-26 No.16"))
+        self.assertTrue(ferrari_match("Ferrari SF-26 No.44"))
+        self.assertFalse(ferrari_match("Ferrari 499P"))
 
     def test_detail_parser(self):
         html = '''<h1 class="product-detail-name">F1 Car</h1><meta itemprop="price" content="19.95">

@@ -11,12 +11,35 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urlparse, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
-LISTING_URL = (
-    "https://www.sparkmodelshop.com/de/en/models/formula/formula-1/"
-    "?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=release-date-desc"
+SEARCH_URL = "https://www.sparkmodelshop.com/de/en/search"
+SEARCH_PROPERTY = "881036a7528b682be67aa6e2c171e1de"
+TEAM_SEARCHES = (
+    "BWT Alpine Formula One Team",
+    "Aston Martin Aramco Formula One Team",
+    "Audi Revolut F1 Team",
+    "Cadillac Formula 1 Team",
+    "Ferrari",
+    "Haas F1 Team",
+    "McLaren Mastercard F1 Team",
+    "Mercedes-AMG PETRONAS",
+    "Visa Cash App Racing Bulls",
+    "Oracle Red Bull Racing",
+    "Atlassian Williams",
 )
 STATE_FILE = Path(__file__).with_name("state.json")
 USER_AGENT = "sparkmodel-shop-change-monitor/1.0 (+GitHub Actions)"
+
+
+def search_url(search):
+    return f"{SEARCH_URL}?{urlencode({'properties': SEARCH_PROPERTY, 'p': 1, 'order': 'score', 'search': search})}"
+
+
+SOURCE_URLS = tuple(search_url(search) for search in TEAM_SEARCHES)
+
+
+def ferrari_match(name):
+    name = name.lower()
+    return "sf-26" in name or "scuderia ferrari hp" in name
 
 
 def request(url, payload=None):
@@ -86,31 +109,40 @@ def parse_listing(html):
     return parser.items, int(total_match.group(1))
 
 
-def page_url(page):
-    parts = urlsplit(LISTING_URL)
+def page_url(url, page):
+    parts = urlsplit(url)
     query = [(key, str(page) if key == "p" else value) for key, value in parse_qsl(parts.query)]
     return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
-def fetch_all():
+def fetch_search(search):
     products = {}
     total = None
-    page = 1
-    while page <= 1000:
-        rows, page_total = parse_listing(request(page_url(page)))
-        total = max(total or 0, page_total)
+    seen = 0
+    for page in range(1, 1001):
+        rows, page_total = parse_listing(request(page_url(search_url(search), page)))
+        if total is None:
+            total = page_total
+        elif total != page_total:
+            raise RuntimeError(f"Product total changed while fetching {search}")
+        seen += len(rows)
         for row in rows:
             product_id = row.pop("product_id")
-            products[product_id] = row
-        if len(products) >= total:
-            break
+            if search != "Ferrari" or ferrari_match(row["name"]):
+                products[product_id] = row
+        if seen >= total:
+            if seen != total:
+                raise RuntimeError(f"Incomplete crawl for {search}: expected {total}, got {seen}")
+            return products
         if not rows:
-            raise RuntimeError("Empty page before the listing was complete")
-        page += 1
-    else:
-        raise RuntimeError("Pagination exceeded 1000 pages")
-    if len(products) != total:
-        raise RuntimeError(f"Incomplete crawl: expected {total}, got {len(products)}")
+            raise RuntimeError(f"Empty page before {search} was complete")
+    raise RuntimeError(f"Pagination exceeded 1000 pages for {search}")
+
+
+def fetch_all():
+    products = {}
+    for search in TEAM_SEARCHES:
+        products.update(fetch_search(search))
     return products
 
 
@@ -119,7 +151,7 @@ def load_state():
         return None
     with STATE_FILE.open(encoding="utf-8") as file:
         state = json.load(file)
-    return state.get("items") if state.get("source") == LISTING_URL else None
+    return state.get("items") if state.get("sources") == list(SOURCE_URLS) else None
 
 
 def compare(old, new):
@@ -172,7 +204,7 @@ def send_dingtalk(markdown):
 
 def save_state(items):
     state = {
-        "source": LISTING_URL,
+        "sources": list(SOURCE_URLS),
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(items),
         "items": dict(sorted(items.items())),

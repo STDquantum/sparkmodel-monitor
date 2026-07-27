@@ -1,6 +1,6 @@
 # Spark Model Shop Formula 1 变化监控
 
-每小时抓取 [Spark Model Shop Formula 1](https://www.sparkmodelshop.com/de/en/models/formula/formula-1/?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=release-date-desc) 的全部分页，监控商品新增、下架和封面变化。发现变化后发送钉钉通知，并重新生成可部署到 GitHub Pages 的静态商品目录。
+每小时抓取 Spark Model Shop 的 11 个车队搜索结果的全部分页，监控商品新增、下架和封面变化。发现变化后发送钉钉通知，并重新生成可部署到 GitHub Pages 的静态商品目录。Ferrari 搜索结果仅保留标题含 `SF-26` 或 `Scuderia Ferrari HP` 的商品。
 
 项目仅使用 Python 标准库，不需要安装额外依赖。
 
