@@ -101,8 +101,12 @@ class ListingParser(HTMLParser):
 
 
 def parse_listing(html):
-    total_match = re.search(r"Showing\s+\d+\s+out\s+of\s+(\d+)\s+products", html)
-    if not total_match:
+    total_match = next((re.search(pattern, html, re.I) for pattern in (
+        r"Showing\s+\d+\s+out\s+of\s+(\d+)\s+products",
+        r"(\d+)\s+products\s+found\s+for",
+        r"Showing\s+(\d+)\s+products",
+    ) if re.search(pattern, html, re.I)), None)
+    if total_match is None:
         raise RuntimeError("Unable to read product total from listing")
     parser = ListingParser()
     parser.feed(html)

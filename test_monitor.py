@@ -30,6 +30,15 @@ class CompareTest(unittest.TestCase):
         self.assertEqual(total, 1)
         self.assertEqual(items, [{"product_id": "id-1", "name": "F1 car", "url": "https://example.test/item", "image_url": "https://example.test/cover.webp"}])
 
+    def test_search_listing_total(self):
+        html = '''<h1>7 products found for &quot;BWT Alpine Formula One Team&quot;</h1>
+        <div class="product-box" data-product-information="{&quot;id&quot;:&quot;id-1&quot;}">
+        <a class="product-name" href="https://example.test/item" title="F1 car"></a>
+        <img class="product-image" src="https://example.test/cover.webp"></div>'''
+        items, total = parse_listing(html)
+        self.assertEqual(total, 7)
+        self.assertEqual(len(items), 1)
+
     def test_team_sources_and_ferrari_filter(self):
         self.assertEqual(len(TEAM_SEARCHES), 11)
         self.assertTrue(ferrari_match("Scuderia Ferrari HP SF-26 No.16"))
