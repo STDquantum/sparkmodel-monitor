@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T19:14:34.446546+00:00",
+  "generated_at": "2026-07-28T06:56:36.425329+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -632,29 +632,6 @@
       "availability": "PreOrder"
     },
     {
-      "id": "12ff8f07c89a4c02b9c2bdb562349194",
-      "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026 Valtteri Bottas",
-      "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-mac-26-no.77-australian-gp-2026-valtteri-bottas/18s1256-de",
-      "images": [
-        "images/12ff8f07c89a4c02b9c2bdb562349194-1.webp"
-      ],
-      "properties": {
-        "Material": "Resin",
-        "Scale": "1/18",
-        "Year": "2026",
-        "Manufacturer": "Spark",
-        "Product number": "18S1256"
-      },
-      "description": "GTIN/EAN: 9581677812567",
-      "brand": "Spark",
-      "price": "220",
-      "currency": "EUR",
-      "gtin": "9581677812567",
-      "weight": "2 kg",
-      "length": "250 mm",
-      "availability": "PreOrder"
-    },
-    {
       "id": "1fcc8158309b476fbb57750407e9211c",
       "name": "Cadillac Formula 1 Team - Valtteri Bottas - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-valtteri-bottas-2026/5hf253-de",
@@ -698,29 +675,6 @@
       "gtin": "9580006192592",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
-    },
-    {
-      "id": "3865d2c7506c422ca5709a66d76f1058",
-      "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026 Valtteri Bottas",
-      "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-mac-26-no.77-australian-gp-2026-valtteri-bottas/64s121-de",
-      "images": [
-        "images/3865d2c7506c422ca5709a66d76f1058-1.webp"
-      ],
-      "properties": {
-        "Material": "Diecast",
-        "Scale": "1/64",
-        "Year": "2026",
-        "Manufacturer": "Spark",
-        "Product number": "64S121"
-      },
-      "description": "GTIN/EAN: 9580006361219",
-      "brand": "Spark",
-      "price": "19.95",
-      "currency": "EUR",
-      "gtin": "9580006361219",
-      "weight": "0.06 kg",
-      "length": "70 mm",
       "availability": "PreOrder"
     },
     {
@@ -859,6 +813,52 @@
       "gtin": "9580006993359",
       "weight": "0.18 kg",
       "length": "100 mm",
+      "availability": "PreOrder"
+    },
+    {
+      "id": "12ff8f07c89a4c02b9c2bdb562349194",
+      "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026 Valtteri Bottas",
+      "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-mac-26-no.77-australian-gp-2026-valtteri-bottas/18s1256-de",
+      "images": [
+        "images/12ff8f07c89a4c02b9c2bdb562349194-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "18S1256"
+      },
+      "description": "GTIN/EAN: 9581677812567",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677812567",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "PreOrder"
+    },
+    {
+      "id": "3865d2c7506c422ca5709a66d76f1058",
+      "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026 Valtteri Bottas",
+      "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-mac-26-no.77-australian-gp-2026-valtteri-bottas/64s121-de",
+      "images": [
+        "images/3865d2c7506c422ca5709a66d76f1058-1.webp"
+      ],
+      "properties": {
+        "Material": "Diecast",
+        "Scale": "1/64",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "64S121"
+      },
+      "description": "GTIN/EAN: 9580006361219",
+      "brand": "Spark",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "9580006361219",
+      "weight": "0.06 kg",
+      "length": "70 mm",
       "availability": "PreOrder"
     },
     {
@@ -1591,7 +1591,9 @@
       "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026 Lewis Hamilton",
       "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/ls18f1081-de",
       "images": [
-        "images/2199b8c049e44c3cb05b5b709c0cc8ea-1.webp"
+        "images/2199b8c049e44c3cb05b5b709c0cc8ea-1.webp",
+        "images/2199b8c049e44c3cb05b5b709c0cc8ea-2.webp",
+        "images/2199b8c049e44c3cb05b5b709c0cc8ea-3.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -1614,7 +1616,9 @@
       "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/ls18f1080-de",
       "images": [
-        "images/289dd984c1f2482b9b5414eb43da5a80-1.webp"
+        "images/289dd984c1f2482b9b5414eb43da5a80-1.webp",
+        "images/289dd984c1f2482b9b5414eb43da5a80-2.webp",
+        "images/289dd984c1f2482b9b5414eb43da5a80-3.webp"
       ],
       "properties": {
         "Material": "Resin",
