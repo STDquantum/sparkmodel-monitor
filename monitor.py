@@ -20,13 +20,14 @@ TEAM_SEARCHES = (
     "Cadillac Formula 1 Team",
     "Ferrari",
     "Haas F1 Team",
-    "McLaren Mastercard F1 Team",
+    "McLaren Mastercard",
     "Mercedes-AMG PETRONAS",
     "Visa Cash App Racing Bulls",
     "Oracle Red Bull Racing",
     "Atlassian Williams",
 )
 STATE_FILE = Path(__file__).with_name("state.json")
+CATALOG_FILE = Path(__file__).with_name("docs") / "catalog.json"
 USER_AGENT = "sparkmodel-shop-change-monitor/1.0 (+GitHub Actions)"
 
 
@@ -170,9 +171,40 @@ def compare(old, new):
     return added, changed, removed
 
 
+def catalog_metadata():
+    if not CATALOG_FILE.exists():
+        return {}
+    with CATALOG_FILE.open(encoding="utf-8") as file:
+        products = json.load(file).get("products", [])
+    return {
+        product["id"]: {
+            "product_number": product.get("properties", {}).get("Product number", ""),
+            "scale": product.get("properties", {}).get("Scale", ""),
+        }
+        for product in products
+    }
+
+
+def with_metadata(items, metadata, fetch_missing=False):
+    result = []
+    for item in items:
+        details = metadata.get(item["product_id"])
+        if details is None and fetch_missing:
+            from catalog import parse_detail
+            _, properties, _ = parse_detail(request(item["url"]))
+            details = {
+                "product_number": properties.get("Product number", ""),
+                "scale": properties.get("Scale", ""),
+            }
+        result.append(item | (details or {}))
+    return result
+
+
 def line(item):
     name = " ".join(item["name"].split()).replace("[", "\\[").replace("]", "\\]")
-    return f"- [{name}]({item['url']})"
+    number = item.get("product_number") or "未获取"
+    scale = item.get("scale") or "未获取"
+    return f"- [{name}]({item['url']})（货号：{number}；比例：{scale}）"
 
 
 def build_message(total, added, changed, removed, initial=False):
@@ -233,6 +265,10 @@ def main():
     if not any((added, changed, removed)):
         print(f"No change ({len(current)} products)")
         return False
+    metadata = catalog_metadata()
+    added = with_metadata(added, metadata, fetch_missing=True)
+    changed = with_metadata(changed, metadata, fetch_missing=True)
+    removed = with_metadata(removed, metadata)
     send_dingtalk(build_message(len(current), added, changed, removed))
     save_state(
         current,

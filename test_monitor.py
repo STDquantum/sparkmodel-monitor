@@ -4,7 +4,7 @@ from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from catalog import parse_detail, refresh_ids, remove_images, remove_unused_images
-from monitor import TEAM_SEARCHES, compare, ferrari_match, parse_listing
+from monitor import TEAM_SEARCHES, build_message, compare, ferrari_match, parse_listing
 
 
 class CompareTest(unittest.TestCase):
@@ -23,6 +23,15 @@ class CompareTest(unittest.TestCase):
         self.assertEqual([x["product_id"] for x in added], ["added"])
         self.assertEqual([x["product_id"] for x in changed], ["changed"])
         self.assertEqual([x["product_id"] for x in removed], ["removed"])
+
+    def test_change_message_includes_product_number_and_scale(self):
+        message = build_message(1, [{
+            "name": "F1 Car",
+            "url": "https://example.test/item",
+            "product_number": "S9367",
+            "scale": "1/43",
+        }], [], [])
+        self.assertIn("货号：S9367；比例：1/43", message)
 
     def test_listing_parser(self):
         html = '''<div data-aria-live-text="Showing 1 out of 1 products.">
