@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T07:03:58.128891+00:00",
+  "generated_at": "2026-07-28T07:13:23.232250+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -4173,6 +4173,56 @@
       "price": "89",
       "currency": "EUR",
       "gtin": "9580006993717",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "PreOrder"
+    },
+    {
+      "id": "5a9f2f0654f24592b72e17df5be930dc",
+      "name": "McLaren Mastercard Formula 1 Team MCL40 Barcelona Pre-Season Shakedown 2026 Lando Norris",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-formula-1-team-mcl40-barcelona-pre-season-shakedown-2026-lando-norris/s9392-de",
+      "images": [
+        "images/5a9f2f0654f24592b72e17df5be930dc-1.webp",
+        "images/5a9f2f0654f24592b72e17df5be930dc-2.webp",
+        "images/5a9f2f0654f24592b72e17df5be930dc-3.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9392"
+      },
+      "description": "GTIN/EAN: 9580006993922",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993922",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "PreOrder"
+    },
+    {
+      "id": "96e258af4b4f448eba51b5a28f118421",
+      "name": "McLaren Mastercard Formula 1 Team MCL40 Barcelona Pre-Season Shakedown 2026 Oscar Piastri",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-formula-1-team-mcl40-barcelona-pre-season-shakedown-2026-oscar-piastri/s9393-de",
+      "images": [
+        "images/96e258af4b4f448eba51b5a28f118421-1.webp",
+        "images/96e258af4b4f448eba51b5a28f118421-2.webp",
+        "images/96e258af4b4f448eba51b5a28f118421-3.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9393"
+      },
+      "description": "GTIN/EAN: 9580006993939",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993939",
       "weight": "0.18 kg",
       "length": "100 mm",
       "availability": "PreOrder"
