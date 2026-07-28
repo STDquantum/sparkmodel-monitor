@@ -206,12 +206,17 @@ def send_dingtalk(markdown):
         raise RuntimeError(f"DingTalk rejected message: {result}")
 
 
-def save_state(items):
+def save_state(items, added=(), changed=(), removed=()):
     state = {
         "sources": list(SOURCE_URLS),
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(items),
         "items": dict(sorted(items.items())),
+        "changes": {
+            "added": sorted(added),
+            "changed": sorted(changed),
+            "removed": sorted(removed),
+        },
     }
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -221,7 +226,7 @@ def main():
     previous = load_state()
     if previous is None:
         send_dingtalk(build_message(len(current), [], [], [], initial=True))
-        save_state(current)
+        save_state(current, added=current)
         print(f"Initialized with {len(current)} products")
         return True
     added, changed, removed = compare(previous, current)
@@ -229,7 +234,12 @@ def main():
         print(f"No change ({len(current)} products)")
         return False
     send_dingtalk(build_message(len(current), added, changed, removed))
-    save_state(current)
+    save_state(
+        current,
+        added=(item["product_id"] for item in added),
+        changed=(item["product_id"] for item in changed),
+        removed=(item["product_id"] for item in removed),
+    )
     print(f"Changed: +{len(added)} cover={len(changed)} -{len(removed)}")
     return True
 

@@ -13,6 +13,7 @@ import monitor
 
 DOCS = Path(__file__).with_name("docs")
 IMAGES = DOCS / "images"
+CATALOG_FILE = DOCS / "catalog.json"
 
 
 class DetailParser(HTMLParser):
@@ -106,31 +107,78 @@ def download_image(url, product_id, index):
     return relative.as_posix()
 
 
+def load_catalog():
+    if not CATALOG_FILE.exists():
+        return []
+    with CATALOG_FILE.open(encoding="utf-8") as file:
+        return json.load(file).get("products", [])
+
+
+def load_snapshot():
+    with monitor.STATE_FILE.open(encoding="utf-8") as file:
+        state = json.load(file)
+    if state.get("sources") != list(monitor.SOURCE_URLS):
+        raise RuntimeError("State sources do not match the current monitor configuration")
+    return state
+
+
+def remove_images(product_id, keep=()):
+    keep = set(keep)
+    for image in IMAGES.glob(f"{product_id}-*"):
+        if image.name not in keep:
+            image.unlink()
+
+
+def remove_unused_images(products):
+    used = {Path(image).name for product in products for image in product.get("images", ())}
+    if IMAGES.exists():
+        for image in IMAGES.iterdir():
+            if image.is_file() and image.name not in used:
+                image.unlink()
+
+
+def refresh_ids(items, products, changes):
+    changed = set(changes.get("added", ())) | set(changes.get("changed", ()))
+    return sorted((changed | (set(items) - set(products))) & set(items))
+
+
+def build_product(product_id, listing):
+    fields, properties, images = parse_detail(monitor.request(listing["url"]))
+    local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
+    remove_images(product_id, (Path(image).name for image in local_images))
+    return {
+        "id": product_id,
+        "name": fields.get("name") or listing["name"],
+        "url": listing["url"],
+        "images": local_images,
+        "properties": properties,
+        "description": fields.get("description", ""),
+        "brand": properties.get("Manufacturer", "Spark"),
+        "price": fields.get("price", ""),
+        "currency": fields.get("priceCurrency", "EUR"),
+        "gtin": fields.get("gtin13", ""),
+        "weight": fields.get("weight", ""),
+        "length": fields.get("length", ""),
+        "availability": fields.get("availability", ""),
+    }
+
+
 def build_catalog():
     DOCS.mkdir(exist_ok=True)
-    products = []
-    for number, (product_id, listing) in enumerate(monitor.fetch_all().items(), start=1):
-        fields, properties, images = parse_detail(monitor.request(listing["url"]))
-        local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
-        products.append({
-            "id": product_id,
-            "name": fields.get("name") or listing["name"],
-            "url": listing["url"],
-            "images": local_images,
-            "properties": properties,
-            "description": fields.get("description", ""),
-            "brand": properties.get("Manufacturer", "Spark"),
-            "price": fields.get("price", ""),
-            "currency": fields.get("priceCurrency", "EUR"),
-            "gtin": fields.get("gtin13", ""),
-            "weight": fields.get("weight", ""),
-            "length": fields.get("length", ""),
-            "availability": fields.get("availability", ""),
-        })
-        print(f"[{number}] {products[-1]['name']} ({len(local_images)} image(s))")
-    catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": products}
-    (DOCS / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Built {len(products)} products in {DOCS}")
+    state = load_snapshot()
+    items = state["items"]
+    products = {product["id"]: product for product in load_catalog()}
+    removed = set(state.get("changes", {}).get("removed", ())) | (set(products) - set(items))
+    for product_id in removed:
+        products.pop(product_id, None)
+        remove_images(product_id)
+    for number, product_id in enumerate(refresh_ids(items, products, state.get("changes", {})), start=1):
+        products[product_id] = build_product(product_id, items[product_id])
+        print(f"[{number}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))")
+    catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": list(products.values())}
+    CATALOG_FILE.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    remove_unused_images(catalog["products"])
+    print(f"Updated {len(products)} products in {DOCS}")
 
 
 if __name__ == "__main__":

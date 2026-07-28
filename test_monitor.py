@@ -1,6 +1,9 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
-from catalog import parse_detail
+from catalog import parse_detail, refresh_ids, remove_images, remove_unused_images
 from monitor import TEAM_SEARCHES, compare, ferrari_match, parse_listing
 
 
@@ -56,6 +59,32 @@ class CompareTest(unittest.TestCase):
         self.assertEqual(fields["description"], "A fast car")
         self.assertEqual(properties, {"Scale": "1/43"})
         self.assertEqual(images, ["https://example.test/a.webp"])
+
+    def test_catalog_refreshes_only_changed_and_missing_products(self):
+        items = {"kept": {}, "changed": {}, "added": {}, "missing": {}}
+        products = {"kept": {}, "changed": {}, "obsolete": {}}
+        changes = {"added": ["added"], "changed": ["changed"], "removed": ["obsolete"]}
+        self.assertEqual(refresh_ids(items, products, changes), ["added", "changed", "missing"])
+
+    def test_remove_images_keeps_current_files(self):
+        with TemporaryDirectory() as directory:
+            images = Path(directory)
+            (images / "item-1.webp").touch()
+            (images / "item-2.webp").touch()
+            with patch("catalog.IMAGES", images):
+                remove_images("item", {"item-1.webp"})
+            self.assertTrue((images / "item-1.webp").exists())
+            self.assertFalse((images / "item-2.webp").exists())
+
+    def test_remove_unused_images(self):
+        with TemporaryDirectory() as directory:
+            images = Path(directory)
+            (images / "used.webp").touch()
+            (images / "orphan.webp").touch()
+            with patch("catalog.IMAGES", images):
+                remove_unused_images([{"images": ["images/used.webp"]}])
+            self.assertTrue((images / "used.webp").exists())
+            self.assertFalse((images / "orphan.webp").exists())
 
 
 if __name__ == "__main__":
