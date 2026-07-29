@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-07-29T06:21:45.981096+00:00",
+  "updated_at": "2026-07-29T09:20:13.385410+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -83,7 +83,7 @@
     "18f048712c464b8eb5b113d520fd9968": {
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell/18s1259-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4a/9c/4c/1784555308/b63182cebcf64d1eb996dffab1cd1c17.webp?ts=1784555308"
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2e/7a/13/1785308731/8c011bb2bbd44b45ab12c6de838393e1.webp?ts=1785308731"
     },
     "1ab08466f6ef417fa3120d998d51dcc5": {
       "name": "Atlassian Williams F1 Team FW47 British GP 2026 Alex Albon",
@@ -383,7 +383,7 @@
     "6404bb23835d4d94b9c40a2072d55b89": {
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli/18s1260-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/94/0a/64/1784555314/c4da54ee0ca44474a42a868adc7fb263.webp?ts=1784555314"
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a0/b1/ab/1785307794/0fbf78d5cef04b209cd8bceaac7bc446.webp?ts=1785307794"
     },
     "652cb9c98fa946c28d1568934c1241ff": {
       "name": "Lewis Hamilton – Scuderia Ferrari HP 2026 Season",
@@ -904,8 +904,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "144c41bf1f4b4a63a85ed2ffb6cf5e3b",
-      "71b808857ec74401ad7376ead8a55cd0"
+      "18f048712c464b8eb5b113d520fd9968",
+      "6404bb23835d4d94b9c40a2072d55b89"
     ],
     "removed": []
   }
