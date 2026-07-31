@@ -12,13 +12,13 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-07-29T09:20:13.385410+00:00",
+  "updated_at": "2026-07-31T10:17:54.876733+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.63-winner-australian-gp-2026-george-russell/64s140-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/a8/31/1784560996/21bba31c6a5449958a3f1992b2201c17.webp?ts=1784560996"
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/63/aa/28/1785489649/6cda582ff5d64dfb9150ba2559b60273.webp?ts=1785489649"
     },
     "0bada5460dfc4218ab8453fdf943d662": {
       "name": "Audi Revolut F1 Team - Gabriel Bortoleto - 2026",
@@ -78,7 +78,7 @@
     "174dd280d9874ae29da7ec297f664ca8": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 Kimi Antonelli",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-chinese-gp-2026-kimi-antonelli/64s141-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6a/d2/7a/1784561000/7d58f36059614c68ba18176e50da91d2.webp?ts=1784561000"
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3e/fe/6b/1785489664/7d77764c2f3441cdbc4ae3dea01934e9.webp?ts=1785489683"
     },
     "18f048712c464b8eb5b113d520fd9968": {
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell",
@@ -904,8 +904,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "18f048712c464b8eb5b113d520fd9968",
-      "6404bb23835d4d94b9c40a2072d55b89"
+      "09b3936a85cb48e6acc8d2d7df8de945",
+      "174dd280d9874ae29da7ec297f664ca8"
     ],
     "removed": []
   }
