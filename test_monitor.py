@@ -4,7 +4,7 @@ from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from catalog import parse_detail, refresh_ids, remove_images, remove_unused_images
-from monitor import TEAM_SEARCHES, build_message, compare, ferrari_match, parse_listing
+from monitor import TEAM_SEARCHES, availability_label, build_message, compare, ferrari_match, parse_listing
 
 
 class CompareTest(unittest.TestCase):
@@ -48,6 +48,12 @@ class CompareTest(unittest.TestCase):
         self.assertEqual(changed[0]["changes"]["availability"], ("In stock", "Pre-order available"))
         message = build_message(1, [], changed, [])
         self.assertIn("Availability：In stock → Pre-order available", message)
+        self.assertIn("封面变化 **0**，Availability 变化 **1**", message)
+
+    def test_availability_labels(self):
+        self.assertEqual(availability_label("Available immediately"), "Available")
+        self.assertEqual(availability_label("Not available – pre-orders possible"), "Pre-order")
+        self.assertEqual(availability_label("Limited stock"), "Limited stock")
 
     def test_listing_parser(self):
         html = '''<div data-aria-live-text="Showing 1 out of 1 products.">

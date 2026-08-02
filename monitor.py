@@ -43,6 +43,13 @@ def ferrari_match(name):
     return "sf-26" in name or "scuderia ferrari hp" in name
 
 
+def availability_label(value):
+    return {
+        "Available immediately": "Available",
+        "Not available – pre-orders possible": "Pre-order",
+    }.get(value, value)
+
+
 def request(url, payload=None):
     data = json.dumps(payload, ensure_ascii=False).encode() if payload is not None else None
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json" if data else "text/html"}
@@ -234,7 +241,7 @@ def changed_line(item):
         labels.append("封面图片已更新")
     if "availability" in item["changes"]:
         old, new = item["changes"]["availability"]
-        labels.append(f"Availability：{old or '—'} → {new or '—'}")
+        labels.append(f"Availability：{availability_label(old) or '—'} → {availability_label(new) or '—'}")
     return f"{line(item)}（{'；'.join(labels)}）"
 
 
@@ -242,9 +249,11 @@ def build_message(total, added, changed, removed, initial=False):
     keyword = os.getenv("DINGTALK_KEYWORD") or "成绩"
     if initial:
         return f"### {keyword} Spark Model Shop 监控已启动\n\n已记录 Formula 1 商品，共 **{total}** 件。"
+    cover_changes = sum("image_url" in item["changes"] for item in changed)
+    availability_changes = sum("availability" in item["changes"] for item in changed)
     sections = [
         f"### {keyword} Spark Model Shop 变化提醒",
-        f"Formula 1 当前 **{total}** 件；新增 **{len(added)}**，封面变化 **{len(changed)}**，下架 **{len(removed)}**。",
+        f"Formula 1 当前 **{total}** 件；新增 **{len(added)}**，封面变化 **{cover_changes}**，Availability 变化 **{availability_changes}**，下架 **{len(removed)}**。",
     ]
     for title, items, formatter in (("新增", added, line), ("字段变化", changed, changed_line), ("下架", removed, line)):
         if items:
@@ -307,7 +316,7 @@ def main():
         changed=(item["product_id"] for item in changed),
         removed=(item["product_id"] for item in removed),
     )
-    print(f"Changed: +{len(added)} cover={len(changed)} -{len(removed)}")
+    print(f"Changed: +{len(added)} fields={len(changed)} -{len(removed)}")
     return True
 
 
