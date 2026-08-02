@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T10:17:57.991144+00:00",
+  "generated_at": "2026-08-02T13:06:44.320486+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -24,7 +24,7 @@
       "gtin": "9580006993670",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "7c61be638cf94b9fa981541a98a45daa",
@@ -47,7 +47,7 @@
       "gtin": "9580006361295",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "82198572f3c5448cb03f8cd777e56f83",
@@ -70,7 +70,7 @@
       "gtin": "9580006361288",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "c43605ce39e34f719ef7408cb6759426",
@@ -95,7 +95,7 @@
       "gtin": "9580006993663",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "d3eeaa32f88e4c90995a0da3551dfe77",
@@ -118,7 +118,7 @@
       "gtin": "9580006993427",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "f9f98c885ce2480c9f3fd49d7e2a3ed5",
@@ -143,7 +143,7 @@
       "gtin": "9580006192493",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "e7ae0dad8457403294883b02dddc91d8",
@@ -166,7 +166,7 @@
       "gtin": "9580006993991",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1bcfa8914d1343de99ff459b78d1d227",
@@ -191,7 +191,7 @@
       "gtin": "9580006192509",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1dc6c5431bc64316a4383dd21a28fd3d",
@@ -214,7 +214,7 @@
       "gtin": "9580006192660",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "365ebb632d3949d586a0264578c05cbb",
@@ -237,7 +237,7 @@
       "gtin": "9580006361301",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "38ddc8268fd443dba18337a6a4f3f507",
@@ -260,7 +260,7 @@
       "gtin": "9580006993687",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ab9297e27c2b47628e11afc97222ff96",
@@ -283,7 +283,7 @@
       "gtin": "9580006993694",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "bab5bbccdb114f3aa94965ed57bfd36e",
@@ -306,7 +306,7 @@
       "gtin": "9580006361318",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ce1b476e86154b55bbb64dda1db50582",
@@ -329,7 +329,7 @@
       "gtin": "9580006993472",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "fb43b51c31f04ef9b33e33587bfa0334",
@@ -351,7 +351,7 @@
       "gtin": "9580006192707",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "fdf37451f5a74294b2379529e4777d40",
@@ -374,7 +374,7 @@
       "gtin": "9580006192516",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "0bada5460dfc4218ab8453fdf943d662",
@@ -399,7 +399,7 @@
       "gtin": "9580006192547",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "144c41bf1f4b4a63a85ed2ffb6cf5e3b",
@@ -422,7 +422,7 @@
       "gtin": "9580006993724",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1f19b14b4fd2400db649a9c320888df0",
@@ -445,7 +445,7 @@
       "gtin": "9581677812635",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "410b1e6181f84472a71f61c0043dff73",
@@ -468,7 +468,7 @@
       "gtin": "9580006993946",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4144e2e87ad14728a3f0a8207eadf210",
@@ -491,7 +491,7 @@
       "gtin": "9580006993489",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "47c9fa4c9e7144adb9529a2d7ef74a87",
@@ -514,7 +514,7 @@
       "gtin": "9580006993496",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6cb7fc5cf8234184ab456c13d119b5d2",
@@ -537,7 +537,7 @@
       "gtin": "9580006361356",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "71b808857ec74401ad7376ead8a55cd0",
@@ -560,7 +560,7 @@
       "gtin": "9580006993731",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "9c53865506094e5cbff0357af0f10d3f",
@@ -583,7 +583,7 @@
       "gtin": "9581677812642",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b22333b035354582b216612541f475f6",
@@ -606,7 +606,7 @@
       "gtin": "9580006192608",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "dc3cc2688e99429f967a15a0f54654a3",
@@ -629,7 +629,7 @@
       "gtin": "9580006361349",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1fcc8158309b476fbb57750407e9211c",
@@ -652,7 +652,7 @@
       "gtin": "9580006192530",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "35529c516ea3494fad053b3b6718f25a",
@@ -675,7 +675,7 @@
       "gtin": "9580006192592",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4b1e02d737ec4419beb0f45c1082286e",
@@ -698,7 +698,7 @@
       "gtin": "9580006993953",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "5d2153ae07aa4c389b32e7de2eb3abd8",
@@ -721,7 +721,7 @@
       "gtin": "9580006993342",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6611c2a33b75463ebb59cba415831fdd",
@@ -744,7 +744,7 @@
       "gtin": "9580006361202",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6bf8923f80734e71a6e3055dbcc9b6f8",
@@ -767,7 +767,7 @@
       "gtin": "9580006192745",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "af6ae722dc824731a3a5ee564c80058c",
@@ -790,7 +790,7 @@
       "gtin": "9581677812550",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ccf2d2c933e34b58819b4f4453db4ce9",
@@ -813,7 +813,7 @@
       "gtin": "9580006993359",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "12ff8f07c89a4c02b9c2bdb562349194",
@@ -836,7 +836,7 @@
       "gtin": "9581677812567",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "3865d2c7506c422ca5709a66d76f1058",
@@ -859,7 +859,7 @@
       "gtin": "9580006361219",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4a5c305d0154469b8429403c664e8ea3",
@@ -882,7 +882,7 @@
       "gtin": "9580006994066",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "e2030cd5d9674064859f875baad98bd0",
@@ -907,7 +907,7 @@
       "gtin": "9580006993755",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "fac28128650442a2a25a894c2179cb31",
@@ -932,7 +932,7 @@
       "gtin": "9580006993748",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "12217f4270bc4025bc38f8849d092bbe",
@@ -955,7 +955,7 @@
       "gtin": "9580006151940",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "147196bddf594d26b228d580985464d8",
@@ -978,7 +978,7 @@
       "gtin": "9580006152213",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1fa01cd303e04cc2ac6cc81a962657c9",
@@ -1001,7 +1001,7 @@
       "gtin": "9580006145208",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "3cb9c26718f1496c86f9251c1b97ba13",
@@ -1024,7 +1024,7 @@
       "gtin": "9580006152329",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4172b718b6a2424d8f7950ddd263a886",
@@ -1047,7 +1047,7 @@
       "gtin": "9580006145123",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4206a86f8501448c977ea617e0feaf7c",
@@ -1070,7 +1070,7 @@
       "gtin": "9581677500419",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "439178143e694c07808f13d6675e6186",
@@ -1093,7 +1093,7 @@
       "gtin": "9581677500358",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "5182ee56ff0a4ce08e5a304dbad519b0",
@@ -1116,7 +1116,7 @@
       "gtin": "9580006152190",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "5a03c81d01264f57b7e5862427dde46c",
@@ -1141,7 +1141,7 @@
       "gtin": "9580006144980",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "62c77a502441413fb03e3a76813f2b79",
@@ -1164,7 +1164,7 @@
       "gtin": "9581677500341",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6a5ea12ebe9d4c819ddbba6328b8957a",
@@ -1187,7 +1187,7 @@
       "gtin": "9580006152305",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "8911c4d0165640a0b28e8eeadf0478bf",
@@ -1210,7 +1210,7 @@
       "gtin": "9580006145345",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "8d687c7be6724325a27f896d1728b714",
@@ -1233,7 +1233,7 @@
       "gtin": "9580006152299",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "9a16b151753c4b73996cff4e06898bd7",
@@ -1256,7 +1256,7 @@
       "gtin": "9581677500372",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "9f205d7ced4541b7b707b03877ec8c1d",
@@ -1279,7 +1279,7 @@
       "gtin": "9580006152220",
       "weight": "6 kg",
       "length": "450 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "a327dbe70be44f5e9e227c95d73c72f4",
@@ -1302,7 +1302,7 @@
       "gtin": "9580006152336",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "a43f608011fb4e948990eb46a7937d1c",
@@ -1325,7 +1325,7 @@
       "gtin": "9580006145161",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "aa2ac2e736324d1f96d4b506b02f82c0",
@@ -1350,7 +1350,7 @@
       "gtin": "9580006144997",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "af009d6ff55b449992f6cd811ac0cf60",
@@ -1373,7 +1373,7 @@
       "gtin": "9581677500365",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b52240218a734b84a4bd227bb262cfcf",
@@ -1396,7 +1396,7 @@
       "gtin": "9580006145130",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b690f3e8bfdd4c60b1cb20fa616b0310",
@@ -1419,7 +1419,7 @@
       "gtin": "9580006152312",
       "weight": "6 kg",
       "length": "450 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "bc8d19d781fa40209fffb7c86088dc91",
@@ -1442,7 +1442,7 @@
       "gtin": "9580006152183",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ca3e1dc11b47453da7739075043227e5",
@@ -1465,7 +1465,7 @@
       "gtin": "9580006145338",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "cd52b4760e0f488e8b54495ab21992fe",
@@ -1488,7 +1488,7 @@
       "gtin": "9580006145352",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "e845da31283241fabdd4fcbe77856c8e",
@@ -1511,7 +1511,7 @@
       "gtin": "9580006152206",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ed682093a844461eb2ca2b4b34b809d4",
@@ -1534,7 +1534,7 @@
       "gtin": "9580006145321",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "f7bdb2e262604bc7acc41611d339e605",
@@ -1559,7 +1559,7 @@
       "gtin": "9581677500334",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "20dd003de05243d19a77c4c1e691c703",
@@ -1584,7 +1584,7 @@
       "gtin": "9581677500310",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2199b8c049e44c3cb05b5b709c0cc8ea",
@@ -1609,7 +1609,7 @@
       "gtin": "9580006151919",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "289dd984c1f2482b9b5414eb43da5a80",
@@ -1634,7 +1634,7 @@
       "gtin": "9580006151902",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2b5517dd6ce14352a388778378afd1c3",
@@ -1659,7 +1659,7 @@
       "gtin": "9580006145185",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "652cb9c98fa946c28d1568934c1241ff",
@@ -1695,7 +1695,7 @@
       "gtin": "9580006144911",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6b55fbddb0c1476ba8bdcec755fd4c02",
@@ -1718,7 +1718,7 @@
       "gtin": "9580006145178",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "85be90c17a9e4139a98032ae4933ec69",
@@ -1741,7 +1741,7 @@
       "gtin": "9580006145314",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "92f3c2cd4ea04576b60d562451f85ca4",
@@ -1766,7 +1766,7 @@
       "gtin": "9580006144935",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b46dea93da884a55b86bcfaf49704c61",
@@ -1802,7 +1802,7 @@
       "gtin": "9580006144904",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "c03a11f298524626a08f5fbc92fc35aa",
@@ -1827,7 +1827,7 @@
       "gtin": "9580006144928",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "dbe0099f742a4891bffe6f6302a41eb0",
@@ -1852,7 +1852,7 @@
       "gtin": "9581677500327",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "22868e54b19742a98464c6035d8fc802",
@@ -1875,7 +1875,7 @@
       "gtin": "9580006192639",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "29e2d2dbf0f542168904b275ae2dac90",
@@ -1900,7 +1900,7 @@
       "gtin": "9580006993861",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2fe449aef7b6438487acdf029b7dc83b",
@@ -1925,7 +1925,7 @@
       "gtin": "9580006993779",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "432736c539cc4a0882f9468063682a9e",
@@ -1950,7 +1950,7 @@
       "gtin": "9580006993762",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4874b0a378cc427eb8f937874032e528",
@@ -1973,7 +1973,7 @@
       "gtin": "9580006361233",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "LimitedAvailability"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "579bc8d89a9d4582bfb36bf1920c7820",
@@ -1996,7 +1996,7 @@
       "gtin": "9580006361226",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6a4317789f6d4e33b6d06d748c99bd37",
@@ -2019,7 +2019,7 @@
       "gtin": "9580006192615",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6d118ac5c5024db2827e93fae4756ff9",
@@ -2042,7 +2042,7 @@
       "gtin": "9581677812659",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "7828f17e41634cc486b360146d5681b6",
@@ -2065,7 +2065,7 @@
       "gtin": "9581677812581",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "78b9e9710ce543789ce11208237c4917",
@@ -2087,7 +2087,7 @@
       "gtin": "9580006192721",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "7b5a83eb17d744f7a104cb146a9de2a5",
@@ -2110,7 +2110,7 @@
       "gtin": "9581677812666",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "8109b75b432346ec9f700643b4db297b",
@@ -2133,7 +2133,7 @@
       "gtin": "9580006361370",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "85f9985b1dfa4cf2acc9e6ee6cb9883b",
@@ -2158,7 +2158,7 @@
       "gtin": "9580006993878",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "87f21f3e11a9424c9c8fd3f9e1693547",
@@ -2181,7 +2181,7 @@
       "gtin": "9580006361363",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "9dc937884663478f94c8b468aeb118ba",
@@ -2204,7 +2204,7 @@
       "gtin": "9580006192400",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "d50e754fac134120b0eb96b056d04017",
@@ -2227,7 +2227,7 @@
       "gtin": "9581677812574",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "dd0233ae00634242af2163829649c056",
@@ -2250,7 +2250,7 @@
       "gtin": "9580006192417",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "10d478c9437141feaaab846e149795c1",
@@ -2273,7 +2273,7 @@
       "gtin": "9580006993366",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "594c94e056ae4c4bad39e326b07b321b",
@@ -2295,7 +2295,7 @@
       "gtin": "9580006192738",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "5c8c5a38cc2c4361bddbbf4e279af36a",
@@ -2320,7 +2320,7 @@
       "gtin": "9580006192653",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "654c3d2ab56f443cb51bb3f3f4f4dd02",
@@ -2343,7 +2343,7 @@
       "gtin": "9580006192462",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "683190c7efa44eb08baa6e834b419b27",
@@ -2380,7 +2380,7 @@
       "gtin": "9580006192448",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "InStock"
+      "availability": "Available immediately"
     },
     {
       "id": "a838877fdfe64017902e75d403544439",
@@ -2415,7 +2415,7 @@
       "gtin": "9580006192455",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "InStock"
+      "availability": "Available immediately"
     },
     {
       "id": "ee9a299056734eeb9b6ca9c9bc06b45e",
@@ -2438,7 +2438,7 @@
       "gtin": "9580006192677",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "403a2158570c421d8779f1431c10fe3f",
@@ -2461,7 +2461,7 @@
       "gtin": "9580006361387",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "668cfea5c1914c3b9459d4fce6cc80be",
@@ -2484,7 +2484,7 @@
       "gtin": "9580006993465",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "753871036b324d1e975a98105903907e",
@@ -2507,7 +2507,7 @@
       "gtin": "9580006361394",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "78dbaf924dc641be8d28aa75b8811d05",
@@ -2530,7 +2530,7 @@
       "gtin": "9581677812673",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "79ea7a89792a45d9b1ffdc8091d50775",
@@ -2553,7 +2553,7 @@
       "gtin": "9580006994059",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "7bae22ca5a514efea233bf85055be028",
@@ -2576,7 +2576,7 @@
       "gtin": "9580006994042",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "810e6ac4d98547da9eb118d2db95d4ef",
@@ -2599,7 +2599,7 @@
       "gtin": "9581677812680",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "a6c7ec8252794e88a24810caea55b8a3",
@@ -2622,7 +2622,7 @@
       "gtin": "9580006993786",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b8b6254c37144d9284e6d756cdce9e7b",
@@ -2645,7 +2645,7 @@
       "gtin": "9580006993458",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "c7755472849e466695faa9bf38a38ed3",
@@ -2668,7 +2668,7 @@
       "gtin": "9580006993373",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "dc7ac9c27d6e47eeacbf6d6c126140ca",
@@ -2691,7 +2691,7 @@
       "gtin": "9580006993793",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b5246bbbb54e43b6945662cdbf0f22a9",
@@ -2716,7 +2716,7 @@
       "gtin": "9580006192578",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "09b3936a85cb48e6acc8d2d7df8de945",
@@ -2741,7 +2741,7 @@
       "gtin": "9580006361400",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "174dd280d9874ae29da7ec297f664ca8",
@@ -2766,7 +2766,7 @@
       "gtin": "9580006361417",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "18f048712c464b8eb5b113d520fd9968",
@@ -2791,7 +2791,7 @@
       "gtin": "9581677812598",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1be09da67cbc4c7590948a4977683310",
@@ -2814,7 +2814,7 @@
       "gtin": "",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1e29fc778c6449afab1c0f3a4829eac0",
@@ -2837,7 +2837,7 @@
       "gtin": "9580006361486",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "264b601d5cb0419ea96645c45691c0ae",
@@ -2860,7 +2860,7 @@
       "gtin": "9580006994073",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2fdd0378169748c8b8de17c094a21d15",
@@ -2883,7 +2883,7 @@
       "gtin": "9580006993403",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "333da61ed37f4aba9f1c67aa2193dc91",
@@ -2906,7 +2906,7 @@
       "gtin": "9580006361240",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "34f6916878d44f19b93c7883d8059023",
@@ -2931,7 +2931,7 @@
       "gtin": "9580006993885",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "3ea1d484276344959d52f2ef9f0130f1",
@@ -2956,7 +2956,7 @@
       "gtin": "9580006192585",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4f75722759d742c29f0eec8d63b518ac",
@@ -2987,7 +2987,7 @@
       "gtin": "9580006993809",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Available immediately"
     },
     {
       "id": "5180bf00565b4c24abe0d49e00022053",
@@ -3024,7 +3024,7 @@
       "gtin": "9580006192431",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6404bb23835d4d94b9c40a2072d55b89",
@@ -3049,7 +3049,7 @@
       "gtin": "9581677812604",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6894d510c0d94887a3931dcff7813ffe",
@@ -3074,7 +3074,7 @@
       "gtin": "9581677812697",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "a2d0354720004c99bfc0b7bc99d5e766",
@@ -3097,7 +3097,7 @@
       "gtin": "",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b44e384aadd84eb892f4e7b46cac6718",
@@ -3120,7 +3120,7 @@
       "gtin": "9581677812758",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b9a412341702408a81e498440c673dbd",
@@ -3157,7 +3157,7 @@
       "gtin": "9580006192424",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "c0de6ad8b2324ba399f5c8e96d0b952c",
@@ -3188,7 +3188,7 @@
       "gtin": "9580006993816",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Available immediately"
     },
     {
       "id": "cbd8191c12c7499f825588d8e61559ea",
@@ -3213,7 +3213,7 @@
       "gtin": "9580006192561",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "d5c05c07d603450b9d76945428fedab7",
@@ -3238,7 +3238,7 @@
       "gtin": "9581677812703",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "dbb9bf9bb98e4502a7f6c14a4db49606",
@@ -3261,7 +3261,7 @@
       "gtin": "9580006361257",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "e260e94a88484a0897b137f755b5192b",
@@ -3284,7 +3284,7 @@
       "gtin": "9580006993328",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ec2913149705458da44f0e4261a6e40e",
@@ -3307,7 +3307,7 @@
       "gtin": "9581677812765",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "eee921a83ec84c88827edcbc13910ace",
@@ -3332,7 +3332,7 @@
       "gtin": "9580006993892",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "0cae4fbedc5545a5a89a83da61189435",
@@ -3355,7 +3355,7 @@
       "gtin": "9580006192554",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "0d5f3b77d03b4d3a8432ac1a520eb308",
@@ -3378,7 +3378,7 @@
       "gtin": "9580006993441",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "128ccc429aff4d498e9c376df8b36106",
@@ -3401,7 +3401,7 @@
       "gtin": "9580006361424",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1d80e5c20c154a9ca749241fe73ed6c4",
@@ -3424,7 +3424,7 @@
       "gtin": "9580006993830",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "24564b75a2834963845d5b45a0f0d6f5",
@@ -3447,7 +3447,7 @@
       "gtin": "9580006993908",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "40dcc15a28484073abea553ab4687357",
@@ -3470,7 +3470,7 @@
       "gtin": "9580006361271",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "4bea4011cda64840b6d19f439d5f099b",
@@ -3493,7 +3493,7 @@
       "gtin": "9580006993915",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "518116e58b414c18b8d00efca695f4ed",
@@ -3516,7 +3516,7 @@
       "gtin": "9580006361264",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "61da883447eb475fafb878bdbcc9f553",
@@ -3539,7 +3539,7 @@
       "gtin": "9580006993823",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "8825c1985a3f485590cdde1d46e3e44b",
@@ -3562,7 +3562,7 @@
       "gtin": "9581677812611",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "a3d4a296ccb0446f8824da7645eb2c42",
@@ -3585,7 +3585,7 @@
       "gtin": "9580006993434",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "b47ca057b1b64b80b9f0ab50ef8dcb9a",
@@ -3608,7 +3608,7 @@
       "gtin": "9581677812628",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "e79f5338e6d34254afbf6f673b943d06",
@@ -3631,7 +3631,7 @@
       "gtin": "9580006361431",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "ed6518b4e92b490d8e80f03a9a481635",
@@ -3654,7 +3654,7 @@
       "gtin": "9581677812727",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "f0eca0f5a6c645e296a7fdfa83a517c4",
@@ -3677,7 +3677,7 @@
       "gtin": "9581677812710",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "27282039941b4aee8f071f944458a8cf",
@@ -3700,7 +3700,7 @@
       "gtin": "9580006994080",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2efb438880fb45a180729881d3fd7876",
@@ -3723,7 +3723,7 @@
       "gtin": "9580006994035",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6388ae84efc64b5ca42f570a80e5d608",
@@ -3746,7 +3746,7 @@
       "gtin": "9580006994097",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "9fb7707bde4e412f9cc757b6a2f75c47",
@@ -3769,7 +3769,7 @@
       "gtin": "9580006993977",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "d25fdd076acd4bc390a9dd491b57358e",
@@ -3792,7 +3792,7 @@
       "gtin": "9580006993410",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "d2a15177341e498696363cb706c555a1",
@@ -3815,7 +3815,7 @@
       "gtin": "9580006993847",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "da5a9342b0c244b1b3957121d9008c13",
@@ -3838,7 +3838,7 @@
       "gtin": "9580006361448",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "e93de26c67984cc7a0a61cdd32b37c78",
@@ -3861,7 +3861,7 @@
       "gtin": "9580006993335",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "fbb7dc43d8c648288c1e8ba5a60ad663",
@@ -3884,7 +3884,7 @@
       "gtin": "9581677812734",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1357503a927249e099142f5400f37b1a",
@@ -3907,7 +3907,7 @@
       "gtin": "9580006993854",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2327dfc755db41c38b9925058a5f7bf5",
@@ -3930,7 +3930,7 @@
       "gtin": "9581677812741",
       "weight": "2 kg",
       "length": "250 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2f4fbc33cd4a4a3cbae6ea026b3ab5b2",
@@ -3953,7 +3953,7 @@
       "gtin": "9580006361455",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "1ab08466f6ef417fa3120d998d51dcc5",
@@ -3976,7 +3976,7 @@
       "gtin": "9580006993380",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "519eade9ed544b3c8b4d86389b29ba77",
@@ -3999,7 +3999,7 @@
       "gtin": "9580006993397",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "71ed2d8f41434361ac229c1ace51aea4",
@@ -4022,7 +4022,7 @@
       "gtin": "9580006192479",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "7f256deb670c4015a3b5e3ad214e0c2f",
@@ -4045,7 +4045,7 @@
       "gtin": "9580006192684",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "a0c64ab6a7914a9fbff44d7898158396",
@@ -4068,7 +4068,7 @@
       "gtin": "9580006192486",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "fe2bcb7bcaaa45f6b5be94ab9c9696b5",
@@ -4091,7 +4091,7 @@
       "gtin": "9580006192622",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "2bde1b2666c341de86aea277825dcfc0",
@@ -4114,7 +4114,7 @@
       "gtin": "9580006361325",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "6bef3aadc3544e37a0225369244ce5cb",
@@ -4137,7 +4137,7 @@
       "gtin": "9580006361332",
       "weight": "0.06 kg",
       "length": "70 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "996972b0179544329a7bbf88b6d80b3b",
@@ -4160,7 +4160,7 @@
       "gtin": "9580006993700",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "bd7871e229fb49fc9cda4176fa35690d",
@@ -4183,7 +4183,7 @@
       "gtin": "9580006993717",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "5a9f2f0654f24592b72e17df5be930dc",
@@ -4208,7 +4208,7 @@
       "gtin": "9580006993922",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     },
     {
       "id": "96e258af4b4f448eba51b5a28f118421",
@@ -4233,7 +4233,7 @@
       "gtin": "9580006993939",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "PreOrder"
+      "availability": "Not available – pre-orders possible"
     }
   ]
 }
