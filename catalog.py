@@ -159,7 +159,7 @@ def build_product(product_id, listing):
         "gtin": fields.get("gtin13", ""),
         "weight": fields.get("weight", ""),
         "length": fields.get("length", ""),
-        "availability": fields.get("availability", ""),
+        "availability": listing.get("availability", fields.get("availability", "")),
     }
 
 

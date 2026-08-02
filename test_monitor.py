@@ -33,6 +33,22 @@ class CompareTest(unittest.TestCase):
         }], [], [])
         self.assertIn("货号：S9367；比例：1/43", message)
 
+    def test_availability_change_is_parsed_and_reported(self):
+        html = '''<div data-aria-live-text="Showing 1 out of 1 products.">
+        <div class="product-box" data-product-information="{&quot;id&quot;:&quot;id-1&quot;}">
+        <a class="product-name" href="https://example.test/item" title="F1 car"></a>
+        <img class="product-image" src="https://example.test/cover.webp">
+        <div class="product-detail-delivery-information"><p>Pre-order available</p></div></div></div>'''
+        items, _ = parse_listing(html)
+        self.assertEqual(items[0]["availability"], "Pre-order available")
+        _, changed, _ = compare(
+            {"id-1": items[0] | {"availability": "In stock"}},
+            {"id-1": items[0]},
+        )
+        self.assertEqual(changed[0]["changes"]["availability"], ("In stock", "Pre-order available"))
+        message = build_message(1, [], changed, [])
+        self.assertIn("Availability：In stock → Pre-order available", message)
+
     def test_listing_parser(self):
         html = '''<div data-aria-live-text="Showing 1 out of 1 products.">
         <div class="card product-box" data-product-information="{&quot;id&quot;:&quot;id-1&quot;,&quot;name&quot;:&quot;F1&quot;}">

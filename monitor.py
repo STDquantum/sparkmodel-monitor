@@ -65,6 +65,8 @@ class ListingParser(HTMLParser):
         self.box_depth = None
         self.current = None
         self.items = []
+        self.delivery_depth = None
+        self.delivery_text = []
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
@@ -76,6 +78,8 @@ class ListingParser(HTMLParser):
                 except (KeyError, json.JSONDecodeError) as error:
                     raise RuntimeError("Unable to read product information") from error
                 self.box_depth = self.div_depth
+                self.delivery_depth = None
+                self.delivery_text = []
         if self.current is None:
             return
         if tag == "a" and "product-name" in attributes.get("class", ""):
@@ -83,20 +87,33 @@ class ListingParser(HTMLParser):
             self.current["name"] = attributes.get("title", self.current.get("name", ""))
         elif tag == "img" and "product-image" in attributes.get("class", ""):
             self.current["image_url"] = attributes.get("src", "")
+        elif tag == "div" and "product-detail-delivery-information" in attributes.get("class", ""):
+            self.delivery_depth = self.div_depth
+            self.delivery_text = []
+
+    def handle_data(self, data):
+        if self.delivery_depth is not None:
+            self.delivery_text.append(data)
 
     def handle_endtag(self, tag):
         if tag != "div":
             return
+        if self.current is not None and self.delivery_depth == self.div_depth:
+            self.current["availability"] = " ".join("".join(self.delivery_text).split())
+            self.delivery_depth = None
         self.div_depth -= 1
         if self.current is not None and self.div_depth < self.box_depth:
             product_id = self.current.get("id")
             if not product_id or not self.current.get("url") or not self.current.get("image_url"):
                 raise RuntimeError(f"Incomplete product card: {product_id}")
-            self.items.append({
+            item = {
                 "name": self.current.get("name", ""),
                 "url": self.current["url"],
                 "image_url": self.current["image_url"],
-            } | {"product_id": product_id})
+            } | {"product_id": product_id}
+            if self.current.get("availability"):
+                item["availability"] = self.current["availability"]
+            self.items.append(item)
             self.current = None
             self.box_depth = None
 
@@ -163,11 +180,15 @@ def compare(old, new):
     old_ids, new_ids = set(old), set(new)
     added = [new[item_id] | {"product_id": item_id} for item_id in sorted(new_ids - old_ids)]
     removed = [old[item_id] | {"product_id": item_id} for item_id in sorted(old_ids - new_ids)]
-    changed = [
-        new[item_id] | {"product_id": item_id}
-        for item_id in sorted(old_ids & new_ids)
-        if old[item_id].get("image_url") != new[item_id].get("image_url")
-    ]
+    changed = []
+    for item_id in sorted(old_ids & new_ids):
+        changes = {
+            field: (old[item_id].get(field, ""), new[item_id].get(field, ""))
+            for field in ("image_url", "availability")
+            if old[item_id].get(field, "") != new[item_id].get(field, "")
+        }
+        if changes:
+            changed.append(new[item_id] | {"product_id": item_id, "changes": changes})
     return added, changed, removed
 
 
@@ -207,6 +228,16 @@ def line(item):
     return f"- [{name}]({item['url']})（货号：{number}；比例：{scale}）"
 
 
+def changed_line(item):
+    labels = []
+    if "image_url" in item["changes"]:
+        labels.append("封面图片已更新")
+    if "availability" in item["changes"]:
+        old, new = item["changes"]["availability"]
+        labels.append(f"Availability：{old or '—'} → {new or '—'}")
+    return f"{line(item)}（{'；'.join(labels)}）"
+
+
 def build_message(total, added, changed, removed, initial=False):
     keyword = os.getenv("DINGTALK_KEYWORD") or "成绩"
     if initial:
@@ -215,9 +246,9 @@ def build_message(total, added, changed, removed, initial=False):
         f"### {keyword} Spark Model Shop 变化提醒",
         f"Formula 1 当前 **{total}** 件；新增 **{len(added)}**，封面变化 **{len(changed)}**，下架 **{len(removed)}**。",
     ]
-    for title, items in (("新增", added), ("封面变化", changed), ("下架", removed)):
+    for title, items, formatter in (("新增", added, line), ("字段变化", changed, changed_line), ("下架", removed, line)):
         if items:
-            sections.extend((f"#### {title}", *map(line, items[:20])))
+            sections.extend((f"#### {title}", *map(formatter, items[:20])))
             if len(items) > 20:
                 sections.append(f"- 另有 {len(items) - 20} 件未展开")
     return "\n\n".join(sections)
