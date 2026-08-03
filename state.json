@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-03T04:00:55.358920+00:00",
+  "updated_at": "2026-08-03T07:41:12.308285+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -30,7 +30,7 @@
     "0cae4fbedc5545a5a89a83da61189435": {
       "name": "Visa Cash App Racing Bulls Formula One Team - Liam Lawson - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/visa-cash-app-racing-bulls-formula-one-team-liam-lawson-2026/5hf255-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ff/db/84/1784559560/5e03fa1420544cc384ab956185874ba3.webp?ts=1784559560",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/03/c2/07/1785739682/e9d8960e0a9243a0a938211d13791f44.webp?ts=1785739699",
       "availability": "Not available – pre-orders possible"
     },
     "0d5f3b77d03b4d3a8432ac1a520eb308": {
@@ -1081,7 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "a6c7ec8252794e88a24810caea55b8a3"
+      "0cae4fbedc5545a5a89a83da61189435"
     ],
     "removed": []
   }
