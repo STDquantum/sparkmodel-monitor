@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-03T07:41:12.308285+00:00",
+  "updated_at": "2026-08-03T10:59:49.793482+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -240,7 +240,7 @@
     "2fe449aef7b6438487acdf029b7dc83b": {
       "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 Oliver Bearman",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-5th-chinese-gp-2026-oliver-bearman/s9377-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/02/fc/19/1784566670/f481eabb48f44667a22b26811b9850f5.webp?ts=1784566670",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/fe/0f/1785749435/fc3ea79cb297416abdd741c365c64e13.webp?ts=1785753111",
       "availability": "Not available – pre-orders possible"
     },
     "333da61ed37f4aba9f1c67aa2193dc91": {
@@ -330,7 +330,7 @@
     "432736c539cc4a0882f9468063682a9e": {
       "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 Esteban Ocon",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-australian-gp-2026-esteban-ocon/s9376-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ef/67/56/1784566661/95651509dcd04874bff351fc3ff0520f.webp?ts=1784566662",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/e3/39/1785748243/8dd181c45ab144829280d2c3a8eaf647.webp?ts=1785752894",
       "availability": "Not available – pre-orders possible"
     },
     "439178143e694c07808f13d6675e6186": {
@@ -1081,7 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "0cae4fbedc5545a5a89a83da61189435"
+      "2fe449aef7b6438487acdf029b7dc83b",
+      "432736c539cc4a0882f9468063682a9e"
     ],
     "removed": []
   }
