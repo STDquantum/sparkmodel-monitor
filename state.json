@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-03T10:59:49.793482+00:00",
+  "updated_at": "2026-08-04T01:09:59.419581+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -72,7 +72,7 @@
     "144c41bf1f4b4a63a85ed2ffb6cf5e3b": {
       "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 Nico Hulkenberg",
       "url": "https://www.sparkmodelshop.com/de/en/audi-revolut-f1-team-r26-no.27-australian-gp-2026-nico-hulkenberg/s9372-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/38/0c/d3/1785301859/428c4a69946d40909b8be5526ee9673f.webp?ts=1785301859",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/80/8e/1785803737/428c4a69946d40909b8be5526ee9673f.webp?ts=1785803765",
       "availability": "Not available – pre-orders possible"
     },
     "147196bddf594d26b228d580985464d8": {
@@ -540,7 +540,7 @@
     "71b808857ec74401ad7376ead8a55cd0": {
       "name": "Audi Revolut F1 Team R26 No.5 Australian GP 2026 Audi First Race, First Point Gabriel Bortoleto",
       "url": "https://www.sparkmodelshop.com/de/en/audi-revolut-f1-team-r26-no.5-australian-gp-2026-audi-first-race-first-point-gabriel-bortoleto/s9373-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2f/4a/fa/1785301746/1a9192c997f7491e874a30d112b10aa1.webp?ts=1785301746",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/85/0d/7d/1785803658/1a9192c997f7491e874a30d112b10aa1.webp?ts=1785803679",
       "availability": "Not available – pre-orders possible"
     },
     "71ed2d8f41434361ac229c1ace51aea4": {
@@ -1081,8 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "2fe449aef7b6438487acdf029b7dc83b",
-      "432736c539cc4a0882f9468063682a9e"
+      "144c41bf1f4b4a63a85ed2ffb6cf5e3b",
+      "71b808857ec74401ad7376ead8a55cd0"
     ],
     "removed": []
   }
