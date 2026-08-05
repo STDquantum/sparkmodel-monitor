@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-04T01:09:59.419581+00:00",
+  "updated_at": "2026-08-05T07:19:02.357496+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -372,7 +372,7 @@
     "4f75722759d742c29f0eec8d63b518ac": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell With pit board",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.63-winner-australian-gp-2026-george-russell-with-pit-board/s9380-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/10/7e/3f/1784566688/6e30eece61844002af80f6a5537868b5.webp?ts=1784566688",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/07/23/86/1784566693/9d6fbb3281a5452b927f946b54bca21e.webp?ts=1785906937",
       "availability": "Available immediately"
     },
     "5180bf00565b4c24abe0d49e00022053": {
@@ -852,7 +852,7 @@
     "c0de6ad8b2324ba399f5c8e96d0b952c": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 Kimi Antonelli Bigger base plate & pit board",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-chinese-gp-2026-kimi-antonelli-bigger-base-plate-pit-board/s9381-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/70/52/5d/1784566706/ef48e0335db64022a997a9e63bb2510b.webp?ts=1784566706",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/40/98/21/1784566712/e118c3cd1c8141fab6ba19cfcb2c5bd6.webp?ts=1785906985",
       "availability": "Available immediately"
     },
     "c43605ce39e34f719ef7408cb6759426": {
@@ -1081,8 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "144c41bf1f4b4a63a85ed2ffb6cf5e3b",
-      "71b808857ec74401ad7376ead8a55cd0"
+      "4f75722759d742c29f0eec8d63b518ac",
+      "c0de6ad8b2324ba399f5c8e96d0b952c"
     ],
     "removed": []
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T01:10:02.593238+00:00",
+  "generated_at": "2026-08-05T07:19:07.020232+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -2985,7 +2985,10 @@
         "images/4f75722759d742c29f0eec8d63b518ac-6.webp",
         "images/4f75722759d742c29f0eec8d63b518ac-7.webp",
         "images/4f75722759d742c29f0eec8d63b518ac-8.webp",
-        "images/4f75722759d742c29f0eec8d63b518ac-9.webp"
+        "images/4f75722759d742c29f0eec8d63b518ac-9.webp",
+        "images/4f75722759d742c29f0eec8d63b518ac-10.webp",
+        "images/4f75722759d742c29f0eec8d63b518ac-11.webp",
+        "images/4f75722759d742c29f0eec8d63b518ac-12.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -3186,7 +3189,10 @@
         "images/c0de6ad8b2324ba399f5c8e96d0b952c-6.webp",
         "images/c0de6ad8b2324ba399f5c8e96d0b952c-7.webp",
         "images/c0de6ad8b2324ba399f5c8e96d0b952c-8.webp",
-        "images/c0de6ad8b2324ba399f5c8e96d0b952c-9.webp"
+        "images/c0de6ad8b2324ba399f5c8e96d0b952c-9.webp",
+        "images/c0de6ad8b2324ba399f5c8e96d0b952c-10.webp",
+        "images/c0de6ad8b2324ba399f5c8e96d0b952c-11.webp",
+        "images/c0de6ad8b2324ba399f5c8e96d0b952c-12.webp"
       ],
       "properties": {
         "Material": "Resin",
