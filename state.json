@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-05T07:19:02.357496+00:00",
+  "updated_at": "2026-08-05T12:12:35.502548+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -48,7 +48,7 @@
     "12217f4270bc4025bc38f8849d092bbe": {
       "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/ls18f1082-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/cf/8f/18/1784563121/c737bc742cde45cea88a9d0d324e8303.webp?ts=1784563121",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/43/16/1b/1785924942/9835f41dfc0245cab58395414d6bfd75.webp?ts=1785924970",
       "availability": "Not available – pre-orders possible"
     },
     "128ccc429aff4d498e9c376df8b36106": {
@@ -546,7 +546,7 @@
     "71ed2d8f41434361ac229c1ace51aea4": {
       "name": "Atlassian Williams F1 Team - Alex Albon - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-alex-albon-2026/5hf247-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a2/8b/72/1784559513/68c4f0c9dad14defaf6e573a948002ab.webp?ts=1784559513",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8e/ee/81/1785924786/4941ed7b211f48d6acd02bbb9bc93b24.webp?ts=1785924818",
       "availability": "Not available – pre-orders possible"
     },
     "753871036b324d1e975a98105903907e": {
@@ -1081,8 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "4f75722759d742c29f0eec8d63b518ac",
-      "c0de6ad8b2324ba399f5c8e96d0b952c"
+      "12217f4270bc4025bc38f8849d092bbe",
+      "71ed2d8f41434361ac229c1ace51aea4"
     ],
     "removed": []
   }
