@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-06T09:49:42.270739+00:00",
+  "updated_at": "2026-08-10T03:56:54.468042+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -852,7 +852,7 @@
     "c0de6ad8b2324ba399f5c8e96d0b952c": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 Kimi Antonelli Bigger base plate & pit board",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-chinese-gp-2026-kimi-antonelli-bigger-base-plate-pit-board/s9381-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/70/52/5d/1784566706/ef48e0335db64022a997a9e63bb2510b.webp?ts=1785907000",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/70/52/5d/1784566706/ef48e0335db64022a997a9e63bb2510b.webp?ts=1786327567",
       "availability": "Available immediately"
     },
     "c43605ce39e34f719ef7408cb6759426": {
@@ -1081,7 +1081,6 @@
   "changes": {
     "added": [],
     "changed": [
-      "4f75722759d742c29f0eec8d63b518ac",
       "c0de6ad8b2324ba399f5c8e96d0b952c"
     ],
     "removed": []
