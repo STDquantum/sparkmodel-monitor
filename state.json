@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-10T03:56:54.468042+00:00",
+  "updated_at": "2026-08-11T02:24:12.937127+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -774,7 +774,7 @@
     "b22333b035354582b216612541f475f6": {
       "name": "Audi Revolut F1 Team - Gabriel Bortoleto - Miami GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/audi-revolut-f1-team-gabriel-bortoleto-miami-gp-2026/5hf260-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9a/82/g0/1784559595/9e992d3781c440dbad4222220d42a42c.webp?ts=1784559595",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5f/41/de/1786413202/28af72de40f64c09af58caea7948b14d.webp?ts=1786413211",
       "availability": "Not available – pre-orders possible"
     },
     "b44e384aadd84eb892f4e7b46cac6718": {
@@ -1081,7 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "c0de6ad8b2324ba399f5c8e96d0b952c"
+      "b22333b035354582b216612541f475f6"
     ],
     "removed": []
   }
