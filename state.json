@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-11T02:24:12.937127+00:00",
+  "updated_at": "2026-08-11T08:39:16.487955+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -570,7 +570,7 @@
     "78dbaf924dc641be8d28aa75b8811d05": {
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 Lando Norris",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-australian-gp-2026-lando-norris/18s1267-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/d7/ba/fb/1784555348/31dae8e8d3b840688c2e95319978693d.webp?ts=1784555348",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/f6/55/1786435587/0f6da19776c44602bc7abc80cf790d78.webp?ts=1786435587",
       "availability": "Not available – pre-orders possible"
     },
     "79ea7a89792a45d9b1ffdc8091d50775": {
@@ -1081,7 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "b22333b035354582b216612541f475f6"
+      "78dbaf924dc641be8d28aa75b8811d05"
     ],
     "removed": []
   }
