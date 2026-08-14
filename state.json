@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-14T08:35:41.473495+00:00",
+  "updated_at": "2026-08-14T09:41:23.651913+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -498,7 +498,7 @@
     "6a4317789f6d4e33b6d06d748c99bd37": {
       "name": "TGR Haas F1 Team VF-26 - Esteban Ocon - Miami GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-esteban-ocon-miami-gp-2026/5hf261-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9d/49/44/1784559600/1f05f992aeed4ea79d250f1496c4dc14.webp?ts=1784559600",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/26/99/92/1786697738/55d9312ecbc641e6abc4739fcbc8f795.webp?ts=1786697738",
       "availability": "Not available – pre-orders possible"
     },
     "6a5ea12ebe9d4c819ddbba6328b8957a": {
@@ -1081,8 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "2fe449aef7b6438487acdf029b7dc83b",
-      "432736c539cc4a0882f9468063682a9e"
+      "6a4317789f6d4e33b6d06d748c99bd37"
     ],
     "removed": []
   }
