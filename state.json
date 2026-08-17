@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-14T09:41:23.651913+00:00",
+  "updated_at": "2026-08-17T01:17:44.292412+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -468,7 +468,7 @@
     "654c3d2ab56f443cb51bb3f3f4f4dd02": {
       "name": "McLaren Mastercard F1 Team - Lando Norris - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-lando-norris-2026/5hf246-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a8/9b/a7/1784861792/5eb7afae74e344138e2c32169e5457c9.webp?ts=1784861792",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a8/9b/a7/1784861792/5eb7afae74e344138e2c32169e5457c9.webp?ts=1786928160",
       "availability": "Not available – pre-orders possible"
     },
     "6611c2a33b75463ebb59cba415831fdd": {
@@ -960,7 +960,7 @@
     "dd0233ae00634242af2163829649c056": {
       "name": "TGR Haas F1 Team - Ollie Bearman - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-ollie-bearman-2026/5hf241-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/26/52/ea/1784559388/0e418a5207de484fb670266acc32087d.webp?ts=1784559388",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/26/52/ea/1784559388/0e418a5207de484fb670266acc32087d.webp?ts=1786928330",
       "availability": "Not available – pre-orders possible"
     },
     "e2030cd5d9674064859f875baad98bd0": {
@@ -1081,7 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "6a4317789f6d4e33b6d06d748c99bd37"
+      "654c3d2ab56f443cb51bb3f3f4f4dd02",
+      "dd0233ae00634242af2163829649c056"
     ],
     "removed": []
   }
