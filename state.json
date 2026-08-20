@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-17T01:17:44.292412+00:00",
+  "updated_at": "2026-08-20T04:10:39.297225+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -168,7 +168,7 @@
     "22868e54b19742a98464c6035d8fc802": {
       "name": "MoneyGram Haas F1 Team - Ollie Bearman - Canadian GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/moneygram-haas-f1-team-ollie-bearman-canadian-gp-2026/5hf263-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/0c/31/7a/1784559616/e2b6f1c5962c41eea277f3d5e9cb8f11.webp?ts=1784559616",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a0/6f/7c/1787196990/38ecc3db8bfa44e29da1fdfd760caf83.webp?ts=1787197004",
       "availability": "Not available – pre-orders possible"
     },
     "2327dfc755db41c38b9925058a5f7bf5": {
@@ -1081,8 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "654c3d2ab56f443cb51bb3f3f4f4dd02",
-      "dd0233ae00634242af2163829649c056"
+      "22868e54b19742a98464c6035d8fc802"
     ],
     "removed": []
   }
