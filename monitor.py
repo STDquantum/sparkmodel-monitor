@@ -5,6 +5,7 @@ import re
 import sys
 import time
 from datetime import datetime, timezone
+from http.client import IncompleteRead
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -17,7 +18,7 @@ TEAM_SEARCHES = (
     "BWT Alpine Formula One Team",
     "Aston Martin Aramco Formula One Team",
     "Audi Revolut F1 Team",
-    "Cadillac Formula 1 Team",
+    "Cadillac Formula",
     "Ferrari",
     "Haas F1 Team",
     "McLaren Mastercard",
@@ -59,7 +60,7 @@ def request(url, payload=None):
         try:
             with urlopen(Request(url, data=data, headers=headers), timeout=45) as response:
                 return response.read().decode(response.headers.get_content_charset() or "utf-8")
-        except (HTTPError, URLError, TimeoutError, UnicodeDecodeError):
+        except (HTTPError, URLError, TimeoutError, UnicodeDecodeError, IncompleteRead):
             if attempt == 2:
                 raise
             time.sleep(2**attempt)

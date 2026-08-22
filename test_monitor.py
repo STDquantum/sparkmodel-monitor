@@ -1,13 +1,24 @@
 import unittest
+from http.client import IncompleteRead
 from pathlib import Path
 from tempfile import TemporaryDirectory
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 from catalog import parse_detail, refresh_ids, remove_images, remove_unused_images
-from monitor import TEAM_SEARCHES, availability_label, build_message, compare, ferrari_match, parse_listing
+from monitor import TEAM_SEARCHES, availability_label, build_message, compare, ferrari_match, parse_listing, request
 
 
 class CompareTest(unittest.TestCase):
+    def test_request_retries_incomplete_reads(self):
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.__exit__.return_value = None
+        response.headers.get_content_charset.return_value = "utf-8"
+        response.read.return_value = b"ok"
+        with patch("monitor.urlopen", side_effect=[IncompleteRead(b"partial", 10), response]), patch("monitor.time.sleep") as sleep:
+            self.assertEqual(request("https://example.test"), "ok")
+        self.assertEqual(sleep.call_count, 1)
+
     def test_add_cover_change_and_remove(self):
         old = {
             "kept": {"image_url": "a"},
