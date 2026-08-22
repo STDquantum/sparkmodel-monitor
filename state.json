@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-21T01:41:36.656963+00:00",
+  "updated_at": "2026-08-22T03:22:48.033907+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -906,7 +906,7 @@
     "d2a15177341e498696363cb706c555a1": {
       "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 Max Verstappen",
       "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.3-6th-australian-gp-2026-max-verstappen/s9384-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7b/5d/7d/1784566735/a016afdca7cd48058d4534294aec79b0.webp?ts=1784566735",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/82/a9/d2/1787368590/ac3b2a4b24f544d9941ee914a05033ea.webp?ts=1787368590",
       "availability": "Not available – pre-orders possible"
     },
     "d3eeaa32f88e4c90995a0da3551dfe77": {
@@ -1081,7 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "6b55fbddb0c1476ba8bdcec755fd4c02"
+      "d2a15177341e498696363cb706c555a1"
     ],
     "removed": []
   }
