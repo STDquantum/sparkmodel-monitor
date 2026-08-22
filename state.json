@@ -12,8 +12,8 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-22T03:22:48.033907+00:00",
-  "total": 177,
+  "updated_at": "2026-08-22T08:51:28.438991+00:00",
+  "total": 176,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell",
@@ -355,12 +355,6 @@
       "name": "Cadillac Formula 1 Team MAC-26 No.77 Miami GP 2026 Valtteri Bottas",
       "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-mac-26-no.77-miami-gp-2026-valtteri-bottas/s9406-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a4/1f/92/1784566861/94678e154e5f47da9fc0f5c8ba2dd8b8.webp?ts=1784566861",
-      "availability": "Not available – pre-orders possible"
-    },
-    "4b1e02d737ec4419beb0f45c1082286e": {
-      "name": "Cadillac Formula 1 Team MAC-26 Barcelona Pre-Season Shakedown 2026 Sergio Perez",
-      "url": "https://www.sparkmodelshop.com/de/en/cadillac-formula-1-team-mac-26-barcelona-pre-season-shakedown-2026-sergio-perez/s9395-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/50/b1/4f/1784566821/a565715e76a94f6e8424dc5870cab7fc.webp?ts=1784566821",
       "availability": "Not available – pre-orders possible"
     },
     "4bea4011cda64840b6d19f439d5f099b": {
@@ -1080,9 +1074,9 @@
   },
   "changes": {
     "added": [],
-    "changed": [
-      "d2a15177341e498696363cb706c555a1"
-    ],
-    "removed": []
+    "changed": [],
+    "removed": [
+      "4b1e02d737ec4419beb0f45c1082286e"
+    ]
   }
 }
