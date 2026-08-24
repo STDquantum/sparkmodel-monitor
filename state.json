@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-24T13:25:40.590544+00:00",
+  "updated_at": "2026-08-24T15:04:18.836747+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -240,7 +240,7 @@
     "2fe449aef7b6438487acdf029b7dc83b": {
       "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 Oliver Bearman",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-5th-chinese-gp-2026-oliver-bearman/s9377-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/fe/0f/1785749435/fc3ea79cb297416abdd741c365c64e13.webp?ts=1786691914",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/fe/0f/1785749435/fc3ea79cb297416abdd741c365c64e13.webp?ts=1787581771",
       "availability": "Available immediately"
     },
     "333da61ed37f4aba9f1c67aa2193dc91": {
@@ -1081,7 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "432736c539cc4a0882f9468063682a9e"
+      "2fe449aef7b6438487acdf029b7dc83b"
     ],
     "removed": []
   }
