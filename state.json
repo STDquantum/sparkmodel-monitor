@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-24T15:04:18.836747+00:00",
+  "updated_at": "2026-08-25T08:21:43.751872+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -66,7 +66,7 @@
     "1357503a927249e099142f5400f37b1a": {
       "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 Isack Hadjar",
       "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.6-8th-chinese-gp-2026-isack-hadjar/s9385-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/50/a9/1784566740/9f4a7e684dee4d078424339aea4ada4a.webp?ts=1784566740",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/33/de/1e/1787643488/2dde58678ae745878b9479c2c3e59c2b.webp?ts=1787643488",
       "availability": "Not available – pre-orders possible"
     },
     "144c41bf1f4b4a63a85ed2ffb6cf5e3b": {
@@ -1081,7 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "2fe449aef7b6438487acdf029b7dc83b"
+      "1357503a927249e099142f5400f37b1a"
     ],
     "removed": []
   }
