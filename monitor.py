@@ -112,13 +112,14 @@ class ListingParser(HTMLParser):
         self.div_depth -= 1
         if self.current is not None and self.div_depth < self.box_depth:
             product_id = self.current.get("id")
-            if not product_id or not self.current.get("url") or not self.current.get("image_url"):
+            if not product_id or not self.current.get("url"):
                 raise RuntimeError(f"Incomplete product card: {product_id}")
             item = {
                 "name": self.current.get("name", ""),
                 "url": self.current["url"],
-                "image_url": self.current["image_url"],
             } | {"product_id": product_id}
+            if self.current.get("image_url"):
+                item["image_url"] = self.current["image_url"]
             if self.current.get("availability"):
                 item["availability"] = self.current["availability"]
             self.items.append(item)

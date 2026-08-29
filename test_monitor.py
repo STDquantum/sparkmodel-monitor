@@ -75,6 +75,14 @@ class CompareTest(unittest.TestCase):
         self.assertEqual(total, 1)
         self.assertEqual(items, [{"product_id": "id-1", "name": "F1 car", "url": "https://example.test/item", "image_url": "https://example.test/cover.webp"}])
 
+    def test_listing_parser_accepts_missing_thumbnail(self):
+        html = '''<div data-aria-live-text="Showing 1 out of 1 products.">
+        <div class="product-box" data-product-information="{&quot;id&quot;:&quot;id-1&quot;,&quot;name&quot;:&quot;F1&quot;}">
+        <a href="https://example.test/item" title="F1 car" class="product-name"></a></div></div>'''
+        items, total = parse_listing(html)
+        self.assertEqual(total, 1)
+        self.assertEqual(items, [{"product_id": "id-1", "name": "F1 car", "url": "https://example.test/item"}])
+
     def test_search_listing_total(self):
         html = '''<h1>7 products found for &quot;BWT Alpine Formula One Team&quot;</h1>
         <div class="product-box" data-product-information="{&quot;id&quot;:&quot;id-1&quot;}">
