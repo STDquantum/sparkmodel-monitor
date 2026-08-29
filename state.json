@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-26T09:27:01.738538+00:00",
+  "updated_at": "2026-08-29T12:09:28.277003+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -246,7 +246,7 @@
     "333da61ed37f4aba9f1c67aa2193dc91": {
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell/64s124-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/de/1d/f4/1784560919/9820cef67afe410786b222b1d145fde0.webp?ts=1784560919",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f1/e3/64/1787879114/2859f0bf7ada4c0ea2b099cd2fd656f5.webp?ts=1787879114",
       "availability": "Not available – pre-orders possible"
     },
     "34f6916878d44f19b93c7883d8059023": {
@@ -936,7 +936,7 @@
     "dbb9bf9bb98e4502a7f6c14a4db49606": {
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli/64s125-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8b/46/bf/1784560925/57fda0da1615409c813a9d037ddc404f.webp?ts=1784560925",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a1/39/0d/1787879147/de1b0e68a3cb47a4bdef3315cc1fee81.webp?ts=1787879147",
       "availability": "Not available – pre-orders possible"
     },
     "dbe0099f742a4891bffe6f6302a41eb0": {
@@ -1081,7 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "4f75722759d742c29f0eec8d63b518ac"
+      "333da61ed37f4aba9f1c67aa2193dc91",
+      "dbb9bf9bb98e4502a7f6c14a4db49606"
     ],
     "removed": []
   }
