@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-29T12:09:28.277003+00:00",
+  "updated_at": "2026-08-31T10:56:53.610113+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -534,7 +534,7 @@
     "6d118ac5c5024db2827e93fae4756ff9": {
       "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 Esteban Ocon",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-australian-gp-2026-esteban-ocon/18s1265-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5d/0c/f8/1784555338/733addc54cac437e9b50b2b8684da62e.webp?ts=1784555338",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/87/10/1788159604/57fd3f4530b047ceae15bcea131b4a9a.webp?ts=1788159604",
       "availability": "Not available – pre-orders possible"
     },
     "71b808857ec74401ad7376ead8a55cd0": {
@@ -582,7 +582,7 @@
     "7b5a83eb17d744f7a104cb146a9de2a5": {
       "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 Oliver Bearman",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-5th-chinese-gp-2026-oliver-bearman/18s1266-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b6/30/84/1784555343/41a08944f6924975b41984160763cd16.webp?ts=1784555343",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/59/37/fb/1788159699/3c3bb6c3b406400cb1f6e221ce770d00.webp?ts=1788159699",
       "availability": "Not available – pre-orders possible"
     },
     "7bae22ca5a514efea233bf85055be028": {
@@ -1081,8 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "333da61ed37f4aba9f1c67aa2193dc91",
-      "dbb9bf9bb98e4502a7f6c14a4db49606"
+      "6d118ac5c5024db2827e93fae4756ff9",
+      "7b5a83eb17d744f7a104cb146a9de2a5"
     ],
     "removed": []
   }
