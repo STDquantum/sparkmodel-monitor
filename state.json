@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-08-31T10:56:53.610113+00:00",
+  "updated_at": "2026-09-02T04:17:10.521440+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -426,7 +426,7 @@
     "5c8c5a38cc2c4361bddbbf4e279af36a": {
       "name": "McLaren Mastercard F1 Team - Oscar Piastri - Canadian GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-canadian-gp-2026/5hf265-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/a0/9d/1784559622/3bb837c294174e959ad36780d344cbd1.webp?ts=1784559622",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/a0/9d/1784559622/3bb837c294174e959ad36780d344cbd1.webp?ts=1788317969",
       "availability": "Not available – pre-orders possible"
     },
     "5d2153ae07aa4c389b32e7de2eb3abd8": {
@@ -1081,8 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "6d118ac5c5024db2827e93fae4756ff9",
-      "7b5a83eb17d744f7a104cb146a9de2a5"
+      "5c8c5a38cc2c4361bddbbf4e279af36a"
     ],
     "removed": []
   }
