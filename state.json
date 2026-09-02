@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-02T04:17:10.521440+00:00",
+  "updated_at": "2026-09-02T08:51:17.335013+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -486,7 +486,7 @@
     "683190c7efa44eb08baa6e834b419b27": {
       "name": "McLaren Mastercard F1 Team - Oscar Piastri - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-2026/5hf244-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/85/86/fe/1784559461/4bad491b40ad486f8b9c6371c6926a9c.webp?ts=1784559461",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/e1/0d/1788332277/7ef16a5252be4eae9ce6b51bc648778c.webp?ts=1788332969",
       "availability": "Available immediately"
     },
     "6894d510c0d94887a3931dcff7813ffe": {
@@ -1044,7 +1044,7 @@
     "f9f98c885ce2480c9f3fd49d7e2a3ed5": {
       "name": "BWT Alpine Formula One Team - Franco Colapinto - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-franco-colapinto-2026/5hf249-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/46/a6/3e/1784559522/62e046a4a2a043258a99ffbc77285f70.webp?ts=1784559522",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/bc/27/1788327192/537c0d1a828b4459ab76518778f9513d.webp?ts=1788327257",
       "availability": "Not available – pre-orders possible"
     },
     "fac28128650442a2a25a894c2179cb31": {
@@ -1081,7 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "5c8c5a38cc2c4361bddbbf4e279af36a"
+      "683190c7efa44eb08baa6e834b419b27",
+      "f9f98c885ce2480c9f3fd49d7e2a3ed5"
     ],
     "removed": []
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:17:12.311286+00:00",
+  "generated_at": "2026-09-02T08:51:30.960183+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -127,7 +127,17 @@
       "images": [
         "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-1.webp",
         "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-2.webp",
-        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-3.webp"
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-3.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-4.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-5.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-6.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-7.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-8.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-9.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-10.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-11.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-12.webp",
+        "images/f9f98c885ce2480c9f3fd49d7e2a3ed5-13.webp"
       ],
       "properties": {
         "Material": "Diecast",
@@ -2375,7 +2385,20 @@
         "images/683190c7efa44eb08baa6e834b419b27-12.webp",
         "images/683190c7efa44eb08baa6e834b419b27-13.webp",
         "images/683190c7efa44eb08baa6e834b419b27-14.webp",
-        "images/683190c7efa44eb08baa6e834b419b27-15.webp"
+        "images/683190c7efa44eb08baa6e834b419b27-15.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-16.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-17.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-18.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-19.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-20.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-21.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-22.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-23.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-24.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-25.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-26.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-27.webp",
+        "images/683190c7efa44eb08baa6e834b419b27-28.webp"
       ],
       "properties": {
         "Material": "Diecast",
