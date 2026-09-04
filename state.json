@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-02T08:51:17.335013+00:00",
+  "updated_at": "2026-09-04T09:23:12.475122+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -612,7 +612,7 @@
     "810e6ac4d98547da9eb118d2db95d4ef": {
       "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 Oscar Piastri",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.81-2nd-japanese-gp-2026-oscar-piastri/18s1268-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/5b/20/1784555353/6ea31b8da0264c6cb868a3637ae6ddfd.webp?ts=1784555353",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/88/1a/7a/1788513196/1455bd00ca314cc3a821bcd6568aee85.webp?ts=1788513205",
       "availability": "Not available – pre-orders possible"
     },
     "82198572f3c5448cb03f8cd777e56f83": {
@@ -1081,8 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "683190c7efa44eb08baa6e834b419b27",
-      "f9f98c885ce2480c9f3fd49d7e2a3ed5"
+      "810e6ac4d98547da9eb118d2db95d4ef"
     ],
     "removed": []
   }
