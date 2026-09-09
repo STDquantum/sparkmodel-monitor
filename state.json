@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-08T11:29:30.892829+00:00",
+  "updated_at": "2026-09-09T06:39:29.921822+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -204,7 +204,7 @@
     "29e2d2dbf0f542168904b275ae2dac90": {
       "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 Esteban Ocon",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-japanese-gp-2026-esteban-ocon/s9386-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/75/b3/1788851940/350b6a2c961f437a8a77c522fc4fe7bb.webp?ts=1788853346",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6a/a4/45/1788926158/a897036119984b99a0fb276a5cb4c1e8.webp?ts=1788926224",
       "availability": "Not available – pre-orders possible"
     },
     "2b5517dd6ce14352a388778378afd1c3": {
@@ -1081,9 +1081,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "29e2d2dbf0f542168904b275ae2dac90",
-      "85f9985b1dfa4cf2acc9e6ee6cb9883b",
-      "c03a11f298524626a08f5fbc92fc35aa"
+      "29e2d2dbf0f542168904b275ae2dac90"
     ],
     "removed": []
   }
