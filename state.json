@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-09T06:39:29.921822+00:00",
+  "updated_at": "2026-09-11T11:15:10.598697+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -462,7 +462,7 @@
     "652cb9c98fa946c28d1568934c1241ff": {
       "name": "Lewis Hamilton – Scuderia Ferrari HP 2026 Season",
       "url": "https://www.sparkmodelshop.com/de/en/lewis-hamilton-scuderia-ferrari-hp-2026-season/lshel031-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/64/e0/1784563614/a8ca81c823d04e92ae02cd225de66eb4.webp?ts=1784563614",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/64/e0/1784563614/a8ca81c823d04e92ae02cd225de66eb4.webp?ts=1789117673",
       "availability": "Not available – pre-orders possible"
     },
     "654c3d2ab56f443cb51bb3f3f4f4dd02": {
@@ -492,7 +492,7 @@
     "6894d510c0d94887a3931dcff7813ffe": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.63-winner-australian-gp-2026-george-russell/18s1269-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/89/7a/c8/1784555358/8e66803c63de4176b850f858e4012cef.webp?ts=1784555358",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/d0/20/76/1789116996/580b80a4ebbf4f8a9d3d0ec5671ac49a.webp?ts=1789117660",
       "availability": "Not available – pre-orders possible"
     },
     "6a4317789f6d4e33b6d06d748c99bd37": {
@@ -660,7 +660,7 @@
     "92f3c2cd4ea04576b60d562451f85ca4": {
       "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026 Lewis Hamilton",
       "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/lsf1081-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c9/e1/1d/1784563392/98c04e1e95654d67822bbb9d4210bf71.webp?ts=1784563392",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp?ts=1789115957",
       "availability": "Not available – pre-orders possible"
     },
     "96e258af4b4f448eba51b5a28f118421": {
@@ -898,8 +898,8 @@
       "availability": "Not available – pre-orders possible"
     },
     "d25fdd076acd4bc390a9dd491b57358e": {
-      "name": "Oracle Red Bull Racing RB22 No.6 4th Monaco GP 2026 Isack Hadjar (with number board)",
-      "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.6-4th-monaco-gp-2026-isack-hadjar-with-number-board/s9341-de",
+      "name": "Oracle Red Bull Racing RB22 No.6 3rd Monaco GP 2026 Isack Hadjar (with number board)",
+      "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.6-3rd-monaco-gp-2026-isack-hadjar-with-number-board/s9341-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/08/08/73/1784566534/abe52525b8524d02af75a39c7808a565.webp?ts=1784566534",
       "availability": "Not available – pre-orders possible"
     },
@@ -910,8 +910,8 @@
       "availability": "Not available – pre-orders possible"
     },
     "d3eeaa32f88e4c90995a0da3551dfe77": {
-      "name": "BWT Alpine Formula One Team A526 No.10 3rd Monaco GP 2026 Pierre Gasly",
-      "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-3rd-monaco-gp-2026-pierre-gasly/s9342-de",
+      "name": "BWT Alpine Formula One Team A526 No.10 7th Monaco GP 2026 Pierre Gasly",
+      "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-7th-monaco-gp-2026-pierre-gasly/s9342-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c2/86/33/1784566539/56b70faa11dd46958d1439fe40d0e3fa.webp?ts=1784566539",
       "availability": "Not available – pre-orders possible"
     },
@@ -1081,7 +1081,9 @@
   "changes": {
     "added": [],
     "changed": [
-      "29e2d2dbf0f542168904b275ae2dac90"
+      "652cb9c98fa946c28d1568934c1241ff",
+      "6894d510c0d94887a3931dcff7813ffe",
+      "92f3c2cd4ea04576b60d562451f85ca4"
     ],
     "removed": []
   }
