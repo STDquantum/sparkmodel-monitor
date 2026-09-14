@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-14T10:35:24.039185+00:00",
+  "updated_at": "2026-09-14T16:32:57.385759+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -823,7 +823,7 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team - Kimi Antonelli - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-kimi-antonelli-2026/5hf242-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7a/a1/22/1784559394/2c036205770147ef9388cee4c246a1d2.webp?ts=1784559394",
-      "availability": "Not available – pre-orders possible"
+      "availability": "Available immediately"
     },
     "bab5bbccdb114f3aa94965ed57bfd36e": {
       "name": "Aston Martin Aramco Formula One Team AMR26 No.18 Japanese GP 2026 Lance Stroll",
@@ -1045,7 +1045,7 @@
       "name": "BWT Alpine Formula One Team - Franco Colapinto - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-franco-colapinto-2026/5hf249-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/bc/27/1788327192/537c0d1a828b4459ab76518778f9513d.webp?ts=1788327257",
-      "availability": "Not available – pre-orders possible"
+      "availability": "Available immediately"
     },
     "fac28128650442a2a25a894c2179cb31": {
       "name": "Cadillac Formula 1 Team No.11 Australian GP 2026 Sergio Perez With pit board",
@@ -1081,7 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "85be90c17a9e4139a98032ae4933ec69"
+      "b9a412341702408a81e498440c673dbd",
+      "f9f98c885ce2480c9f3fd49d7e2a3ed5"
     ],
     "removed": []
   }

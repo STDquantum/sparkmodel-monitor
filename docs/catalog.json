@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:35:26.091332+00:00",
+  "generated_at": "2026-09-14T16:33:07.028886+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -153,7 +153,7 @@
       "gtin": "9580006192493",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "Not available – pre-orders possible"
+      "availability": "Available immediately"
     },
     {
       "id": "e7ae0dad8457403294883b02dddc91d8",
@@ -3262,7 +3262,7 @@
       "gtin": "9580006192424",
       "weight": "0.2 kg",
       "length": "75 mm",
-      "availability": "Not available – pre-orders possible"
+      "availability": "Available immediately"
     },
     {
       "id": "c0de6ad8b2324ba399f5c8e96d0b952c",
