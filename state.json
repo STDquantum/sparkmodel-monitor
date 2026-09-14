@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-12T06:13:37.110845+00:00",
+  "updated_at": "2026-09-14T05:06:27.876459+00:00",
   "total": 177,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -558,7 +558,7 @@
     "7828f17e41634cc486b360146d5681b6": {
       "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 Oliver Bearman",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-japanese-gp-2026-oliver-bearman/18s1258-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/d9/8a/1e/1784555303/7a97f0ae2c724b8fb1ebb7f79bfd5e8b.webp?ts=1784555303",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/16/84/3c/1789352134/5953fe0b3b9e42f0a241a2000a2b9258.webp?ts=1789352134",
       "availability": "Not available – pre-orders possible"
     },
     "78b9e9710ce543789ce11208237c4917": {
@@ -918,7 +918,7 @@
     "d50e754fac134120b0eb96b056d04017": {
       "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 Esteban Ocon",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-japanese-gp-2026-esteban-ocon/18s1257-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/f2/4b/1784555298/8cb1bbcce928494fba2305495f687b15.webp?ts=1784555298",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/84/99/93/1789351969/7d4416d9860a42a6a8a44b010c4cadc9.webp?ts=1789351969",
       "availability": "Not available – pre-orders possible"
     },
     "d5c05c07d603450b9d76945428fedab7": {
@@ -1081,7 +1081,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "b46dea93da884a55b86bcfaf49704c61"
+      "7828f17e41634cc486b360146d5681b6",
+      "d50e754fac134120b0eb96b056d04017"
     ],
     "removed": []
   }
