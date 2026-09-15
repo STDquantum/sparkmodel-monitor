@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:33:07.028886+00:00",
+  "generated_at": "2026-09-15T12:14:30.336857+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -4374,6 +4374,142 @@
       "price": "89",
       "currency": "EUR",
       "gtin": "9580006993953",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "6b21b9bf9372448693c070f76440a93d",
+      "name": "Ferrari SF-26 No.16 Italian GP 2026 Charles Leclerc",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/ls18f1092-de",
+      "images": [
+        "images/6b21b9bf9372448693c070f76440a93d-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Manufacturer": "Looksmart",
+        "Product number": "LS18F1092"
+      },
+      "description": "GTIN/EAN: 9580006152428",
+      "brand": "Looksmart",
+      "price": "270",
+      "currency": "EUR",
+      "gtin": "9580006152428",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "7ae16a2b9fc14043be3d3ac24c667bc2",
+      "name": "Ferrari SF-26 No.16 Italian GP 2026 Charles Leclerc",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/lsf1093-de",
+      "images": [
+        "images/7ae16a2b9fc14043be3d3ac24c667bc2-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Looksmart",
+        "Product number": "LSF1093"
+      },
+      "description": "GTIN/EAN: 9580006145574",
+      "brand": "Looksmart",
+      "price": "115",
+      "currency": "EUR",
+      "gtin": "9580006145574",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "7d6ecd3ca3194fd2865fef1c65d825cd",
+      "name": "Charles Leclerc – Scuderia Ferrari HP Italian GP 2026",
+      "url": "https://www.sparkmodelshop.com/de/en/charles-leclerc-scuderia-ferrari-hp-italian-gp-2026/lshel039-de",
+      "images": [
+        "images/7d6ecd3ca3194fd2865fef1c65d825cd-1.webp"
+      ],
+      "properties": {
+        "Scale": "1/5",
+        "Year": "2026",
+        "Manufacturer": "Looksmart",
+        "Product number": "LSHEL039"
+      },
+      "description": "GTIN/EAN: 9580006145598",
+      "brand": "Looksmart",
+      "price": "64.95",
+      "currency": "EUR",
+      "gtin": "9580006145598",
+      "weight": "0.2 kg",
+      "length": "75 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "8b147f9b494b4cdab731e7224b121009",
+      "name": "Lewis Hamilton – Scuderia Ferrari HP Italian GP 2026",
+      "url": "https://www.sparkmodelshop.com/de/en/lewis-hamilton-scuderia-ferrari-hp-italian-gp-2026/lshel038-de",
+      "images": [
+        "images/8b147f9b494b4cdab731e7224b121009-1.webp"
+      ],
+      "properties": {
+        "Scale": "1/5",
+        "Year": "2026",
+        "Manufacturer": "Looksmart",
+        "Product number": "LSHEL038"
+      },
+      "description": "GTIN/EAN: 9580006145581",
+      "brand": "Looksmart",
+      "price": "64.95",
+      "currency": "EUR",
+      "gtin": "9580006145581",
+      "weight": "0.2 kg",
+      "length": "75 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "9b3b14edd3304275bd6bf69b254070b8",
+      "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/ls18f1091-de",
+      "images": [
+        "images/9b3b14edd3304275bd6bf69b254070b8-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Manufacturer": "Looksmart",
+        "Product number": "LS18F1091"
+      },
+      "description": "GTIN/EAN: 9580006152411",
+      "brand": "Looksmart",
+      "price": "270",
+      "currency": "EUR",
+      "gtin": "9580006152411",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "f25149ad954e42318cfe19e29f4199a5",
+      "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/lsf1092-de",
+      "images": [
+        "images/f25149ad954e42318cfe19e29f4199a5-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Looksmart",
+        "Product number": "LSF1092"
+      },
+      "description": "GTIN/EAN: 9580006145567",
+      "brand": "Looksmart",
+      "price": "115",
+      "currency": "EUR",
+      "gtin": "9580006145567",
       "weight": "0.18 kg",
       "length": "100 mm",
       "availability": "Not available – pre-orders possible"

@@ -12,8 +12,8 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-14T16:32:57.385759+00:00",
-  "total": 177,
+  "updated_at": "2026-09-15T12:14:26.805190+00:00",
+  "total": 183,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell",
@@ -507,6 +507,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f8/83/73/1784563148/ba8620194ace4589910fd36d2abc3d95.webp?ts=1784563148",
       "availability": "Not available – pre-orders possible"
     },
+    "6b21b9bf9372448693c070f76440a93d": {
+      "name": "Ferrari SF-26 No.16 Italian GP 2026 Charles Leclerc",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/ls18f1092-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/02/32/5e/1789464636/8986de4519bc492eb0997a9e8f705707.webp?ts=1789464636",
+      "availability": "Not available – pre-orders possible"
+    },
     "6b55fbddb0c1476ba8bdcec755fd4c02": {
       "name": "Charles Leclerc – Scuderia Ferrari HP Monaco GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/charles-leclerc-scuderia-ferrari-hp-monaco-gp-2026/lshel036-de",
@@ -579,6 +585,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/cd/c2/40/1784566855/ad15397f68ce40f096d5c1fb70426838.webp?ts=1784566855",
       "availability": "Not available – pre-orders possible"
     },
+    "7ae16a2b9fc14043be3d3ac24c667bc2": {
+      "name": "Ferrari SF-26 No.16 Italian GP 2026 Charles Leclerc",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/lsf1093-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8a/3f/76/1789464630/225e8fb20cef41ba86fd8da20a5c8305.webp?ts=1789464643",
+      "availability": "Not available – pre-orders possible"
+    },
     "7b5a83eb17d744f7a104cb146a9de2a5": {
       "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 Oliver Bearman",
       "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-5th-chinese-gp-2026-oliver-bearman/18s1266-de",
@@ -595,6 +607,12 @@
       "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 Franco Colapinto",
       "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.43-10th-chinese-gp-2026-franco-colapinto/64s129-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/04/fc/58/1784560944/9014fe574dd948fb89f7e69b68cfc989.webp?ts=1784560944",
+      "availability": "Not available – pre-orders possible"
+    },
+    "7d6ecd3ca3194fd2865fef1c65d825cd": {
+      "name": "Charles Leclerc – Scuderia Ferrari HP Italian GP 2026",
+      "url": "https://www.sparkmodelshop.com/de/en/charles-leclerc-scuderia-ferrari-hp-italian-gp-2026/lshel039-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/74/89/3c/1789464641/7bd60a4006744b27a0265d3f0db30273.webp?ts=1789464641",
       "availability": "Not available – pre-orders possible"
     },
     "7f256deb670c4015a3b5e3ad214e0c2f": {
@@ -651,6 +669,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/25/a8/e6/1784864773/eafcc8b8e0a142be8f3d2a715fb93332.webp?ts=1784864773",
       "availability": "Not available – pre-orders possible"
     },
+    "8b147f9b494b4cdab731e7224b121009": {
+      "name": "Lewis Hamilton – Scuderia Ferrari HP Italian GP 2026",
+      "url": "https://www.sparkmodelshop.com/de/en/lewis-hamilton-scuderia-ferrari-hp-italian-gp-2026/lshel038-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/64/e7/ca/1789464644/110ca87de653490799adda882b7868be.webp?ts=1789464644",
+      "availability": "Not available – pre-orders possible"
+    },
     "8d687c7be6724325a27f896d1728b714": {
       "name": "Ferrari SF-26 No.16 Winner British GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/ls18f1087-de",
@@ -679,6 +703,12 @@
       "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls64037-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp?ts=1784563334",
+      "availability": "Not available – pre-orders possible"
+    },
+    "9b3b14edd3304275bd6bf69b254070b8": {
+      "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/ls18f1091-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/37/c8/1789464628/2352c4a812634f09942fd4441d4d9286.webp?ts=1789464644",
       "availability": "Not available – pre-orders possible"
     },
     "9c53865506094e5cbff0357af0f10d3f": {
@@ -1035,6 +1065,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/84/9d/b7/1784555372/f9ae56ce3aa3497890b4c5499151c4cd.webp?ts=1784555372",
       "availability": "Not available – pre-orders possible"
     },
+    "f25149ad954e42318cfe19e29f4199a5": {
+      "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
+      "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/lsf1092-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/21/c1/b0/1789464638/e18bfe2ac4ef4ffb834acb6e4439ba9a.webp?ts=1789464638",
+      "availability": "Not available – pre-orders possible"
+    },
     "f7bdb2e262604bc7acc41611d339e605": {
       "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/ls64033-de",
@@ -1079,11 +1115,15 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "b9a412341702408a81e498440c673dbd",
-      "f9f98c885ce2480c9f3fd49d7e2a3ed5"
+    "added": [
+      "6b21b9bf9372448693c070f76440a93d",
+      "7ae16a2b9fc14043be3d3ac24c667bc2",
+      "7d6ecd3ca3194fd2865fef1c65d825cd",
+      "8b147f9b494b4cdab731e7224b121009",
+      "9b3b14edd3304275bd6bf69b254070b8",
+      "f25149ad954e42318cfe19e29f4199a5"
     ],
+    "changed": [],
     "removed": []
   }
 }
