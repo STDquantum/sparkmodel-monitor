@@ -12,7 +12,7 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-17T10:04:59.384998+00:00",
+  "updated_at": "2026-09-18T09:11:11.257234+00:00",
   "total": 185,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -865,7 +865,7 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team - Kimi Antonelli - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-kimi-antonelli-2026/5hf242-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7a/a1/22/1784559394/2c036205770147ef9388cee4c246a1d2.webp?ts=1784559394",
-      "availability": "Sold out"
+      "availability": "Available immediately"
     },
     "bab5bbccdb114f3aa94965ed57bfd36e": {
       "name": "Aston Martin Aramco Formula One Team AMR26 No.18 Japanese GP 2026 Lance Stroll",
@@ -1127,10 +1127,7 @@
     }
   },
   "changes": {
-    "added": [
-      "64fbdbeb461948dda957227853590978",
-      "b88624128a6648b48fadee2d79f49da1"
-    ],
+    "added": [],
     "changed": [
       "b9a412341702408a81e498440c673dbd"
     ],
