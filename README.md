@@ -33,7 +33,6 @@
 - `docs/catalog.json`：静态页面使用的商品数据。
 - `docs/images/`：下载到本地的商品图片。
 - `.github/workflows/monitor.yml`：定时监控、建站和自动提交工作流。
-- `test_monitor.py`：列表解析、详情解析和变化比较测试。
 
 ## GitHub 部署
 
@@ -47,11 +46,10 @@
 
 工作流会执行以下步骤：
 
-1. 运行测试。
-2. 抓取商品列表并发送必要的钉钉通知。
-3. 检查 `state.json` 是否变化；无变化时跳过详情爬虫。
-4. 有变化时运行 `catalog.py`，仅更新发生变化的商品详情、图片和静态页面数据，并删除已下架商品的图片。
-5. 自动提交并推送 `state.json` 和 `docs/`。
+1. 抓取商品列表并发送必要的钉钉通知。
+2. 检查 `state.json` 是否变化；无变化时跳过详情爬虫。
+3. 有变化时运行 `catalog.py`，仅更新发生变化的商品详情、图片和静态页面数据，并删除已下架商品的图片。
+4. 自动提交并推送 `state.json` 和 `docs/`。
 
 定时表达式是 `17 * * * *`。GitHub 定时任务可能延迟几分钟，并非严格在每小时第 17 分钟启动。
 
@@ -76,7 +74,6 @@ PowerShell：
 $env:DINGTALK_WEBHOOK='你的钉钉机器人完整地址'
 $env:DINGTALK_KEYWORD='钉钉机器人配置的关键词'
 
-python -m unittest -v
 python monitor.py
 ```
 
