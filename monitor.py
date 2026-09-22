@@ -9,11 +9,14 @@ from http.client import IncompleteRead
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qsl, urlencode, urlparse, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 SEARCH_URL = "https://www.sparkmodelshop.com/de/en/search"
 SEARCH_PROPERTY = "881036a7528b682be67aa6e2c171e1de"
+SPARK_API_URL = "https://rapi.sparkmodel.com/products"
+SPARK_SITE_URL = "https://www.sparkmodel.com"
+LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
 TEAM_SEARCHES = (
     "BWT Alpine Formula One Team",
     "Aston Martin Aramco Formula One Team",
@@ -27,6 +30,17 @@ TEAM_SEARCHES = (
     "Oracle Red Bull Racing",
     "Atlassian Williams",
 )
+SPARK_2025_SEARCHES = (
+    "C45",
+    "A525",
+    "FW47",
+    "MCL39",
+    "W16",
+    "RB21",
+    "VF-25",
+    "VCARB 02",
+    "AMR25",
+)
 STATE_FILE = Path(__file__).with_name("state.json")
 CATALOG_FILE = Path(__file__).with_name("docs") / "catalog.json"
 USER_AGENT = "sparkmodel-shop-change-monitor/1.0 (+GitHub Actions)"
@@ -36,7 +50,23 @@ def search_url(search):
     return f"{SEARCH_URL}?{urlencode({'properties': SEARCH_PROPERTY, 'p': 1, 'order': 'score', 'search': search})}"
 
 
-SOURCE_URLS = tuple(search_url(search) for search in TEAM_SEARCHES)
+def spark_2025_url(search, page=1):
+    filters = json.dumps(['year = "2025"'])
+    params = {
+        'q': search,
+        'page_number': page,
+        'page_size': 48,
+        'filters': filters,
+        'facets': '[]',
+    }
+    return f"{SPARK_API_URL}?{urlencode(params)}"
+
+
+SOURCE_URLS = (
+    *(search_url(search) for search in TEAM_SEARCHES),
+    *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
+    LOOKSMART_SEARCH_URL,
+)
 
 
 def ferrari_match(name):
@@ -127,6 +157,88 @@ class ListingParser(HTMLParser):
             self.box_depth = None
 
 
+class LooksmartListingParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.li_depth = 0
+        self.div_depth = 0
+        self.current = None
+        self.items = []
+        self.capture = None
+        self.text = []
+        self.next_url = ""
+
+    def handle_starttag(self, tag, attrs):
+        attributes = dict(attrs)
+        classes = attributes.get("class", "").split()
+        if tag == "div":
+            self.div_depth += 1
+        if tag == "li":
+            self.li_depth += 1
+            if self.current is None and "product" in classes and "type-product" in classes:
+                post_class = next((value for value in classes if re.fullmatch(r"post-\d+", value)), "")
+                self.current = {"product_id": post_class.removeprefix("post-")}
+                self.current_depth = self.li_depth
+        if tag == "a" and "next" in classes and "page-numbers" in classes:
+            self.next_url = attributes.get("href", "")
+        if self.current is None:
+            return
+        if tag == "a" and "woocommerce-loop-image-link" in classes:
+            self.current["url"] = attributes.get("href", "")
+        elif tag == "img" and "image_url" not in self.current:
+            self.current["image_url"] = attributes.get("data-src") or attributes.get("src", "")
+        elif tag == "h2" and "woocommerce-loop-product__title" in classes:
+            self.capture = "name"
+            self.text = []
+        elif tag == "div" and "product-excerpt" in classes:
+            self.capture = "excerpt"
+            self.text = []
+            self.excerpt_depth = self.div_depth
+        elif tag == "br" and self.capture:
+            self.text.append(" ")
+
+    def handle_data(self, data):
+        if self.capture:
+            self.text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "h2" and self.capture == "name":
+            self.current["name"] = " ".join("".join(self.text).split())
+            self.capture = None
+        if tag == "div":
+            if self.capture == "excerpt" and self.div_depth == self.excerpt_depth:
+                text = " ".join("".join(self.text).split())
+                self.current["excerpt"] = text
+                self.capture = None
+            self.div_depth -= 1
+        if tag != "li":
+            return
+        self.li_depth -= 1
+        if self.current is not None and self.li_depth < self.current_depth:
+            if self.current.get("product_id") and self.current.get("url") and self.current.get("name"):
+                self.items.append(self.current)
+            self.current = None
+
+
+def parse_looksmart_listing(html):
+    parser = LooksmartListingParser()
+    parser.feed(html)
+    for item in parser.items:
+        excerpt = item.pop("excerpt", "")
+        code = re.search(r"Product\s+code\s*:\s*([\w-]+)", excerpt, re.I)
+        availability = re.search(r"A(?:vailability|valiability)\s*:\s*(.+?)(?:\s+Quick View|$)", excerpt, re.I)
+        scale = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", f"{item['name']} {excerpt}", re.I)
+        item.update({
+            "source": "looksmart",
+            "year": "2025",
+            "manufacturer": "Ferrari",
+            "product_number": code.group(1) if code else "",
+            "scale": f"1/{scale.group(1)}" if scale else "",
+            "availability": availability.group(1).strip() if availability else "",
+        })
+    return parser.items, parser.next_url
+
+
 def parse_listing(html):
     total_match = next((re.search(pattern, html, re.I) for pattern in (
         r"Showing\s+\d+\s+out\s+of\s+(\d+)\s+products",
@@ -170,10 +282,74 @@ def fetch_search(search):
     raise RuntimeError(f"Pagination exceeded 1000 pages for {search}")
 
 
+def spark_availability(value):
+    return {
+        "CATALOGUE": "Catalogue",
+        "INDEVELOPMENT": "In development",
+        "COMINGSOON": "Coming soon",
+        "LATESTMODELS": "Latest models",
+    }.get(value, value or "")
+
+
+def clean_product_name(value):
+    return re.sub(r"^\s*cancel\s+", "", value or "", flags=re.I)
+
+
+def fetch_spark_2025(search):
+    products = {}
+    total_pages = 1
+    for page in range(1, 1001):
+        payload = json.loads(request(spark_2025_url(search, page)))
+        meta = payload.get("meta", {})
+        total_pages = int(meta.get("total_pages") or 1)
+        for product in payload.get("data", []):
+            product_id = product.get("product_id")
+            if not product_id:
+                continue
+            products[f"spark-2025-{product_id}"] = {
+                "source": "sparkmodel",
+                "source_id": product_id,
+                "name": clean_product_name(product.get("name", "")),
+                "url": f"{SPARK_SITE_URL}/products/{product_id}",
+                "image_url": product.get("primary_image_url", ""),
+                "availability": spark_availability(product.get("webcatalogue_state")),
+                "product_number": product.get("code", ""),
+                "scale": (product.get("scale_name") or "").replace(":", "/"),
+                "year": str(product.get("year") or 2025),
+                "manufacturer": product.get("manufacturer_name", ""),
+            }
+        if page >= total_pages:
+            return products
+    raise RuntimeError(f"Pagination exceeded 1000 pages for Spark {search}")
+
+
+def fetch_looksmart():
+    products = {}
+    url = LOOKSMART_SEARCH_URL
+    seen_pages = set()
+    for _ in range(100):
+        if url in seen_pages:
+            raise RuntimeError("Looksmart pagination loop detected")
+        seen_pages.add(url)
+        rows, next_url = parse_looksmart_listing(request(url))
+        for row in rows:
+            product_id = row.pop("product_id")
+            products[f"looksmart-{product_id}"] = row
+        if not next_url:
+            if not products:
+                raise RuntimeError("Looksmart SF-25 search returned no products")
+            return products
+        url = urljoin(url, next_url)
+    raise RuntimeError("Looksmart pagination exceeded 100 pages")
+
+
 def fetch_all():
     products = {}
     for search in TEAM_SEARCHES:
         products.update(fetch_search(search))
+    for search in SPARK_2025_SEARCHES:
+        products.update(fetch_spark_2025(search))
+    products.update(fetch_looksmart())
     return products
 
 
@@ -182,7 +358,7 @@ def load_state():
         return None
     with STATE_FILE.open(encoding="utf-8") as file:
         state = json.load(file)
-    return state.get("items") if state.get("sources") == list(SOURCE_URLS) else None
+    return state.get("items")
 
 
 def compare(old, new):
@@ -218,8 +394,11 @@ def catalog_metadata():
 def with_metadata(items, metadata, fetch_missing=False):
     result = []
     for item in items:
-        details = metadata.get(item["product_id"])
-        if details is None and fetch_missing:
+        details = metadata.get(item["product_id"]) or {
+            "product_number": item.get("product_number", ""),
+            "scale": item.get("scale", ""),
+        }
+        if not any(details.values()) and fetch_missing and item.get("source", "sparkmodelshop") == "sparkmodelshop":
             from catalog import parse_detail
             _, properties, _ = parse_detail(request(item["url"]))
             details = {

@@ -4,8 +4,20 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import MagicMock, patch
 
-from catalog import parse_detail, refresh_ids, remove_images, remove_unused_images
-from monitor import TEAM_SEARCHES, availability_label, build_message, compare, ferrari_match, parse_listing, request
+from catalog import parse_detail, parse_looksmart_detail, refresh_ids, remove_images, remove_unused_images
+from monitor import (
+    SPARK_2025_SEARCHES,
+    TEAM_SEARCHES,
+    availability_label,
+    build_message,
+    clean_product_name,
+    compare,
+    ferrari_match,
+    parse_listing,
+    parse_looksmart_listing,
+    request,
+    spark_availability,
+)
 
 
 class CompareTest(unittest.TestCase):
@@ -94,6 +106,8 @@ class CompareTest(unittest.TestCase):
 
     def test_team_sources_and_ferrari_filter(self):
         self.assertEqual(len(TEAM_SEARCHES), 11)
+        self.assertEqual(SPARK_2025_SEARCHES[0], "C45")
+        self.assertEqual(SPARK_2025_SEARCHES[-1], "AMR25")
         self.assertTrue(ferrari_match("Scuderia Ferrari HP SF-26 No.16"))
         self.assertTrue(ferrari_match("Ferrari SF-26 No.44"))
         self.assertFalse(ferrari_match("Ferrari 499P"))
@@ -109,6 +123,35 @@ class CompareTest(unittest.TestCase):
         self.assertEqual(fields["description"], "A fast car")
         self.assertEqual(properties, {"Scale": "1/43"})
         self.assertEqual(images, ["https://example.test/a.webp"])
+
+    def test_spark_availability_labels(self):
+        self.assertEqual(spark_availability("INDEVELOPMENT"), "In development")
+        self.assertEqual(spark_availability("LATESTMODELS"), "Latest models")
+        self.assertEqual(clean_product_name("cancel\nWilliams FW47"), "Williams FW47")
+
+    def test_looksmart_listing_parser(self):
+        html = '''<ul><li class="entry product type-product post-20508">
+        <a class="woocommerce-loop-image-link" href="https://example.test/model"><img src="https://example.test/cover.jpg"></a>
+        <h2 class="woocommerce-loop-product__title"><a>Ferrari SF-25 Miami GP 2025 Lewis Hamilton 1:43</a></h2>
+        <div class="product-excerpt"><p>Product code: LSF1077<br>Availability: Yes</p></div></li></ul>'''
+        items, next_url = parse_looksmart_listing(html)
+        self.assertEqual(next_url, "")
+        self.assertEqual(items[0]["product_id"], "20508")
+        self.assertEqual(items[0]["product_number"], "LSF1077")
+        self.assertEqual(items[0]["scale"], "1/43")
+        self.assertEqual(items[0]["availability"], "Yes")
+
+    def test_looksmart_detail_parser(self):
+        html = '''<div class="woocommerce-product-gallery__wrapper"><div class="woocommerce-product-gallery__image">
+        <a href="https://example.test/a.jpg"><img data-large_image="https://example.test/a.jpg"></a></div></div>
+        <h1 class="product_title">Ferrari SF-25</h1><div class="woocommerce-product-details__short-description">
+        Ferrari SF-25 <strong>Product Code:</strong> LSF1077 <strong>Color:</strong> Race Livery
+        <strong>Availability:</strong> Yes</div>'''
+        fields, images = parse_looksmart_detail(html)
+        self.assertEqual(fields["name"], "Ferrari SF-25")
+        self.assertEqual(fields["sku"], "LSF1077")
+        self.assertEqual(fields["availability"], "Yes")
+        self.assertEqual(images, ["https://example.test/a.jpg"])
 
     def test_catalog_refreshes_only_changed_and_missing_products(self):
         items = {"kept": {}, "changed": {}, "added": {}, "missing": {}}

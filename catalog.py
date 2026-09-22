@@ -2,6 +2,7 @@
 import json
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -84,6 +85,82 @@ class DetailParser(HTMLParser):
             self.div_depth -= 1
 
 
+class LooksmartDetailParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.div_depth = 0
+        self.capture = None
+        self.capture_depth = None
+        self.gallery_depth = None
+        self.text = []
+        self.fields = {}
+        self.images = []
+
+    def handle_starttag(self, tag, attrs):
+        attributes = dict(attrs)
+        classes = attributes.get("class", "").split()
+        if tag == "div":
+            self.div_depth += 1
+            if "woocommerce-product-gallery__wrapper" in classes:
+                self.gallery_depth = self.div_depth
+            if "woocommerce-product-details__short-description" in classes:
+                self.capture = "description"
+                self.capture_depth = self.div_depth
+                self.text = []
+        if tag == "h1" and ("product_title" in classes or "entry-title" in classes):
+            self.capture = "name"
+            self.text = []
+        elif tag == "span" and "sku" in classes:
+            self.capture = "sku"
+            self.text = []
+        elif tag == "a" and self.gallery_depth is not None:
+            href = attributes.get("href", "")
+            if self.div_depth and "/wp-content/uploads/" in href and href not in self.images:
+                self.images.append(href)
+        elif tag == "img" and self.gallery_depth is not None:
+            url = attributes.get("data-large_image") or attributes.get("data-src") or attributes.get("src")
+            if url and url not in self.images:
+                self.images.append(url)
+        elif tag == "br" and self.capture:
+            self.text.append(" ")
+
+    def handle_data(self, data):
+        if self.capture:
+            self.text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "h1" and self.capture == "name":
+            self.fields["name"] = " ".join("".join(self.text).split())
+            self.capture = None
+        elif tag == "span" and self.capture == "sku":
+            self.fields["sku"] = " ".join("".join(self.text).split())
+            self.capture = None
+        if tag == "div":
+            if self.capture == "description" and self.div_depth == self.capture_depth:
+                description = " ".join("".join(self.text).split())
+                self.fields["description"] = description
+                code = re.search(r"Product\s+Code\s*:\s*([\w-]+)", description, re.I)
+                color = re.search(r"Color\s*:\s*(.+?)(?=\s+A(?:vailability|valiability)\s*:|$)", description, re.I)
+                availability = re.search(r"A(?:vailability|valiability)\s*:\s*(.+?)(?=\s+CHECK OTHER|$)", description, re.I)
+                if code:
+                    self.fields["sku"] = code.group(1)
+                if color:
+                    self.fields["color"] = color.group(1).strip()
+                if availability:
+                    self.fields["availability"] = availability.group(1).strip()
+                self.capture = None
+                self.capture_depth = None
+            if self.gallery_depth == self.div_depth:
+                self.gallery_depth = None
+            self.div_depth -= 1
+
+
+def parse_looksmart_detail(html):
+    parser = LooksmartDetailParser()
+    parser.feed(html)
+    return parser.fields, parser.images
+
+
 def parse_detail(html):
     parser = DetailParser()
     parser.feed(html)
@@ -143,6 +220,76 @@ def refresh_ids(items, products, changes):
 
 
 def build_product(product_id, listing):
+    source = listing.get("source", "sparkmodelshop")
+    if source == "sparkmodel":
+        source_id = listing.get("source_id") or product_id.removeprefix("spark-2025-")
+        detail = json.loads(monitor.request(f"{monitor.SPARK_API_URL}/{source_id}"))
+        image_payload = json.loads(monitor.request(f"{monitor.SPARK_API_URL}/{source_id}/images?sort=position"))
+        images = [
+            f"https://minimax.fra1.cdn.digitaloceanspaces.com/published/{filename}-desktop-2x.webp"
+            for filename in image_payload.get("data", []) if filename
+        ]
+        if not images and listing.get("image_url"):
+            images = [listing["image_url"]]
+        local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
+        remove_images(product_id, (Path(image).name for image in local_images))
+        properties = {
+            "Manufacturer": detail.get("manufacturer_name") or listing.get("manufacturer", ""),
+            "Material": detail.get("material_name", ""),
+            "Model": detail.get("model_fullname") or detail.get("model_name", ""),
+            "Scale": (detail.get("scale", {}).get("name") or listing.get("scale", "")).replace(":", "/"),
+            "Year": str(detail.get("year") or listing.get("year", "")),
+            "Product number": detail.get("code") or listing.get("product_number", ""),
+            "Driver": detail.get("ranking_driver_names", ""),
+            "Grand Prix": detail.get("ranking_competition_name", ""),
+            "Result": detail.get("ranking_rank_name", ""),
+        }
+        return {
+            "id": product_id,
+            "name": monitor.clean_product_name(detail.get("name") or listing["name"]),
+            "url": listing["url"],
+            "images": local_images,
+            "properties": {key: value for key, value in properties.items() if value},
+            "description": "",
+            "brand": "Spark",
+            "price": "",
+            "currency": "",
+            "gtin": "",
+            "weight": "",
+            "length": "",
+            "availability": listing.get("availability", ""),
+        }
+    if source == "looksmart":
+        fields, images = parse_looksmart_detail(monitor.request(listing["url"]))
+        if not images and listing.get("image_url"):
+            images = [listing["image_url"]]
+        local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
+        remove_images(product_id, (Path(image).name for image in local_images))
+        scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", fields.get("name") or listing["name"], re.I)
+        scale = listing.get("scale") or (f"1/{scale_match.group(1)}" if scale_match else "")
+        properties = {
+            "Manufacturer": "Ferrari",
+            "Model": "SF-25",
+            "Scale": scale,
+            "Year": "2025",
+            "Product number": fields.get("sku") or listing.get("product_number", ""),
+            "Color": fields.get("color", ""),
+        }
+        return {
+            "id": product_id,
+            "name": fields.get("name") or listing["name"],
+            "url": listing["url"],
+            "images": local_images,
+            "properties": {key: value for key, value in properties.items() if value},
+            "description": fields.get("description", ""),
+            "brand": "Looksmart",
+            "price": "",
+            "currency": "",
+            "gtin": "",
+            "weight": "",
+            "length": "",
+            "availability": fields.get("availability") or listing.get("availability", ""),
+        }
     fields, properties, images = parse_detail(monitor.request(listing["url"]))
     local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
     remove_images(product_id, (Path(image).name for image in local_images))
@@ -172,10 +319,14 @@ def build_catalog():
     for product_id in removed:
         products.pop(product_id, None)
         remove_images(product_id)
-    for number, product_id in enumerate(refresh_ids(items, products, state.get("changes", {})), start=1):
-        products[product_id] = build_product(product_id, items[product_id])
-        print(f"[{number}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))")
-    catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": list(products.values())}
+    product_ids = refresh_ids(items, products, state.get("changes", {}))
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = {executor.submit(build_product, product_id, items[product_id]): product_id for product_id in product_ids}
+        for number, future in enumerate(as_completed(futures), start=1):
+            product_id = futures[future]
+            products[product_id] = future.result()
+            print(f"[{number}/{len(product_ids)}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))", flush=True)
+    catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": [products[key] for key in sorted(products)]}
     CATALOG_FILE.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     remove_unused_images(catalog["products"])
     print(f"Updated {len(products)} products in {DOCS}")
