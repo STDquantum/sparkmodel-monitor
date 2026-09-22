@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:39:16.976880+00:00",
+  "generated_at": "2026-09-22T11:06:10.444539+00:00",
   "products": [
     {
       "id": "16b048a0e0ea478c85dea034095f8f79",
@@ -2770,7 +2770,9 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 Oscar Piastri With pit board",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.81-2nd-japanese-gp-2026-oscar-piastri-with-pit-board/s9379-de",
       "images": [
-        "images/dc7ac9c27d6e47eeacbf6d6c126140ca-1.webp"
+        "images/dc7ac9c27d6e47eeacbf6d6c126140ca-1.webp",
+        "images/dc7ac9c27d6e47eeacbf6d6c126140ca-2.webp",
+        "images/dc7ac9c27d6e47eeacbf6d6c126140ca-3.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -4559,6 +4561,305 @@
       "gtin": "9581677500457",
       "weight": "0.06 kg",
       "length": "70 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "0c5863be41f44715bff4ad2ad9789bb3",
+      "name": "Atlassian Williams F1 Team FW47 No.55 Madrid GP 2026 Carlos Sainz Jr",
+      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw47-no.55-madrid-gp-2026-carlos-sainz-jr/s9318-de",
+      "images": [
+        "images/0c5863be41f44715bff4ad2ad9789bb3-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9318"
+      },
+      "description": "GTIN/EAN: 9580006993182",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993182",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "178abe5249d243f79c397a6d0f64b9a5",
+      "name": "Atlassian Williams F1 Team FW47 No.23 Madrid GP 2026 Alex Albon",
+      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw47-no.23-madrid-gp-2026-alex-albon/s9317-de",
+      "images": [
+        "images/178abe5249d243f79c397a6d0f64b9a5-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9317"
+      },
+      "description": "GTIN/EAN: 9580006993175",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993175",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "5b7638526c7440b6b18c3ab4240949f2",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 Winner Dutch GP 2026 Lando Norris (With figurine and pit boards)",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-winner-dutch-gp-2026-lando-norris-with-figurine-and-pit-boards/s9327-de",
+      "images": [
+        "images/5b7638526c7440b6b18c3ab4240949f2-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9327"
+      },
+      "description": "GTIN/EAN: 9580006993274",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993274",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "66b578812c7049f682a86f03e51dbc40",
+      "name": "Mercedes - AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 - Kimi Antonelli ( with figurine, with number and pit board )",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-with-number-and-pit-board/18s1277-de",
+      "images": [
+        "images/66b578812c7049f682a86f03e51dbc40-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "18S1277"
+      },
+      "description": "GTIN/EAN: 9581677812772",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677812772",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "67699c43d0a84c039ba106552cdda293",
+      "name": "BWT Alpine Formula One Team A526 No.10 Italian GP 2026 First Pole Position - Pierre Gasly (With pit board)",
+      "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-italian-gp-2026-first-pole-position-pierre-gasly-with-pit-board/s9330-de",
+      "images": [
+        "images/67699c43d0a84c039ba106552cdda293-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9330"
+      },
+      "description": "GTIN/EAN: 9580006993304",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993304",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "698ed225f8484349a4839709ddb5e903",
+      "name": "Mercedes-AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 Kimi Antonelli (With figurine and pit boards)",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-and-pit-boards/s9329-de",
+      "images": [
+        "images/698ed225f8484349a4839709ddb5e903-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9329"
+      },
+      "description": "GTIN/EAN: 9580006993298",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993298",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "6a1f8b21cb334fbaba4b84355806906d",
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 5th Italian GP 2026 Oscar Piastri",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.81-5th-italian-gp-2026-oscar-piastri/s9331-de",
+      "images": [
+        "images/6a1f8b21cb334fbaba4b84355806906d-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9331"
+      },
+      "description": "GTIN/EAN: 9580006993311",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993311",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "a002e320dded4d62b2a6a0a93e1ffd7c",
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.22 Dutch GP 2026 Yuki Tsunoda",
+      "url": "https://www.sparkmodelshop.com/de/en/visa-cash-app-racing-bulls-formula-one-team-vcarb-03-no.22-dutch-gp-2026-yuki-tsunoda/s9325-de",
+      "images": [
+        "images/a002e320dded4d62b2a6a0a93e1ffd7c-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9325"
+      },
+      "description": "GTIN/EAN: 9580006993250",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993250",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "b999b6e4f0bd4a1d8393402a4167eea5",
+      "name": "BWT Alpine Formula One Team A526 No.10 First Pole Italian GP 2026 - Pierre Gasly",
+      "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-first-pole-italian-gp-2026-pierre-gasly/18s1278-de",
+      "images": [
+        "images/b999b6e4f0bd4a1d8393402a4167eea5-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "18S1278"
+      },
+      "description": "GTIN/EAN: 9581677812789",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677812789",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "c780a8ad1c5d4ad0adfbdd073aeff128",
+      "name": "McLaren Mastercard F1 Team MCL40 - 5th Italian GP 2026 - Oscar Piastri ( special OK liveries )",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-5th-italian-gp-2026-oscar-piastri-special-ok-liveries/18s1279-de",
+      "images": [
+        "images/c780a8ad1c5d4ad0adfbdd073aeff128-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "18S1279"
+      },
+      "description": "GTIN/EAN: 9581677812796",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677812796",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "e95c1739a8054e23a9857716160d8325",
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 3rd Madrid GP 2026 Lando Norris",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-3rd-madrid-gp-2026-lando-norris/s9316-de",
+      "images": [
+        "images/e95c1739a8054e23a9857716160d8325-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9316"
+      },
+      "description": "GTIN/EAN: 9580006993168",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993168",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "f5bf3c5d28c441e9a0276724528d6d55",
+      "name": "Oracle Red Bull Racing RB22 No.3 2nd Madrid GP 2026 Max Verstappen",
+      "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.3-2nd-madrid-gp-2026-max-verstappen/s9315-de",
+      "images": [
+        "images/f5bf3c5d28c441e9a0276724528d6d55-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9315"
+      },
+      "description": "GTIN/EAN: 9580006993151",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993151",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "f7022316a87d412c8366e02efbc3a3b2",
+      "name": "Mercedes-AMG Petronas Formula 1 Team W17 No.12 Winner Madrid GP 2026 Kimi Antonelli",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-madrid-gp-2026-kimi-antonelli/s9314-de",
+      "images": [
+        "images/f7022316a87d412c8366e02efbc3a3b2-1.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Manufacturer": "Spark",
+        "Product number": "S9314"
+      },
+      "description": "GTIN/EAN: 9580006993144",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993144",
+      "weight": "0.18 kg",
+      "length": "100 mm",
       "availability": "Not available – pre-orders possible"
     }
   ]

@@ -12,8 +12,8 @@
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?properties=881036a7528b682be67aa6e2c171e1de&p=1&order=score&search=Atlassian+Williams"
   ],
-  "updated_at": "2026-09-19T18:39:11.866895+00:00",
-  "total": 185,
+  "updated_at": "2026-09-22T11:06:01.699211+00:00",
+  "total": 198,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell",
@@ -25,6 +25,12 @@
       "name": "Audi Revolut F1 Team - Gabriel Bortoleto - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/audi-revolut-f1-team-gabriel-bortoleto-2026/5hf254-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3a/6e/6e/1784559551/0534022ab21c43109f61ddf6a12f03c0.webp?ts=1784559551",
+      "availability": "Not available – pre-orders possible"
+    },
+    "0c5863be41f44715bff4ad2ad9789bb3": {
+      "name": "Atlassian Williams F1 Team FW47 No.55 Madrid GP 2026 Carlos Sainz Jr",
+      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw47-no.55-madrid-gp-2026-carlos-sainz-jr/s9318-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7c/5b/0b/1790071558/c9b639e303174b95b6a1455e8a5c43a3.webp?ts=1790071582",
       "availability": "Not available – pre-orders possible"
     },
     "0cae4fbedc5545a5a89a83da61189435": {
@@ -91,6 +97,12 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 Kimi Antonelli",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-chinese-gp-2026-kimi-antonelli/64s141-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3e/fe/6b/1785489664/7d77764c2f3441cdbc4ae3dea01934e9.webp?ts=1785489683",
+      "availability": "Not available – pre-orders possible"
+    },
+    "178abe5249d243f79c397a6d0f64b9a5": {
+      "name": "Atlassian Williams F1 Team FW47 No.23 Madrid GP 2026 Alex Albon",
+      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw47-no.23-madrid-gp-2026-alex-albon/s9317-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/00/19/72/1790071574/956d8897c1c04f9baff4ab453370056a.webp?ts=1790071588",
       "availability": "Not available – pre-orders possible"
     },
     "18f048712c464b8eb5b113d520fd9968": {
@@ -423,6 +435,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/85/a4/5f/1784566791/cb27a5be6dfc4368b0cc24bbe0e9ecad.webp?ts=1784566791",
       "availability": "Not available – pre-orders possible"
     },
+    "5b7638526c7440b6b18c3ab4240949f2": {
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 Winner Dutch GP 2026 Lando Norris (With figurine and pit boards)",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-winner-dutch-gp-2026-lando-norris-with-figurine-and-pit-boards/s9327-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5e/65/9c/1790071562/313b58220cfa439d801278d1ce41c06b.webp?ts=1790071584",
+      "availability": "Not available – pre-orders possible"
+    },
     "5c8c5a38cc2c4361bddbbf4e279af36a": {
       "name": "McLaren Mastercard F1 Team - Oscar Piastri - Canadian GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-canadian-gp-2026/5hf265-de",
@@ -489,6 +507,18 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b1/ae/ae/1784566558/818bd913e2bd4e0eaf3bb48164a61841.webp?ts=1784566558",
       "availability": "Not available – pre-orders possible"
     },
+    "66b578812c7049f682a86f03e51dbc40": {
+      "name": "Mercedes - AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 - Kimi Antonelli ( with figurine, with number and pit board )",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-with-number-and-pit-board/18s1277-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bf/3d/43/1790071550/8b129e46c9d441bca649511a21af94da.webp?ts=1790071550",
+      "availability": "Not available – pre-orders possible"
+    },
+    "67699c43d0a84c039ba106552cdda293": {
+      "name": "BWT Alpine Formula One Team A526 No.10 Italian GP 2026 First Pole Position - Pierre Gasly (With pit board)",
+      "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-italian-gp-2026-first-pole-position-pierre-gasly-with-pit-board/s9330-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/96/13/f9/1790071579/28bdf1797b934e4bada6d16d00a7b5ec.webp?ts=1790071579",
+      "availability": "Not available – pre-orders possible"
+    },
     "683190c7efa44eb08baa6e834b419b27": {
       "name": "McLaren Mastercard F1 Team - Oscar Piastri - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-2026/5hf244-de",
@@ -499,6 +529,18 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.63-winner-australian-gp-2026-george-russell/18s1269-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/d0/20/76/1789116996/580b80a4ebbf4f8a9d3d0ec5671ac49a.webp?ts=1789117660",
+      "availability": "Not available – pre-orders possible"
+    },
+    "698ed225f8484349a4839709ddb5e903": {
+      "name": "Mercedes-AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 Kimi Antonelli (With figurine and pit boards)",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-and-pit-boards/s9329-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/07/49/6e/1790071581/63e469a3f1d3453299f08ace71b27a2e.webp?ts=1790071581",
+      "availability": "Not available – pre-orders possible"
+    },
+    "6a1f8b21cb334fbaba4b84355806906d": {
+      "name": "McLaren Mastercard F1 Team MCL40 No.81 5th Italian GP 2026 Oscar Piastri",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.81-5th-italian-gp-2026-oscar-piastri/s9331-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2b/7e/db/1790071565/503c2d9a4aa849d8a7261c87874a4d5f.webp?ts=1790071585",
       "availability": "Not available – pre-orders possible"
     },
     "6a4317789f6d4e33b6d06d748c99bd37": {
@@ -741,6 +783,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/83/cb/1a/1784566834/a7d56b8f050544098b86e86114f65376.webp?ts=1784566834",
       "availability": "Not available – pre-orders possible"
     },
+    "a002e320dded4d62b2a6a0a93e1ffd7c": {
+      "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.22 Dutch GP 2026 Yuki Tsunoda",
+      "url": "https://www.sparkmodelshop.com/de/en/visa-cash-app-racing-bulls-formula-one-team-vcarb-03-no.22-dutch-gp-2026-yuki-tsunoda/s9325-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a5/6d/d4/1790071573/4634dcae48014028af4e2323af4f7b42.webp?ts=1790071588",
+      "availability": "Not available – pre-orders possible"
+    },
     "a0c64ab6a7914a9fbff44d7898158396": {
       "name": "Atlassian Williams F1 Team - Carlos Sainz - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-carlos-sainz-2026/5hf248-de",
@@ -861,6 +909,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/35/56/f6/1784566553/e9ebdaf9febc468d93b454f3cd9bf61a.webp?ts=1784566553",
       "availability": "Not available – pre-orders possible"
     },
+    "b999b6e4f0bd4a1d8393402a4167eea5": {
+      "name": "BWT Alpine Formula One Team A526 No.10 First Pole Italian GP 2026 - Pierre Gasly",
+      "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-first-pole-italian-gp-2026-pierre-gasly/18s1278-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f0/1e/9b/1790071546/4afe77e7ac6e4b7999e50380a04c3a48.webp?ts=1790071551",
+      "availability": "Not available – pre-orders possible"
+    },
     "b9a412341702408a81e498440c673dbd": {
       "name": "Mercedes-AMG PETRONAS Formula One Team - Kimi Antonelli - 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-kimi-antonelli-2026/5hf242-de",
@@ -907,6 +961,12 @@
       "name": "McLaren Mastercard F1 Team MCL40 British GP 2026 Oscar Piastri",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-british-gp-2026-oscar-piastri/s9337-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/09/52/6e/1784566513/1face50224fd40768e4432f8658aeec2.webp?ts=1784566513",
+      "availability": "Not available – pre-orders possible"
+    },
+    "c780a8ad1c5d4ad0adfbdd073aeff128": {
+      "name": "McLaren Mastercard F1 Team MCL40 - 5th Italian GP 2026 - Oscar Piastri ( special OK liveries )",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-5th-italian-gp-2026-oscar-piastri-special-ok-liveries/18s1279-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/95/e6/a4/1790071546/c375181b1326410bbebd5d69c297eddb.webp?ts=1790071546",
       "availability": "Not available – pre-orders possible"
     },
     "ca3e1dc11b47453da7739075043227e5": {
@@ -996,7 +1056,7 @@
     "dc7ac9c27d6e47eeacbf6d6c126140ca": {
       "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 Oscar Piastri With pit board",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.81-2nd-japanese-gp-2026-oscar-piastri-with-pit-board/s9379-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/0c/47/1784566683/0d0e073e638f4e4eb11658b394371879.webp?ts=1784566683",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ce/6a/13/1790065528/c7322d85a4e24801985a0abca0c9a839.webp?ts=1790065528",
       "availability": "Not available – pre-orders possible"
     },
     "dd0233ae00634242af2163829649c056": {
@@ -1041,6 +1101,12 @@
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bf/dd/db/1784566491/febbafe539954a0eae70489a6416e946.webp?ts=1784566491",
       "availability": "Not available – pre-orders possible"
     },
+    "e95c1739a8054e23a9857716160d8325": {
+      "name": "McLaren Mastercard F1 Team MCL40 No.1 3rd Madrid GP 2026 Lando Norris",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-3rd-madrid-gp-2026-lando-norris/s9316-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/be/cc/1c/1790071570/d434a0d923bd4eb7a39d68be1d1fa5eb.webp?ts=1790071586",
+      "availability": "Not available – pre-orders possible"
+    },
     "ec2913149705458da44f0e4261a6e40e": {
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli (With figurine)",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/18s1276-de",
@@ -1081,6 +1147,18 @@
       "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/lsf1092-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/21/c1/b0/1789464638/e18bfe2ac4ef4ffb834acb6e4439ba9a.webp?ts=1789464638",
+      "availability": "Not available – pre-orders possible"
+    },
+    "f5bf3c5d28c441e9a0276724528d6d55": {
+      "name": "Oracle Red Bull Racing RB22 No.3 2nd Madrid GP 2026 Max Verstappen",
+      "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.3-2nd-madrid-gp-2026-max-verstappen/s9315-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/0c/12/61/1790071574/b919d8dd68144226af817fa91dae3c5a.webp?ts=1790071590",
+      "availability": "Not available – pre-orders possible"
+    },
+    "f7022316a87d412c8366e02efbc3a3b2": {
+      "name": "Mercedes-AMG Petronas Formula 1 Team W17 No.12 Winner Madrid GP 2026 Kimi Antonelli",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-madrid-gp-2026-kimi-antonelli/s9314-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/0d/a0/69/1790071562/7fecc7946fbb455ebfbd0cb96846cb26.webp?ts=1790071584",
       "availability": "Not available – pre-orders possible"
     },
     "f7bdb2e262604bc7acc41611d339e605": {
@@ -1127,9 +1205,23 @@
     }
   },
   "changes": {
-    "added": [],
+    "added": [
+      "0c5863be41f44715bff4ad2ad9789bb3",
+      "178abe5249d243f79c397a6d0f64b9a5",
+      "5b7638526c7440b6b18c3ab4240949f2",
+      "66b578812c7049f682a86f03e51dbc40",
+      "67699c43d0a84c039ba106552cdda293",
+      "698ed225f8484349a4839709ddb5e903",
+      "6a1f8b21cb334fbaba4b84355806906d",
+      "a002e320dded4d62b2a6a0a93e1ffd7c",
+      "b999b6e4f0bd4a1d8393402a4167eea5",
+      "c780a8ad1c5d4ad0adfbdd073aeff128",
+      "e95c1739a8054e23a9857716160d8325",
+      "f5bf3c5d28c441e9a0276724528d6d55",
+      "f7022316a87d412c8366e02efbc3a3b2"
+    ],
     "changed": [
-      "b9a412341702408a81e498440c673dbd"
+      "dc7ac9c27d6e47eeacbf6d6c126140ca"
     ],
     "removed": []
   }
