@@ -1,6 +1,6 @@
 # Spark Model Shop Formula 1 变化监控
 
-定时抓取 Spark Model Shop 的 11 个 2026 车队搜索结果、Spark 官网的 9 个 2025 车型查询，以及 Looksmart 官网的 Ferrari SF-25 搜索结果，监控商品新增、下架、封面和 Availability 变化。发现变化后发送钉钉通知，并重新生成可部署到 GitHub Pages 的静态商品目录。2026 Ferrari 搜索结果仅保留标题含 `SF-26` 或 `Scuderia Ferrari HP` 的商品。
+定时抓取 Spark Model Shop 的 11 个 2026 车队搜索结果、Spark 官网的 9 个 2025 车型查询、Looksmart 官网的 Ferrari SF-25 搜索结果，以及 Minichamps 官网的 10 个 2026 车型查询，监控商品新增、下架、封面和 Availability 变化。发现变化后发送钉钉通知，并重新生成可部署到 GitHub Pages 的静态商品目录。2026 Ferrari 搜索结果仅保留标题含 `SF-26` 或 `Scuderia Ferrari HP` 的商品。
 
 项目仅使用 Python 标准库，不需要安装额外依赖。
 

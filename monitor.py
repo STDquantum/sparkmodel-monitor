@@ -8,15 +8,25 @@ from datetime import datetime, timezone
 from http.client import IncompleteRead
 from html.parser import HTMLParser
 from pathlib import Path
+from http.cookiejar import CookieJar
+from threading import RLock
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
+from urllib.request import build_opener, HTTPCookieProcessor
 
 SEARCH_URL = "https://www.sparkmodelshop.com/de/en/search"
 SEARCH_PROPERTY = "881036a7528b682be67aa6e2c171e1de"
 SPARK_API_URL = "https://rapi.sparkmodel.com/products"
 SPARK_SITE_URL = "https://www.sparkmodel.com"
 LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
+MINICHAMPS_URL = "https://www.minichamps.de/liste/"
+MINICHAMPS_SEARCHES = ("W17", "VF-26", "AMR26", "VCARB 03", "MAC-26", "A526", "Audi R26", "RB22", "FW48", "MCL40")
+MINICHAMPS_MODEL_PATTERNS = {
+    "W17": r"\bW17\b", "VF-26": r"\bVF-26\b", "AMR26": r"\bAMR26\b",
+    "VCARB 03": r"\bVCARB\s*03\b", "MAC-26": r"\bMAC-26\b", "A526": r"\bA526\b",
+    "Audi R26": r"\bR26\b", "RB22": r"\bRB22\b", "FW48": r"\bFW48\b", "MCL40": r"\bMCL40\b",
+}
 TEAM_SEARCHES = (
     "BWT Alpine Formula One Team",
     "Aston Martin Aramco Formula One Team",
@@ -44,6 +54,9 @@ SPARK_2025_SEARCHES = (
 STATE_FILE = Path(__file__).with_name("state.json")
 CATALOG_FILE = Path(__file__).with_name("docs") / "catalog.json"
 USER_AGENT = "sparkmodel-shop-change-monitor/1.0 (+GitHub Actions)"
+_MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
+_MINICHAMPS_LOCK = RLock()
+_MINICHAMPS_SESSION_READY = False
 
 
 def search_url(search):
@@ -66,6 +79,7 @@ SOURCE_URLS = (
     *(search_url(search) for search in TEAM_SEARCHES),
     *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
     LOOKSMART_SEARCH_URL,
+    *(f"{MINICHAMPS_URL}?{urlencode({'ixwpst[pa_verfuegbarkeit][0]': '7040', 'ixwpst[pa_verfuegbarkeit][1]': '7039', 'ixwpss': search, 'product-page': 1})}" for search in MINICHAMPS_SEARCHES),
 )
 
 
@@ -155,6 +169,80 @@ class ListingParser(HTMLParser):
             self.items.append(item)
             self.current = None
             self.box_depth = None
+
+
+class MinichampsListingParser(HTMLParser):
+    """Parse Minichamps' custom <li class="dealerliste product"> cards."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.li_depth = 0
+        self.card_depth = None
+        self.current = None
+        self.items = []
+        self.next_url = ""
+        self.capture_name = False
+        self.name_parts = []
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        classes = a.get("class", "").lower().split()
+        if tag == "li":
+            self.li_depth += 1
+            if self.current is None and "product" in classes and "dealerliste" in classes:
+                self.current = {"product_id": a.get("id", "").removeprefix("post-"), "status_classes": classes}
+                self.card_depth = self.li_depth
+                self.card_text = []
+        if tag == "a" and ("next" in classes or "page-numbers" in classes and a.get("aria-label", "").lower() == "next"):
+            self.next_url = a.get("href", "")
+        if self.current is None:
+            return
+        if tag == "a" and a.get("href", "").find("/modelle/") >= 0 and not self.current.get("url"):
+            self.current["url"] = a["href"]
+        if tag == "div" and "background-image" in a.get("style", "") and not self.current.get("image_url"):
+            match = re.search(r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)", a["style"], re.I)
+            if match:
+                self.current["image_url"] = match.group(1)
+        if tag == "h2" and "woocommerce-loop-product__title" in classes:
+            self.capture_name = True
+            self.name_parts = []
+
+    def handle_data(self, data):
+        if self.current is not None:
+            self.card_text.append(data)
+        if getattr(self, "capture_name", False):
+            self.name_parts.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "h2" and self.capture_name:
+            name = " ".join("".join(self.name_parts).split())
+            if name:
+                self.current["name"] = name
+            self.capture_name = False
+        if tag == "li":
+            if self.current is not None and self.li_depth == self.card_depth:
+                url = self.current.get("url", "")
+                name = self.current.get("name", "")
+                if url and name and self.current.get("product_id"):
+                    text = " ".join(" ".join(self.card_text).split())
+                    number = re.search(r"\b\d{6,10}\b", text)
+                    scale = re.search(r"\b1\s*[:/]\s*(\d+)\b", text)
+                    year = re.search(r"\b20\d{2}\b", text)
+                    availability = re.search(r"This model is available on ([^.]+?)(?:\s+Delivery|$)", text, re.I)
+                    self.current.update({"name": clean_minichamps_text(name), "url": url, "source": "minichamps", "manufacturer": "Minichamps"})
+                    if number: self.current["product_number"] = number.group(0)
+                    if scale: self.current["scale"] = f"1/{scale.group(1)}"
+                    if year: self.current["year"] = year.group(0)
+                    if "onbackorder" in self.current["status_classes"] or availability and "preorder" in availability.group(1).lower():
+                        self.current["availability"] = "Pre-order"
+                    elif "instock" in self.current["status_classes"]:
+                        self.current["availability"] = "Available"
+                    elif availability:
+                        self.current["availability"] = availability.group(1).strip()
+                    self.current.pop("status_classes", None)
+                    self.items.append(self.current)
+                self.current = None
+                self.card_depth = None
+            self.li_depth -= 1
 
 
 class LooksmartListingParser(HTMLParser):
@@ -295,6 +383,10 @@ def clean_product_name(value):
     return re.sub(r"^\s*cancel\s+", "", value or "", flags=re.I)
 
 
+def clean_minichamps_text(value):
+    return (value or "").replace("\ufffdC", "–").replace("\x96", "–").replace("\ufffd", "–").strip()
+
+
 def fetch_spark_2025(search):
     products = {}
     total_pages = 1
@@ -343,6 +435,67 @@ def fetch_looksmart():
     raise RuntimeError("Looksmart pagination exceeded 100 pages")
 
 
+def minichamps_request(url):
+    """Minichamps returns a same-path JS redirect on a new PHP session."""
+    global _MINICHAMPS_SESSION_READY
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36", "Accept": "text/html,application/xhtml+xml"}
+
+    def initialize_session(reset=False):
+        global _MINICHAMPS_SESSION_READY
+        with _MINICHAMPS_LOCK:
+            if reset:
+                _MINICHAMPS_SESSION_READY = False
+            if not _MINICHAMPS_SESSION_READY:
+                with _MINICHAMPS_OPENER.open(Request("https://www.minichamps.de/", headers=headers), timeout=45) as response:
+                    response.read()
+                _MINICHAMPS_SESSION_READY = True
+
+    initialize_session()
+    for attempt in range(2):
+        with _MINICHAMPS_OPENER.open(Request(url, headers=headers), timeout=45) as response:
+            html = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+        if len(html) > 1000 or not re.search(r"^\s*<script>\s*window\.location\.href=['\"]", html, re.I):
+            return html
+        if attempt == 0:
+            initialize_session(reset=True)
+    raise RuntimeError("Minichamps returned its PHP-session redirect instead of page HTML")
+
+
+def minichamps_url(search, page=1):
+    return f"{MINICHAMPS_URL}?{urlencode({'ixwpst[pa_verfuegbarkeit][0]': '7040', 'ixwpst[pa_verfuegbarkeit][1]': '7039', 'ixwpss': search, 'product-page': page})}"
+
+
+def parse_minichamps_listing(html):
+    parser = MinichampsListingParser()
+    parser.feed(html)
+    return parser.items, parser.next_url
+
+
+def fetch_minichamps(search):
+    products = {}
+    seen = set()
+    url = minichamps_url(search)
+    for page in range(1, 101):
+        if url in seen:
+            raise RuntimeError(f"Minichamps pagination loop for {search}")
+        seen.add(url)
+        rows, next_url = parse_minichamps_listing(minichamps_request(url))
+        for row in rows:
+            product_id = row.pop("product_id")
+            if not re.search(MINICHAMPS_MODEL_PATTERNS[search], row["name"], re.I):
+                continue
+            row["url"] = urljoin(MINICHAMPS_URL, row["url"])
+            if row.get("image_url"):
+                row["image_url"] = urljoin(MINICHAMPS_URL, row["image_url"])
+            products[f"minichamps-{product_id}"] = row
+        if not next_url:
+            if not products:
+                raise RuntimeError(f"Minichamps {search} search returned no products")
+            return products
+        url = urljoin(url, next_url)
+    raise RuntimeError(f"Minichamps pagination exceeded 100 pages for {search}")
+
+
 def fetch_all():
     products = {}
     for search in TEAM_SEARCHES:
@@ -350,6 +503,8 @@ def fetch_all():
     for search in SPARK_2025_SEARCHES:
         products.update(fetch_spark_2025(search))
     products.update(fetch_looksmart())
+    for search in MINICHAMPS_SEARCHES:
+        products.update(fetch_minichamps(search))
     return products
 
 

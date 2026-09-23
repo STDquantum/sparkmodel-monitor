@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:11:12.730602+00:00",
+  "generated_at": "2026-09-23T16:21:33.224710+00:00",
   "products": [
     {
       "id": "09b3936a85cb48e6acc8d2d7df8de945",
@@ -5307,6 +5307,3960 @@
       "weight": "",
       "length": "",
       "availability": "Future production"
+    },
+    {
+      "id": "minichamps-1659915",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-1st-pole-position-chinese-gp-2026-w-pole-position-tyre/",
+      "images": [
+        "images/minichamps-1659915-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260222",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1659916",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-formula-one-team-w17-kimi-antonelli-winner-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1659916-1.jpg",
+        "images/minichamps-1659916-2.jpg",
+        "images/minichamps-1659916-3.jpg",
+        "images/minichamps-1659916-4.jpg",
+        "images/minichamps-1659916-5.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260312",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660025",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – G. RUSSELL – WINNER AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-g-russell-winner-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660025-1.jpg",
+        "images/minichamps-1660025-2.png",
+        "images/minichamps-1660025-3.jpg",
+        "images/minichamps-1660025-4.jpg",
+        "images/minichamps-1660025-5.jpg",
+        "images/minichamps-1660025-6.jpg",
+        "images/minichamps-1660025-7.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260163",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "RUSSEL, GEORGE",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660026",
+      "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660026-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260103",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "VERSTAPPEN, MAX",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660027",
+      "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660027-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260705",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660028",
+      "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660028-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260106",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "HADJAR, ISACK",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660029",
+      "name": "BWT ALPINE F1 TEAM A526 – PIERRE GASLY – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-pierre-gasly-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660029-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260110",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RENAULT",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "GASLY, PIERRE",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660030",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – ALEXANDER ALBON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-alexander-albon-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660030-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260123",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "WILLIAMS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ALBON, ALEX",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660031",
+      "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660031-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260727",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "HULKENBERG, NICO",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660032",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660032-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260130",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660033",
+      "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660033-1.jpg",
+        "images/minichamps-1660033-2.jpg",
+        "images/minichamps-1660033-3.jpg",
+        "images/minichamps-1660033-4.jpg",
+        "images/minichamps-1660033-5.jpg",
+        "images/minichamps-1660033-6.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260131",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "OCON; ESTEBAN",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660034",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – AUSTRALIAN GP 2026 – 1ST POINTS",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-australian-gp-2026-1st-points/",
+      "images": [
+        "images/minichamps-1660034-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260141",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660035",
+      "name": "BWT ALPINE F1 TEAM A526 – FRANCO COLAPINTO – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-franco-colapinto-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660035-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260143",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RENAULT",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "COLAPINTO, FRANCO",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660036",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – CARLOS SAINZ – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-carlos-sainz-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660036-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260155",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "WILLIAMS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "SAINZ, CARLOS",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660037",
+      "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-australian-gp-2026/",
+      "images": [
+        "images/minichamps-1660037-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260187",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BEARMAN, OLIVER",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660038",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-winner-chinese-gp-2026-w-pitboard/",
+      "images": [
+        "images/minichamps-1660038-1.jpg",
+        "images/minichamps-1660038-2.jpg",
+        "images/minichamps-1660038-3.jpg",
+        "images/minichamps-1660038-4.jpg",
+        "images/minichamps-1660038-5.jpg",
+        "images/minichamps-1660038-6.jpg",
+        "images/minichamps-1660038-7.jpg",
+        "images/minichamps-1660038-8.jpg",
+        "images/minichamps-1660038-9.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260212",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660039",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-1st-pole-position-chinese-gp-2026-w-pole-position-tyre-2/",
+      "images": [
+        "images/minichamps-1660039-1.jpg",
+        "images/minichamps-1660039-2.png"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260222",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660040",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-formula-one-team-w17-kimi-antonelli-winner-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660040-1.jpg",
+        "images/minichamps-1660040-2.png",
+        "images/minichamps-1660040-3.jpg",
+        "images/minichamps-1660040-4.jpg",
+        "images/minichamps-1660040-5.jpg",
+        "images/minichamps-1660040-6.jpg",
+        "images/minichamps-1660040-7.jpg",
+        "images/minichamps-1660040-8.jpg",
+        "images/minichamps-1660040-9.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260312",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660041",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660041-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260314",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ALONSO, FERNANDO",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660042",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660042-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260318",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "STROLL, LANCE",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660043",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660043-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260330",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660044",
+      "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660044-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260331",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "OCON; ESTEBAN",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660045",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660045-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260341",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660046",
+      "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660046-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260387",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BEARMAN, OLIVER",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660047",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – G. RUSSELL – WINNER AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-g-russell-winner-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660047-1.jpg",
+        "images/minichamps-1660047-2.jpg",
+        "images/minichamps-1660047-3.jpg",
+        "images/minichamps-1660047-4.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260163",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "RUSSEL, GEORGE",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660048",
+      "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660048-1.jpg",
+        "images/minichamps-1660048-2.jpg",
+        "images/minichamps-1660048-3.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260103",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "VERSTAPPEN, MAX",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660049",
+      "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660049-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260705",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660050",
+      "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660050-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260106",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "HADJAR, ISACK",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660051",
+      "name": "BWT ALPINE F1 TEAM A526 – PIERRE GASLY – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-pierre-gasly-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660051-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260110",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RENAULT",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "GASLY, PIERRE",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660052",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – ALEXANDER ALBON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-alexander-albon-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660052-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260123",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "WILLIAMS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ALBON, ALEX",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660053",
+      "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660053-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260727",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "HULKENBERG, NICO",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660054",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660054-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260130",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660055",
+      "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660055-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260131",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "OCON; ESTEBAN",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660056",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – AUSTRALIAN GP 2026 – 1ST POINTS",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-australian-gp-2026-1st-points-2/",
+      "images": [
+        "images/minichamps-1660056-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260141",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660057",
+      "name": "BWT ALPINE F1 TEAM A526 – FRANCO COLAPINTO – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-franco-colapinto-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660057-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260143",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RENAULT",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "COLAPINTO, FRANCO",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660058",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – CARLOS SAINZ – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-carlos-sainz-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660058-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260155",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "WILLIAMS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "SAINZ, CARLOS",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660059",
+      "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660059-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260187",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BEARMAN, OLIVER",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660060",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-winner-chinese-gp-2026-w-pitboard-2/",
+      "images": [
+        "images/minichamps-1660060-1.jpg",
+        "images/minichamps-1660060-2.jpg",
+        "images/minichamps-1660060-3.jpg",
+        "images/minichamps-1660060-4.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260212",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660061",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660061-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260314",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ALONSO, FERNANDO",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660062",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660062-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260318",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "STROLL, LANCE",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660063",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660063-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260330",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660064",
+      "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660064-1.jpg",
+        "images/minichamps-1660064-2.jpg",
+        "images/minichamps-1660064-3.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260331",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "OCON; ESTEBAN",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660065",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660065-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260341",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660066",
+      "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660066-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260387",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BEARMAN, OLIVER",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660069",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660069-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262004",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660070",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1660070-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262081",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660071",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SHAKEDOWN 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-shakedown-2026/",
+      "images": [
+        "images/minichamps-1660071-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537264204",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660072",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660072-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537264504",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660076",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-japanese-gp-2026-2/",
+      "images": [
+        "images/minichamps-1660076-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537264581",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1660077",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SHAKEDOWN 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-shakedown-2026-2/",
+      "images": [
+        "images/minichamps-1660077-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537266704",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661367",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661367-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530266604",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661368",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661368-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530266681",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661369",
+      "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661369-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260103",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "VERSTAPPEN, MAX",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661370",
+      "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661370-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260105",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661371",
+      "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661371-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260106",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "HADJAR, ISACK",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661372",
+      "name": "BWT ALPINE F1 TEAM A526 – PIERRE GASLY – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-pierre-gasly-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661372-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260110",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RENAULT",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "GASLY, PIERRE",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661373",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – ALEXANDER ALBON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-alexander-albon-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661373-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260123",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "WILLIAMS",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "ALBON, ALEX",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661374",
+      "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661374-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260127",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "HULKENBERG, NICO",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661375",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661375-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260130",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661376",
+      "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661376-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260131",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "OCON; ESTEBAN",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661377",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – AUSTRALIAN GP 2026 – 1ST POINTS",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-australian-gp-2026-1st-points-3/",
+      "images": [
+        "images/minichamps-1661377-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260141",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661378",
+      "name": "BWT ALPINE F1 TEAM A526 – FRANCO COLAPINTO – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-franco-colapinto-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661378-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260143",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RENAULT",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "COLAPINTO, FRANCO",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661379",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – CARLOS SAINZ – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-carlos-sainz-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661379-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260155",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "WILLIAMS",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "SAINZ, CARLOS",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661380",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – G. RUSSELL – WINNER AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-g-russell-winner-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661380-1.jpg",
+        "images/minichamps-1661380-2.jpg",
+        "images/minichamps-1661380-3.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260163",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "RUSSEL, GEORGE",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661381",
+      "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661381-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260187",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BEARMAN, OLIVER",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661384",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-japanese-gp-2026/",
+      "images": [
+        "images/minichamps-1661384-1.jpg",
+        "images/minichamps-1661384-2.jpg",
+        "images/minichamps-1661384-3.jpg",
+        "images/minichamps-1661384-4.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260312",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661385",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661385-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260314",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "ALONSO, FERNANDO",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661386",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661386-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260318",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "STROLL, LANCE",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661387",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661387-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260330",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661388",
+      "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661388-1.jpg",
+        "images/minichamps-1661388-2.jpg",
+        "images/minichamps-1661388-3.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260331",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "OCON; ESTEBAN",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661389",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661389-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260341",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661390",
+      "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – JAPANESE GP 2026",
+      "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-japanese-gp-2026-3/",
+      "images": [
+        "images/minichamps-1661390-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260387",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "HAAS",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BEARMAN, OLIVER",
+        "Model": "VF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1661430",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SHAKEDOWN 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-shakedown-2026-3/",
+      "images": [
+        "images/minichamps-1661430-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530268804",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665893",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-miami-gp-2026/",
+      "images": [
+        "images/minichamps-1665893-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260412",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665894",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-miami-gp-2026/",
+      "images": [
+        "images/minichamps-1665894-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260430",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665895",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-miami-gp-2026/",
+      "images": [
+        "images/minichamps-1665895-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260441",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665896",
+      "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – 3RD PLACE CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-3rd-place-canada-gp-2026/",
+      "images": [
+        "images/minichamps-1665896-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260503",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "RESIN",
+        "Driver": "VERSTAPPEN, MAX",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665897",
+      "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – 5TH PLACE CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-5th-place-canada-gp-2026/",
+      "images": [
+        "images/minichamps-1665897-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260506",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "RESIN",
+        "Driver": "HADJAR, ISACK",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665898",
+      "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-monaco-gp-2026/",
+      "images": [
+        "images/minichamps-1665898-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260605",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665899",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-monaco-gp-2026/",
+      "images": [
+        "images/minichamps-1665899-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260612",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665900",
+      "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-monaco-gp-2026/",
+      "images": [
+        "images/minichamps-1665900-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260627",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "HULKENBERG, NICO",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665901",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-spain-gp-2026/",
+      "images": [
+        "images/minichamps-1665901-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260730",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665902",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-spain-gp-2026/",
+      "images": [
+        "images/minichamps-1665902-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260741",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "RESIN",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665903",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-monaco-gp-2026-1000th-gp-of-mclaren/",
+      "images": [
+        "images/minichamps-1665903-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530266904",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665904",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-monaco-gp-2026-1000th-gp-of-mclaren/",
+      "images": [
+        "images/minichamps-1665904-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530266981",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665905",
+      "name": "2-CAR SET – MCLAREN MASTERCARD F1 TEAM MCL40 – NORRIS/PIASTRI – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/2-car-set-mclaren-mastercard-f1-team-mcl40-norris-piastri-monaco-gp-2026/",
+      "images": [
+        "images/minichamps-1665905-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "532260481",
+        "Scale": "1/64",
+        "Weight": "500 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665906",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-monaco-gp-2026-1000th-gp-of-mclaren-2/",
+      "images": [
+        "images/minichamps-1665906-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262381",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665907",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-monaco-gp-2026-1000th-gp-of-mclaren-2/",
+      "images": [
+        "images/minichamps-1665907-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537264804",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665908",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-monaco-gp-2026-1000th-gp-of-mclaren-3/",
+      "images": [
+        "images/minichamps-1665908-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537264881",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665909",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-miami-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665909-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260412",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "DIECAST",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665910",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-miami-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665910-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260430",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665911",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-miami-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665911-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260441",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665912",
+      "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – 3RD PLACE CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-3rd-place-canada-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665912-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260503",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "DIECAST",
+        "Driver": "VERSTAPPEN, MAX",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665913",
+      "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – 5TH PLACE CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-5th-place-canada-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665913-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260506",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "RED BULL RACING",
+        "Material": "DIECAST",
+        "Driver": "HADJAR, ISACK",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665914",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-canada-gp-2026/",
+      "images": [
+        "images/minichamps-1665914-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260512",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "DIECAST",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665915",
+      "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-monaco-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665915-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260605",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "DIECAST",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665916",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-monaco-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665916-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260612",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "DIECAST",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665917",
+      "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-monaco-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665917-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260627",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "DIECAST",
+        "Driver": "HULKENBERG, NICO",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665918",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-spain-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665918-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260730",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Driver": "LAWSON, LIAM",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1665919",
+      "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – SPAIN GP 2026",
+      "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-spain-gp-2026-2/",
+      "images": [
+        "images/minichamps-1665919-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260741",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "TORO ROSSO",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "LINDBLAD, ARVID",
+        "Model": "VCARB 03"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666146",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-miami-gp-2026-3/",
+      "images": [
+        "images/minichamps-1666146-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260412",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666147",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-canada-gp-2026-2/",
+      "images": [
+        "images/minichamps-1666147-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260512",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666148",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-monaco-gp-2026-3/",
+      "images": [
+        "images/minichamps-1666148-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260612",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666185",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER CANADA GP 2026",
+      "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-canada-gp-2026-3/",
+      "images": [
+        "images/minichamps-1666185-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260512",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MERCEDES-BENZ",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ANTONELLI, KIMI",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666248",
+      "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-monaco-gp-2026-3/",
+      "images": [
+        "images/minichamps-1666248-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260605",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666249",
+      "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-monaco-gp-2026-3/",
+      "images": [
+        "images/minichamps-1666249-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260627",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "AUDI",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "HULKENBERG, NICO",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1666250",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-monaco-gp-2026-1000th-gp-of-mclaren-3/",
+      "images": [
+        "images/minichamps-1666250-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262304",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1667482",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-silverstone-gp-2026/",
+      "images": [
+        "images/minichamps-1667482-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262604",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1667483",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-silverstone-gp-2026-2/",
+      "images": [
+        "images/minichamps-1667483-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537265104",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668687",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668687-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260111",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "PÉREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668688",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-australian-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668688-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260177",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668689",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-miami-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668689-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260411",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "PÉREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668690",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-miami-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668690-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260477",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668691",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – BRITISH GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-british-gp-2026/",
+      "images": [
+        "images/minichamps-1668691-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260911",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "PÉREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668692",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – BRITISH GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-british-gp-2026/",
+      "images": [
+        "images/minichamps-1668692-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117260977",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668693",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – PRE-SEASON TEST BAHRAIN 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-pre-season-test-bahrain-2026-2/",
+      "images": [
+        "images/minichamps-1668693-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117269911",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "PÉREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668694",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – ZHOU GUANYU – TEST BARCELONA 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-zhou-guanyu-test-barcelona-2026-2/",
+      "images": [
+        "images/minichamps-1668694-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117269924",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "ZHOU, GUANYU",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668695",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – PRE-SEASON TEST BAHRAIN 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-pre-season-test-bahrain-2026-2/",
+      "images": [
+        "images/minichamps-1668695-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117269977",
+        "Scale": "1/18",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668709",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – BRITISH GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-british-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668709-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260911",
+        "Scale": "1/43",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "PÉREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668710",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – BRITISH GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-british-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668710-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260977",
+        "Scale": "1/43",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "RESIN",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668711",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-silverstone-gp-2026-3/",
+      "images": [
+        "images/minichamps-1668711-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267204",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668712",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-silverstone-gp-2026/",
+      "images": [
+        "images/minichamps-1668712-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267281",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668713",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-silverstone-gp-2026-2/",
+      "images": [
+        "images/minichamps-1668713-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262681",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1668716",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-silverstone-gp-2026-3/",
+      "images": [
+        "images/minichamps-1668716-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537265181",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Driver": "PIASTRI, OSCAR",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669330",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – SPECIAL MAADEN DESIGN MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-special-maaden-design-monaco-gp-2026/",
+      "images": [
+        "images/minichamps-1669330-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260614",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "ALONSO, FERNANDO",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669331",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – SPECIAL MAADEN DESIGN MONACO GP 2026",
+      "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-special-maaden-design-monaco-gp-2026/",
+      "images": [
+        "images/minichamps-1669331-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260618",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "ASTON MARTIN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "STROLL, LANCE",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669332",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1669332-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260111",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "PEREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669333",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-australian-gp-2026-3/",
+      "images": [
+        "images/minichamps-1669333-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260177",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669334",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-miami-gp-2026-3/",
+      "images": [
+        "images/minichamps-1669334-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260411",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "PEREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669335",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – MIAMI GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-miami-gp-2026-3/",
+      "images": [
+        "images/minichamps-1669335-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260477",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669336",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – BRITISH GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-british-gp-2026-3/",
+      "images": [
+        "images/minichamps-1669336-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260911",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "PEREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669337",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – BRITISH GP 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-british-gp-2026-3/",
+      "images": [
+        "images/minichamps-1669337-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260977",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669338",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – PRE-SEASON TEST BAHRAIN 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-pre-season-test-bahrain-2026-3/",
+      "images": [
+        "images/minichamps-1669338-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640269911",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "PEREZ, SERGIO",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669339",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – ZHOU GUANYU – TEST BARCELONA 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-zhou-guanyu-test-barcelona-2026-3/",
+      "images": [
+        "images/minichamps-1669339-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640269924",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "ZHOU, GUANYU",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1669340",
+      "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – PRE-SEASON TEST BAHRAIN 2026",
+      "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-pre-season-test-bahrain-2026-3/",
+      "images": [
+        "images/minichamps-1669340-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640269977",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "CADILLAC",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "BOTTAS, VALTTERI",
+        "Model": "MAC-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1673893",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-hungary-gp-2026-w-figurine-position-board-and-trophy/",
+      "images": [
+        "images/minichamps-1673893-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267404",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1673894",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-zandvoort-gp-2026-w-figurine-position-board-and-trophy/",
+      "images": [
+        "images/minichamps-1673894-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267504",
+        "Scale": "1/64",
+        "Weight": "80 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1673969",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-hungary-gp-2026-w-figurine-position-board-and-trophy-2/",
+      "images": [
+        "images/minichamps-1673969-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262804",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1673970",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-zandvoort-gp-2026-w-figurine-position-board-and-trophy-2/",
+      "images": [
+        "images/minichamps-1673970-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262904",
+        "Scale": "1/18",
+        "Weight": "800 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1673971",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-hungary-gp-2026-w-figurine-position-board-and-trophy-3/",
+      "images": [
+        "images/minichamps-1673971-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537265304",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "minichamps-1673972",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-zandvoort-gp-2026-w-figurine-position-board-and-trophy-3/",
+      "images": [
+        "images/minichamps-1673972-1.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537265404",
+        "Scale": "1/43",
+        "Weight": "200 g",
+        "Manufacturer": "MINICHAMPS [Details according to GPSR of the EU] Manufacturer:",
+        "Brand": "MCLAREN",
+        "Material": "RESIN",
+        "Availability": "vorbestellbar",
+        "Driver": "NORRIS, LANDO",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Pre-order"
     },
     {
       "id": "spark-2025-03b247e9-5923-4adf-b917-b7320ce2c3e2",

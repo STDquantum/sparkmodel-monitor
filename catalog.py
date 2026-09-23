@@ -161,6 +161,75 @@ def parse_looksmart_detail(html):
     return parser.fields, parser.images
 
 
+class MinichampsDetailParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.fields = {}
+        self.properties = {}
+        self.images = []
+        self.capture = None
+        self.text = []
+        self.key = None
+        self.div_depth = 0
+        self.gallery_depth = None
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        classes = a.get("class", "").split()
+        if tag == "div":
+            self.div_depth += 1
+            if "woocommerce-product-gallery" in classes:
+                self.gallery_depth = self.div_depth
+        if tag == "meta":
+            prop = a.get("property", "")
+            if prop == "og:title": self.fields["name"] = a.get("content", "")
+            if a.get("itemprop") == "price": self.fields["price"] = a.get("content", "")
+            if a.get("itemprop") == "priceCurrency": self.fields["currency"] = a.get("content", "")
+        if tag == "h1" and "product_title" in classes:
+            self.capture = "name"; self.text = []
+        elif tag == "span" and "sku" in classes:
+            self.capture = "sku"; self.text = []
+        elif tag in {"th", "td"} and ("woocommerce-product-attributes-item__label" in classes or "woocommerce-product-attributes-item__value" in classes):
+            self.capture = "label" if tag == "th" else "value"; self.text = []
+        elif tag == "a" and self.gallery_depth is not None:
+            href = a.get("href", "")
+            if "wp-content/uploads" in href and href not in self.images:
+                self.images.append(href)
+        elif tag == "img" and self.gallery_depth is not None:
+            url = a.get("data-large_image") or a.get("data-src") or a.get("src", "")
+            if url and "wp-content/uploads" in url and url not in self.images:
+                self.images.append(url)
+        elif tag == "div" and self.gallery_depth is not None and "background-image" in a.get("style", ""):
+            match = re.search(r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)", a["style"], re.I)
+            if match and "wp-content/uploads" in match.group(1) and match.group(1) not in self.images:
+                self.images.append(match.group(1))
+
+    def handle_data(self, data):
+        if self.capture: self.text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "div":
+            if self.gallery_depth == self.div_depth:
+                self.gallery_depth = None
+            self.div_depth -= 1
+        if not self.capture: return
+        if (tag == "h1" and self.capture == "name") or (tag == "span" and self.capture == "sku") or (tag == "th" and self.capture == "label") or (tag == "td" and self.capture == "value"):
+            value = " ".join("".join(self.text).split())
+            if self.capture == "name": self.fields["name"] = value
+            elif self.capture == "sku": self.properties["Product number"] = value
+            elif self.capture == "label": self.key = value
+            elif self.key:
+                self.properties[self.key] = value; self.key = None
+            self.capture = None
+
+
+def parse_minichamps_detail(html):
+    parser = MinichampsDetailParser(); parser.feed(html)
+    if parser.fields.get("name"):
+        parser.fields["name"] = monitor.clean_minichamps_text(parser.fields["name"])
+    return parser.fields, parser.properties, parser.images
+
+
 def parse_detail(html):
     parser = DetailParser()
     parser.feed(html)
@@ -221,6 +290,24 @@ def refresh_ids(items, products, changes):
 
 def build_product(product_id, listing):
     source = listing.get("source", "sparkmodelshop")
+    if source == "minichamps":
+        fields, scraped_properties, images = parse_minichamps_detail(monitor.minichamps_request(listing["url"]))
+        if not images and listing.get("image_url"):
+            images = [listing["image_url"]]
+        local_images = [download_image(url, product_id, index) for index, url in enumerate(dict.fromkeys(images), start=1)]
+        remove_images(product_id, (Path(image).name for image in local_images))
+        model_match = re.search(r"\b(?:W17|VF-26|AMR26|VCARB\s*03|MAC-26|A526|R26|RB22|FW48|MCL40)\b", fields.get("name", listing["name"]), re.I)
+        properties = {"Year": listing.get("year", "2026"), "Product number": listing.get("product_number", ""), "Scale": listing.get("scale", ""), **scraped_properties}
+        if "Scale" in properties:
+            properties["Scale"] = properties["Scale"].replace(":", "/")
+        if model_match:
+            properties["Model"] = model_match.group(0)
+        return {
+            "id": product_id, "name": fields.get("name") or listing["name"], "url": listing["url"],
+            "images": local_images, "properties": {key: value for key, value in properties.items() if value},
+            "description": "", "brand": "Minichamps", "price": fields.get("price", ""), "currency": fields.get("currency", "EUR"), "gtin": "",
+            "weight": "", "length": "", "availability": {"vorbestellbar": "Pre-order", "preorder": "Pre-order", "auf lager": "Available", "sofort lieferbar": "Available", "in stock": "Available"}.get((scraped_properties.get("Availability") or listing.get("availability", "")).strip().lower(), scraped_properties.get("Availability") or listing.get("availability", "")),
+        }
     if source == "sparkmodel":
         source_id = listing.get("source_id") or product_id.removeprefix("spark-2025-")
         detail = json.loads(monitor.request(f"{monitor.SPARK_API_URL}/{source_id}"))

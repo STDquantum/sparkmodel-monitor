@@ -1,6 +1,3493 @@
 {
   "updates": [
     {
+      "date": "2026-09-23T16:21:33.224710+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-1659915",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-1st-pole-position-chinese-gp-2026-w-pole-position-tyre/",
+          "product_number": "417260222",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1659915-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1659915-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1659916",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-formula-one-team-w17-kimi-antonelli-winner-japanese-gp-2026/",
+          "product_number": "417260312",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1659916-1.jpg",
+              "images/minichamps-1659916-2.jpg",
+              "images/minichamps-1659916-3.jpg",
+              "images/minichamps-1659916-4.jpg",
+              "images/minichamps-1659916-5.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1659916-1.jpg": "0897b1606e0c0a676ddda194f8c1d21f60b2d2d29aa812defbefe89cf74d85ad",
+              "images/minichamps-1659916-2.jpg": "0897b1606e0c0a676ddda194f8c1d21f60b2d2d29aa812defbefe89cf74d85ad",
+              "images/minichamps-1659916-3.jpg": "cbacefbd4167742243b05762ae794bdc1ad74a57fd95be37e9d07097fb5bd161",
+              "images/minichamps-1659916-4.jpg": "e3512be7c8695c677174e067f21d8c10a0edf81b9f905c87a3db3650decbf99d",
+              "images/minichamps-1659916-5.jpg": "d65798cffd04d3728cf4ea3fb31328b655754dcf455fcf06e53824f8babbdb03"
+            }
+          },
+          "image_counts": {
+            "added": 5,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660025",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – G. RUSSELL – WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-g-russell-winner-australian-gp-2026/",
+          "product_number": "117260163",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660025-1.jpg",
+              "images/minichamps-1660025-2.png",
+              "images/minichamps-1660025-3.jpg",
+              "images/minichamps-1660025-4.jpg",
+              "images/minichamps-1660025-5.jpg",
+              "images/minichamps-1660025-6.jpg",
+              "images/minichamps-1660025-7.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660025-1.jpg": "e71cdb131f06b7851cd7579bf9f87303f807a195699c1bba829f3a687b449537",
+              "images/minichamps-1660025-2.png": "fff20c78cab0a09aa4cb9e5fb671ae38c51fa81e8488dae7cbc36e67003fd1c0",
+              "images/minichamps-1660025-3.jpg": "e71cdb131f06b7851cd7579bf9f87303f807a195699c1bba829f3a687b449537",
+              "images/minichamps-1660025-4.jpg": "618c67772b662e0fa36630a37f29e9a1c908af0daac40683d9fd515ddd832d61",
+              "images/minichamps-1660025-5.jpg": "335aadefd2ef4bb8ef8957ebd7fa1e15b8c01e025c431c1359f4d629ca826d94",
+              "images/minichamps-1660025-6.jpg": "65c27ad9ec961ca5a33827308ab816c8260d68e6351b438be3899df6c21949c3",
+              "images/minichamps-1660025-7.jpg": "73a2608a8a9a72ef8c0fd0ec867584cfde9786bab6492a71a35e838738dbbb67"
+            }
+          },
+          "image_counts": {
+            "added": 7,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660026",
+          "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-australian-gp-2026/",
+          "product_number": "117260103",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660026-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660026-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660027",
+          "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-australian-gp-2026/",
+          "product_number": "117260705",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660027-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660027-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660028",
+          "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-australian-gp-2026/",
+          "product_number": "117260106",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660028-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660028-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660029",
+          "name": "BWT ALPINE F1 TEAM A526 – PIERRE GASLY – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-pierre-gasly-australian-gp-2026/",
+          "product_number": "117260110",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660029-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660029-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660030",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – ALEXANDER ALBON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-alexander-albon-australian-gp-2026/",
+          "product_number": "117260123",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660030-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660030-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660031",
+          "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-australian-gp-2026/",
+          "product_number": "117260727",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660031-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660031-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660032",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-australian-gp-2026/",
+          "product_number": "117260130",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660032-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660032-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660033",
+          "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-australian-gp-2026/",
+          "product_number": "117260131",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660033-1.jpg",
+              "images/minichamps-1660033-2.jpg",
+              "images/minichamps-1660033-3.jpg",
+              "images/minichamps-1660033-4.jpg",
+              "images/minichamps-1660033-5.jpg",
+              "images/minichamps-1660033-6.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660033-1.jpg": "f5a5933ff43429d0ed3c7785bd0b5355e3794033d3ab0679d2b5ad779f291702",
+              "images/minichamps-1660033-2.jpg": "f5a5933ff43429d0ed3c7785bd0b5355e3794033d3ab0679d2b5ad779f291702",
+              "images/minichamps-1660033-3.jpg": "d862b8be1017fabb92d3070d74894238742ac5c5eb5cbba91b453359febc92ce",
+              "images/minichamps-1660033-4.jpg": "ed44884b75537b4a4ec3d4704d59b857a0a250a5dea7c279bd5ffc681f742727",
+              "images/minichamps-1660033-5.jpg": "a9218fbe560b5e5c1d26ba174f6c3beea93d7d746cb0fe65b468f108f407d006",
+              "images/minichamps-1660033-6.jpg": "9243c783c43aa37f9cdf93a07c174a80849ee21000740703f2542f9a875a6907"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660034",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – AUSTRALIAN GP 2026 – 1ST POINTS",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-australian-gp-2026-1st-points/",
+          "product_number": "117260141",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660034-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660034-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660035",
+          "name": "BWT ALPINE F1 TEAM A526 – FRANCO COLAPINTO – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-franco-colapinto-australian-gp-2026/",
+          "product_number": "117260143",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660035-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660035-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660036",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – CARLOS SAINZ – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-carlos-sainz-australian-gp-2026/",
+          "product_number": "117260155",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660036-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660036-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660037",
+          "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-australian-gp-2026/",
+          "product_number": "117260187",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660037-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660037-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660038",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-winner-chinese-gp-2026-w-pitboard/",
+          "product_number": "117260212",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660038-1.jpg",
+              "images/minichamps-1660038-2.jpg",
+              "images/minichamps-1660038-3.jpg",
+              "images/minichamps-1660038-4.jpg",
+              "images/minichamps-1660038-5.jpg",
+              "images/minichamps-1660038-6.jpg",
+              "images/minichamps-1660038-7.jpg",
+              "images/minichamps-1660038-8.jpg",
+              "images/minichamps-1660038-9.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660038-1.jpg": "30505462440b2dadf4078a6086349379dc0e92132691d241451210ab9b95d3dd",
+              "images/minichamps-1660038-2.jpg": "30505462440b2dadf4078a6086349379dc0e92132691d241451210ab9b95d3dd",
+              "images/minichamps-1660038-3.jpg": "a469b9b78e06d61f25848a917d1ebca7a367bc65d94713ad81d215011bf1ee5c",
+              "images/minichamps-1660038-4.jpg": "19ae27bae694294d73cd7f3759d7239d24f18660e018ff12f8e92a2d3c891b0e",
+              "images/minichamps-1660038-5.jpg": "1d47500493387ff3dc488fb36939400261f2d10c32d19efe315d2f042b99ce21",
+              "images/minichamps-1660038-6.jpg": "98542da497a2a546d437d49dcccf9e4a84e070ad2d42f230a0d0f5186254ca58",
+              "images/minichamps-1660038-7.jpg": "7c78229eb47e78d0b62147462474fcdab0adf5846f6682503df01be607927670",
+              "images/minichamps-1660038-8.jpg": "072a8498b925ef731416608461a988e9631b517fb3c4f575fa23597896d2ad6a",
+              "images/minichamps-1660038-9.jpg": "a629739e2c1f1e9646c8c7de7348862f4568ca1e0d85e66475889a03ccba5fa0"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660039",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-1st-pole-position-chinese-gp-2026-w-pole-position-tyre-2/",
+          "product_number": "117260222",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660039-1.jpg",
+              "images/minichamps-1660039-2.png"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660039-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54",
+              "images/minichamps-1660039-2.png": "fff20c78cab0a09aa4cb9e5fb671ae38c51fa81e8488dae7cbc36e67003fd1c0"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660040",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-formula-one-team-w17-kimi-antonelli-winner-japanese-gp-2026-2/",
+          "product_number": "117260312",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660040-1.jpg",
+              "images/minichamps-1660040-2.png",
+              "images/minichamps-1660040-3.jpg",
+              "images/minichamps-1660040-4.jpg",
+              "images/minichamps-1660040-5.jpg",
+              "images/minichamps-1660040-6.jpg",
+              "images/minichamps-1660040-7.jpg",
+              "images/minichamps-1660040-8.jpg",
+              "images/minichamps-1660040-9.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660040-1.jpg": "1c9351e5c476db1d659bde85c37984ff1bf859c6f01ae347762f13311d543be5",
+              "images/minichamps-1660040-2.png": "fff20c78cab0a09aa4cb9e5fb671ae38c51fa81e8488dae7cbc36e67003fd1c0",
+              "images/minichamps-1660040-3.jpg": "1c9351e5c476db1d659bde85c37984ff1bf859c6f01ae347762f13311d543be5",
+              "images/minichamps-1660040-4.jpg": "8a2ab0f63d7459c86d692d03144f4d27a2ba6477b127793f1fb36597c30addc1",
+              "images/minichamps-1660040-5.jpg": "be10ada1466d65a0ba02ad3c2d4495cb243fd065c1c065c4ba201e5f29c23047",
+              "images/minichamps-1660040-6.jpg": "cc9e3047ee1b9da2cc0ddb303d7a13c7a9a93e5d05b89926032500d5416c20fa",
+              "images/minichamps-1660040-7.jpg": "e0197d168a90e577014a2c7d6f8f6c9f916e7f377eaa2b8bea1abb8087077f3b",
+              "images/minichamps-1660040-8.jpg": "6b34974172d9ae764c22805f8322d90a279be44bb7d0eb64f0035be57bc37247",
+              "images/minichamps-1660040-9.jpg": "66d8ae05b0986ca869eb982e2f3e73b50eecf9dcb65b7a3bd16d3af753504fc5"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660041",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-japanese-gp-2026/",
+          "product_number": "117260314",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660041-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660041-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660042",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-japanese-gp-2026/",
+          "product_number": "117260318",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660042-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660042-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660043",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-japanese-gp-2026/",
+          "product_number": "117260330",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660043-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660043-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660044",
+          "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-japanese-gp-2026/",
+          "product_number": "117260331",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660044-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660044-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660045",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-japanese-gp-2026/",
+          "product_number": "117260341",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660045-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660045-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660046",
+          "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-japanese-gp-2026/",
+          "product_number": "117260387",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660046-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660046-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660047",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – G. RUSSELL – WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-g-russell-winner-australian-gp-2026-2/",
+          "product_number": "417260163",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660047-1.jpg",
+              "images/minichamps-1660047-2.jpg",
+              "images/minichamps-1660047-3.jpg",
+              "images/minichamps-1660047-4.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660047-1.jpg": "e8c7f25b517d57c13cbc64f152043db835fc887c8ef139cc83748fe54b8e3696",
+              "images/minichamps-1660047-2.jpg": "e8c7f25b517d57c13cbc64f152043db835fc887c8ef139cc83748fe54b8e3696",
+              "images/minichamps-1660047-3.jpg": "20ae2a974b61bbda21794f6c331845b3ffa508255e77c876310723021099b94b",
+              "images/minichamps-1660047-4.jpg": "fa78c2a9a72e74c915c9e17bf03a71eb5d7ccf382988dad14a3911fde5b38035"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660048",
+          "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-australian-gp-2026-2/",
+          "product_number": "417260103",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660048-1.jpg",
+              "images/minichamps-1660048-2.jpg",
+              "images/minichamps-1660048-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660048-1.jpg": "ee7769714728519fa48b83493fcc3f26830e1706ab4190a03f44ff8499d4f3df",
+              "images/minichamps-1660048-2.jpg": "ee7769714728519fa48b83493fcc3f26830e1706ab4190a03f44ff8499d4f3df",
+              "images/minichamps-1660048-3.jpg": "1c70c6ac9cd2257cec568486f0830949e7283f33387e810b8b21043b1103bcf4"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660049",
+          "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-australian-gp-2026-2/",
+          "product_number": "417260705",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660049-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660049-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660050",
+          "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-australian-gp-2026-2/",
+          "product_number": "417260106",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660050-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660050-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660051",
+          "name": "BWT ALPINE F1 TEAM A526 – PIERRE GASLY – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-pierre-gasly-australian-gp-2026-2/",
+          "product_number": "417260110",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660051-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660051-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660052",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – ALEXANDER ALBON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-alexander-albon-australian-gp-2026-2/",
+          "product_number": "417260123",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660052-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660052-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660053",
+          "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-australian-gp-2026-2/",
+          "product_number": "417260727",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660053-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660053-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660054",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-australian-gp-2026-2/",
+          "product_number": "417260130",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660054-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660054-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660055",
+          "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-australian-gp-2026-2/",
+          "product_number": "417260131",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660055-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660055-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660056",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – AUSTRALIAN GP 2026 – 1ST POINTS",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-australian-gp-2026-1st-points-2/",
+          "product_number": "417260141",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660056-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660056-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660057",
+          "name": "BWT ALPINE F1 TEAM A526 – FRANCO COLAPINTO – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-franco-colapinto-australian-gp-2026-2/",
+          "product_number": "417260143",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660057-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660057-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660058",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – CARLOS SAINZ – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-carlos-sainz-australian-gp-2026-2/",
+          "product_number": "417260155",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660058-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660058-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660059",
+          "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-australian-gp-2026-2/",
+          "product_number": "417260187",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660059-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660059-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660060",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-winner-chinese-gp-2026-w-pitboard-2/",
+          "product_number": "417260212",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660060-1.jpg",
+              "images/minichamps-1660060-2.jpg",
+              "images/minichamps-1660060-3.jpg",
+              "images/minichamps-1660060-4.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660060-1.jpg": "3b32548a8139783fd6d29e0053b9d775bb880af9b23237eba9f82c186d9d4c33",
+              "images/minichamps-1660060-2.jpg": "3b32548a8139783fd6d29e0053b9d775bb880af9b23237eba9f82c186d9d4c33",
+              "images/minichamps-1660060-3.jpg": "42ba9b5b020ae48d22138a22d8429643b1d24d2e24d875ce2af533c42df85d7e",
+              "images/minichamps-1660060-4.jpg": "5ea758d7a4a340874ff23fcaf5a4e024b876a42037106a091e94cd44b09f516d"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660061",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-japanese-gp-2026-2/",
+          "product_number": "417260314",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660061-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660061-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660062",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-japanese-gp-2026-2/",
+          "product_number": "417260318",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660062-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660062-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660063",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-japanese-gp-2026-2/",
+          "product_number": "417260330",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660063-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660063-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660064",
+          "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-japanese-gp-2026-2/",
+          "product_number": "417260331",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660064-1.jpg",
+              "images/minichamps-1660064-2.jpg",
+              "images/minichamps-1660064-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660064-1.jpg": "4fcf6e588e49464775880ac8b353e24e6784d0d2bf1875ecf799e872b97ef380",
+              "images/minichamps-1660064-2.jpg": "4fcf6e588e49464775880ac8b353e24e6784d0d2bf1875ecf799e872b97ef380",
+              "images/minichamps-1660064-3.jpg": "34acdec785e102e1151c27fe877fedd9a4f482e880f8b0c20e9d107421b0e97e"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660065",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-japanese-gp-2026-2/",
+          "product_number": "417260341",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660065-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660065-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660066",
+          "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-japanese-gp-2026-2/",
+          "product_number": "417260387",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660066-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660066-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660069",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-japanese-gp-2026/",
+          "product_number": "537262004",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660069-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660069-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660070",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-japanese-gp-2026/",
+          "product_number": "537262081",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660070-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660070-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660071",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SHAKEDOWN 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-shakedown-2026/",
+          "product_number": "537264204",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660071-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660071-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660072",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-japanese-gp-2026-2/",
+          "product_number": "537264504",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660072-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660072-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660076",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-japanese-gp-2026-2/",
+          "product_number": "537264581",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660076-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660076-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1660077",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SHAKEDOWN 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-shakedown-2026-2/",
+          "product_number": "537266704",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1660077-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1660077-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661367",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-japanese-gp-2026-3/",
+          "product_number": "530266604",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661367-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661367-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661368",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-japanese-gp-2026-3/",
+          "product_number": "530266681",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661368-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661368-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661369",
+          "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-australian-gp-2026-3/",
+          "product_number": "640260103",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661369-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661369-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661370",
+          "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-australian-gp-2026-3/",
+          "product_number": "640260105",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661370-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661370-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661371",
+          "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-australian-gp-2026-3/",
+          "product_number": "640260106",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661371-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661371-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661372",
+          "name": "BWT ALPINE F1 TEAM A526 – PIERRE GASLY – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-pierre-gasly-australian-gp-2026-3/",
+          "product_number": "640260110",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661372-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661372-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661373",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – ALEXANDER ALBON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-alexander-albon-australian-gp-2026-3/",
+          "product_number": "640260123",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661373-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661373-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661374",
+          "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-australian-gp-2026-3/",
+          "product_number": "640260127",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661374-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661374-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661375",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-australian-gp-2026-3/",
+          "product_number": "640260130",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661375-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661375-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661376",
+          "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-australian-gp-2026-3/",
+          "product_number": "640260131",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661376-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661376-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661377",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – AUSTRALIAN GP 2026 – 1ST POINTS",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-australian-gp-2026-1st-points-3/",
+          "product_number": "640260141",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661377-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661377-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661378",
+          "name": "BWT ALPINE F1 TEAM A526 – FRANCO COLAPINTO – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/bwt-alpine-f1-team-a526-franco-colapinto-australian-gp-2026-3/",
+          "product_number": "640260143",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661378-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661378-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661379",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 – CARLOS SAINZ – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/altassian-williams-f1-team-fw48-carlos-sainz-australian-gp-2026-3/",
+          "product_number": "640260155",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661379-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661379-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661380",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – G. RUSSELL – WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-g-russell-winner-australian-gp-2026-3/",
+          "product_number": "640260163",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661380-1.jpg",
+              "images/minichamps-1661380-2.jpg",
+              "images/minichamps-1661380-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661380-1.jpg": "5027670e8da2e9f7a039fd842c88097624f7e545a1e0005d36aeabb64872f3cd",
+              "images/minichamps-1661380-2.jpg": "5027670e8da2e9f7a039fd842c88097624f7e545a1e0005d36aeabb64872f3cd",
+              "images/minichamps-1661380-3.jpg": "9381032a433912abf40c799e7971c351defc4239349bf9600c1520714a99d7ea"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661381",
+          "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-australian-gp-2026-3/",
+          "product_number": "640260187",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661381-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661381-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661384",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-japanese-gp-2026/",
+          "product_number": "640260312",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661384-1.jpg",
+              "images/minichamps-1661384-2.jpg",
+              "images/minichamps-1661384-3.jpg",
+              "images/minichamps-1661384-4.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661384-1.jpg": "09a472bd6a63c8a72d2496165bd867085fc5c68dcdaf9832ef550922fca2c8ff",
+              "images/minichamps-1661384-2.jpg": "09a472bd6a63c8a72d2496165bd867085fc5c68dcdaf9832ef550922fca2c8ff",
+              "images/minichamps-1661384-3.jpg": "7ed725c7564fcc9eccdc182b4affe11e8d1f336c1c2c079e8703063b6d8545c9",
+              "images/minichamps-1661384-4.jpg": "c446734ed0ef7bb69e03150cc20d8bee8040bd5cd8ce82f11b214dce506c37d1"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661385",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-japanese-gp-2026-3/",
+          "product_number": "640260314",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661385-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661385-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661386",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-japanese-gp-2026-3/",
+          "product_number": "640260318",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661386-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661386-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661387",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-japanese-gp-2026-3/",
+          "product_number": "640260330",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661387-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661387-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661388",
+          "name": "TGR HAAS F1 TEAM VF-26 – ESTEBAN OCON – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-esteban-ocon-japanese-gp-2026-3/",
+          "product_number": "640260331",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661388-1.jpg",
+              "images/minichamps-1661388-2.jpg",
+              "images/minichamps-1661388-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661388-1.jpg": "180d450324fdaa672e3fcdbabc587ae320d51feb03541ec307f81945554e2cc9",
+              "images/minichamps-1661388-2.jpg": "180d450324fdaa672e3fcdbabc587ae320d51feb03541ec307f81945554e2cc9",
+              "images/minichamps-1661388-3.jpg": "914c9ea9d3d1c414c462281979002a15ec71cba9a1ea3b71d2ff13cabaec866c"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661389",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-japanese-gp-2026-3/",
+          "product_number": "640260341",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661389-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661389-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661390",
+          "name": "TGR HAAS F1 TEAM VF-26 – OLIVER BEARMAN – JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/modelle/tgr-haas-f1-team-vf-26-oliver-bearman-japanese-gp-2026-3/",
+          "product_number": "640260387",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661390-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661390-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661430",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SHAKEDOWN 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-shakedown-2026-3/",
+          "product_number": "530268804",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661430-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661430-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665893",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-miami-gp-2026/",
+          "product_number": "417260412",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665893-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665893-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665894",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-miami-gp-2026/",
+          "product_number": "417260430",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665894-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665894-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665895",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-miami-gp-2026/",
+          "product_number": "417260441",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665895-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665895-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665896",
+          "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – 3RD PLACE CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-3rd-place-canada-gp-2026/",
+          "product_number": "417260503",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665896-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665896-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665897",
+          "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – 5TH PLACE CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-5th-place-canada-gp-2026/",
+          "product_number": "417260506",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665897-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665897-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665898",
+          "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-monaco-gp-2026/",
+          "product_number": "417260605",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665898-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665898-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665899",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-monaco-gp-2026/",
+          "product_number": "417260612",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665899-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665899-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665900",
+          "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-monaco-gp-2026/",
+          "product_number": "417260627",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665900-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665900-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665901",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-spain-gp-2026/",
+          "product_number": "417260730",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665901-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665901-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665902",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-spain-gp-2026/",
+          "product_number": "417260741",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665902-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665902-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665903",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-monaco-gp-2026-1000th-gp-of-mclaren/",
+          "product_number": "530266904",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665903-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665903-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665904",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-monaco-gp-2026-1000th-gp-of-mclaren/",
+          "product_number": "530266981",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665904-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665904-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665905",
+          "name": "2-CAR SET – MCLAREN MASTERCARD F1 TEAM MCL40 – NORRIS/PIASTRI – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/2-car-set-mclaren-mastercard-f1-team-mcl40-norris-piastri-monaco-gp-2026/",
+          "product_number": "532260481",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665905-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665905-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665906",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-monaco-gp-2026-1000th-gp-of-mclaren-2/",
+          "product_number": "537262381",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665906-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665906-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665907",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-monaco-gp-2026-1000th-gp-of-mclaren-2/",
+          "product_number": "537264804",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665907-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665907-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665908",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-monaco-gp-2026-1000th-gp-of-mclaren-3/",
+          "product_number": "537264881",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665908-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665908-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665909",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-miami-gp-2026-2/",
+          "product_number": "640260412",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665909-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665909-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665910",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-miami-gp-2026-2/",
+          "product_number": "640260430",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665910-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665910-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665911",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-miami-gp-2026-2/",
+          "product_number": "640260441",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665911-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665911-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665912",
+          "name": "ORACLE RED BULL RACING RB22 – MAX VERSTAPPEN – 3RD PLACE CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-max-verstappen-3rd-place-canada-gp-2026-2/",
+          "product_number": "640260503",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665912-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665912-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665913",
+          "name": "ORACLE RED BULL RACING RB22 – ISACK HADJAR – 5TH PLACE CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/oracle-red-bull-racing-rb22-isack-hadjar-5th-place-canada-gp-2026-2/",
+          "product_number": "640260506",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665913-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665913-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665914",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-canada-gp-2026/",
+          "product_number": "640260512",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665914-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665914-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665915",
+          "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-monaco-gp-2026-2/",
+          "product_number": "640260605",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665915-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665915-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665916",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-monaco-gp-2026-2/",
+          "product_number": "640260612",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665916-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665916-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665917",
+          "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-monaco-gp-2026-2/",
+          "product_number": "640260627",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665917-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665917-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665918",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – LIAM LAWSON – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-liam-lawson-spain-gp-2026-2/",
+          "product_number": "640260730",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665918-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665918-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1665919",
+          "name": "VISA CASH APP RB FORMULA ONE VCARB 03 – ARVID LINDBLAD – SPAIN GP 2026",
+          "url": "https://www.minichamps.de/modelle/visa-cash-app-rb-formula-one-vcarb-03-arvid-lindblad-spain-gp-2026-2/",
+          "product_number": "640260741",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1665919-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1665919-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666146",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-miami-gp-2026-3/",
+          "product_number": "117260412",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666146-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666146-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666147",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-canada-gp-2026-2/",
+          "product_number": "117260512",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666147-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666147-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666148",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-monaco-gp-2026-3/",
+          "product_number": "117260612",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666148-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666148-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666185",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 – KIMI ANTONELLI – WINNER CANADA GP 2026",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petronas-f1-team-w17-kimi-antonelli-winner-canada-gp-2026-3/",
+          "product_number": "417260512",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666185-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666185-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666248",
+          "name": "AUDI REVOLUT F1 TEAM R26 – GABRIEL BORTOLETO – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-gabriel-bortoleto-monaco-gp-2026-3/",
+          "product_number": "117260605",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666248-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666248-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666249",
+          "name": "AUDI REVOLUT F1 TEAM R26 – NICO HULKENBERG – MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/audi-revolut-f1-team-r26-nico-hulkenberg-monaco-gp-2026-3/",
+          "product_number": "117260627",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666249-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666249-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666250",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – MONACO GP 2026 – 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-monaco-gp-2026-1000th-gp-of-mclaren-3/",
+          "product_number": "537262304",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666250-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666250-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1667482",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-silverstone-gp-2026/",
+          "product_number": "537262604",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1667482-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1667482-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1667483",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-silverstone-gp-2026-2/",
+          "product_number": "537265104",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1667483-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1667483-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668687",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-australian-gp-2026-2/",
+          "product_number": "117260111",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668687-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668687-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668688",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-australian-gp-2026-2/",
+          "product_number": "117260177",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668688-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668688-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668689",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-miami-gp-2026-2/",
+          "product_number": "117260411",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668689-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668689-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668690",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-miami-gp-2026-2/",
+          "product_number": "117260477",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668690-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668690-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668691",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – BRITISH GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-british-gp-2026/",
+          "product_number": "117260911",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668691-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668691-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668692",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – BRITISH GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-british-gp-2026/",
+          "product_number": "117260977",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668692-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668692-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668693",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – PRE-SEASON TEST BAHRAIN 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-pre-season-test-bahrain-2026-2/",
+          "product_number": "117269911",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668693-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668693-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668694",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – ZHOU GUANYU – TEST BARCELONA 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-zhou-guanyu-test-barcelona-2026-2/",
+          "product_number": "117269924",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668694-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668694-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668695",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – PRE-SEASON TEST BAHRAIN 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-pre-season-test-bahrain-2026-2/",
+          "product_number": "117269977",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668695-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668695-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668709",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – BRITISH GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-british-gp-2026-2/",
+          "product_number": "417260911",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668709-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668709-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668710",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – BRITISH GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-british-gp-2026-2/",
+          "product_number": "417260977",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668710-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668710-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668711",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-silverstone-gp-2026-3/",
+          "product_number": "530267204",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668711-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668711-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668712",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-silverstone-gp-2026/",
+          "product_number": "530267281",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668712-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668712-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668713",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-silverstone-gp-2026-2/",
+          "product_number": "537262681",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668713-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668713-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1668716",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – OSCAR PIASTRI – SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-oscar-piastri-silverstone-gp-2026-3/",
+          "product_number": "537265181",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1668716-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1668716-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669330",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – FERNANDO ALONSO – SPECIAL MAADEN DESIGN MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-fernando-alonso-special-maaden-design-monaco-gp-2026/",
+          "product_number": "417260614",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669330-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669330-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669331",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 – LANCE STROLL – SPECIAL MAADEN DESIGN MONACO GP 2026",
+          "url": "https://www.minichamps.de/modelle/aston-martin-aramco-f1-team-amr26-lance-stroll-special-maaden-design-monaco-gp-2026/",
+          "product_number": "417260618",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669331-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669331-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669332",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-australian-gp-2026-3/",
+          "product_number": "640260111",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669332-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669332-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669333",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-australian-gp-2026-3/",
+          "product_number": "640260177",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669333-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669333-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669334",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-miami-gp-2026-3/",
+          "product_number": "640260411",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669334-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669334-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669335",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-miami-gp-2026-3/",
+          "product_number": "640260477",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669335-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669335-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669336",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – BRITISH GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-british-gp-2026-3/",
+          "product_number": "640260911",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669336-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669336-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669337",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – BRITISH GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-british-gp-2026-3/",
+          "product_number": "640260977",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669337-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669337-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669338",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – PRE-SEASON TEST BAHRAIN 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-pre-season-test-bahrain-2026-3/",
+          "product_number": "640269911",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669338-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669338-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669339",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – ZHOU GUANYU – TEST BARCELONA 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-zhou-guanyu-test-barcelona-2026-3/",
+          "product_number": "640269924",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669339-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669339-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1669340",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – PRE-SEASON TEST BAHRAIN 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-pre-season-test-bahrain-2026-3/",
+          "product_number": "640269977",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1669340-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1669340-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1673893",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-hungary-gp-2026-w-figurine-position-board-and-trophy/",
+          "product_number": "530267404",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1673893-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1673893-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1673894",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-zandvoort-gp-2026-w-figurine-position-board-and-trophy/",
+          "product_number": "530267504",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1673894-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1673894-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1673969",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-hungary-gp-2026-w-figurine-position-board-and-trophy-2/",
+          "product_number": "537262804",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1673969-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1673969-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1673970",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-zandvoort-gp-2026-w-figurine-position-board-and-trophy-2/",
+          "product_number": "537262904",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1673970-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1673970-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1673971",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-hungary-gp-2026-w-figurine-position-board-and-trophy-3/",
+          "product_number": "537265304",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1673971-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1673971-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1673972",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 – LANDO NORRIS – WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/modelle/mclaren-mastercard-f1-team-mcl40-lando-norris-winner-zandvoort-gp-2026-w-figurine-position-board-and-trophy-3/",
+          "product_number": "537265404",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1673972-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1673972-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-23T12:11:12.730602+00:00",
       "entries": [
         {
