@@ -1,0 +1,506 @@
+{
+  "updates": [
+    {
+      "date": "2026-09-23T06:38:37.582548+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "29e2d2dbf0f542168904b275ae2dac90",
+          "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 Esteban Ocon",
+          "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-japanese-gp-2026-esteban-ocon/s9386-de",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6a/a4/45/1788926158/a897036119984b99a0fb276a5cb4c1e8.webp?ts=1788926224",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6a/a4/45/1788926158/a897036119984b99a0fb276a5cb4c1e8.webp?ts=1790142632"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/29e2d2dbf0f542168904b275ae2dac90-2.webp",
+              "images/29e2d2dbf0f542168904b275ae2dac90-4.webp",
+              "images/29e2d2dbf0f542168904b275ae2dac90-5.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              },
+              {
+                "from": 10,
+                "to": 13
+              },
+              {
+                "from": 11,
+                "to": 14
+              },
+              {
+                "from": 12,
+                "to": 15
+              },
+              {
+                "from": 13,
+                "to": 16
+              },
+              {
+                "from": 14,
+                "to": 17
+              },
+              {
+                "from": 15,
+                "to": 18
+              },
+              {
+                "from": 16,
+                "to": 19
+              },
+              {
+                "from": 17,
+                "to": 20
+              },
+              {
+                "from": 18,
+                "to": 21
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/29e2d2dbf0f542168904b275ae2dac90-2.webp": "1cfbfce606e454ab428c92e14fb0281f45afd308ee7a07590516f45bde0c83af",
+              "images/29e2d2dbf0f542168904b275ae2dac90-4.webp": "21bf018c78535bbed7e780262804a54ceeb365889f6378330bda9c9165bf6d89",
+              "images/29e2d2dbf0f542168904b275ae2dac90-5.webp": "46789711c56a525d3bc42d6f66c7fecae0f6c81f3e21ce3ce411752c656d2bb3"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          },
+          "product_number": "S9386",
+          "scale": "1/43"
+        },
+        {
+          "type": "changed",
+          "id": "85f9985b1dfa4cf2acc9e6ee6cb9883b",
+          "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 Oliver Bearman",
+          "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-japanese-gp-2026-oliver-bearman/s9387-de",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bc/0e/f4/1788852035/a6fa6ecbf07443bc943026f7681eee20.webp?ts=1788853751",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bc/0e/f4/1788852035/a6fa6ecbf07443bc943026f7681eee20.webp?ts=1790142759"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-2.webp",
+              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-3.webp",
+              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-2.webp": "afb2b92746c183c52361919b05c492bd7c638fc7f807f1959beade1efd48dd8c",
+              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-3.webp": "53e51efec3c5ab78fdc413b211d842bad155cd05758a3d22ee68b113171528e2",
+              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-4.webp": "70ab33f49afc62109af0286f164e2ebf328bbc3a73f782b1be2581fa30b69adc"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          },
+          "product_number": "S9387",
+          "scale": "1/43"
+        },
+        {
+          "type": "changed",
+          "id": "92f3c2cd4ea04576b60d562451f85ca4",
+          "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/lsf1081-de",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp?ts=1789115957",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp?ts=1790142520"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/92f3c2cd4ea04576b60d562451f85ca4-2.webp",
+              "images/92f3c2cd4ea04576b60d562451f85ca4-3.webp",
+              "images/92f3c2cd4ea04576b60d562451f85ca4-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/92f3c2cd4ea04576b60d562451f85ca4-2.webp": "feb1529ba0ea49c6244ff5c9c9927f42248f4ab8d2d05fcc8bb94b962933f35b",
+              "images/92f3c2cd4ea04576b60d562451f85ca4-3.webp": "9fa548538c40f1bb4895b3ba144ce52fa1ad705e035f8333a157d64aa19b1483",
+              "images/92f3c2cd4ea04576b60d562451f85ca4-4.webp": "5e7d72e0924de42f16888e2c8ecd4551867f0c8f19966c740c8dd035540f0931"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          },
+          "product_number": "LSF1081",
+          "scale": "1/43"
+        },
+        {
+          "type": "changed",
+          "id": "aa2ac2e736324d1f96d4b506b02f82c0",
+          "name": "Ferrari SF-26 No.44 Japanese GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-japanese-gp-2026-lewis-hamilton/lsf1083-de",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5c/50/ed/1784563409/35feac77967945e48bd922e5fd10d626.webp?ts=1784563409",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/ed/26/1790140821/128520d361fe41c3a5a1466d6088af30.webp?ts=1790142063"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-4.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-5.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-6.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-7.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-8.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-9.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-10.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-11.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-12.webp"
+            ],
+            "changed": [
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-1.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-2.webp",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-4.webp": "4613dcbfb8a55d7310e37cfd3a28ab61779f6bc6a1a005f98128dd6daee52592",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-5.webp": "d729a0f59292a640da351a3f6d5454940bc97f153e3d1d3c247a911844cc1403",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-6.webp": "7369759e898c6df0633c1005f85602d4b3a0d3ffdf21c1cc6821bea219f1b9c9",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-7.webp": "1ce0f671c458cce5d4323f77ea0a2b4cdc501166415dd67935de91a60eee80c0",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-8.webp": "b1e8206bd0f63b2c4b961188100dea49a8b3f1c97ca0f78a60fdf08914d7d3ef",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-9.webp": "6d18542c083a98ec8fa97498bcb715d4c87c9a5b6592cef9515ecd1fd9beb94c",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-10.webp": "9356f71864b2aa3fa103f01015a537bef319cde98c80f44ec7c6fced40a96102",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-11.webp": "595d065f32e32383807ae5332b32ce53a5409ffd13980756e0ef63a5d63bbede",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-12.webp": "99d3c53c72e159a376d4d2b1fa232b45017b5cdfa452cfd1d9418203eed4b5d7",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-1.webp": "72477dda0d08fe14eefbbd4f34619586bfc07076574ea00428be7e8d54b808e6",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-2.webp": "264b9dacd3210aee3106e5ade2896028888672bbfe101242b6b13fa17bac2bd6",
+              "images/aa2ac2e736324d1f96d4b506b02f82c0-3.webp": "fffa82ea9e0eb005271ee769ec7f9b985af7bda0d6ecb85aca89e05c1f6e8c65"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          },
+          "product_number": "LSF1083",
+          "scale": "1/43"
+        },
+        {
+          "type": "changed",
+          "id": "c03a11f298524626a08f5fbc92fc35aa",
+          "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/lsf1080-de",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/0d/8f/1788850978/31b22d36b39d497f806a2d0dec937602.webp?ts=1788851872",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/0d/8f/1788850978/31b22d36b39d497f806a2d0dec937602.webp?ts=1790142426"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/c03a11f298524626a08f5fbc92fc35aa-2.webp",
+              "images/c03a11f298524626a08f5fbc92fc35aa-3.webp",
+              "images/c03a11f298524626a08f5fbc92fc35aa-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/c03a11f298524626a08f5fbc92fc35aa-2.webp": "b7a4e17148709d0d80b641d12076298ea212e3122bc497c512d621a9c85d2bdf",
+              "images/c03a11f298524626a08f5fbc92fc35aa-3.webp": "5b087926fd35766c75305ccc62feb236685887d9714154db4963dcb6ddb38e4f",
+              "images/c03a11f298524626a08f5fbc92fc35aa-4.webp": "411ad7149a10a313ee5e559776e32fcfd8650ed3d20f3f49d6677955b5a7db23"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          },
+          "product_number": "LSF1080",
+          "scale": "1/43"
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7",
+          "name": "MoneyGram  Haas F1 Team VF25 No.87 4th Mexican GP 2025\nOliver Bearman\n( with pit board )",
+          "url": "https://www.sparkmodel.com/products/7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/38f2dfcc-6a36-4dd1-806b-189c2916bfb1.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/2a3cc06c-5337-42b5-bbff-c729873fe533.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-2.webp",
+              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-3.webp",
+              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-2.webp": "a6009255fbb8c29f007438669b7ade730caf56f697d4b76161e3d971faf11af4",
+              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-3.webp": "dc2fc9a59bb999977468a65ac1f5e24cfc8299f5c450d2887625b5fe93bf5e85",
+              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-4.webp": "2351314b6fbb1badfacddcbbb21f747f9020948f1105279692df41b8b6169849"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          },
+          "product_number": "S9676",
+          "scale": "1/43"
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd",
+          "name": "Mercedes W16 No.63 Mercedes-AMG PETRONAS Formula One Team\n3rd Australian GP 2025\nGeorge Russell",
+          "url": "https://www.sparkmodel.com/products/e824a3f7-afbd-4939-b5a0-0e452b4c2fcd",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/dd83125a-158c-44d7-aee0-32968b820671.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/eb1529a9-102b-423f-8edb-a3eadeb6b266.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-4.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-5.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-6.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-7.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-8.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-9.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-10.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-11.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-12.webp"
+            ],
+            "changed": [
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-1.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-2.webp",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-4.webp": "66f4b38bf996f2799d98b340044dbf036ae3a58bc64f9695dd18cdb2ef1ae93f",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-5.webp": "0e3eaeae978404709b4b56e5f7f7ba9b05a0bbd16e44a5ea08986f9780a6b0c8",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-6.webp": "5018da5c35f3b209a094eeedb16669ca6d725b48918a5d19afe1857b4f92980d",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-7.webp": "88ad11e15cb4f044ae348e8f330613ee81a577fc06d1f18b558e9e54e408a749",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-8.webp": "e28f19c8eb495eb10ca94ab92c6d3bf973d843a930eb62c113783d3d5aaae52f",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-9.webp": "fc5bb8bbbc6fcccf9eb2e4585140d3a5d85c04c0f80b5aeb3e6f967cc3c18898",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-10.webp": "0540956110e969f629b1ecb295dc7b1ace185f46af47492d429e1d2db886dd85",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-11.webp": "6473570a44b7cd1bc76d628f22fb0d1549d583d2452a45d3647aa4c1e94b6e6f",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-12.webp": "3984a80130a8afa7622aecc0ec0530a398e566146b5d4f46facc488e50c76786",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-1.webp": "9de3b18acfe0532435583819d3c0432cceeb56aebfa1551d0aa8e3b5642803c0",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-2.webp": "acd32d9f29bc7568e40d9f54c18219f313ab41d95017020fa86a6dd0ed5d5ac6",
+              "images/spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd-3.webp": "e35d4bd753a7b305a2c39d03cd1fad3c5b76314934b5aead9cb66f34352b917e"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          },
+          "product_number": "Y420",
+          "scale": "1/64"
+        }
+      ]
+    }
+  ]
+}
