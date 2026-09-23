@@ -1,6 +1,52 @@
 {
   "updates": [
     {
+      "date": "2026-09-23T12:11:12.730602+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "c780a8ad1c5d4ad0adfbdd073aeff128",
+          "name": "McLaren Mastercard F1 Team MCL40 - Winner Dutch GP 2026 - Lando Norris ( with figurine and pit boards )",
+          "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-winner-dutch-gp-2026-lando-norris-with-figurine-and-pit-boards/18s1279-de",
+          "product_number": "18S1279",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "名称",
+              "before": "McLaren Mastercard F1 Team MCL40 - 5th Italian GP 2026 - Oscar Piastri ( special OK liveries )",
+              "after": "McLaren Mastercard F1 Team MCL40 - Winner Dutch GP 2026 - Lando Norris ( with figurine and pit boards )"
+            },
+            {
+              "field": "价格",
+              "before": "220",
+              "after": "239"
+            },
+            {
+              "field": "商品链接",
+              "before": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-5th-italian-gp-2026-oscar-piastri-special-ok-liveries/18s1279-de",
+              "after": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-winner-dutch-gp-2026-lando-norris-with-figurine-and-pit-boards/18s1279-de"
+            },
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/95/e6/a4/1790071546/c375181b1326410bbebd5d69c297eddb.webp?ts=1790071546",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/95/e6/a4/1790071546/c375181b1326410bbebd5d69c297eddb.webp?ts=1790154520"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-23T06:38:37.582548+00:00",
       "entries": [
         {

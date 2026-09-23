@@ -22,7 +22,7 @@
     "https://www.sparkmodel.com/collections?q=AMR25&pageSize=48&year=2025",
     "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
   ],
-  "updated_at": "2026-09-23T06:38:28.577603+00:00",
+  "updated_at": "2026-09-23T12:11:10.870420+00:00",
   "total": 356,
   "items": {
     "09b3936a85cb48e6acc8d2d7df8de945": {
@@ -976,7 +976,7 @@
     "c780a8ad1c5d4ad0adfbdd073aeff128": {
       "name": "McLaren Mastercard F1 Team MCL40 - Winner Dutch GP 2026 - Lando Norris ( with figurine and pit boards )",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-winner-dutch-gp-2026-lando-norris-with-figurine-and-pit-boards/18s1279-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/95/e6/a4/1790071546/c375181b1326410bbebd5d69c297eddb.webp?ts=1790071546",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/95/e6/a4/1790071546/c375181b1326410bbebd5d69c297eddb.webp?ts=1790154520",
       "availability": "Not available – pre-orders possible"
     },
     "ca3e1dc11b47453da7739075043227e5": {
@@ -3096,13 +3096,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "29e2d2dbf0f542168904b275ae2dac90",
-      "85f9985b1dfa4cf2acc9e6ee6cb9883b",
-      "92f3c2cd4ea04576b60d562451f85ca4",
-      "aa2ac2e736324d1f96d4b506b02f82c0",
-      "c03a11f298524626a08f5fbc92fc35aa",
-      "spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7",
-      "spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd"
+      "c780a8ad1c5d4ad0adfbdd073aeff128"
     ],
     "removed": []
   }
