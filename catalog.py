@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import hashlib
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -259,6 +260,23 @@ def download_image(url, product_id, index):
     return relative.as_posix()
 
 
+def download_unique_images(urls, product_id):
+    """Download a product's images and discard byte-identical duplicates."""
+    local_images = []
+    seen_hashes = set()
+    for index, url in enumerate(dict.fromkeys(urls), start=1):
+        relative = download_image(url, product_id, index)
+        image_path = DOCS / relative
+        image_hash = hashlib.sha256(image_path.read_bytes()).digest()
+        if image_hash in seen_hashes:
+            image_path.unlink()
+            continue
+        seen_hashes.add(image_hash)
+        local_images.append(relative)
+    remove_images(product_id, (Path(image).name for image in local_images))
+    return local_images
+
+
 def load_catalog():
     if not CATALOG_FILE.exists():
         return []
@@ -300,8 +318,7 @@ def build_product(product_id, listing):
         fields, scraped_properties, images = parse_minichamps_detail(monitor.minichamps_request(listing["url"]))
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
-        local_images = [download_image(url, product_id, index) for index, url in enumerate(dict.fromkeys(images), start=1)]
-        remove_images(product_id, (Path(image).name for image in local_images))
+        local_images = download_unique_images(images, product_id)
         model_match = re.search(r"\b(?:W17|VF-26|AMR26|VCARB\s*03|MAC-26|A526|R26|RB22|FW48|MCL40)\b", fields.get("name", listing["name"]), re.I)
         properties = {"Year": listing.get("year", "2026"), "Product number": listing.get("product_number", ""), "Scale": listing.get("scale", ""), **scraped_properties}
         if "Scale" in properties:
@@ -324,8 +341,7 @@ def build_product(product_id, listing):
         ]
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
-        local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
-        remove_images(product_id, (Path(image).name for image in local_images))
+        local_images = download_unique_images(images, product_id)
         properties = {
             "Manufacturer": detail.get("manufacturer_name") or listing.get("manufacturer", ""),
             "Material": detail.get("material_name", ""),
@@ -356,8 +372,7 @@ def build_product(product_id, listing):
         fields, images = parse_looksmart_detail(monitor.request(listing["url"]))
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
-        local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
-        remove_images(product_id, (Path(image).name for image in local_images))
+        local_images = download_unique_images(images, product_id)
         scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", fields.get("name") or listing["name"], re.I)
         scale = listing.get("scale") or (f"1/{scale_match.group(1)}" if scale_match else "")
         properties = {
@@ -384,8 +399,7 @@ def build_product(product_id, listing):
             "availability": fields.get("availability") or listing.get("availability", ""),
         }
     fields, properties, images = parse_detail(monitor.request(listing["url"]))
-    local_images = [download_image(url, product_id, index) for index, url in enumerate(images, start=1)]
-    remove_images(product_id, (Path(image).name for image in local_images))
+    local_images = download_unique_images(images, product_id)
     return {
         "id": product_id,
         "name": fields.get("name") or listing["name"],

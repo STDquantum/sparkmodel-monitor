@@ -38,7 +38,6 @@
           "images": {
             "added": [
               "images/minichamps-1659916-1.jpg",
-              "images/minichamps-1659916-2.jpg",
               "images/minichamps-1659916-3.jpg",
               "images/minichamps-1659916-4.jpg",
               "images/minichamps-1659916-5.jpg"
@@ -48,14 +47,13 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1659916-1.jpg": "0897b1606e0c0a676ddda194f8c1d21f60b2d2d29aa812defbefe89cf74d85ad",
-              "images/minichamps-1659916-2.jpg": "0897b1606e0c0a676ddda194f8c1d21f60b2d2d29aa812defbefe89cf74d85ad",
               "images/minichamps-1659916-3.jpg": "cbacefbd4167742243b05762ae794bdc1ad74a57fd95be37e9d07097fb5bd161",
               "images/minichamps-1659916-4.jpg": "e3512be7c8695c677174e067f21d8c10a0edf81b9f905c87a3db3650decbf99d",
               "images/minichamps-1659916-5.jpg": "d65798cffd04d3728cf4ea3fb31328b655754dcf455fcf06e53824f8babbdb03"
             }
           },
           "image_counts": {
-            "added": 5,
+            "added": 4,
             "changed": 0
           }
         },
@@ -70,7 +68,6 @@
           "images": {
             "added": [
               "images/minichamps-1660025-1.jpg",
-              "images/minichamps-1660025-2.jpg",
               "images/minichamps-1660025-3.jpg",
               "images/minichamps-1660025-4.jpg",
               "images/minichamps-1660025-5.jpg",
@@ -81,7 +78,6 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660025-1.jpg": "e71cdb131f06b7851cd7579bf9f87303f807a195699c1bba829f3a687b449537",
-              "images/minichamps-1660025-2.jpg": "e71cdb131f06b7851cd7579bf9f87303f807a195699c1bba829f3a687b449537",
               "images/minichamps-1660025-3.jpg": "618c67772b662e0fa36630a37f29e9a1c908af0daac40683d9fd515ddd832d61",
               "images/minichamps-1660025-4.jpg": "335aadefd2ef4bb8ef8957ebd7fa1e15b8c01e025c431c1359f4d629ca826d94",
               "images/minichamps-1660025-5.jpg": "65c27ad9ec961ca5a33827308ab816c8260d68e6351b438be3899df6c21949c3",
@@ -89,7 +85,7 @@
             }
           },
           "image_counts": {
-            "added": 6,
+            "added": 5,
             "changed": 0
           }
         },
@@ -272,7 +268,6 @@
           "images": {
             "added": [
               "images/minichamps-1660033-1.jpg",
-              "images/minichamps-1660033-2.jpg",
               "images/minichamps-1660033-3.jpg",
               "images/minichamps-1660033-4.jpg",
               "images/minichamps-1660033-5.jpg",
@@ -283,7 +278,6 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660033-1.jpg": "f5a5933ff43429d0ed3c7785bd0b5355e3794033d3ab0679d2b5ad779f291702",
-              "images/minichamps-1660033-2.jpg": "f5a5933ff43429d0ed3c7785bd0b5355e3794033d3ab0679d2b5ad779f291702",
               "images/minichamps-1660033-3.jpg": "d862b8be1017fabb92d3070d74894238742ac5c5eb5cbba91b453359febc92ce",
               "images/minichamps-1660033-4.jpg": "ed44884b75537b4a4ec3d4704d59b857a0a250a5dea7c279bd5ffc681f742727",
               "images/minichamps-1660033-5.jpg": "a9218fbe560b5e5c1d26ba174f6c3beea93d7d746cb0fe65b468f108f407d006",
@@ -291,7 +285,7 @@
             }
           },
           "image_counts": {
-            "added": 6,
+            "added": 5,
             "changed": 0
           }
         },
@@ -402,7 +396,6 @@
           "images": {
             "added": [
               "images/minichamps-1660038-1.jpg",
-              "images/minichamps-1660038-2.jpg",
               "images/minichamps-1660038-3.jpg",
               "images/minichamps-1660038-4.jpg",
               "images/minichamps-1660038-5.jpg",
@@ -416,7 +409,6 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660038-1.jpg": "30505462440b2dadf4078a6086349379dc0e92132691d241451210ab9b95d3dd",
-              "images/minichamps-1660038-2.jpg": "30505462440b2dadf4078a6086349379dc0e92132691d241451210ab9b95d3dd",
               "images/minichamps-1660038-3.jpg": "a469b9b78e06d61f25848a917d1ebca7a367bc65d94713ad81d215011bf1ee5c",
               "images/minichamps-1660038-4.jpg": "19ae27bae694294d73cd7f3759d7239d24f18660e018ff12f8e92a2d3c891b0e",
               "images/minichamps-1660038-5.jpg": "1d47500493387ff3dc488fb36939400261f2d10c32d19efe315d2f042b99ce21",
@@ -427,7 +419,7 @@
             }
           },
           "image_counts": {
-            "added": 9,
+            "added": 8,
             "changed": 0
           }
         },
@@ -466,7 +458,6 @@
           "images": {
             "added": [
               "images/minichamps-1660040-1.jpg",
-              "images/minichamps-1660040-2.jpg",
               "images/minichamps-1660040-3.jpg",
               "images/minichamps-1660040-4.jpg",
               "images/minichamps-1660040-5.jpg",
@@ -479,7 +470,6 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660040-1.jpg": "1c9351e5c476db1d659bde85c37984ff1bf859c6f01ae347762f13311d543be5",
-              "images/minichamps-1660040-2.jpg": "1c9351e5c476db1d659bde85c37984ff1bf859c6f01ae347762f13311d543be5",
               "images/minichamps-1660040-3.jpg": "8a2ab0f63d7459c86d692d03144f4d27a2ba6477b127793f1fb36597c30addc1",
               "images/minichamps-1660040-4.jpg": "be10ada1466d65a0ba02ad3c2d4495cb243fd065c1c065c4ba201e5f29c23047",
               "images/minichamps-1660040-5.jpg": "cc9e3047ee1b9da2cc0ddb303d7a13c7a9a93e5d05b89926032500d5416c20fa",
@@ -489,7 +479,7 @@
             }
           },
           "image_counts": {
-            "added": 8,
+            "added": 7,
             "changed": 0
           }
         },
@@ -648,7 +638,6 @@
           "images": {
             "added": [
               "images/minichamps-1660047-1.jpg",
-              "images/minichamps-1660047-2.jpg",
               "images/minichamps-1660047-3.jpg",
               "images/minichamps-1660047-4.jpg"
             ],
@@ -657,13 +646,12 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660047-1.jpg": "e8c7f25b517d57c13cbc64f152043db835fc887c8ef139cc83748fe54b8e3696",
-              "images/minichamps-1660047-2.jpg": "e8c7f25b517d57c13cbc64f152043db835fc887c8ef139cc83748fe54b8e3696",
               "images/minichamps-1660047-3.jpg": "20ae2a974b61bbda21794f6c331845b3ffa508255e77c876310723021099b94b",
               "images/minichamps-1660047-4.jpg": "fa78c2a9a72e74c915c9e17bf03a71eb5d7ccf382988dad14a3911fde5b38035"
             }
           },
           "image_counts": {
-            "added": 4,
+            "added": 3,
             "changed": 0
           }
         },
@@ -678,7 +666,6 @@
           "images": {
             "added": [
               "images/minichamps-1660048-1.jpg",
-              "images/minichamps-1660048-2.jpg",
               "images/minichamps-1660048-3.jpg"
             ],
             "changed": [],
@@ -686,12 +673,11 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660048-1.jpg": "ee7769714728519fa48b83493fcc3f26830e1706ab4190a03f44ff8499d4f3df",
-              "images/minichamps-1660048-2.jpg": "ee7769714728519fa48b83493fcc3f26830e1706ab4190a03f44ff8499d4f3df",
               "images/minichamps-1660048-3.jpg": "1c70c6ac9cd2257cec568486f0830949e7283f33387e810b8b21043b1103bcf4"
             }
           },
           "image_counts": {
-            "added": 3,
+            "added": 2,
             "changed": 0
           }
         },
@@ -970,7 +956,6 @@
           "images": {
             "added": [
               "images/minichamps-1660060-1.jpg",
-              "images/minichamps-1660060-2.jpg",
               "images/minichamps-1660060-3.jpg",
               "images/minichamps-1660060-4.jpg"
             ],
@@ -979,13 +964,12 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660060-1.jpg": "3b32548a8139783fd6d29e0053b9d775bb880af9b23237eba9f82c186d9d4c33",
-              "images/minichamps-1660060-2.jpg": "3b32548a8139783fd6d29e0053b9d775bb880af9b23237eba9f82c186d9d4c33",
               "images/minichamps-1660060-3.jpg": "42ba9b5b020ae48d22138a22d8429643b1d24d2e24d875ce2af533c42df85d7e",
               "images/minichamps-1660060-4.jpg": "5ea758d7a4a340874ff23fcaf5a4e024b876a42037106a091e94cd44b09f516d"
             }
           },
           "image_counts": {
-            "added": 4,
+            "added": 3,
             "changed": 0
           }
         },
@@ -1072,7 +1056,6 @@
           "images": {
             "added": [
               "images/minichamps-1660064-1.jpg",
-              "images/minichamps-1660064-2.jpg",
               "images/minichamps-1660064-3.jpg"
             ],
             "changed": [],
@@ -1080,12 +1063,11 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1660064-1.jpg": "4fcf6e588e49464775880ac8b353e24e6784d0d2bf1875ecf799e872b97ef380",
-              "images/minichamps-1660064-2.jpg": "4fcf6e588e49464775880ac8b353e24e6784d0d2bf1875ecf799e872b97ef380",
               "images/minichamps-1660064-3.jpg": "34acdec785e102e1151c27fe877fedd9a4f482e880f8b0c20e9d107421b0e97e"
             }
           },
           "image_counts": {
-            "added": 3,
+            "added": 2,
             "changed": 0
           }
         },
@@ -1604,7 +1586,6 @@
           "images": {
             "added": [
               "images/minichamps-1661380-1.jpg",
-              "images/minichamps-1661380-2.jpg",
               "images/minichamps-1661380-3.jpg"
             ],
             "changed": [],
@@ -1612,12 +1593,11 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1661380-1.jpg": "5027670e8da2e9f7a039fd842c88097624f7e545a1e0005d36aeabb64872f3cd",
-              "images/minichamps-1661380-2.jpg": "5027670e8da2e9f7a039fd842c88097624f7e545a1e0005d36aeabb64872f3cd",
               "images/minichamps-1661380-3.jpg": "9381032a433912abf40c799e7971c351defc4239349bf9600c1520714a99d7ea"
             }
           },
           "image_counts": {
-            "added": 3,
+            "added": 2,
             "changed": 0
           }
         },
@@ -1656,7 +1636,6 @@
           "images": {
             "added": [
               "images/minichamps-1661384-1.jpg",
-              "images/minichamps-1661384-2.jpg",
               "images/minichamps-1661384-3.jpg",
               "images/minichamps-1661384-4.jpg"
             ],
@@ -1665,13 +1644,12 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1661384-1.jpg": "09a472bd6a63c8a72d2496165bd867085fc5c68dcdaf9832ef550922fca2c8ff",
-              "images/minichamps-1661384-2.jpg": "09a472bd6a63c8a72d2496165bd867085fc5c68dcdaf9832ef550922fca2c8ff",
               "images/minichamps-1661384-3.jpg": "7ed725c7564fcc9eccdc182b4affe11e8d1f336c1c2c079e8703063b6d8545c9",
               "images/minichamps-1661384-4.jpg": "c446734ed0ef7bb69e03150cc20d8bee8040bd5cd8ce82f11b214dce506c37d1"
             }
           },
           "image_counts": {
-            "added": 4,
+            "added": 3,
             "changed": 0
           }
         },
@@ -1758,7 +1736,6 @@
           "images": {
             "added": [
               "images/minichamps-1661388-1.jpg",
-              "images/minichamps-1661388-2.jpg",
               "images/minichamps-1661388-3.jpg"
             ],
             "changed": [],
@@ -1766,12 +1743,11 @@
             "removed_count": 0,
             "hashes": {
               "images/minichamps-1661388-1.jpg": "180d450324fdaa672e3fcdbabc587ae320d51feb03541ec307f81945554e2cc9",
-              "images/minichamps-1661388-2.jpg": "180d450324fdaa672e3fcdbabc587ae320d51feb03541ec307f81945554e2cc9",
               "images/minichamps-1661388-3.jpg": "914c9ea9d3d1c414c462281979002a15ec71cba9a1ea3b71d2ff13cabaec866c"
             }
           },
           "image_counts": {
-            "added": 3,
+            "added": 2,
             "changed": 0
           }
         },
