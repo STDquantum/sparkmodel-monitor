@@ -9,6 +9,7 @@
   * { box-sizing:border-box; } body { margin:0; } body.modal-open { overflow:hidden; } a { color:#85b9ff; } p { color:#b9c2d0;line-height:1.5; }
   header { padding:2rem max(1rem,calc((100% - 1280px)/2));background:#171b23;position:sticky;top:0;z-index:2;box-shadow:0 2px 14px #0006; }
   .header-top { display:flex;align-items:flex-start;justify-content:space-between;gap:1rem; } h1 { margin:0 0 .35rem; } header p { margin:.35rem 0 0; }
+  .backnav { display:inline-block;margin-bottom:1rem;color:#f5f7fa;text-decoration:none;font-size:.82rem;opacity:.78; } .backnav:hover,.backnav:focus-visible { color:#fff;opacity:1;text-decoration:underline; }
   .back-link { flex:none;border:1px solid #526074;border-radius:.5rem;padding:.65rem .85rem;text-decoration:none;background:#101217; } .back-link:hover { background:#263448; }
   main { max-width:1280px;margin:auto;padding:1.25rem; } .run { margin:0 0 2rem; } .run h2 { margin:1.5rem 0 1rem;font-size:1.1rem;border-bottom:1px solid #394252;padding-bottom:.6rem; }
   .entries { display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,370px),1fr));gap:1rem;align-items:stretch; }
@@ -33,7 +34,7 @@
   #modal-thumbs { display:flex;gap:.5rem;overflow-x:auto;justify-content:center;width:min(94vw,1280px);margin:auto;padding:.1rem .35rem; } #modal-thumbs button { padding:0;border:2px solid transparent;background:#fff;border-radius:.35rem;cursor:pointer;flex:0 0 auto; } #modal-thumbs button.active { border-color:#85b9ff; } #modal-thumbs img { width:70px;height:52px;object-fit:contain;display:block; }
   @media(max-width:720px) { header { position:static;padding:1.2rem; } h1 { font-size:1.3rem; } main { padding:.8rem; } #modal { padding:.55rem; } #modal.open { grid-template-rows:auto min(68dvh,600px) auto; } .modal-top { align-items:flex-start; } .modal-title { white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical; } .close { padding:.45rem .55rem;font-size:.84rem; } .stage { position:relative;width:100%;grid-template-columns:minmax(0,1fr); } .stage .nav { position:absolute;top:50%;transform:translateY(-50%);width:2.4rem;height:2.65rem; } .stage [data-step="-1"] { left:0; } .stage [data-step="1"] { right:0; } #modal-thumbs { justify-content:flex-start; } }
 </style>
-<header><div class="header-top"><div><h1>Spark Model Shop · Formula 1</h1><p>更新报告 · 商品、字段与图片变化</p></div><a class="back-link" href="index.html">← 返回商品目录</a></div></header>
+<header><a class="backnav" href="https://stdquantum.github.io/F1/index.html">← 返回导航</a><div class="header-top"><div><h1>Spark Model Shop · Formula 1</h1><p>更新报告 · 商品、字段与图片变化</p></div><a class="back-link" href="index.html">← 返回商品目录</a></div></header>
 <main id="report"><p>正在载入更新记录…</p></main>
 <div id="modal" role="dialog" aria-modal="true" aria-label="查看更新图片" aria-hidden="true"><div class="modal-top"><div class="modal-heading"><a class="modal-title" id="modal-link" target="_blank" rel="noreferrer"></a><span class="modal-meta" id="modal-meta"></span></div><button class="close" type="button" aria-label="关闭大图">关闭 ×</button></div><div class="stage"><button class="nav" type="button" data-step="-1" aria-label="上一张图片">‹</button><img id="modal-image" alt="更新图片"><button class="nav" type="button" data-step="1" aria-label="下一张图片">›</button></div><div id="modal-thumbs"></div></div>
 <script>
