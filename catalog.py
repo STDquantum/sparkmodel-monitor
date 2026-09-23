@@ -173,6 +173,15 @@ class MinichampsDetailParser(HTMLParser):
         self.div_depth = 0
         self.gallery_depth = None
 
+    def add_gallery_image(self, url):
+        if not url or "wp-content/uploads" not in url:
+            return
+        filename = Path(urlsplit(url).path).name.lower()
+        if "coming_soon" in filename or "coming-soon" in filename:
+            return
+        if url not in self.images:
+            self.images.append(url)
+
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         classes = a.get("class", "").split()
@@ -192,17 +201,14 @@ class MinichampsDetailParser(HTMLParser):
         elif tag in {"th", "td"} and ("woocommerce-product-attributes-item__label" in classes or "woocommerce-product-attributes-item__value" in classes):
             self.capture = "label" if tag == "th" else "value"; self.text = []
         elif tag == "a" and self.gallery_depth is not None:
-            href = a.get("href", "")
-            if "wp-content/uploads" in href and href not in self.images:
-                self.images.append(href)
+            self.add_gallery_image(a.get("href", ""))
         elif tag == "img" and self.gallery_depth is not None:
             url = a.get("data-large_image") or a.get("data-src") or a.get("src", "")
-            if url and "wp-content/uploads" in url and url not in self.images:
-                self.images.append(url)
+            self.add_gallery_image(url)
         elif tag == "div" and self.gallery_depth is not None and "background-image" in a.get("style", ""):
             match = re.search(r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)", a["style"], re.I)
-            if match and "wp-content/uploads" in match.group(1) and match.group(1) not in self.images:
-                self.images.append(match.group(1))
+            if match:
+                self.add_gallery_image(match.group(1))
 
     def handle_data(self, data):
         if self.capture: self.text.append(data)
