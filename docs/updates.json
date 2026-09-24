@@ -1,6 +1,233 @@
 {
   "updates": [
     {
+      "date": "2026-09-24T02:44:16.363662+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-1661382",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-winner-chinese-gp-2026-w-pitboard-3/",
+          "product_number": "640260212",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661382-1.jpg",
+              "images/minichamps-1661382-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661382-1.jpg": "dacf8df0e4e6fc80e8a41d28c542cfaf316cefb09aa2d2efdbe9d44bff47e97b",
+              "images/minichamps-1661382-3.jpg": "a969ca555be8ff78a6d1c656443eaa793affd189840b67216932dd9def1519c0"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1661383",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 – KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/modelle/mercedes-amg-petr-f1-team-w17-kimi-antonelli-%c2%96-1st-pole-position-chinese-gp-2026-w-pole-position-tyre-3/",
+          "product_number": "640260222",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1661383-1.jpg",
+              "images/minichamps-1661383-3.jpg",
+              "images/minichamps-1661383-4.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1661383-1.jpg": "ac5aecdc2e329b473e918d8ad0c5da4a8ad5c3df0741cadd0ea4d4996028ec56",
+              "images/minichamps-1661383-3.jpg": "70082f05a82bf9f7f76a2f0c981bebdb8a033f3d5c81c1e3eb4a34949716c0ef",
+              "images/minichamps-1661383-4.jpg": "df8997aea130ea279e3461e8ef6f96ac6e0cbcc9996505169573b102113128c5"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666831",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-australian-gp-2026/",
+          "product_number": "417260111",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666831-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666831-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666832",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-miami-gp-2026/",
+          "product_number": "417260411",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666832-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666832-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666851",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-australian-gp-2026/",
+          "product_number": "417260177",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666851-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666851-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666852",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – MIAMI GP 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-miami-gp-2026/",
+          "product_number": "417260477",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666852-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666852-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666853",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – SERGIO PEREZ – PRE-SEASON TEST BAHRAIN 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-sergio-perez-pre-season-test-bahrain-2026/",
+          "product_number": "417269911",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666853-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666853-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666854",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – ZHOU GUANYU – TEST BARCELONA 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-zhou-guanyu-test-barcelona-2026/",
+          "product_number": "417269924",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666854-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666854-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-1666855",
+          "name": "CADILLAC FORMULA 1 TEAM MAC-26 – VALTTERI BOTTAS – PRE-SEASON TEST BAHRAIN 2026",
+          "url": "https://www.minichamps.de/modelle/cadillac-formula-1-team-mac-26-valtteri-bottas-pre-season-test-bahrain-2026/",
+          "product_number": "417269977",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-1666855-1.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-1666855-1.jpg": "3e54a5b02170eef5000da298de7a2bd2da4430a39d789af1cdd34c17a2a2dd54"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-23T16:21:33.224710+00:00",
       "entries": [
         {

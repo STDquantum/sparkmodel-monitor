@@ -12,6 +12,7 @@ ROOT = Path(__file__).parent
 DOCS = ROOT / "docs"
 CATALOG = DOCS / "catalog.json"
 REPORT = DOCS / "updates.json"
+REPORT_JS = DOCS / "updates.js"
 BASE_REF = "HEAD"
 
 
@@ -29,6 +30,13 @@ def old_json(path, default):
 
 def digest(data):
     return hashlib.sha256(data).hexdigest() if data is not None else None
+
+
+def write_report_js(history):
+    """Publish the report as a script as well as JSON so file:// previews work."""
+    payload = json.dumps(history, ensure_ascii=False, separators=(",", ":"))
+    payload = payload.replace("</", "<\\/")
+    REPORT_JS.write_text(f"window.MODEL_UPDATES={payload};\n", encoding="utf-8")
 
 
 def image_hashes(product, previous=False):
@@ -149,6 +157,8 @@ def publish():
         if old is None or fields or any(images.values()):
             entries.append({"type": "added" if old is None else "changed", "id": product_id, "name": new["name"], "url": new.get("url", ""), **product_meta(new), "fields": fields, "images": images})
     if not entries:
+        history = json.loads(REPORT.read_text(encoding="utf-8")) if REPORT.exists() else {"updates": []}
+        write_report_js(history)
         print("No catalogue changes; update report unchanged")
         return
     catalog_text = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
@@ -160,6 +170,7 @@ def publish():
         stamp_images(entry)
     history["updates"].insert(0, {"date": catalog["generated_at"], "entries": entries})
     REPORT.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_report_js(history)
     print(f"Published update report: {len(entries)} products")
 
 

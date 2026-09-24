@@ -16,6 +16,7 @@ import monitor
 DOCS = Path(__file__).with_name("docs")
 IMAGES = DOCS / "images"
 CATALOG_FILE = DOCS / "catalog.json"
+CATALOG_SCRIPT_FILE = DOCS / "catalog.js"
 
 
 class DetailParser(HTMLParser):
@@ -178,7 +179,10 @@ class MinichampsDetailParser(HTMLParser):
         if not url or "wp-content/uploads" not in url:
             return
         filename = Path(urlsplit(url).path).name.lower()
-        if "coming_soon" in filename or "coming-soon" in filename:
+        if any(marker in filename for marker in (
+            "coming_soon", "coming-soon", "sold_out", "sold-out", "soldout",
+            "ausverkauft", "out_of_stock", "out-of-stock",
+        )):
             return
         if url not in self.images:
             self.images.append(url)
@@ -197,6 +201,8 @@ class MinichampsDetailParser(HTMLParser):
             if a.get("itemprop") == "priceCurrency": self.fields["currency"] = a.get("content", "")
         if tag == "h1" and "product_title" in classes:
             self.capture = "name"; self.text = []
+        elif tag == "div" and "preisschild_ausverkauft" in classes:
+            self.capture = "availability"; self.text = []
         elif tag == "span" and "sku" in classes:
             self.capture = "sku"; self.text = []
         elif tag in {"th", "td"} and ("woocommerce-product-attributes-item__label" in classes or "woocommerce-product-attributes-item__value" in classes):
@@ -220,12 +226,18 @@ class MinichampsDetailParser(HTMLParser):
                 self.gallery_depth = None
             self.div_depth -= 1
         if not self.capture: return
+        if tag == "div" and self.capture == "availability":
+            self.properties["Availability"] = "Sold out"
+            self.capture = None
+            return
         if (tag == "h1" and self.capture == "name") or (tag == "span" and self.capture == "sku") or (tag == "th" and self.capture == "label") or (tag == "td" and self.capture == "value"):
             value = " ".join("".join(self.text).split())
             if self.capture == "name": self.fields["name"] = value
             elif self.capture == "sku": self.properties["Product number"] = value
             elif self.capture == "label": self.key = value
             elif self.key:
+                if self.key.casefold() == "manufacturer":
+                    value = re.split(r"\s*\[Details according to GPSR\b.*", value, maxsplit=1, flags=re.I)[0].strip()
                 self.properties[self.key] = value; self.key = None
             self.capture = None
 
@@ -329,7 +341,7 @@ def build_product(product_id, listing):
             "id": product_id, "name": fields.get("name") or listing["name"], "url": listing["url"],
             "images": local_images, "properties": {key: value for key, value in properties.items() if value},
             "description": "", "brand": "Minichamps", "price": fields.get("price", ""), "currency": fields.get("currency", "EUR"), "gtin": "",
-            "weight": "", "length": "", "availability": {"vorbestellbar": "Pre-order", "preorder": "Pre-order", "auf lager": "Available", "sofort lieferbar": "Available", "in stock": "Available"}.get((scraped_properties.get("Availability") or listing.get("availability", "")).strip().lower(), scraped_properties.get("Availability") or listing.get("availability", "")),
+            "weight": "", "length": "", "availability": {"vorbestellbar": "Pre-order", "preorder": "Pre-order", "auf lager": "Available", "sofort lieferbar": "Available", "in stock": "Available", "sold out": "Sold out", "ausverkauft": "Sold out"}.get((scraped_properties.get("Availability") or listing.get("availability", "")).strip().lower(), scraped_properties.get("Availability") or listing.get("availability", "")),
         }
     if source == "sparkmodel":
         source_id = listing.get("source_id") or product_id.removeprefix("spark-2025-")
@@ -435,6 +447,8 @@ def build_catalog():
             print(f"[{number}/{len(product_ids)}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))", flush=True)
     catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": [products[key] for key in sorted(products)]}
     CATALOG_FILE.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    catalog_data = json.dumps(catalog, ensure_ascii=False, separators=(",", ":"))
+    CATALOG_SCRIPT_FILE.write_text(f"window.MODEL_CATALOG={catalog_data};\n", encoding="utf-8")
     remove_unused_images(catalog["products"])
     print(f"Updated {len(products)} products in {DOCS}")
 

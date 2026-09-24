@@ -22,6 +22,10 @@ SPARK_SITE_URL = "https://www.sparkmodel.com"
 LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
 MINICHAMPS_URL = "https://www.minichamps.de/liste/"
 MINICHAMPS_SEARCHES = ("W17", "VF-26", "AMR26", "VCARB 03", "MAC-26", "A526", "Audi R26", "RB22", "FW48", "MCL40")
+MINICHAMPS_FILTER_TAXONOMIES = (
+    "pa_verfuegbarkeit", "pa_massstab", "pa_marke", "pa_fahrer",
+    "pa_hersteller", "pa_jahr", "pa_material",
+)
 MINICHAMPS_MODEL_PATTERNS = {
     "W17": r"\bW17\b", "VF-26": r"\bVF-26\b", "AMR26": r"\bAMR26\b",
     "VCARB 03": r"\bVCARB\s*03\b", "MAC-26": r"\bMAC-26\b", "A526": r"\bA526\b",
@@ -75,11 +79,34 @@ def spark_2025_url(search, page=1):
     return f"{SPARK_API_URL}?{urlencode(params)}"
 
 
+def minichamps_search_params(search, page=1):
+    params = {
+        "ixwpss": search,
+        "title": 1,
+        "excerpt": 1,
+        "content": 1,
+        "categories": 1,
+        "attributes": 1,
+        "tags": 1,
+        "sku": 1,
+    }
+    for taxonomy in MINICHAMPS_FILTER_TAXONOMIES:
+        params[f"ixwpsf[taxonomy][{taxonomy}][show]"] = "set"
+        params[f"ixwpsf[taxonomy][{taxonomy}][multiple]"] = 1
+        params[f"ixwpsf[taxonomy][{taxonomy}][filter]"] = 1
+    params["product-page"] = page
+    return params
+
+
+def minichamps_url(search, page=1):
+    return f"{MINICHAMPS_URL}?{urlencode(minichamps_search_params(search, page))}"
+
+
 SOURCE_URLS = (
     *(search_url(search) for search in TEAM_SEARCHES),
     *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
     LOOKSMART_SEARCH_URL,
-    *(f"{MINICHAMPS_URL}?{urlencode({'ixwpst[pa_verfuegbarkeit][0]': '7040', 'ixwpst[pa_verfuegbarkeit][1]': '7039', 'ixwpss': search, 'product-page': 1})}" for search in MINICHAMPS_SEARCHES),
+    *(minichamps_url(search) for search in MINICHAMPS_SEARCHES),
 )
 
 
@@ -459,10 +486,6 @@ def minichamps_request(url):
         if attempt == 0:
             initialize_session(reset=True)
     raise RuntimeError("Minichamps returned its PHP-session redirect instead of page HTML")
-
-
-def minichamps_url(search, page=1):
-    return f"{MINICHAMPS_URL}?{urlencode({'ixwpst[pa_verfuegbarkeit][0]': '7040', 'ixwpst[pa_verfuegbarkeit][1]': '7039', 'ixwpss': search, 'product-page': page})}"
 
 
 def parse_minichamps_listing(html):
