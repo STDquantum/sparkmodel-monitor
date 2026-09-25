@@ -61,6 +61,8 @@ USER_AGENT = "sparkmodel-shop-change-monitor/1.0 (+GitHub Actions)"
 _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
 _MINICHAMPS_LOCK = RLock()
 _MINICHAMPS_SESSION_READY = False
+_MINICHAMPS_MAX_RETRIES = 5
+_MINICHAMPS_RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
 
 
 def search_url(search):
@@ -464,28 +466,44 @@ def fetch_looksmart():
 
 def minichamps_request(url):
     """Minichamps returns a same-path JS redirect on a new PHP session."""
-    global _MINICHAMPS_SESSION_READY
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36", "Accept": "text/html,application/xhtml+xml"}
 
     def initialize_session(reset=False):
-        global _MINICHAMPS_SESSION_READY
+        global _MINICHAMPS_OPENER, _MINICHAMPS_SESSION_READY
         with _MINICHAMPS_LOCK:
             if reset:
+                _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
                 _MINICHAMPS_SESSION_READY = False
             if not _MINICHAMPS_SESSION_READY:
                 with _MINICHAMPS_OPENER.open(Request("https://www.minichamps.de/", headers=headers), timeout=45) as response:
                     response.read()
                 _MINICHAMPS_SESSION_READY = True
 
-    initialize_session()
-    for attempt in range(2):
-        with _MINICHAMPS_OPENER.open(Request(url, headers=headers), timeout=45) as response:
-            html = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
-        if len(html) > 1000 or not re.search(r"^\s*<script>\s*window\.location\.href=['\"]", html, re.I):
-            return html
-        if attempt == 0:
+    for retry in range(_MINICHAMPS_MAX_RETRIES + 1):
+        try:
+            initialize_session()
+            for session_attempt in range(2):
+                with _MINICHAMPS_OPENER.open(Request(url, headers=headers), timeout=45) as response:
+                    html = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+                if len(html) > 1000 or not re.search(r"^\s*<script>\s*window\.location\.href=['\"]", html, re.I):
+                    return html
+                if session_attempt == 0:
+                    initialize_session(reset=True)
+            raise RuntimeError("Minichamps returned its PHP-session redirect instead of page HTML")
+        except (HTTPError, URLError, TimeoutError, IncompleteRead) as error:
+            if isinstance(error, HTTPError) and error.code not in _MINICHAMPS_RETRYABLE_HTTP_CODES:
+                raise
+            if retry >= _MINICHAMPS_MAX_RETRIES:
+                raise
+            delay = 2 ** retry
             initialize_session(reset=True)
-    raise RuntimeError("Minichamps returned its PHP-session redirect instead of page HTML")
+            print(
+                f"Minichamps request failed ({error}); retry {retry + 1}/{_MINICHAMPS_MAX_RETRIES} in {delay}s",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+
+    raise AssertionError("unreachable")
 
 
 def parse_minichamps_listing(html):
