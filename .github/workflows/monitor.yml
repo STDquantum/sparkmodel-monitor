@@ -25,6 +25,7 @@ jobs:
         env:
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
           DINGTALK_KEYWORD: ${{ vars.DINGTALK_KEYWORD }}
+          MINICHAMPS_ENABLED: "false"
         run: python monitor.py
       - name: Build local product catalogue after a change
         run: |

@@ -544,8 +544,19 @@ def fetch_all():
     for search in SPARK_2025_SEARCHES:
         products.update(fetch_spark_2025(search))
     products.update(fetch_looksmart())
-    for search in MINICHAMPS_SEARCHES:
-        products.update(fetch_minichamps(search))
+    if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
+        for search in MINICHAMPS_SEARCHES:
+            products.update(fetch_minichamps(search))
+    else:
+        # Keep the last known Minichamps snapshot while its site is unavailable,
+        # so a temporary pause does not report every Minichamps product as removed.
+        previous = load_state() or {}
+        products.update({
+            product_id: item
+            for product_id, item in previous.items()
+            if item.get("source") == "minichamps"
+        })
+        print("Minichamps monitoring is disabled; keeping its last known snapshot")
     return products
 
 
