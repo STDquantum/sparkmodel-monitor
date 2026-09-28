@@ -133,7 +133,7 @@ def request(url, payload=None):
         try:
             with urlopen(Request(url, data=data, headers=headers), timeout=45) as response:
                 return response.read().decode(response.headers.get_content_charset() or "utf-8")
-        except (HTTPError, URLError, TimeoutError, UnicodeDecodeError, IncompleteRead):
+        except (HTTPError, URLError, TimeoutError, UnicodeDecodeError, IncompleteRead, ConnectionError):
             if attempt == 2:
                 raise
             time.sleep(2**attempt)
