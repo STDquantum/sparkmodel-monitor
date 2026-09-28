@@ -1,6 +1,37 @@
 {
   "updates": [
     {
+      "date": "2026-09-28T07:48:41.088016+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "3cb9c26718f1496c86f9251c1b97ba13",
+          "name": "Ferrari SF-26 No.16 2nd Belgian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-belgian-gp-2026-charles-leclerc/ls18f1089-de",
+          "product_number": "LS18F1089",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e7/c6/f2/1784864773/5d6e1a6d2aaf4beebd9fb0570dc6d586.webp?ts=1784864773",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e7/c6/f2/1784864773/5d6e1a6d2aaf4beebd9fb0570dc6d586.webp?ts=1790577076"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-24T12:00:19.833454+00:00",
       "entries": [
         {
