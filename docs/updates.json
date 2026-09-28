@@ -1,6 +1,172 @@
 {
   "updates": [
     {
+      "date": "2026-09-28T14:20:26.791336+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "432736c539cc4a0882f9468063682a9e",
+          "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 Esteban Ocon",
+          "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-australian-gp-2026-esteban-ocon/s9376-de",
+          "product_number": "S9376",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/e3/39/1785748243/8dd181c45ab144829280d2c3a8eaf647.webp?ts=1787576243",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/e3/39/1785748243/8dd181c45ab144829280d2c3a8eaf647.webp?ts=1790596304"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 12,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "4f75722759d742c29f0eec8d63b518ac",
+          "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 George Russell With pit board",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.63-winner-australian-gp-2026-george-russell-with-pit-board/s9380-de",
+          "product_number": "S9380",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/10/7e/3f/1784566688/6e30eece61844002af80f6a5537868b5.webp?ts=1787735587",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/10/7e/3f/1784566688/6e30eece61844002af80f6a5537868b5.webp?ts=1790596307"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 12,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "683190c7efa44eb08baa6e834b419b27",
+          "name": "McLaren Mastercard F1 Team - Oscar Piastri - 2026",
+          "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-2026/5hf244-de",
+          "product_number": "5HF244",
+          "scale": "1/5",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/e1/0d/1788332277/7ef16a5252be4eae9ce6b51bc648778c.webp?ts=1788332969",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/e1/0d/1788332277/7ef16a5252be4eae9ce6b51bc648778c.webp?ts=1790593739"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 4,
+                "to": 3
+              },
+              {
+                "from": 6,
+                "to": 4
+              },
+              {
+                "from": 8,
+                "to": 5
+              },
+              {
+                "from": 10,
+                "to": 6
+              },
+              {
+                "from": 11,
+                "to": 7
+              },
+              {
+                "from": 14,
+                "to": 8
+              },
+              {
+                "from": 15,
+                "to": 9
+              },
+              {
+                "from": 18,
+                "to": 10
+              },
+              {
+                "from": 19,
+                "to": 11
+              },
+              {
+                "from": 22,
+                "to": 12
+              },
+              {
+                "from": 23,
+                "to": 13
+              },
+              {
+                "from": 26,
+                "to": 14
+              },
+              {
+                "from": 27,
+                "to": 15
+              },
+              {
+                "from": 28,
+                "to": 16
+              }
+            ],
+            "removed_count": 12,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "a838877fdfe64017902e75d403544439",
+          "name": "McLaren Mastercard F1 Team - Oscar Piastri - Australian GP 2026",
+          "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-australian-gp-2026/5hf245-de",
+          "product_number": "5HF245",
+          "scale": "1/5",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7f/fb/cf/1784859712/a9315c73faa648219497860bac96a4f0.webp?ts=1784859712",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7f/fb/cf/1784859712/a9315c73faa648219497860bac96a4f0.webp?ts=1790593743"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 13,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-28T07:48:41.088016+00:00",
       "entries": [
         {
