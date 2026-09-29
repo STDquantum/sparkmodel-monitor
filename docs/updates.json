@@ -1,6 +1,119 @@
 {
   "updates": [
     {
+      "date": "2026-09-29T04:08:43.620547+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "135789d267db41ecb9c9a16fb3d3f6ab",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli (With figurine)",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/s9365-de",
+          "product_number": "S9365",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp",
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp",
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-3.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp": "715eaaeb3c07e7af7837e1fc98c538d79ae3e1b7eb6852248417651672e01104",
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp": "96adbbc25a1d36889c197082db4f49767eb9810d416fa4d3ddf3d7ede4418c18",
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-3.webp": "32f811c97bbc3fd89f5b363f5cd76a50df031cb425ca17c7f9cd36e1e6ad410e"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "4eee8f9d64804a3bb5efe28dbe1dc2bf",
+          "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Canada GP 2026 Kimi Antonelli",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-canada-gp-2026-kimi-antonelli/s9396-de",
+          "product_number": "S9396",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "ced783ae504248eb8ba775998a43ec21",
+          "name": "Mercedes-AMG PETRONAS Formula One Team - George Russell - British GP 2026",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-george-russell-british-gp-2026/5hf269-de",
+          "product_number": "5HF269",
+          "scale": "1/5",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "ee19f55446504fc780193ca38fdcb543",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell (With figurine)",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell-with-figurine/s9364-de",
+          "product_number": "S9364",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "f657cbd54b4d4a3da857425ccf6e26dc",
+          "name": "McLaren Mastercard F1 Team - Lando Norris - British GP 2026",
+          "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-lando-norris-british-gp-2026/5hf271-de",
+          "product_number": "5HF271",
+          "scale": "1/5",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-29T03:31:33.010006+00:00",
       "entries": [
         {
