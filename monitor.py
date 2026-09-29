@@ -61,6 +61,8 @@ _MINICHAMPS_LOCK = RLock()
 _MINICHAMPS_SESSION_READY = False
 _MINICHAMPS_MAX_RETRIES = 5
 _MINICHAMPS_RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+_REQUEST_MAX_RETRIES = 5
+_REQUEST_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
 
 
 def search_url(search):
@@ -116,14 +118,32 @@ def request(url, payload=None):
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json" if data else "text/html"}
     if data is not None:
         headers["Content-Type"] = "application/json; charset=utf-8"
-    for attempt in range(3):
+    for attempt in range(_REQUEST_MAX_RETRIES + 1):
         try:
             with urlopen(Request(url, data=data, headers=headers), timeout=45) as response:
                 return response.read().decode(response.headers.get_content_charset() or "utf-8")
-        except (HTTPError, URLError, TimeoutError, UnicodeDecodeError, IncompleteRead, ConnectionError):
-            if attempt == 2:
+        except HTTPError as error:
+            if error.code not in _REQUEST_RETRYABLE_HTTP_CODES or attempt >= _REQUEST_MAX_RETRIES:
+                print(f"Request giving up after {attempt + 1} attempt(s): {url} ({error})", file=sys.stderr)
                 raise
-            time.sleep(2**attempt)
+            retry_after = error.headers.get("Retry-After", "") if error.headers else ""
+            try:
+                delay = min(float(retry_after), 60) if retry_after else min(2**attempt, 30)
+            except ValueError:
+                delay = min(2**attempt, 30)
+        except (URLError, TimeoutError, UnicodeDecodeError, IncompleteRead, ConnectionError) as error:
+            if attempt >= _REQUEST_MAX_RETRIES:
+                raise RuntimeError(
+                    f"Request failed after {_REQUEST_MAX_RETRIES + 1} attempts for {url}: {error}"
+                ) from error
+            delay = min(2**attempt, 30)
+
+        print(
+            f"Request failed ({error}); retry {attempt + 1}/{_REQUEST_MAX_RETRIES} "
+            f"in {delay:g}s: {url}",
+            file=sys.stderr,
+        )
+        time.sleep(delay)
 
 
 class ListingParser(HTMLParser):
