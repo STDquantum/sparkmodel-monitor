@@ -675,7 +675,9 @@ def fetch_minichamps_2025():
             if not products:
                 raise RuntimeError("Minichamps 2025 category returned no products")
             return products
-        url = urljoin(url, next_url)
+        # Shopware's generated pager can drop the selected property filter.
+        # Rebuild every page URL so the 2025 constraint is always retained.
+        url = minichamps_2025_url(page + 1)
     raise RuntimeError("Minichamps 2025 pagination exceeded 100 pages")
 
 
