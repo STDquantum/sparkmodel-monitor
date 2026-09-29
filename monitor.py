@@ -745,17 +745,24 @@ def catalog_metadata():
 
 def with_metadata(items, metadata, fetch_missing=False):
     result = []
-    for item in items:
+    for index, item in enumerate(items):
         details = metadata.get(item["product_id"]) or {
             "product_number": item.get("product_number", ""),
             "scale": item.get("scale", ""),
         }
-        if not any(details.values()) and fetch_missing and item.get("source", "sparkmodelshop") == "sparkmodelshop":
-            from catalog import parse_detail
-            _, properties, _ = parse_detail(request(item["url"]))
+        if fetch_missing and index < 20 and (not details.get("product_number") or not details.get("scale")):
+            source = item.get("source", "sparkmodelshop")
+            if source == "minichamps":
+                from catalog import parse_minichamps_detail
+                _, properties, _ = parse_minichamps_detail(minichamps_request(item["url"]))
+            elif source == "sparkmodelshop":
+                from catalog import parse_detail
+                _, properties, _ = parse_detail(request(item["url"]))
+            else:
+                properties = {}
             details = {
-                "product_number": properties.get("Product number", ""),
-                "scale": properties.get("Scale", ""),
+                "product_number": details.get("product_number") or item.get("product_number") or properties.get("Product number", ""),
+                "scale": details.get("scale") or item.get("scale") or properties.get("Scale", ""),
             }
         result.append(item | (details or {}))
     return result

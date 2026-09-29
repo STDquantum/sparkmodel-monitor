@@ -253,6 +253,10 @@ def parse_minichamps_detail(html):
     parser = MinichampsDetailParser(); parser.feed(html)
     if parser.fields.get("name"):
         parser.fields["name"] = monitor.clean_minichamps_text(parser.fields["name"])
+        product_number = re.search(r"\s*[|｜]\s*([\w-]+)\s*$", parser.fields["name"])
+        if product_number:
+            parser.properties.setdefault("Product number", product_number.group(1))
+            parser.fields["name"] = parser.fields["name"][:product_number.start()].strip()
     return parser.fields, parser.properties, parser.images
 
 
