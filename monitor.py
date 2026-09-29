@@ -119,10 +119,12 @@ def request(url, payload=None):
     if data is not None:
         headers["Content-Type"] = "application/json; charset=utf-8"
     for attempt in range(_REQUEST_MAX_RETRIES + 1):
+        failure = None
         try:
             with urlopen(Request(url, data=data, headers=headers), timeout=45) as response:
                 return response.read().decode(response.headers.get_content_charset() or "utf-8")
         except HTTPError as error:
+            failure = error
             if error.code not in _REQUEST_RETRYABLE_HTTP_CODES or attempt >= _REQUEST_MAX_RETRIES:
                 print(f"Request giving up after {attempt + 1} attempt(s): {url} ({error})", file=sys.stderr)
                 raise
@@ -132,6 +134,7 @@ def request(url, payload=None):
             except ValueError:
                 delay = min(2**attempt, 30)
         except (URLError, TimeoutError, UnicodeDecodeError, IncompleteRead, ConnectionError) as error:
+            failure = error
             if attempt >= _REQUEST_MAX_RETRIES:
                 raise RuntimeError(
                     f"Request failed after {_REQUEST_MAX_RETRIES + 1} attempts for {url}: {error}"
@@ -139,7 +142,7 @@ def request(url, payload=None):
             delay = min(2**attempt, 30)
 
         print(
-            f"Request failed ({error}); retry {attempt + 1}/{_REQUEST_MAX_RETRIES} "
+            f"Request failed ({failure}); retry {attempt + 1}/{_REQUEST_MAX_RETRIES} "
             f"in {delay:g}s: {url}",
             file=sys.stderr,
         )
