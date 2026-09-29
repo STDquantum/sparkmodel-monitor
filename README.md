@@ -15,7 +15,7 @@
 | Looksmart | Ferrari SF-25 检索结果 |
 | Minichamps | 10 个 2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40 |
 
-Ferrari 的 Spark Model Shop 结果仅收录名称包含 `SF-26` 或 `Scuderia Ferrari HP` 的商品。相同商品以商品 ID 合并。
+Spark Model Shop 使用普通关键词搜索，不附加商品属性筛选；仅保留商品标题包含 `2026` 的结果。Ferrari 搜索还要求名称包含 `SF-26` 或 `Scuderia Ferrari HP`。相同商品以商品 ID 合并。
 
 每次采集会记录商品 ID、名称、商品链接、封面图片地址、Availability 和来源。程序以商品 ID 识别商品，并检查商品是否仍出现在检索结果中，同时比较封面图片地址与 Availability。
 
@@ -39,7 +39,7 @@ Ferrari 的 Spark Model Shop 结果仅收录名称包含 `SF-26` 或 `Scuderia F
 - 关键词：搜索商品记录中的文字，例如商品名称、车型、年份或车手。
 - 年份、车队、厂商、比例、分类和 Availability。
 - 大奖赛：先选择年份，再从该年度赛历中选择名称；选项可显示比赛日期。无法归入已识别大奖赛的商品列为 `OTHERS`。
-- 样品：商品图片超过一张时归类为“有样品”。
+- 样品：Minichamps 商品有至少一张图片时归类为“有样品”；其他商品图片超过一张时归类为“有样品”。
 - 排序：默认顺序、大奖赛、车队、货号、比例、Availability 及样品数量；箭头控制升序或降序。
 - 清除筛选：恢复所有搜索和筛选条件。
 

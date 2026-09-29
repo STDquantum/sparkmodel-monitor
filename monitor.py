@@ -17,7 +17,6 @@ from urllib.request import Request, urlopen
 from urllib.request import build_opener, HTTPCookieProcessor
 
 SEARCH_URL = "https://www.sparkmodelshop.com/de/en/search"
-SEARCH_PROPERTY = "881036a7528b682be67aa6e2c171e1de"
 SPARK_API_URL = "https://rapi.sparkmodel.com/products"
 SPARK_SITE_URL = "https://www.sparkmodel.com"
 LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
@@ -65,7 +64,7 @@ _MINICHAMPS_RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
 
 
 def search_url(search):
-    return f"{SEARCH_URL}?{urlencode({'properties': SEARCH_PROPERTY, 'p': 1, 'order': 'score', 'search': search})}"
+    return f"{SEARCH_URL}?{urlencode({'search': search})}"
 
 
 def spark_2025_url(search, page=1):
@@ -430,7 +429,14 @@ def parse_listing(html):
 
 def page_url(url, page):
     parts = urlsplit(url)
-    query = [(key, str(page) if key == "p" else value) for key, value in parse_qsl(parts.query)]
+    query = parse_qsl(parts.query)
+    found_page = False
+    for index, (key, value) in enumerate(query):
+        if key == "p":
+            query[index] = (key, str(page))
+            found_page = True
+    if not found_page and page > 1:
+        query.append(("p", str(page)))
     return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
@@ -447,8 +453,11 @@ def fetch_search(search):
         seen += len(rows)
         for row in rows:
             product_id = row.pop("product_id")
-            if search != "Ferrari" or ferrari_match(row["name"]):
-                products[product_id] = row
+            if "2026" not in row["name"]:
+                continue
+            if search == "Ferrari" and not ferrari_match(row["name"]):
+                continue
+            products[product_id] = row
         if seen >= total:
             if seen != total:
                 raise RuntimeError(f"Incomplete crawl for {search}: expected {total}, got {seen}")
