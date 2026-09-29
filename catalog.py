@@ -6,6 +6,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+from http.client import IncompleteRead
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
@@ -172,16 +173,17 @@ class MinichampsDetailParser(HTMLParser):
         self.capture = None
         self.text = []
         self.key = None
-        self.div_depth = 0
-        self.gallery_depth = None
 
     def add_gallery_image(self, url):
-        if not url or "wp-content/uploads" not in url:
+        if not url:
             return
-        filename = Path(urlsplit(url).path).name.lower()
+        image_path = urlsplit(url).path.lower()
+        if "/media/" not in image_path:
+            return
+        filename = Path(image_path).name.lower()
         if any(marker in filename for marker in (
             "coming_soon", "coming-soon", "sold_out", "sold-out", "soldout",
-            "ausverkauft", "out_of_stock", "out-of-stock",
+            "ausverkauft", "out_of_stock", "out-of-stock", "dummy",
         )):
             return
         if url not in self.images:
@@ -190,56 +192,35 @@ class MinichampsDetailParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         classes = a.get("class", "").split()
-        if tag == "div":
-            self.div_depth += 1
-            if "woocommerce-product-gallery" in classes:
-                self.gallery_depth = self.div_depth
         if tag == "meta":
             prop = a.get("property", "")
             if prop == "og:title": self.fields["name"] = a.get("content", "")
             if a.get("itemprop") == "price" or prop == "product:price:amount": self.fields["price"] = a.get("content", "")
             if a.get("itemprop") == "priceCurrency" or prop == "product:price:currency": self.fields["currency"] = a.get("content", "")
-        if tag == "h1" and "product_title" in classes:
-            self.capture = "name"; self.text = []
-        elif tag == "div" and "preisschild_ausverkauft" in classes:
-            self.capture = "availability"; self.text = []
-        elif tag == "span" and "sku" in classes:
-            self.capture = "sku"; self.text = []
-        elif tag in {"th", "td"} and (
-            "woocommerce-product-attributes-item__label" in classes
-            or "woocommerce-product-attributes-item__value" in classes
-            or "properties-label" in classes
+        if tag in {"th", "td"} and (
+            "properties-label" in classes
             or "properties-value" in classes
         ):
             self.capture = "label" if tag == "th" else "value"; self.text = []
-        elif tag == "a" and self.gallery_depth is not None:
-            self.add_gallery_image(a.get("href", ""))
-        elif tag == "img" and self.gallery_depth is not None:
-            url = a.get("data-large_image") or a.get("data-src") or a.get("src", "")
+        elif tag == "img" and {
+            "gallery-slider-image",
+            "gallery-slider-thumbnails-image",
+        }.intersection(classes):
+            url = (
+                a.get("data-full-image")
+                or a.get("data-src")
+                or a.get("src", "")
+            )
             self.add_gallery_image(url)
-        elif tag == "div" and self.gallery_depth is not None and "background-image" in a.get("style", ""):
-            match = re.search(r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)", a["style"], re.I)
-            if match:
-                self.add_gallery_image(match.group(1))
 
     def handle_data(self, data):
         if self.capture: self.text.append(data)
 
     def handle_endtag(self, tag):
-        if tag == "div":
-            if self.gallery_depth == self.div_depth:
-                self.gallery_depth = None
-            self.div_depth -= 1
         if not self.capture: return
-        if tag == "div" and self.capture == "availability":
-            self.properties["Availability"] = "Sold out"
-            self.capture = None
-            return
-        if (tag == "h1" and self.capture == "name") or (tag == "span" and self.capture == "sku") or (tag == "th" and self.capture == "label") or (tag == "td" and self.capture == "value"):
+        if (tag == "th" and self.capture == "label") or (tag == "td" and self.capture == "value"):
             value = " ".join("".join(self.text).split())
-            if self.capture == "name": self.fields["name"] = value
-            elif self.capture == "sku": self.properties["Product number"] = value
-            elif self.capture == "label":
+            if self.capture == "label":
                 normalized_key = value.rstrip(":").strip().casefold()
                 self.key = "Scale" if normalized_key in {"scale", "maßstab", "masstab"} else value.rstrip(":").strip()
             elif self.key:
@@ -276,7 +257,7 @@ def download_image(url, product_id, index):
             with urlopen(Request(url, headers={"User-Agent": monitor.USER_AGENT}), timeout=90) as response:
                 destination.write_bytes(response.read())
             break
-        except (HTTPError, URLError, TimeoutError):
+        except (HTTPError, URLError, TimeoutError, IncompleteRead):
             if attempt == 2:
                 raise
             time.sleep(2**attempt)
@@ -285,6 +266,8 @@ def download_image(url, product_id, index):
 
 def download_unique_images(urls, product_id):
     """Download a product's images and discard byte-identical duplicates."""
+    if not urls:
+        return []
     local_images = []
     seen_hashes = set()
     for index, url in enumerate(dict.fromkeys(urls), start=1):
@@ -332,13 +315,6 @@ def remove_unused_images(products):
 
 def refresh_ids(items, products, changes):
     changed = set(changes.get("added", ())) | set(changes.get("changed", ()))
-    missing_minichamps_scales = {
-        product_id
-        for product_id, listing in items.items()
-        if listing.get("source") == "minichamps"
-        and product_id in products
-        and not products[product_id].get("properties", {}).get("Scale")
-    }
     missing_search_images = {
         product_id
         for product_id, listing in items.items()
@@ -347,7 +323,7 @@ def refresh_ids(items, products, changes):
         and product_id in products
         and not products[product_id].get("images")
     }
-    return sorted((changed | (set(items) - set(products)) | missing_minichamps_scales | missing_search_images) & set(items))
+    return sorted((changed | (set(items) - set(products)) | missing_search_images) & set(items))
 
 
 def build_product(product_id, listing):
@@ -471,7 +447,16 @@ def build_catalog():
         futures = {executor.submit(build_product, product_id, items[product_id]): product_id for product_id in product_ids}
         for number, future in enumerate(as_completed(futures), start=1):
             product_id = futures[future]
-            products[product_id] = future.result()
+            try:
+                product = future.result()
+            except Exception as error:
+                print(f"[{number}/{len(product_ids)}] {product_id} failed; keeping previous catalog entry: {error}", flush=True)
+                continue
+            previous = products.get(product_id)
+            if not product.get("images") and previous and previous.get("images"):
+                print(f"[{number}/{len(product_ids)}] {product_id} returned no images; keeping previous images", flush=True)
+                product["images"] = previous["images"]
+            products[product_id] = product
             print(f"[{number}/{len(product_ids)}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))", flush=True)
 
     catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": [products[key] for key in sorted(products)]}

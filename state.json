@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-09-29T10:31:34.093661+00:00",
+  "updated_at": "2026-09-29T16:32:36.725591+00:00",
   "total": 680,
   "items": {
     "05be370d1c414c478cc76ddead21bef3": {
@@ -2524,7 +2524,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     "minichamps-019ef970cef572ac90140e7b6a791a61": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER JAPANESE GP 2025 W/FIGURINE + 2 PITBOARDS",
@@ -4629,7 +4629,7 @@
       "source_id": "3ff69cb5-1c30-455b-b5c5-9933c342e64c",
       "name": "Racing Bulls VCARB 02 No.22 Visa Cash App Racing Bulls Formula One Team\n12th Australian GP 2025\nYuki Tsunoda",
       "url": "https://www.sparkmodel.com/products/3ff69cb5-1c30-455b-b5c5-9933c342e64c",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/476a1581-f0ef-4227-aa4b-6b927e8c47c6.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b2d7ca21-ea82-4d87-805b-9c19b8c1af72.webp",
       "availability": "Coming soon",
       "product_number": "18S1251",
       "scale": "1/18",
@@ -5829,7 +5829,7 @@
       "source_id": "f0da84e8-881a-4e50-aabc-3d1046d21fea",
       "name": "Mercedes-AMG PETRONAS Formula One Team No.12 F1 W16 E Performance Sprint Qualifying Pole Miami GP 2025  \nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/f0da84e8-881a-4e50-aabc-3d1046d21fea",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d0b535fa-cd32-4406-98d8-6ddc7e2639c4.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9bac4e3b-1cc8-4a9f-b45c-9c6d5abab1de.webp",
       "availability": "Coming soon",
       "product_number": "18S1253",
       "scale": "1/18",
@@ -5934,17 +5934,11 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-530267404",
-      "minichamps-530267504",
-      "minichamps-537262804",
-      "minichamps-537265304"
-    ],
+    "added": [],
     "changed": [
-      "135789d267db41ecb9c9a16fb3d3f6ab",
-      "b44e384aadd84eb892f4e7b46cac6718",
-      "ec2913149705458da44f0e4261a6e40e",
-      "ee19f55446504fc780193ca38fdcb543"
+      "minichamps-019ef970c2af7081bf6e78f4e871142d",
+      "spark-2025-3ff69cb5-1c30-455b-b5c5-9933c342e64c",
+      "spark-2025-f0da84e8-881a-4e50-aabc-3d1046d21fea"
     ],
     "removed": []
   }

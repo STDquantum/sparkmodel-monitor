@@ -217,16 +217,11 @@ class ListingParser(HTMLParser):
 
 
 class MinichampsListingParser(HTMLParser):
-    """Parse Minichamps Shopware product cards and legacy WooCommerce cards."""
+    """Parse Minichamps Shopware product cards."""
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.li_depth = 0
-        self.card_depth = None
-        self.current = None
         self.items = []
         self.next_url = ""
-        self.capture_name = False
-        self.name_parts = []
         self.shopware_card = None
         self.shopware_card_depth = None
         self.div_depth = 0
@@ -259,12 +254,6 @@ class MinichampsListingParser(HTMLParser):
                 image_url = a.get("data-src") or a.get("src") or a.get("data-lazy-src", "")
                 if image_url and not re.search(r"dummy|placeholder|coming.?soon|sold.?out", image_url, re.I):
                     self.shopware_card["image_url"] = image_url
-        if tag == "li":
-            self.li_depth += 1
-            if self.current is None and "product" in classes and "dealerliste" in classes:
-                self.current = {"product_id": a.get("id", "").removeprefix("post-"), "status_classes": classes}
-                self.card_depth = self.li_depth
-                self.card_text = []
         if tag == "a":
             href_query = dict(parse_qsl(urlparse(href).query))
             try:
@@ -282,25 +271,10 @@ class MinichampsListingParser(HTMLParser):
                     current_next_page = 0
                 if not current_next_page or linked_page < current_next_page:
                     self.next_url = href
-        if self.current is None:
-            return
-        if tag == "a" and a.get("href", "").find("/modelle/") >= 0 and not self.current.get("url"):
-            self.current["url"] = a["href"]
-        if tag == "div" and "background-image" in a.get("style", "") and not self.current.get("image_url"):
-            match = re.search(r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)", a["style"], re.I)
-            if match:
-                self.current["image_url"] = match.group(1)
-        if tag == "h2" and "woocommerce-loop-product__title" in classes:
-            self.capture_name = True
-            self.name_parts = []
 
     def handle_data(self, data):
         if self.shopware_card is not None:
             self.shopware_card["card_text"].append(data)
-        if self.current is not None:
-            self.card_text.append(data)
-        if getattr(self, "capture_name", False):
-            self.name_parts.append(data)
 
     def handle_endtag(self, tag):
         if tag == "div" and self.shopware_card_depth == self.div_depth:
@@ -329,36 +303,6 @@ class MinichampsListingParser(HTMLParser):
             self.shopware_card_depth = None
         if tag == "div":
             self.div_depth -= 1
-        if tag == "h2" and self.capture_name:
-            name = " ".join("".join(self.name_parts).split())
-            if name:
-                self.current["name"] = name
-            self.capture_name = False
-        if tag == "li":
-            if self.current is not None and self.li_depth == self.card_depth:
-                url = self.current.get("url", "")
-                name = self.current.get("name", "")
-                if url and name and self.current.get("product_id"):
-                    text = " ".join(" ".join(self.card_text).split())
-                    number = re.search(r"\b\d{6,10}\b", text)
-                    scale = re.search(r"\b1\s*[:/]\s*(\d+)\b", text)
-                    year = re.search(r"\b20\d{2}\b", text)
-                    availability = re.search(r"This model is available on ([^.]+?)(?:\s+Delivery|$)", text, re.I)
-                    self.current.update({"name": clean_minichamps_text(name), "url": url, "source": "minichamps", "manufacturer": "Minichamps"})
-                    if number: self.current["product_number"] = number.group(0)
-                    if scale: self.current["scale"] = f"1/{scale.group(1)}"
-                    if year: self.current["year"] = year.group(0)
-                    if "onbackorder" in self.current["status_classes"] or availability and "preorder" in availability.group(1).lower():
-                        self.current["availability"] = "Pre-order"
-                    elif "instock" in self.current["status_classes"]:
-                        self.current["availability"] = "Available"
-                    elif availability:
-                        self.current["availability"] = availability.group(1).strip()
-                    self.current.pop("status_classes", None)
-                    self.items.append(self.current)
-                self.current = None
-                self.card_depth = None
-            self.li_depth -= 1
 
 
 class LooksmartListingParser(HTMLParser):
@@ -683,15 +627,26 @@ def fetch_minichamps_2025():
 
 def fetch_all():
     products = {}
+
+    def fetch_and_merge(label, fetcher, *args):
+        print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetching {label}", flush=True)
+        batch = fetcher(*args)
+        products.update(batch)
+        print(
+            f"[{datetime.now().astimezone():%H:%M:%S}] Finished {label}: "
+            f"{len(batch)} products; {len(products)} unique total",
+            flush=True,
+        )
+
     for search in TEAM_SEARCHES:
-        products.update(fetch_search(search))
+        fetch_and_merge(f"Spark Model Shop · {search}", fetch_search, search)
     for search in SPARK_2025_SEARCHES:
-        products.update(fetch_spark_2025(search))
-    products.update(fetch_looksmart())
+        fetch_and_merge(f"Spark 2025 · {search}", fetch_spark_2025, search)
+    fetch_and_merge("Looksmart · SF-25", fetch_looksmart)
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
         for search in MINICHAMPS_SEARCHES:
-            products.update(fetch_minichamps(search))
-        products.update(fetch_minichamps_2025())
+            fetch_and_merge(f"Minichamps 2026 · {search}", fetch_minichamps, search)
+        fetch_and_merge("Minichamps 2025 category", fetch_minichamps_2025)
     else:
         # Keep the last known Minichamps snapshot while its site is unavailable,
         # so a temporary pause does not report every Minichamps product as removed.
@@ -702,6 +657,7 @@ def fetch_all():
             if item.get("source") == "minichamps"
         })
         print("Minichamps monitoring is disabled; keeping its last known snapshot")
+    print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetch complete: {len(products)} unique products", flush=True)
     return products
 
 
@@ -834,14 +790,18 @@ def save_state(items, added=(), changed=(), removed=()):
 
 
 def main():
+    print(f"[{datetime.now().astimezone():%H:%M:%S}] Starting product monitoring", flush=True)
     current = fetch_all()
     previous = load_state()
     if previous is None:
+        print("No previous snapshot; sending initial monitoring message", flush=True)
         send_dingtalk(build_message(len(current), [], [], [], initial=True))
         save_state(current, added=current)
         print(f"Initialized with {len(current)} products")
         return True
+    print(f"Comparing snapshots: previous={len(previous)}, current={len(current)}", flush=True)
     added, changed, removed = compare(previous, current)
+    print(f"Detected changes: added={len(added)}, changed={len(changed)}, removed={len(removed)}", flush=True)
     if not any((added, changed, removed)):
         print(f"No change ({len(current)} products)")
         return False

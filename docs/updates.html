@@ -14,7 +14,9 @@
   main { max-width:1280px;margin:auto;padding:1.25rem; } .run { margin:0 0 2rem; } .run h2 { margin:1.5rem 0 1rem;font-size:1.1rem;border-bottom:1px solid #394252;padding-bottom:.6rem; }
   .entries { display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,370px),1fr));gap:1rem;align-items:stretch; }
   .entry { background:#1a1f28;border:1px solid #29313d;border-radius:.8rem;overflow:hidden;display:flex;flex-direction:column;min-width:0; }
+  .entry.highlighted { animation:located 2.2s ease; } @keyframes located { 20%,65% { border-color:#85b9ff;box-shadow:0 0 0 4px #85b9ff55; } }
   .entry-body { padding:1rem; } .entry h3 { font-size:1rem;margin:0 0 .45rem;line-height:1.4; } .entry h3 a { color:#f5f7fa;text-decoration:none; } .entry h3 a:hover { color:#85b9ff;text-decoration:underline; }
+  .entry-actions { display:flex;gap:.5rem;margin:.1rem 0 .8rem; } .locate-link { display:inline-flex;align-items:center;border:1px solid #526074;border-radius:.45rem;padding:.4rem .65rem;background:#101217;color:#85b9ff;text-decoration:none;font-size:.84rem; } .locate-link:hover,.locate-link:focus-visible { background:#263448;border-color:#85b9ff;outline:none; }
   .product-meta { display:flex;flex-wrap:wrap;gap:.35rem .8rem;margin:0 0 .8rem;color:#b9c2d0;font-size:.84rem; } .product-meta strong { color:#f5f7fa;font-weight:500; }
   .badge { display:inline-block;color:#fff;background:#35455d;border-radius:.3rem;padding:.13rem .4rem;margin-right:.5rem;font-size:.8rem;white-space:nowrap; }
   .badge.added { background:#24563b; } .badge.removed { background:#693a3a; } .entry p { margin:.7rem 0; } .change-list { margin:.7rem 0;padding:0;list-style:none; }
@@ -41,7 +43,7 @@
 <script>
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const label={added:'新增商品',changed:'商品更新',removed:'商品下架'};
-function renderEntry(entry){
+function renderEntry(entry,anchorId){
   const images=entry.images||{},pictures=[...(images.added||[]).map(path=>({path,kind:'新增图片'})),...(images.changed||[]).map(path=>({path,kind:'替换图片'}))];
   const fieldRow=item=>`<li><span class="field">${esc(item.field)}</span><span class="before">${esc(item.before)||'无'}</span> → <span class="after">${esc(item.after)||'无'}</span></li>`;
   const fields=(entry.fields||[]).filter(item=>item.field!=='封面链接').map(fieldRow).join('');
@@ -53,11 +55,13 @@ function renderEntry(entry){
   const pictureFiles=['新增图片','替换图片'].map(kind=>{const names=pictures.filter(item=>item.kind===kind).map(item=>item.path.split('/').pop());return names.length?`<li><span class="field">${kind}文件</span><span class="after">${names.map(esc).join('<br>')}</span></li>`:''}).join('');
   const technical=coverFields||moved||pictureFiles?`<details class="technical"><summary>查看细节</summary>${coverFields?`<ul class="change-list">${coverFields}</ul>`:''}${pictureFiles?`<ul class="change-list">${pictureFiles}</ul>`:''}${moved}</details>`:'';
   const meta=[entry.product_number?`<span>货号 <strong>${esc(entry.product_number)}</strong></span>`:'',entry.scale?`<span>比例 <strong>${esc(entry.scale)}</strong></span>`:''].filter(Boolean).join('');
-  return `<article class="entry"><div class="entry-body"><h3><span class="badge ${esc(entry.type)}">${label[entry.type]||'更新'}</span>${entry.url?`<a href="${esc(entry.url)}" target="_blank" rel="noreferrer">${esc(entry.name)}</a>`:esc(entry.name)}</h3>${meta?`<div class="product-meta">${meta}</div>`:''}${fields?`<ul class="change-list">${fields}</ul>`:''}${imageNotes.length?`<p>${imageNotes.join(' · ')}</p>`:''}${technical}</div>${pictures.length?`<div class="pictures">${pictures.map(({path,kind},index)=>`<button class="picture" type="button" data-source="${esc(path)}" aria-label="放大查看${kind}第 ${index+1} 张"><img src="${esc(path)}" alt="${esc(kind)}" loading="lazy"><span>${kind} · ${index+1}</span></button>`).join('')}</div>`:''}</article>`;
+  const locateLink=entry.id&&entry.type!=='removed'?`<div class="entry-actions"><a class="locate-link" href="index.html?product=${encodeURIComponent(entry.id)}&return=${encodeURIComponent(`updates.html#${anchorId}`)}">定位商品 →</a></div>`:'';
+  return `<article class="entry" id="${esc(anchorId)}"><div class="entry-body"><h3><span class="badge ${esc(entry.type)}">${label[entry.type]||'更新'}</span>${entry.url?`<a href="${esc(entry.url)}" target="_blank" rel="noreferrer">${esc(entry.name)}</a>`:esc(entry.name)}</h3>${meta?`<div class="product-meta">${meta}</div>`:''}${locateLink}${fields?`<ul class="change-list">${fields}</ul>`:''}${imageNotes.length?`<p>${imageNotes.join(' · ')}</p>`:''}${technical}</div>${pictures.length?`<div class="pictures">${pictures.map(({path,kind},index)=>`<button class="picture" type="button" data-source="${esc(path)}" aria-label="放大查看${kind}第 ${index+1} 张"><img src="${esc(path)}" alt="${esc(kind)}" loading="lazy"><span>${kind} · ${index+1}</span></button>`).join('')}</div>`:''}</article>`;
 }
 function renderReport(data){
   const runs=data.updates||[];
-  document.querySelector('#report').innerHTML=runs.length?'<p>历史图片在原文件内容未变化时保留，点击图片可放大查看。</p>'+runs.map(run=>`<section class="run"><h2>${esc(new Date(run.date).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'}))}（北京时间） · ${run.entries.length} 项商品</h2><div class="entries">${run.entries.map(renderEntry).join('')}</div></section>`).join(''):'<p>还没有更新记录。下一次商品变化后会自动生成报告。</p>';
+  document.querySelector('#report').innerHTML=runs.length?'<p>历史图片在原文件内容未变化时保留，点击图片可放大查看。</p>'+runs.map((run,runIndex)=>`<section class="run"><h2>${esc(new Date(run.date).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'}))}（北京时间） · ${run.entries.length} 项商品</h2><div class="entries">${run.entries.map((entry,entryIndex)=>renderEntry(entry,`update-${runIndex}-${entryIndex}`)).join('')}</div></section>`).join(''):'<p>还没有更新记录。下一次商品变化后会自动生成报告。</p>';
+  if(location.hash){let targetId='';try{targetId=decodeURIComponent(location.hash.slice(1))}catch{}const target=document.getElementById(targetId);if(target){target.classList.add('highlighted');setTimeout(()=>target.classList.remove('highlighted'),2300);requestAnimationFrame(()=>{const header=document.querySelector('header'),offset=header&&getComputedStyle(header).position==='sticky'?header.getBoundingClientRect().height:0;window.scrollTo({top:target.getBoundingClientRect().top+window.scrollY-offset-12,behavior:'auto'})})}}
 }
 if(location.protocol==='file:'&&window.MODEL_UPDATES&&Array.isArray(window.MODEL_UPDATES.updates))renderReport(window.MODEL_UPDATES);
 else fetch(`updates.json?v=${Date.now()}`,{cache:'no-store'}).then(response=>{if(!response.ok)throw Error();return response.json()}).then(renderReport).catch(()=>document.querySelector('#report').innerHTML='<p>无法载入更新报告。请确认 updates.js 和 updates.json 与本页面位于同一目录。</p>');
