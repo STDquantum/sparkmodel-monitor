@@ -59,7 +59,7 @@ function renderReport(data){
   const runs=data.updates||[];
   document.querySelector('#report').innerHTML=runs.length?'<p>历史图片在原文件内容未变化时保留，点击图片可放大查看。</p>'+runs.map(run=>`<section class="run"><h2>${esc(new Date(run.date).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'}))}（北京时间） · ${run.entries.length} 项商品</h2><div class="entries">${run.entries.map(renderEntry).join('')}</div></section>`).join(''):'<p>还没有更新记录。下一次商品变化后会自动生成报告。</p>';
 }
-if(window.MODEL_UPDATES&&Array.isArray(window.MODEL_UPDATES.updates))renderReport(window.MODEL_UPDATES);
+if(location.protocol==='file:'&&window.MODEL_UPDATES&&Array.isArray(window.MODEL_UPDATES.updates))renderReport(window.MODEL_UPDATES);
 else fetch(`updates.json?v=${Date.now()}`,{cache:'no-store'}).then(response=>{if(!response.ok)throw Error();return response.json()}).then(renderReport).catch(()=>document.querySelector('#report').innerHTML='<p>无法载入更新报告。请确认 updates.js 和 updates.json 与本页面位于同一目录。</p>');
 const report=document.querySelector('#report'),modal=document.querySelector('#modal'),modalImage=document.querySelector('#modal-image'),modalThumbs=document.querySelector('#modal-thumbs');
 let gallery={buttons:[],index:0,scale:1,x:0,y:0,dragging:false,swiping:false},returnFocus=null;
