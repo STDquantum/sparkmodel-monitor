@@ -335,7 +335,15 @@ def refresh_ids(items, products, changes):
         and product_id in products
         and not products[product_id].get("properties", {}).get("Scale")
     }
-    return sorted((changed | (set(items) - set(products)) | missing_minichamps_scales) & set(items))
+    missing_search_images = {
+        product_id
+        for product_id, listing in items.items()
+        if listing.get("source", "sparkmodelshop") == "sparkmodelshop"
+        and listing.get("image_url")
+        and product_id in products
+        and not products[product_id].get("images")
+    }
+    return sorted((changed | (set(items) - set(products)) | missing_minichamps_scales | missing_search_images) & set(items))
 
 
 def build_product(product_id, listing):
