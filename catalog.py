@@ -425,6 +425,8 @@ def build_product(product_id, listing):
             "availability": fields.get("availability") or listing.get("availability", ""),
         }
     fields, properties, images = parse_detail(monitor.request(listing["url"]))
+    if not images and listing.get("image_url"):
+        images = [listing["image_url"]]
     local_images = download_unique_images(images, product_id)
     return {
         "id": product_id,
