@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:31:33.010006+00:00",
+  "generated_at": "2026-09-29T04:08:43.620547+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -249,6 +249,31 @@
       "price": "89",
       "currency": "EUR",
       "gtin": "9580006993854",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "135789d267db41ecb9c9a16fb3d3f6ab",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli (With figurine)",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/s9365-de",
+      "images": [
+        "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp",
+        "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp",
+        "images/135789d267db41ecb9c9a16fb3d3f6ab-3.webp"
+      ],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2024",
+        "Manufacturer": "Spark",
+        "Product number": "S9365"
+      },
+      "description": "GTIN/EAN: 9580006993656",
+      "brand": "Spark",
+      "price": "96",
+      "currency": "EUR",
+      "gtin": "9580006993656",
       "weight": "0.18 kg",
       "length": "100 mm",
       "availability": "Not available – pre-orders possible"
@@ -1422,6 +1447,27 @@
       "price": "89",
       "currency": "EUR",
       "gtin": "9580006993915",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "4eee8f9d64804a3bb5efe28dbe1dc2bf",
+      "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Canada GP 2026 Kimi Antonelli",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-canada-gp-2026-kimi-antonelli/s9396-de",
+      "images": [],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2024",
+        "Manufacturer": "Spark",
+        "Product number": "S9396"
+      },
+      "description": "GTIN/EAN: 9580006993960",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006993960",
       "weight": "0.18 kg",
       "length": "100 mm",
       "availability": "Not available – pre-orders possible"
@@ -3822,6 +3868,27 @@
       "availability": "Not available – pre-orders possible"
     },
     {
+      "id": "ced783ae504248eb8ba775998a43ec21",
+      "name": "Mercedes-AMG PETRONAS Formula One Team - George Russell - British GP 2026",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-george-russell-british-gp-2026/5hf269-de",
+      "images": [],
+      "properties": {
+        "Material": "Diecast",
+        "Scale": "1/5",
+        "Year": "2024",
+        "Manufacturer": "Spark",
+        "Product number": "5HF269"
+      },
+      "description": "GTIN/EAN: 9580006192691",
+      "brand": "Spark",
+      "price": "49.95",
+      "currency": "EUR",
+      "gtin": "9580006192691",
+      "weight": "0.2 kg",
+      "length": "75 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
       "id": "d25fdd076acd4bc390a9dd491b57358e",
       "name": "Oracle Red Bull Racing RB22 No.6 3rd Monaco GP 2026 Isack Hadjar (with number board)",
       "url": "https://www.sparkmodelshop.com/de/en/oracle-red-bull-racing-rb22-no.6-3rd-monaco-gp-2026-isack-hadjar-with-number-board/s9341-de",
@@ -4288,6 +4355,27 @@
       "availability": "Not available – pre-orders possible"
     },
     {
+      "id": "ee19f55446504fc780193ca38fdcb543",
+      "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell (With figurine)",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell-with-figurine/s9364-de",
+      "images": [],
+      "properties": {
+        "Material": "Resin",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Manufacturer": "Spark",
+        "Product number": "S9364"
+      },
+      "description": "GTIN/EAN: 9580006993649",
+      "brand": "Spark",
+      "price": "96",
+      "currency": "EUR",
+      "gtin": "9580006993649",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
       "id": "ee9a299056734eeb9b6ca9c9bc06b45e",
       "name": "McLaren Mastercard F1 Team - Oscar Piastri - Austrian GP 2026",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-oscar-piastri-austrian-gp-2026/5hf267-de",
@@ -4390,6 +4478,27 @@
       "gtin": "9580006993151",
       "weight": "0.18 kg",
       "length": "100 mm",
+      "availability": "Not available – pre-orders possible"
+    },
+    {
+      "id": "f657cbd54b4d4a3da857425ccf6e26dc",
+      "name": "McLaren Mastercard F1 Team - Lando Norris - British GP 2026",
+      "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-lando-norris-british-gp-2026/5hf271-de",
+      "images": [],
+      "properties": {
+        "Material": "Diecast",
+        "Scale": "1/5",
+        "Year": "2025",
+        "Manufacturer": "Spark",
+        "Product number": "5HF271"
+      },
+      "description": "GTIN/EAN: 9580006192714",
+      "brand": "Spark",
+      "price": "49.95",
+      "currency": "EUR",
+      "gtin": "9580006192714",
+      "weight": "0.2 kg",
+      "length": "75 mm",
       "availability": "Not available – pre-orders possible"
     },
     {
