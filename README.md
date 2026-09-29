@@ -13,7 +13,7 @@
 | Spark Model Shop | 11 个车队关键词检索，包括 2026 赛季车队商品 |
 | Spark 官网 | 9 个 2025 赛季车型关键词：C45、A525、FW47、MCL39、W16、RB21、VF-25、VCARB 02、AMR25 |
 | Looksmart | Ferrari SF-25 检索结果 |
-| Minichamps | 10 个 2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40 |
+| Minichamps | 2025 年 Formula 1 分类检索，以及 10 个 2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40 |
 
 Spark Model Shop 使用普通关键词搜索，不附加商品属性筛选；仅保留商品标题包含 `2026` 的结果。Ferrari 搜索还要求名称包含 `SF-26` 或 `Scuderia Ferrari HP`。相同商品以商品 ID 合并。
 

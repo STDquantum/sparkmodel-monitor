@@ -23,6 +23,7 @@ LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&d
 MINICHAMPS_BASE_URL = "https://www.minichamps.de/"
 MINICHAMPS_URL = "https://www.minichamps.de/en/search"
 MINICHAMPS_WIDGET_URL = "https://www.minichamps.de/en/widgets/search"
+MINICHAMPS_2025_PROPERTIES = "019a86b46f8b7431bab8f63c093a3507"
 MINICHAMPS_SEARCHES = ("W17", "VF-26", "AMR26", "VCARB 03", "MAC-26", "A526", "Audi R26", "RB22", "FW48", "MCL40")
 MINICHAMPS_MODEL_PATTERNS = {
     "W17": r"\bW17\b", "VF-26": r"\bVF-26\b", "AMR26": r"\bAMR26\b",
@@ -93,11 +94,16 @@ def minichamps_widget_url(search, page=1):
     return f"{MINICHAMPS_WIDGET_URL}?{urlencode({'search': search, 'p': page, 'order': 'score'})}"
 
 
+def minichamps_2025_url(page=1):
+    return f"{MINICHAMPS_BASE_URL}en/Formula-1/?{urlencode({'properties': MINICHAMPS_2025_PROPERTIES, 'p': page, 'order': 'name-asc'})}"
+
+
 SOURCE_URLS = (
     *(search_url(search) for search in TEAM_SEARCHES),
     *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
     LOOKSMART_SEARCH_URL,
     *(minichamps_url(search) for search in MINICHAMPS_SEARCHES),
+    minichamps_2025_url(),
 )
 
 
@@ -641,6 +647,38 @@ def fetch_minichamps(search):
     raise RuntimeError(f"Minichamps pagination exceeded 100 pages for {search}")
 
 
+def fetch_minichamps_2025():
+    products = {}
+    seen = set()
+    previous = load_state() or {}
+    previous_ids_by_number = {
+        item.get("product_number"): product_id
+        for product_id, item in previous.items()
+        if item.get("source") == "minichamps" and item.get("product_number")
+    }
+    url = minichamps_2025_url()
+    for page in range(1, 101):
+        if url in seen:
+            raise RuntimeError("Minichamps 2025 pagination loop detected")
+        seen.add(url)
+        html = minichamps_request(url, referer=minichamps_2025_url())
+        rows, next_url = parse_minichamps_listing(html, page=page)
+        for row in rows:
+            product_id = row.pop("product_id")
+            row["year"] = row.get("year") or "2025"
+            stable_id = previous_ids_by_number.get(row.get("product_number")) or f"minichamps-{product_id}"
+            row["url"] = urljoin(MINICHAMPS_BASE_URL, row["url"])
+            if row.get("image_url"):
+                row["image_url"] = urljoin(MINICHAMPS_BASE_URL, row["image_url"])
+            products[stable_id] = row
+        if not next_url:
+            if not products:
+                raise RuntimeError("Minichamps 2025 category returned no products")
+            return products
+        url = urljoin(url, next_url)
+    raise RuntimeError("Minichamps 2025 pagination exceeded 100 pages")
+
+
 def fetch_all():
     products = {}
     for search in TEAM_SEARCHES:
@@ -651,6 +689,7 @@ def fetch_all():
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
         for search in MINICHAMPS_SEARCHES:
             products.update(fetch_minichamps(search))
+        products.update(fetch_minichamps_2025())
     else:
         # Keep the last known Minichamps snapshot while its site is unavailable,
         # so a temporary pause does not report every Minichamps product as removed.
