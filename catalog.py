@@ -197,15 +197,20 @@ class MinichampsDetailParser(HTMLParser):
         if tag == "meta":
             prop = a.get("property", "")
             if prop == "og:title": self.fields["name"] = a.get("content", "")
-            if a.get("itemprop") == "price": self.fields["price"] = a.get("content", "")
-            if a.get("itemprop") == "priceCurrency": self.fields["currency"] = a.get("content", "")
+            if a.get("itemprop") == "price" or prop == "product:price:amount": self.fields["price"] = a.get("content", "")
+            if a.get("itemprop") == "priceCurrency" or prop == "product:price:currency": self.fields["currency"] = a.get("content", "")
         if tag == "h1" and "product_title" in classes:
             self.capture = "name"; self.text = []
         elif tag == "div" and "preisschild_ausverkauft" in classes:
             self.capture = "availability"; self.text = []
         elif tag == "span" and "sku" in classes:
             self.capture = "sku"; self.text = []
-        elif tag in {"th", "td"} and ("woocommerce-product-attributes-item__label" in classes or "woocommerce-product-attributes-item__value" in classes):
+        elif tag in {"th", "td"} and (
+            "woocommerce-product-attributes-item__label" in classes
+            or "woocommerce-product-attributes-item__value" in classes
+            or "properties-label" in classes
+            or "properties-value" in classes
+        ):
             self.capture = "label" if tag == "th" else "value"; self.text = []
         elif tag == "a" and self.gallery_depth is not None:
             self.add_gallery_image(a.get("href", ""))
@@ -234,7 +239,9 @@ class MinichampsDetailParser(HTMLParser):
             value = " ".join("".join(self.text).split())
             if self.capture == "name": self.fields["name"] = value
             elif self.capture == "sku": self.properties["Product number"] = value
-            elif self.capture == "label": self.key = value
+            elif self.capture == "label":
+                normalized_key = value.rstrip(":").strip().casefold()
+                self.key = "Scale" if normalized_key in {"scale", "maßstab", "masstab"} else value.rstrip(":").strip()
             elif self.key:
                 if self.key.casefold() == "manufacturer":
                     value = re.split(r"\s*\[Details according to GPSR\b.*", value, maxsplit=1, flags=re.I)[0].strip()
@@ -321,7 +328,14 @@ def remove_unused_images(products):
 
 def refresh_ids(items, products, changes):
     changed = set(changes.get("added", ())) | set(changes.get("changed", ()))
-    return sorted((changed | (set(items) - set(products))) & set(items))
+    missing_minichamps_scales = {
+        product_id
+        for product_id, listing in items.items()
+        if listing.get("source") == "minichamps"
+        and product_id in products
+        and not products[product_id].get("properties", {}).get("Scale")
+    }
+    return sorted((changed | (set(items) - set(products)) | missing_minichamps_scales) & set(items))
 
 
 def build_product(product_id, listing):
@@ -445,6 +459,7 @@ def build_catalog():
             product_id = futures[future]
             products[product_id] = future.result()
             print(f"[{number}/{len(product_ids)}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))", flush=True)
+
     catalog = {"generated_at": datetime.now(timezone.utc).isoformat(), "products": [products[key] for key in sorted(products)]}
     CATALOG_FILE.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     catalog_data = json.dumps(catalog, ensure_ascii=False, separators=(",", ":"))

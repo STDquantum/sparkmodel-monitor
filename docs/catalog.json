@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:39:54.340523+00:00",
+  "generated_at": "2026-09-29T03:20:54.251423+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -5523,6 +5523,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262781",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -5532,7 +5538,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-537265281",
@@ -5542,6 +5548,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537265281",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -5551,7 +5563,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1659915",
@@ -5563,6 +5575,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260222",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -5572,7 +5590,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1659916",
@@ -5582,6 +5600,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260312",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -5591,7 +5615,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660025",
@@ -5603,6 +5627,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260163",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "RUSSEL, GEORGE",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -5612,7 +5642,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660026",
@@ -5622,6 +5652,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260103",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
         "Model": "RB22"
       },
       "description": "",
@@ -5631,7 +5667,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660027",
@@ -5641,6 +5677,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260705",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -5650,7 +5692,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660028",
@@ -5660,6 +5702,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260106",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "HADJAR, ISACK",
+        "Material": "RESIN",
         "Model": "RB22"
       },
       "description": "",
@@ -5669,7 +5717,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660029",
@@ -5679,6 +5727,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260110",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "GASLY, PIERRE",
+        "Material": "RESIN",
         "Model": "A526"
       },
       "description": "",
@@ -5688,7 +5742,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660030",
@@ -5698,6 +5752,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260123",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "RESIN",
         "Model": "FW48"
       },
       "description": "",
@@ -5707,7 +5767,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660031",
@@ -5717,6 +5777,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260727",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -5726,7 +5792,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660032",
@@ -5736,6 +5802,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260130",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -5745,7 +5817,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660033",
@@ -5757,6 +5829,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260131",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "OCON; ESTEBAN",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -5766,7 +5844,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660034",
@@ -5776,6 +5854,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260141",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -5785,7 +5869,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660035",
@@ -5795,6 +5879,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260143",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "COLAPINTO, FRANCO",
+        "Material": "RESIN",
         "Model": "A526"
       },
       "description": "",
@@ -5804,7 +5894,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660036",
@@ -5814,6 +5904,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260155",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "RESIN",
         "Model": "FW48"
       },
       "description": "",
@@ -5823,7 +5919,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660037",
@@ -5835,6 +5931,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260187",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "BEARMAN, OLIVER",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -5844,7 +5946,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660038",
@@ -5856,6 +5958,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260212",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -5865,7 +5973,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660039",
@@ -5875,6 +5983,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260222",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -5884,7 +5998,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660040",
@@ -5896,6 +6010,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260312",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -5905,7 +6025,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660041",
@@ -5915,6 +6035,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260314",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "ALONSO, FERNANDO",
+        "Material": "RESIN",
         "Model": "AMR26"
       },
       "description": "",
@@ -5924,7 +6050,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660042",
@@ -5934,6 +6060,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260318",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "STROLL, LANCE",
+        "Material": "RESIN",
         "Model": "AMR26"
       },
       "description": "",
@@ -5943,7 +6075,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660043",
@@ -5953,6 +6085,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260330",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -5962,7 +6100,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660044",
@@ -5972,6 +6110,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260331",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "OCON; ESTEBAN",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -5981,7 +6125,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660045",
@@ -5991,6 +6135,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260341",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6000,7 +6150,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660046",
@@ -6010,6 +6160,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260387",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "BEARMAN, OLIVER",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -6019,7 +6175,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660047",
@@ -6031,6 +6187,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260163",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "RUSSEL, GEORGE",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -6040,7 +6202,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660048",
@@ -6052,6 +6214,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260103",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
         "Model": "RB22"
       },
       "description": "",
@@ -6061,7 +6229,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660049",
@@ -6071,6 +6239,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260705",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -6080,7 +6254,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660050",
@@ -6090,6 +6264,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260106",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "HADJAR, ISACK",
+        "Material": "RESIN",
         "Model": "RB22"
       },
       "description": "",
@@ -6099,7 +6279,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660051",
@@ -6109,6 +6289,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260110",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "GASLY, PIERRE",
+        "Material": "RESIN",
         "Model": "A526"
       },
       "description": "",
@@ -6118,7 +6304,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660052",
@@ -6128,6 +6314,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260123",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "RESIN",
         "Model": "FW48"
       },
       "description": "",
@@ -6137,7 +6329,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660053",
@@ -6147,6 +6339,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260727",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -6156,7 +6354,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660054",
@@ -6166,6 +6364,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260130",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6175,7 +6379,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660055",
@@ -6185,6 +6389,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260131",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "OCON; ESTEBAN",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -6194,7 +6404,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660056",
@@ -6204,6 +6414,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260141",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6213,7 +6429,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660057",
@@ -6223,6 +6439,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260143",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "COLAPINTO, FRANCO",
+        "Material": "RESIN",
         "Model": "A526"
       },
       "description": "",
@@ -6232,7 +6454,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660058",
@@ -6242,6 +6464,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260155",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "RESIN",
         "Model": "FW48"
       },
       "description": "",
@@ -6251,7 +6479,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660059",
@@ -6261,6 +6489,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260187",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "BEARMAN, OLIVER",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -6270,7 +6504,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660060",
@@ -6282,6 +6516,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260212",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -6291,7 +6531,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660061",
@@ -6301,6 +6541,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260314",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "ALONSO, FERNANDO",
+        "Material": "RESIN",
         "Model": "AMR26"
       },
       "description": "",
@@ -6310,7 +6556,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660062",
@@ -6320,6 +6566,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260318",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "STROLL, LANCE",
+        "Material": "RESIN",
         "Model": "AMR26"
       },
       "description": "",
@@ -6329,7 +6581,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660063",
@@ -6339,6 +6591,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260330",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6348,7 +6606,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660064",
@@ -6360,6 +6618,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260331",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "OCON; ESTEBAN",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -6369,7 +6633,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660065",
@@ -6379,6 +6643,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260341",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6388,7 +6658,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660066",
@@ -6398,6 +6668,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260387",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "BEARMAN, OLIVER",
+        "Material": "RESIN",
         "Model": "VF-26"
       },
       "description": "",
@@ -6407,7 +6683,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660069",
@@ -6417,6 +6693,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262004",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -6426,7 +6708,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660070",
@@ -6436,6 +6718,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262081",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -6445,7 +6733,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660071",
@@ -6455,6 +6743,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537264204",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -6464,7 +6758,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660072",
@@ -6474,6 +6768,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537264504",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -6483,7 +6783,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660076",
@@ -6493,6 +6793,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537264581",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -6502,7 +6808,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1660077",
@@ -6512,6 +6818,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537266704",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -6521,7 +6833,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661367",
@@ -6531,6 +6843,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530266604",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -6540,7 +6858,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661368",
@@ -6550,6 +6868,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530266681",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -6559,7 +6883,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661369",
@@ -6569,6 +6893,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260103",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "DIECAST",
         "Model": "RB22"
       },
       "description": "",
@@ -6578,7 +6908,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661370",
@@ -6588,6 +6918,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260105",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Material": "DIECAST",
         "Model": "R26"
       },
       "description": "",
@@ -6597,7 +6933,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661371",
@@ -6607,6 +6943,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260106",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "HADJAR, ISACK",
+        "Material": "DIECAST",
         "Model": "RB22"
       },
       "description": "",
@@ -6616,7 +6958,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661372",
@@ -6626,6 +6968,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260110",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "GASLY, PIERRE",
+        "Material": "DIECAST",
         "Model": "A526"
       },
       "description": "",
@@ -6635,7 +6983,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661373",
@@ -6645,6 +6993,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260123",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "DIECAST",
         "Model": "FW48"
       },
       "description": "",
@@ -6654,7 +7008,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661374",
@@ -6664,6 +7018,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260127",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "DIECAST",
         "Model": "R26"
       },
       "description": "",
@@ -6673,7 +7033,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661375",
@@ -6683,6 +7043,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260130",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6692,7 +7058,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661376",
@@ -6702,6 +7068,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260131",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "OCON; ESTEBAN",
+        "Material": "DIECAST",
         "Model": "VF-26"
       },
       "description": "",
@@ -6711,7 +7083,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661377",
@@ -6721,6 +7093,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260141",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6730,7 +7108,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661378",
@@ -6740,6 +7118,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260143",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "COLAPINTO, FRANCO",
+        "Material": "DIECAST",
         "Model": "A526"
       },
       "description": "",
@@ -6749,7 +7133,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661379",
@@ -6759,6 +7143,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260155",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "DIECAST",
         "Model": "FW48"
       },
       "description": "",
@@ -6768,7 +7158,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661380",
@@ -6780,6 +7170,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260163",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "RUSSEL, GEORGE",
+        "Material": "DIECAST",
         "Model": "W17"
       },
       "description": "",
@@ -6789,7 +7185,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661381",
@@ -6799,6 +7195,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260187",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "BEARMAN, OLIVER",
+        "Material": "DIECAST",
         "Model": "VF-26"
       },
       "description": "",
@@ -6808,7 +7210,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661382",
@@ -6820,6 +7222,13 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260212",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "sold out",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
+        "First delivery": "Calendar week 36/2026",
         "Model": "W17"
       },
       "description": "",
@@ -6841,6 +7250,13 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260222",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "sold out",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
+        "First delivery": "Calendar week 35/2026",
         "Model": "W17"
       },
       "description": "",
@@ -6862,6 +7278,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260312",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
         "Model": "W17"
       },
       "description": "",
@@ -6871,7 +7293,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661385",
@@ -6881,6 +7303,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260314",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "ALONSO, FERNANDO",
+        "Material": "DIECAST",
         "Model": "AMR26"
       },
       "description": "",
@@ -6890,7 +7318,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661386",
@@ -6900,6 +7328,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260318",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "STROLL, LANCE",
+        "Material": "DIECAST",
         "Model": "AMR26"
       },
       "description": "",
@@ -6909,7 +7343,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661387",
@@ -6919,6 +7353,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260330",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6928,7 +7368,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661388",
@@ -6940,6 +7380,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260331",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "OCON; ESTEBAN",
+        "Material": "DIECAST",
         "Model": "VF-26"
       },
       "description": "",
@@ -6949,7 +7395,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661389",
@@ -6959,6 +7405,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260341",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -6968,7 +7420,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661390",
@@ -6978,6 +7430,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260387",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "HAAS",
+        "Driver": "BEARMAN, OLIVER",
+        "Material": "DIECAST",
         "Model": "VF-26"
       },
       "description": "",
@@ -6987,7 +7445,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1661430",
@@ -6997,6 +7455,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530268804",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -7006,7 +7470,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665893",
@@ -7016,6 +7480,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260412",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -7025,7 +7495,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665894",
@@ -7035,6 +7505,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260430",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7044,7 +7520,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665895",
@@ -7054,6 +7530,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260441",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7063,7 +7545,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665896",
@@ -7073,6 +7555,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260503",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
         "Model": "RB22"
       },
       "description": "",
@@ -7082,7 +7570,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665897",
@@ -7092,6 +7580,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260506",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "HADJAR, ISACK",
+        "Material": "RESIN",
         "Model": "RB22"
       },
       "description": "",
@@ -7101,7 +7595,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665898",
@@ -7111,6 +7605,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260605",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -7120,7 +7620,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665899",
@@ -7130,6 +7630,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260612",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -7139,7 +7645,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665900",
@@ -7149,6 +7655,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260627",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -7158,7 +7670,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665901",
@@ -7168,6 +7680,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260730",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7177,7 +7695,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665902",
@@ -7187,6 +7705,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260741",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "RESIN",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7196,7 +7720,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665903",
@@ -7206,6 +7730,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530266904",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -7215,7 +7745,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665904",
@@ -7225,6 +7755,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530266981",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -7234,7 +7770,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665905",
@@ -7244,6 +7780,11 @@
       "properties": {
         "Year": "2026",
         "Product number": "532260481",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -7253,7 +7794,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665906",
@@ -7263,6 +7804,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262381",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -7272,7 +7819,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665907",
@@ -7282,6 +7829,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537264804",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -7291,7 +7844,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665908",
@@ -7301,6 +7854,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537264881",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -7310,7 +7869,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665909",
@@ -7320,6 +7879,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260412",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
         "Model": "W17"
       },
       "description": "",
@@ -7329,7 +7894,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665910",
@@ -7339,6 +7904,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260430",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7348,7 +7919,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665911",
@@ -7358,6 +7929,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260441",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7367,7 +7944,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665912",
@@ -7377,6 +7954,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260503",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "DIECAST",
         "Model": "RB22"
       },
       "description": "",
@@ -7386,7 +7969,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665913",
@@ -7396,6 +7979,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260506",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "HADJAR, ISACK",
+        "Material": "DIECAST",
         "Model": "RB22"
       },
       "description": "",
@@ -7405,7 +7994,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665914",
@@ -7415,6 +8004,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260512",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
         "Model": "W17"
       },
       "description": "",
@@ -7424,7 +8019,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665915",
@@ -7434,6 +8029,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260605",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Material": "DIECAST",
         "Model": "R26"
       },
       "description": "",
@@ -7443,7 +8044,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665916",
@@ -7453,6 +8054,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260612",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
         "Model": "W17"
       },
       "description": "",
@@ -7462,7 +8069,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665917",
@@ -7472,6 +8079,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260627",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "DIECAST",
         "Model": "R26"
       },
       "description": "",
@@ -7481,7 +8094,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665918",
@@ -7491,6 +8104,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260730",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LAWSON, LIAM",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7500,7 +8119,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1665919",
@@ -7510,6 +8129,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260741",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "TORO ROSSO",
+        "Driver": "LINDBLAD, ARVID",
+        "Material": "DIECAST",
         "Model": "VCARB 03"
       },
       "description": "",
@@ -7519,7 +8144,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666146",
@@ -7529,6 +8154,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260412",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -7538,7 +8169,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666147",
@@ -7548,6 +8179,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260512",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -7557,7 +8194,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666148",
@@ -7567,6 +8204,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260612",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -7576,7 +8219,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666185",
@@ -7586,6 +8229,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260512",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
         "Model": "W17"
       },
       "description": "",
@@ -7595,7 +8244,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666248",
@@ -7605,6 +8254,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260605",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIELE",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -7614,7 +8269,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666249",
@@ -7624,6 +8279,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260627",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "RESIN",
         "Model": "R26"
       },
       "description": "",
@@ -7633,7 +8294,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666250",
@@ -7643,6 +8304,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262304",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -7652,7 +8319,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666831",
@@ -7662,6 +8329,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260111",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7671,7 +8344,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666832",
@@ -7681,6 +8354,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260411",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7690,7 +8369,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666851",
@@ -7700,6 +8379,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260177",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7709,7 +8394,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666852",
@@ -7719,6 +8404,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260477",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7728,7 +8419,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666853",
@@ -7738,6 +8429,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417269911",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7747,7 +8444,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666854",
@@ -7757,6 +8454,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417269924",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "ZHOU, GUANYU",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7766,7 +8469,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1666855",
@@ -7776,6 +8479,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417269977",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7785,7 +8494,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1667482",
@@ -7795,6 +8504,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262604",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -7804,7 +8519,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1667483",
@@ -7814,6 +8529,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537265104",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -7823,7 +8544,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668687",
@@ -7833,6 +8554,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260111",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7842,7 +8569,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668688",
@@ -7852,6 +8579,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260177",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7861,7 +8594,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668689",
@@ -7871,6 +8604,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260411",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7880,7 +8619,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668690",
@@ -7890,6 +8629,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260477",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7899,7 +8644,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668691",
@@ -7909,6 +8654,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260911",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7918,7 +8669,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668692",
@@ -7928,6 +8679,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117260977",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7937,7 +8694,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668693",
@@ -7947,6 +8704,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117269911",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7956,7 +8719,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668694",
@@ -7966,6 +8729,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117269924",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "ZHOU, GUANYU",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7975,7 +8744,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668695",
@@ -7985,6 +8754,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "117269977",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -7994,7 +8769,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668709",
@@ -8004,6 +8779,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260911",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8013,7 +8794,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668710",
@@ -8023,6 +8804,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260977",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "RESIN",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8032,7 +8819,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668711",
@@ -8042,6 +8829,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530267204",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -8051,7 +8844,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668712",
@@ -8061,6 +8854,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "530267281",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "DIECAST",
         "Model": "MCL40"
       },
       "description": "",
@@ -8070,7 +8869,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668713",
@@ -8080,6 +8879,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262681",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -8089,7 +8894,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1668716",
@@ -8099,6 +8904,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537265181",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "PIASTRI, OSCAR",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -8108,7 +8919,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669330",
@@ -8118,6 +8929,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260614",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "ALONSO, FERNANDO",
+        "Material": "RESIN",
         "Model": "AMR26"
       },
       "description": "",
@@ -8127,7 +8944,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669331",
@@ -8137,6 +8954,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "417260618",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "STROLL, LANCE",
+        "Material": "RESIN",
         "Model": "AMR26"
       },
       "description": "",
@@ -8146,7 +8969,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669332",
@@ -8156,6 +8979,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260111",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8165,7 +8994,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669333",
@@ -8175,6 +9004,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260177",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8184,7 +9019,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669334",
@@ -8194,6 +9029,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260411",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8203,7 +9044,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669335",
@@ -8213,6 +9054,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260477",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8222,7 +9069,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669336",
@@ -8232,6 +9079,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260911",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8241,7 +9094,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669337",
@@ -8251,6 +9104,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640260977",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8260,7 +9119,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669338",
@@ -8270,6 +9129,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640269911",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "PEREZ, SERGIO",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8279,7 +9144,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669339",
@@ -8289,6 +9154,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640269924",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "ZHOU, GUANYU",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8298,7 +9169,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1669340",
@@ -8308,6 +9179,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "640269977",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "CADILLAC",
+        "Driver": "BOTTAS, VALTTERI",
+        "Material": "DIECAST",
         "Model": "MAC-26"
       },
       "description": "",
@@ -8317,7 +9194,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-minichamps-1673970",
@@ -8327,6 +9204,12 @@
       "properties": {
         "Year": "2026",
         "Product number": "537262904",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
         "Model": "MCL40"
       },
       "description": "",
@@ -8336,7 +9219,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": "available for preorder"
     },
     {
       "id": "spark-2025-03b247e9-5923-4adf-b917-b7320ce2c3e2",

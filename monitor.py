@@ -597,11 +597,11 @@ def fetch_minichamps(search):
             product_id = row.pop("product_id")
             if not re.search(MINICHAMPS_MODEL_PATTERNS[search], row["name"], re.I):
                 continue
-            stable_id = previous_ids_by_number.get(row.get("product_number"), product_id)
+            stable_id = previous_ids_by_number.get(row.get("product_number")) or f"minichamps-{product_id}"
             row["url"] = urljoin(MINICHAMPS_BASE_URL, row["url"])
             if row.get("image_url"):
                 row["image_url"] = urljoin(MINICHAMPS_BASE_URL, row["image_url"])
-            products[f"minichamps-{stable_id}"] = row
+            products[stable_id] = row
         if not next_url:
             if not products:
                 raise RuntimeError(f"Minichamps {search} search returned no products")
