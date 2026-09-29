@@ -5,6 +5,7 @@ import re
 import sys
 import time
 from datetime import datetime, timezone
+from html import unescape as html_unescape
 from http.client import IncompleteRead
 from html.parser import HTMLParser
 from pathlib import Path
@@ -20,12 +21,10 @@ SEARCH_PROPERTY = "881036a7528b682be67aa6e2c171e1de"
 SPARK_API_URL = "https://rapi.sparkmodel.com/products"
 SPARK_SITE_URL = "https://www.sparkmodel.com"
 LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
-MINICHAMPS_URL = "https://www.minichamps.de/liste/"
+MINICHAMPS_BASE_URL = "https://www.minichamps.de/"
+MINICHAMPS_URL = "https://www.minichamps.de/en/search"
+MINICHAMPS_WIDGET_URL = "https://www.minichamps.de/en/widgets/search"
 MINICHAMPS_SEARCHES = ("W17", "VF-26", "AMR26", "VCARB 03", "MAC-26", "A526", "Audi R26", "RB22", "FW48", "MCL40")
-MINICHAMPS_FILTER_TAXONOMIES = (
-    "pa_verfuegbarkeit", "pa_massstab", "pa_marke", "pa_fahrer",
-    "pa_hersteller", "pa_jahr", "pa_material",
-)
 MINICHAMPS_MODEL_PATTERNS = {
     "W17": r"\bW17\b", "VF-26": r"\bVF-26\b", "AMR26": r"\bAMR26\b",
     "VCARB 03": r"\bVCARB\s*03\b", "MAC-26": r"\bMAC-26\b", "A526": r"\bA526\b",
@@ -82,26 +81,15 @@ def spark_2025_url(search, page=1):
 
 
 def minichamps_search_params(search, page=1):
-    params = {
-        "ixwpss": search,
-        "title": 1,
-        "excerpt": 1,
-        "content": 1,
-        "categories": 1,
-        "attributes": 1,
-        "tags": 1,
-        "sku": 1,
-    }
-    for taxonomy in MINICHAMPS_FILTER_TAXONOMIES:
-        params[f"ixwpsf[taxonomy][{taxonomy}][show]"] = "set"
-        params[f"ixwpsf[taxonomy][{taxonomy}][multiple]"] = 1
-        params[f"ixwpsf[taxonomy][{taxonomy}][filter]"] = 1
-    params["product-page"] = page
-    return params
+    return {"p": page, "order": "score", "search": search}
 
 
 def minichamps_url(search, page=1):
     return f"{MINICHAMPS_URL}?{urlencode(minichamps_search_params(search, page))}"
+
+
+def minichamps_widget_url(search, page=1):
+    return f"{MINICHAMPS_WIDGET_URL}?{urlencode({'search': search, 'p': page, 'order': 'score'})}"
 
 
 SOURCE_URLS = (
@@ -201,7 +189,7 @@ class ListingParser(HTMLParser):
 
 
 class MinichampsListingParser(HTMLParser):
-    """Parse Minichamps' custom <li class="dealerliste product"> cards."""
+    """Parse Minichamps Shopware product cards and legacy WooCommerce cards."""
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.li_depth = 0
@@ -211,18 +199,61 @@ class MinichampsListingParser(HTMLParser):
         self.next_url = ""
         self.capture_name = False
         self.name_parts = []
+        self.shopware_card = None
+        self.shopware_card_depth = None
+        self.div_depth = 0
+        self.current_page = 1
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         classes = a.get("class", "").lower().split()
+        href = a.get("href", "")
+        if tag == "div":
+            self.div_depth += 1
+            if self.shopware_card is None and "product-box" in classes and a.get("data-product-information"):
+                try:
+                    data = json.loads(html_unescape(a["data-product-information"]))
+                except (json.JSONDecodeError, TypeError):
+                    data = {}
+                self.shopware_card = {
+                    "product_id": data.get("id", ""),
+                    "name": data.get("name", ""),
+                    "url": "",
+                    "image_url": "",
+                    "card_text": [],
+                }
+                self.shopware_card_depth = self.div_depth
+        if self.shopware_card is not None:
+            if tag == "a" and "product-name" in classes:
+                self.shopware_card["url"] = href
+                self.shopware_card["name"] = a.get("title") or self.shopware_card["name"]
+            if tag == "img" and not self.shopware_card["image_url"]:
+                image_url = a.get("data-src") or a.get("src") or a.get("data-lazy-src", "")
+                if image_url and not re.search(r"dummy|placeholder|coming.?soon|sold.?out", image_url, re.I):
+                    self.shopware_card["image_url"] = image_url
         if tag == "li":
             self.li_depth += 1
             if self.current is None and "product" in classes and "dealerliste" in classes:
                 self.current = {"product_id": a.get("id", "").removeprefix("post-"), "status_classes": classes}
                 self.card_depth = self.li_depth
                 self.card_text = []
-        if tag == "a" and ("next" in classes or "page-numbers" in classes and a.get("aria-label", "").lower() == "next"):
-            self.next_url = a.get("href", "")
+        if tag == "a":
+            href_query = dict(parse_qsl(urlparse(href).query))
+            try:
+                linked_page = int(href_query.get("p", "0"))
+            except ValueError:
+                linked_page = 0
+            is_next = "next" in classes or "page-numbers" in classes and a.get("aria-label", "").lower() == "next"
+            if is_next:
+                self.next_url = href
+            elif linked_page > self.current_page:
+                current_next = dict(parse_qsl(urlparse(self.next_url).query)).get("p", "")
+                try:
+                    current_next_page = int(current_next)
+                except ValueError:
+                    current_next_page = 0
+                if not current_next_page or linked_page < current_next_page:
+                    self.next_url = href
         if self.current is None:
             return
         if tag == "a" and a.get("href", "").find("/modelle/") >= 0 and not self.current.get("url"):
@@ -236,12 +267,40 @@ class MinichampsListingParser(HTMLParser):
             self.name_parts = []
 
     def handle_data(self, data):
+        if self.shopware_card is not None:
+            self.shopware_card["card_text"].append(data)
         if self.current is not None:
             self.card_text.append(data)
         if getattr(self, "capture_name", False):
             self.name_parts.append(data)
 
     def handle_endtag(self, tag):
+        if tag == "div" and self.shopware_card_depth == self.div_depth:
+            model = self.shopware_card
+            text = " ".join(" ".join(model["card_text"]).split())
+            if model.get("url") and model.get("name"):
+                path_parts = [part for part in urlparse(model["url"]).path.split("/") if part]
+                sku = path_parts[-1] if path_parts and re.fullmatch(r"\d{6,10}", path_parts[-1]) else ""
+                if sku:
+                    model["product_number"] = sku
+                    model["product_id"] = sku
+                else:
+                    model["product_id"] = model["product_id"] or model["url"]
+                model.update({"name": clean_minichamps_text(model["name"]), "source": "minichamps", "manufacturer": "Minichamps"})
+                scale = re.search(r"\b1\s*[:/]\s*(\d+)\b", text)
+                year = re.search(r"\b20\d{2}\b", model["name"] + " " + text)
+                availability = re.search(r"\b(pre[- ]?order|in stock|available immediately|sold out|coming soon)\b", text, re.I)
+                if scale: model["scale"] = f"1/{scale.group(1)}"
+                if year: model["year"] = year.group(0)
+                if availability:
+                    label = availability.group(1).lower()
+                    model["availability"] = "Pre-order" if "pre" in label else "Available" if label in {"in stock", "available immediately"} else "Sold out" if "sold" in label else "Coming soon"
+                model.pop("card_text", None)
+                self.items.append({key: value for key, value in model.items() if value})
+            self.shopware_card = None
+            self.shopware_card_depth = None
+        if tag == "div":
+            self.div_depth -= 1
         if tag == "h2" and self.capture_name:
             name = " ".join("".join(self.name_parts).split())
             if name:
@@ -460,13 +519,18 @@ def fetch_looksmart():
             if not products:
                 raise RuntimeError("Looksmart SF-25 search returned no products")
             return products
-        url = urljoin(url, next_url)
+        resolved_url = urljoin(url, next_url)
+        parsed_url = urlsplit(resolved_url)
+        query = urlencode(parse_qsl(parsed_url.query, keep_blank_values=True))
+        url = urlunsplit((parsed_url.scheme, parsed_url.netloc, parsed_url.path, query, parsed_url.fragment))
     raise RuntimeError("Looksmart pagination exceeded 100 pages")
 
 
-def minichamps_request(url):
+def minichamps_request(url, *, ajax=False, referer=None):
     """Minichamps returns a same-path JS redirect on a new PHP session."""
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36", "Accept": "text/html,application/xhtml+xml"}
+    if ajax:
+        headers.update({"Accept": "text/html, */*;q=0.01", "X-Requested-With": "XMLHttpRequest", "Referer": referer or MINICHAMPS_URL})
 
     def initialize_session(reset=False):
         global _MINICHAMPS_OPENER, _MINICHAMPS_SESSION_READY
@@ -475,7 +539,7 @@ def minichamps_request(url):
                 _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
                 _MINICHAMPS_SESSION_READY = False
             if not _MINICHAMPS_SESSION_READY:
-                with _MINICHAMPS_OPENER.open(Request("https://www.minichamps.de/", headers=headers), timeout=45) as response:
+                with _MINICHAMPS_OPENER.open(Request(MINICHAMPS_BASE_URL, headers=headers), timeout=45) as response:
                     response.read()
                 _MINICHAMPS_SESSION_READY = True
 
@@ -506,8 +570,9 @@ def minichamps_request(url):
     raise AssertionError("unreachable")
 
 
-def parse_minichamps_listing(html):
+def parse_minichamps_listing(html, page=1):
     parser = MinichampsListingParser()
+    parser.current_page = page
     parser.feed(html)
     return parser.items, parser.next_url
 
@@ -515,25 +580,32 @@ def parse_minichamps_listing(html):
 def fetch_minichamps(search):
     products = {}
     seen = set()
-    url = minichamps_url(search)
+    previous = load_state() or {}
+    previous_ids_by_number = {
+        item.get("product_number"): product_id
+        for product_id, item in previous.items()
+        if item.get("source") == "minichamps" and item.get("product_number")
+    }
     for page in range(1, 101):
+        url = minichamps_widget_url(search, page)
         if url in seen:
             raise RuntimeError(f"Minichamps pagination loop for {search}")
         seen.add(url)
-        rows, next_url = parse_minichamps_listing(minichamps_request(url))
+        page_url = minichamps_url(search, page)
+        rows, next_url = parse_minichamps_listing(minichamps_request(url, ajax=True, referer=page_url), page=page)
         for row in rows:
             product_id = row.pop("product_id")
             if not re.search(MINICHAMPS_MODEL_PATTERNS[search], row["name"], re.I):
                 continue
-            row["url"] = urljoin(MINICHAMPS_URL, row["url"])
+            stable_id = previous_ids_by_number.get(row.get("product_number"), product_id)
+            row["url"] = urljoin(MINICHAMPS_BASE_URL, row["url"])
             if row.get("image_url"):
-                row["image_url"] = urljoin(MINICHAMPS_URL, row["image_url"])
-            products[f"minichamps-{product_id}"] = row
+                row["image_url"] = urljoin(MINICHAMPS_BASE_URL, row["image_url"])
+            products[f"minichamps-{stable_id}"] = row
         if not next_url:
             if not products:
                 raise RuntimeError(f"Minichamps {search} search returned no products")
             return products
-        url = urljoin(url, next_url)
     raise RuntimeError(f"Minichamps pagination exceeded 100 pages for {search}")
 
 
