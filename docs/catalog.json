@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:34:06.552438+00:00",
+  "generated_at": "2026-09-29T22:36:31.302840+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -7961,9 +7961,9 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f74570718a513af8f72e4e9d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg",
         "images/minichamps-019a8919f74570718a513af8f72e4e9d-2.jpg",
-        "images/minichamps-019a8919f74570718a513af8f72e4e9d-3.jpg",
-        "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg"
+        "images/minichamps-019a8919f74570718a513af8f72e4e9d-3.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -10230,7 +10230,11 @@
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTRALIAN-GP-2026/117260131",
       "images": [
-        "images/minichamps-minichamps-1660033-1.jpg"
+        "images/minichamps-minichamps-1660033-1.jpg",
+        "images/minichamps-minichamps-1660033-2.jpg",
+        "images/minichamps-minichamps-1660033-3.jpg",
+        "images/minichamps-minichamps-1660033-4.jpg",
+        "images/minichamps-minichamps-1660033-5.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -10363,7 +10367,14 @@
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-CHINESE-GP-2026-W-PITBOARD/117260212",
       "images": [
-        "images/minichamps-minichamps-1660038-1.jpg"
+        "images/minichamps-minichamps-1660038-1.jpg",
+        "images/minichamps-minichamps-1660038-2.jpg",
+        "images/minichamps-minichamps-1660038-3.jpg",
+        "images/minichamps-minichamps-1660038-4.jpg",
+        "images/minichamps-minichamps-1660038-5.jpg",
+        "images/minichamps-minichamps-1660038-6.jpg",
+        "images/minichamps-minichamps-1660038-7.jpg",
+        "images/minichamps-minichamps-1660038-8.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -11605,7 +11616,11 @@
       "id": "minichamps-minichamps-1661381",
       "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTRALIAN-GP-2026/640260187",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1661381-1.jpg",
+        "images/minichamps-minichamps-1661381-2.jpg",
+        "images/minichamps-minichamps-1661381-3.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "640260187",

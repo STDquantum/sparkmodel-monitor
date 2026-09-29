@@ -1,6 +1,168 @@
 {
   "updates": [
     {
+      "date": "2026-09-29T22:36:31.302840+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f74570718a513af8f72e4e9d",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f74570718a513af8f72e4e9d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537255404",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/b2/e8/9e/1784795223/00_537255404_019f8e15.jpg?ts=1784795223",
+              "after": "https://www.minichamps.de/media/d5/98/a1/1790710360/00_537255404_01a0eea7.jpg?ts=1790710360"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660033",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTRALIAN-GP-2026/117260131",
+          "product_number": "117260131",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/e0/23/e2/1783250374/117260131_n_019f3201.jpg?ts=1783250374",
+              "after": "https://www.minichamps.de/media/5a/0c/9b/1790710358/00_117260131_01a0eea7.jpg?ts=1790710358"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1660033-2.jpg",
+              "images/minichamps-minichamps-1660033-3.jpg",
+              "images/minichamps-minichamps-1660033-4.jpg",
+              "images/minichamps-minichamps-1660033-5.jpg"
+            ],
+            "changed": [
+              "images/minichamps-minichamps-1660033-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1660033-2.jpg": "39f9a9703387c89f4053a9c5126320679b832d86eafd95de27986985c120d189",
+              "images/minichamps-minichamps-1660033-3.jpg": "4edebc9cdacfda99da08b86877c333645abb9a4b2cafe2a6c7ccf735b84fd29f",
+              "images/minichamps-minichamps-1660033-4.jpg": "c28c023cff7d8452c13e2e353478fa633009e3fd201cac8567639b4fbe7c6abd",
+              "images/minichamps-minichamps-1660033-5.jpg": "ed09142c143010d91832b54c27fc2bae9861a605fa979950c6b48a77784e5319",
+              "images/minichamps-minichamps-1660033-1.jpg": "f8ac1055c9960fa41aae36d2a9eab738ced81105670b44196c7a23a2b5472298"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660038",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-CHINESE-GP-2026-W-PITBOARD/117260212",
+          "product_number": "117260212",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/00/4f/ba/1783250375/117260212_n_019f3201.jpg?ts=1783250375",
+              "after": "https://www.minichamps.de/media/db/d7/13/1790710359/00_117260212_01a0eea7.jpg?ts=1790710359"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1660038-2.jpg",
+              "images/minichamps-minichamps-1660038-3.jpg",
+              "images/minichamps-minichamps-1660038-4.jpg",
+              "images/minichamps-minichamps-1660038-5.jpg",
+              "images/minichamps-minichamps-1660038-6.jpg",
+              "images/minichamps-minichamps-1660038-7.jpg",
+              "images/minichamps-minichamps-1660038-8.jpg"
+            ],
+            "changed": [
+              "images/minichamps-minichamps-1660038-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1660038-2.jpg": "47d198bee2046b98ed72eec40136494de3ce815dbea13da1a809cc8bd03a9eb4",
+              "images/minichamps-minichamps-1660038-3.jpg": "3d23f092b12b69d028f6e76f7b0fe64bfa922f41a70c2354f54d6d3713cd03b0",
+              "images/minichamps-minichamps-1660038-4.jpg": "5c4a96020188d2a41ebcbe8ba9c096f404a21d6e9b4bd6e9f1b25eca579dad8d",
+              "images/minichamps-minichamps-1660038-5.jpg": "3de63a85e74fe6abaf00b4cd979aa360b71c2f305afe5c38cb7fb99def165045",
+              "images/minichamps-minichamps-1660038-6.jpg": "89d39787cd24aa07b2157cb8a6723dc15cd50c488a30a53aef9f9d5d3039926a",
+              "images/minichamps-minichamps-1660038-7.jpg": "2965bf4dfc876e121707a6afcf4f38709bc6df7c0c465ee9f80d0d0cee2919c0",
+              "images/minichamps-minichamps-1660038-8.jpg": "c8848943a88888605d96fa17837e0daae546063a480bb48c93de3f6e052cbbc1",
+              "images/minichamps-minichamps-1660038-1.jpg": "089fcfce6862b8b16757cc190c9efae762c3f607cd9484daf0e92880d1495b9e"
+            }
+          },
+          "image_counts": {
+            "added": 7,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661381",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTRALIAN-GP-2026/640260187",
+          "product_number": "640260187",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/fe/99/a1/1790710361/00_640260187_01a0eea7.jpg?ts=1790710361"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1661381-1.jpg",
+              "images/minichamps-minichamps-1661381-2.jpg",
+              "images/minichamps-minichamps-1661381-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1661381-1.jpg": "eb57ce5ef99d3f9b84ccae8af347a45bf440185266a0bc7eed62081b1ebe58d5",
+              "images/minichamps-minichamps-1661381-2.jpg": "2b97c103a938a4d696999ca941018cd33e47aaa25d8347a00823a619ff9e5bfe",
+              "images/minichamps-minichamps-1661381-3.jpg": "050d8f1bf71ebd76800525198057ca60eaa975816ef30e3bb8856059e81e6687"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-29T16:34:06.552438+00:00",
       "entries": [
         {
@@ -19466,15 +19628,11 @@
           "scale": "",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1660033-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1660033-1.jpg": "f5a5933ff43429d0ed3c7785bd0b5355e3794033d3ab0679d2b5ad779f291702"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -19574,15 +19732,11 @@
           "scale": "",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1660038-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1660038-1.jpg": "2d9c454ac2d9ff31afca056feb26e846a7cffad52117cb088fc4eeb774f1b6bd"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
