@@ -1,6 +1,228 @@
 {
   "updates": [
     {
+      "date": "2026-09-29T10:31:38.523507+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "135789d267db41ecb9c9a16fb3d3f6ab",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli (With figurine)",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/s9365-de",
+          "product_number": "S9365",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/01/43/a3/1790556353/bb32c0b8c14d497d8ee550b07581cbd1.webp?ts=1790651170",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7e/5b/d1/1790672824/e205ddf111f948cdbc6c38e85cce0aa3.webp?ts=1790672824"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp",
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp"
+            ],
+            "moved": [],
+            "removed_count": 1,
+            "hashes": {
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp": "217abe3316efcccf2fc06eb1ea487d7bb2d03dc8db78d830453aa5dc20ae6761",
+              "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp": "6fe6a73649f1c8481077f5bfb474bc0bd1bedb859c2370eee17417e2b6074833"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 2
+          }
+        },
+        {
+          "type": "changed",
+          "id": "b44e384aadd84eb892f4e7b46cac6718",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell (With figurine)",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell-with-figurine/18s1275-de",
+          "product_number": "18S1275",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a5/9e/aa/1784555399/31198c486d3f4588bd49dd5df2e7ed10.webp?ts=1790650180",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/91/5b/3a/1790672025/8bad9e1186434416b743155e32e04959.webp?ts=1790672025"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/b44e384aadd84eb892f4e7b46cac6718-2.webp",
+              "images/b44e384aadd84eb892f4e7b46cac6718-3.webp"
+            ],
+            "changed": [
+              "images/b44e384aadd84eb892f4e7b46cac6718-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/b44e384aadd84eb892f4e7b46cac6718-2.webp": "0086554891fbe45dcbabd1a96aeb4aa313e39f33972dc8cc14a773fb0fb69621",
+              "images/b44e384aadd84eb892f4e7b46cac6718-3.webp": "5d33b3b566d1f33117f68db8d304ff09d65bb1b2c00739104b82b9bb8f68a8a8",
+              "images/b44e384aadd84eb892f4e7b46cac6718-1.webp": "d7aaac7bd01ff3e575ed6d9e463aaed2bfe4883df82715864359da7143a547a5"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "ec2913149705458da44f0e4261a6e40e",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli (With figurine)",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/18s1276-de",
+          "product_number": "18S1276",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/09/de/1a/1784570850/1d6317aeee614efb835f71f47b87faa2.webp?ts=1790650181",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c9/03/8e/1790672131/0b3f8ceaefbb41b081b90fb0a0b70f9f.webp?ts=1790672155"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/ec2913149705458da44f0e4261a6e40e-2.webp",
+              "images/ec2913149705458da44f0e4261a6e40e-3.webp"
+            ],
+            "changed": [
+              "images/ec2913149705458da44f0e4261a6e40e-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/ec2913149705458da44f0e4261a6e40e-2.webp": "624051d0d60cbf111232a7a6aaa074691cebcd4b864da16de0ae02a4d46111d0",
+              "images/ec2913149705458da44f0e4261a6e40e-3.webp": "386a850f1c6f8f91c25dd115f137552c3c0b9ba952a9e415ed031c554a0dc89e",
+              "images/ec2913149705458da44f0e4261a6e40e-1.webp": "eda544a2851899ec420f5634ca1f9f35beca6197cb89679525c27e2e6a8551ed"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "ee19f55446504fc780193ca38fdcb543",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell (With figurine)",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell-with-figurine/s9364-de",
+          "product_number": "S9364",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a5/60/64/1784566588/25da4d23234040bdb4e1f82c4294d306.webp?ts=1790651170",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/dd/d1/75/1790672289/b767b10935a7412b948dabaeaa5219b8.webp?ts=1790672289"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/ee19f55446504fc780193ca38fdcb543-2.webp",
+              "images/ee19f55446504fc780193ca38fdcb543-3.webp"
+            ],
+            "changed": [
+              "images/ee19f55446504fc780193ca38fdcb543-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/ee19f55446504fc780193ca38fdcb543-2.webp": "3d1206720224acc0daff81a8a33c7e402ea6554f31e107eb42bc831e95a62941",
+              "images/ee19f55446504fc780193ca38fdcb543-3.webp": "dc875c2a80fc78a212502b4660c4722166a1e9c10470dbd918011a2c0b1ba4bd",
+              "images/ee19f55446504fc780193ca38fdcb543-1.webp": "e135aa7a4fc909400319e1f0e9fbc510cd3fa02ecb8b0cac58ad1cf1cc6c3840"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-530267404",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267404",
+          "product_number": "530267404",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-530267504",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-ZANDVOORT-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267504",
+          "product_number": "530267504",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-537262804",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/537262804",
+          "product_number": "537262804",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-537265304",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/537265304",
+          "product_number": "537265304",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-29T06:55:04.782068+00:00",
       "entries": [
         {
@@ -7142,19 +7364,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp",
-              "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp",
-              "images/135789d267db41ecb9c9a16fb3d3f6ab-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp": "715eaaeb3c07e7af7837e1fc98c538d79ae3e1b7eb6852248417651672e01104",
-              "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp": "96adbbc25a1d36889c197082db4f49767eb9810d416fa4d3ddf3d7ede4418c18",
-              "images/135789d267db41ecb9c9a16fb3d3f6ab-3.webp": "32f811c97bbc3fd89f5b363f5cd76a50df031cb425ca17c7f9cd36e1e6ad410e"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,

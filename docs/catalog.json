@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:55:04.782068+00:00",
+  "generated_at": "2026-09-29T10:31:38.523507+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -283,8 +283,7 @@
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/s9365-de",
       "images": [
         "images/135789d267db41ecb9c9a16fb3d3f6ab-1.webp",
-        "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp",
-        "images/135789d267db41ecb9c9a16fb3d3f6ab-3.webp"
+        "images/135789d267db41ecb9c9a16fb3d3f6ab-2.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -3622,7 +3621,9 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell (With figurine)",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell-with-figurine/18s1275-de",
       "images": [
-        "images/b44e384aadd84eb892f4e7b46cac6718-1.webp"
+        "images/b44e384aadd84eb892f4e7b46cac6718-1.webp",
+        "images/b44e384aadd84eb892f4e7b46cac6718-2.webp",
+        "images/b44e384aadd84eb892f4e7b46cac6718-3.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -4644,7 +4645,9 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 Kimi Antonelli (With figurine)",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.12-winner-japanese-gp-2026-kimi-antonelli-with-figurine/18s1276-de",
       "images": [
-        "images/ec2913149705458da44f0e4261a6e40e-1.webp"
+        "images/ec2913149705458da44f0e4261a6e40e-1.webp",
+        "images/ec2913149705458da44f0e4261a6e40e-2.webp",
+        "images/ec2913149705458da44f0e4261a6e40e-3.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -4713,7 +4716,9 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 George Russell (With figurine)",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-f1-team-w17-no.63-4th-japanese-gp-2026-george-russell-with-figurine/s9364-de",
       "images": [
-        "images/ee19f55446504fc780193ca38fdcb543-1.webp"
+        "images/ee19f55446504fc780193ca38fdcb543-1.webp",
+        "images/ee19f55446504fc780193ca38fdcb543-2.webp",
+        "images/ee19f55446504fc780193ca38fdcb543-3.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -9548,6 +9553,56 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-530267404",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267404",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267404",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "32.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-530267504",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-ZANDVOORT-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267504",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267504",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "32.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-537262781",
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - OSCAR PIASTRI - SILVERSTONE GP 2026 | 537262781",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-OSCAR-PIASTRI-SILVERSTONE-GP-2026/537262781",
@@ -9573,6 +9628,31 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-537262804",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/537262804",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537262804",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "219.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-537265281",
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - OSCAR PIASTRI - SILVERSTONE GP 2026 | 537265281",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-OSCAR-PIASTRI-SILVERSTONE-GP-2026/537265281",
@@ -9591,6 +9671,31 @@
       "description": "",
       "brand": "Minichamps",
       "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-537265304",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/537265304",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537265304",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "99.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
