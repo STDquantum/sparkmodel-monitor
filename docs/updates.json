@@ -1,6 +1,75 @@
 {
   "updates": [
     {
+      "date": "2026-09-30T15:52:28.695279+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "66b578812c7049f682a86f03e51dbc40",
+          "name": "Mercedes - AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 - Kimi Antonelli ( with figurine, with number and pit board )",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-with-number-and-pit-board/18s1277-de",
+          "product_number": "18S1277",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/66b578812c7049f682a86f03e51dbc40-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/66b578812c7049f682a86f03e51dbc40-1.webp": "4f7a81328252cdd9ebfd239d9bd143f6eba0df408c0855ed350a46fe28c5da0b"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-019ef970b01873e68b4203b72cdb5098",
+          "name": "FERRARI SF-25 - CHARLES LECLERC - ITALIAN GP 2025 W/DRIVER FIGURINE",
+          "url": "https://www.minichamps.de/en/detail/019ef970b01873e68b4203b72cdb5098?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR252116",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-019ef971d44972cb8c1914da583cc0e7",
+          "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 - WHITE TYRE - EXCL. BBR",
+          "url": "https://www.minichamps.de/en/detail/019ef971d44972cb8c1914da583cc0e7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBRC321D44",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-30T14:06:58.746990+00:00",
       "entries": [
         {
@@ -110,7 +179,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -360,7 +431,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -376,7 +449,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,

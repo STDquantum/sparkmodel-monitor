@@ -7,7 +7,7 @@
     "https://www.sparkmodelshop.com/de/en/search?search=Ferrari",
     "https://www.sparkmodelshop.com/de/en/search?search=Haas+F1+Team",
     "https://www.sparkmodelshop.com/de/en/search?search=McLaren+Mastercard",
-    "https://www.sparkmodelshop.com/de/en/search?search=Mercedes-AMG+PETRONAS",
+    "https://www.sparkmodelshop.com/de/en/search?search=Mercedes+AMG+Petronas",
     "https://www.sparkmodelshop.com/de/en/search?search=Visa+Cash+App+Racing+Bulls",
     "https://www.sparkmodelshop.com/de/en/search?search=Oracle+Red+Bull+Racing",
     "https://www.sparkmodelshop.com/de/en/search?search=Atlassian+Williams",
@@ -33,8 +33,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-09-30T14:06:52.038053+00:00",
-  "total": 677,
+  "updated_at": "2026-09-30T15:52:21.259166+00:00",
+  "total": 680,
   "items": {
     "05be370d1c414c478cc76ddead21bef3": {
       "name": "BWT Alpine Formula One Team A526 No.10 Italian GP 2026 First Pole Position Pierre Gasly",
@@ -568,6 +568,12 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.81 4th Monaco GP 2026 Oscar Piastri",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.81-4th-monaco-gp-2026-oscar-piastri/s9346-de",
       "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b1/ae/ae/1784566558/818bd913e2bd4e0eaf3bb48164a61841.webp?ts=1790651165",
+      "availability": "Not available – pre-orders possible"
+    },
+    "66b578812c7049f682a86f03e51dbc40": {
+      "name": "Mercedes - AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 - Kimi Antonelli ( with figurine, with number and pit board )",
+      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-with-number-and-pit-board/18s1277-de",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bf/3d/43/1790071550/8b129e46c9d441bca649511a21af94da.webp?ts=1790769434",
       "availability": "Not available – pre-orders possible"
     },
     "67699c43d0a84c039ba106552cdda293": {
@@ -2306,6 +2312,14 @@
       "year": "2025",
       "availability": "Pre-order"
     },
+    "minichamps-019ef970b01873e68b4203b72cdb5098": {
+      "name": "FERRARI SF-25 - CHARLES LECLERC - ITALIAN GP 2025 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/detail/019ef970b01873e68b4203b72cdb5098?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Pre-order"
+    },
     "minichamps-019ef970b0ae70989b0997fcdaa3020a": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019ef970b0ae70989b0997fcdaa3020a?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
@@ -2607,6 +2621,14 @@
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971d31970d3a4ec88a42181e2e2?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "image_url": "https://www.minichamps.de/media/40/c6/c8/1790192309/00_417251863_01a0cfc6.jpg?ts=1790192309",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Pre-order"
+    },
+    "minichamps-019ef971d44972cb8c1914da583cc0e7": {
+      "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 - WHITE TYRE - EXCL. BBR",
+      "url": "https://www.minichamps.de/en/detail/019ef971d44972cb8c1914da583cc0e7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -5913,25 +5935,12 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "0c5863be41f44715bff4ad2ad9789bb3",
-      "178abe5249d243f79c397a6d0f64b9a5",
-      "5b7638526c7440b6b18c3ab4240949f2",
-      "67699c43d0a84c039ba106552cdda293",
-      "698ed225f8484349a4839709ddb5e903",
-      "6a1f8b21cb334fbaba4b84355806906d",
-      "a002e320dded4d62b2a6a0a93e1ffd7c",
-      "b999b6e4f0bd4a1d8393402a4167eea5",
-      "c780a8ad1c5d4ad0adfbdd073aeff128",
-      "e95c1739a8054e23a9857716160d8325",
-      "f5bf3c5d28c441e9a0276724528d6d55",
-      "f7022316a87d412c8366e02efbc3a3b2"
-    ],
-    "removed": [
+    "added": [
       "66b578812c7049f682a86f03e51dbc40",
       "minichamps-019ef970b01873e68b4203b72cdb5098",
       "minichamps-019ef971d44972cb8c1914da583cc0e7"
-    ]
+    ],
+    "changed": [],
+    "removed": []
   }
 }
