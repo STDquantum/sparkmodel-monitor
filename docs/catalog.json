@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:26:11.329027+00:00",
+  "generated_at": "2026-09-30T14:06:58.746990+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -95,8 +95,8 @@
     },
     {
       "id": "0c5863be41f44715bff4ad2ad9789bb3",
-      "name": "Atlassian Williams F1 Team FW47 No.55 Madrid GP 2026 Carlos Sainz Jr",
-      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw47-no.55-madrid-gp-2026-carlos-sainz-jr/s9318-de",
+      "name": "Atlassian Williams F1 Team FW48 No.55 Madrid GP 2026 Carlos Sainz Jr",
+      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw48-no.55-madrid-gp-2026-carlos-sainz-jr/s9318-de",
       "images": [
         "images/0c5863be41f44715bff4ad2ad9789bb3-1.webp"
       ],
@@ -418,8 +418,8 @@
     },
     {
       "id": "178abe5249d243f79c397a6d0f64b9a5",
-      "name": "Atlassian Williams F1 Team FW47 No.23 Madrid GP 2026 Alex Albon",
-      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw47-no.23-madrid-gp-2026-alex-albon/s9317-de",
+      "name": "Atlassian Williams F1 Team FW48 No.23 Madrid GP 2026 Alex Albon",
+      "url": "https://www.sparkmodelshop.com/de/en/atlassian-williams-f1-team-fw48-no.23-madrid-gp-2026-alex-albon/s9317-de",
       "images": [
         "images/178abe5249d243f79c397a6d0f64b9a5-1.webp"
       ],
@@ -2133,29 +2133,6 @@
       "gtin": "9580006993465",
       "weight": "0.18 kg",
       "length": "100 mm",
-      "availability": "Not available – pre-orders possible"
-    },
-    {
-      "id": "66b578812c7049f682a86f03e51dbc40",
-      "name": "Mercedes - AMG Petronas Formula 1 Team W17 No.12 Winner Italian GP 2026 - Kimi Antonelli ( with figurine, with number and pit board )",
-      "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-1-team-w17-no.12-winner-italian-gp-2026-kimi-antonelli-with-figurine-with-number-and-pit-board/18s1277-de",
-      "images": [
-        "images/66b578812c7049f682a86f03e51dbc40-1.webp"
-      ],
-      "properties": {
-        "Material": "Resin",
-        "Scale": "1/18",
-        "Year": "2026",
-        "Manufacturer": "Spark",
-        "Product number": "18S1277"
-      },
-      "description": "GTIN/EAN: 9581677812772",
-      "brand": "Spark",
-      "price": "239",
-      "currency": "EUR",
-      "gtin": "9581677812772",
-      "weight": "2 kg",
-      "length": "250 mm",
       "availability": "Not available – pre-orders possible"
     },
     {
@@ -8141,30 +8118,6 @@
       "availability": "available for preorder"
     },
     {
-      "id": "minichamps-019ef970b01873e68b4203b72cdb5098",
-      "name": "FERRARI SF-25 - CHARLES LECLERC - ITALIAN GP 2025 W/DRIVER FIGURINE",
-      "url": "https://www.minichamps.de/en/detail/019ef970b01873e68b4203b72cdb5098?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
-      "properties": {
-        "Year": "2025",
-        "Product number": "BBR252116",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "FERRARI",
-        "Driver": "LECLERC, CHARLES",
-        "Material": "RESIN"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "229.5",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
       "id": "minichamps-019ef970b0ae70989b0997fcdaa3020a",
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019ef970b0ae70989b0997fcdaa3020a?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
@@ -9088,30 +9041,6 @@
       "description": "",
       "brand": "Minichamps",
       "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-019ef971d44972cb8c1914da583cc0e7",
-      "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 - WHITE TYRE - EXCL. BBR",
-      "url": "https://www.minichamps.de/en/detail/019ef971d44972cb8c1914da583cc0e7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
-      "properties": {
-        "Year": "2025",
-        "Product number": "BBRC321D44",
-        "Scale": "1/43",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "FERRARI",
-        "Driver": "HAMILTON, LEWIS",
-        "Material": "RESIN"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "197.5",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
