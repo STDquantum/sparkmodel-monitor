@@ -38,7 +38,7 @@ TEAM_SEARCHES = (
     "Ferrari",
     "Haas F1 Team",
     "McLaren Mastercard",
-    "Mercedes-AMG PETRONAS",
+    "Mercedes AMG Petronas",
     "Visa Cash App Racing Bulls",
     "Oracle Red Bull Racing",
     "Atlassian Williams",
