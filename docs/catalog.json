@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:52:28.695279+00:00",
+  "generated_at": "2026-09-30T23:05:52.254245+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -6085,7 +6085,11 @@
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a89196184700ca240fb91d6827be9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg"
+        "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -8219,7 +8223,14 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER HUNGARIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b2407212bdda29f3bd3534f7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-1.jpg"
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-1.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-2.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-3.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-4.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-5.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-6.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-7.jpg",
+        "images/minichamps-019ef970b2407212bdda29f3bd3534f7-8.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -9976,9 +9987,9 @@
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
       "images": [
+        "images/minichamps-minichamps-1659915-1.jpg",
         "images/minichamps-minichamps-1659915-2.jpg",
-        "images/minichamps-minichamps-1659915-3.jpg",
-        "images/minichamps-minichamps-1659915-1.jpg"
+        "images/minichamps-minichamps-1659915-3.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -10030,11 +10041,11 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/117260163",
       "images": [
+        "images/minichamps-minichamps-1660025-1.jpg",
         "images/minichamps-minichamps-1660025-2.jpg",
         "images/minichamps-minichamps-1660025-3.jpg",
         "images/minichamps-minichamps-1660025-4.jpg",
-        "images/minichamps-minichamps-1660025-5.jpg",
-        "images/minichamps-minichamps-1660025-1.jpg"
+        "images/minichamps-minichamps-1660025-5.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -10609,7 +10620,9 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/417260163",
       "images": [
-        "images/minichamps-minichamps-1660047-1.jpg"
+        "images/minichamps-minichamps-1660047-1.jpg",
+        "images/minichamps-minichamps-1660047-2.jpg",
+        "images/minichamps-minichamps-1660047-3.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -11043,7 +11056,8 @@
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/417260331",
       "images": [
-        "images/minichamps-minichamps-1660064-1.jpg"
+        "images/minichamps-minichamps-1660064-1.jpg",
+        "images/minichamps-minichamps-1660064-2.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -11681,8 +11695,8 @@
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/640260222",
       "images": [
-        "images/minichamps-minichamps-1661383-2.jpg",
-        "images/minichamps-minichamps-1661383-1.jpg"
+        "images/minichamps-minichamps-1661383-1.jpg",
+        "images/minichamps-minichamps-1661383-2.jpg"
       ],
       "properties": {
         "Year": "2026",
