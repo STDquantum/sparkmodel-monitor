@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:36:31.302840+00:00",
+  "generated_at": "2026-09-30T07:26:11.329027+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -812,7 +812,9 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Miami GP 2026 Kimi Antonelli",
       "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-miami-gp-2026-kimi-antonelli/s9407-de",
       "images": [
-        "images/264b601d5cb0419ea96645c45691c0ae-1.webp"
+        "images/264b601d5cb0419ea96645c45691c0ae-1.webp",
+        "images/264b601d5cb0419ea96645c45691c0ae-2.webp",
+        "images/264b601d5cb0419ea96645c45691c0ae-3.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -3449,7 +3451,11 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 Lando Norris",
       "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-australian-gp-2026-lando-norris/s9378-de",
       "images": [
-        "images/a6c7ec8252794e88a24810caea55b8a3-1.webp"
+        "images/a6c7ec8252794e88a24810caea55b8a3-1.webp",
+        "images/a6c7ec8252794e88a24810caea55b8a3-2.webp",
+        "images/a6c7ec8252794e88a24810caea55b8a3-3.webp",
+        "images/a6c7ec8252794e88a24810caea55b8a3-4.webp",
+        "images/a6c7ec8252794e88a24810caea55b8a3-5.webp"
       ],
       "properties": {
         "Material": "Resin",
@@ -9338,16 +9344,16 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971dc9c71dd89ab87ec07a7e2ca?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg",
         "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-2.jpg",
-        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-3.jpg",
-        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg"
+        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "537256281",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN",
@@ -9360,7 +9366,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef971dd44737d94c4b2802c43fb29",

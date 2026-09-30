@@ -1,6 +1,331 @@
 {
   "updates": [
     {
+      "date": "2026-09-30T07:26:11.329027+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "16b048a0e0ea478c85dea034095f8f79",
+          "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 Franco Colapinto With pit board",
+          "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.43-10th-chinese-gp-2026-franco-colapinto-with-pit-board/s9367-de",
+          "product_number": "S9367",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7d/37/8f/1784566606/5b419ba0c7e6498aa94351ec92229362.webp?ts=1790651172",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5a/78/67/1790735466/aab4ba34cfa54dc6bd7fca77315b944b.webp?ts=1790736009"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/16b048a0e0ea478c85dea034095f8f79-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/16b048a0e0ea478c85dea034095f8f79-1.webp": "d6f675edd417b0e4038418d97c7b89161fd33e4ba6b2676979e5a878a8ce942e"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "264b601d5cb0419ea96645c45691c0ae",
+          "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Miami GP 2026 Kimi Antonelli",
+          "url": "https://www.sparkmodelshop.com/de/en/mercedes-amg-petronas-formula-one-team-w17-no.12-winner-miami-gp-2026-kimi-antonelli/s9407-de",
+          "product_number": "S9407",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/66/ed/65/1784566867/42b553554fee406fa30ca2450531fb6e.webp?ts=1790651195",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/00/99/cd/1790739877/42106edb40c148f997acf788a249aab5.webp?ts=1790739877"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/264b601d5cb0419ea96645c45691c0ae-2.webp",
+              "images/264b601d5cb0419ea96645c45691c0ae-3.webp"
+            ],
+            "changed": [
+              "images/264b601d5cb0419ea96645c45691c0ae-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/264b601d5cb0419ea96645c45691c0ae-2.webp": "f4f0e12fdfba9449b49c6678b6a69fc1ab835d388861170ae129951e146ee4a8",
+              "images/264b601d5cb0419ea96645c45691c0ae-3.webp": "fa2e633262b3e4ac8b782ff96d947fd89236a70ce1dcf48944b36148f6499abb",
+              "images/264b601d5cb0419ea96645c45691c0ae-1.webp": "ba3f5ac637d9ccc42781cd10124e3b206355f4b22e534dd771f6d0becd37151c"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "29e2d2dbf0f542168904b275ae2dac90",
+          "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 Esteban Ocon",
+          "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.31-japanese-gp-2026-esteban-ocon/s9386-de",
+          "product_number": "S9386",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6a/a4/45/1788926158/a897036119984b99a0fb276a5cb4c1e8.webp?ts=1790142632",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6a/a4/45/1788926158/a897036119984b99a0fb276a5cb4c1e8.webp?ts=1790747740"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 6,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              },
+              {
+                "from": 9,
+                "to": 6
+              },
+              {
+                "from": 11,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 12,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 15,
+                "to": 11
+              },
+              {
+                "from": 8,
+                "to": 12
+              },
+              {
+                "from": 10,
+                "to": 13
+              },
+              {
+                "from": 16,
+                "to": 14
+              },
+              {
+                "from": 18,
+                "to": 15
+              },
+              {
+                "from": 13,
+                "to": 16
+              },
+              {
+                "from": 20,
+                "to": 17
+              },
+              {
+                "from": 14,
+                "to": 18
+              },
+              {
+                "from": 17,
+                "to": 19
+              },
+              {
+                "from": 19,
+                "to": 20
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "85f9985b1dfa4cf2acc9e6ee6cb9883b",
+          "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 Oliver Bearman",
+          "url": "https://www.sparkmodelshop.com/de/en/tgr-haas-f1-team-vf-26-no.87-japanese-gp-2026-oliver-bearman/s9387-de",
+          "product_number": "S9387",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bc/0e/f4/1788852035/a6fa6ecbf07443bc943026f7681eee20.webp?ts=1790142759",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bc/0e/f4/1788852035/a6fa6ecbf07443bc943026f7681eee20.webp?ts=1790747733"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 4,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "a6c7ec8252794e88a24810caea55b8a3",
+          "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 Lando Norris",
+          "url": "https://www.sparkmodelshop.com/de/en/mclaren-mastercard-f1-team-mcl40-no.1-australian-gp-2026-lando-norris/s9378-de",
+          "product_number": "S9378",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4d/e4/3d/1785723698/6c37da6545db4fe1b5fde06aea75a03a.webp?ts=1790651179",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2f/c2/14/1790735686/699f8e87bb344258babb5575314ec8a0.webp?ts=1790736321"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/a6c7ec8252794e88a24810caea55b8a3-2.webp",
+              "images/a6c7ec8252794e88a24810caea55b8a3-3.webp",
+              "images/a6c7ec8252794e88a24810caea55b8a3-4.webp",
+              "images/a6c7ec8252794e88a24810caea55b8a3-5.webp"
+            ],
+            "changed": [
+              "images/a6c7ec8252794e88a24810caea55b8a3-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/a6c7ec8252794e88a24810caea55b8a3-2.webp": "e2959b1986b10a57166872195e400666e963016919814dcd1787d8117e5376f7",
+              "images/a6c7ec8252794e88a24810caea55b8a3-3.webp": "28a1521be067de0995bf2d841ee748368425740cc781e3b6a848f53d0dbfd48f",
+              "images/a6c7ec8252794e88a24810caea55b8a3-4.webp": "ba5514fd54f0a10144ebf6b18f758131473df627d7e57a0e1caeaf6cf79234f7",
+              "images/a6c7ec8252794e88a24810caea55b8a3-5.webp": "1fb34b411ca32653e9b06bbaad70a0556dd4ca2b26dab76d7f8d7a3e4e7eccf4",
+              "images/a6c7ec8252794e88a24810caea55b8a3-1.webp": "e8825f17adbe5a9c6e1251a7582142056f3ac0769d5b1694b5b4f066189fbf77"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "c43605ce39e34f719ef7408cb6759426",
+          "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 Pierre Gasly",
+          "url": "https://www.sparkmodelshop.com/de/en/bwt-alpine-formula-one-team-a526-no.10-6th-chinese-gp-2026-pierre-gasly/s9366-de",
+          "product_number": "S9366",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2d/89/79/1784566598/277885dc9dd5472ba686a1e0821b65b5.webp?ts=1790651171",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/43/8d/8d/1790735069/aa7170db54a34c559985b343cfbf5a5b.webp?ts=1790735601"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/c43605ce39e34f719ef7408cb6759426-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/c43605ce39e34f719ef7408cb6759426-1.webp": "47eda5ff5d7b613ec9e2033859831919d1c096aadd4c62f6b005de94c5c425fa"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef971dc9c71dd89ab87ec07a7e2ca?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537256281",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-29T22:36:31.302840+00:00",
       "entries": [
         {
@@ -26229,11 +26554,7 @@
             }
           ],
           "images": {
-            "added": [
-              "images/29e2d2dbf0f542168904b275ae2dac90-2.webp",
-              "images/29e2d2dbf0f542168904b275ae2dac90-4.webp",
-              "images/29e2d2dbf0f542168904b275ae2dac90-5.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -26310,11 +26631,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/29e2d2dbf0f542168904b275ae2dac90-2.webp": "1cfbfce606e454ab428c92e14fb0281f45afd308ee7a07590516f45bde0c83af",
-              "images/29e2d2dbf0f542168904b275ae2dac90-4.webp": "21bf018c78535bbed7e780262804a54ceeb365889f6378330bda9c9165bf6d89",
-              "images/29e2d2dbf0f542168904b275ae2dac90-5.webp": "46789711c56a525d3bc42d6f66c7fecae0f6c81f3e21ce3ce411752c656d2bb3"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -26336,11 +26653,7 @@
             }
           ],
           "images": {
-            "added": [
-              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-2.webp",
-              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-3.webp",
-              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-4.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -26381,11 +26694,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-2.webp": "afb2b92746c183c52361919b05c492bd7c638fc7f807f1959beade1efd48dd8c",
-              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-3.webp": "53e51efec3c5ab78fdc413b211d842bad155cd05758a3d22ee68b113171528e2",
-              "images/85f9985b1dfa4cf2acc9e6ee6cb9883b-4.webp": "70ab33f49afc62109af0286f164e2ebf328bbc3a73f782b1be2581fa30b69adc"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
