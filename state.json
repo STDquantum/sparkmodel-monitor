@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-01T15:46:20.511532+00:00",
+  "updated_at": "2026-10-01T20:35:56.719115+00:00",
   "total": 680,
   "items": {
     "05be370d1c414c478cc76ddead21bef3": {
@@ -2349,7 +2349,7 @@
     "minichamps-019ef970b2d37258976dddf3dc33a82b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/8b/c8/f7/1790856049/00_537253181.jpg?ts=1790856049",
+      "image_url": "https://www.minichamps.de/media/a8/39/67/1790883161/00_537253181_01a0f8f4.jpg?ts=1790883161",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -3119,6 +3119,7 @@
     "minichamps-minichamps-1660044": {
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/117260331",
+      "image_url": "https://www.minichamps.de/media/1c/e4/e9/1790883159/00_117260331_01a0f8f4.jpg?ts=1790883159",
       "product_number": "117260331",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -3137,6 +3138,7 @@
     "minichamps-minichamps-1660046": {
       "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-JAPANESE-GP-2026/117260387",
+      "image_url": "https://www.minichamps.de/media/3b/c4/cc/1790883159/00_117260387_01a0f8f4.jpg?ts=1790883159",
       "product_number": "117260387",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -3578,7 +3580,7 @@
     "minichamps-minichamps-1661388": {
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/640260331",
-      "image_url": "https://www.minichamps.de/media/de/c7/2c/1790854521/00_640260331.jpg?ts=1790854521",
+      "image_url": "https://www.minichamps.de/media/f9/18/12/1790883162/00_640260331_01a0f8f4.jpg?ts=1790883162",
       "product_number": "640260331",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -5939,6 +5941,8 @@
     "added": [],
     "changed": [
       "minichamps-019ef970b2d37258976dddf3dc33a82b",
+      "minichamps-minichamps-1660044",
+      "minichamps-minichamps-1660046",
       "minichamps-minichamps-1661388"
     ],
     "removed": []

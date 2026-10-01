@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:46:26.758289+00:00",
+  "generated_at": "2026-10-01T20:36:07.482947+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -10548,7 +10548,14 @@
       "id": "minichamps-minichamps-1660044",
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/117260331",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660044-1.jpg",
+        "images/minichamps-minichamps-1660044-2.jpg",
+        "images/minichamps-minichamps-1660044-3.jpg",
+        "images/minichamps-minichamps-1660044-4.jpg",
+        "images/minichamps-minichamps-1660044-5.jpg",
+        "images/minichamps-minichamps-1660044-6.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "117260331",
@@ -10598,7 +10605,15 @@
       "id": "minichamps-minichamps-1660046",
       "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-JAPANESE-GP-2026/117260387",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660046-1.jpg",
+        "images/minichamps-minichamps-1660046-2.jpg",
+        "images/minichamps-minichamps-1660046-3.jpg",
+        "images/minichamps-minichamps-1660046-4.jpg",
+        "images/minichamps-minichamps-1660046-5.jpg",
+        "images/minichamps-minichamps-1660046-6.jpg",
+        "images/minichamps-minichamps-1660046-7.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "117260387",
