@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:05:52.254245+00:00",
+  "generated_at": "2026-10-01T15:46:26.758289+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -8256,7 +8256,11 @@
       "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg",
+        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-2.jpg",
+        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-3.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "537253181",
@@ -11828,8 +11832,8 @@
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/640260331",
       "images": [
-        "images/minichamps-minichamps-1661388-2.jpg",
-        "images/minichamps-minichamps-1661388-1.jpg"
+        "images/minichamps-minichamps-1661388-1.jpg",
+        "images/minichamps-minichamps-1661388-2.jpg"
       ],
       "properties": {
         "Year": "2026",

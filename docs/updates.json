@@ -1,6 +1,80 @@
 {
   "updates": [
     {
+      "date": "2026-10-01T15:46:26.758289+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253181",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/8b/c8/f7/1790856049/00_537253181.jpg?ts=1790856049"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg",
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-2.jpg",
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg": "287b712da5e3945104040d62b07fe6b8b2dc7d7703fda9970ef3301acea30337",
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-2.jpg": "fcbbf15ef71a81e99a98abaf8a83784648d5614d52d90f255504e6da63ed7248",
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-3.jpg": "b75ca18d50abcf727de5218d5e2b80293d547cb4323e00742db56155bd05a792"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661388",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/640260331",
+          "product_number": "640260331",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/4a/a3/c4/1790623962/00_640260331_01a0e981.jpg?ts=1790623962",
+              "after": "https://www.minichamps.de/media/de/c7/2c/1790854521/00_640260331.jpg?ts=1790854521"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-minichamps-1661388-1.jpg"
+            ],
+            "moved": [
+              {
+                "from": 1,
+                "to": 2
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1661388-1.jpg": "6e7084cc25a3659a53dfffb1f7aa885a04c3ce56ea06ae4c601a43933eb58e1c"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-09-30T23:05:52.254245+00:00",
       "entries": [
         {
@@ -22031,15 +22105,11 @@
           "scale": "",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1661388-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1661388-1.jpg": "176c66f26b81a8576285f88d22e3fc941598120b2dca31397550ddd6b48ae11d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

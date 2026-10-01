@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-09-30T23:05:37.119446+00:00",
+  "updated_at": "2026-10-01T15:46:20.511532+00:00",
   "total": 680,
   "items": {
     "05be370d1c414c478cc76ddead21bef3": {
@@ -2349,6 +2349,7 @@
     "minichamps-019ef970b2d37258976dddf3dc33a82b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/8b/c8/f7/1790856049/00_537253181.jpg?ts=1790856049",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -3577,7 +3578,7 @@
     "minichamps-minichamps-1661388": {
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/640260331",
-      "image_url": "https://www.minichamps.de/media/4a/a3/c4/1790623962/00_640260331_01a0e981.jpg?ts=1790623962",
+      "image_url": "https://www.minichamps.de/media/de/c7/2c/1790854521/00_640260331.jpg?ts=1790854521",
       "product_number": "640260331",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -5937,17 +5938,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019a89196184700ca240fb91d6827be9",
-      "minichamps-019a8919f74570718a513af8f72e4e9d",
-      "minichamps-019ef970b2407212bdda29f3bd3534f7",
-      "minichamps-minichamps-1659915",
-      "minichamps-minichamps-1660025",
-      "minichamps-minichamps-1660033",
-      "minichamps-minichamps-1660038",
-      "minichamps-minichamps-1660047",
-      "minichamps-minichamps-1660064",
-      "minichamps-minichamps-1661381",
-      "minichamps-minichamps-1661383"
+      "minichamps-019ef970b2d37258976dddf3dc33a82b",
+      "minichamps-minichamps-1661388"
     ],
     "removed": []
   }
