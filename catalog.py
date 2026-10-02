@@ -326,21 +326,29 @@ def refresh_ids(items, products, changes):
     return sorted((changed | (set(items) - set(products)) | missing_search_images) & set(items))
 
 
+def year_from_title(name):
+    match = re.search(r"\b20\d{2}\b", name or "")
+    return match.group(0) if match else ""
+
+
 def build_product(product_id, listing):
     source = listing.get("source", "sparkmodel")
     if source == "minichamps":
         fields, scraped_properties, images = parse_minichamps_detail(monitor.minichamps_request(listing["url"]))
+        name = fields.get("name") or listing["name"]
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
         local_images = download_unique_images(images, product_id)
-        model_match = re.search(r"\b(?:W17|VF-26|AMR26|VCARB\s*03|MAC-26|A526|R26|RB22|FW48|MCL40)\b", fields.get("name", listing["name"]), re.I)
+        model_match = re.search(r"\b(?:W17|VF-26|AMR26|VCARB\s*03|MAC-26|A526|R26|RB22|FW48|MCL40)\b", name, re.I)
         properties = {"Year": listing.get("year", "2026"), "Product number": listing.get("product_number", ""), "Scale": listing.get("scale", ""), **scraped_properties}
+        if title_year := year_from_title(name):
+            properties["Year"] = title_year
         if "Scale" in properties:
             properties["Scale"] = properties["Scale"].replace(":", "/")
         if model_match:
             properties["Model"] = model_match.group(0)
         return {
-            "id": product_id, "name": fields.get("name") or listing["name"], "url": listing["url"],
+            "id": product_id, "name": name, "url": listing["url"],
             "images": local_images, "properties": {key: value for key, value in properties.items() if value},
             "description": "", "brand": "Minichamps", "price": fields.get("price", ""), "currency": fields.get("currency", "EUR"), "gtin": "",
             "weight": "", "length": "", "availability": {"vorbestellbar": "Pre-order", "preorder": "Pre-order", "auf lager": "Available", "sofort lieferbar": "Available", "in stock": "Available", "sold out": "Sold out", "ausverkauft": "Sold out"}.get((scraped_properties.get("Availability") or listing.get("availability", "")).strip().lower(), scraped_properties.get("Availability") or listing.get("availability", "")),
@@ -356,12 +364,13 @@ def build_product(product_id, listing):
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
         local_images = download_unique_images(images, product_id)
+        name = monitor.clean_product_name(detail.get("name") or listing["name"])
         properties = {
             "Manufacturer": detail.get("manufacturer_name") or listing.get("manufacturer", ""),
             "Material": detail.get("material_name", ""),
             "Model": detail.get("model_fullname") or detail.get("model_name", ""),
             "Scale": (detail.get("scale", {}).get("name") or listing.get("scale", "")).replace(":", "/"),
-            "Year": str(detail.get("year") or listing.get("year", "")),
+            "Year": year_from_title(name) or str(detail.get("year") or listing.get("year", "")),
             "Product number": detail.get("code") or listing.get("product_number", ""),
             "Driver": detail.get("ranking_driver_names", ""),
             "Grand Prix": detail.get("ranking_competition_name", ""),
@@ -369,7 +378,7 @@ def build_product(product_id, listing):
         }
         return {
             "id": product_id,
-            "name": monitor.clean_product_name(detail.get("name") or listing["name"]),
+            "name": name,
             "url": listing["url"],
             "images": local_images,
             "properties": {key: value for key, value in properties.items() if value},
@@ -387,9 +396,10 @@ def build_product(product_id, listing):
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
         local_images = download_unique_images(images, product_id)
-        scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", fields.get("name") or listing["name"], re.I)
+        name = fields.get("name") or listing["name"]
+        scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", name, re.I)
         scale = listing.get("scale") or (f"1/{scale_match.group(1)}" if scale_match else "")
-        year = listing.get("year") or "2025"
+        year = year_from_title(name) or listing.get("year") or "2025"
         properties = {
             "Manufacturer": "Ferrari",
             "Model": "SF-26" if year == "2026" else "SF-25",
@@ -400,7 +410,7 @@ def build_product(product_id, listing):
         }
         return {
             "id": product_id,
-            "name": fields.get("name") or listing["name"],
+            "name": name,
             "url": listing["url"],
             "images": local_images,
             "properties": {key: value for key, value in properties.items() if value},
@@ -417,9 +427,12 @@ def build_product(product_id, listing):
     if not images and listing.get("image_url"):
         images = [listing["image_url"]]
     local_images = download_unique_images(images, product_id)
+    name = fields.get("name") or listing["name"]
+    if title_year := year_from_title(name):
+        properties["Year"] = title_year
     return {
         "id": product_id,
-        "name": fields.get("name") or listing["name"],
+        "name": name,
         "url": listing["url"],
         "images": local_images,
         "properties": properties,
