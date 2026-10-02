@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:08:47.062071+00:00",
+  "generated_at": "2026-10-02T16:35:09.823879+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -15229,6 +15229,27 @@
       "availability": "Catalogue"
     },
     {
+      "id": "spark-2026-37426fc9-1e7d-4861-9467-5a6b62771b39",
+      "name": "Cadillac Formula 1 Team MA26 British GP 2026\nSergio Perez",
+      "url": "https://www.sparkmodel.com/products/37426fc9-1e7d-4861-9467-5a6b62771b39",
+      "images": [
+        "images/spark-2026-37426fc9-1e7d-4861-9467-5a6b62771b39-1.webp"
+      ],
+      "properties": {
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S9334"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
       "id": "spark-2026-39314443-3c1e-478b-b7bd-fdb57ea03966",
       "name": "Red Bull Racing RB22 No.30 7th Dutch GP 2026\nLiam Lawson",
       "url": "https://www.sparkmodel.com/products/39314443-3c1e-478b-b7bd-fdb57ea03966",
@@ -17422,6 +17443,29 @@
         "Driver": "Isack Hadjar",
         "Grand Prix": "Chinese Grand Prix",
         "Result": "8th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-2026-cbf5048e-20f1-4d67-8e5a-1ca219c1b82e",
+      "name": "Cadillac Formula 1 Team MA26 British GP 2026\nValterri Bottas",
+      "url": "https://www.sparkmodel.com/products/cbf5048e-20f1-4d67-8e5a-1ca219c1b82e",
+      "images": [
+        "images/spark-2026-cbf5048e-20f1-4d67-8e5a-1ca219c1b82e-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Cadillac",
+        "Model": "MA26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S9335"
       },
       "description": "",
       "brand": "Spark",

@@ -1,6 +1,59 @@
 {
   "updates": [
     {
+      "date": "2026-10-02T16:35:09.823879+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "spark-2026-37426fc9-1e7d-4861-9467-5a6b62771b39",
+          "name": "Cadillac Formula 1 Team MA26 British GP 2026\nSergio Perez",
+          "url": "https://www.sparkmodel.com/products/37426fc9-1e7d-4861-9467-5a6b62771b39",
+          "product_number": "S9334",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-2026-37426fc9-1e7d-4861-9467-5a6b62771b39-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-37426fc9-1e7d-4861-9467-5a6b62771b39-1.webp": "eb7f3213a3a9cdae3289d0edf6d88e22956446f1e8b1477b7a9cf990dde2d29d"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-2026-cbf5048e-20f1-4d67-8e5a-1ca219c1b82e",
+          "name": "Cadillac Formula 1 Team MA26 British GP 2026\nValterri Bottas",
+          "url": "https://www.sparkmodel.com/products/cbf5048e-20f1-4d67-8e5a-1ca219c1b82e",
+          "product_number": "S9335",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-2026-cbf5048e-20f1-4d67-8e5a-1ca219c1b82e-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-cbf5048e-20f1-4d67-8e5a-1ca219c1b82e-1.webp": "2cbf0949e14ca94352b716a5cb866b718afd10a8decee05eb024a17fa728c0f2"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-02T16:08:47.062071+00:00",
       "entries": [
         {
@@ -12,7 +65,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -28,7 +83,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -44,7 +101,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -60,7 +119,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -76,7 +137,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -92,7 +155,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -108,7 +173,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -124,7 +191,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -140,7 +209,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -156,7 +227,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -172,7 +245,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -188,7 +263,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -204,7 +281,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -220,7 +299,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -236,7 +317,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -252,7 +335,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -268,7 +353,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -284,7 +371,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -300,7 +389,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -316,7 +407,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -332,7 +425,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -348,7 +443,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -364,7 +461,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -380,7 +479,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -396,7 +497,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -412,7 +515,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -428,7 +533,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -444,7 +551,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -460,7 +569,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -476,7 +587,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -492,7 +605,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -508,7 +623,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -524,7 +641,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -540,7 +659,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -556,7 +677,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -572,7 +695,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -588,7 +713,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -604,7 +731,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -620,7 +749,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -636,7 +767,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -652,7 +785,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -668,7 +803,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -684,7 +821,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -700,7 +839,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -716,7 +857,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -732,7 +875,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -748,7 +893,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -764,7 +911,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -780,7 +929,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -796,7 +947,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -812,7 +965,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -828,7 +983,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -844,7 +1001,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -860,7 +1019,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -876,7 +1037,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -892,7 +1055,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -908,7 +1073,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -924,7 +1091,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -940,7 +1109,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -956,7 +1127,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -972,7 +1145,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -988,7 +1163,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1004,7 +1181,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1020,7 +1199,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1036,7 +1217,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1052,7 +1235,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1068,7 +1253,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1084,7 +1271,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1100,7 +1289,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1116,7 +1307,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1132,7 +1325,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1148,7 +1343,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1164,7 +1361,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1180,7 +1379,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1196,7 +1397,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1212,7 +1415,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1228,7 +1433,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1244,7 +1451,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1260,7 +1469,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1276,7 +1487,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1292,7 +1505,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1308,7 +1523,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1324,7 +1541,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1340,7 +1559,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1356,7 +1577,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1372,7 +1595,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1388,7 +1613,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1404,7 +1631,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1420,7 +1649,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1436,7 +1667,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1452,7 +1685,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1468,7 +1703,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1484,7 +1721,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1500,7 +1739,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1516,7 +1757,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1532,7 +1775,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1548,7 +1793,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1564,7 +1811,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1580,7 +1829,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1596,7 +1847,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1612,7 +1865,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1628,7 +1883,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1644,7 +1901,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1660,7 +1919,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1676,7 +1937,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1692,7 +1955,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1708,7 +1973,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1724,7 +1991,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1740,7 +2009,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1756,7 +2027,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1772,7 +2045,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1788,7 +2063,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1804,7 +2081,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1820,7 +2099,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1836,7 +2117,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1852,7 +2135,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1868,7 +2153,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1884,7 +2171,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1900,7 +2189,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1916,7 +2207,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1932,7 +2225,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1948,7 +2243,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1964,7 +2261,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1980,7 +2279,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -1996,7 +2297,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2012,7 +2315,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2028,7 +2333,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2044,7 +2351,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2060,7 +2369,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2076,7 +2387,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2092,7 +2405,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2108,7 +2423,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2124,7 +2441,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2140,7 +2459,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2156,7 +2477,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2172,7 +2495,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2188,7 +2513,9 @@
           "scale": "1/12",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2204,7 +2531,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2220,7 +2549,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2236,7 +2567,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2252,7 +2585,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2268,7 +2603,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2284,7 +2621,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2300,7 +2639,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2316,7 +2657,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2332,7 +2675,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2348,7 +2693,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2364,7 +2711,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2380,7 +2729,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2396,7 +2747,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2412,7 +2765,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2428,7 +2783,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2444,7 +2801,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2460,7 +2819,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2476,7 +2837,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2492,7 +2855,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2508,7 +2873,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2524,7 +2891,9 @@
           "scale": "1/12",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2540,7 +2909,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2556,7 +2927,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2572,7 +2945,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2588,7 +2963,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2604,7 +2981,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2620,7 +2999,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2636,7 +3017,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2652,7 +3035,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2668,7 +3053,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2684,7 +3071,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2700,7 +3089,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2716,7 +3107,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2732,7 +3125,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2748,7 +3143,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2764,7 +3161,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2780,7 +3179,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2796,7 +3197,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2812,7 +3215,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2828,7 +3233,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2844,7 +3251,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2860,7 +3269,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2876,7 +3287,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2892,7 +3305,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2908,7 +3323,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2924,7 +3341,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2940,7 +3359,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2956,7 +3377,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2972,7 +3395,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -2988,7 +3413,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3004,7 +3431,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3020,7 +3449,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3036,7 +3467,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3052,7 +3485,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3068,7 +3503,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3084,7 +3521,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3100,7 +3539,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3116,7 +3557,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3132,7 +3575,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3148,7 +3593,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3164,7 +3611,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3180,7 +3629,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3196,7 +3647,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3212,7 +3665,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3228,7 +3683,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3244,7 +3701,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3260,7 +3719,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3276,7 +3737,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3292,7 +3755,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3308,7 +3773,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3324,7 +3791,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3340,7 +3809,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3356,7 +3827,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3372,7 +3845,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3388,7 +3863,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -3404,7 +3881,9 @@
           "scale": "1/5",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
