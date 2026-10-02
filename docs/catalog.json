@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:36:07.482947+00:00",
+  "generated_at": "2026-10-02T12:02:53.464931+00:00",
   "products": [
     {
       "id": "05be370d1c414c478cc76ddead21bef3",
@@ -9812,6 +9812,56 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-417261423",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/417261423",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417261423",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "RESIN",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417261455",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - CARLOS SAINZ - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-CARLOS-SAINZ-SPANISH-GP-2026/417261455",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417261455",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "RESIN",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-530267404",
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267404",
@@ -9980,6 +10030,56 @@
       "description": "",
       "brand": "Minichamps",
       "price": "99.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640261423",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/640261423",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640261423",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "DIECAST",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640261455",
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - CARLOS SAINZ - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-CARLOS-SAINZ-SPANISH-GP-2026/640261455",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640261455",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "DIECAST",
+        "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",

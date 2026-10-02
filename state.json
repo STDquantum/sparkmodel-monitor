@@ -33,8 +33,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-01T20:35:56.719115+00:00",
-  "total": 680,
+  "updated_at": "2026-10-02T12:02:48.405826+00:00",
+  "total": 684,
   "items": {
     "05be370d1c414c478cc76ddead21bef3": {
       "name": "BWT Alpine Formula One Team A526 No.10 Italian GP 2026 First Pole Position Pierre Gasly",
@@ -2858,6 +2858,24 @@
       "year": "2025",
       "availability": "Pre-order"
     },
+    "minichamps-417261423": {
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/417261423",
+      "product_number": "417261423",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417261455": {
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - CARLOS SAINZ - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-CARLOS-SAINZ-SPANISH-GP-2026/417261455",
+      "product_number": "417261455",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-530267404": {
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267404",
@@ -2916,6 +2934,24 @@
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-ZANDVOORT-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/537265404",
       "product_number": "537265404",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640261423": {
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/640261423",
+      "product_number": "640261423",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640261455": {
+      "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - CARLOS SAINZ - SPANISH GP 2026",
+      "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-CARLOS-SAINZ-SPANISH-GP-2026/640261455",
+      "product_number": "640261455",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -5938,13 +5974,13 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "minichamps-019ef970b2d37258976dddf3dc33a82b",
-      "minichamps-minichamps-1660044",
-      "minichamps-minichamps-1660046",
-      "minichamps-minichamps-1661388"
+    "added": [
+      "minichamps-417261423",
+      "minichamps-417261455",
+      "minichamps-640261423",
+      "minichamps-640261455"
     ],
+    "changed": [],
     "removed": []
   }
 }

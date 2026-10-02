@@ -1,6 +1,91 @@
 {
   "updates": [
     {
+      "date": "2026-10-02T12:02:53.464931+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-417261423",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
+          "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/417261423",
+          "product_number": "417261423",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261455",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - CARLOS SAINZ - SPANISH GP 2026",
+          "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-CARLOS-SAINZ-SPANISH-GP-2026/417261455",
+          "product_number": "417261455",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261423",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
+          "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/640261423",
+          "product_number": "640261423",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261455",
+          "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - CARLOS SAINZ - SPANISH GP 2026",
+          "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-CARLOS-SAINZ-SPANISH-GP-2026/640261455",
+          "product_number": "640261455",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-01T20:36:07.482947+00:00",
       "entries": [
         {
