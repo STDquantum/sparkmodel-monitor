@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:52:01.801658+00:00",
+  "generated_at": "2026-10-02T21:30:32.671357+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -2894,15 +2894,15 @@
       "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019a8919b6bb700fbb7d9976f3bd7b77?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a8919b6bb700fbb7d9976f3bd7b77-2.jpg",
-        "images/minichamps-019a8919b6bb700fbb7d9976f3bd7b77-1.jpg"
+        "images/minichamps-019a8919b6bb700fbb7d9976f3bd7b77-1.jpg",
+        "images/minichamps-019a8919b6bb700fbb7d9976f3bd7b77-2.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "BBR254544",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "in stock",
         "Brand": "FERRARI",
         "Driver": "HAMILTON, LEWIS",
         "Material": "RESIN",
@@ -2915,7 +2915,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a8919b88c718895a498d68bfea2b0",
