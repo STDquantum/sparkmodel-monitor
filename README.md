@@ -1,110 +1,105 @@
-# 车模商店
+# Formula 1 车模商品目录
 
-本项目采集 Formula 1 模型商品信息，记录商品状态，并在钉钉发送状态提醒。静态目录展示商品资料和本地图片，可通过 GitHub Pages 发布。
+基于 Python 标准库的 Formula 1 车模采集工具，提供商品检索、钉钉通知和静态目录。GitHub Actions 工作流配置 cron 与手动触发器，目录文件可用于 GitHub Pages。
 
-项目由 Python 标准库、GitHub Actions 和静态 HTML、CSS、JavaScript 组成。Python 脚本不需要第三方依赖。
+## 功能
 
-## 监控范围
+- 从 Spark、Looksmart 和 Minichamps 检索 Formula 1 车模商品。
+- 按商品 ID 汇总检索结果，记录条目、封面图片链接和 Availability 字段。
+- 通过钉钉机器人发送 Markdown 状态通知。
+- 采集商品属性与图片，生成 JSON 数据和静态网页。
+- 浏览商品条目与图片记录，并在目录页面搜索、筛选、排序和查看商品图片。
 
-程序从以下商品检索页采集列表，并沿用各站点的分页结果：
+## 商品检索范围
 
-| 来源 | 查询范围 |
+| 来源 | 检索范围 |
 | --- | --- |
-| Spark 官网 | 9 个 2025 赛季车型关键词，以及 10 个 2026 赛季车型关键词：VF26、MAC26、FW48、AMR26、A526、W17、R26、MCL40、VCARB03、RB22 |
-| Looksmart | Ferrari SF-25 和 SF-26 检索结果 |
-| Minichamps | 2025 年 Formula 1 分类检索，以及 10 个 2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40 |
+| Spark | 2025 车型关键词：C45、A525、FW47、MCL39、W16、RB21、VF-25、VCARB 02、AMR25；2026 车型关键词：VF26、MAC26、FW48、AMR26、A526、W17、R26、MCL40、VCARB03、RB22 |
+| Looksmart | SF-25、SF-26 搜索结果 |
+| Minichamps | 2025 Formula 1 分类；2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40 |
 
-Spark 官网的 2025 搜索保持不变；2026 搜索使用车型关键词发起查询，但只根据标题中的 `2026` 和比例是否为 `1:5` 过滤，不校验标题是否含车型关键词，也不附加年份、头盔或车模筛选。官网搜索取代原有 Spark Model Shop 搜索。Looksmart 保留原有 SF-25 检索，并新增 SF-26 检索；SF-26 只按标题年份和 `1:5` 比例过滤。相同商品以商品 ID 合并。
-
-每次采集会记录商品 ID、名称、商品链接、封面图片地址、Availability 和来源。程序以商品 ID 识别商品，并检查商品是否仍出现在检索结果中，同时比较封面图片地址与 Availability。
+各来源采用其检索页分页结果。Spark 的 2026 条目要求标题包含 `2026`，并排除 `1:5` 比例；Minichamps 与 Looksmart 的车型筛选规则定义于 `monitor.py`。
 
 ## 处理流程
 
-1. `monitor.py` 请求各商品检索页，解析分页结果并汇总商品列表。
-2. 程序读取 `state.json` 中上一轮的商品记录，比较商品收录状态、封面地址和 Availability。
-3. 有可通知的状态时，程序向钉钉发送 Markdown 消息，并将本轮商品记录和状态写入 `state.json`。
-4. GitHub Actions 将 `state.json` 加入暂存区；存在可提交内容时运行 `catalog.py`，采集相关商品详情和图片，并写入静态目录数据。
-5. 随后 `updates.py` 读取 Git 提交中的目录资料，生成按时间排列的商品与图片记录。
-6. 工作流将 `state.json` 和 `docs/` 提交至仓库默认分支。
+1. `monitor.py` 请求商品检索页、读取分页并整理商品列表。
+2. 程序按商品 ID 汇总各来源条目，将商品名称、链接、封面图片地址、Availability 和来源信息写入 `state.json`。
+3. 钉钉通知涵盖商品 ID 收录状态、封面链接与 Availability；`monitor.py` 按通知规则输出 Markdown 消息。
+4. `catalog.py` 采集商品详情与图片，生成目录 JSON 和本地图片文件；自动化配置包含此脚本步骤。
+5. `updates.py` 生成商品与图片信息数据，相关页面文件位于 `docs/`。
+6. `.github/workflows/monitor.yml` 配置 `state.json` 与 `docs/` 的 Git 提交；GitHub Pages 使用 `docs/` 提供静态目录。
 
-首次运行会建立商品记录，并发送监控启动消息。之后，商品收录状态、封面地址或 Availability 与记录不一致时会发送提醒；没有可通知状态时不发送商品提醒。消息包含商品名称、商品链接、货号、比例及对应状态。每个提醒类别最多列出 20 件商品。
+钉钉消息包含商品名称、商品链接、货号、比例和状态信息。每类消息至多列出 20 件商品。
 
 ## 静态商品目录
 
-`docs/index.html` 展示 `docs/catalog.json` 中的商品。商品卡片包含名称、图片、比例、年份、货号和 Availability；“商品详情”区域可查看其余商品属性及描述。商品名称链接指向来源站点。
+`docs/index.html` 使用 `docs/catalog.json` 展示商品。商品卡片呈现名称、图片、比例、年份、货号与 Availability；商品详情区域呈现其余属性和描述。商品名称链接指向来源站点。
 
-目录提供以下搜索、筛选和排序项：
+目录支持以下操作：
 
-- 关键词：搜索商品记录中的文字，例如商品名称、车型、年份或车手。
-- 年份、车队、厂商、比例和 Availability。
-- 大奖赛：先选择年份，再从该年度赛历中选择名称；选项可显示比赛日期。无法归入已识别大奖赛的商品列为 `OTHERS`。
-- 样品：Minichamps 商品有至少一张图片时归类为“有样品”；其他商品图片超过一张时归类为“有样品”。
-- 排序：默认顺序、大奖赛、车队、货号、比例、Availability 及样品数量；箭头控制升序或降序。
-- 清除筛选：恢复所有搜索和筛选条件。
+- 关键词搜索：商品名称、车型、年份、车手及商品数据中的其他文本。
+- 按年份、车队、厂商、大奖赛、比例、Availability 和样品筛选。
+- 按大奖赛、车队、货号、比例、Availability 和样品数量排序，并选择升序或降序。
+- 清除筛选与排序条件。
+- 浏览商品图片、切换图片、选择缩略图、滚轮缩放和拖动图片；双击图片切换 1 倍与 2 倍缩放。
 
-比例筛选按模型尺寸排列，例如 `1/64`、`1/43`、`1/18`、`1/12`、`1/5`。页面记住浏览器本地存储中的搜索、筛选和排序条件。
+大奖赛筛选条件由赛季年份和赛事名称组成。无法匹配赛事规则的商品归入 `OTHERS`。样品筛选以商品图片数量和来源类型为依据。搜索、筛选与排序设置存储于浏览器本地存储。
 
-点击商品图片可打开图片浏览层。浏览层支持商品图片切换、商品切换、缩略图选择、滚轮缩放和拖动；双击图片可在 1 倍和 2 倍缩放间切换。键盘左右方向键切换图片，`Esc` 关闭浏览层。“定位商品”关闭浏览层并滚动到对应商品卡片。移动设备可在主图上左右滑动切换图片。
+`docs/updates.html` 展示商品条目与图片记录；记录可链接至目录中的对应商品。`catalog.py` 把商品图片保存至 `docs/images/`，网页引用仓库内的图片文件。
 
-商品图片由 `catalog.py` 保存到 `docs/images/`，页面引用仓库中的本地副本。商品目录顶部显示数据生成时间，右上角入口打开按时间排列的商品及图片记录页。
-
-## 文件与数据
+## 文件结构
 
 | 路径 | 用途 |
 | --- | --- |
-| `monitor.py` | 请求商品检索页、汇总列表、比较商品状态并发送钉钉消息 |
+| `monitor.py` | 请求检索页、汇总商品列表并发送钉钉消息 |
 | `catalog.py` | 采集商品详情、下载图片、整理目录数据并清理未引用图片 |
-| `updates.py` | 对照 Git 提交中的目录，生成商品和图片记录 |
-| `state.json` | 商品列表快照、数据来源地址、采集时间及状态记录 |
-| `docs/index.html` | 商品目录页面及交互逻辑 |
-| `docs/catalog.json` | 静态目录使用的商品数据 |
-| `docs/catalog.js` | 将商品数据提供给页面脚本，也可用于本地文件预览 |
-| `docs/images/` | 商品图片的本地副本 |
-| `docs/updates.html` | 商品与图片记录页面 |
-| `docs/updates.json` | 记录页使用的数据 |
-| `docs/updates.js` | 记录数据的脚本格式，供本地文件预览使用 |
-| `.github/workflows/monitor.yml` | GitHub Actions 定时任务与手动任务配置 |
-| `serve_docs_410.bat` | Windows 本地预览启动脚本，监听 `127.0.0.1:410` |
+| `updates.py` | 生成商品与图片记录数据 |
+| `state.json` | 商品 ID、来源地址与商品状态记录 |
+| `docs/index.html` | 商品目录页面与交互逻辑 |
+| `docs/catalog.json` | 商品目录数据 |
+| `docs/catalog.js` | 商品数据脚本，支持本地文件预览 |
+| `docs/images/` | 商品图片文件 |
+| `docs/updates.html` | 商品与图片信息页面 |
+| `docs/updates.json` | 商品与图片信息数据 |
+| `docs/updates.js` | 信息数据脚本，支持本地文件预览 |
+| `.github/workflows/monitor.yml` | GitHub Actions 自动化配置 |
+| `serve_docs_410.bat` | Windows 本地 HTTP 预览入口，监听 `127.0.0.1:410` |
 
-`catalog.json` 顶层包含 `generated_at` 和 `products`。每件商品记录含有 `id`、`name`、`url`、`images`、`properties`、`description`、`brand`、价格、重量、尺寸及 Availability 等字段；具体字段取决于商品来源。
+`catalog.json` 包含商品数组 `products`。商品记录包含 `id`、`name`、`url`、`images`、`properties`、`description`、`brand`、价格、重量、尺寸和 Availability 等字段；字段内容依来源而定。
 
 ## 运行环境
 
 - Python 3.12 或兼容版本。
-- Git，用于运行 `updates.py` 和 GitHub Actions 自动提交。
-- 网络连接，用于访问商品来源站点、下载商品图片及调用钉钉 Webhook。
+- Git，用于运行 `updates.py` 和 GitHub Actions 提交。
+- 网络访问，用于商品检索、图片下载和钉钉 Webhook 请求。
 
-Python 脚本仅使用标准库。静态页面不需要 Node.js、数据库或服务器端运行环境。
+Python 脚本只使用标准库。静态页面不依赖 Node.js、数据库或服务端框架。
 
 ## GitHub Actions 配置
 
-将 `sparkmodel-monitor` 目录的全部内容放到 GitHub 仓库根目录，`.github/workflows/monitor.yml` 也需一并提交。
+把本目录内容置于 GitHub 仓库根目录，并提交 `.github/workflows/monitor.yml`。
 
-在仓库 `Settings` → `Secrets and variables` → `Actions` 中设置：
+在仓库 `Settings` → `Secrets and variables` → `Actions` 配置：
 
 | 名称 | 类型 | 用途 |
 | --- | --- | --- |
 | `DINGTALK_WEBHOOK` | Secret | 钉钉自定义机器人的完整 HTTPS Webhook 地址 |
-| `DINGTALK_KEYWORD` | Variable，可选 | 机器人要求的自定义关键词；未设置时程序使用 `成绩` |
+| `DINGTALK_KEYWORD` | Variable，可选 | 机器人配置的自定义关键词；默认值为 `成绩` |
 
-工作流名称为 `Monitor Spark Models`，可从 `Actions` 页面手动运行。定时表达式 `*/10 * * * *` 表示每小时的第 0、10、20、30、40、50 分钟触发。GitHub 定时任务的实际开始时间可能晚于计划时间。单次任务最长运行 30 分钟，同一工作流任务按队列顺序执行，不会相互取消。
+工作流名称为 `Monitor Spark Models`。触发配置包含 cron 表达式 `*/10 * * * *` 和手动运行入口。单个任务的运行上限为 30 分钟，任务具有仓库内容写入权限（`contents: write`）。仓库分支保护规则适用于工作流提交。
 
-工作流需要仓库内容写入权限，配置为 `contents: write`。若默认分支的保护规则要求审查或限制写入，GitHub Actions 需要符合对应规则才能推送提交。
+## GitHub Pages 配置
 
-## GitHub Pages 发布
+在仓库 `Settings` → `Pages` 中设置：
 
-在仓库 `Settings` → `Pages` 中配置：
-
-1. Source 选择 `Deploy from a branch`。
-2. Branch 选择包含项目文件的默认分支。
-3. Folder 选择 `/docs`。
-4. 保存后，使用 GitHub Pages 页面提供的站点地址浏览目录。
-
-工作流将目录文件提交至该分支后，GitHub Pages 使用 `/docs` 中的 HTML、JSON、JavaScript 和图片提供静态页面。
+1. Source：`Deploy from a branch`。
+2. Branch：包含项目文件的默认分支。
+3. Folder：`/docs`。
+4. 保存设置，使用 GitHub Pages 显示的站点地址浏览目录。
 
 ## 本地运行与预览
 
-在 PowerShell 中进入 `sparkmodel-monitor` 目录，设置钉钉 Webhook 后运行监控：
+在 PowerShell 中进入 `sparkmodel-monitor` 目录，设置钉钉 Webhook 并运行监控脚本：
 
 ```powershell
 $env:DINGTALK_WEBHOOK='钉钉机器人的完整 HTTPS 地址'
@@ -112,28 +107,26 @@ $env:DINGTALK_KEYWORD='机器人设置的关键词'
 python monitor.py
 ```
 
-`DINGTALK_KEYWORD` 为可选环境变量。如果机器人没有配置自定义关键词，可以省略。
+`DINGTALK_KEYWORD` 为可选环境变量。`catalog.py` 使用 `state.json` 中的商品 ID 获取商品详情和图片。`updates.py` 需要 Git 仓库及有效的 `HEAD` 提交，并读取其中的目录资料。
 
-`catalog.py` 读取 `state.json` 中本轮标记的商品 ID，并据此采集相关商品详情和图片。目录缺少某件已收录商品时，脚本也会采集该商品。`updates.py` 需要 Git 仓库和有效的 `HEAD` 提交，用于读取仓库提交中的目录记录。
-
-使用以下命令在本机启动静态页面：
+使用 Python 提供静态页面：
 
 ```powershell
 python -m http.server 8000 --directory docs
 ```
 
-浏览器访问 `http://localhost:8000/`。Windows 用户也可运行 `serve_docs_410.bat`，再访问 `http://127.0.0.1:410/`。HTTP 服务用于提供页面和 JSON 文件；直接打开 HTML 文件时，部分浏览器会限制 JSON 读取。
+浏览器访问 `http://localhost:8000/`。Windows 用户也可运行 `serve_docs_410.bat`，访问 `http://127.0.0.1:410/`。部分浏览器限制本地文件读取 JSON；HTTP 服务可提供页面和 JSON 文件。
 
 ## 配置与安全
 
-商品关键词和来源检索地址定义在 `monitor.py` 的常量中。`catalog.py` 会校验 `state.json` 中保存的来源地址是否对应脚本配置；两者不符时会停止目录处理，避免混用不同检索配置的数据。
+商品关键词和检索地址定义于 `monitor.py`。目录处理包含来源地址验证：`state.json` 中的地址须与脚本配置一致。
 
-钉钉 Webhook 通过 `DINGTALK_WEBHOOK` 环境变量或 GitHub Actions Secret 提供。程序要求其使用 HTTPS，主机名属于 `dingtalk.com`。不要将 Webhook 或访问凭证写入代码、README、`state.json` 或 Git 提交。
+钉钉 Webhook 通过 `DINGTALK_WEBHOOK` 环境变量或 GitHub Actions Secret 提供。程序要求 HTTPS 地址，主机名属于 `dingtalk.com`。请勿把 Webhook 或访问凭证写入代码、README、`state.json` 或 Git 提交。
 
 ## 常见问题
 
-- **没有收到钉钉消息**：检查 `DINGTALK_WEBHOOK` 是否为有效的 HTTPS 钉钉地址，以及 GitHub Secret 是否正确设置；机器人启用关键词校验时，检查 `DINGTALK_KEYWORD` 是否与机器人设置一致。
-- **Actions 无法提交**：检查工作流的仓库内容写入权限和默认分支保护规则。
-- **页面没有商品或图片**：检查 `docs/catalog.json`、`docs/catalog.js` 和 `docs/images/` 是否存在，并通过本地 HTTP 服务或已发布的 Pages 地址访问页面。
-- **目录脚本提示来源地址不匹配**：检查 `monitor.py` 中的检索配置和 `state.json` 中保存的 `sources` 是否对应。`state.json` 是监控基线文件，手动移除该文件或覆盖其中内容会影响后续的状态比较。
-- **记录页图片无法显示**：记录页读取仓库中的图片副本；已不在 `docs/images/` 中的旧图片不再有可用文件，记录数据仍保留对应图片数量信息。
+- **没有钉钉消息**：检查 `DINGTALK_WEBHOOK` 的 HTTPS 地址和 GitHub Secret，以及 `DINGTALK_KEYWORD` 与机器人配置的一致性。
+- **Actions 无法提交**：检查仓库内容写入权限和默认分支保护规则。
+- **目录未显示商品或图片**：检查 `docs/catalog.json`、`docs/catalog.js` 和 `docs/images/`，并通过本地 HTTP 服务或 GitHub Pages 访问。
+- **目录脚本提示来源地址不匹配**：核对 `monitor.py` 的检索配置与 `state.json` 中的 `sources`。
+- **记录页图片无法显示**：记录页引用 `docs/images/` 中的图片文件；对应图片文件缺失导致图片无法显示。
