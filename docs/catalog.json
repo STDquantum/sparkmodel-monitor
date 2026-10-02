@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:53:30.344576+00:00",
+  "generated_at": "2026-10-02T17:52:01.801658+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -1601,16 +1601,16 @@
       "name": "ASTON MARTIN ARAMCO FORMULA ONE TEAM AMR25 - FERNANDO ALONSO - CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919498172a386a30213524241bc?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919498172a386a30213524241bc-1.jpg",
         "images/minichamps-019a8919498172a386a30213524241bc-2.jpg",
-        "images/minichamps-019a8919498172a386a30213524241bc-3.jpg",
-        "images/minichamps-019a8919498172a386a30213524241bc-1.jpg"
+        "images/minichamps-019a8919498172a386a30213524241bc-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "417250214",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "in stock",
         "Brand": "ASTON MARTIN",
         "Driver": "ALONSO, FERNANDO",
         "Material": "RESIN",
@@ -1623,23 +1623,23 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a89194ba672b5b6a2d9fc78daafc4",
       "name": "ASTON MARTIN ARAMCO FORMULA ONE TEAM AMR25 - LANCE STROLL - CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a89194ba672b5b6a2d9fc78daafc4?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a89194ba672b5b6a2d9fc78daafc4-1.jpg",
         "images/minichamps-019a89194ba672b5b6a2d9fc78daafc4-2.jpg",
-        "images/minichamps-019a89194ba672b5b6a2d9fc78daafc4-3.jpg",
-        "images/minichamps-019a89194ba672b5b6a2d9fc78daafc4-1.jpg"
+        "images/minichamps-019a89194ba672b5b6a2d9fc78daafc4-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "417250218",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "in stock",
         "Brand": "ASTON MARTIN",
         "Driver": "STROLL, LANCE",
         "Material": "RESIN",
@@ -1652,7 +1652,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a89194dee71ada73591d7c0131232",

@@ -1,6 +1,99 @@
 {
   "updates": [
     {
+      "date": "2026-10-02T17:52:01.801658+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919498172a386a30213524241bc",
+          "name": "ASTON MARTIN ARAMCO FORMULA ONE TEAM AMR25 - FERNANDO ALONSO - CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919498172a386a30213524241bc?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417250214",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Sold out",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "sold out",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a89194ba672b5b6a2d9fc78daafc4",
+          "name": "ASTON MARTIN ARAMCO FORMULA ONE TEAM AMR25 - LANCE STROLL - CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89194ba672b5b6a2d9fc78daafc4?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417250218",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Sold out",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "sold out",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-02T16:35:09.823879+00:00",
       "entries": [
         {
