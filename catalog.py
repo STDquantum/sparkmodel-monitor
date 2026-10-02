@@ -318,7 +318,7 @@ def refresh_ids(items, products, changes):
     missing_search_images = {
         product_id
         for product_id, listing in items.items()
-        if listing.get("source", "sparkmodelshop") == "sparkmodelshop"
+        if listing.get("source") == "sparkmodel"
         and listing.get("image_url")
         and product_id in products
         and not products[product_id].get("images")
@@ -327,7 +327,7 @@ def refresh_ids(items, products, changes):
 
 
 def build_product(product_id, listing):
-    source = listing.get("source", "sparkmodelshop")
+    source = listing.get("source", "sparkmodel")
     if source == "minichamps":
         fields, scraped_properties, images = parse_minichamps_detail(monitor.minichamps_request(listing["url"]))
         if not images and listing.get("image_url"):
@@ -346,7 +346,7 @@ def build_product(product_id, listing):
             "weight": "", "length": "", "availability": {"vorbestellbar": "Pre-order", "preorder": "Pre-order", "auf lager": "Available", "sofort lieferbar": "Available", "in stock": "Available", "sold out": "Sold out", "ausverkauft": "Sold out"}.get((scraped_properties.get("Availability") or listing.get("availability", "")).strip().lower(), scraped_properties.get("Availability") or listing.get("availability", "")),
         }
     if source == "sparkmodel":
-        source_id = listing.get("source_id") or product_id.removeprefix("spark-2025-")
+        source_id = listing.get("source_id") or product_id.removeprefix("spark-2026-").removeprefix("spark-2025-")
         detail = json.loads(monitor.request(f"{monitor.SPARK_API_URL}/{source_id}"))
         image_payload = json.loads(monitor.request(f"{monitor.SPARK_API_URL}/{source_id}/images?sort=position"))
         images = [
@@ -389,11 +389,12 @@ def build_product(product_id, listing):
         local_images = download_unique_images(images, product_id)
         scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", fields.get("name") or listing["name"], re.I)
         scale = listing.get("scale") or (f"1/{scale_match.group(1)}" if scale_match else "")
+        year = listing.get("year") or "2025"
         properties = {
             "Manufacturer": "Ferrari",
-            "Model": "SF-25",
+            "Model": "SF-26" if year == "2026" else "SF-25",
             "Scale": scale,
-            "Year": "2025",
+            "Year": year,
             "Product number": fields.get("sku") or listing.get("product_number", ""),
             "Color": fields.get("color", ""),
         }

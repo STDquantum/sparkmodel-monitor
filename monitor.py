@@ -16,10 +16,9 @@ from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlsplit, urlu
 from urllib.request import Request, urlopen
 from urllib.request import build_opener, HTTPCookieProcessor
 
-SEARCH_URL = "https://www.sparkmodelshop.com/de/en/search"
 SPARK_API_URL = "https://rapi.sparkmodel.com/products"
 SPARK_SITE_URL = "https://www.sparkmodel.com"
-LOOKSMART_SEARCH_URL = "https://looksmartmodels.com/?s=SF-25&post_type=product&dgwt_wcas=1"
+LOOKSMART_SEARCHES = ("SF-25", "SF-26")
 MINICHAMPS_BASE_URL = "https://www.minichamps.de/"
 MINICHAMPS_URL = "https://www.minichamps.de/en/search"
 MINICHAMPS_WIDGET_URL = "https://www.minichamps.de/en/widgets/search"
@@ -30,19 +29,6 @@ MINICHAMPS_MODEL_PATTERNS = {
     "VCARB 03": r"\bVCARB\s*03\b", "MAC-26": r"\bMAC-26\b", "A526": r"\bA526\b",
     "Audi R26": r"\bR26\b", "RB22": r"\bRB22\b", "FW48": r"\bFW48\b", "MCL40": r"\bMCL40\b",
 }
-TEAM_SEARCHES = (
-    "BWT Alpine Formula One Team",
-    "Aston Martin Aramco Formula One Team",
-    "Audi Revolut F1 Team",
-    "Cadillac Formula",
-    "Ferrari",
-    "Haas F1 Team",
-    "McLaren Mastercard",
-    "Mercedes AMG Petronas",
-    "Visa Cash App Racing Bulls",
-    "Oracle Red Bull Racing",
-    "Atlassian Williams",
-)
 SPARK_2025_SEARCHES = (
     "C45",
     "A525",
@@ -54,9 +40,21 @@ SPARK_2025_SEARCHES = (
     "VCARB 02",
     "AMR25",
 )
+SPARK_2026_SEARCHES = (
+    "VF26",
+    "MAC26",
+    "FW48",
+    "AMR26",
+    "A526",
+    "W17",
+    "R26",
+    "MCL40",
+    "VCARB03",
+    "RB22",
+)
 STATE_FILE = Path(__file__).with_name("state.json")
 CATALOG_FILE = Path(__file__).with_name("docs") / "catalog.json"
-USER_AGENT = "sparkmodel-shop-change-monitor/1.0 (+GitHub Actions)"
+USER_AGENT = "sparkmodel-monitor/1.0 (+GitHub Actions)"
 _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
 _MINICHAMPS_LOCK = RLock()
 _MINICHAMPS_SESSION_READY = False
@@ -66,20 +64,28 @@ _REQUEST_MAX_RETRIES = 5
 _REQUEST_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
 
 
-def search_url(search):
-    return f"{SEARCH_URL}?{urlencode({'search': search})}"
-
-
-def spark_2025_url(search, page=1):
-    filters = json.dumps(['year = "2025"'])
+def spark_url(search, page=1, year=None):
     params = {
         'q': search,
         'page_number': page,
         'page_size': 48,
-        'filters': filters,
-        'facets': '[]',
     }
+    if year is not None:
+        params['filters'] = json.dumps([f'year = "{year}"'])
+        params['facets'] = '[]'
     return f"{SPARK_API_URL}?{urlencode(params)}"
+
+
+def spark_2025_url(search, page=1):
+    return spark_url(search, page, year=2025)
+
+
+def spark_collection_url(search):
+    return f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48})}"
+
+
+def looksmart_search_url(search):
+    return f"https://looksmartmodels.com/?{urlencode({'s': search, 'post_type': 'product', 'dgwt_wcas': 1})}"
 
 
 def minichamps_search_params(search, page=1):
@@ -99,17 +105,12 @@ def minichamps_2025_url(page=1):
 
 
 SOURCE_URLS = (
-    *(search_url(search) for search in TEAM_SEARCHES),
     *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
-    LOOKSMART_SEARCH_URL,
+    *(spark_collection_url(search) for search in SPARK_2026_SEARCHES),
+    *(looksmart_search_url(search) for search in LOOKSMART_SEARCHES),
     *(minichamps_url(search) for search in MINICHAMPS_SEARCHES),
     minichamps_2025_url(),
 )
-
-
-def ferrari_match(name):
-    name = name.lower()
-    return "sf-26" in name or "scuderia ferrari hp" in name
 
 
 def availability_label(value):
@@ -153,67 +154,6 @@ def request(url, payload=None):
             file=sys.stderr,
         )
         time.sleep(delay)
-
-
-class ListingParser(HTMLParser):
-    def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.div_depth = 0
-        self.box_depth = None
-        self.current = None
-        self.items = []
-        self.delivery_depth = None
-        self.delivery_text = []
-
-    def handle_starttag(self, tag, attrs):
-        attributes = dict(attrs)
-        if tag == "div":
-            self.div_depth += 1
-            if self.current is None and "product-box" in attributes.get("class", ""):
-                try:
-                    self.current = json.loads(attributes["data-product-information"])
-                except (KeyError, json.JSONDecodeError) as error:
-                    raise RuntimeError("Unable to read product information") from error
-                self.box_depth = self.div_depth
-                self.delivery_depth = None
-                self.delivery_text = []
-        if self.current is None:
-            return
-        if tag == "a" and "product-name" in attributes.get("class", ""):
-            self.current["url"] = attributes.get("href", "")
-            self.current["name"] = attributes.get("title", self.current.get("name", ""))
-        elif tag == "img" and "product-image" in attributes.get("class", ""):
-            self.current["image_url"] = attributes.get("src", "")
-        elif tag == "div" and "product-detail-delivery-information" in attributes.get("class", ""):
-            self.delivery_depth = self.div_depth
-            self.delivery_text = []
-
-    def handle_data(self, data):
-        if self.delivery_depth is not None:
-            self.delivery_text.append(data)
-
-    def handle_endtag(self, tag):
-        if tag != "div":
-            return
-        if self.current is not None and self.delivery_depth == self.div_depth:
-            self.current["availability"] = " ".join("".join(self.delivery_text).split())
-            self.delivery_depth = None
-        self.div_depth -= 1
-        if self.current is not None and self.div_depth < self.box_depth:
-            product_id = self.current.get("id")
-            if not product_id or not self.current.get("url"):
-                raise RuntimeError(f"Incomplete product card: {product_id}")
-            item = {
-                "name": self.current.get("name", ""),
-                "url": self.current["url"],
-            } | {"product_id": product_id}
-            if self.current.get("image_url"):
-                item["image_url"] = self.current["image_url"]
-            if self.current.get("availability"):
-                item["availability"] = self.current["availability"]
-            self.items.append(item)
-            self.current = None
-            self.box_depth = None
 
 
 class MinichampsListingParser(HTMLParser):
@@ -387,59 +327,6 @@ def parse_looksmart_listing(html):
     return parser.items, parser.next_url
 
 
-def parse_listing(html):
-    total_match = next((re.search(pattern, html, re.I) for pattern in (
-        r"Showing\s+\d+\s+out\s+of\s+(\d+)\s+products",
-        r"(\d+)\s+products\s+found\s+for",
-        r"Showing\s+(\d+)\s+products",
-    ) if re.search(pattern, html, re.I)), None)
-    if total_match is None:
-        raise RuntimeError("Unable to read product total from listing")
-    parser = ListingParser()
-    parser.feed(html)
-    return parser.items, int(total_match.group(1))
-
-
-def page_url(url, page):
-    parts = urlsplit(url)
-    query = parse_qsl(parts.query)
-    found_page = False
-    for index, (key, value) in enumerate(query):
-        if key == "p":
-            query[index] = (key, str(page))
-            found_page = True
-    if not found_page and page > 1:
-        query.append(("p", str(page)))
-    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
-
-
-def fetch_search(search):
-    products = {}
-    total = None
-    seen = 0
-    for page in range(1, 1001):
-        rows, page_total = parse_listing(request(page_url(search_url(search), page)))
-        if total is None:
-            total = page_total
-        elif total != page_total:
-            raise RuntimeError(f"Product total changed while fetching {search}")
-        seen += len(rows)
-        for row in rows:
-            product_id = row.pop("product_id")
-            if "2026" not in row["name"]:
-                continue
-            if search == "Ferrari" and not ferrari_match(row["name"]):
-                continue
-            products[product_id] = row
-        if seen >= total:
-            if seen != total:
-                raise RuntimeError(f"Incomplete crawl for {search}: expected {total}, got {seen}")
-            return products
-        if not rows:
-            raise RuntimeError(f"Empty page before {search} was complete")
-    raise RuntimeError(f"Pagination exceeded 1000 pages for {search}")
-
-
 def spark_availability(value):
     return {
         "CATALOGUE": "Catalogue",
@@ -451,6 +338,14 @@ def spark_availability(value):
 
 def clean_product_name(value):
     return re.sub(r"^\s*cancel\s+", "", value or "", flags=re.I)
+
+
+def title_has_2026(name):
+    return bool(re.search(r"\b2026\b", name or ""))
+
+
+def is_scale_1_5(scale, name=""):
+    return bool(re.search(r"\b1\s*[:/]\s*5\b", f"{scale or ''} {name or ''}", re.I))
 
 
 def clean_minichamps_text(value):
@@ -485,9 +380,41 @@ def fetch_spark_2025(search):
     raise RuntimeError(f"Pagination exceeded 1000 pages for Spark {search}")
 
 
-def fetch_looksmart():
+def fetch_spark_2026(search):
     products = {}
-    url = LOOKSMART_SEARCH_URL
+    total_pages = 1
+    for page in range(1, 1001):
+        payload = json.loads(request(spark_url(search, page)))
+        meta = payload.get("meta", {})
+        total_pages = int(meta.get("total_pages") or 1)
+        for product in payload.get("data", []):
+            product_id = product.get("product_id")
+            if not product_id:
+                continue
+            name = clean_product_name(product.get("name", ""))
+            scale = (product.get("scale_name") or "").replace(":", "/")
+            if not title_has_2026(name) or is_scale_1_5(scale, name):
+                continue
+            products[f"spark-2026-{product_id}"] = {
+                "source": "sparkmodel",
+                "source_id": product_id,
+                "name": name,
+                "url": f"{SPARK_SITE_URL}/products/{product_id}",
+                "image_url": product.get("primary_image_url", ""),
+                "availability": spark_availability(product.get("webcatalogue_state")),
+                "product_number": product.get("code", ""),
+                "scale": scale,
+                "year": "2026",
+                "manufacturer": product.get("manufacturer_name", ""),
+            }
+        if page >= total_pages:
+            return products
+    raise RuntimeError(f"Pagination exceeded 1000 pages for Spark {search}")
+
+
+def fetch_looksmart(search):
+    products = {}
+    url = looksmart_search_url(search)
     seen_pages = set()
     for _ in range(100):
         if url in seen_pages:
@@ -496,10 +423,17 @@ def fetch_looksmart():
         rows, next_url = parse_looksmart_listing(request(url))
         for row in rows:
             product_id = row.pop("product_id")
+            if search == "SF-26":
+                if not title_has_2026(row.get("name", "")):
+                    continue
+                if is_scale_1_5(row.get("scale"), row.get("name")):
+                    continue
+                row["year"] = "2026"
             products[f"looksmart-{product_id}"] = row
         if not next_url:
             if not products:
-                raise RuntimeError("Looksmart SF-25 search returned no products")
+                qualifier = "matching " if search == "SF-26" else ""
+                raise RuntimeError(f"Looksmart {search} search returned no {qualifier}products")
             return products
         resolved_url = urljoin(url, next_url)
         parsed_url = urlsplit(resolved_url)
@@ -638,11 +572,12 @@ def fetch_all():
             flush=True,
         )
 
-    for search in TEAM_SEARCHES:
-        fetch_and_merge(f"Spark Model Shop · {search}", fetch_search, search)
     for search in SPARK_2025_SEARCHES:
         fetch_and_merge(f"Spark 2025 · {search}", fetch_spark_2025, search)
-    fetch_and_merge("Looksmart · SF-25", fetch_looksmart)
+    for search in SPARK_2026_SEARCHES:
+        fetch_and_merge(f"Spark 2026 · {search}", fetch_spark_2026, search)
+    for search in LOOKSMART_SEARCHES:
+        fetch_and_merge(f"Looksmart · {search}", fetch_looksmart, search)
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
         for search in MINICHAMPS_SEARCHES:
             fetch_and_merge(f"Minichamps 2026 · {search}", fetch_minichamps, search)
@@ -707,13 +642,17 @@ def with_metadata(items, metadata, fetch_missing=False):
             "scale": item.get("scale", ""),
         }
         if fetch_missing and index < 20 and (not details.get("product_number") or not details.get("scale")):
-            source = item.get("source", "sparkmodelshop")
+            source = item.get("source", "sparkmodel")
             if source == "minichamps":
                 from catalog import parse_minichamps_detail
                 _, properties, _ = parse_minichamps_detail(minichamps_request(item["url"]))
-            elif source == "sparkmodelshop":
-                from catalog import parse_detail
-                _, properties, _ = parse_detail(request(item["url"]))
+            elif source == "sparkmodel":
+                source_id = item.get("source_id") or item["product_id"].removeprefix("spark-2026-").removeprefix("spark-2025-")
+                detail = json.loads(request(f"{SPARK_API_URL}/{source_id}"))
+                properties = {
+                    "Product number": detail.get("code", ""),
+                    "Scale": detail.get("scale", {}).get("name", ""),
+                }
             else:
                 properties = {}
             details = {
@@ -744,11 +683,11 @@ def changed_line(item):
 def build_message(total, added, changed, removed, initial=False):
     keyword = os.getenv("DINGTALK_KEYWORD") or "成绩"
     if initial:
-        return f"### {keyword} Spark Model Shop 监控已启动\n\n已记录 Formula 1 商品，共 **{total}** 件。"
+        return f"### {keyword} Spark Model 监控已启动\n\n已记录 Formula 1 商品，共 **{total}** 件。"
     cover_changes = sum("image_url" in item["changes"] for item in changed)
     availability_changes = sum("availability" in item["changes"] for item in changed)
     sections = [
-        f"### {keyword} Spark Model Shop 变化提醒",
+        f"### {keyword} Spark Model 变化提醒",
         f"Formula 1 当前 **{total}** 件；新增 **{len(added)}**，封面变化 **{cover_changes}**，Availability 变化 **{availability_changes}**，下架 **{len(removed)}**。",
     ]
     for title, items, formatter in (("新增", added, line), ("字段变化", changed, changed_line), ("下架", removed, line)):
@@ -768,7 +707,7 @@ def send_dingtalk(markdown):
         raise RuntimeError("DINGTALK_WEBHOOK must be an HTTPS dingtalk.com URL")
     result = json.loads(request(webhook, {
         "msgtype": "markdown",
-        "markdown": {"title": "Spark Model Shop 变化提醒", "text": markdown},
+        "markdown": {"title": "Spark Model 变化提醒", "text": markdown},
     }))
     if result.get("errcode") != 0:
         raise RuntimeError(f"DingTalk rejected message: {result}")
