@@ -1,6 +1,150 @@
 {
   "updates": [
     {
+      "date": "2026-10-03T00:42:48.280153+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a89197b7a71748fb4e7f4db14e16f",
+          "name": "MONEYGRAM HAAS F1 TEAM VF-25 - ESTEBAN OCON - JAPAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89197b7a71748fb4e7f4db14e16f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117250331",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Sold out",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "sold out",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 5,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919a93d701e9f17e2f18fc0723d",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919a93d701e9f17e2f18fc0723d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537252504",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Sold out",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "sold out",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 6,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              },
+              {
+                "from": 5,
+                "to": 6
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef971dc9c71dd89ab87ec07a7e2ca?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537256281",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Sold out",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "sold out",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-02T21:30:32.671357+00:00",
       "entries": [
         {

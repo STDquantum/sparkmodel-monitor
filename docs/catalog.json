@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:30:32.671357+00:00",
+  "generated_at": "2026-10-03T00:42:48.280153+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -2251,18 +2251,18 @@
       "name": "MONEYGRAM HAAS F1 TEAM VF-25 - ESTEBAN OCON - JAPAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a89197b7a71748fb4e7f4db14e16f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-1.jpg",
         "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-2.jpg",
         "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-3.jpg",
         "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-4.jpg",
-        "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-5.jpg",
-        "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-1.jpg"
+        "images/minichamps-019a89197b7a71748fb4e7f4db14e16f-5.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "117250331",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "in stock",
         "Brand": "HAAS",
         "Driver": "OCON, ESTEBAN",
         "Material": "RESIN",
@@ -2275,7 +2275,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a89197cc9714b984c577f08521315",
@@ -2624,19 +2624,19 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919a93d701e9f17e2f18fc0723d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-1.jpg",
         "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-2.jpg",
         "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-3.jpg",
         "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-4.jpg",
         "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-5.jpg",
-        "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-6.jpg",
-        "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-1.jpg"
+        "images/minichamps-019a8919a93d701e9f17e2f18fc0723d-6.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "537252504",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "in stock",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "RESIN",
@@ -2649,7 +2649,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a8919aa52720db1d38c984d6611f9",
@@ -5233,7 +5233,7 @@
         "Product number": "537256281",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "in stock",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN",
@@ -5246,7 +5246,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef971dd44737d94c4b2802c43fb29",
