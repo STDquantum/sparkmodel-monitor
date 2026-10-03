@@ -58,10 +58,19 @@ USER_AGENT = "sparkmodel-monitor/1.0 (+GitHub Actions)"
 _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
 _MINICHAMPS_LOCK = RLock()
 _MINICHAMPS_SESSION_READY = False
-_MINICHAMPS_MAX_RETRIES = 5
+_MINICHAMPS_MAX_ATTEMPTS = 5
+_SOURCE_USER_AGENTS = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.8037.98 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.4258.53",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.8037.98 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.8037.97 Safari/537.36 Edg/154.0.4258.53",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.8037.97 Safari/537.36",
+)
 _MINICHAMPS_RETRYABLE_HTTP_CODES = {403, 429, 500, 502, 503, 504}
 _REQUEST_MAX_RETRIES = 5
 _REQUEST_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
+_SOURCE_MAX_ATTEMPTS = 5
+_SOURCE_RETRYABLE_HTTP_CODES = _REQUEST_RETRYABLE_HTTP_CODES | {403}
 
 
 def spark_url(search, page=1, year=None):
@@ -120,37 +129,50 @@ def availability_label(value):
     }.get(value, value)
 
 
-def request(url, payload=None):
+def request(url, payload=None, *, source_request=False, referer=None, accept=None):
     data = json.dumps(payload, ensure_ascii=False).encode() if payload is not None else None
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/json" if data else "text/html"}
     if data is not None:
-        headers["Content-Type"] = "application/json; charset=utf-8"
-    for attempt in range(_REQUEST_MAX_RETRIES + 1):
+        content_type = "application/json; charset=utf-8"
+    else:
+        content_type = None
+    max_attempts = _SOURCE_MAX_ATTEMPTS if source_request else _REQUEST_MAX_RETRIES + 1
+    retryable_http_codes = _SOURCE_RETRYABLE_HTTP_CODES if source_request else _REQUEST_RETRYABLE_HTTP_CODES
+    for attempt in range(1, max_attempts + 1):
         failure = None
+        headers = {
+            "User-Agent": _SOURCE_USER_AGENTS[(attempt - 1) % len(_SOURCE_USER_AGENTS)] if source_request else USER_AGENT,
+            "Accept": accept or ("application/json" if data else "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+        }
+        if source_request:
+            headers["Accept-Language"] = "en-GB,en;q=0.9,de;q=0.8"
+            if referer:
+                headers["Referer"] = referer
+        if content_type:
+            headers["Content-Type"] = content_type
         try:
             with urlopen(Request(url, data=data, headers=headers), timeout=45) as response:
                 return response.read().decode(response.headers.get_content_charset() or "utf-8")
         except HTTPError as error:
             failure = error
-            if error.code not in _REQUEST_RETRYABLE_HTTP_CODES or attempt >= _REQUEST_MAX_RETRIES:
-                print(f"Request giving up after {attempt + 1} attempt(s): {url} ({error})", file=sys.stderr)
+            if error.code not in retryable_http_codes or attempt >= max_attempts:
+                print(f"Request giving up after {attempt} attempt(s): {url} ({error})", file=sys.stderr)
                 raise
             retry_after = error.headers.get("Retry-After", "") if error.headers else ""
             try:
-                delay = min(float(retry_after), 60) if retry_after else min(2**attempt, 30)
+                delay = min(float(retry_after), 60) if retry_after else min(2 ** (attempt - 1), 30)
             except ValueError:
-                delay = min(2**attempt, 30)
+                delay = min(2 ** (attempt - 1), 30)
         except (URLError, TimeoutError, UnicodeDecodeError, IncompleteRead, ConnectionError) as error:
             failure = error
-            if attempt >= _REQUEST_MAX_RETRIES:
+            if attempt >= max_attempts:
                 raise RuntimeError(
-                    f"Request failed after {_REQUEST_MAX_RETRIES + 1} attempts for {url}: {error}"
+                    f"Request failed after {attempt} attempts for {url}: {error}"
                 ) from error
-            delay = min(2**attempt, 30)
+            delay = min(2 ** (attempt - 1), 30)
 
         print(
-            f"Request failed ({failure}); retry {attempt + 1}/{_REQUEST_MAX_RETRIES} "
-            f"in {delay:g}s: {url}",
+            f"Request failed ({failure}); next attempt {attempt + 1}/{max_attempts} "
+            f"in {delay:g}s{'; rotating User-Agent' if source_request else ''}: {url}",
             file=sys.stderr,
         )
         time.sleep(delay)
@@ -356,7 +378,12 @@ def fetch_spark_2025(search):
     products = {}
     total_pages = 1
     for page in range(1, 1001):
-        payload = json.loads(request(spark_2025_url(search, page)))
+        payload = json.loads(request(
+            spark_2025_url(search, page),
+            source_request=True,
+            referer=spark_collection_url(search),
+            accept="application/json",
+        ))
         meta = payload.get("meta", {})
         total_pages = int(meta.get("total_pages") or 1)
         for product in payload.get("data", []):
@@ -384,7 +411,12 @@ def fetch_spark_2026(search):
     products = {}
     total_pages = 1
     for page in range(1, 1001):
-        payload = json.loads(request(spark_url(search, page)))
+        payload = json.loads(request(
+            spark_url(search, page),
+            source_request=True,
+            referer=spark_collection_url(search),
+            accept="application/json",
+        ))
         meta = payload.get("meta", {})
         total_pages = int(meta.get("total_pages") or 1)
         for product in payload.get("data", []):
@@ -415,12 +447,13 @@ def fetch_spark_2026(search):
 def fetch_looksmart(search):
     products = {}
     url = looksmart_search_url(search)
+    referer = f"{urlsplit(url).scheme}://{urlsplit(url).netloc}/"
     seen_pages = set()
     for _ in range(100):
         if url in seen_pages:
             raise RuntimeError("Looksmart pagination loop detected")
         seen_pages.add(url)
-        rows, next_url = parse_looksmart_listing(request(url))
+        rows, next_url = parse_looksmart_listing(request(url, source_request=True, referer=referer))
         for row in rows:
             product_id = row.pop("product_id")
             if search == "SF-26":
@@ -438,47 +471,64 @@ def fetch_looksmart(search):
         resolved_url = urljoin(url, next_url)
         parsed_url = urlsplit(resolved_url)
         query = urlencode(parse_qsl(parsed_url.query, keep_blank_values=True))
+        referer = url
         url = urlunsplit((parsed_url.scheme, parsed_url.netloc, parsed_url.path, query, parsed_url.fragment))
     raise RuntimeError("Looksmart pagination exceeded 100 pages")
 
 
 def minichamps_request(url, *, ajax=False, referer=None):
     """Minichamps returns a same-path JS redirect on a new PHP session."""
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36", "Accept": "text/html,application/xhtml+xml"}
-    if ajax:
-        headers.update({"Accept": "text/html, */*;q=0.01", "X-Requested-With": "XMLHttpRequest", "Referer": referer or MINICHAMPS_URL})
+    def request_headers(attempt):
+        headers = {
+            "User-Agent": _SOURCE_USER_AGENTS[(attempt - 1) % len(_SOURCE_USER_AGENTS)],
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-GB,en;q=0.9,de;q=0.8",
+        }
+        if ajax:
+            headers.update({
+                "Accept": "text/html, */*;q=0.01",
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": referer or MINICHAMPS_URL,
+            })
+        return headers
 
-    def initialize_session(reset=False):
+    def reset_session():
         global _MINICHAMPS_OPENER, _MINICHAMPS_SESSION_READY
         with _MINICHAMPS_LOCK:
-            if reset:
-                _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
-                _MINICHAMPS_SESSION_READY = False
+            _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
+            _MINICHAMPS_SESSION_READY = False
+
+    def initialize_session(headers):
+        global _MINICHAMPS_SESSION_READY
+        with _MINICHAMPS_LOCK:
             if not _MINICHAMPS_SESSION_READY:
                 with _MINICHAMPS_OPENER.open(Request(MINICHAMPS_BASE_URL, headers=headers), timeout=45) as response:
                     response.read()
                 _MINICHAMPS_SESSION_READY = True
 
-    for retry in range(_MINICHAMPS_MAX_RETRIES + 1):
+    for attempt in range(1, _MINICHAMPS_MAX_ATTEMPTS + 1):
+        headers = request_headers(attempt)
         try:
-            initialize_session()
+            initialize_session(headers)
             for session_attempt in range(2):
                 with _MINICHAMPS_OPENER.open(Request(url, headers=headers), timeout=45) as response:
                     html = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
                 if len(html) > 1000 or not re.search(r"^\s*<script>\s*window\.location\.href=['\"]", html, re.I):
                     return html
                 if session_attempt == 0:
-                    initialize_session(reset=True)
+                    reset_session()
+                    initialize_session(headers)
             raise RuntimeError("Minichamps returned its PHP-session redirect instead of page HTML")
         except (HTTPError, URLError, TimeoutError, IncompleteRead) as error:
             if isinstance(error, HTTPError) and error.code not in _MINICHAMPS_RETRYABLE_HTTP_CODES:
                 raise
-            if retry >= _MINICHAMPS_MAX_RETRIES:
+            if attempt >= _MINICHAMPS_MAX_ATTEMPTS:
                 raise
-            delay = 2 ** retry
-            initialize_session(reset=True)
+            delay = 2 ** (attempt - 1)
+            reset_session()
             print(
-                f"Minichamps request failed ({error}); retry {retry + 1}/{_MINICHAMPS_MAX_RETRIES} in {delay}s",
+                f"Minichamps request failed ({error}); next attempt {attempt + 1}/{_MINICHAMPS_MAX_ATTEMPTS} "
+                f"in {delay}s with a different User-Agent",
                 file=sys.stderr,
             )
             time.sleep(delay)
@@ -648,7 +698,12 @@ def with_metadata(items, metadata, fetch_missing=False):
                 _, properties, _ = parse_minichamps_detail(minichamps_request(item["url"]))
             elif source == "sparkmodel":
                 source_id = item.get("source_id") or item["product_id"].removeprefix("spark-2026-").removeprefix("spark-2025-")
-                detail = json.loads(request(f"{SPARK_API_URL}/{source_id}"))
+                detail = json.loads(request(
+                    f"{SPARK_API_URL}/{source_id}",
+                    source_request=True,
+                    referer=item.get("url") or SPARK_SITE_URL,
+                    accept="application/json",
+                ))
                 properties = {
                     "Product number": detail.get("code", ""),
                     "Scale": detail.get("scale", {}).get("name", ""),
