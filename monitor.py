@@ -374,6 +374,10 @@ def clean_minichamps_text(value):
     return (value or "").replace("\ufffdC", "–").replace("\x96", "–").replace("\ufffd", "–").strip()
 
 
+def normalized_model_code(value):
+    return re.sub(r"[^A-Z0-9]", "", str(value or "").upper())
+
+
 def fetch_spark_2025(search):
     products = {}
     total_pages = 1
@@ -612,19 +616,17 @@ def fetch_minichamps_2025():
 def fetch_all():
     products = {}
     previous = load_state() or {}
-    failed_sources = set()
+    failed_crawls = set()
 
-    def fetch_and_merge(label, source, fetcher, *args):
-        if source in failed_sources:
-            return
+    def fetch_and_merge(label, source, crawl_key, fetcher, *args):
         print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetching {label}", flush=True)
         try:
             batch = fetcher(*args)
         except Exception as error:
-            failed_sources.add(source)
+            failed_crawls.add((source, crawl_key))
             print(
-                f"Skipped {source} updates after {label} failed; "
-                f"the previous snapshot will be kept ({error})",
+                f"Skipped this crawl for {label}; other crawls will continue and "
+                f"previous matching products will be kept ({error})",
                 flush=True,
             )
             return
@@ -636,15 +638,26 @@ def fetch_all():
         )
 
     for search in SPARK_2025_SEARCHES:
-        fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", fetch_spark_2025, search)
+        fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", ("spark2025", search), fetch_spark_2025, search)
     for search in SPARK_2026_SEARCHES:
-        fetch_and_merge(f"Spark 2026 · {search}", "sparkmodel", fetch_spark_2026, search)
+        fetch_and_merge(f"Spark 2026 · {search}", "sparkmodel", ("spark2026", search), fetch_spark_2026, search)
     for search in LOOKSMART_SEARCHES:
-        fetch_and_merge(f"Looksmart · {search}", "looksmart", fetch_looksmart, search)
+        fetch_and_merge(f"Looksmart · {search}", "looksmart", ("looksmart", search), fetch_looksmart, search)
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
         for search in MINICHAMPS_SEARCHES:
-            fetch_and_merge(f"Minichamps 2026 · {search}", "minichamps", fetch_minichamps, search)
-        fetch_and_merge("Minichamps 2025 category", "minichamps", fetch_minichamps_2025)
+            fetch_and_merge(
+                f"Minichamps 2026 · {search}",
+                "minichamps",
+                ("minichamps2026", search),
+                fetch_minichamps,
+                search,
+            )
+        fetch_and_merge(
+            "Minichamps 2025 category",
+            "minichamps",
+            ("minichamps2025", "category"),
+            fetch_minichamps_2025,
+        )
     else:
         # Keep the last known Minichamps snapshot while its site is unavailable,
         # so a temporary pause does not report every Minichamps product as removed.
@@ -655,16 +668,37 @@ def fetch_all():
         })
         print("Minichamps monitoring is disabled; keeping its last known snapshot")
 
-    # Treat each provider as one snapshot: a partial fetch must not make the
-    # provider's products look removed or overwrite only part of its old data.
-    products = {
-        product_id: item
-        for product_id, item in products.items()
-        if item.get("source") not in failed_sources
-    }
+    def matches_crawl(item, crawl_key):
+        crawl_type, search = crawl_key
+        name = item.get("name", "")
+        if crawl_type == "spark2025":
+            return item.get("source") == "sparkmodel" and normalized_model_code(search) in normalized_model_code(name)
+        if crawl_type == "spark2026":
+            return (
+                item.get("source") == "sparkmodel"
+                and str(item.get("year", "")) == "2026"
+                and normalized_model_code(search) in normalized_model_code(name)
+            )
+        if crawl_type == "looksmart":
+            return item.get("source") == "looksmart" and normalized_model_code(search) in normalized_model_code(name)
+        if crawl_type == "minichamps2026":
+            return (
+                item.get("source") == "minichamps"
+                and str(item.get("year", "")) == "2026"
+                and bool(re.search(MINICHAMPS_MODEL_PATTERNS[search], name, re.I))
+            )
+        if crawl_type == "minichamps2025":
+            return item.get("source") == "minichamps" and str(item.get("year", "")) == "2025"
+        return False
+
+    # A failed keyword keeps its matching old products. Successful keywords,
+    # including later queries from the same provider, still use fresh results.
     for product_id, item in previous.items():
-        if item.get("source") in failed_sources:
-            products[product_id] = item
+        if any(
+            item.get("source") == source and matches_crawl(item, crawl_key)
+            for source, crawl_key in failed_crawls
+        ):
+            products.setdefault(product_id, item)
 
     print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetch complete: {len(products)} unique products", flush=True)
     return products
