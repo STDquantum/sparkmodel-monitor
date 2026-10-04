@@ -59,6 +59,9 @@ _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
 _MINICHAMPS_LOCK = RLock()
 _MINICHAMPS_SESSION_READY = False
 _MINICHAMPS_MAX_ATTEMPTS = 5
+_RETRY_DELAY_MULTIPLIER = 2
+_RETRY_DELAY_CAP_SECONDS = 60
+_RETRY_AFTER_CAP_SECONDS = 120
 _SOURCE_USER_AGENTS = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.8037.98 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.4258.53",
@@ -159,16 +162,20 @@ def request(url, payload=None, *, source_request=False, referer=None, accept=Non
                 raise
             retry_after = error.headers.get("Retry-After", "") if error.headers else ""
             try:
-                delay = min(float(retry_after), 60) if retry_after else min(2 ** (attempt - 1), 30)
+                delay = (
+                    min(float(retry_after) * _RETRY_DELAY_MULTIPLIER, _RETRY_AFTER_CAP_SECONDS)
+                    if retry_after
+                    else min(2 ** (attempt - 1) * _RETRY_DELAY_MULTIPLIER, _RETRY_DELAY_CAP_SECONDS)
+                )
             except ValueError:
-                delay = min(2 ** (attempt - 1), 30)
+                delay = min(2 ** (attempt - 1) * _RETRY_DELAY_MULTIPLIER, _RETRY_DELAY_CAP_SECONDS)
         except (URLError, TimeoutError, UnicodeDecodeError, IncompleteRead, ConnectionError) as error:
             failure = error
             if attempt >= max_attempts:
                 raise RuntimeError(
                     f"Request failed after {attempt} attempts for {url}: {error}"
                 ) from error
-            delay = min(2 ** (attempt - 1), 30)
+            delay = min(2 ** (attempt - 1) * _RETRY_DELAY_MULTIPLIER, _RETRY_DELAY_CAP_SECONDS)
 
         print(
             f"Request failed ({failure}); next attempt {attempt + 1}/{max_attempts} "
@@ -528,7 +535,7 @@ def minichamps_request(url, *, ajax=False, referer=None):
                 raise
             if attempt >= _MINICHAMPS_MAX_ATTEMPTS:
                 raise
-            delay = 2 ** (attempt - 1)
+            delay = min(2 ** (attempt - 1) * _RETRY_DELAY_MULTIPLIER, _RETRY_DELAY_CAP_SECONDS)
             reset_session()
             print(
                 f"Minichamps request failed ({error}); next attempt {attempt + 1}/{_MINICHAMPS_MAX_ATTEMPTS} "
