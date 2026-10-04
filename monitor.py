@@ -611,10 +611,23 @@ def fetch_minichamps_2025():
 
 def fetch_all():
     products = {}
+    previous = load_state() or {}
+    failed_sources = set()
 
-    def fetch_and_merge(label, fetcher, *args):
+    def fetch_and_merge(label, source, fetcher, *args):
+        if source in failed_sources:
+            return
         print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetching {label}", flush=True)
-        batch = fetcher(*args)
+        try:
+            batch = fetcher(*args)
+        except Exception as error:
+            failed_sources.add(source)
+            print(
+                f"Skipped {source} updates after {label} failed; "
+                f"the previous snapshot will be kept ({error})",
+                flush=True,
+            )
+            return
         products.update(batch)
         print(
             f"[{datetime.now().astimezone():%H:%M:%S}] Finished {label}: "
@@ -623,25 +636,36 @@ def fetch_all():
         )
 
     for search in SPARK_2025_SEARCHES:
-        fetch_and_merge(f"Spark 2025 · {search}", fetch_spark_2025, search)
+        fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", fetch_spark_2025, search)
     for search in SPARK_2026_SEARCHES:
-        fetch_and_merge(f"Spark 2026 · {search}", fetch_spark_2026, search)
+        fetch_and_merge(f"Spark 2026 · {search}", "sparkmodel", fetch_spark_2026, search)
     for search in LOOKSMART_SEARCHES:
-        fetch_and_merge(f"Looksmart · {search}", fetch_looksmart, search)
+        fetch_and_merge(f"Looksmart · {search}", "looksmart", fetch_looksmart, search)
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
         for search in MINICHAMPS_SEARCHES:
-            fetch_and_merge(f"Minichamps 2026 · {search}", fetch_minichamps, search)
-        fetch_and_merge("Minichamps 2025 category", fetch_minichamps_2025)
+            fetch_and_merge(f"Minichamps 2026 · {search}", "minichamps", fetch_minichamps, search)
+        fetch_and_merge("Minichamps 2025 category", "minichamps", fetch_minichamps_2025)
     else:
         # Keep the last known Minichamps snapshot while its site is unavailable,
         # so a temporary pause does not report every Minichamps product as removed.
-        previous = load_state() or {}
         products.update({
             product_id: item
             for product_id, item in previous.items()
             if item.get("source") == "minichamps"
         })
         print("Minichamps monitoring is disabled; keeping its last known snapshot")
+
+    # Treat each provider as one snapshot: a partial fetch must not make the
+    # provider's products look removed or overwrite only part of its old data.
+    products = {
+        product_id: item
+        for product_id, item in products.items()
+        if item.get("source") not in failed_sources
+    }
+    for product_id, item in previous.items():
+        if item.get("source") in failed_sources:
+            products[product_id] = item
+
     print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetch complete: {len(products)} unique products", flush=True)
     return products
 
@@ -693,22 +717,26 @@ def with_metadata(items, metadata, fetch_missing=False):
         }
         if fetch_missing and index < 20 and (not details.get("product_number") or not details.get("scale")):
             source = item.get("source", "sparkmodel")
-            if source == "minichamps":
-                from catalog import parse_minichamps_detail
-                _, properties, _ = parse_minichamps_detail(minichamps_request(item["url"]))
-            elif source == "sparkmodel":
-                source_id = item.get("source_id") or item["product_id"].removeprefix("spark-2026-").removeprefix("spark-2025-")
-                detail = json.loads(request(
-                    f"{SPARK_API_URL}/{source_id}",
-                    source_request=True,
-                    referer=item.get("url") or SPARK_SITE_URL,
-                    accept="application/json",
-                ))
-                properties = {
-                    "Product number": detail.get("code", ""),
-                    "Scale": detail.get("scale", {}).get("name", ""),
-                }
-            else:
+            try:
+                if source == "minichamps":
+                    from catalog import parse_minichamps_detail
+                    _, properties, _ = parse_minichamps_detail(minichamps_request(item["url"]))
+                elif source == "sparkmodel":
+                    source_id = item.get("source_id") or item["product_id"].removeprefix("spark-2026-").removeprefix("spark-2025-")
+                    detail = json.loads(request(
+                        f"{SPARK_API_URL}/{source_id}",
+                        source_request=True,
+                        referer=item.get("url") or SPARK_SITE_URL,
+                        accept="application/json",
+                    ))
+                    properties = {
+                        "Product number": detail.get("code", ""),
+                        "Scale": detail.get("scale", {}).get("name", ""),
+                    }
+                else:
+                    properties = {}
+            except Exception as error:
+                print(f"Optional detail lookup skipped for {item['product_id']}; keeping listing data ({error})", flush=True)
                 properties = {}
             details = {
                 "product_number": details.get("product_number") or item.get("product_number") or properties.get("Product number", ""),
