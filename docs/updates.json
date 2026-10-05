@@ -1,6 +1,43 @@
 {
   "updates": [
     {
+      "date": "2026-10-05T07:02:47.983603+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
+          "url": "https://www.sparkmodel.com/products/dc5ca703-cb72-4e7c-a069-623dfb34a9aa",
+          "product_number": "18S1276",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0b3f8cea-efbb-41b0-81b9-0fb0a0b70f9f.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4830a41d-93ee-47e3-8bc0-c273bf384db3.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-1.webp",
+              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-2.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-1.webp": "85216bba51e4503d85583e5f12697a61647f7067b12a7eb15ee41632fb8c7365",
+              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-2.webp": "3a1b7770714a17ccc7688c8b35f9c6aad798e168edf2d482ed7dbf91db74598d"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 2
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-03T00:42:48.280153+00:00",
       "entries": [
         {
@@ -8340,16 +8377,12 @@
           "fields": [],
           "images": {
             "added": [
-              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-1.webp",
-              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-2.webp",
               "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-3.webp"
             ],
             "changed": [],
             "moved": [],
             "removed_count": 0,
             "hashes": {
-              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-1.webp": "eda544a2851899ec420f5634ca1f9f35beca6197cb89679525c27e2e6a8551ed",
-              "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-2.webp": "624051d0d60cbf111232a7a6aaa074691cebcd4b864da16de0ae02a4d46111d0",
               "images/spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa-3.webp": "386a850f1c6f8f91c25dd115f137552c3c0b9ba952a9e415ed031c554a0dc89e"
             }
           },
