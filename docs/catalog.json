@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:02:47.983603+00:00",
+  "generated_at": "2026-10-05T16:00:50.196809+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -4102,7 +4102,7 @@
         "Product number": "537253104",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "RESIN",
@@ -4115,7 +4115,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
@@ -4131,7 +4131,7 @@
         "Product number": "537253181",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN",
@@ -4144,7 +4144,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef970b36771f0ad447540c4b38569",

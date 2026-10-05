@@ -1,6 +1,73 @@
 {
   "updates": [
     {
+      "date": "2026-10-05T16:00:50.196809+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970b2407212bdda29f3bd3534f7",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER HUNGARIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970b2407212bdda29f3bd3534f7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253104",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253181",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-05T07:02:47.983603+00:00",
       "entries": [
         {

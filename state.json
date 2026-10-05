@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-05T07:02:45.927287+00:00",
+  "updated_at": "2026-10-05T16:00:35.291156+00:00",
   "total": 648,
   "items": {
     "looksmart-19787": {
@@ -1495,7 +1495,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019ef970b2d37258976dddf3dc33a82b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
@@ -1504,7 +1504,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019ef970b36771f0ad447540c4b38569": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AZERBAIJAN GP 2025",
@@ -6783,7 +6783,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "spark-2026-dc5ca703-cb72-4e7c-a069-623dfb34a9aa"
+      "minichamps-019ef970b2407212bdda29f3bd3534f7",
+      "minichamps-019ef970b2d37258976dddf3dc33a82b"
     ],
     "removed": []
   }
