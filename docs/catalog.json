@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:18:18.629638+00:00",
+  "generated_at": "2026-10-06T16:03:11.189127+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -3716,16 +3716,16 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f27d71289a1cf73da2ba06ab?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg",
         "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-2.jpg",
-        "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-3.jpg",
-        "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg"
+        "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "530257504",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "DIECAST",
@@ -3738,23 +3738,23 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019a8919f3a97043ad1a3387e95a1e64",
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f3a97043ad1a3387e95a1e64?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-1.jpg",
         "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-2.jpg",
-        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-3.jpg",
-        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-1.jpg"
+        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "530257581",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "DIECAST",
@@ -3767,7 +3767,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019a8919f4db71ef8d25699e25101bda",
@@ -3845,7 +3845,7 @@
         "Product number": "537255404",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "RESIN",
@@ -3858,23 +3858,23 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019a8919f8517060bf66a3368e31e16b",
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f8517060bf66a3368e31e16b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919f8517060bf66a3368e31e16b-1.jpg",
         "images/minichamps-019a8919f8517060bf66a3368e31e16b-2.jpg",
-        "images/minichamps-019a8919f8517060bf66a3368e31e16b-3.jpg",
-        "images/minichamps-019a8919f8517060bf66a3368e31e16b-1.jpg"
+        "images/minichamps-019a8919f8517060bf66a3368e31e16b-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "537255481",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN",
@@ -3887,7 +3887,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019ef96fb6bc722e8d1228c8e455d1f6",
@@ -4102,7 +4102,7 @@
         "Product number": "537253104",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "RESIN",
@@ -4115,7 +4115,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
@@ -4131,7 +4131,7 @@
         "Product number": "537253181",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN",
@@ -4144,7 +4144,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019ef970b36771f0ad447540c4b38569",
@@ -5233,7 +5233,7 @@
         "Product number": "537256281",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN",
@@ -5246,7 +5246,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019ef971dd44737d94c4b2802c43fb29",
@@ -5677,6 +5677,31 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-117261603",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS, TROPHY AND COOLER BOX",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS-TROPHY-AND-COOLER-BOX/117261603",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117261603",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-417261423",
       "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
       "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/417261423",
@@ -5716,6 +5741,31 @@
         "Driver": "SAINZ, CARLOS",
         "Material": "RESIN",
         "Model": "FW48"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417261603",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS, TROPHY AND COOLER BOX",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS-TROPHY-AND-COOLER-BOX/417261603",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417261603",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
+        "Model": "RB22"
       },
       "description": "",
       "brand": "Minichamps",
@@ -5902,6 +5952,32 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-640261263",
+      "name": "2-CAR-SET - MERCEDES-AMG PETR. F1 TEAM W17 - ANTONELLI/RUSSELL – BAHRAIN GP IN MALAYSIA 2026",
+      "url": "https://www.minichamps.de/en/2-CAR-SET-MERCEDES-AMG-PETR.-F1-TEAM-W17-ANTONELLI-RUSSELL-BAHRAIN-GP-IN-MALAYSIA-2026/640261263",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640261263",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "sold out",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
+        "First delivery": "Calendar week 36/2026",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "31.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Sold out"
+    },
+    {
       "id": "minichamps-640261423",
       "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
       "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/640261423",
@@ -5952,6 +6028,31 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-640261603",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS, TROPHY AND COOLER BOX",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS-TROPHY-AND-COOLER-BOX/640261603",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640261603",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "DIECAST",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-minichamps-1659915",
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
@@ -5984,7 +6085,12 @@
       "id": "minichamps-minichamps-1659916",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/417260312",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1659916-1.jpg",
+        "images/minichamps-minichamps-1659916-2.jpg",
+        "images/minichamps-minichamps-1659916-3.jpg",
+        "images/minichamps-minichamps-1659916-4.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260312",
@@ -6386,7 +6492,14 @@
       "id": "minichamps-minichamps-1660039",
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660039-1.jpg",
+        "images/minichamps-minichamps-1660039-2.jpg",
+        "images/minichamps-minichamps-1660039-3.jpg",
+        "images/minichamps-minichamps-1660039-4.jpg",
+        "images/minichamps-minichamps-1660039-5.jpg",
+        "images/minichamps-minichamps-1660039-6.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "117260222",
@@ -6910,7 +7023,11 @@
       "id": "minichamps-minichamps-1660059",
       "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTRALIAN-GP-2026/417260187",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660059-1.jpg",
+        "images/minichamps-minichamps-1660059-2.jpg",
+        "images/minichamps-minichamps-1660059-3.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260187",
@@ -10428,15 +10545,18 @@
       "name": "Mercedes W16 No.63 Mercedes-AMG PETRONAS Formula One Team\nWinner Singapore GP 2025\nGeorge Russell",
       "url": "https://www.sparkmodel.com/products/25c18f42-481d-4470-917e-8096bdf5ef83",
       "images": [
-        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-1.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-2.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-3.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-4.webp",
+        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-1.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-5.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-6.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-7.webp",
         "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-8.webp",
-        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-9.webp"
+        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-9.webp",
+        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-10.webp",
+        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-11.webp",
+        "images/spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83-12.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
@@ -10455,7 +10575,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2025-25ff5df0-6236-4cc9-9230-3dc7001f497e",
@@ -11670,15 +11790,18 @@
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nMiami GP 2025\nIsack Hadjar",
       "url": "https://www.sparkmodel.com/products/8066577c-e6bc-42b9-a931-cd4e98323b6f",
       "images": [
-        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-1.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-2.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-3.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-4.webp",
+        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-1.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-5.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-6.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-7.webp",
         "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-8.webp",
-        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-9.webp"
+        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-9.webp",
+        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-10.webp",
+        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-11.webp",
+        "images/spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f-12.webp"
       ],
       "properties": {
         "Manufacturer": "Racing Bulls",
@@ -11697,7 +11820,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2025-807f4208-eca0-4ea7-bb8a-6e6368ad80c6",
@@ -13211,15 +13334,18 @@
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nBritish GP 2025\nIsack Hadjar",
       "url": "https://www.sparkmodel.com/products/d0bbe469-ad24-48b9-9cf5-9171817c3e6a",
       "images": [
-        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-1.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-2.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-3.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-4.webp",
+        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-1.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-5.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-6.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-7.webp",
         "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-8.webp",
-        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-9.webp"
+        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-9.webp",
+        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-10.webp",
+        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-11.webp",
+        "images/spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a-12.webp"
       ],
       "properties": {
         "Manufacturer": "Racing Bulls",
@@ -13238,7 +13364,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2025-d2406aad-2f11-408a-b4ea-4149982b0aed",
@@ -14950,7 +15076,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2026-2b83464d-39bf-4008-a1d9-20f95d27b055",
@@ -16518,7 +16644,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2026-8c316420-b360-4f1f-977b-eebdc827ae6c",
@@ -17537,15 +17663,18 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.63 Winner Australian GP 2026 \nGeorge Russell\n(With pit board)",
       "url": "https://www.sparkmodel.com/products/cdbdf344-53e1-4372-9efe-1c8e8966c689",
       "images": [
-        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-1.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-2.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-3.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-4.webp",
+        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-1.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-5.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-6.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-7.webp",
         "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-8.webp",
-        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-9.webp"
+        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-9.webp",
+        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-10.webp",
+        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-11.webp",
+        "images/spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689-12.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
@@ -17564,7 +17693,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2026-d81922e3-e5bf-4d04-9bec-76a3d9ac3677",
