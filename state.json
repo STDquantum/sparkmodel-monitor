@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-05T16:00:35.291156+00:00",
+  "updated_at": "2026-10-06T09:18:14.725775+00:00",
   "total": 648,
   "items": {
     "looksmart-19787": {
@@ -4192,7 +4192,7 @@
       "source_id": "830c71e9-7e6f-4c9c-b570-80305ab462a0",
       "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls Formula One Team\nJapanese GP 2025\nLiam Lawson",
       "url": "https://www.sparkmodel.com/products/830c71e9-7e6f-4c9c-b570-80305ab462a0",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d20e9474-063d-490c-a26a-f1383603a9ed.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ddac901b-981b-4d0b-bb7b-e3456c4f76b8.webp",
       "availability": "Coming soon",
       "product_number": "18S1252",
       "scale": "1/18",
@@ -6292,7 +6292,7 @@
       "source_id": "a82d5e43-ca44-48af-9f45-f0c2d5b30db2",
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 \nGeorge Russell\n(With figurine)",
       "url": "https://www.sparkmodel.com/products/a82d5e43-ca44-48af-9f45-f0c2d5b30db2",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a2b24ca6-0953-4e0a-9b62-3aa4b03c96b8.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/dba7bf8c-3908-4961-a75b-9632cd413730.webp",
       "availability": "In development",
       "product_number": "64S146",
       "scale": "1/64",
@@ -6783,8 +6783,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019ef970b2407212bdda29f3bd3534f7",
-      "minichamps-019ef970b2d37258976dddf3dc33a82b"
+      "spark-2025-830c71e9-7e6f-4c9c-b570-80305ab462a0",
+      "spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2"
     ],
     "removed": []
   }

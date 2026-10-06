@@ -1,6 +1,113 @@
 {
   "updates": [
     {
+      "date": "2026-10-06T09:18:18.629638+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2025-830c71e9-7e6f-4c9c-b570-80305ab462a0",
+          "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls Formula One Team\nJapanese GP 2025\nLiam Lawson",
+          "url": "https://www.sparkmodel.com/products/830c71e9-7e6f-4c9c-b570-80305ab462a0",
+          "product_number": "18S1252",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d20e9474-063d-490c-a26a-f1383603a9ed.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ddac901b-981b-4d0b-bb7b-e3456c4f76b8.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 5,
+                "to": 2
+              },
+              {
+                "from": 7,
+                "to": 3
+              },
+              {
+                "from": 9,
+                "to": 4
+              },
+              {
+                "from": 8,
+                "to": 5
+              },
+              {
+                "from": 10,
+                "to": 7
+              },
+              {
+                "from": 11,
+                "to": 8
+              },
+              {
+                "from": 12,
+                "to": 9
+              },
+              {
+                "from": 4,
+                "to": 10
+              },
+              {
+                "from": 2,
+                "to": 11
+              },
+              {
+                "from": 3,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026 \nGeorge Russell\n(With figurine)",
+          "url": "https://www.sparkmodel.com/products/a82d5e43-ca44-48af-9f45-f0c2d5b30db2",
+          "product_number": "64S146",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a2b24ca6-0953-4e0a-9b62-3aa4b03c96b8.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/dba7bf8c-3908-4961-a75b-9632cd413730.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-2.webp",
+              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-2.webp": "3c208147a2f82fbd88eeca65c10aa5a4afcfe790ecd1e77e0cade2f3089160c0",
+              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-3.webp": "7ea2944245f6bfdbcb62ee1b32ff1bd2214bd296968cfb087682ed49d6e55fdc",
+              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-1.webp": "cd1fa4b7dcb03429bbfdc693274f093c4845fbf579f9308584f88714a8f48529"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-05T16:00:50.196809+00:00",
       "entries": [
         {
@@ -7767,15 +7874,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-a82d5e43-ca44-48af-9f45-f0c2d5b30db2-1.webp": "287275f926c0be7825b03a6ee4a22afa89730c2975c2baa5bfd0b57cf69829f5"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
