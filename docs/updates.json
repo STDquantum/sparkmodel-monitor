@@ -1,6 +1,46 @@
 {
   "updates": [
     {
+      "date": "2026-10-06T20:58:51.961775+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660039",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
+          "product_number": "117260222",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/1c/09/38/1791278292/00_117260222.jpg?ts=1791278292",
+              "after": "https://www.minichamps.de/media/d0/81/58/1791315159/00_117260222_01a112b4.jpg?ts=1791315159"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 6,
+                "to": 5
+              },
+              {
+                "from": 5,
+                "to": 6
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-06T16:03:11.189127+00:00",
       "entries": [
         {
@@ -394,9 +434,7 @@
               "images/minichamps-minichamps-1660039-1.jpg",
               "images/minichamps-minichamps-1660039-2.jpg",
               "images/minichamps-minichamps-1660039-3.jpg",
-              "images/minichamps-minichamps-1660039-4.jpg",
-              "images/minichamps-minichamps-1660039-5.jpg",
-              "images/minichamps-minichamps-1660039-6.jpg"
+              "images/minichamps-minichamps-1660039-4.jpg"
             ],
             "changed": [],
             "moved": [],
@@ -405,9 +443,7 @@
               "images/minichamps-minichamps-1660039-1.jpg": "f0267e3f85c0eed1e3f9f7ee14b194e3c072f75777e7aacb44b06769a961c8ed",
               "images/minichamps-minichamps-1660039-2.jpg": "9b9688999be8b7410fb7936383c14c4dd767fbdc90d7dce69e511822b0754452",
               "images/minichamps-minichamps-1660039-3.jpg": "3c756e44b7f6eadcc07ac81cf87382066bf76ceae6823d5db516a214ecb493d3",
-              "images/minichamps-minichamps-1660039-4.jpg": "6d925f0a04643a5eff8b944c41418f88193e18062091c0c1e17d6410856629c9",
-              "images/minichamps-minichamps-1660039-5.jpg": "89bc1b7c74dcad87e25d5fea480fe1b80f88afb70cf9c59a2ac552bc0dc63e04",
-              "images/minichamps-minichamps-1660039-6.jpg": "3e6a0064bb595fe6d5983bbe6ac0e24878458599290f682d449d6e5ecbba89f2"
+              "images/minichamps-minichamps-1660039-4.jpg": "6d925f0a04643a5eff8b944c41418f88193e18062091c0c1e17d6410856629c9"
             }
           },
           "image_counts": {

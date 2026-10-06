@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-06T16:02:53.435230+00:00",
+  "updated_at": "2026-10-06T20:58:38.733093+00:00",
   "total": 652,
   "items": {
     "looksmart-19787": {
@@ -2297,7 +2297,7 @@
     "minichamps-minichamps-1660039": {
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
-      "image_url": "https://www.minichamps.de/media/1c/09/38/1791278292/00_117260222.jpg?ts=1791278292",
+      "image_url": "https://www.minichamps.de/media/d0/81/58/1791315159/00_117260222_01a112b4.jpg?ts=1791315159",
       "product_number": "117260222",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -6820,29 +6820,9 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-117261603",
-      "minichamps-417261603",
-      "minichamps-640261263",
-      "minichamps-640261603"
-    ],
+    "added": [],
     "changed": [
-      "minichamps-019a8919f27d71289a1cf73da2ba06ab",
-      "minichamps-019a8919f3a97043ad1a3387e95a1e64",
-      "minichamps-019a8919f74570718a513af8f72e4e9d",
-      "minichamps-019a8919f8517060bf66a3368e31e16b",
-      "minichamps-019ef970b2407212bdda29f3bd3534f7",
-      "minichamps-019ef970b2d37258976dddf3dc33a82b",
-      "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
-      "minichamps-minichamps-1659916",
-      "minichamps-minichamps-1660039",
-      "minichamps-minichamps-1660059",
-      "spark-2025-25c18f42-481d-4470-917e-8096bdf5ef83",
-      "spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f",
-      "spark-2025-d0bbe469-ad24-48b9-9cf5-9171817c3e6a",
-      "spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382",
-      "spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e",
-      "spark-2026-cdbdf344-53e1-4372-9efe-1c8e8966c689"
+      "minichamps-minichamps-1660039"
     ],
     "removed": []
   }
