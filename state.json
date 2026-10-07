@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-07T13:38:42.765139+00:00",
+  "updated_at": "2026-10-07T19:36:19.249942+00:00",
   "total": 652,
   "items": {
     "looksmart-19787": {
@@ -943,7 +943,7 @@
     "minichamps-019a89197dea7049a30350c6f9976069": {
       "name": "MONEYGRAM HAAS F1 TEAM VF-25 - OLIVER BEARMAN - JAPAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a89197dea7049a30350c6f9976069?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/ac/52/93/1784794430/00_117250387_019f8e09.jpg?ts=1784794430",
+      "image_url": "https://www.minichamps.de/media/7b/e2/3f/1791401558/00_117250387_01a117da.jpg?ts=1791401558",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -1194,7 +1194,7 @@
     "minichamps-019a8919c0c070ed8db9b91d5029810f": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919c0c070ed8db9b91d5029810f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/ca/c8/d2/1791373357/00_640250263.jpg?ts=1791373357",
+      "image_url": "https://www.minichamps.de/media/c0/5f/4f/1791401563/00_640250263_01a117da.jpg?ts=1791401563",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -1969,7 +1969,7 @@
     "minichamps-019ef972364f7174837a126388197c27": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WC - ABU DHABI GP 2025 W.STAN. FIGURINE.+ 2 PITBOARDS",
       "url": "https://www.minichamps.de/en/detail/019ef972364f7174837a126388197c27?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/0e/e0/e8/1784795193/00_530258704_019f8e15.jpg?ts=1784795193",
+      "image_url": "https://www.minichamps.de/media/a3/50/c9/1791401559/00_530258704_01a117da.jpg?ts=1791401559",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -2729,7 +2729,7 @@
     "minichamps-minichamps-1661380": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/640260163",
-      "image_url": "https://www.minichamps.de/media/41/dd/62/1791374461/00_640260163.jpg?ts=1791374461",
+      "image_url": "https://www.minichamps.de/media/57/aa/e9/1791401564/00_640260163_01a117da.jpg?ts=1791401564",
       "product_number": "640260163",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -6822,11 +6822,10 @@
   "changes": {
     "added": [],
     "changed": [
+      "minichamps-019a89197dea7049a30350c6f9976069",
       "minichamps-019a8919c0c070ed8db9b91d5029810f",
-      "minichamps-minichamps-1660040",
-      "minichamps-minichamps-1661380",
-      "spark-2025-7be422aa-3178-44cf-8605-a12d5a9a3120",
-      "spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db"
+      "minichamps-019ef972364f7174837a126388197c27",
+      "minichamps-minichamps-1661380"
     ],
     "removed": []
   }

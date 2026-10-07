@@ -1,6 +1,148 @@
 {
   "updates": [
     {
+      "date": "2026-10-07T19:36:27.776986+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a89197dea7049a30350c6f9976069",
+          "name": "MONEYGRAM HAAS F1 TEAM VF-25 - OLIVER BEARMAN - JAPAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89197dea7049a30350c6f9976069?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117250387",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/ac/52/93/1784794430/00_117250387_019f8e09.jpg?ts=1784794430",
+              "after": "https://www.minichamps.de/media/7b/e2/3f/1791401558/00_117250387_01a117da.jpg?ts=1791401558"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 5,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919c0c070ed8db9b91d5029810f",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919c0c070ed8db9b91d5029810f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "640250263",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/ca/c8/d2/1791373357/00_640250263.jpg?ts=1791373357",
+              "after": "https://www.minichamps.de/media/c0/5f/4f/1791401563/00_640250263_01a117da.jpg?ts=1791401563"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef972364f7174837a126388197c27",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WC - ABU DHABI GP 2025 W.STAN. FIGURINE.+ 2 PITBOARDS",
+          "url": "https://www.minichamps.de/en/detail/019ef972364f7174837a126388197c27?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530258704",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/0e/e0/e8/1784795193/00_530258704_019f8e15.jpg?ts=1784795193",
+              "after": "https://www.minichamps.de/media/a3/50/c9/1791401559/00_530258704_01a117da.jpg?ts=1791401559"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019ef972364f7174837a126388197c27-1.jpg",
+              "images/minichamps-019ef972364f7174837a126388197c27-2.jpg",
+              "images/minichamps-019ef972364f7174837a126388197c27-3.jpg",
+              "images/minichamps-019ef972364f7174837a126388197c27-4.jpg",
+              "images/minichamps-019ef972364f7174837a126388197c27-5.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef972364f7174837a126388197c27-1.jpg": "4fdb148a61cbc436a2d5eb03da241b18be6916153b175da69c3791f92329a3a8",
+              "images/minichamps-019ef972364f7174837a126388197c27-2.jpg": "770bd1a0db329e4b3adcf936eee14479deb2af9c28c4aa1666b67ed2e0b3aa2c",
+              "images/minichamps-019ef972364f7174837a126388197c27-3.jpg": "4633c7b6491ad7a80c66a94b3b47c49a7c80b0018da412bd4d192dbed08e6e2a",
+              "images/minichamps-019ef972364f7174837a126388197c27-4.jpg": "52798234a0961280a13152c5a9243cdc5929f9c609dda6a0bd2ad4d0c99cc334",
+              "images/minichamps-019ef972364f7174837a126388197c27-5.jpg": "5bbe96ce0727c963453b13166f1526390994c5d3fedd9415be30ec78cc2a761b"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 5
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661380",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/640260163",
+          "product_number": "640260163",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/41/dd/62/1791374461/00_640260163.jpg?ts=1791374461",
+              "after": "https://www.minichamps.de/media/57/aa/e9/1791401564/00_640260163_01a117da.jpg?ts=1791401564"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-07T13:38:54.693976+00:00",
       "entries": [
         {
@@ -14625,12 +14767,7 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef972364f7174837a126388197c27-2.jpg",
-              "images/minichamps-019ef972364f7174837a126388197c27-3.jpg",
-              "images/minichamps-019ef972364f7174837a126388197c27-4.jpg",
-              "images/minichamps-019ef972364f7174837a126388197c27-5.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -14639,12 +14776,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef972364f7174837a126388197c27-2.jpg": "642ae4eebf7f22510d036c2bd4cd9d86068dc4f0049061298bb4ada1fc69f1bf",
-              "images/minichamps-019ef972364f7174837a126388197c27-3.jpg": "78cccf6a24013f7db72cbb1af3200ac894b9e8ca97590805590b91c079f8f337",
-              "images/minichamps-019ef972364f7174837a126388197c27-4.jpg": "6015509e968f745cc1d222bc2f02aca551965688c8010775fe294e292db617be",
-              "images/minichamps-019ef972364f7174837a126388197c27-5.jpg": "e4106831114df2fb56d4dc69d5d52130cba750c22d95076ab7409605b790973e"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
@@ -18764,15 +18896,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef972364f7174837a126388197c27-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef972364f7174837a126388197c27-1.jpg": "40bfe483def53fbdaa02f0d7594010dbfe171958a9f29bdfc89b0209e59aa8f6"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -22317,15 +22445,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef972364f7174837a126388197c27-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef972364f7174837a126388197c27-1.jpg": "40bfe483def53fbdaa02f0d7594010dbfe171958a9f29bdfc89b0209e59aa8f6"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
