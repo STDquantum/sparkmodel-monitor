@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-06T20:58:38.733093+00:00",
+  "updated_at": "2026-10-07T06:27:33.982495+00:00",
   "total": 652,
   "items": {
     "looksmart-19787": {
@@ -1999,7 +1999,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-019ef97254a37105aff77b7f21a22d33": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - SHAKEDOWN 2025",
@@ -6103,7 +6103,7 @@
       "source_id": "8991de44-2748-4830-8148-5395be14e7d7",
       "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 \nMax Verstappen",
       "url": "https://www.sparkmodel.com/products/8991de44-2748-4830-8148-5395be14e7d7",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a0041b16-d37a-4df2-8b22-fd1b6b00acce.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/fd64ba7f-a1e4-4aa5-8436-42e1ce62424b.webp",
       "availability": "In development",
       "product_number": "18S1273",
       "scale": "1/18",
@@ -6247,7 +6247,7 @@
       "source_id": "9f9fe042-a6b8-4011-b2c5-308d9c728be2",
       "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 \nIsack Hadjar",
       "url": "https://www.sparkmodel.com/products/9f9fe042-a6b8-4011-b2c5-308d9c728be2",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b0ee7cd2-3b5f-4e3a-a8ce-d45ac7b1fb93.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/96bc43a5-13a9-495e-8e7d-c8cafc4825a3.webp",
       "availability": "In development",
       "product_number": "18S1274",
       "scale": "1/18",
@@ -6822,7 +6822,9 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-minichamps-1660039"
+      "minichamps-019ef97238b1734c8e0cb35725bd05d2",
+      "spark-2026-8991de44-2748-4830-8148-5395be14e7d7",
+      "spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2"
     ],
     "removed": []
   }

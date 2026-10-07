@@ -1,6 +1,112 @@
 {
   "updates": [
     {
+      "date": "2026-10-07T06:27:42.719805+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef97238b1734c8e0cb35725bd05d2",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef97238b1734c8e0cb35725bd05d2?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530258304",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-8991de44-2748-4830-8148-5395be14e7d7",
+          "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 \nMax Verstappen",
+          "url": "https://www.sparkmodel.com/products/8991de44-2748-4830-8148-5395be14e7d7",
+          "product_number": "18S1273",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a0041b16-d37a-4df2-8b22-fd1b6b00acce.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/fd64ba7f-a1e4-4aa5-8436-42e1ce62424b.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-2.webp",
+              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-2.webp": "8514d955bd15bca10085b2db50ccc164513e1e528447cc62ac4977b5f515041b",
+              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-3.webp": "ee8a71b247176b27e41bfc49978c34e7beea25f3ba7c185f0ec1ef1701ff889b",
+              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-1.webp": "4102ed402c61c25c7666f05b4eac21365f64fbbea33935748dd717569d5f7935"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2",
+          "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 \nIsack Hadjar",
+          "url": "https://www.sparkmodel.com/products/9f9fe042-a6b8-4011-b2c5-308d9c728be2",
+          "product_number": "18S1274",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b0ee7cd2-3b5f-4e3a-a8ce-d45ac7b1fb93.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/96bc43a5-13a9-495e-8e7d-c8cafc4825a3.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-2.webp",
+              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-2.webp": "2c71c18f6e5373491b34c93606c1a02c31438491208ec6c7e039509bc8c4c41c",
+              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-3.webp": "d69dca789d2c802682d02a259f4f11a89b778ae941ddd0c6f609deddb4de6109",
+              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-1.webp": "6b89796a6233e66071ca23a06b9989284404506ab80c159e5af48ed13499fed5"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-06T20:58:51.961775+00:00",
       "entries": [
         {
@@ -8183,15 +8289,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-1.webp": "1e7a94986db1ff2d61e0395a4d866417bf1fcac185ff607cd8d21894ac584365"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -8487,15 +8589,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-1.webp": "a09a14cc4d34d65c2b7df89e8aa851bf1f19f63f80f1ba3d6f7ef18b04c9279d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:58:51.961775+00:00",
+  "generated_at": "2026-10-07T06:27:42.719805+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -5638,7 +5638,7 @@
         "Product number": "530258304",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "DIECAST"
@@ -5650,7 +5650,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef97254a37105aff77b7f21a22d33",
@@ -16549,7 +16549,9 @@
       "name": "Oracle Red Bull Racing RB22 No.3 6th Australian GP 2026 \nMax Verstappen",
       "url": "https://www.sparkmodel.com/products/8991de44-2748-4830-8148-5395be14e7d7",
       "images": [
-        "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-1.webp"
+        "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-1.webp",
+        "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-2.webp",
+        "images/spark-2026-8991de44-2748-4830-8148-5395be14e7d7-3.webp"
       ],
       "properties": {
         "Manufacturer": "Red Bull",
@@ -16857,7 +16859,9 @@
       "name": "Oracle Red Bull Racing RB22 No.6 8th Chinese GP 2026 \nIsack Hadjar",
       "url": "https://www.sparkmodel.com/products/9f9fe042-a6b8-4011-b2c5-308d9c728be2",
       "images": [
-        "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-1.webp"
+        "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-1.webp",
+        "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-2.webp",
+        "images/spark-2026-9f9fe042-a6b8-4011-b2c5-308d9c728be2-3.webp"
       ],
       "properties": {
         "Manufacturer": "Red Bull",
