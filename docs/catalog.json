@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:27:42.719805+00:00",
+  "generated_at": "2026-10-07T13:38:54.693976+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -3125,8 +3125,8 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919c0c070ed8db9b91d5029810f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a8919c0c070ed8db9b91d5029810f-2.jpg",
-        "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg"
+        "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg",
+        "images/minichamps-019a8919c0c070ed8db9b91d5029810f-2.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -6525,7 +6525,13 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/117260312",
       "images": [
-        "images/minichamps-minichamps-1660040-1.jpg"
+        "images/minichamps-minichamps-1660040-1.jpg",
+        "images/minichamps-minichamps-1660040-2.jpg",
+        "images/minichamps-minichamps-1660040-3.jpg",
+        "images/minichamps-minichamps-1660040-4.jpg",
+        "images/minichamps-minichamps-1660040-5.jpg",
+        "images/minichamps-minichamps-1660040-6.jpg",
+        "images/minichamps-minichamps-1660040-7.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -7710,8 +7716,8 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/640260163",
       "images": [
-        "images/minichamps-minichamps-1661380-2.jpg",
-        "images/minichamps-minichamps-1661380-1.jpg"
+        "images/minichamps-minichamps-1661380-1.jpg",
+        "images/minichamps-minichamps-1661380-2.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -15244,7 +15250,9 @@
       "name": "Cadillac Formula 1 Team MAC-26 No.77 Miami GP 2026 \nValtteri Bottas",
       "url": "https://www.sparkmodel.com/products/3140cec2-15e1-4e07-a09f-66c62f95d6db",
       "images": [
-        "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-1.webp"
+        "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-1.webp",
+        "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-2.webp",
+        "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-3.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",

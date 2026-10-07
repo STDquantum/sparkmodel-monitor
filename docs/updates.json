@@ -1,6 +1,191 @@
 {
   "updates": [
     {
+      "date": "2026-10-07T13:38:54.693976+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919c0c070ed8db9b91d5029810f",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919c0c070ed8db9b91d5029810f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "640250263",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/ef/fd/79/1784795244/00_640250263_019f8e16.jpg?ts=1784795244",
+              "after": "https://www.minichamps.de/media/ca/c8/d2/1791373357/00_640250263.jpg?ts=1791373357"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg"
+            ],
+            "moved": [
+              {
+                "from": 1,
+                "to": 2
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg": "4d9ea01b75e6c9f951d57927fc246e922886fdf66113883bec2a2a7240bc0711"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660040",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/117260312",
+          "product_number": "117260312",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/2e/31/3e/1783250377/117260312_n_019f3201.jpg?ts=1783250377",
+              "after": "https://www.minichamps.de/media/f3/aa/7a/1791368830/00_117260312.jpg?ts=1791368830"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1660040-2.jpg",
+              "images/minichamps-minichamps-1660040-3.jpg",
+              "images/minichamps-minichamps-1660040-4.jpg",
+              "images/minichamps-minichamps-1660040-5.jpg",
+              "images/minichamps-minichamps-1660040-6.jpg",
+              "images/minichamps-minichamps-1660040-7.jpg"
+            ],
+            "changed": [
+              "images/minichamps-minichamps-1660040-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1660040-2.jpg": "d4d64577a3afa27c7a529242a65855ce3066d10a7e52fdd0e0858e56cd07a80d",
+              "images/minichamps-minichamps-1660040-3.jpg": "da08c974be247273fa7511f8658b08aa2d0980b16bee463d7ff6b12ed78c7f03",
+              "images/minichamps-minichamps-1660040-4.jpg": "01538a78a814670597c0f1be9393d5719fbe50bcd9478e2f95bda1d745a54c8c",
+              "images/minichamps-minichamps-1660040-5.jpg": "56399eec43ef16d06e0e276d7b24d98164e8692c2f32f5a9182c8ba66ccd7294",
+              "images/minichamps-minichamps-1660040-6.jpg": "ec4a668aff56f8c0a3cd707437771d98819265464b4e55f76b29d088dc40f850",
+              "images/minichamps-minichamps-1660040-7.jpg": "5d5bd69af786b2be74558a100dbdbb194771f5dd66c73b5b806a1a8e4e8ff03e",
+              "images/minichamps-minichamps-1660040-1.jpg": "9a0f0093c6e8a25cae0c2ac80353b53b3b9f7a0a14be110792a3cc288ded0122"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661380",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/640260163",
+          "product_number": "640260163",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/78/56/fa/1783205471/640260163_n_019f2f54.jpg?ts=1783205471",
+              "after": "https://www.minichamps.de/media/41/dd/62/1791374461/00_640260163.jpg?ts=1791374461"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-minichamps-1661380-1.jpg",
+              "images/minichamps-minichamps-1661380-2.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1661380-1.jpg": "dcb249aedb22e5a03c5c7b2a1b6d20cb6e3640765ae20d1326737f69737e8ff7",
+              "images/minichamps-minichamps-1661380-2.jpg": "590c4a108589b4c1bce9826891ca3116cf97a8c26d65f5896759146331bc52a0"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 2
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-7be422aa-3178-44cf-8605-a12d5a9a3120",
+          "name": "Oracle Red Bull Racing RB21 No.1 Winner Abu Dhabi GP 2025\nMax Verstappen\nWith pit board",
+          "url": "https://www.sparkmodel.com/products/7be422aa-3178-44cf-8605-a12d5a9a3120",
+          "product_number": "18S1000",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/732c8d5b-2b67-49dd-9594-8ec9f61e1a23.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/34e6449f-1f42-4771-ad39-0a6f736b405f.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 4,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db",
+          "name": "Cadillac Formula 1 Team MAC-26 No.77 Miami GP 2026 \nValtteri Bottas",
+          "url": "https://www.sparkmodel.com/products/3140cec2-15e1-4e07-a09f-66c62f95d6db",
+          "product_number": "S9406",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/94678e15-4e5f-47da-9fc0-f5c8ba2dd8b8.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6b6e59ec-039e-4dad-a459-33133917de9f.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-2.webp",
+              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-2.webp": "f3dbfbc0c04eb45f76b15e1b2d83ad4dcee19837dcd929e222fe6545c3c2248e",
+              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-3.webp": "8d923278391f511fec9eab1b78270fdfaeae96058e3c7eb5c30c2d8313c9df68",
+              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-1.webp": "4c2328bb1eea4250ebf0fda4f334cb91639027d04c2aee181a2f35d93f0a2e35"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-07T06:27:42.719805+00:00",
       "entries": [
         {
@@ -7009,15 +7194,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-3140cec2-15e1-4e07-a09f-66c62f95d6db-1.webp": "501b5f26c83be43d97e0863131d14f4f3aef18eca15ab832863acc23426a5303"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -14806,9 +14987,7 @@
             }
           ],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1661380-2.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -14817,9 +14996,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1661380-2.jpg": "9381032a433912abf40c799e7971c351defc4239349bf9600c1520714a99d7ea"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -16603,15 +16780,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg": "4a793bbc36dfaa44aac92a55d316bf4b3b4096aadf6bd367afc6838db2be092c"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -20160,15 +20333,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919c0c070ed8db9b91d5029810f-1.jpg": "4a793bbc36dfaa44aac92a55d316bf4b3b4096aadf6bd367afc6838db2be092c"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -30903,15 +31072,11 @@
           "scale": "",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1660040-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1660040-1.jpg": "1c9351e5c476db1d659bde85c37984ff1bf859c6f01ae347762f13311d543be5"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -31835,15 +32000,11 @@
           "scale": "",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1661380-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1661380-1.jpg": "5027670e8da2e9f7a039fd842c88097624f7e545a1e0005d36aeabb64872f3cd"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
