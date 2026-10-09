@@ -1,6 +1,37 @@
 {
   "updates": [
     {
+      "date": "2026-10-09T16:31:00.085509+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2025-322d1029-665a-4a1d-86e1-a741e2c5fc2f",
+          "name": "Red Bull Racing RB21 No.1 Oracle Red Bull Racing\nWinner US GP 2025\nMax Verstappen",
+          "url": "https://www.sparkmodel.com/products/322d1029-665a-4a1d-86e1-a741e2c5fc2f",
+          "product_number": "S9666",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-07T19:36:27.776986+00:00",
       "entries": [
         {

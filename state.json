@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-07T19:36:19.249942+00:00",
+  "updated_at": "2026-10-09T16:30:56.742844+00:00",
   "total": 652,
   "items": {
     "looksmart-19787": {
@@ -3788,7 +3788,7 @@
       "name": "Red Bull Racing RB21 No.1 Oracle Red Bull Racing\nWinner US GP 2025\nMax Verstappen",
       "url": "https://www.sparkmodel.com/products/322d1029-665a-4a1d-86e1-a741e2c5fc2f",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/5f9063e2-b58e-4071-9e36-1d5c7108e443.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "S9666",
       "scale": "1/43",
       "year": "2025",
@@ -6822,10 +6822,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019a89197dea7049a30350c6f9976069",
-      "minichamps-019a8919c0c070ed8db9b91d5029810f",
-      "minichamps-019ef972364f7174837a126388197c27",
-      "minichamps-minichamps-1661380"
+      "spark-2025-322d1029-665a-4a1d-86e1-a741e2c5fc2f"
     ],
     "removed": []
   }
