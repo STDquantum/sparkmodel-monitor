@@ -1,6 +1,149 @@
 {
   "updates": [
     {
+      "date": "2026-10-12T07:19:46.304843+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970b3ff72d1aef523991743895d",
+          "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - G. RUSSELL - WINNER SINGAPORE GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970b3ff72d1aef523991743895d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117251863",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 42/2026"
+            },
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/8b/1e/65/1783250371/117251863_n_019f3201.jpg?ts=1783250371",
+              "after": "https://www.minichamps.de/media/59/29/c8/1791787724/00_117251863.jpg?ts=1791787724"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-2.jpg",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-3.jpg",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-4.jpg",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-5.jpg"
+            ],
+            "changed": [
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-2.jpg": "a3fea096fee67b231f9e92067f43d395180af6ad38e9617343d066fdd19df20e",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-3.jpg": "a2f6357e63bb58357da4dbd856fab512f951d9a64a7af981d30b9bad0df09fa8",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-4.jpg": "69099bbcbacf84646ff5a6bcd922adf046e00b79748a42e76ac18ae4be38399a",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-5.jpg": "8e329ead338315a76d4aea81b79804318b36df68b3bd440703790d7614dd779f",
+              "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg": "3d0d417bca36dd4074aa6a5cfaa80d76851b0d31b6042a406d018e5452dd66a3"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli\n(With pit board)",
+          "url": "https://www.sparkmodel.com/products/286b4fc1-6543-4f50-bcb8-bd295a31a382",
+          "product_number": "18S1260",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0fbf78d5-cef0-4b20-9cd8-bceaac7bc446.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0acf0a00-c805-45c4-8e76-19dbcf5deef5.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-4.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-5.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-6.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-7.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-8.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-9.webp"
+            ],
+            "changed": [
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-1.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-2.webp",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-4.webp": "781178e532f829ab5393003a53a6ecfdffc36853a7aa70eb16e9c34b89003b2f",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-5.webp": "40c25ba1d6c922472609ab34aa4720e86e403c99a170cdf84b69f7a31c08dde1",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-6.webp": "ebdbb7283e3352097da435156d3ea89e5229aae92cefb0d3e8deb63694dc9295",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-7.webp": "6b99b5c33a85a4ce48e36549fb2c90ffad3d150450c8e395bb8dbe3deccafbf0",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-8.webp": "029d803463e904fd09c7bb9dc29874ca90ae6a1f6212afa36026e087a4d6745a",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-9.webp": "0d4571aaccada66c8fe6f97550c9c769ef6fd3b0bf4dff9ced5b341a1536bac2",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-1.webp": "4d9bf9533064e5590bf5f0053cb1e6ae7001a0654de6124610ca49cd43d37b2f",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-2.webp": "7de410ecd1238935928e7743a191fc5e6764997ec736c9bb204383151e2dca2c",
+              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-3.webp": "3d4ae23f595adec8404b7bf7f25f6b1345a8bc4b52139add41665361f61d3705"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e",
+          "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 \nKimi Antonelli\n(With pit board)",
+          "url": "https://www.sparkmodel.com/products/8bfb11d0-6ddf-4295-99b0-7e79e3ee460e",
+          "product_number": "18S1270",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/be59c098-c335-4ce0-ac6f-bea20039f62a.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d995741b-c5f7-49f5-b82b-7fab7184db0e.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-4.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-5.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-6.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-7.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-8.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-9.webp"
+            ],
+            "changed": [
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-1.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-2.webp",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-4.webp": "d1d9d6b1c46df1af3c8da67a9f905fc8952468f80ac50bd3e4142e74ba60a204",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-5.webp": "28ebc2e59fc6c706feb857e8cb8ad9e406d40b1062ad1b5304941b3fa6d5b31c",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-6.webp": "c5863e93b722a9f87fedabdbbf45b496e9ce52f42cb0eff92189cb5ccb16236d",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-7.webp": "1732f7af7ca9e8831ba43acd1004630417ee8cfdae16c70269dff68ee0d80045",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-8.webp": "fa100bfd7bdad0c84d63d334ddafc857ea8eb6b2556a28aff239aa4da5e1a313",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-9.webp": "1e9d596dbc2d30e98834b58626c4396eaac2ea281be4c5bea702a44d275bcc7a",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-1.webp": "db4f5cb2027cae544794ebf8ef49538ded9fc39d935df8d320818ad8b1e45fdd",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-2.webp": "05df6af8a44c988f13532e0ad47b5939b37e3904e5f562baed1f6b43962b69a5",
+              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-3.webp": "1a9cec28acda829b5c8601374984e671950aa8d7d5729ee626659bf236264a5b"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-09T16:31:00.085509+00:00",
       "entries": [
         {
@@ -7173,19 +7316,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-1.webp",
-              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-2.webp",
-              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-1.webp": "e1cf65b3a556ac5351bd98eb9c51d25ae482f8ccf32d03c1c468dafaa6825d71",
-              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-2.webp": "7ff7fa9155efb8231b457b64e342ecaeb8fe82af2e5f4cdc93438b43b64d1592",
-              "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-3.webp": "bd4618418d0bb7cb9b936d3379f291d56f6b8b4fe4cf38fa88aba8641cf8d6b7"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -8715,19 +8850,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-1.webp",
-              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-2.webp",
-              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-1.webp": "fda565178c240feb2a5e62c64078d0738ad413a639825f81e8ff9b806874f4d7",
-              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-2.webp": "63437e2831c4cb4ae19fbac4421183acbef84eef9075964da5bcac8f95149018",
-              "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-3.webp": "27b4cc292af3a1122f6aac72a76aac8893a0eb74d28b191836edec290ceade57"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -17779,15 +17906,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg": "b83d44c64af4c13f544fdce5384ad22b63180ef586e286d997ce6f02c1d6ecfe"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -21328,15 +21451,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg": "b83d44c64af4c13f544fdce5384ad22b63180ef586e286d997ce6f02c1d6ecfe"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

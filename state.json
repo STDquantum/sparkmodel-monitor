@@ -33,7 +33,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-09T16:30:56.742844+00:00",
+  "updated_at": "2026-10-12T07:19:37.945359+00:00",
   "total": 652,
   "items": {
     "looksmart-19787": {
@@ -1517,7 +1517,7 @@
     "minichamps-019ef970b3ff72d1aef523991743895d": {
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - G. RUSSELL - WINNER SINGAPORE GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b3ff72d1aef523991743895d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/8b/1e/65/1783250371/117251863_n_019f3201.jpg?ts=1783250371",
+      "image_url": "https://www.minichamps.de/media/59/29/c8/1791787724/00_117251863.jpg?ts=1791787724",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -5419,7 +5419,7 @@
       "source_id": "286b4fc1-6543-4f50-bcb8-bd295a31a382",
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli\n(With pit board)",
       "url": "https://www.sparkmodel.com/products/286b4fc1-6543-4f50-bcb8-bd295a31a382",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0fbf78d5-cef0-4b20-9cd8-bceaac7bc446.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0acf0a00-c805-45c4-8e76-19dbcf5deef5.webp",
       "availability": "Coming soon",
       "product_number": "18S1260",
       "scale": "1/18",
@@ -6139,7 +6139,7 @@
       "source_id": "8bfb11d0-6ddf-4295-99b0-7e79e3ee460e",
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Chinese GP 2026 \nKimi Antonelli\n(With pit board)",
       "url": "https://www.sparkmodel.com/products/8bfb11d0-6ddf-4295-99b0-7e79e3ee460e",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/be59c098-c335-4ce0-ac6f-bea20039f62a.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d995741b-c5f7-49f5-b82b-7fab7184db0e.webp",
       "availability": "Coming soon",
       "product_number": "18S1270",
       "scale": "1/18",
@@ -6822,7 +6822,9 @@
   "changes": {
     "added": [],
     "changed": [
-      "spark-2025-322d1029-665a-4a1d-86e1-a741e2c5fc2f"
+      "minichamps-019ef970b3ff72d1aef523991743895d",
+      "spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382",
+      "spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e"
     ],
     "removed": []
   }

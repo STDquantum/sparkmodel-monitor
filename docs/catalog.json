@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:31:00.085509+00:00",
+  "generated_at": "2026-10-12T07:19:46.304843+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -4175,7 +4175,11 @@
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - G. RUSSELL - WINNER SINGAPORE GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b3ff72d1aef523991743895d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg"
+        "images/minichamps-019ef970b3ff72d1aef523991743895d-1.jpg",
+        "images/minichamps-019ef970b3ff72d1aef523991743895d-2.jpg",
+        "images/minichamps-019ef970b3ff72d1aef523991743895d-3.jpg",
+        "images/minichamps-019ef970b3ff72d1aef523991743895d-4.jpg",
+        "images/minichamps-019ef970b3ff72d1aef523991743895d-5.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -4185,7 +4189,8 @@
         "Availability": "available for preorder",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 42/2026"
       },
       "description": "",
       "brand": "Minichamps",
@@ -15063,7 +15068,13 @@
       "images": [
         "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-1.webp",
         "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-2.webp",
-        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-3.webp"
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-3.webp",
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-4.webp",
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-5.webp",
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-6.webp",
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-7.webp",
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-8.webp",
+        "images/spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382-9.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
@@ -16635,7 +16646,13 @@
       "images": [
         "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-1.webp",
         "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-2.webp",
-        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-3.webp"
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-3.webp",
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-4.webp",
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-5.webp",
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-6.webp",
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-7.webp",
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-8.webp",
+        "images/spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e-9.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
