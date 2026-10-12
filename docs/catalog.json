@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:19:46.304843+00:00",
+  "generated_at": "2026-10-12T16:52:21.654759+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -467,14 +467,14 @@
         "Product number": "LSF1080",
         "Color": "Race livery"
       },
-      "description": "Ferrari SF-26 Australian GP 2026 – Charles Leclerc 3rd Place Product Code: LSF1080 Color: Race livery Avaliability: Future production PREORDER NOW",
+      "description": "Ferrari SF-26 Australian GP 2026 – Charles Leclerc 3rd Place Product Code: LSF1080 Color: Race livery Avaliability: Yes CHECK OTHER MODELS ON OUR STORE",
       "brand": "Looksmart",
       "price": "",
       "currency": "",
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Yes"
     },
     {
       "id": "looksmart-20780",
@@ -541,14 +541,14 @@
         "Product number": "LSF1081",
         "Color": "Race livery"
       },
-      "description": "Ferrari SF-26 Chinese GP 2026 – Lewis Hamilton 3rd Place Product Code: LSF1081 Color: Race livery Avaliability: Future production PREORDER NOW",
+      "description": "Ferrari SF-26 Chinese GP 2026 – Lewis Hamilton 3rd Place Product Code: LSF1081 Color: Race livery Avaliability: Yes CHECK OTHER MODELS ON OUR STORE",
       "brand": "Looksmart",
       "price": "",
       "currency": "",
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Yes"
     },
     {
       "id": "looksmart-20785",
@@ -1364,6 +1364,77 @@
       "weight": "",
       "length": "",
       "availability": "Future production"
+    },
+    {
+      "id": "looksmart-21437",
+      "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:64",
+      "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-164/",
+      "images": [
+        "images/looksmart-21437-1.jpeg"
+      ],
+      "properties": {
+        "Manufacturer": "Ferrari",
+        "Model": "SF-26",
+        "Scale": "1/64",
+        "Year": "2026",
+        "Product number": "LS64046"
+      },
+      "description": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place",
+      "brand": "Looksmart",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Future production"
+    },
+    {
+      "id": "looksmart-21439",
+      "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:43",
+      "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-143/",
+      "images": [
+        "images/looksmart-21439-1.jpeg"
+      ],
+      "properties": {
+        "Manufacturer": "Ferrari",
+        "Model": "SF-26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "LSF1094",
+        "Color": "Race livery"
+      },
+      "description": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place Product Code: LSF1094 Color: Race livery Avaliability: Future production PREORDER NOW",
+      "brand": "Looksmart",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Future production PREORDER NOW"
+    },
+    {
+      "id": "looksmart-21440",
+      "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:18",
+      "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-118/",
+      "images": [
+        "images/looksmart-21440-1.jpeg"
+      ],
+      "properties": {
+        "Manufacturer": "Ferrari",
+        "Model": "SF-26",
+        "Scale": "1/18",
+        "Year": "2026",
+        "Product number": "LS18F1093",
+        "Color": "Race livery"
+      },
+      "description": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place Product Code: LS18F1093 Color: Race livery Avaliability: Future production PREORDER NOW",
+      "brand": "Looksmart",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Future production PREORDER NOW"
     },
     {
       "id": "minichamps-019a89193bb272329a64a830fd7f80a5",
@@ -2429,17 +2500,22 @@
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - K. ANTONELLI - 3RD PLACE CAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a891984847330be3e01088ab3aab7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a891984847330be3e01088ab3aab7-1.jpg"
+        "images/minichamps-019a891984847330be3e01088ab3aab7-1.jpg",
+        "images/minichamps-019a891984847330be3e01088ab3aab7-2.jpg",
+        "images/minichamps-019a891984847330be3e01088ab3aab7-3.jpg",
+        "images/minichamps-019a891984847330be3e01088ab3aab7-4.jpg",
+        "images/minichamps-019a891984847330be3e01088ab3aab7-5.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "117251012",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, ANDREAS KIMI",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 42/2026"
       },
       "description": "",
       "brand": "Minichamps",
@@ -2448,7 +2524,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a8919868f73b99244bc79779b4484",
@@ -4102,11 +4178,10 @@
         "Product number": "537253104",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
-        "Material": "RESIN",
-        "First delivery": "Calendar week 41/2026"
+        "Material": "RESIN"
       },
       "description": "",
       "brand": "Minichamps",
@@ -4115,7 +4190,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
@@ -4131,11 +4206,10 @@
         "Product number": "537253181",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
-        "Material": "RESIN",
-        "First delivery": "Calendar week 41/2026"
+        "Material": "RESIN"
       },
       "description": "",
       "brand": "Minichamps",
@@ -4144,7 +4218,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef970b36771f0ad447540c4b38569",
@@ -4186,7 +4260,7 @@
         "Product number": "117251863",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
         "Material": "RESIN",
@@ -4199,7 +4273,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef970b5c77390b8454dc5fa49762a",
@@ -5955,32 +6029,6 @@
       "weight": "",
       "length": "",
       "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-640261263",
-      "name": "2-CAR-SET - MERCEDES-AMG PETR. F1 TEAM W17 - ANTONELLI/RUSSELL – BAHRAIN GP IN MALAYSIA 2026",
-      "url": "https://www.minichamps.de/en/2-CAR-SET-MERCEDES-AMG-PETR.-F1-TEAM-W17-ANTONELLI-RUSSELL-BAHRAIN-GP-IN-MALAYSIA-2026/640261263",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "640261263",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
-        "Brand": "MERCEDES-BENZ",
-        "Driver": "ANTONELLI, KIMI",
-        "Material": "DIECAST",
-        "First delivery": "Calendar week 36/2026",
-        "Model": "W17"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "31.5",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "Sold out"
     },
     {
       "id": "minichamps-640261423",
@@ -11530,7 +11578,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2025-6c5153e8-9a95-4d71-937b-2292fdb779a0",
@@ -13740,7 +13788,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2025-e49a1589-6267-44a4-be5a-2d8c85446e01",
@@ -15790,7 +15838,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2026-59215077-4973-4985-922e-b466a335d51b",
@@ -17045,7 +17093,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2026-a7da3da9-91c8-49d4-8197-afe5531910c5",
@@ -17330,7 +17378,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-2026-bb3e2a7b-2d34-482c-952e-2ee3835020f3",
@@ -18135,7 +18183,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     }
   ]
 }

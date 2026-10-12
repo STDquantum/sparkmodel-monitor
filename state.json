@@ -33,8 +33,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-12T07:19:37.945359+00:00",
-  "total": 652,
+  "updated_at": "2026-10-12T16:51:58.972921+00:00",
+  "total": 654,
   "items": {
     "looksmart-19787": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-143/",
@@ -243,7 +243,7 @@
       "manufacturer": "Ferrari",
       "product_number": "LSF1080",
       "scale": "1/43",
-      "availability": "Future production"
+      "availability": "Yes"
     },
     "looksmart-20780": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-australian-gp-2026-charles-leclerc-3rd-place-scale-118/",
@@ -276,7 +276,7 @@
       "manufacturer": "Ferrari",
       "product_number": "LSF1081",
       "scale": "1/43",
-      "availability": "Future production"
+      "availability": "Yes"
     },
     "looksmart-20785": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-chinese-gp-2026-lewis-hamilton-3rd-place-scale-118/",
@@ -652,6 +652,39 @@
       "scale": "1/64",
       "availability": "Future production"
     },
+    "looksmart-21437": {
+      "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-164/",
+      "image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:64",
+      "source": "looksmart",
+      "year": "2026",
+      "manufacturer": "Ferrari",
+      "product_number": "LS64046",
+      "scale": "1/64",
+      "availability": "Future production"
+    },
+    "looksmart-21439": {
+      "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-143/",
+      "image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:43",
+      "source": "looksmart",
+      "year": "2026",
+      "manufacturer": "Ferrari",
+      "product_number": "LSF1094",
+      "scale": "1/43",
+      "availability": "Future production"
+    },
+    "looksmart-21440": {
+      "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-118/",
+      "image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:18",
+      "source": "looksmart",
+      "year": "2026",
+      "manufacturer": "Ferrari",
+      "product_number": "LS18F1093",
+      "scale": "1/18",
+      "availability": "Future production"
+    },
     "minichamps-019a89193bb272329a64a830fd7f80a5": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - AUSTRALIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a89193bb272329a64a830fd7f80a5?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
@@ -978,11 +1011,11 @@
     "minichamps-019a891984847330be3e01088ab3aab7": {
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - K. ANTONELLI - 3RD PLACE CAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a891984847330be3e01088ab3aab7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/bf/d7/51/1783250362/117251012_n_019f3201.jpg?ts=1783250362",
+      "image_url": "https://www.minichamps.de/media/d9/84/4f/1791790508/00_117251012.jpg?ts=1791790508",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019a8919868f73b99244bc79779b4484": {
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER CANADA GP 2025",
@@ -1495,7 +1528,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-019ef970b2d37258976dddf3dc33a82b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
@@ -1504,7 +1537,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-019ef970b36771f0ad447540c4b38569": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AZERBAIJAN GP 2025",
@@ -1521,7 +1554,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019ef970b5c77390b8454dc5fa49762a": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 - WHITE TYRE - EXCL. BBR",
@@ -2010,8 +2043,8 @@
       "availability": "Pre-order"
     },
     "minichamps-117261603": {
-      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS, TROPHY AND COOLER BOX",
-      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS-TROPHY-AND-COOLER-BOX/117261603",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS/117261603",
       "product_number": "117261603",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -2037,8 +2070,8 @@
       "availability": "Pre-order"
     },
     "minichamps-417261603": {
-      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS, TROPHY AND COOLER BOX",
-      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS-TROPHY-AND-COOLER-BOX/417261603",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS/417261603",
       "product_number": "417261603",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -2108,15 +2141,6 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-640261263": {
-      "name": "2-CAR-SET - MERCEDES-AMG PETR. F1 TEAM W17 - ANTONELLI/RUSSELL – BAHRAIN GP IN MALAYSIA 2026",
-      "url": "https://www.minichamps.de/en/2-CAR-SET-MERCEDES-AMG-PETR.-F1-TEAM-W17-ANTONELLI-RUSSELL-BAHRAIN-GP-IN-MALAYSIA-2026/640261263",
-      "product_number": "640261263",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Sold out"
-    },
     "minichamps-640261423": {
       "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
       "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/640261423",
@@ -2136,8 +2160,8 @@
       "availability": "Pre-order"
     },
     "minichamps-640261603": {
-      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS, TROPHY AND COOLER BOX",
-      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS-TROPHY-AND-COOLER-BOX/640261603",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS/640261603",
       "product_number": "640261603",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -3559,7 +3583,7 @@
       "source_id": "06c29789-63ff-4ea7-bbff-c10b3fa29e4d",
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nMiami GP 2025\nIsack Hadjar",
       "url": "https://www.sparkmodel.com/products/06c29789-63ff-4ea7-bbff-c10b3fa29e4d",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c0503cef-4823-4d39-86b7-c0207abc1b0d.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/df93eccb-6601-433e-b2b4-faa9c39577cd.webp",
       "availability": "Catalogue",
       "product_number": "S9628",
       "scale": "1/43",
@@ -4088,7 +4112,7 @@
       "name": "Williams FW47 No.55 Williams Racing\n3rd Azerbaijan GP 2025\nCarlos Sainz \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/6c497cf3-32eb-42ce-b4ae-f980a1c59ca9",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/92269da2-71e8-4496-8a1b-166dc3127215.webp",
-      "availability": "In development",
+      "availability": "Coming soon",
       "product_number": "S9633",
       "scale": "1/43",
       "year": "2025",
@@ -4291,7 +4315,7 @@
       "source_id": "862e3bb7-b819-4d14-be74-d09fa00d06ea",
       "name": "Haas VF-25 No.87 MoneyGram Haas F1 Team \nUS GP 2025\nOliver Bearman",
       "url": "https://www.sparkmodel.com/products/862e3bb7-b819-4d14-be74-d09fa00d06ea",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/35c4ddcb-ccfd-465f-913f-0a0e1d90c20e.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/04e844fa-9464-4a0c-8814-0df6c604aba6.webp",
       "availability": "Catalogue",
       "product_number": "S9647",
       "scale": "1/43",
@@ -4892,7 +4916,7 @@
       "name": "Aston Martin AMR25 No.18 Aston Martin Aramco Formula One Team\n6th Australian GP 2025\nLance Stroll",
       "url": "https://www.sparkmodel.com/products/de3491b5-e4e2-4187-b96c-0b1e25d6db56",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/bddccd3e-64a0-4101-a755-6ed087a0e9c2.webp",
-      "availability": "In development",
+      "availability": "Coming soon",
       "product_number": "Y436",
       "scale": "1/64",
       "year": "2025",
@@ -4915,7 +4939,7 @@
       "source_id": "e6a9d1d9-ca7f-454e-a940-20a6f586c743",
       "name": "Haas VF-25 No.87 MoneyGram Haas F1 Team\nJapanese GP 2025\nOliver Bearman",
       "url": "https://www.sparkmodel.com/products/e6a9d1d9-ca7f-454e-a940-20a6f586c743",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/fbe3a5fd-d2a5-4bfd-b63b-8b1283769051.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f1339375-33f0-4690-9d18-88bff7217267.webp",
       "availability": "Catalogue",
       "product_number": "S9593",
       "scale": "1/43",
@@ -5083,7 +5107,7 @@
       "source_id": "f2ac4ebc-56c8-4cf4-b66e-9e9ceb868b60",
       "name": "Haas VF-25 No.31 MoneyGram Haas F1 Team\nUS GP 2025\nEsteban Ocon",
       "url": "https://www.sparkmodel.com/products/f2ac4ebc-56c8-4cf4-b66e-9e9ceb868b60",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/62b15852-a79c-49eb-81c0-34dc4abaed1d.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7895c255-6782-491a-94fe-833457be176d.webp",
       "availability": "Catalogue",
       "product_number": "S9646",
       "scale": "1/43",
@@ -5732,7 +5756,7 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/568e6629-61b8-407a-89b4-29dd2866aac4",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/699f8e87-bb34-4258-babb-5575314ec8a0.webp",
-      "availability": "In development",
+      "availability": "Coming soon",
       "product_number": "S9378",
       "scale": "1/43",
       "year": "2026",
@@ -6308,7 +6332,7 @@
       "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto\nWith pit board",
       "url": "https://www.sparkmodel.com/products/a73e7476-f3c6-48ad-a4e1-156a5f260720",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/aab4ba34-cfa5-4dc6-bd7f-ca77315b944b.webp",
-      "availability": "In development",
+      "availability": "Coming soon",
       "product_number": "S9367",
       "scale": "1/43",
       "year": "2026",
@@ -6440,7 +6464,7 @@
       "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
       "url": "https://www.sparkmodel.com/products/b973da1c-bacd-41bd-9374-353f8b3e74b9",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/aa7170db-54a3-4c55-9985-b343cfbf5a5b.webp",
-      "availability": "In development",
+      "availability": "Coming soon",
       "product_number": "S9366",
       "scale": "1/43",
       "year": "2026",
@@ -6812,7 +6836,7 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/58f0d4b4-7543-4e08-8f62-830af0abf209.webp",
-      "availability": "In development",
+      "availability": "Coming soon",
       "product_number": "S9389",
       "scale": "1/43",
       "year": "2026",
@@ -6820,12 +6844,31 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "minichamps-019ef970b3ff72d1aef523991743895d",
-      "spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382",
-      "spark-2026-8bfb11d0-6ddf-4295-99b0-7e79e3ee460e"
+    "added": [
+      "looksmart-21437",
+      "looksmart-21439",
+      "looksmart-21440"
     ],
-    "removed": []
+    "changed": [
+      "looksmart-20779",
+      "looksmart-20784",
+      "minichamps-019a891984847330be3e01088ab3aab7",
+      "minichamps-019ef970b2407212bdda29f3bd3534f7",
+      "minichamps-019ef970b2d37258976dddf3dc33a82b",
+      "minichamps-019ef970b3ff72d1aef523991743895d",
+      "spark-2025-06c29789-63ff-4ea7-bbff-c10b3fa29e4d",
+      "spark-2025-6c497cf3-32eb-42ce-b4ae-f980a1c59ca9",
+      "spark-2025-862e3bb7-b819-4d14-be74-d09fa00d06ea",
+      "spark-2025-de3491b5-e4e2-4187-b96c-0b1e25d6db56",
+      "spark-2025-e6a9d1d9-ca7f-454e-a940-20a6f586c743",
+      "spark-2025-f2ac4ebc-56c8-4cf4-b66e-9e9ceb868b60",
+      "spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4",
+      "spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720",
+      "spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9",
+      "spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7"
+    ],
+    "removed": [
+      "minichamps-640261263"
+    ]
   }
 }
