@@ -1,6 +1,81 @@
 {
   "updates": [
     {
+      "date": "2026-10-13T09:38:26.990339+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050",
+          "name": "TGR Haas F1 Team VF-26 No.31 Australian GP 2026 \nEsteban Ocon",
+          "url": "https://www.sparkmodel.com/products/67edc3b2-2fcf-44c5-8b8a-bf5384ce5050",
+          "product_number": "64S136",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8ce50e66-62bb-4642-92c0-b72986cc3834.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0319af9a-6a91-416b-8455-e9db20a12bf8.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-2.webp",
+              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-2.webp": "a6923921302fb942d4d0bf1180c4a85ec2da139ecc167e473e0cad9ef188caab",
+              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-3.webp": "f6f6a384dcd1ed822c9f4336ea74b8bce8b785935cb9aff0671b37766517c703",
+              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-1.webp": "1eefda622378568af57c32fc9aa06a08dadca3d7a49481711bd6f9521cb54f14"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a",
+          "name": "TGR Haas F1 Team VF-26 No.87 5th Chinese GP 2026 \nOliver Bearman",
+          "url": "https://www.sparkmodel.com/products/97ce6f6e-d7c0-4a95-b88b-686a257dd41a",
+          "product_number": "64S137",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/62d523ab-04f8-46a3-a44d-a9ac91181c3e.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/bc5ea9ff-bf72-4be0-8ae2-3b1d946c22b9.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-2.webp",
+              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-2.webp": "8ffef4621b63d3618a5d454be08ebdac3d570a5c0ea32fb9f0f824cb017d91b4",
+              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-3.webp": "6f0ec6f265d93230a4a4a49d3651910ae865fba6ea6640ffd3999934d4ba01eb",
+              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-1.webp": "7a9d628f02def1a89361e2a408dd5c8d95ae403321ed72451d419d00ad11fc39"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-12T16:52:21.654759+00:00",
       "entries": [
         {
@@ -293,7 +368,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -8856,15 +8933,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050-1.webp": "66bd51d68eb080b431be68cadc4ee11f49b42e4b41a8d28e59bdd5166565d2a2"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -9612,15 +9685,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a-1.webp": "83d06c53bd35bc93db13424ac291fce7766e0adbbcf655e9e214bbb61839e960"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
