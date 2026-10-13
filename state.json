@@ -33,8 +33,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=MCL40",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-13T09:38:25.005366+00:00",
-  "total": 654,
+  "updated_at": "2026-10-13T15:59:46.471868+00:00",
+  "total": 663,
   "items": {
     "looksmart-19787": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-143/",
@@ -2051,6 +2051,33 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-117261703": {
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/117261703",
+      "product_number": "117261703",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-117261705": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - SINGAPORE GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-SINGAPORE-GP-2026/117261705",
+      "product_number": "117261705",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-117261727": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/117261727",
+      "product_number": "117261727",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-417261423": {
       "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
       "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/417261423",
@@ -2073,6 +2100,33 @@
       "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS/417261603",
       "product_number": "417261603",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417261703": {
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/417261703",
+      "product_number": "417261703",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417261705": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - SINGAPORE GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-SINGAPORE-GP-2026/417261705",
+      "product_number": "417261705",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417261727": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/417261727",
+      "product_number": "417261727",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -2163,6 +2217,33 @@
       "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS/640261603",
       "product_number": "640261603",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640261703": {
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/640261703",
+      "product_number": "640261703",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640261705": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - SINGAPORE GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-SINGAPORE-GP-2026/640261705",
+      "product_number": "640261705",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640261727": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/640261727",
+      "product_number": "640261727",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6844,11 +6925,18 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "spark-2026-67edc3b2-2fcf-44c5-8b8a-bf5384ce5050",
-      "spark-2026-97ce6f6e-d7c0-4a95-b88b-686a257dd41a"
+    "added": [
+      "minichamps-117261703",
+      "minichamps-117261705",
+      "minichamps-117261727",
+      "minichamps-417261703",
+      "minichamps-417261705",
+      "minichamps-417261727",
+      "minichamps-640261703",
+      "minichamps-640261705",
+      "minichamps-640261727"
     ],
+    "changed": [],
     "removed": []
   }
 }
