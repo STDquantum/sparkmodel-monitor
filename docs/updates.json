@@ -1,6 +1,191 @@
 {
   "updates": [
     {
+      "date": "2026-10-13T15:59:52.288265+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-117261703",
+          "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
+          "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/117261703",
+          "product_number": "117261703",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261705",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - SINGAPORE GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-SINGAPORE-GP-2026/117261705",
+          "product_number": "117261705",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261727",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/117261727",
+          "product_number": "117261727",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261703",
+          "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
+          "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/417261703",
+          "product_number": "417261703",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261705",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - SINGAPORE GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-SINGAPORE-GP-2026/417261705",
+          "product_number": "417261705",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261727",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/417261727",
+          "product_number": "417261727",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261703",
+          "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
+          "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/640261703",
+          "product_number": "640261703",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261705",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - SINGAPORE GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-SINGAPORE-GP-2026/640261705",
+          "product_number": "640261705",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261727",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/640261727",
+          "product_number": "640261727",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-13T09:38:26.990339+00:00",
       "entries": [
         {
