@@ -7,6 +7,7 @@ import webbrowser
 from datetime import date
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+import manual_products
 
 DOCS = Path(__file__).resolve().parent / 'docs'
 TIMES = DOCS / 'product-times.js'
@@ -36,7 +37,7 @@ class Handler(SimpleHTTPRequestHandler):
         super().end_headers()
 
     def do_POST(self):
-        if self.path != '/api/product-times':
+        if self.path not in ('/api/product-times', '/api/products'):
             self.send_error(404)
             return
         # Only same-origin browser requests can change local files.
@@ -49,9 +50,20 @@ class Handler(SimpleHTTPRequestHandler):
             return
         try:
             length = int(self.headers.get('Content-Length', '0'))
-            if not 0 < length <= 4096:
+            limit = 64 * 1024 * 1024 if self.path == '/api/products' else 4096
+            if not 0 < length <= limit:
                 raise ValueError('Invalid request size')
             payload = json.loads(self.rfile.read(length))
+            if self.path == '/api/products':
+                with LOCK:
+                    result = manual_products.save_product(payload)
+                body = json.dumps(result, ensure_ascii=False).encode('utf-8')
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Content-Length', str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+                return
             model = payload['model']
             if not isinstance(model, str) or not model.strip() or len(model) > 200:
                 raise ValueError('Invalid product number')
@@ -84,12 +96,16 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--port', type=int, default=410)
     parser.add_argument('--no-browser', action='store_true')
+    parser.add_argument('--page', choices=['both', 'annotate.html', 'product-editor.html'], default='both')
     args = parser.parse_args()
     with LOCK:
         read_times()
+        manual_products.sync_hashes()
     server = ThreadingHTTPServer(('127.0.0.1', args.port), Handler)
-    url = f'http://127.0.0.1:{args.port}/annotate.html'
-    print(url, flush=True)
-    if not args.no_browser:
-        webbrowser.open(url)
+    pages = ['annotate.html', 'product-editor.html'] if args.page == 'both' else [args.page]
+    for page in pages:
+        url = f'http://127.0.0.1:{args.port}/{page}'
+        print(url, flush=True)
+        if not args.no_browser:
+            webbrowser.open_new_tab(url)
     server.serve_forever()

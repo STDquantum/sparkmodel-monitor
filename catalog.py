@@ -13,6 +13,7 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 import monitor
+import manual_products
 
 DOCS = Path(__file__).with_name("docs")
 IMAGES = DOCS / "images"
@@ -478,6 +479,7 @@ def build_catalog():
     catalog_data = json.dumps(catalog, ensure_ascii=False, separators=(",", ":"))
     CATALOG_SCRIPT_FILE.write_text(f"window.MODEL_CATALOG={catalog_data};\n", encoding="utf-8")
     remove_unused_images(catalog["products"])
+    manual_products.sync_hashes(catalog)
     print(f"Updated {len(products)} products in {DOCS}")
 
 

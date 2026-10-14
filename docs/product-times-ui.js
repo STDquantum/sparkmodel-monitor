@@ -36,7 +36,7 @@ const ProductTimes=(()=>{
   document.addEventListener('DOMContentLoaded',()=>{
     if(!editing)return;
     document.querySelector('h1').textContent='Model Shop · 本地时间标注';
-    const bar=document.createElement('p');bar.innerHTML='<a href="index.html">返回主网页</a> · <span id="time-status">选择日期后自动保存</span>';
+    const bar=document.createElement('p');bar.innerHTML='<a href="index.html">返回主网页</a> · <a href="product-editor.html">添加 / 修改商品</a> · <span id="time-status">选择日期后自动保存</span>';
     document.querySelector('main').prepend(bar);
     if(location.protocol==='file:'){
       const button=document.createElement('button');button.textContent='选择时间 JS，启用自动保存';bar.append(' ',button);
