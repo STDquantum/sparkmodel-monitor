@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:44:40.198108+00:00",
+  "generated_at": "2026-10-14T12:30:48.985976+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -6662,6 +6662,31 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-117261612",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - 2ND PLACE BAHRAIN GP IN MALAYSIA 2026 SPECIAL LIVERY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-2ND-PLACE-BAHRAIN-GP-IN-MALAYSIA-2026-SPECIAL-LIVERY/117261612",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117261612",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-117261703",
       "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/117261703",
@@ -6801,6 +6826,31 @@
         "Driver": "VERSTAPPEN, MAX",
         "Material": "RESIN",
         "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417261612",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - 2ND PLACE BAHRAIN GP IN MALAYSIA 2026 SPECIAL LIVERY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-2ND-PLACE-BAHRAIN-GP-IN-MALAYSIA-2026-SPECIAL-LIVERY/417261612",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417261612",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
+        "Model": "W17"
       },
       "description": "",
       "brand": "Minichamps",
@@ -7055,6 +7105,31 @@
       "description": "",
       "brand": "Minichamps",
       "price": "99.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640261263",
+      "name": "2-CAR-SET - MERCEDES-AMG PETR. F1 TEAM W17 - ANTONELLI/RUSSELL – BAHRAIN GP IN MALAYSIA 2026",
+      "url": "https://www.minichamps.de/en/2-CAR-SET-MERCEDES-AMG-PETR.-F1-TEAM-W17-ANTONELLI-RUSSELL-BAHRAIN-GP-IN-MALAYSIA-2026/640261263",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640261263",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "32.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",

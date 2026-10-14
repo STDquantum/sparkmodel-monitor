@@ -37,8 +37,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-14T06:44:30.268464+00:00",
-  "total": 695,
+  "updated_at": "2026-10-14T12:30:44.997128+00:00",
+  "total": 698,
   "items": {
     "looksmart-19787": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-143/",
@@ -2545,6 +2545,15 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-117261612": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - 2ND PLACE BAHRAIN GP IN MALAYSIA 2026 SPECIAL LIVERY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-2ND-PLACE-BAHRAIN-GP-IN-MALAYSIA-2026-SPECIAL-LIVERY/117261612",
+      "product_number": "117261612",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-117261703": {
       "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER SINGAPORE 2026",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-SINGAPORE-2026/117261703",
@@ -2594,6 +2603,15 @@
       "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER BAHRAIN GP IN MALAYSIA 2026 W/ 2 PITBOARDS",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-BAHRAIN-GP-IN-MALAYSIA-2026-W-2-PITBOARDS/417261603",
       "product_number": "417261603",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417261612": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - 2ND PLACE BAHRAIN GP IN MALAYSIA 2026 SPECIAL LIVERY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-2ND-PLACE-BAHRAIN-GP-IN-MALAYSIA-2026-SPECIAL-LIVERY/417261612",
+      "product_number": "417261612",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -2689,6 +2707,15 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-640261263": {
+      "name": "2-CAR-SET - MERCEDES-AMG PETR. F1 TEAM W17 - ANTONELLI/RUSSELL – BAHRAIN GP IN MALAYSIA 2026",
+      "url": "https://www.minichamps.de/en/2-CAR-SET-MERCEDES-AMG-PETR.-F1-TEAM-W17-ANTONELLI-RUSSELL-BAHRAIN-GP-IN-MALAYSIA-2026/640261263",
+      "product_number": "640261263",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-640261423": {
       "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - SPANISH GP 2026",
       "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-SPANISH-GP-2026/640261423",
@@ -2744,8 +2771,8 @@
       "availability": "Pre-order"
     },
     "minichamps-minichamps-1659915": {
-      "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
-      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE CHINESE GP 2026 W/POLE POSITION TYRE",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
       "image_url": "https://www.minichamps.de/media/09/c6/23/1790796765/00_417260222_01a0f3ce.jpg?ts=1790796765",
       "product_number": "417260222",
       "source": "minichamps",
@@ -7551,10 +7578,12 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "minichamps-019a891984847330be3e01088ab3aab7"
+    "added": [
+      "minichamps-117261612",
+      "minichamps-417261612",
+      "minichamps-640261263"
     ],
+    "changed": [],
     "removed": []
   }
 }

@@ -1,6 +1,71 @@
 {
   "updates": [
     {
+      "date": "2026-10-14T12:30:48.985976+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-117261612",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - 2ND PLACE BAHRAIN GP IN MALAYSIA 2026 SPECIAL LIVERY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-2ND-PLACE-BAHRAIN-GP-IN-MALAYSIA-2026-SPECIAL-LIVERY/117261612",
+          "product_number": "117261612",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261612",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - 2ND PLACE BAHRAIN GP IN MALAYSIA 2026 SPECIAL LIVERY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-2ND-PLACE-BAHRAIN-GP-IN-MALAYSIA-2026-SPECIAL-LIVERY/417261612",
+          "product_number": "417261612",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261263",
+          "name": "2-CAR-SET - MERCEDES-AMG PETR. F1 TEAM W17 - ANTONELLI/RUSSELL – BAHRAIN GP IN MALAYSIA 2026",
+          "url": "https://www.minichamps.de/en/2-CAR-SET-MERCEDES-AMG-PETR.-F1-TEAM-W17-ANTONELLI-RUSSELL-BAHRAIN-GP-IN-MALAYSIA-2026/640261263",
+          "product_number": "640261263",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-14T06:44:40.198108+00:00",
       "entries": [
         {
