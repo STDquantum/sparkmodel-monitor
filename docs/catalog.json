@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:06:37.753295+00:00",
+  "generated_at": "2026-10-14T06:44:40.198108+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -2892,7 +2892,7 @@
         "Product number": "117251012",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, ANDREAS KIMI",
         "Material": "RESIN",
@@ -2905,7 +2905,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019a8919868f73b99244bc79779b4484",

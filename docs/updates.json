@@ -1,6 +1,42 @@
 {
   "updates": [
     {
+      "date": "2026-10-14T06:44:40.198108+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a891984847330be3e01088ab3aab7",
+          "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - K. ANTONELLI - 3RD PLACE CAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a891984847330be3e01088ab3aab7?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117251012",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-14T04:06:37.753295+00:00",
       "entries": [
         {
