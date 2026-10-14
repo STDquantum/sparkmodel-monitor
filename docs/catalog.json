@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:30:48.985976+00:00",
+  "generated_at": "2026-10-14T17:34:17.855683+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -11573,7 +11573,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-1be331b5-bb86-4091-9bad-c95ba3f9f177",
@@ -11745,7 +11745,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-24708f84-01d4-4fc9-9b45-81a6d2a3eb60",
@@ -12050,7 +12050,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-3c7430be-fbb9-40b4-a760-4db936a33b4d",
@@ -14505,7 +14505,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-cce8197f-4f50-444c-9d70-8f9e1b8d2d38",
@@ -15322,7 +15322,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-ecec275a-a56a-4aae-9831-3b1e837ddfdf",

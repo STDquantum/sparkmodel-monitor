@@ -1,6 +1,141 @@
 {
   "updates": [
     {
+      "date": "2026-10-14T17:34:17.855683+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2025-19963ce8-c267-4a70-88c3-c0c24c110d14",
+          "name": "Haas VF-25 No.31 MoneyGram Haas F1 Team\nJapanese GP 2025 \nEsteban Ocon",
+          "url": "https://www.sparkmodel.com/products/19963ce8-c267-4a70-88c3-c0c24c110d14",
+          "product_number": "18S1014",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-230b9ff9-019e-4d6a-a0ad-c74a150ce14d",
+          "name": "Haas VF-25 No.87 MoneyGram Haas F1 Team\nJapanese GP 2025\nOliver Bearman",
+          "url": "https://www.sparkmodel.com/products/230b9ff9-019e-4d6a-a0ad-c74a150ce14d",
+          "product_number": "18S1015",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-3bbf4deb-8d2f-4363-b390-e66ae561854e",
+          "name": "McLaren MCL39 No.4 3rd Abu Dhabi GP 2025\nLando Norris\nF1 Drivers' World Champion 2025\nwith pit board",
+          "url": "https://www.sparkmodel.com/products/3bbf4deb-8d2f-4363-b390-e66ae561854e",
+          "product_number": "18S1118",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-cc50df01-cdb0-464d-83bf-c908bf5c7fd4",
+          "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner Monaco GP 2025 \nLando Norris\nWith pit board",
+          "url": "https://www.sparkmodel.com/products/cc50df01-cdb0-464d-83bf-c908bf5c7fd4",
+          "product_number": "18S1011",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-ec879cc5-3743-4ca8-82a4-13930f876f8a",
+          "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner British GP 2025 \nLando Norris\nWith pit board",
+          "url": "https://www.sparkmodel.com/products/ec879cc5-3743-4ca8-82a4-13930f876f8a",
+          "product_number": "18S1010",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-14T12:30:48.985976+00:00",
       "entries": [
         {

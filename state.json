@@ -37,7 +37,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-14T12:30:44.997128+00:00",
+  "updated_at": "2026-10-14T17:34:13.452394+00:00",
   "total": 698,
   "items": {
     "looksmart-19787": {
@@ -4294,7 +4294,7 @@
       "name": "Haas VF-25 No.31 MoneyGram Haas F1 Team\nJapanese GP 2025 \nEsteban Ocon",
       "url": "https://www.sparkmodel.com/products/19963ce8-c267-4a70-88c3-c0c24c110d14",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f7aa1a3a-0bbe-4a93-890f-c60b4fca9a5f.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "18S1014",
       "scale": "1/18",
       "year": "2025",
@@ -4354,7 +4354,7 @@
       "name": "Haas VF-25 No.87 MoneyGram Haas F1 Team\nJapanese GP 2025\nOliver Bearman",
       "url": "https://www.sparkmodel.com/products/230b9ff9-019e-4d6a-a0ad-c74a150ce14d",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d12c7b43-1c5d-46ca-a3d9-613f39f8a300.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "18S1015",
       "scale": "1/18",
       "year": "2025",
@@ -4462,7 +4462,7 @@
       "name": "McLaren MCL39 No.4 3rd Abu Dhabi GP 2025\nLando Norris\nF1 Drivers' World Champion 2025\nwith pit board",
       "url": "https://www.sparkmodel.com/products/3bbf4deb-8d2f-4363-b390-e66ae561854e",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ab1d743e-f37e-4c64-bf8e-f01b89017c23.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "18S1118",
       "scale": "1/18",
       "year": "2025",
@@ -5350,7 +5350,7 @@
       "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner Monaco GP 2025 \nLando Norris\nWith pit board",
       "url": "https://www.sparkmodel.com/products/cc50df01-cdb0-464d-83bf-c908bf5c7fd4",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/39414b06-4451-41fe-a61a-7ff34416e08d.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "18S1011",
       "scale": "1/18",
       "year": "2025",
@@ -5638,7 +5638,7 @@
       "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner British GP 2025 \nLando Norris\nWith pit board",
       "url": "https://www.sparkmodel.com/products/ec879cc5-3743-4ca8-82a4-13930f876f8a",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/86fc738f-dac7-4059-846d-9f94377dc8aa.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "18S1010",
       "scale": "1/18",
       "year": "2025",
@@ -7578,12 +7578,14 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-117261612",
-      "minichamps-417261612",
-      "minichamps-640261263"
+    "added": [],
+    "changed": [
+      "spark-2025-19963ce8-c267-4a70-88c3-c0c24c110d14",
+      "spark-2025-230b9ff9-019e-4d6a-a0ad-c74a150ce14d",
+      "spark-2025-3bbf4deb-8d2f-4363-b390-e66ae561854e",
+      "spark-2025-cc50df01-cdb0-464d-83bf-c908bf5c7fd4",
+      "spark-2025-ec879cc5-3743-4ca8-82a4-13930f876f8a"
     ],
-    "changed": [],
     "removed": []
   }
 }
