@@ -43,7 +43,7 @@ class DetailParser(HTMLParser):
                 self.description_depth = self.div_depth
                 self.capture = "description"
                 self.text = []
-            if "product-detail-properties" in classes:
+            if "product-detail-properties" in classes.split():
                 self.properties_depth = self.div_depth
         if tag == "meta" and attributes.get("itemprop") in {
             "price", "priceCurrency", "gtin13", "weight", "length", "url"
@@ -248,6 +248,14 @@ def parse_detail(html):
     return parser.fields, parser.properties, parser.images
 
 
+def parse_spark_shop_detail(html):
+    """Sparkmodelshop's Shopware gallery and property table (not Spark API)."""
+    fields, properties, images = parse_detail(html)
+    if not properties.get("Product number"):
+        raise RuntimeError("Sparkmodelshop detail is missing its product number")
+    return fields, properties, images
+
+
 def download_image(url, product_id, index):
     suffix = Path(urlsplit(url).path).suffix or ".webp"
     relative = Path("images") / f"{product_id}-{index}{suffix}"
@@ -280,8 +288,30 @@ def download_unique_images(urls, product_id):
             continue
         seen_hashes.add(image_hash)
         local_images.append(relative)
-    remove_images(product_id, (Path(image).name for image in local_images))
+    # A failed cover refresh must leave the previous cover file usable.
+    previous_covers = [path.name for path in IMAGES.glob(f"{product_id}-shop-cover-*")]
+    remove_images(product_id, [*(Path(image).name for image in local_images), *previous_covers])
     return local_images
+
+
+def apply_preferred_cover(product, listing):
+    if listing.get("source") != "looksmart" or str(listing.get("year")) != "2026" or listing.get("cover_source") != "sparkmodelshop" or not listing.get("cover_url"):
+        return product
+    gallery = listing.get("shop_image_urls")
+    if not gallery:
+        _, properties, gallery = parse_spark_shop_detail(monitor.request(
+            listing["cover_product_url"], source_request=True, referer=monitor.SPARK_SHOP_BASE_URL,
+        ))
+        if properties["Product number"].strip().upper() != listing["product_number"].strip().upper():
+            raise RuntimeError("Shop gallery product number mismatch")
+    if not gallery:
+        raise RuntimeError("Shop detail returned no gallery images")
+    images = download_unique_images([listing["cover_url"], *gallery], f"{product['id']}-shop-gallery")
+    return product | {
+        "images": images, "cover_source": "sparkmodelshop",
+        "cover_url": listing["cover_url"], "cover_product_url": listing.get("cover_product_url", ""),
+        "image_source": "sparkmodelshop", "shop_image_urls": gallery,
+    }
 
 
 def load_catalog():
@@ -324,7 +354,14 @@ def refresh_ids(items, products, changes):
         and product_id in products
         and not products[product_id].get("images")
     }
-    return sorted((changed | (set(items) - set(products)) | missing_search_images) & set(items))
+    changed_covers = {
+        product_id for product_id, listing in items.items()
+        if listing.get("cover_source") == "sparkmodelshop"
+        and (listing.get("cover_url") != products.get(product_id, {}).get("cover_url")
+             or products.get(product_id, {}).get("image_source") != "sparkmodelshop"
+             or listing.get("shop_image_urls") != products.get(product_id, {}).get("shop_image_urls"))
+    }
+    return sorted((changed | (set(items) - set(products)) | missing_search_images | changed_covers) & set(items))
 
 
 def year_from_title(name):
@@ -340,7 +377,7 @@ def build_product(product_id, listing):
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
         local_images = download_unique_images(images, product_id)
-        model_match = re.search(r"\b(?:W17|VF-26|AMR26|VCARB\s*03|MAC-26|A526|R26|RB22|FW48|MCL40)\b", name, re.I)
+        model_match = re.search(r"\b(?:W17|VF-26|AMR26|VCARB\s*03|MAC-26|A526|R26|RB22|FW48|MCL40|SF-26)\b", name, re.I)
         properties = {"Year": listing.get("year", "2026"), "Product number": listing.get("product_number", ""), "Scale": listing.get("scale", ""), **scraped_properties}
         if title_year := year_from_title(name):
             properties["Year"] = title_year
@@ -396,7 +433,7 @@ def build_product(product_id, listing):
         fields, images = parse_looksmart_detail(monitor.request(listing["url"]))
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
-        local_images = download_unique_images(images, product_id)
+        local_images = [] if listing.get("cover_source") == "sparkmodelshop" and str(listing.get("year")) == "2026" else download_unique_images(images, product_id)
         name = fields.get("name") or listing["name"]
         scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", name, re.I)
         scale = listing.get("scale") or (f"1/{scale_match.group(1)}" if scale_match else "")
@@ -409,7 +446,7 @@ def build_product(product_id, listing):
             "Product number": fields.get("sku") or listing.get("product_number", ""),
             "Color": fields.get("color", ""),
         }
-        return {
+        product = {
             "id": product_id,
             "name": name,
             "url": listing["url"],
@@ -424,7 +461,19 @@ def build_product(product_id, listing):
             "length": "",
             "availability": fields.get("availability") or listing.get("availability", ""),
         }
-    fields, properties, images = parse_detail(monitor.request(listing["url"]))
+        return apply_preferred_cover(product, listing)
+    if source == "sparkmodelshop":
+        fields, properties, images = parse_spark_shop_detail(monitor.request(
+            listing["url"], source_request=True, referer=monitor.SPARK_SHOP_BASE_URL,
+        ))
+        if properties["Product number"].strip().upper() != listing["product_number"].strip().upper():
+            raise RuntimeError("Sparkmodelshop listing/detail product number mismatch")
+        properties = {"Year": listing.get("year", "2025"), "Scale": listing.get("scale", ""), **properties}
+        model = re.search(r"\b(?:RB21|VCARB\s*02)\b", fields.get("name") or listing["name"], re.I)
+        if model:
+            properties.setdefault("Model", model.group(0))
+    else:
+        fields, properties, images = parse_detail(monitor.request(listing["url"]))
     if not images and listing.get("image_url"):
         images = [listing["image_url"]]
     local_images = download_unique_images(images, product_id)
@@ -438,7 +487,7 @@ def build_product(product_id, listing):
         "images": local_images,
         "properties": properties,
         "description": fields.get("description", ""),
-        "brand": properties.get("Manufacturer", "Spark"),
+        "brand": "Spark" if source == "sparkmodelshop" else properties.get("Manufacturer", "Spark"),
         "price": fields.get("price", ""),
         "currency": fields.get("priceCurrency", "EUR"),
         "gtin": fields.get("gtin13", ""),

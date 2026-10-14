@@ -29,7 +29,7 @@
 ## 功能
 
 - 从 Spark、Looksmart 和 Minichamps 检索 Formula 1 车模商品。
-- 按商品 ID 汇总检索结果，记录条目、封面图片链接和 Availability 字段。
+- 按商品 ID 汇总检索结果；Spark 与 Sparkmodelshop 按货号去重，Spark 官网优先，记录条目、封面图片链接和 Availability 字段。
 - 通过钉钉机器人发送 Markdown 状态通知。
 - 采集商品属性与图片，生成 JSON 数据和静态网页。
 - 浏览商品条目与图片记录，并在目录页面搜索、筛选、排序和查看商品图片。
@@ -39,10 +39,15 @@
 | 来源 | 检索范围 |
 | --- | --- |
 | Spark | 2025 车型关键词：C45、A525、FW47、MCL39、W16、RB21、VF-25、VCARB 02、AMR25；2026 车型关键词：VF26、MAC26、FW48、AMR26、A526、W17、R26、MCL40、VCARB03、RB22 |
+| Sparkmodelshop（补充） | 2025 VCARB 02、RB21；从搜索卡片读取货号，仅官网未收录的货号进入目录并采集详情和图片 |
 | Looksmart | SF-25、SF-26 搜索结果 |
-| Minichamps | 2025 Formula 1 分类；2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40 |
+| Minichamps | 2025 Formula 1 分类；2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40、SF-26 |
 
 各来源采用其检索页分页结果。Spark 的 2026 条目要求标题包含 `2026`，并排除 `1:5` 比例；Minichamps 与 Looksmart 的车型筛选规则定义于 `monitor.py`。
+
+Sparkmodelshop 独立解析 Shopware 搜索卡片的属性表与库存文字，商品详情解析其属性、描述和原尺寸图库。补充条目要求年份为 2025、厂商为 Spark；货号去重在失败抓取的旧快照恢复后进行，仍优先保留官网记录。它不会替换官网商品的图片或详情。
+
+2026 年 Looksmart 商品的封面和全部详情图优先使用 Sparkmodelshop：每次监控从 SF-26 搜索按货号匹配商品，并读取其详情图库，包含以后新加入的货号。匹配后仅使用完整 Shop 图库，不混入 LS 官网图库；Shop 封面放在首位，按文件内容去重；官网商品名称、属性和描述继续保留。商品详情自动展示 Shop 商品页链接。2025 Looksmart、Spark 和 Minichamps 不受影响。商店无匹配货号时继续检测 LS 官网封面变化并更新官网图库；商店请求失败时保留上次成功的 Shop 图库。封面和商品页记录于 `cover_source`、`cover_url`、`cover_product_url`，图库记录于 `shop_image_urls`，目录的 `image_source` 为 `sparkmodelshop`；已匹配商品的封面变化仅比较 Shop 封面地址，忽略其 LS 官网图片变化；未匹配商品仍比较 LS 官网封面地址；图片时间戳不参与变更判断，Shop 图库新增图片也会触发目录更新。
 
 ## 处理流程
 

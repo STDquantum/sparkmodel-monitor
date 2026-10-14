@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:59:52.288265+00:00",
+  "generated_at": "2026-10-14T04:06:37.753295+00:00",
   "products": [
     {
       "id": "looksmart-19787",
@@ -431,8 +431,9 @@
       "name": "Ferrari SF-26 Australian GP 2026 – Charles Leclerc 3rd Place – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-australian-gp-2026-charles-leclerc-3rd-place-scale-164/",
       "images": [
-        "images/looksmart-20777-1.jpg",
-        "images/looksmart-20777-2.jpg"
+        "images/looksmart-20777-shop-gallery-1.webp",
+        "images/looksmart-20777-shop-gallery-2.webp",
+        "images/looksmart-20777-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -449,15 +450,34 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a4/b2/59/1784945222/305cc69b435348d6ada8a25a6ef5ff54.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/ls64031-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a4/b2/59/1784945222/305cc69b435348d6ada8a25a6ef5ff54.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b8/db/8a/1784945227/d25c4ef6699e40e1982814b819835a1c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/13/f5/17/1784945233/dd695ad74b9e41468e9d24b80ad45de9.webp"
+      ]
     },
     {
       "id": "looksmart-20779",
       "name": "Ferrari SF-26 Australian GP 2026 – Charles Leclerc 3rd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-italy-gp-2025-charles-leclerc-scale-143/",
       "images": [
-        "images/looksmart-20779-1.jpg",
-        "images/looksmart-20779-2.jpg"
+        "images/looksmart-20779-shop-gallery-1.webp",
+        "images/looksmart-20779-shop-gallery-2.webp",
+        "images/looksmart-20779-shop-gallery-3.webp",
+        "images/looksmart-20779-shop-gallery-4.webp",
+        "images/looksmart-20779-shop-gallery-5.webp",
+        "images/looksmart-20779-shop-gallery-6.webp",
+        "images/looksmart-20779-shop-gallery-7.webp",
+        "images/looksmart-20779-shop-gallery-8.webp",
+        "images/looksmart-20779-shop-gallery-9.webp",
+        "images/looksmart-20779-shop-gallery-10.webp",
+        "images/looksmart-20779-shop-gallery-11.webp",
+        "images/looksmart-20779-shop-gallery-12.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -474,15 +494,34 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Yes"
+      "availability": "Yes",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/0d/8f/1788850978/31b22d36b39d497f806a2d0dec937602.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/lsf1080-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/0d/8f/1788850978/31b22d36b39d497f806a2d0dec937602.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1a/91/bc/1790141903/6940e0733a51491f93beb90fee7eb223.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/37/7e/ed/1790141907/fe932c37a0f54c218ac267e00809a1d1.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/61/2a/f0/1790141912/b183b953aa3043f69fd825c29479ff91.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/17/9e/02/1788850984/e64216a167654bc394e9e198a2f1902d.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b9/e9/89/1788850896/f4a12c9be6504b2596e5714ba8e2c4ff.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/79/bd/38/1788851000/786db5205e8b42f3b3f1666d78677f16.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/00/1d/10/1788851012/35be210168f346d2882c016697dd2762.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f3/2d/88/1788850900/91c7aa078d954b72b2a233257f90bffb.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7a/72/6b/1788851010/8944402a5d7a407c98c5568f3a08a9f6.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/04/63/da/1788851019/7112bc65f9c54c899f412208df3132f3.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/cc/94/25/1788851371/164798c717c449b7a145cdaa1127ed9b.webp"
+      ]
     },
     {
       "id": "looksmart-20780",
       "name": "Ferrari SF-26 Australian GP 2026 – Charles Leclerc 3rd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-australian-gp-2026-charles-leclerc-3rd-place-scale-118/",
       "images": [
-        "images/looksmart-20780-1.jpg",
-        "images/looksmart-20780-2.jpg"
+        "images/looksmart-20780-shop-gallery-1.webp",
+        "images/looksmart-20780-shop-gallery-2.webp",
+        "images/looksmart-20780-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -499,14 +538,25 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bb/62/84/1785216978/33230bca64a14e15a9e846c6148cddc7.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/ls18f1080-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bb/62/84/1785216978/33230bca64a14e15a9e846c6148cddc7.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/10/3a/99/1785216990/03807825988b4278bc276e494fe7306c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/eb/4d/1785217008/c8f2d2a93c314483b15025a6f04474e1.webp"
+      ]
     },
     {
       "id": "looksmart-20782",
       "name": "Ferrari SF-26 Chinese GP 2026 – Lewis Hamilton 3rd Place – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-chinese-gp-2026-lewis-hamilton-3rd-place-scale-164/",
       "images": [
-        "images/looksmart-20782-1.png"
+        "images/looksmart-20782-shop-gallery-1.webp",
+        "images/looksmart-20782-shop-gallery-2.webp",
+        "images/looksmart-20782-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -523,15 +573,34 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ba/9b/94/1784945249/ede3351f42154d248d8ecf8f351ddc7b.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/ls64032-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ba/9b/94/1784945249/ede3351f42154d248d8ecf8f351ddc7b.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/01/64/d4/1784945252/2ff34b274a7d46beb0bb6d55c1347f56.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/31/d6/1784945255/4d5e585fe4b046acbbf8e1005b5e217a.webp"
+      ]
     },
     {
       "id": "looksmart-20784",
       "name": "Ferrari SF-26 Chinese GP 2026 – Lewis Hamilton 3rd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-chinese-gp-2026-lewis-hamilton-3rd-place-scale-143/",
       "images": [
-        "images/looksmart-20784-1.jpg",
-        "images/looksmart-20784-2.jpg"
+        "images/looksmart-20784-shop-gallery-1.webp",
+        "images/looksmart-20784-shop-gallery-2.webp",
+        "images/looksmart-20784-shop-gallery-3.webp",
+        "images/looksmart-20784-shop-gallery-4.webp",
+        "images/looksmart-20784-shop-gallery-5.webp",
+        "images/looksmart-20784-shop-gallery-6.webp",
+        "images/looksmart-20784-shop-gallery-7.webp",
+        "images/looksmart-20784-shop-gallery-8.webp",
+        "images/looksmart-20784-shop-gallery-9.webp",
+        "images/looksmart-20784-shop-gallery-10.webp",
+        "images/looksmart-20784-shop-gallery-11.webp",
+        "images/looksmart-20784-shop-gallery-12.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -548,15 +617,34 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Yes"
+      "availability": "Yes",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/lsf1081-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/fb/24/1790142450/7f2602f4d56d4f23920331950ef42a2a.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/17/06/7a/1790142456/80b7d8e4be30402997281cca279ad364.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/4e/7a/1790142463/301cdd7b8d8f468d82265bbb80af20e8.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/dd/9d/50/1789114934/2ab7c27178d5470a8913059cae89da94.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/de/20/75/1789114956/5d608212a09a4a5db727f82923f51ccf.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/16/53/84/1789114944/cf5c7ceba242411988bcd23e5efd6944.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/40/63/51/1789114976/573bc31564714b3cb1c98090dc544f99.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e0/d4/60/1789114945/cfcf858755764d42bf99e5efef38feb7.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/61/d1/1789115090/1b352daf074f4735892e2f51a0a0ddb4.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/75/84/7e/1789115098/6e0571aa08b34adca46a289b7c80f944.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/7a/63/1789115063/f5dfcc7ccbbc497889ec6e7494a5279b.webp"
+      ]
     },
     {
       "id": "looksmart-20785",
       "name": "Ferrari SF-26 Chinese GP 2026 – Lewis Hamilton 3rd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-chinese-gp-2026-lewis-hamilton-3rd-place-scale-118/",
       "images": [
-        "images/looksmart-20785-1.jpg",
-        "images/looksmart-20785-2.jpg"
+        "images/looksmart-20785-shop-gallery-1.webp",
+        "images/looksmart-20785-shop-gallery-2.webp",
+        "images/looksmart-20785-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -573,14 +661,34 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production"
+      "availability": "Future production",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/36/58/44/1785217005/b12d458a0bd3423e85bf8b07c688d0d0.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/ls18f1081-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/36/58/44/1785217005/b12d458a0bd3423e85bf8b07c688d0d0.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/fa/f8/32/1785217014/d6ab428b97f34878b409a2bf9eead194.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8a/6a/64/1785217025/d8ba709751c34074acf6f9e860dee515.webp"
+      ]
     },
     {
       "id": "looksmart-20806",
       "name": "FERRARI SF-26 JAPANESE GP 2026 – LEWIS HAMILTON – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-lewis-hamilton-scale-143/",
       "images": [
-        "images/looksmart-20806-1.jpg"
+        "images/looksmart-20806-shop-gallery-1.webp",
+        "images/looksmart-20806-shop-gallery-2.webp",
+        "images/looksmart-20806-shop-gallery-3.webp",
+        "images/looksmart-20806-shop-gallery-4.webp",
+        "images/looksmart-20806-shop-gallery-5.webp",
+        "images/looksmart-20806-shop-gallery-6.webp",
+        "images/looksmart-20806-shop-gallery-7.webp",
+        "images/looksmart-20806-shop-gallery-8.webp",
+        "images/looksmart-20806-shop-gallery-9.webp",
+        "images/looksmart-20806-shop-gallery-10.webp",
+        "images/looksmart-20806-shop-gallery-11.webp",
+        "images/looksmart-20806-shop-gallery-12.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -597,14 +705,44 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/ed/26/1790140821/128520d361fe41c3a5a1466d6088af30.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-japanese-gp-2026-lewis-hamilton/lsf1083-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/ed/26/1790140821/128520d361fe41c3a5a1466d6088af30.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5f/59/ee/1790140825/02e44d737ca64d41937ca1878a8da0d4.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/66/91/a6/1790140829/77a531ea59df4792a8c11cc8c65e9ce9.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7c/98/b9/1790140832/4e306f85cd6c4e92949befdde8e06a0c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/44/47/fe/1790140835/e9880ca3f9e44e148f4789c7ffc7906c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7e/02/c5/1790140838/2c110f81b9214e4aae0b9c97eaa39478.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/6d/5d/f2/1790140840/1247f5b1ed0a4dfbae7fc29fa1d8919e.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/01/aa/a1/1790140842/38ab1c10f1c047fa947c6a3f6cccbf3d.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1f/d6/45/1790140845/fcc1d2d4dc3a4378be25690b8aeb9b08.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/76/c6/13/1790140849/32c5ece5374a4c42a16f2c680f326f8e.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/42/3a/61/1790140854/f4a17f32292342fd8d711fa7adc8928c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/34/61/a8/1790140858/a46b4fb3e0764a5c97e5029ce08f2ee8.webp"
+      ]
     },
     {
       "id": "looksmart-20808",
       "name": "FERRARI SF-26 JAPANESE GP 2026 – CHARLES LECLERC 3RD PLACE – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-italy-gp-2025-charles-leclerc-scale-143-copy/",
       "images": [
-        "images/looksmart-20808-1.jpg"
+        "images/looksmart-20808-shop-gallery-1.webp",
+        "images/looksmart-20808-shop-gallery-2.webp",
+        "images/looksmart-20808-shop-gallery-3.webp",
+        "images/looksmart-20808-shop-gallery-4.webp",
+        "images/looksmart-20808-shop-gallery-5.webp",
+        "images/looksmart-20808-shop-gallery-6.webp",
+        "images/looksmart-20808-shop-gallery-7.webp",
+        "images/looksmart-20808-shop-gallery-8.webp",
+        "images/looksmart-20808-shop-gallery-9.webp",
+        "images/looksmart-20808-shop-gallery-10.webp",
+        "images/looksmart-20808-shop-gallery-11.webp",
+        "images/looksmart-20808-shop-gallery-12.webp",
+        "images/looksmart-20808-shop-gallery-13.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -621,15 +759,35 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/lsf1082-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/d4/14/68/1790648117/2135d71e641a49c3bce591b8ef3511c6.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/31/8d/1790648120/56748e6eee0b491cb854a67ad38d816c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c7/59/1a/1790648152/7f18a8fdcc41433d9706f8ac49e354c8.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/cc/11/d2/1790648122/48fd00f8fa5d4e5785abfc8366fd5c7c.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1f/8c/2e/1790648130/b9228882b20a480db4678ba0a40f245b.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/88/47/17/1790648125/4c36ed8258b744e08aa323b94d5d42a4.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/24/64/7b/1790648203/b0d2e53c35d448348e60f63529020705.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a5/6d/a4/1790648190/d76338a7a4e244029f4320ec3cf0c6d8.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a8/87/20/1790648217/a20ef3bec06346a197742f04541a33b9.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f6/4d/51/1790648180/4bdedd8b147b464d8f6fce82a3292f49.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/8e/66/1790648144/3a97f61e325d417388fe95d5eba36867.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/47/3b/ed/1790648169/454014e3f9ba44d589d5777fb5c39acb.webp"
+      ]
     },
     {
       "id": "looksmart-20810",
       "name": "Ferrari SF-26 Japanese GP 2026 – Charles Leclerc 3rd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-charles-leclerc-3rd-place-scale-118/",
       "images": [
-        "images/looksmart-20810-1.jpg",
-        "images/looksmart-20810-2.jpg"
+        "images/looksmart-20810-shop-gallery-1.webp",
+        "images/looksmart-20810-shop-gallery-2.webp",
+        "images/looksmart-20810-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -646,14 +804,25 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/43/16/1b/1785924942/9835f41dfc0245cab58395414d6bfd75.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/ls18f1082-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/43/16/1b/1785924942/9835f41dfc0245cab58395414d6bfd75.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2a/c2/b4/1785924938/c49a217f870d48979b9ae831f0ce25df.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/81/1f/83/1785924943/804db4a1212d471597bc530a9d43cdea.webp"
+      ]
     },
     {
       "id": "looksmart-20811",
       "name": "Ferrari SF-26 Japanese GP 2026 – Charles Leclerc 3rd Place – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-charles-leclerc-3rd-place-scale-164/",
       "images": [
-        "images/looksmart-20811-1.jpg"
+        "images/looksmart-20811-shop-gallery-1.webp",
+        "images/looksmart-20811-shop-gallery-2.webp",
+        "images/looksmart-20811-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -670,14 +839,23 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/6d/aa/1784967199/a57f34012be84f6a964b99569a9d0eb6.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/ls64033-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/6d/aa/1784967199/a57f34012be84f6a964b99569a9d0eb6.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/41/cb/c2/1784967216/5e2fbc7562f84a41af6469fad7057571.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/99/e0/e1/1784967206/024cef9748b742d4920aa09791baef66.webp"
+      ]
     },
     {
       "id": "looksmart-20958",
       "name": "Ferrari SF-26 Canadian GP 2026 – Lewis Hamilton 2nd Place – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-canadian-gp-2026-lewis-hamilton-2nd-place-scale-164/",
       "images": [
-        "images/looksmart-20958-1.jpg"
+        "images/looksmart-20958-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -694,14 +872,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/72/16/1784563317/5b32728c901a40e5bcce9b4dc6316ea5.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls64034-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/72/16/1784563317/5b32728c901a40e5bcce9b4dc6316ea5.webp"
+      ]
     },
     {
       "id": "looksmart-20960",
       "name": "Ferrari SF-26 Canadian GP 2026 – Lewis Hamilton 2nd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-lewis-hamilton-scale-143-2/",
       "images": [
-        "images/looksmart-20960-1.jpg"
+        "images/looksmart-20960-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -718,14 +903,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4b/b5/bf/1784563417/4859470fa1c847a09a6b4b64c5e313b4.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/lsf1084-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4b/b5/bf/1784563417/4859470fa1c847a09a6b4b64c5e313b4.webp"
+      ]
     },
     {
       "id": "looksmart-20961",
       "name": "Ferrari SF-26 Canadian GP 2026 – Lewis Hamilton 2nd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-canadian-gp-2026-lewis-hamilton-2nd-place-scale-118/",
       "images": [
-        "images/looksmart-20961-1.png"
+        "images/looksmart-20961-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -742,14 +934,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/ca/aa/1784563126/b43ebd3064b34d0d9ab4b2a215c80bac.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls18f1083-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/ca/aa/1784563126/b43ebd3064b34d0d9ab4b2a215c80bac.webp"
+      ]
     },
     {
       "id": "looksmart-20963",
       "name": "Ferrari SF-26 Canadian GP 2026 – Charles Leclerc – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-charles-leclerc-3rd-place-scale-164-copy/",
       "images": [
-        "images/looksmart-20963-1.jpg"
+        "images/looksmart-20963-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -766,14 +965,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/14/37/1784563323/7ec1e6e381944c8e8aaef8f96b135c91.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls64035-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/14/37/1784563323/7ec1e6e381944c8e8aaef8f96b135c91.webp"
+      ]
     },
     {
       "id": "looksmart-20965",
       "name": "Ferrari SF-26 Canadian GP 2026 – Charles Leclerc – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-italy-gp-2025-charles-leclerc-scale-143-copy-2/",
       "images": [
-        "images/looksmart-20965-1.jpg"
+        "images/looksmart-20965-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -790,14 +996,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/e5/a3/1784563422/264aa7dec9cb4867a27f56a91fed8766.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/lsf1085-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/e5/a3/1784563422/264aa7dec9cb4867a27f56a91fed8766.webp"
+      ]
     },
     {
       "id": "looksmart-20966",
       "name": "Ferrari SF-26 Canadian GP 2026 – Charles Leclerc – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-canadian-gp-2026-charles-leclerc-scale-118/",
       "images": [
-        "images/looksmart-20966-1.jpg"
+        "images/looksmart-20966-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -814,14 +1027,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/52/9a/3e/1784563130/11ba88c5746b46a7b27ec54632b2e297.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls18f1084-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/52/9a/3e/1784563130/11ba88c5746b46a7b27ec54632b2e297.webp"
+      ]
     },
     {
       "id": "looksmart-21011",
       "name": "Ferrari SF-26 Monaco GP 2026 – Lewis Hamilton 2nd Place – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-monaco-gp-2026-lewis-hamilton-2nd-place-scale-164/",
       "images": [
-        "images/looksmart-21011-1.jpg"
+        "images/looksmart-21011-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -838,14 +1058,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/88/a0/14/1784563328/02b30215df4844faa9c8c1cd85ea981a.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/ls64036-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/88/a0/14/1784563328/02b30215df4844faa9c8c1cd85ea981a.webp"
+      ]
     },
     {
       "id": "looksmart-21012",
       "name": "FERRARI SF-26 MONACO GP 2026 – LEWIS HAMILTON 2ND PLACE – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-canadian-gp-2026-lewis-hamilton-2nd-place-scale-143/",
       "images": [
-        "images/looksmart-21012-1.jpg"
+        "images/looksmart-21012-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -862,14 +1089,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2d/75/fe/1784563427/350c5d30b8d64612b07380f91c173f78.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/lsf1086-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2d/75/fe/1784563427/350c5d30b8d64612b07380f91c173f78.webp"
+      ]
     },
     {
       "id": "looksmart-21014",
       "name": "FERRARI SF-26 MONACO GP 2026 – LEWIS HAMILTON 2ND PLACE – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-canadian-gp-2026-lewis-hamilton-2nd-place-scale-118-2/",
       "images": [
-        "images/looksmart-21014-1.jpg"
+        "images/looksmart-21014-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -886,14 +1120,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1b/3a/24/1784563135/e58e753fc7804f0986d5562658e2a6c6.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/ls18f1085-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1b/3a/24/1784563135/e58e753fc7804f0986d5562658e2a6c6.webp"
+      ]
     },
     {
       "id": "looksmart-21038",
       "name": "FERRARI SF-26 CATALUNYA GP 2026 – LEWIS HAMILTON WINNER – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-monaco-gp-2026-lewis-hamilton-2nd-place-scale-164-copy/",
       "images": [
-        "images/looksmart-21038-1.jpg"
+        "images/looksmart-21038-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -910,14 +1151,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls64037-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp"
+      ]
     },
     {
       "id": "looksmart-21040",
       "name": "Ferrari SF-26 Catalunya GP 2026 – Lewis Hamilton Winner – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner-scale-143/",
       "images": [
-        "images/looksmart-21040-1.jpg"
+        "images/looksmart-21040-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -934,14 +1182,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9e/54/a5/1784563432/c63678ab66a44baea4c094e1f08e010d.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/lsf1087-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9e/54/a5/1784563432/c63678ab66a44baea4c094e1f08e010d.webp"
+      ]
     },
     {
       "id": "looksmart-21041",
       "name": "Ferrari SF-26 Catalunya GP 2026 – Lewis Hamilton Winner – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner-scale-118/",
       "images": [
-        "images/looksmart-21041-1.jpg"
+        "images/looksmart-21041-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -958,14 +1213,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9a/f8/5d/1784563140/8eb49ab4490140c5a0b1bfacea79f0b1.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls18f1086-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9a/f8/5d/1784563140/8eb49ab4490140c5a0b1bfacea79f0b1.webp"
+      ]
     },
     {
       "id": "looksmart-21042",
       "name": "Ferrari SF-26 Catalunya GP 2026 – Lewis Hamilton Winner Scale 1:12",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner-scale-112/",
       "images": [
-        "images/looksmart-21042-1.jpg"
+        "images/looksmart-21042-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -982,14 +1244,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production Scale: 1:12 PREORDER NOW"
+      "availability": "Future production Scale: 1:12 PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/dd/87/1784563091/c956f35d40764a14b8a3a71cd772dda2.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls1228-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/dd/87/1784563091/c956f35d40764a14b8a3a71cd772dda2.webp"
+      ]
     },
     {
       "id": "looksmart-21137",
       "name": "Ferrari SF-26 British GP 2026 – Charles Leclerc Winner – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-british-gp-2026-charles-leclerc-winner-scale-164/",
       "images": [
-        "images/looksmart-21137-1.jpg"
+        "images/looksmart-21137-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1005,14 +1274,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production"
+      "availability": "Future production",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/74/dc/31/1784563348/c81a3e2de91f45ecafeb1fba96ee550e.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/ls64041-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/74/dc/31/1784563348/c81a3e2de91f45ecafeb1fba96ee550e.webp"
+      ]
     },
     {
       "id": "looksmart-21139",
       "name": "Ferrari SF-26 British GP 2026 – Charles Leclerc Winner – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-british-gp-2026-charles-leclerc-winner-scale-143/",
       "images": [
-        "images/looksmart-21139-1.jpg"
+        "images/looksmart-21139-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1029,14 +1305,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/98/36/36/1784563436/743c3e81ea0d4beb93db4bfd62d0c9c8.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/lsf1088-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/98/36/36/1784563436/743c3e81ea0d4beb93db4bfd62d0c9c8.webp"
+      ]
     },
     {
       "id": "looksmart-21141",
       "name": "Ferrari SF-26 British GP 2026 – Charles Leclerc Winner – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-british-gp-2026-charles-leclerc-winner-scale-118/",
       "images": [
-        "images/looksmart-21141-1.jpg"
+        "images/looksmart-21141-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1053,14 +1336,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/50/2a/1784563145/32a2fa45497a42898e1396e6a0e18406.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/ls18f1087-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/50/2a/1784563145/32a2fa45497a42898e1396e6a0e18406.webp"
+      ]
     },
     {
       "id": "looksmart-21142",
       "name": "Ferrari SF-26 British GP 2026 – Charles Leclerc Winner Scale 1:12",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-british-gp-2026-charles-leclerc-winner-scale-112/",
       "images": [
-        "images/looksmart-21142-1.jpg"
+        "images/looksmart-21142-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1077,14 +1367,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production Scale: 1:12 PREORDER NOW"
+      "availability": "Future production Scale: 1:12 PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/34/cf/1784874737/996e12832c5745b6aa0a1b0bc569dce4.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/ls1230-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/34/cf/1784874737/996e12832c5745b6aa0a1b0bc569dce4.webp"
+      ]
     },
     {
       "id": "looksmart-21143",
       "name": "Ferrari SF-26 British GP 2026 – Lewis Hamilton 3rd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-british-gp-2026-lewis-hamilton-3rd-place-scale-143/",
       "images": [
-        "images/looksmart-21143-1.jpg"
+        "images/looksmart-21143-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1101,14 +1398,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9d/75/47/1784563440/7d8ec6a6b46f4e79a01f31e81561541e.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-3rd-british-gp-2026-lewis-hamilton/lsf1089-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9d/75/47/1784563440/7d8ec6a6b46f4e79a01f31e81561541e.webp"
+      ]
     },
     {
       "id": "looksmart-21146",
       "name": "Ferrari SF-26 British GP 2026 – Lewis Hamilton 3rd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-british-gp-2026-lewis-hamilton-3rd-place-scale-118/",
       "images": [
-        "images/looksmart-21146-1.jpg"
+        "images/looksmart-21146-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1125,14 +1429,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f8/83/73/1784563148/ba8620194ace4589910fd36d2abc3d95.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-3rd-british-gp-2026-lewis-hamilton/ls18f1088-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f8/83/73/1784563148/ba8620194ace4589910fd36d2abc3d95.webp"
+      ]
     },
     {
       "id": "looksmart-21160",
       "name": "Ferrari SF-26 Belgium GP 2026 – Charles Leclerc 2nd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-belgium-gp-2026-charles-leclerc-2nd-place-scale-118/",
       "images": [
-        "images/looksmart-21160-1.jpg"
+        "images/looksmart-21160-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1149,14 +1460,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e7/c6/f2/1784864773/5d6e1a6d2aaf4beebd9fb0570dc6d586.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-belgian-gp-2026-charles-leclerc/ls18f1089-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e7/c6/f2/1784864773/5d6e1a6d2aaf4beebd9fb0570dc6d586.webp"
+      ]
     },
     {
       "id": "looksmart-21162",
       "name": "Ferrari SF-26 Belgium GP 2026 – Charles Leclerc 2nd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-belgium-gp-2026-charles-leclerc-2nd-place-scale-143/",
       "images": [
-        "images/looksmart-21162-1.jpg"
+        "images/looksmart-21162-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1173,14 +1491,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/25/a8/e6/1784864773/eafcc8b8e0a142be8f3d2a715fb93332.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-belgian-gp-2026-charles-leclerc/lsf1090-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/25/a8/e6/1784864773/eafcc8b8e0a142be8f3d2a715fb93332.webp"
+      ]
     },
     {
       "id": "looksmart-21163",
       "name": "Ferrari SF-26 Belgium GP 2026 – Lewis Hamilton – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-belgium-gp-2026-lewis-hamilton-scale-143/",
       "images": [
-        "images/looksmart-21163-1.jpg"
+        "images/looksmart-21163-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1197,14 +1522,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/27/94/37/1784864773/39c7a6b922474908803955523818c681.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-belgian-gp-2026-lewis-hamilton/lsf1091-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/27/94/37/1784864773/39c7a6b922474908803955523818c681.webp"
+      ]
     },
     {
       "id": "looksmart-21165",
       "name": "Ferrari SF-26 Belgium GP 2026 – Lewis Hamilton – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-belgium-gp-2026-lewis-hamilton-scale-118/",
       "images": [
-        "images/looksmart-21165-1.jpg"
+        "images/looksmart-21165-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1221,14 +1553,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/40/25/a5/1784864776/e4a86b38c32049888ad699b69e3fa654.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-belgian-gp-2026-lewis-hamilton/ls18f1090-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/40/25/a5/1784864776/e4a86b38c32049888ad699b69e3fa654.webp"
+      ]
     },
     {
       "id": "looksmart-21348",
       "name": "Ferrari SF-26 Italian GP 2026 – Lewis Hamilton – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-italian-gp-2026-lewis-hamilton-scale-143/",
       "images": [
-        "images/looksmart-21348-1.jpg"
+        "images/looksmart-21348-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1245,14 +1584,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/21/c1/b0/1789464638/e18bfe2ac4ef4ffb834acb6e4439ba9a.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/lsf1092-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/21/c1/b0/1789464638/e18bfe2ac4ef4ffb834acb6e4439ba9a.webp"
+      ]
     },
     {
       "id": "looksmart-21351",
       "name": "Ferrari SF-26 Italian GP 2026 – Lewis Hamilton – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-italian-gp-2026-lewis-hamilton-scale-118-copy/",
       "images": [
-        "images/looksmart-21351-1.jpg"
+        "images/looksmart-21351-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1269,14 +1615,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/37/c8/1789464628/2352c4a812634f09942fd4441d4d9286.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/ls18f1091-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/37/c8/1789464628/2352c4a812634f09942fd4441d4d9286.webp"
+      ]
     },
     {
       "id": "looksmart-21352",
       "name": "Ferrari SF-26 Italian GP 2026 – Charles Leclerc – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-italian-gp-2026-charles-leclerc-scale-143/",
       "images": [
-        "images/looksmart-21352-1.jpg"
+        "images/looksmart-21352-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1293,14 +1646,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8a/3f/76/1789464630/225e8fb20cef41ba86fd8da20a5c8305.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/lsf1093-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8a/3f/76/1789464630/225e8fb20cef41ba86fd8da20a5c8305.webp"
+      ]
     },
     {
       "id": "looksmart-21354",
       "name": "Ferrari SF-26 Italian GP 2026 – Charles Leclerc – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-italian-gp-2026-charles-leclerc-scale-118/",
       "images": [
-        "images/looksmart-21354-1.jpg"
+        "images/looksmart-21354-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1317,14 +1677,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/02/32/5e/1789464636/8986de4519bc492eb0997a9e8f705707.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/ls18f1092-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/02/32/5e/1789464636/8986de4519bc492eb0997a9e8f705707.webp"
+      ]
     },
     {
       "id": "looksmart-21384",
       "name": "Ferrari SF-26 Italian GP 2026 – Lewis Hamilton – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-italian-gp-2026-lewis-hamilton-scale-164/",
       "images": [
-        "images/looksmart-21384-1.jpg"
+        "images/looksmart-21384-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1340,14 +1707,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production"
+      "availability": "Future production",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/91/56/e0/1789638438/66a88060fdbc4e51819546a9bbe19cc4.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-italian-gp-2026-lewis-hamilton/ls64044-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/91/56/e0/1789638438/66a88060fdbc4e51819546a9bbe19cc4.webp"
+      ]
     },
     {
       "id": "looksmart-21387",
       "name": "Ferrari SF-26 Italian GP 2026 – Charles Leclerc – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-italian-gp-2026-charles-leclerc-scale-164/",
       "images": [
-        "images/looksmart-21387-1.jpg"
+        "images/looksmart-21387-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -1363,7 +1737,14 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production"
+      "availability": "Future production",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/86/3d/2a/1789638435/6e7a2057fb2f4548b7bead89b0e5e82e.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-italian-gp-2026-charles-leclerc/ls64045-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/86/3d/2a/1789638435/6e7a2057fb2f4548b7bead89b0e5e82e.webp"
+      ]
     },
     {
       "id": "looksmart-21437",
@@ -5749,6 +6130,506 @@
       "description": "",
       "brand": "Minichamps",
       "price": "26.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b64e8716fa8732fa83ad36c65",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - CHINA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-CHINA-GP-2026-W-DRIVER-FIGURINE/BBR261816",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR261816",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b667870e9b95c0280348483c3",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE CHINA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-CHINA-GP-2026-W-DRIVER-FIGURINE/BBR261844",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR261844",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b67fe712697f1633217661a05",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR261916",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR261916",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b697173c79078837116129b23",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR261944",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR261944",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b6ae97249a3e47bf08df4ff2f",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - SPAIN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-SPAIN-GP-2026-W-DRIVER-FIGURINE/BBR262016",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR262016",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b6c627157ab316fb30a55ee31",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - WINNER SPAIN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-WINNER-SPAIN-GP-2026-W-DRIVER-FIGURINE/BBR262044",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR262044",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b6dd773da8cc8009f671e2bff",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - WINNER BRITISH GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-WINNER-BRITISH-GP-2026-W-DRIVER-FIGURINE/BBR262116",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR262116",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f612b6f427177b5a215be8b900ec6",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE BRITISH GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-BRITISH-GP-2026-W-DRIVER-FIGURINE/BBR262144",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR262144",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f620733c17178bbab08a59e2421b9",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - CHINA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-CHINA-GP-2026-W-DRIVER-FIGURINE/BBR264316",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264316",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f62073563701ea1869b902ed6cb4d",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE CHINA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-CHINA-GP-2026-W-DRIVER-FIGURINE/BBR264344",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264344",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f620736fc71e386ba8e1c59f76866",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR264416",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264416",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f62073883733e97e4525dcb1638d6",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR264444",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264444",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f620739ed7085ac9aaed60bd46dcd",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - SPAIN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-SPAIN-GP-2026-W-DRIVER-FIGURINE/BBR264516",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264516",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f62073b7673abb1cdd659b0470660",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - WINNER SPAIN GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-WINNER-SPAIN-GP-2026-W-DRIVER-FIGURINE/BBR264544",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264544",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f62073ce1706b990cbc0b2ed7e041",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - WINNER BRITISH GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-WINNER-BRITISH-GP-2026-W-DRIVER-FIGURINE/BBR264616",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264616",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019f62073e467154ac6cb9c50c30a209",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE BRITISH GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-BRITISH-GP-2026-W-DRIVER-FIGURINE/BBR264644",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264644",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a0a11c471572d8b7e3b530ad0f19bf",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - MONZA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-MONZA-GP-2026-W-DRIVER-FIGURINE/BBR262216",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR262216",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a0a11c489572f3afe3ef06a92826dc",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - MONZA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-MONZA-GP-2026-W-DRIVER-FIGURINE/BBR262244",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR262244",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "229.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a0a11c5388707cbd2bbae530dfbd22",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - MONZA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-MONZA-GP-2026-W-DRIVER-FIGURINE/BBR264716",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264716",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "LECLERC, CHARLES",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a0a11c54e871e288c165668acbb6c1",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - MONZA GP 2026 W/DRIVER FIGURINE",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-MONZA-GP-2026-W-DRIVER-FIGURINE/BBR264744",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBR264744",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "FERRARI",
+        "Driver": "HAMILTON, LEWIS",
+        "Material": "DIECAST",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "197.5",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -17107,7 +17988,9 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
       "url": "https://www.sparkmodel.com/products/9c45972f-6b99-47b7-a27a-8be73d3eb5fa",
       "images": [
-        "images/spark-2026-9c45972f-6b99-47b7-a27a-8be73d3eb5fa-1.webp"
+        "images/spark-2026-9c45972f-6b99-47b7-a27a-8be73d3eb5fa-1.webp",
+        "images/spark-2026-9c45972f-6b99-47b7-a27a-8be73d3eb5fa-2.webp",
+        "images/spark-2026-9c45972f-6b99-47b7-a27a-8be73d3eb5fa-3.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
@@ -18413,6 +19296,385 @@
       "weight": "",
       "length": "",
       "availability": "Coming soon"
+    },
+    {
+      "id": "spark-shop-2025-18S1111",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (With pit board)",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/18s1111-de",
+      "images": [
+        "images/spark-shop-2025-18S1111-1.webp",
+        "images/spark-shop-2025-18S1111-2.webp",
+        "images/spark-shop-2025-18S1111-3.webp",
+        "images/spark-shop-2025-18S1111-4.webp",
+        "images/spark-shop-2025-18S1111-5.webp",
+        "images/spark-shop-2025-18S1111-6.webp",
+        "images/spark-shop-2025-18S1111-7.webp",
+        "images/spark-shop-2025-18S1111-8.webp",
+        "images/spark-shop-2025-18S1111-9.webp",
+        "images/spark-shop-2025-18S1111-10.webp",
+        "images/spark-shop-2025-18S1111-11.webp",
+        "images/spark-shop-2025-18S1111-12.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/18",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "18S1111",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9581677811119",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677811119",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-18S1114",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/18s1114-de",
+      "images": [
+        "images/spark-shop-2025-18S1114-1.webp",
+        "images/spark-shop-2025-18S1114-2.webp",
+        "images/spark-shop-2025-18S1114-3.webp",
+        "images/spark-shop-2025-18S1114-4.webp",
+        "images/spark-shop-2025-18S1114-5.webp",
+        "images/spark-shop-2025-18S1114-6.webp",
+        "images/spark-shop-2025-18S1114-7.webp",
+        "images/spark-shop-2025-18S1114-8.webp",
+        "images/spark-shop-2025-18S1114-9.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/18",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "18S1114",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9581677811140",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677811140",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-18S1117",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/18s1117-de",
+      "images": [
+        "images/spark-shop-2025-18S1117-1.webp",
+        "images/spark-shop-2025-18S1117-2.webp",
+        "images/spark-shop-2025-18S1117-3.webp",
+        "images/spark-shop-2025-18S1117-4.webp",
+        "images/spark-shop-2025-18S1117-5.webp",
+        "images/spark-shop-2025-18S1117-6.webp",
+        "images/spark-shop-2025-18S1117-7.webp",
+        "images/spark-shop-2025-18S1117-8.webp",
+        "images/spark-shop-2025-18S1117-9.webp",
+        "images/spark-shop-2025-18S1117-10.webp",
+        "images/spark-shop-2025-18S1117-11.webp",
+        "images/spark-shop-2025-18S1117-12.webp",
+        "images/spark-shop-2025-18S1117-13.webp",
+        "images/spark-shop-2025-18S1117-14.webp",
+        "images/spark-shop-2025-18S1117-15.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/18",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "18S1117",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9581677811171",
+      "brand": "Spark",
+      "price": "220",
+      "currency": "EUR",
+      "gtin": "9581677811171",
+      "weight": "2 kg",
+      "length": "250 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-64S082",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
+      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/64s082-de",
+      "images": [
+        "images/spark-shop-2025-64S082-1.webp",
+        "images/spark-shop-2025-64S082-2.webp",
+        "images/spark-shop-2025-64S082-3.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/64",
+        "Material": "Diecast",
+        "Manufacturer": "Spark",
+        "Product number": "64S082",
+        "Model": "RB21"
+      },
+      "description": "GTIN/EAN: 9580006360823",
+      "brand": "Spark",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "9580006360823",
+      "weight": "0.06 kg",
+      "length": "70 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-64S085",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/64s085-de",
+      "images": [
+        "images/spark-shop-2025-64S085-1.webp",
+        "images/spark-shop-2025-64S085-2.webp",
+        "images/spark-shop-2025-64S085-3.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/64",
+        "Material": "Diecast",
+        "Manufacturer": "Spark",
+        "Product number": "64S085",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9580006360854",
+      "brand": "Spark",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "9580006360854",
+      "weight": "0.06 kg",
+      "length": "70 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-S9599",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team British GP 2025 Isack Hadjar",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-british-gp-2025-isack-hadjar/s9599-de",
+      "images": [
+        "images/spark-shop-2025-S9599-1.webp",
+        "images/spark-shop-2025-S9599-2.webp",
+        "images/spark-shop-2025-S9599-3.webp",
+        "images/spark-shop-2025-S9599-4.webp",
+        "images/spark-shop-2025-S9599-5.webp",
+        "images/spark-shop-2025-S9599-6.webp",
+        "images/spark-shop-2025-S9599-7.webp",
+        "images/spark-shop-2025-S9599-8.webp",
+        "images/spark-shop-2025-S9599-9.webp",
+        "images/spark-shop-2025-S9599-10.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9599",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9580006995995",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006995995",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Available"
+    },
+    {
+      "id": "spark-shop-2025-S9618",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
+      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/s9618-de",
+      "images": [
+        "images/spark-shop-2025-S9618-1.webp",
+        "images/spark-shop-2025-S9618-2.webp",
+        "images/spark-shop-2025-S9618-3.webp",
+        "images/spark-shop-2025-S9618-4.webp",
+        "images/spark-shop-2025-S9618-5.webp",
+        "images/spark-shop-2025-S9618-6.webp",
+        "images/spark-shop-2025-S9618-7.webp",
+        "images/spark-shop-2025-S9618-8.webp",
+        "images/spark-shop-2025-S9618-9.webp",
+        "images/spark-shop-2025-S9618-10.webp",
+        "images/spark-shop-2025-S9618-11.webp",
+        "images/spark-shop-2025-S9618-12.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9618",
+        "Model": "RB21"
+      },
+      "description": "GTIN/EAN: 9580006996183",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006996183",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Available"
+    },
+    {
+      "id": "spark-shop-2025-S9635",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing 6th Azerbaijan GP 2025 Yuki Tsunoda (with pit board)",
+      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-6th-azerbaijan-gp-2025-yuki-tsunoda-with-pit-board/s9635-de",
+      "images": [
+        "images/spark-shop-2025-S9635-1.webp",
+        "images/spark-shop-2025-S9635-2.webp",
+        "images/spark-shop-2025-S9635-3.webp",
+        "images/spark-shop-2025-S9635-4.webp",
+        "images/spark-shop-2025-S9635-5.webp",
+        "images/spark-shop-2025-S9635-6.webp",
+        "images/spark-shop-2025-S9635-7.webp",
+        "images/spark-shop-2025-S9635-8.webp",
+        "images/spark-shop-2025-S9635-9.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9635",
+        "Model": "RB21"
+      },
+      "description": "GTIN/EAN: 9580006996350",
+      "brand": "Spark",
+      "price": "92",
+      "currency": "EUR",
+      "gtin": "9580006996350",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-S9637",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (with pit board)",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/s9637-de",
+      "images": [
+        "images/spark-shop-2025-S9637-1.webp",
+        "images/spark-shop-2025-S9637-2.webp",
+        "images/spark-shop-2025-S9637-3.webp",
+        "images/spark-shop-2025-S9637-4.webp",
+        "images/spark-shop-2025-S9637-5.webp",
+        "images/spark-shop-2025-S9637-6.webp",
+        "images/spark-shop-2025-S9637-7.webp",
+        "images/spark-shop-2025-S9637-8.webp",
+        "images/spark-shop-2025-S9637-9.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9637",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9580006996374",
+      "brand": "Spark",
+      "price": "92",
+      "currency": "EUR",
+      "gtin": "9580006996374",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-S9642",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/s9642-de",
+      "images": [
+        "images/spark-shop-2025-S9642-1.webp",
+        "images/spark-shop-2025-S9642-2.webp",
+        "images/spark-shop-2025-S9642-3.webp",
+        "images/spark-shop-2025-S9642-4.webp",
+        "images/spark-shop-2025-S9642-5.webp",
+        "images/spark-shop-2025-S9642-6.webp",
+        "images/spark-shop-2025-S9642-7.webp",
+        "images/spark-shop-2025-S9642-8.webp",
+        "images/spark-shop-2025-S9642-9.webp",
+        "images/spark-shop-2025-S9642-10.webp",
+        "images/spark-shop-2025-S9642-11.webp",
+        "images/spark-shop-2025-S9642-12.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9642",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9580006996428",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006996428",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Available"
+    },
+    {
+      "id": "spark-shop-2025-S9671",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/s9671-de",
+      "images": [
+        "images/spark-shop-2025-S9671-1.webp",
+        "images/spark-shop-2025-S9671-2.webp",
+        "images/spark-shop-2025-S9671-3.webp",
+        "images/spark-shop-2025-S9671-4.webp",
+        "images/spark-shop-2025-S9671-5.webp",
+        "images/spark-shop-2025-S9671-6.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9671",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9580006996718",
+      "brand": "Spark",
+      "price": "89",
+      "currency": "EUR",
+      "gtin": "9580006996718",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Pre-order"
+    },
+    {
+      "id": "spark-shop-2025-S9681",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team Abu Dhabi GP 2025 Isack Hadjar (with pit board)",
+      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-abu-dhabi-gp-2025-isack-hadjar-with-pit-board/s9681-de",
+      "images": [
+        "images/spark-shop-2025-S9681-1.webp",
+        "images/spark-shop-2025-S9681-2.webp",
+        "images/spark-shop-2025-S9681-3.webp"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Scale": "1/43",
+        "Material": "Resin",
+        "Manufacturer": "Spark",
+        "Product number": "S9681",
+        "Model": "VCARB 02"
+      },
+      "description": "GTIN/EAN: 9580006996817",
+      "brand": "Spark",
+      "price": "92",
+      "currency": "EUR",
+      "gtin": "9580006996817",
+      "weight": "0.18 kg",
+      "length": "100 mm",
+      "availability": "Pre-order"
     }
   ]
 }

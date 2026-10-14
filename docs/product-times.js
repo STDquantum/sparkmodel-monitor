@@ -1942,5 +1942,61 @@ window.PRODUCT_TIMES={
   "12S078": {
     "shipped": "",
     "published": "2025-12-08"
+  },
+  "S9671": {
+    "shipped": "",
+    "published": "2025-11-26"
+  },
+  "18S1117": {
+    "shipped": "",
+    "published": "2025-11-26"
+  },
+  "64S085": {
+    "shipped": "",
+    "published": "2025-10-30"
+  },
+  "S9642": {
+    "shipped": "",
+    "published": "2025-10-30"
+  },
+  "18S1114": {
+    "shipped": "",
+    "published": "2025-10-29"
+  },
+  "18S1111": {
+    "shipped": "",
+    "published": "2025-10-29"
+  },
+  "S9635": {
+    "shipped": "",
+    "published": "2025-10-18"
+  },
+  "S9637": {
+    "shipped": "",
+    "published": "2025-10-18"
+  },
+  "S9681": {
+    "shipped": "",
+    "published": "2025-12-16"
+  },
+  "S9599": {
+    "shipped": "",
+    "published": "2025-08-02"
+  },
+  "64S082": {
+    "shipped": "",
+    "published": "2025-08-02"
+  },
+  "S9618": {
+    "shipped": "",
+    "published": "2025-08-02"
+  },
+  "BBR262116": {
+    "shipped": "",
+    "published": "2026-07-08"
+  },
+  "BBR264616": {
+    "shipped": "",
+    "published": "2026-07-08"
   }
 };
