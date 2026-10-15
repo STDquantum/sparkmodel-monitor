@@ -1,6 +1,141 @@
 {
   "updates": [
     {
+      "date": "2026-10-15T07:06:30.093828+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-shop-2025-S9618",
+          "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
+          "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/s9618-de",
+          "product_number": "S9618",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/fd/62/c3/1784567202/6e8a820cde4a4be0834ee79815476169.webp?ts=1791910593",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/fd/62/c3/1784567202/6e8a820cde4a4be0834ee79815476169.webp?ts=1792035731"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-shop-2025-S9635",
+          "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing 6th Azerbaijan GP 2025 Yuki Tsunoda (with pit board)",
+          "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-6th-azerbaijan-gp-2025-yuki-tsunoda-with-pit-board/s9635-de",
+          "product_number": "S9635",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a7/74/f1/1790735811/50c7e78dbea5452c828090905985ab8c.webp?ts=1791910765",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a7/74/f1/1790735811/50c7e78dbea5452c828090905985ab8c.webp?ts=1792035714"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-shop-2025-S9637",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (with pit board)",
+          "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/s9637-de",
+          "product_number": "S9637",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f9/7c/77/1790736127/e415e67c709f4ad0b381d3c471769a5b.webp?ts=1791910820",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f9/7c/77/1790736127/e415e67c709f4ad0b381d3c471769a5b.webp?ts=1792035710"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-shop-2025-S9671",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
+          "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/s9671-de",
+          "product_number": "S9671",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/19/23/1784686443/d7d1486216434a76ba48b981db5651c2.webp?ts=1791911143",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/19/23/1784686443/d7d1486216434a76ba48b981db5651c2.webp?ts=1792035690"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-shop-2025-S9681",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team Abu Dhabi GP 2025 Isack Hadjar (with pit board)",
+          "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-abu-dhabi-gp-2025-isack-hadjar-with-pit-board/s9681-de",
+          "product_number": "S9681",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/c1/ed/1784567762/a81524576f2b48fa873b425d86c49be9.webp?ts=1791911259",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/c1/ed/1784567762/a81524576f2b48fa873b425d86c49be9.webp?ts=1792035682"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-15T06:45:11.829062+00:00",
       "entries": [
         {
