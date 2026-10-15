@@ -2250,5 +2250,41 @@ window.PRODUCT_TIMES={
   },
   "LS18F1077": {
     "published": "2025-06-05"
+  },
+  "BBRC332A44": {
+    "published": "",
+    "shipped": "2026-09-16"
+  },
+  "BBRC332A16D": {
+    "published": "",
+    "shipped": "2026-09-15"
+  },
+  "BBRC332A16": {
+    "published": "",
+    "shipped": "2026-09-15"
+  },
+  "BBR1227C16": {
+    "published": "",
+    "shipped": "2026-09-21"
+  },
+  "BBR1229E16": {
+    "published": "2026-09-08",
+    "shipped": ""
+  },
+  "BBR1229E44": {
+    "published": "2026-09-08",
+    "shipped": ""
+  },
+  "LS64046": {
+    "published": "2026-10-14",
+    "shipped": ""
+  },
+  "LSF1094": {
+    "published": "2026-10-14",
+    "shipped": ""
+  },
+  "LS18F1093": {
+    "published": "2026-10-14",
+    "shipped": ""
   }
 };
