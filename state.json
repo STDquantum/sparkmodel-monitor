@@ -37,7 +37,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-14T17:34:13.452394+00:00",
+  "updated_at": "2026-10-15T07:06:24.728106+00:00",
   "total": 698,
   "items": {
     "looksmart-19787": {
@@ -7513,7 +7513,7 @@
     "spark-shop-2025-S9618": {
       "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
       "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/s9618-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/fd/62/c3/1784567202/6e8a820cde4a4be0834ee79815476169.webp?ts=1791910593",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/fd/62/c3/1784567202/6e8a820cde4a4be0834ee79815476169.webp?ts=1792035731",
       "source": "sparkmodelshop",
       "manufacturer": "Spark",
       "scale": "1/43",
@@ -7524,7 +7524,7 @@
     "spark-shop-2025-S9635": {
       "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing 6th Azerbaijan GP 2025 Yuki Tsunoda (with pit board)",
       "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-6th-azerbaijan-gp-2025-yuki-tsunoda-with-pit-board/s9635-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a7/74/f1/1790735811/50c7e78dbea5452c828090905985ab8c.webp?ts=1791910765",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a7/74/f1/1790735811/50c7e78dbea5452c828090905985ab8c.webp?ts=1792035714",
       "source": "sparkmodelshop",
       "manufacturer": "Spark",
       "scale": "1/43",
@@ -7535,7 +7535,7 @@
     "spark-shop-2025-S9637": {
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (with pit board)",
       "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/s9637-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f9/7c/77/1790736127/e415e67c709f4ad0b381d3c471769a5b.webp?ts=1791910820",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f9/7c/77/1790736127/e415e67c709f4ad0b381d3c471769a5b.webp?ts=1792035710",
       "source": "sparkmodelshop",
       "manufacturer": "Spark",
       "scale": "1/43",
@@ -7557,7 +7557,7 @@
     "spark-shop-2025-S9671": {
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
       "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/s9671-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/19/23/1784686443/d7d1486216434a76ba48b981db5651c2.webp?ts=1791911143",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/19/23/1784686443/d7d1486216434a76ba48b981db5651c2.webp?ts=1792035690",
       "source": "sparkmodelshop",
       "manufacturer": "Spark",
       "scale": "1/43",
@@ -7568,7 +7568,7 @@
     "spark-shop-2025-S9681": {
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team Abu Dhabi GP 2025 Isack Hadjar (with pit board)",
       "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-abu-dhabi-gp-2025-isack-hadjar-with-pit-board/s9681-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/c1/ed/1784567762/a81524576f2b48fa873b425d86c49be9.webp?ts=1791911259",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/c1/ed/1784567762/a81524576f2b48fa873b425d86c49be9.webp?ts=1792035682",
       "source": "sparkmodelshop",
       "manufacturer": "Spark",
       "scale": "1/43",
@@ -7580,11 +7580,11 @@
   "changes": {
     "added": [],
     "changed": [
-      "spark-2025-19963ce8-c267-4a70-88c3-c0c24c110d14",
-      "spark-2025-230b9ff9-019e-4d6a-a0ad-c74a150ce14d",
-      "spark-2025-3bbf4deb-8d2f-4363-b390-e66ae561854e",
-      "spark-2025-cc50df01-cdb0-464d-83bf-c908bf5c7fd4",
-      "spark-2025-ec879cc5-3743-4ca8-82a4-13930f876f8a"
+      "spark-shop-2025-S9618",
+      "spark-shop-2025-S9635",
+      "spark-shop-2025-S9637",
+      "spark-shop-2025-S9671",
+      "spark-shop-2025-S9681"
     ],
     "removed": []
   }
