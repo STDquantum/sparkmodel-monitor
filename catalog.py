@@ -388,7 +388,7 @@ def build_product(product_id, listing):
         return {
             "id": product_id, "name": name, "url": listing["url"],
             "images": local_images, "properties": {key: value for key, value in properties.items() if value},
-            "description": "", "brand": "Minichamps", "price": fields.get("price", ""), "currency": fields.get("currency", "EUR"), "gtin": "",
+            "description": "", "brand": "BBR" if str(properties.get("Product number", "")).upper().startswith("BBR") else "Minichamps", "price": fields.get("price", ""), "currency": fields.get("currency", "EUR"), "gtin": "",
             "weight": "", "length": "", "availability": {"vorbestellbar": "Pre-order", "preorder": "Pre-order", "auf lager": "Available", "sofort lieferbar": "Available", "in stock": "Available", "sold out": "Sold out", "ausverkauft": "Sold out"}.get((scraped_properties.get("Availability") or listing.get("availability", "")).strip().lower(), scraped_properties.get("Availability") or listing.get("availability", "")),
         }
     if source == "sparkmodel":
