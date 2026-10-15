@@ -1,169 +1,212 @@
-# Formula 1 车模商品目录
+# Formula 1 车模目录与商品监控
 
-## 本地手动商品管理
+采集 Spark、Looksmart、Minichamps 和 Carmodel（Burago）的 Formula 1 车模信息，保存商品详情与图片，并生成可本地浏览、可部署到 GitHub Pages 的静态目录。支持钉钉变化通知、手动添加和修改商品，以及发布时间和出货时间标注。
 
-双击 `start_local.bat`，启动同一个本地服务并同时打开商品管理页与时间标注页，或在已启动的时间标注页点击“添加 / 修改商品”。如果本地服务已经运行，直接打开 `http://127.0.0.1:410/product-editor.html`，无需再次启动。
+采集脚本与本地服务只使用 Python 标准库；网页无需安装 Node.js、数据库或前端构建工具。
 
-左侧搜索并选择任意已有商品可进行修改；点击“添加商品”创建新条目。Year、Manufacturer、Scale、Product number、Availability 必填，其中年份、比例和 Availability 使用选框。名称、链接和描述可选，名称留空时根据厂商、货号、年份生成。货号不能与其他商品重复。
+## 快速开始
 
-“其他商品详情”区域点击“＋ 添加详情项”可逐项增加字段名称和内容，点击行末 × 删除。修改已有商品时会带出其现有详情项，可继续修改或删除；字段名称不能重复，也不能覆盖上方固定字段。保存后在主网页商品详情展示，手动修改与删除在自动采集后仍保留。
+以下操作均在本项目目录 `sparkmodel-monitor` 中进行。
 
-可多选上传 PNG、JPEG、GIF、WebP 图片，每张最多 15 MB，每次最多添加 30 张。点击图片查看大图，点击“删除图片”移除，最后点击“保存商品”统一保存。修改成功后保持滚动位置，刷新主网页即可看到结果。
+### 浏览现有目录
 
-手动商品与属性修改保存于 `docs/manual-products.js`，手动图片保存在 `docs/manual-images/`。自动采集只更新自身商品与 `docs/images/`，不会覆盖手动修改或删除手动图片。手动图片优先保留，自动图片与手动图片按 SHA-256 文件内容指纹去重；内容有差异时均保留。手动删除的自动图片也按指纹记录，即使采集后文件名变化，相同内容仍不会重新出现。发布目录时一起提交手动数据 JS 和图片目录即可。
+直接打开 [`docs/index.html`](docs/index.html) 即可浏览已生成的商品与本地图片；[`docs/updates.html`](docs/updates.html) 展示商品和图片的更新记录。
 
-商品管理页通过本地服务写入文件；直接双击 HTML 可以浏览表单，但保存请使用本地启动入口。
+也可以启动本地服务，只打开目录页：
 
-## 本地发布时间与出货时间标注
+```powershell
+python serve_local.py --page index.html
+```
 
-双击 `start_local.bat`，浏览器会同时打开商品管理页和本地标注页（`http://127.0.0.1:410/annotate.html`）。保持启动窗口运行。标注页复用主目录的布局、筛选、排序和大图浏览；每个有货号的商品都有“添加 / 修改时间”按钮。日期统一为 `YYYY-MM-DD`，每次更改自动保存，清空日期表示“无”。请确认弹窗显示“已保存”后关闭。
+浏览器访问 <http://127.0.0.1:410/>。
 
-所有标注统一保存在 `docs/product-times.js`，货号为唯一 key，值包含 `published`（发布时间）和 `shipped`（出货时间）。主网页通过脚本直接读取，本地启动和双击 HTML 均可使用，修改后刷新主网页即可。采集程序不会覆盖该文件。发布主网页时提交这一份 JS 即可带上标注。
+### 管理商品与标注时间
 
-主网页在商品详情最上方展示两个时间，缺失显示“无”。选择发布时间或出货时间排序后，两个时间移到卡片信息最下方。出货时间缺失的商品在升序和降序时均位于末尾，再按同方向的发布时间排序。出货状态筛选以是否填写出货时间为准。
+Windows 用户双击 `start_local.bat`，会启动本地服务，同时打开时间标注页与商品管理页。保持启动窗口运行，关闭窗口即停止服务。
 
-也可以直接打开 `docs/annotate.html`：Chrome / Edge 中先点击“选择时间 JS，启用自动保存”，选择 `docs/product-times.js` 并授权写入，此后修改自动写入文件。直接文件模式也只更新同一份 JS，刷新主网页即可读取最新时间。其他静态服务器仅支持浏览，不支持保存，请使用上述启动入口。
+启动脚本依次使用 `PYTHON_HOME` 下的 Python、`D:\conda\env3.10\python.exe`、系统的 `py -3`。也可以直接运行：
 
-基于 Python 标准库的 Formula 1 车模采集工具，提供商品检索、钉钉通知和静态目录。GitHub Actions 工作流配置 cron 与手动触发器，目录文件可用于 GitHub Pages。
+```powershell
+python serve_local.py
+```
 
-## 功能
+| 页面 | 本地地址 | 用途 |
+| --- | --- | --- |
+| 商品目录 | <http://127.0.0.1:410/> | 搜索、筛选和查看商品 |
+| 时间标注 | <http://127.0.0.1:410/annotate.html> | 填写发布时间、出货时间；自动跳转到目录编辑模式 |
+| 商品管理 | <http://127.0.0.1:410/product-editor.html> | 添加商品、修改属性、管理图片 |
+| 更新记录 | <http://127.0.0.1:410/updates.html> | 查看采集产生的商品与图片变化 |
 
-- 从 Spark、Looksmart、Minichamps 和 Carmodel（Burago）检索 Formula 1 车模商品。
-- 按商品 ID 汇总检索结果；Spark 与 Sparkmodelshop 按货号去重，Spark 官网优先，记录条目、封面图片链接和 Availability 字段。
-- 通过钉钉机器人发送 Markdown 状态通知。
-- 采集商品属性与图片，生成 JSON 数据和静态网页。
-- 浏览商品条目与图片记录，并在目录页面搜索、筛选、排序和查看商品图片。
+服务已经启动时直接访问上述地址，无需重复运行脚本。端口冲突时可用 `python serve_local.py --port 8000`，并将地址中的端口改为 `8000`；不想自动打开浏览器可加 `--no-browser`。
 
-## 商品检索范围
+## 目录浏览
 
-| 来源 | 检索范围 |
+- 搜索商品名称、车型、年份、车手等商品文本。
+- 按年份、车队、厂商、大奖赛、比例、Availability、有无样品及出货状态筛选。
+- 按发布时间、出货时间、大奖赛、车队、货号、比例、Availability 和样品排序，支持升序与降序。
+- 查看商品属性、描述和来源链接，浏览缩略图与大图；支持滚轮缩放、拖动及双击切换缩放。
+- 自动记住搜索、筛选和排序条件，点击清除按钮可重置。
+
+大奖赛筛选需先选择年份，无法匹配的商品归入 `OTHERS`。样品状态由图片数量及来源类型判断；出货状态由是否填写出货时间判断，与来源网站的 Availability 分开记录。
+
+## 手动维护
+
+### 添加或修改商品
+
+在商品管理页左侧搜索并选择已有商品，或点击“添加商品”创建新条目。
+
+| 字段 | 填写要求 |
 | --- | --- |
-| Spark | 2025 车型关键词：C45、A525、FW47、MCL39、W16、RB21、VF-25、VCARB 02、AMR25；2026 车型关键词：VF26、MAC26、FW48、AMR26、A526、W17、R26、MCL40、VCARB03、RB22 |
-| Sparkmodelshop（补充） | 2025 VCARB 02、RB21；从搜索卡片读取货号，仅官网未收录的货号进入目录并采集详情和图片 |
-| Looksmart | SF-25、SF-26 搜索结果 |
-| Minichamps | 2025 Formula 1 分类；2026 车型关键词：W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40、SF-26 |
+| Year、Manufacturer、Scale、Product number、Availability | 必填；货号不能与其他商品重复 |
+| 商品名称 | 可选；留空时按厂商、货号和年份生成 |
+| 商品链接、商品描述 | 可选 |
+| 其他商品详情 | 点击“＋ 添加详情项”增加；字段名不能重复或覆盖固定字段 |
 
-各来源采用其检索页分页结果。Spark 的 2026 条目要求标题包含 `2026`，并排除 `1:5` 比例；Minichamps 与 Looksmart 的车型筛选规则定义于 `monitor.py`。
+图片支持 PNG、JPEG、GIF、WebP，每张不超过 15 MB，每次最多添加 30 张。多图上传还受本地服务单次请求体 64 MiB 的限制，较大图片请分批保存。点击图片可查看大图，新增与删除均在点击“保存商品”后生效。看到“已保存”后，刷新主网页查看结果。
 
-Sparkmodelshop 独立解析 Shopware 搜索卡片的属性表与库存文字，商品详情解析其属性、描述和原尺寸图库。补充条目要求年份为 2025、厂商为 Spark；货号去重在失败抓取的旧快照恢复后进行，仍优先保留官网记录。它不会替换官网商品的图片或详情。
+手动数据保存在 `docs/manual-products.js`，上传图片保存在 `docs/manual-images/`。自动采集后仍保留手动属性修改、详情项删除和图片调整。手动图片优先，按 SHA-256 文件内容指纹与采集图片去重；删除采集图片后会记录其内容指纹，即使以后文件名变化，相同内容也不会重新显示。
 
-2026 年 Looksmart 商品的封面和全部详情图优先使用 Sparkmodelshop：每次监控从 SF-26 搜索按货号匹配商品，并读取其详情图库，包含以后新加入的货号。匹配后仅使用完整 Shop 图库，不混入 LS 官网图库；Shop 封面放在首位，按文件内容去重；官网商品名称、属性和描述继续保留。商品详情自动展示 Shop 商品页链接。2025 Looksmart、Spark 和 Minichamps 不受影响。商店无匹配货号时继续检测 LS 官网封面变化并更新官网图库；商店请求失败时保留上次成功的 Shop 图库。封面和商品页记录于 `cover_source`、`cover_url`、`cover_product_url`，图库记录于 `shop_image_urls`，目录的 `image_source` 为 `sparkmodelshop`；已匹配商品的封面变化仅比较 Shop 封面地址，忽略其 LS 官网图片变化；未匹配商品仍比较 LS 官网封面地址；图片时间戳不参与变更判断，Shop 图库新增图片也会触发目录更新。
+商品管理页需要本地服务才能保存；直接打开 HTML 或访问 GitHub Pages 可浏览页面，但不能通过该页面写入本地文件。
 
-## 处理流程
+### 标注发布时间与出货时间
 
-1. `monitor.py` 请求商品检索页、读取分页并整理商品列表。
-2. 程序按商品 ID 汇总各来源条目，将商品名称、链接、封面图片地址、Availability 和来源信息写入 `state.json`。
-3. 钉钉通知涵盖商品 ID 收录状态、封面链接与 Availability；`monitor.py` 按通知规则输出 Markdown 消息。
-4. `catalog.py` 采集商品详情与图片，生成目录 JSON 和本地图片文件；自动化配置包含此脚本步骤。
-5. `updates.py` 生成商品与图片信息数据，相关页面文件位于 `docs/`。
-6. `.github/workflows/monitor.yml` 配置 `state.json` 与 `docs/` 的 Git 提交；GitHub Pages 使用 `docs/` 提供静态目录。
+在时间标注页点击商品的“添加 / 修改时间”，按 `YYYY-MM-DD` 填写。每次修改自动保存，清空表示“无”；确认显示“已保存”后再关闭。
 
-钉钉消息包含商品名称、商品链接、货号、比例和状态信息。每类消息至多列出 20 件商品。
+时间统一保存在 `docs/product-times.js`，以货号为 key，包含 `published` 和 `shipped` 两个字段，自动采集不会覆盖此文件。修改后刷新目录页即可读取。
 
-## 静态商品目录
+目录详情显示两个时间，缺失时显示“无”；按时间排序时，时间也显示在卡片底部。按出货时间排序时，未填写出货时间的商品始终排在末尾，再按同方向的发布时间排序。
 
-`docs/index.html` 使用 `docs/catalog.json` 展示商品。商品卡片呈现名称、图片、比例、年份、货号与 Availability；商品详情区域呈现其余属性和描述。商品名称链接指向来源站点。
+也可直接打开 `docs/annotate.html`，在支持文件写入的 Chrome / Edge 中点击“选择时间 JS，启用自动保存”，选择 `docs/product-times.js` 并授予写入权限。普通静态 HTTP 服务只支持浏览；需要通过页面保存时，使用 `serve_local.py`。
 
-目录支持以下操作：
+## 采集与更新
 
-- 关键词搜索：商品名称、车型、年份、车手及商品数据中的其他文本。
-- 按年份、车队、厂商、大奖赛、比例、Availability 和样品筛选。
-- 按大奖赛、车队、货号、比例、Availability 和样品数量排序，并选择升序或降序。
-- 清除筛选与排序条件。
-- 浏览商品图片、切换图片、选择缩略图、滚轮缩放和拖动图片；双击图片切换 1 倍与 2 倍缩放。
+### 运行环境
 
-大奖赛筛选条件由赛季年份和赛事名称组成。无法匹配赛事规则的商品归入 `OTHERS`。样品筛选以商品图片数量和来源类型为依据。搜索、筛选与排序设置存储于浏览器本地存储。
+- 自动化工作流使用 Python 3.12；本地需安装兼容的 Python 3。
+- 采集需要访问来源网站、图片地址及钉钉 Webhook。
+- 更新记录使用 Git 中的已提交版本作比较基线，正常使用需有 Git 仓库及有效提交。
 
-`docs/updates.html` 展示商品条目与图片记录；记录可链接至目录中的对应商品。`catalog.py` 把商品图片保存至 `docs/images/`，网页引用仓库内的图片文件。
+### 本地执行
 
-## 文件结构
+先配置钉钉机器人，再依次运行三个步骤。前一步成功后再执行下一步：
 
-| 路径 | 用途 |
-| --- | --- |
-| `monitor.py` | 请求检索页、汇总商品列表并发送钉钉消息 |
-| `catalog.py` | 采集商品详情、下载图片、整理目录数据并清理未引用图片 |
-| `updates.py` | 生成商品与图片记录数据 |
-| `state.json` | 商品 ID、来源地址与商品状态记录 |
-| `docs/index.html` | 商品目录页面与交互逻辑 |
-| `docs/catalog.json` | 商品目录数据 |
-| `docs/catalog.js` | 商品数据脚本，支持本地文件预览 |
-| `docs/images/` | 商品图片文件 |
-| `docs/updates.html` | 商品与图片信息页面 |
-| `docs/updates.json` | 商品与图片信息数据 |
-| `docs/updates.js` | 信息数据脚本，支持本地文件预览 |
-| `.github/workflows/monitor.yml` | GitHub Actions 自动化配置 |
-| `serve_docs_410.bat` | Windows 本地 HTTP 预览入口，监听 `127.0.0.1:410` |
+```powershell
+$env:DINGTALK_WEBHOOK = '钉钉机器人的完整 HTTPS Webhook 地址'
+$env:DINGTALK_KEYWORD = '成绩'
+python monitor.py
+python catalog.py
+python updates.py
+```
 
-`catalog.json` 包含商品数组 `products`。商品记录包含 `id`、`name`、`url`、`images`、`properties`、`description`、`brand`、价格、重量、尺寸和 Availability 等字段；字段内容依来源而定。
+`DINGTALK_KEYWORD` 可省略，默认值为 `成绩`，应与机器人配置的关键词一致。Webhook 通过环境变量或 GitHub Secret 提供，请勿写入项目文件。
 
-## 运行环境
+| 步骤 | 输入与行为 | 输出 |
+| --- | --- | --- |
+| `monitor.py` | 检索各来源，对比上次商品列表；首次初始化或发现变化时发送钉钉通知 | `state.json` |
+| `catalog.py` | 读取快照，增量采集商品详情与图片，移除下架记录及未引用的采集图片 | `docs/catalog.json`、`docs/catalog.js`、`docs/images/` |
+| `updates.py` | 对比当前目录与 Git 基线，记录商品字段及图片变化 | `docs/updates.json`、`docs/updates.js` |
 
-- Python 3.12 或兼容版本。
-- Git，用于运行 `updates.py` 和 GitHub Actions 提交。
-- 网络访问，用于商品检索、图片下载和钉钉 Webhook 请求。
+监控主要比较商品新增、下架、封面链接、Availability 和适用商品的 Shop 图库变化；未发生这些变化的商品通常不会重新抓取详情。钉钉通知每类最多展开 20 件商品。需要发送通知时，Webhook 缺失或发送失败会使监控步骤报错，快照不会保存为本次结果。
 
-Python 脚本只使用标准库。静态页面不依赖 Node.js、数据库或服务端框架。
+单个检索任务失败时，监控会保留该任务匹配的旧商品，并继续其他检索；目录中的单件详情抓取失败时保留旧记录。因此，运行完成也应检查输出中的失败提示。已有商品返回空图库时，目录保留旧图片。
 
-## GitHub Actions 配置
+更新记录默认与 `HEAD` 比较，而不是与上次本地运行比较；未提交结果时重复运行可能重复记录。需要指定其他已提交基线时可运行 `python updates.py --base <提交或分支>`。
 
-把本目录内容置于 GitHub 仓库根目录，并提交 `.github/workflows/monitor.yml`。
+可选环境变量：
 
-在仓库 `Settings` → `Secrets and variables` → `Actions` 配置：
+| 变量 | 默认值 | 用途 |
+| --- | --- | --- |
+| `DINGTALK_WEBHOOK` | 无 | 钉钉机器人 HTTPS Webhook，发送通知时必需 |
+| `DINGTALK_KEYWORD` | `成绩` | 钉钉通知关键词 |
+| `MINICHAMPS_ENABLED` | `true` | 设为 `false` 暂停 Minichamps 检索并保留旧快照 |
+| `CATALOG_WORKERS` | `6` | 详情采集并发数，需为正整数 |
+| `PYTHON_HOME` | 无 | Windows 启动脚本使用的 Python 所在目录 |
+
+### 商品来源与范围
+
+当前按配置检索 2025、2026 赛季车型，不代表来源网站的完整商品目录。关键词主要定义在 `monitor.py` 和 `carmodel.py`。
+
+| 来源 | 2025 范围 | 2026 范围 |
+| --- | --- | --- |
+| Spark | C45、A525、FW47、MCL39、W16、RB21、VF-25、VCARB 02、AMR25 | VF26、MAC26、FW48、AMR26、A526、W17、R26、MCL40、VCARB03、RB22 |
+| Sparkmodelshop 补充 | VCARB 02、RB21 | SF-26，用于 Looksmart 图片匹配 |
+| Looksmart | SF-25 | SF-26 |
+| Minichamps | 2025 Formula 1 分类 | W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40、SF-26 |
+| Carmodel（Burago） | AMR25、A525、RB21、SF-25、MCL39、W16 | AMR26、A526、SF-26、RB22、MCL40、W17、VCARB-03、VF-26、FW48、MAC-26、R26 |
+
+来源处理规则：
+
+- Spark 与 Sparkmodelshop 按货号去重，优先保留 Spark 官网条目；Shop 补充仅收录符合条件的 2025 Spark 商品。Spark 的 2026 商品要求标题含 `2026`，并排除 `1:5` 比例。
+- 2026 Looksmart 按货号匹配 Sparkmodelshop，匹配后优先采用完整 Shop 图库，封面置首并按内容去重；名称、属性、描述仍来自 Looksmart 官网。无匹配时使用官网图片，Shop 请求失败时保留上次成功的 Shop 图库。Shop 图库增图也会触发监控变化。
+- Carmodel 每个车型同时检索普通商品和 Coming soon，跟随分页及 Show all，要求标题含对应年份，按 Carmodel 商品 ID 去重。保留不同货号、比例和套装；预计到货季度存入 `Expected release`。
+
+只刷新 Burago 时，可在已有 `state.json` 的基础上运行：
+
+```powershell
+python refresh_carmodel.py
+python catalog.py
+python updates.py
+```
+
+`refresh_carmodel.py` 不发送钉钉通知，更新快照及 `carmodel-coverage.json`。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。
+
+## GitHub Actions 与 Pages
+
+将本项目目录内容作为 GitHub 仓库根目录，保留 `.github/workflows/monitor.yml`。
+
+### 自动监控
+
+在仓库 **Settings → Secrets and variables → Actions** 配置：
 
 | 名称 | 类型 | 用途 |
 | --- | --- | --- |
-| `DINGTALK_WEBHOOK` | Secret | 钉钉自定义机器人的完整 HTTPS Webhook 地址 |
-| `DINGTALK_KEYWORD` | Variable，可选 | 机器人配置的自定义关键词；默认值为 `成绩` |
+| `DINGTALK_WEBHOOK` | Secret | 机器人完整 Webhook 地址 |
+| `DINGTALK_KEYWORD` | Variable，可选 | 自定义关键词，留空使用 `成绩` |
 
-工作流名称为 `Monitor Spark Models`。触发配置包含 cron 表达式 `*/10 * * * *` 和手动运行入口。单个任务的运行上限为 30 分钟，任务具有仓库内容写入权限（`contents: write`）。仓库分支保护规则适用于工作流提交。
+工作流名为 `Monitor Spark Models`，配置为每 10 分钟触发一次，并支持手动 **Run workflow**。单次任务上限为 30 分钟，同组任务不互相取消。
 
-## GitHub Pages 配置
+工作流先运行监控；只有 `state.json` 相比仓库发生变化时，才执行目录与记录生成。最后将变化的 `state.json` 和 `docs/` 提交并推送到仓库。因此，单件详情失败的重试也需等到目录构建步骤再次执行，或手动运行 `catalog.py`。
 
-在仓库 `Settings` → `Pages` 中设置：
+工作流需要 `contents: write` 权限，分支保护规则也会影响自动提交。
 
-1. Source：`Deploy from a branch`。
-2. Branch：包含项目文件的默认分支。
-3. Folder：`/docs`。
-4. 保存设置，使用 GitHub Pages 显示的站点地址浏览目录。
+### 发布静态站点
 
-## 本地运行与预览
+1. 提交并推送完整 `docs/` 目录。
+2. 在仓库 **Settings → Pages** 中选择 **Deploy from a branch**。
+3. 选择包含项目的分支和 `/docs` 目录，保存后使用页面显示的站点地址。
 
-在 PowerShell 中进入 `sparkmodel-monitor` 目录，设置钉钉 Webhook 并运行监控脚本：
+发布手动维护结果时，要一并提交 `docs/manual-products.js`、`docs/manual-images/` 和 `docs/product-times.js`。线上目录可读取这些数据；商品写入仍通过本地服务完成。
 
-```powershell
-$env:DINGTALK_WEBHOOK='钉钉机器人的完整 HTTPS 地址'
-$env:DINGTALK_KEYWORD='机器人设置的关键词'
-python monitor.py
-```
+## 文件说明
 
-`DINGTALK_KEYWORD` 为可选环境变量。`catalog.py` 使用 `state.json` 中的商品 ID 获取商品详情和图片。`updates.py` 需要 Git 仓库及有效的 `HEAD` 提交，并读取其中的目录资料。
-
-使用 Python 提供静态页面：
-
-```powershell
-python -m http.server 8000 --directory docs
-```
-
-浏览器访问 `http://localhost:8000/`。Windows 用户也可运行 `serve_docs_410.bat`，访问 `http://127.0.0.1:410/`。部分浏览器限制本地文件读取 JSON；HTTP 服务可提供页面和 JSON 文件。
-
-## 配置与安全
-
-商品关键词和检索地址定义于 `monitor.py`。目录处理包含来源地址验证：`state.json` 中的地址须与脚本配置一致。
-
-钉钉 Webhook 通过 `DINGTALK_WEBHOOK` 环境变量或 GitHub Actions Secret 提供。程序要求 HTTPS 地址，主机名属于 `dingtalk.com`。请勿把 Webhook 或访问凭证写入代码、README、`state.json` 或 Git 提交。
+| 路径 | 用途 |
+| --- | --- |
+| `monitor.py` / `state.json` | 商品检索、变化通知与监控快照 |
+| `catalog.py` | 详情采集、图片下载与目录生成 |
+| `carmodel.py` / `refresh_carmodel.py` | Carmodel 解析与 Burago 单独刷新 |
+| `carmodel-coverage.json` | Burago 单独刷新产生的各车型数量记录 |
+| `updates.py` | 与 Git 基线比较并生成更新记录 |
+| `serve_local.py` / `start_local.bat` | 本地浏览及商品、时间保存服务 |
+| `serve_docs_410.bat` | 使用本地服务打开目录页；需配置 `PYTHON_HOME` 或指定的 Conda 路径 |
+| `manual_products.py` | 手动商品合并、校验与图片指纹维护 |
+| `docs/index.html` / `docs/updates.html` | 商品目录与更新记录页面 |
+| `docs/annotate.html` / `docs/product-editor.html` | 时间标注入口与商品管理页 |
+| `docs/catalog.json` / `docs/catalog.js` | 自动采集目录；JS 数据支持直接打开 HTML |
+| `docs/updates.json` / `docs/updates.js` | 更新记录及本地浏览数据 |
+| `docs/images/` | 自动采集图片 |
+| `docs/manual-products.js` / `docs/manual-images/` | 手动商品数据与上传图片 |
+| `docs/product-times.js` | 以货号保存的发布时间、出货时间 |
+| `.github/workflows/monitor.yml` | 自动采集与提交配置 |
 
 ## 常见问题
 
-- **没有钉钉消息**：检查 `DINGTALK_WEBHOOK` 的 HTTPS 地址和 GitHub Secret，以及 `DINGTALK_KEYWORD` 与机器人配置的一致性。
-- **Actions 无法提交**：检查仓库内容写入权限和默认分支保护规则。
-- **目录未显示商品或图片**：检查 `docs/catalog.json`、`docs/catalog.js` 和 `docs/images/`，并通过本地 HTTP 服务或 GitHub Pages 访问。
-- **目录脚本提示来源地址不匹配**：核对 `monitor.py` 的检索配置与 `state.json` 中的 `sources`。
-- **记录页图片无法显示**：记录页引用 `docs/images/` 中的图片文件；对应图片文件缺失导致图片无法显示。
-
-## Burago / Carmodel
-
-`carmodel.py` 独立解析 Carmodel 搜索卡片、商品属性表、Product 结构化数据与原尺寸 fancybox 图库。2025 搜索 AMR25、A525、RB21、SF-25、MCL39、W16；2026 搜索 AMR26、A526、SF-26、RB22、MCL40、W17、VCARB-03、VF-26、FW48、MAC-26、R26。每词添加 `burago F1` 前缀，R26 另加 `Audi` 后缀，结果标题必须包含对应年份。
-
-每个关键词同时抓取普通搜索和 Coming soon，并跟随 Show all 和分页链接；按 Carmodel 商品 ID 去重，保留不同货号、比例与套装。Coming soon 单独保留状态，预计到货季度存入 Expected release。图片重新读取商品详情页完整图库，以文件内容去重后保存到本地。会话 Cookie 用于处理网站语言与货币重定向。任一关键词抓取失败时保留该关键词上次成功的数据。
-
-`carmodel-coverage.json` 记录最近一次人工全量核对的各词数量。可运行 `python refresh_carmodel.py` 只刷新 Burago 快照，再运行 `python catalog.py` 和 `python updates.py` 更新目录。
+| 问题 | 处理方法 |
+| --- | --- |
+| 双击启动脚本后无法运行 | 检查 Python；可直接使用 `python serve_local.py`，或设置 `PYTHON_HOME` |
+| 端口已占用 | 直接访问已启动的服务，或通过 `--port` 指定其他端口 |
+| 商品或时间无法保存 | 使用本地服务地址，检查启动窗口仍在运行；普通静态服务与 Pages 不提供保存接口 |
+| 没有钉钉消息 | 无变化时不会发送；有变化时检查 Webhook、关键词及运行日志 |
+| 商品抓取失败、图片未更新 | 检查失败日志及网站访问；详情失败保留旧数据，可再次运行 `catalog.py` |
+| 提示快照来源不匹配 | 检索配置变更后先成功运行 `monitor.py`，再生成目录 |
+| 本地修改后网页没变化 | 确认保存成功，刷新页面；线上还需提交并推送对应数据及图片 |
+| Actions 无法提交 | 检查仓库写入权限及分支保护规则 |
