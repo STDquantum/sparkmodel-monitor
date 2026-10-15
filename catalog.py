@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 import hashlib
 import re
 import time
@@ -273,14 +274,19 @@ def download_image(url, product_id, index):
     return relative.as_posix()
 
 
-def download_unique_images(urls, product_id):
+def download_unique_images(urls, product_id, *, workers=1):
     """Download a product's images and discard byte-identical duplicates."""
     if not urls:
         return []
     local_images = []
     seen_hashes = set()
-    for index, url in enumerate(dict.fromkeys(urls), start=1):
-        relative = download_image(url, product_id, index)
+    indexed = list(enumerate(dict.fromkeys(urls), start=1))
+    if workers > 1:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            downloaded = list(executor.map(lambda pair: download_image(pair[1], product_id, pair[0]), indexed))
+    else:
+        downloaded = [download_image(url, product_id, index) for index, url in indexed]
+    for relative in downloaded:
         image_path = DOCS / relative
         image_hash = hashlib.sha256(image_path.read_bytes()).digest()
         if image_hash in seen_hashes:
@@ -371,6 +377,8 @@ def year_from_title(name):
 
 def build_product(product_id, listing):
     source = listing.get("source", "sparkmodel")
+    if source == "carmodel":
+        return monitor.carmodel.build_product(product_id, listing)
     if source == "minichamps":
         fields, scraped_properties, images = parse_minichamps_detail(monitor.minichamps_request(listing["url"]))
         name = fields.get("name") or listing["name"]
@@ -507,7 +515,7 @@ def build_catalog():
         products.pop(product_id, None)
         remove_images(product_id)
     product_ids = refresh_ids(items, products, state.get("changes", {}))
-    with ThreadPoolExecutor(max_workers=6) as executor:
+    with ThreadPoolExecutor(max_workers=int(os.getenv("CATALOG_WORKERS", "6"))) as executor:
         futures = {executor.submit(build_product, product_id, items[product_id]): product_id for product_id in product_ids}
         for number, future in enumerate(as_completed(futures), start=1):
             product_id = futures[future]

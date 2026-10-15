@@ -28,7 +28,7 @@
 
 ## 功能
 
-- 从 Spark、Looksmart 和 Minichamps 检索 Formula 1 车模商品。
+- 从 Spark、Looksmart、Minichamps 和 Carmodel（Burago）检索 Formula 1 车模商品。
 - 按商品 ID 汇总检索结果；Spark 与 Sparkmodelshop 按货号去重，Spark 官网优先，记录条目、封面图片链接和 Availability 字段。
 - 通过钉钉机器人发送 Markdown 状态通知。
 - 采集商品属性与图片，生成 JSON 数据和静态网页。
@@ -159,3 +159,11 @@ python -m http.server 8000 --directory docs
 - **目录未显示商品或图片**：检查 `docs/catalog.json`、`docs/catalog.js` 和 `docs/images/`，并通过本地 HTTP 服务或 GitHub Pages 访问。
 - **目录脚本提示来源地址不匹配**：核对 `monitor.py` 的检索配置与 `state.json` 中的 `sources`。
 - **记录页图片无法显示**：记录页引用 `docs/images/` 中的图片文件；对应图片文件缺失导致图片无法显示。
+
+## Burago / Carmodel
+
+`carmodel.py` 独立解析 Carmodel 搜索卡片、商品属性表、Product 结构化数据与原尺寸 fancybox 图库。2025 搜索 AMR25、A525、RB21、SF-25、MCL39、W16；2026 搜索 AMR26、A526、SF-26、RB22、MCL40、W17、VCARB-03、VF-26、FW48、MAC-26、R26。每词添加 `burago F1` 前缀，R26 另加 `Audi` 后缀，结果标题必须包含对应年份。
+
+每个关键词同时抓取普通搜索和 Coming soon，并跟随 Show all 和分页链接；按 Carmodel 商品 ID 去重，保留不同货号、比例与套装。Coming soon 单独保留状态，预计到货季度存入 Expected release。图片重新读取商品详情页完整图库，以文件内容去重后保存到本地。会话 Cookie 用于处理网站语言与货币重定向。任一关键词抓取失败时保留该关键词上次成功的数据。
+
+`carmodel-coverage.json` 记录最近一次人工全量核对的各词数量。可运行 `python refresh_carmodel.py` 只刷新 Burago 快照，再运行 `python catalog.py` 和 `python updates.py` 更新目录。

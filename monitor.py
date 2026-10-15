@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import carmodel
 import os
 import re
 import sys
@@ -125,6 +126,7 @@ def minichamps_2025_url(page=1):
 
 
 SOURCE_URLS = (
+    *carmodel.SOURCES,
     spark_shop_url("SF-26"),
     *(spark_shop_url(search) for search in SPARK_SHOP_2025_SEARCHES),
     *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
@@ -819,6 +821,9 @@ def fetch_all():
             flush=True,
         )
 
+    for year, models in carmodel.SEARCHES.items():
+        for model in models:
+            fetch_and_merge(f"Burago {year} · {model}", "carmodel", ("carmodel" + year, model), carmodel.fetch, year, model)
     for search in SPARK_2025_SEARCHES:
         fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", ("spark2025", search), fetch_spark_2025, search)
     for search in SPARK_2026_SEARCHES:
@@ -855,6 +860,8 @@ def fetch_all():
     def matches_crawl(item, crawl_key):
         crawl_type, search = crawl_key
         name = item.get("name", "")
+        if crawl_type.startswith("carmodel"):
+            return item.get("source") == "carmodel" and item.get("year") == crawl_type[-4:] and item.get("model") == search
         if crawl_type == "sparkshop2025":
             return item.get("source") == "sparkmodelshop" and normalized_model_code(search) in normalized_model_code(name)
         if crawl_type == "spark2025":

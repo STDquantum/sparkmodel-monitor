@@ -1,0 +1,104 @@
+[
+  {
+    "year": "2025",
+    "model": "A525",
+    "count": 1,
+    "coming_soon": 0
+  },
+  {
+    "year": "2025",
+    "model": "AMR25",
+    "count": 10,
+    "coming_soon": 2
+  },
+  {
+    "year": "2025",
+    "model": "MCL39",
+    "count": 13,
+    "coming_soon": 0
+  },
+  {
+    "year": "2025",
+    "model": "RB21",
+    "count": 15,
+    "coming_soon": 2
+  },
+  {
+    "year": "2025",
+    "model": "SF-25",
+    "count": 30,
+    "coming_soon": 2
+  },
+  {
+    "year": "2025",
+    "model": "W16",
+    "count": 7,
+    "coming_soon": 0
+  },
+  {
+    "year": "2026",
+    "model": "A526",
+    "count": 8,
+    "coming_soon": 8
+  },
+  {
+    "year": "2026",
+    "model": "AMR26",
+    "count": 8,
+    "coming_soon": 8
+  },
+  {
+    "year": "2026",
+    "model": "FW48",
+    "count": 8,
+    "coming_soon": 8
+  },
+  {
+    "year": "2026",
+    "model": "MAC-26",
+    "count": 18,
+    "coming_soon": 18
+  },
+  {
+    "year": "2026",
+    "model": "MCL40",
+    "count": 18,
+    "coming_soon": 18
+  },
+  {
+    "year": "2026",
+    "model": "R26",
+    "count": 8,
+    "coming_soon": 8
+  },
+  {
+    "year": "2026",
+    "model": "RB22",
+    "count": 16,
+    "coming_soon": 16
+  },
+  {
+    "year": "2026",
+    "model": "SF-26",
+    "count": 22,
+    "coming_soon": 22
+  },
+  {
+    "year": "2026",
+    "model": "VCARB-03",
+    "count": 8,
+    "coming_soon": 8
+  },
+  {
+    "year": "2026",
+    "model": "VF-26",
+    "count": 0,
+    "coming_soon": 0
+  },
+  {
+    "year": "2026",
+    "model": "W17",
+    "count": 22,
+    "coming_soon": 22
+  }
+]

@@ -96,7 +96,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--port', type=int, default=410)
     parser.add_argument('--no-browser', action='store_true')
-    parser.add_argument('--page', choices=['both', 'annotate.html', 'product-editor.html'], default='both')
+    parser.add_argument('--page', choices=['both', 'index.html', 'annotate.html', 'product-editor.html'], default='both')
     args = parser.parse_args()
     with LOCK:
         read_times()
