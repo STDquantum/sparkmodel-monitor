@@ -33,7 +33,8 @@ def request(url):
                 return response.read().decode('utf-8')
         except HTTPError as error:
             if error.code in {401, 403, 429}:
-                raise SourceUnavailable(f'Carmodel HTTP {error.code}; stopping requests for this run: {url}') from error
+                challenge = ' (Cloudflare browser challenge)' if error.headers.get('cf-mitigated') == 'challenge' else ''
+                raise SourceUnavailable(f'Carmodel HTTP {error.code}{challenge}; stopping requests for this run: {url}') from error
             if error.code not in {408, 500, 502, 503, 504}:
                 raise
             if attempt == 2:

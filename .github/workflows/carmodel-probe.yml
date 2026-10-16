@@ -7,6 +7,11 @@ on:
       - carmodel_probe.py
       - .github/workflows/carmodel-probe.yml
   workflow_dispatch:
+    inputs:
+      browser:
+        description: 'Also test browser transport and Chromium (diagnostic dependencies only)'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -21,6 +26,11 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest test_carmodel -q
-      - run: pip install curl_cffi playwright
-      - run: python -m playwright install --with-deps chromium
-      - run: python carmodel_probe.py --browser
+      - if: github.event_name == 'workflow_dispatch' && inputs.browser
+        run: pip install curl_cffi playwright
+      - if: github.event_name == 'workflow_dispatch' && inputs.browser
+        run: python -m playwright install --with-deps chromium
+      - if: github.event_name == 'workflow_dispatch' && inputs.browser
+        run: python carmodel_probe.py --browser
+      - if: github.event_name != 'workflow_dispatch' || !inputs.browser
+        run: python carmodel_probe.py

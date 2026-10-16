@@ -24,6 +24,12 @@ class CarmodelTests(unittest.TestCase):
             self.assertEqual([call.args[0] for call in sleep.call_args_list], [2, 4])
             self.assertEqual(build.return_value.open.call_args.kwargs['timeout'], 20)
 
+    def test_cloudflare_challenge_is_reported(self):
+        with patch.object(carmodel, 'build_opener') as build:
+            build.return_value.open.side_effect = HTTPError('https://www.carmodel.com/search', 403, 'Forbidden', {'cf-mitigated': 'challenge'}, None)
+            with self.assertRaisesRegex(carmodel.SourceUnavailable, 'Cloudflare browser challenge'):
+                carmodel.request(carmodel.search_url('RB21'))
+
     def test_transient_failure_can_recover(self):
         with patch.object(carmodel, 'build_opener') as build, patch.object(carmodel.time, 'sleep'):
             response = build.return_value.open.return_value.__enter__.return_value

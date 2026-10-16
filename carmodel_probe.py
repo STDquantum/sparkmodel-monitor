@@ -31,7 +31,8 @@ def probe(opener, url, headers):
             if response.headers.get(key):
                 print(f'  {key}: {response.headers[key]}', flush=True)
         if response.code != 200:
-            print('  response:', carmodel.text(body)[:700], flush=True)
+            visible = re.sub(r'<(script|style)\b[^>]*>.*?</\1>', '', body, flags=re.S | re.I)
+            print('  response:', carmodel.text(visible)[:400], flush=True)
 
 def main():
     parser = argparse.ArgumentParser()

@@ -112,6 +112,10 @@ python updates.py
 
 Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临时网络错误和部分服务端错误最多尝试 3 次，每次请求超时 20 秒，间隔 2、4 秒。重试耗尽后也停止本轮 Carmodel 检索，保留对应旧商品，其他品牌继续更新。下次运行会自动重新尝试 Carmodel。此处理避免来源拒绝访问时逐车型重试耗尽 Actions 的 30 分钟限额；它不能解除来源网站对 GitHub 执行器的访问限制。
 
+2026-10-16 实测：GitHub 执行器收到 Cloudflare 验证页（`cf-mitigated: challenge`）；完整浏览器 User-Agent、常见请求头、首页 Cookie、浏览器式 HTTP 连接和启用 JavaScript 的 Chromium 均未取得商品页。本机同一搜索返回 200 和 15 件商品。需要恢复此来源的自动采集时，应使用可访问该站的自托管执行器，或联系来源站方放行；单改请求头并未解决本次限制。
+
+只读排查可运行 `python carmodel_probe.py`，对比原请求头、浏览器请求头和首页 Cookie；它不会保存快照或发送通知。Actions 中的 `Carmodel connectivity probe` 会在相关 PR 上运行基础诊断，也支持手动运行。手动勾选 `browser` 才安装诊断依赖并测试浏览器式连接和 Chromium；正常采集仍只需标准库。诊断任务完成表示检查执行完毕，不代表网站访问成功，需查看输出的 HTTP 状态及商品卡片数。
+
 更新记录默认与 `HEAD` 比较，而不是与上次本地运行比较；未提交结果时重复运行可能重复记录。需要指定其他已提交基线时可运行 `python updates.py --base <提交或分支>`。
 
 可选环境变量：
