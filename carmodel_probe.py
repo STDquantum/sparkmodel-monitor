@@ -1,5 +1,6 @@
 """Read-only Carmodel connectivity checks; no notifications or snapshot writes."""
 import re
+import argparse
 import time
 from http.cookiejar import CookieJar
 from urllib.error import HTTPError
@@ -33,6 +34,9 @@ def probe(opener, url, headers):
             print('  response:', carmodel.text(body)[:700], flush=True)
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--browser', action='store_true')
+    args = parser.parse_args()
     for label, headers, warm in (
         ('existing headers', {'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'en-GB,en;q=0.9'}, False),
         ('browser headers', BROWSER_HEADERS, False),
@@ -45,6 +49,32 @@ def main():
             time.sleep(2)
         probe(opener, carmodel.search_url('RB21'), headers)
         time.sleep(2)
+    if args.browser:
+        print('\nPROFILE: browser HTTP connection', flush=True)
+        from curl_cffi import requests
+        with requests.Session(impersonate='chrome') as session:
+            for url in (carmodel.BASE + '/', carmodel.search_url('RB21')):
+                try:
+                    response = session.get(url, timeout=20)
+                    print(f'{url}: HTTP {response.status_code}, challenge={response.headers.get("cf-mitigated")}, cards={len(re.findall(r"<article", response.text))}', flush=True)
+                except Exception as error:
+                    print(type(error).__name__, str(error)[:300], flush=True)
+                time.sleep(2)
+        print('\nPROFILE: Chromium with JavaScript', flush=True)
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            context = browser.new_context(locale='en-GB')
+            page = context.new_page()
+            try:
+                response = page.goto(carmodel.search_url('RB21'), wait_until='domcontentloaded', timeout=30000)
+                page.wait_for_timeout(25000)
+                print(f'Chromium: initial HTTP {response.status}, title={page.title()}, cards={page.locator("article.prod-card").count()}', flush=True)
+                print('  page text:', page.locator('body').inner_text()[:400], flush=True)
+            except Exception as error:
+                print(type(error).__name__, str(error)[:300], flush=True)
+            finally:
+                browser.close()
 
 if __name__ == '__main__':
     main()

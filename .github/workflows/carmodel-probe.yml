@@ -14,11 +14,13 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m unittest test_carmodel -q
-      - run: python carmodel_probe.py
+      - run: pip install curl_cffi playwright
+      - run: python -m playwright install --with-deps chromium
+      - run: python carmodel_probe.py --browser
