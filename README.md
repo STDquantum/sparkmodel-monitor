@@ -1,36 +1,43 @@
 # Formula 1 车模目录与商品监控
 
-采集 Spark、Looksmart、Minichamps 和 Carmodel（Burago）的 Formula 1 车模信息，保存商品详情与图片，并生成可本地浏览、可部署到 GitHub Pages 的静态目录。支持钉钉变化通知、手动添加和修改商品，以及发布时间和出货时间标注。
+采集 Spark、Looksmart、Minichamps 和 Carmodel（Burago）的 Formula 1 车模信息，保存商品详情与图片，生成可本地浏览、可发布到 GitHub Pages 的静态目录。支持钉钉变化通知、手动维护商品，以及发布时间和出货时间标注。
 
 采集脚本与本地服务只使用 Python 标准库；网页无需安装 Node.js、数据库或前端构建工具。
 
+## 目录
+
+- [快速开始](#快速开始)
+- [功能与更新方式](#功能与更新方式)
+- [目录浏览](#目录浏览)
+- [手动维护](#手动维护)
+- [采集与更新](#采集与更新)
+- [GitHub Actions 与 Pages](#github-actions-与-pages)
+- [文件说明](#文件说明)
+- [常见问题](#常见问题)
+
 ## 快速开始
 
-以下操作均在本项目目录 `sparkmodel-monitor` 中进行。
+以下操作均在项目目录 `sparkmodel-monitor` 中进行。本地运行脚本需要安装 Python 3；自动化工作流使用 Python 3.12。
 
-### 浏览现有目录
+| 你想做什么 | Windows 入口 | 说明 |
+| --- | --- | --- |
+| 浏览目录 | 双击 `浏览目录.bat` | 启动本地服务并打开商品目录 |
+| 添加商品、管理图片或标注时间 | 双击 `管理商品与时间.bat` | 同时打开时间标注与商品管理页 |
+| 更新比美高 | 双击 `更新比美高.bat` | 更新比美高快照、详情、图片及更新记录，不发送钉钉通知 |
 
-Windows 用户双击 `浏览目录.bat` 可启动本地目录服务并打开浏览器。
+浏览和管理时保持启动窗口运行，关闭窗口即停止服务。比美高更新需要已有的 `data/state.json`。
 
-直接打开 [`docs/index.html`](docs/index.html) 即可浏览已生成的商品与本地图片；[`docs/updates.html`](docs/updates.html) 展示商品和图片的更新记录。
-
-也可以启动本地服务，只打开目录页：
+也可以在终端启动目录：
 
 ```powershell
 python scripts/serve_local.py --page index.html
 ```
 
-浏览器访问 <http://127.0.0.1:410/>。
+浏览器访问 <http://127.0.0.1:410/>。需要管理商品和时间时，运行 `python scripts/serve_local.py`，默认同时打开两个管理页面。
 
-### 管理商品与标注时间
+只浏览已有内容，也可直接打开 [商品目录](docs/index.html) 或 [更新记录](docs/updates.html)。商品管理页保存数据需要本地服务；时间标注另支持 Chrome / Edge 的文件写入方式，见[时间标注说明](#标注发布时间与出货时间)。
 
-Windows 用户双击 `管理商品与时间.bat`，会启动本地服务，同时打开时间标注页与商品管理页。保持启动窗口运行，关闭窗口即停止服务。
-
-启动脚本依次使用 `PYTHON_HOME` 下的 Python、`D:\conda\env3.10\python.exe`、系统的 `py -3`。也可以直接运行：
-
-```powershell
-python scripts/serve_local.py
-```
+Windows 启动脚本依次使用 `PYTHON_HOME` 下的 Python、`D:\conda\env3.10\python.exe`、系统的 `py -3`。
 
 | 页面 | 本地地址 | 用途 |
 | --- | --- | --- |
@@ -40,6 +47,15 @@ python scripts/serve_local.py
 | 更新记录 | <http://127.0.0.1:410/updates.html> | 查看采集产生的商品与图片变化 |
 
 服务已经启动时直接访问上述地址，无需重复运行脚本。端口冲突时可用 `python scripts/serve_local.py --port 8000`，并将地址中的端口改为 `8000`；不想自动打开浏览器可加 `--no-browser`。
+
+## 功能与更新方式
+
+- **目录浏览**：搜索商品，按年份、车队、厂商、大奖赛、比例、Availability、样品及出货状态筛选，查看详情和可缩放图片。
+- **手动维护**：添加或修改商品、上传或删除图片、填写发布时间和出货时间；自动采集保留这些手动修改。
+- **云端监控**：GitHub Actions 配置每 10 分钟触发一次，监控 Spark、Looksmart、Minichamps，发现变化后通知并更新静态目录。
+- **比美高更新**：Carmodel 当前由本地按需采集。云端固定禁用该来源并保留已有数据；本地更新后，提交并推送相关文件才能更新线上目录。
+
+采集范围由车型和年份配置决定，目前覆盖 2025、2026 赛季的配置车型，具体范围见[商品来源与范围](#商品来源与范围)。
 
 ## 目录浏览
 
@@ -88,7 +104,21 @@ python scripts/serve_local.py
 - 采集需要访问来源网站、图片地址及钉钉 Webhook。
 - 更新记录使用 Git 中的已提交版本作比较基线，正常使用需有 Git 仓库及有效提交。
 
-### 本地执行
+### 本地更新比美高
+
+比美高改为本地按需更新：Windows 双击 `更新比美高.bat`，会在已有 `data/state.json` 上抓取全部配置车型，更新比美高详情、图片、目录及更新记录。完成后刷新本地目录页即可查看。它不会抓取其他品牌，也不发送钉钉通知，不安装定时任务。Python 的选择顺序与 `管理商品与时间.bat` 相同。
+
+也可手动运行：
+
+```powershell
+python scripts/refresh_carmodel.py --build
+```
+
+不加 `--build` 时只更新商品快照。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
+
+本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `data/state.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
+
+### 完整采集与通知
 
 先配置钉钉机器人，再依次运行三个步骤。前一步成功后再执行下一步：
 
@@ -148,18 +178,6 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 - Spark 与 Sparkmodelshop 按货号去重，优先保留 Spark 官网条目；Shop 补充仅收录符合条件的 2025 Spark 商品。Spark 的 2026 商品要求标题含 `2026`，并排除 `1:5` 比例。
 - 2026 Looksmart 按货号匹配 Sparkmodelshop，匹配后优先采用完整 Shop 图库，封面置首并按内容去重；名称、属性、描述仍来自 Looksmart 官网。无匹配时使用官网图片，Shop 请求失败时保留上次成功的 Shop 图库。Shop 图库增图也会触发监控变化。
 - Carmodel 每个车型同时检索普通商品和 Coming soon，跟随分页及 Show all，要求标题含对应年份，按 Carmodel 商品 ID 去重。保留不同货号、比例和套装；预计到货季度存入 `Expected release`。
-
-比美高改为本地按需更新：Windows 双击 `更新比美高.bat`，会在已有 `data/state.json` 上抓取全部配置车型，更新比美高详情、图片、目录及更新记录。完成后刷新本地目录页即可查看。它不会抓取其他品牌，也不发送钉钉通知，不安装定时任务。Python 的选择顺序与 `管理商品与时间.bat` 相同。
-
-也可手动运行：
-
-```powershell
-python scripts/refresh_carmodel.py --build
-```
-
-不加 `--build` 时只更新商品快照。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
-
-本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `data/state.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
 
 ## GitHub Actions 与 Pages
 
