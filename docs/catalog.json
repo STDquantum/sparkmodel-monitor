@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:06:30.093828+00:00",
+  "generated_at": "2026-10-16T13:19:10.011967+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -9409,7 +9409,9 @@
       "name": "Ferrari SF-26 Canadian GP 2026 – Lewis Hamilton 2nd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-lewis-hamilton-scale-143-2/",
       "images": [
-        "images/looksmart-20960-shop-gallery-1.webp"
+        "images/looksmart-20960-shop-gallery-1.webp",
+        "images/looksmart-20960-shop-gallery-2.webp",
+        "images/looksmart-20960-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -9428,11 +9430,13 @@
       "length": "",
       "availability": "Future production PREORDER NOW",
       "cover_source": "sparkmodelshop",
-      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4b/b5/bf/1784563417/4859470fa1c847a09a6b4b64c5e313b4.webp",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/63/2e/1f/1792056419/634be9532f534d97a2ca10f1b0992296.webp",
       "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/lsf1084-de",
       "image_source": "sparkmodelshop",
       "shop_image_urls": [
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4b/b5/bf/1784563417/4859470fa1c847a09a6b4b64c5e313b4.webp"
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/63/2e/1f/1792056419/634be9532f534d97a2ca10f1b0992296.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/37/33/e0/1792056407/98cb5157de3b4737a83e22641f9a0351.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/5b/85/39/1792056397/b8a63ed864bf4b61915f6e0db6b740e2.webp"
       ]
     },
     {
@@ -9502,7 +9506,9 @@
       "name": "Ferrari SF-26 Canadian GP 2026 – Charles Leclerc – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-italy-gp-2025-charles-leclerc-scale-143-copy-2/",
       "images": [
-        "images/looksmart-20965-shop-gallery-1.webp"
+        "images/looksmart-20965-shop-gallery-1.webp",
+        "images/looksmart-20965-shop-gallery-2.webp",
+        "images/looksmart-20965-shop-gallery-3.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -9521,11 +9527,13 @@
       "length": "",
       "availability": "Future production PREORDER NOW",
       "cover_source": "sparkmodelshop",
-      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/e5/a3/1784563422/264aa7dec9cb4867a27f56a91fed8766.webp",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/c0/97/1792056543/13d499edf2684640aed217070e778240.webp",
       "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/lsf1085-de",
       "image_source": "sparkmodelshop",
       "shop_image_urls": [
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/e5/a3/1784563422/264aa7dec9cb4867a27f56a91fed8766.webp"
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/c0/97/1792056543/13d499edf2684640aed217070e778240.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/d9/g0/83/1792056553/397c3e037af34fd7aaf4b6405e7c5e81.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c1/83/e9/1792056568/86ff50f00ff94d96901992ba99565c74.webp"
       ]
     },
     {
@@ -11616,7 +11624,7 @@
         "Product number": "537252504",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "RESIN",
@@ -11629,7 +11637,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019a8919aa52720db1d38c984d6611f9",
@@ -17702,7 +17710,7 @@
         "Properties": "Download product data sheet as PDF",
         "Availability": "available for preorder",
         "Brand": "HAAS",
-        "Driver": "OCON; ESTEBAN",
+        "Driver": "OCON, ESTEBAN",
         "Material": "DIECAST",
         "Model": "VF-26"
       },
@@ -17744,7 +17752,11 @@
       "id": "minichamps-minichamps-1661390",
       "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-JAPANESE-GP-2026/640260387",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1661390-1.jpg",
+        "images/minichamps-minichamps-1661390-2.jpg",
+        "images/minichamps-minichamps-1661390-3.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "640260387",
@@ -26173,7 +26185,9 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 & No.63 Japanese GP 2026\nGeorge Russell & Kimi Antonelli",
       "url": "https://www.sparkmodel.com/products/82c92d00-dc44-43dc-bcfc-3a1f7befe2d0",
       "images": [
-        "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-1.webp"
+        "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-1.webp",
+        "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-2.webp",
+        "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-3.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",

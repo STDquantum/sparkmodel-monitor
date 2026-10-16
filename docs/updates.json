@@ -1,6 +1,212 @@
 {
   "updates": [
     {
+      "date": "2026-10-16T13:19:10.011967+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "looksmart-20960",
+          "name": "Ferrari SF-26 Canadian GP 2026 – Lewis Hamilton 2nd Place – Scale 1:43",
+          "url": "https://looksmartmodels.com/product/ferrari-sf-26-japanese-gp-2026-lewis-hamilton-scale-143-2/",
+          "product_number": "LSF1084",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4b/b5/bf/1784563417/4859470fa1c847a09a6b4b64c5e313b4.webp",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/63/2e/1f/1792056419/634be9532f534d97a2ca10f1b0992296.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/looksmart-20960-shop-gallery-2.webp",
+              "images/looksmart-20960-shop-gallery-3.webp"
+            ],
+            "changed": [
+              "images/looksmart-20960-shop-gallery-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/looksmart-20960-shop-gallery-2.webp": "ce7547da13fdca50d85f8a56a05b81eb1f34af4c167b8125f677a4220c4920ad",
+              "images/looksmart-20960-shop-gallery-3.webp": "c994140b09f58d96f3951366df21ff72e0d4b4b08909a319ae2302eba37ed8a0",
+              "images/looksmart-20960-shop-gallery-1.webp": "dbbf1a8c471d0c83f568629a3d77f40daddc8f77ce24d21407f36caaff20a24c"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "looksmart-20965",
+          "name": "Ferrari SF-26 Canadian GP 2026 – Charles Leclerc – Scale 1:43",
+          "url": "https://looksmartmodels.com/product/ferrari-sf-25-italy-gp-2025-charles-leclerc-scale-143-copy-2/",
+          "product_number": "LSF1085",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/78/e5/a3/1784563422/264aa7dec9cb4867a27f56a91fed8766.webp",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/c0/97/1792056543/13d499edf2684640aed217070e778240.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/looksmart-20965-shop-gallery-2.webp",
+              "images/looksmart-20965-shop-gallery-3.webp"
+            ],
+            "changed": [
+              "images/looksmart-20965-shop-gallery-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/looksmart-20965-shop-gallery-2.webp": "cc6ddded1264533a4572d857b78ba79763644971065727ea243aa94a271866a9",
+              "images/looksmart-20965-shop-gallery-3.webp": "40b85474bc69bf51db09d9374804b41ec5b179108809a9c8f9ef10aa6d8db929",
+              "images/looksmart-20965-shop-gallery-1.webp": "cfa7d96ea826d4a92ba016e985908567315995ee6e4b4053a84905fb796094e3"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919a93d701e9f17e2f18fc0723d",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919a93d701e9f17e2f18fc0723d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537252504",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661388",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/640260331",
+          "product_number": "640260331",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Driver",
+              "before": "OCON; ESTEBAN",
+              "after": "OCON, ESTEBAN"
+            },
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/f9/18/12/1790883162/00_640260331_01a0f8f4.jpg?ts=1790883162",
+              "after": "https://www.minichamps.de/media/7d/42/01/1792092759/00_640260331_01a1410d.jpg?ts=1792092759"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661390",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-JAPANESE-GP-2026/640260387",
+          "product_number": "640260387",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/7d/98/43/1792092759/00_640260387_01a1410d.jpg?ts=1792092759"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1661390-1.jpg",
+              "images/minichamps-minichamps-1661390-2.jpg",
+              "images/minichamps-minichamps-1661390-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1661390-1.jpg": "e1e356c0bec4ecf1b67be7931706700462d95466c0354192f007eb465a7b6360",
+              "images/minichamps-minichamps-1661390-2.jpg": "06f116f8a4a0c6916e993d4c8fa6479441553ae05d2ab287690ca265420054a3",
+              "images/minichamps-minichamps-1661390-3.jpg": "eb30fd0f5de3e73f3e205c86d4ac141c86c49ca6a3fdf83bbf5688f31a7aeecd"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 & No.63 Japanese GP 2026\nGeorge Russell & Kimi Antonelli",
+          "url": "https://www.sparkmodel.com/products/82c92d00-dc44-43dc-bcfc-3a1f7befe2d0",
+          "product_number": "64S148",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7ee9e95f-4723-44e3-8bcf-0eb293665fe8.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d82f9011-cdfc-41eb-86b0-0cc0be71efd9.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-2.webp",
+              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-3.webp"
+            ],
+            "changed": [
+              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-2.webp": "2f2294e072d6241a620bd0af398737369a5de21da8c57d44d3cc2c17503e3802",
+              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-3.webp": "b0e9f6f7956b5e0ab843c0dc4f2e7211c60aba74289817ffbf4514704a78cfde",
+              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-1.webp": "ad06ca3f010a909d70406a5b836f2ac4e6121bcabd3482e9bea3735f2566df26"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-15T07:06:30.093828+00:00",
       "entries": [
         {
@@ -7029,14 +7235,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20960-shop-gallery-1.webp"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-20960-shop-gallery-1.webp": "cca3d63ba4d6c235fb56a5b867bff00cac927abd8c6273d9fd276e8255bda591"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -7119,14 +7321,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20965-shop-gallery-1.webp"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-20965-shop-gallery-1.webp": "7ebdb206ce4d1167c44ccfa8d298134eb41cc69c025ef1aa39c5c675598610ed"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -21156,15 +21354,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-82c92d00-dc44-43dc-bcfc-3a1f7befe2d0-1.webp": "287275f926c0be7825b03a6ee4a22afa89730c2975c2baa5bfd0b57cf69829f5"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
