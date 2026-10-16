@@ -7,9 +7,8 @@ import subprocess
 import argparse
 from collections import defaultdict, deque
 from pathlib import Path
+from paths import ROOT, DOCS, STATE_FILE
 
-ROOT = Path(__file__).parent
-DOCS = ROOT / "docs"
 CATALOG = DOCS / "catalog.json"
 REPORT = DOCS / "updates.json"
 REPORT_JS = DOCS / "updates.js"
@@ -132,13 +131,19 @@ def product_meta(product):
     }
 
 
+def previous_snapshot():
+    """Read historical snapshots from either side of the data/ migration."""
+    state = old_json("data/state.json", None)
+    return old_json("state.json", {"items": {}}) if state is None else state
+
+
 def publish():
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     old_catalog = old_json("docs/catalog.json", {"products": []})
     previous = {item["id"]: item for item in old_catalog.get("products", [])}
     current = {item["id"]: item for item in catalog["products"]}
-    old_state = old_json("state.json", {"items": {}}).get("items", {})
-    state = json.loads((ROOT / "state.json").read_text(encoding="utf-8"))
+    old_state = previous_snapshot().get("items", {})
+    state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
     new_state = state.get("items", {})
     changed_ids = set().union(*(state.get("changes", {}).get(key, []) for key in ("added", "changed", "removed")))
     changed_ids |= set(previous) ^ set(current)

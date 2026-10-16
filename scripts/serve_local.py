@@ -6,10 +6,9 @@ import threading
 import webbrowser
 from datetime import date
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-from pathlib import Path
 import manual_products
+from paths import DOCS
 
-DOCS = Path(__file__).resolve().parent / 'docs'
 TIMES = DOCS / 'product-times.js'
 LOCK = threading.Lock()
 

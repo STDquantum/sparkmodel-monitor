@@ -7,7 +7,7 @@ import re
 import uuid
 from pathlib import Path
 
-DOCS = Path(__file__).with_name('docs')
+from paths import DOCS
 FILE = DOCS / 'manual-products.js'
 
 def read_data():
