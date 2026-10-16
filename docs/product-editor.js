@@ -35,7 +35,7 @@ document.querySelector('#images').onclick=event=>{if(event.target.matches('img')
 preview.onclick=event=>{if(event.target===preview)preview.close()};
 const readFile=file=>new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve({data:reader.result.split(',')[1]});reader.onerror=()=>reject(Error('图片读取失败'));reader.readAsDataURL(file)});
 form.onsubmit=async event=>{
-  event.preventDefault();if(location.protocol==='file:'){status.textContent='请通过 start_local.bat 启动本地服务后，打开商品管理页保存。';return}
+  event.preventDefault();if(location.protocol==='file:'){status.textContent='请双击“管理商品与时间.bat”启动本地服务后，打开商品管理页保存。';return}
   document.querySelector('#save').disabled=true;status.textContent='正在保存…';
   try{const payload={...Object.fromEntries(new FormData(form)),extraProperties:extraProperties(),id:selectedId,removeImages:[...removed],uploads:await Promise.all(uploads.map(item=>readFile(item.file)))};const response=await fetch('/api/products',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});if(!response.ok)throw Error(await response.text());const result=await response.json();catalog=result.catalog;dirty=false;const top=window.scrollY;openProduct(result.id);window.scrollTo({top,behavior:'instant'});status.textContent='已保存。刷新主网页即可查看。'}catch(error){status.textContent='保存失败：'+error.message}finally{document.querySelector('#save').disabled=false}
 };

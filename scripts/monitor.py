@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import carmodel
+from paths import STATE_FILE, DOCS
 import os
 import re
 import sys
@@ -9,7 +10,6 @@ from datetime import datetime, timezone
 from html import unescape as html_unescape
 from http.client import IncompleteRead
 from html.parser import HTMLParser
-from pathlib import Path
 from http.cookiejar import CookieJar
 from threading import RLock
 from urllib.error import HTTPError, URLError
@@ -61,8 +61,7 @@ SPARK_SHOP_2025_SEARCHES = ("VCARB 02", "RB21")
 def spark_shop_url(search, page=1):
     return f"{SPARK_SHOP_BASE_URL}search?{urlencode({'search': search, 'p': page})}"
 
-STATE_FILE = Path(__file__).with_name("state.json")
-CATALOG_FILE = Path(__file__).with_name("docs") / "catalog.json"
+CATALOG_FILE = DOCS / "catalog.json"
 USER_AGENT = "sparkmodel-monitor/1.0 (+GitHub Actions)"
 _MINICHAMPS_OPENER = build_opener(HTTPCookieProcessor(CookieJar()))
 _MINICHAMPS_LOCK = RLock()

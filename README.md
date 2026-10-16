@@ -10,24 +10,26 @@
 
 ### 浏览现有目录
 
+Windows 用户双击 `浏览目录.bat` 可启动本地目录服务并打开浏览器。
+
 直接打开 [`docs/index.html`](docs/index.html) 即可浏览已生成的商品与本地图片；[`docs/updates.html`](docs/updates.html) 展示商品和图片的更新记录。
 
 也可以启动本地服务，只打开目录页：
 
 ```powershell
-python serve_local.py --page index.html
+python scripts/serve_local.py --page index.html
 ```
 
 浏览器访问 <http://127.0.0.1:410/>。
 
 ### 管理商品与标注时间
 
-Windows 用户双击 `start_local.bat`，会启动本地服务，同时打开时间标注页与商品管理页。保持启动窗口运行，关闭窗口即停止服务。
+Windows 用户双击 `管理商品与时间.bat`，会启动本地服务，同时打开时间标注页与商品管理页。保持启动窗口运行，关闭窗口即停止服务。
 
 启动脚本依次使用 `PYTHON_HOME` 下的 Python、`D:\conda\env3.10\python.exe`、系统的 `py -3`。也可以直接运行：
 
 ```powershell
-python serve_local.py
+python scripts/serve_local.py
 ```
 
 | 页面 | 本地地址 | 用途 |
@@ -37,7 +39,7 @@ python serve_local.py
 | 商品管理 | <http://127.0.0.1:410/product-editor.html> | 添加商品、修改属性、管理图片 |
 | 更新记录 | <http://127.0.0.1:410/updates.html> | 查看采集产生的商品与图片变化 |
 
-服务已经启动时直接访问上述地址，无需重复运行脚本。端口冲突时可用 `python serve_local.py --port 8000`，并将地址中的端口改为 `8000`；不想自动打开浏览器可加 `--no-browser`。
+服务已经启动时直接访问上述地址，无需重复运行脚本。端口冲突时可用 `python scripts/serve_local.py --port 8000`，并将地址中的端口改为 `8000`；不想自动打开浏览器可加 `--no-browser`。
 
 ## 目录浏览
 
@@ -76,7 +78,7 @@ python serve_local.py
 
 目录详情显示两个时间，缺失时显示“无”；按时间排序时，时间也显示在卡片底部。按出货时间排序时，未填写出货时间的商品始终排在末尾，再按同方向的发布时间排序。
 
-也可直接打开 `docs/annotate.html`，在支持文件写入的 Chrome / Edge 中点击“选择时间 JS，启用自动保存”，选择 `docs/product-times.js` 并授予写入权限。普通静态 HTTP 服务只支持浏览；需要通过页面保存时，使用 `serve_local.py`。
+也可直接打开 `docs/annotate.html`，在支持文件写入的 Chrome / Edge 中点击“选择时间 JS，启用自动保存”，选择 `docs/product-times.js` 并授予写入权限。普通静态 HTTP 服务只支持浏览；需要通过页面保存时，使用 `scripts/serve_local.py`。
 
 ## 采集与更新
 
@@ -93,18 +95,18 @@ python serve_local.py
 ```powershell
 $env:DINGTALK_WEBHOOK = '钉钉机器人的完整 HTTPS Webhook 地址'
 $env:DINGTALK_KEYWORD = '成绩'
-python monitor.py
-python catalog.py
-python updates.py
+python scripts/monitor.py
+python scripts/catalog.py
+python scripts/updates.py
 ```
 
 `DINGTALK_KEYWORD` 可省略，默认值为 `成绩`，应与机器人配置的关键词一致。Webhook 通过环境变量或 GitHub Secret 提供，请勿写入项目文件。
 
 | 步骤 | 输入与行为 | 输出 |
 | --- | --- | --- |
-| `monitor.py` | 检索各来源，对比上次商品列表；首次初始化或发现变化时发送钉钉通知 | `state.json` |
-| `catalog.py` | 读取快照，增量采集商品详情与图片，移除下架记录及未引用的采集图片 | `docs/catalog.json`、`docs/catalog.js`、`docs/images/` |
-| `updates.py` | 对比当前目录与 Git 基线，记录商品字段及图片变化 | `docs/updates.json`、`docs/updates.js` |
+| `scripts/monitor.py` | 检索各来源，对比上次商品列表；首次初始化或发现变化时发送钉钉通知 | `data/state.json` |
+| `scripts/catalog.py` | 读取快照，增量采集商品详情与图片，移除下架记录及未引用的采集图片 | `docs/catalog.json`、`docs/catalog.js`、`docs/images/` |
+| `scripts/updates.py` | 对比当前目录与 Git 基线，记录商品字段及图片变化 | `docs/updates.json`、`docs/updates.js` |
 
 监控主要比较商品新增、下架、封面链接、Availability 和适用商品的 Shop 图库变化；未发生这些变化的商品通常不会重新抓取详情。钉钉通知每类最多展开 20 件商品。需要发送通知时，Webhook 缺失或发送失败会使监控步骤报错，快照不会保存为本次结果。
 
@@ -114,9 +116,9 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 
 2026-10-16 实测：GitHub 执行器收到 Cloudflare 验证页（`cf-mitigated: challenge`）；完整浏览器 User-Agent、常见请求头、首页 Cookie、浏览器式 HTTP 连接和启用 JavaScript 的 Chromium 均未取得商品页。本机同一搜索返回 200 和 15 件商品。需要恢复此来源的自动采集时，应使用可访问该站的自托管执行器，或联系来源站方放行；单改请求头并未解决本次限制。
 
-只读排查可运行 `python carmodel_probe.py`，对比原请求头、浏览器请求头和首页 Cookie；它不会保存快照或发送通知。Actions 中的 `Carmodel connectivity probe` 在相关 PR 上仅运行离线测试，手动运行才访问来源网站。手动勾选 `browser` 才安装诊断依赖并测试浏览器式连接和 Chromium；正常采集仍只需标准库。诊断任务完成表示检查执行完毕，不代表网站访问成功，需查看输出的 HTTP 状态及商品卡片数。
+只读排查可运行 `python scripts/carmodel_probe.py`，对比原请求头、浏览器请求头和首页 Cookie；它不会保存快照或发送通知。Actions 中的 `Carmodel connectivity probe` 在相关 PR 上仅检查脚本和数据路径，手动运行才访问来源网站。手动勾选 `browser` 才安装诊断依赖并测试浏览器式连接和 Chromium；正常采集仍只需标准库。诊断任务完成表示检查执行完毕，不代表网站访问成功，需查看输出的 HTTP 状态及商品卡片数。
 
-更新记录默认与 `HEAD` 比较，而不是与上次本地运行比较；未提交结果时重复运行可能重复记录。需要指定其他已提交基线时可运行 `python updates.py --base <提交或分支>`。
+更新记录默认与 `HEAD` 比较，而不是与上次本地运行比较；未提交结果时重复运行可能重复记录。需要指定其他已提交基线时可运行 `python scripts/updates.py --base <提交或分支>`。
 
 可选环境变量：
 
@@ -131,7 +133,7 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 
 ### 商品来源与范围
 
-当前按配置检索 2025、2026 赛季车型，不代表来源网站的完整商品目录。关键词主要定义在 `monitor.py` 和 `carmodel.py`。
+当前按配置检索 2025、2026 赛季车型，不代表来源网站的完整商品目录。关键词主要定义在 `scripts/monitor.py` 和 `scripts/carmodel.py`。
 
 | 来源 | 2025 范围 | 2026 范围 |
 | --- | --- | --- |
@@ -147,17 +149,17 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 - 2026 Looksmart 按货号匹配 Sparkmodelshop，匹配后优先采用完整 Shop 图库，封面置首并按内容去重；名称、属性、描述仍来自 Looksmart 官网。无匹配时使用官网图片，Shop 请求失败时保留上次成功的 Shop 图库。Shop 图库增图也会触发监控变化。
 - Carmodel 每个车型同时检索普通商品和 Coming soon，跟随分页及 Show all，要求标题含对应年份，按 Carmodel 商品 ID 去重。保留不同货号、比例和套装；预计到货季度存入 `Expected release`。
 
-比美高改为本地按需更新：Windows 双击 `refresh_carmodel_local.bat`，会在已有 `state.json` 上抓取全部配置车型，更新比美高详情、图片、目录及更新记录。完成后刷新本地目录页即可查看。它不会抓取其他品牌，也不发送钉钉通知，不安装定时任务。Python 的选择顺序与 `start_local.bat` 相同。
+比美高改为本地按需更新：Windows 双击 `更新比美高.bat`，会在已有 `data/state.json` 上抓取全部配置车型，更新比美高详情、图片、目录及更新记录。完成后刷新本地目录页即可查看。它不会抓取其他品牌，也不发送钉钉通知，不安装定时任务。Python 的选择顺序与 `管理商品与时间.bat` 相同。
 
 也可手动运行：
 
 ```powershell
-python refresh_carmodel.py --build
+python scripts/refresh_carmodel.py --build
 ```
 
-不加 `--build` 时只更新快照及 `carmodel-coverage.json`。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
+不加 `--build` 时只更新快照及 `data/carmodel-coverage.json`。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
 
-本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `state.json`、`carmodel-coverage.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
+本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `data/state.json`、`data/carmodel-coverage.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
 
 ## GitHub Actions 与 Pages
 
@@ -174,9 +176,9 @@ python refresh_carmodel.py --build
 
 工作流名为 `Monitor Spark Models`，配置为每 10 分钟触发一次，并支持手动 **Run workflow**。单次任务上限为 30 分钟，同组任务不互相取消。
 
-云端固定使用 `CARMODEL_ENABLED=false`，只监控其他品牌，沿用仓库中的比美高商品和图片，不会将未采集的比美高商品误报为下架。比美高由本地双击入口更新并按需同步。诊断工作流在 PR 上只运行离线测试；仅手动诊断才访问 Carmodel。
+云端固定使用 `CARMODEL_ENABLED=false`，只监控其他品牌，沿用仓库中的比美高商品和图片，不会将未采集的比美高商品误报为下架。比美高由本地双击入口更新并按需同步。诊断工作流在 PR 上只检查脚本和数据路径；仅手动诊断才访问 Carmodel。
 
-工作流先运行监控；只有 `state.json` 相比仓库发生变化时，才执行目录与记录生成。最后将变化的 `state.json` 和 `docs/` 提交并推送到仓库。因此，单件详情失败的重试也需等到目录构建步骤再次执行，或手动运行 `catalog.py`。
+工作流先运行监控；只有 `data/state.json` 相比仓库发生变化时，才执行目录与记录生成。最后将变化的 `data/state.json` 和 `docs/` 提交并推送到仓库。因此，单件详情失败的重试也需等到目录构建步骤再次执行，或手动运行 `scripts/catalog.py`。
 
 工作流需要 `contents: write` 权限，分支保护规则也会影响自动提交。
 
@@ -190,16 +192,20 @@ python refresh_carmodel.py --build
 
 ## 文件说明
 
+根目录保留说明和三个中文启动文件。采集及服务程序放在 `scripts/`，监控快照和覆盖统计放在 `data/`，本地测试放在已忽略的 `tests/`（不提交）；`docs/` 继续作为网页发布目录。
+
 | 路径 | 用途 |
 | --- | --- |
-| `monitor.py` / `state.json` | 商品检索、变化通知与监控快照 |
-| `catalog.py` | 详情采集、图片下载与目录生成 |
-| `carmodel.py` / `refresh_carmodel.py` | Carmodel 解析与 Burago 单独刷新 |
-| `carmodel-coverage.json` | Burago 单独刷新产生的各车型数量记录 |
-| `updates.py` | 与 Git 基线比较并生成更新记录 |
-| `serve_local.py` / `start_local.bat` | 本地浏览及商品、时间保存服务 |
-| `serve_docs_410.bat` | 使用本地服务打开目录页；需配置 `PYTHON_HOME` 或指定的 Conda 路径 |
-| `manual_products.py` | 手动商品合并、校验与图片指纹维护 |
+| `scripts/monitor.py` / `data/state.json` | 商品检索、变化通知与监控快照 |
+| `scripts/paths.py` | 项目路径的统一配置 |
+| `tests/` | 仅本地使用，已加入 `.gitignore` |
+| `scripts/catalog.py` | 详情采集、图片下载与目录生成 |
+| `scripts/carmodel.py` / `scripts/refresh_carmodel.py` | Carmodel 解析与 Burago 单独刷新 |
+| `data/carmodel-coverage.json` | Burago 单独刷新产生的各车型数量记录 |
+| `scripts/updates.py` | 与 Git 基线比较并生成更新记录 |
+| `浏览目录.bat` / `管理商品与时间.bat` / `更新比美高.bat` | 三个日常双击入口 |
+| `scripts/serve_local.py` / `scripts/run_local.bat` | 本地服务与共享启动逻辑 |
+| `scripts/manual_products.py` | 手动商品合并、校验与图片指纹维护 |
 | `docs/index.html` / `docs/updates.html` | 商品目录与更新记录页面 |
 | `docs/annotate.html` / `docs/product-editor.html` | 时间标注入口与商品管理页 |
 | `docs/catalog.json` / `docs/catalog.js` | 自动采集目录；JS 数据支持直接打开 HTML |
@@ -213,11 +219,11 @@ python refresh_carmodel.py --build
 
 | 问题 | 处理方法 |
 | --- | --- |
-| 双击启动脚本后无法运行 | 检查 Python；可直接使用 `python serve_local.py`，或设置 `PYTHON_HOME` |
+| 双击启动脚本后无法运行 | 检查 Python；可直接使用 `python scripts/serve_local.py`，或设置 `PYTHON_HOME` |
 | 端口已占用 | 直接访问已启动的服务，或通过 `--port` 指定其他端口 |
 | 商品或时间无法保存 | 使用本地服务地址，检查启动窗口仍在运行；普通静态服务与 Pages 不提供保存接口 |
 | 没有钉钉消息 | 无变化时不会发送；有变化时检查 Webhook、关键词及运行日志 |
-| 商品抓取失败、图片未更新 | 检查失败日志及网站访问；详情失败保留旧数据，可再次运行 `catalog.py` |
-| 提示快照来源不匹配 | 检索配置变更后先成功运行 `monitor.py`，再生成目录 |
+| 商品抓取失败、图片未更新 | 检查失败日志及网站访问；详情失败保留旧数据，可再次运行 `scripts/catalog.py` |
+| 提示快照来源不匹配 | 检索配置变更后先成功运行 `scripts/monitor.py`，再生成目录 |
 | 本地修改后网页没变化 | 确认保存成功，刷新页面；线上还需提交并推送对应数据及图片 |
 | Actions 无法提交 | 检查仓库写入权限及分支保护规则 |

@@ -15,8 +15,8 @@ from urllib.request import Request, urlopen
 
 import monitor
 import manual_products
+from paths import DOCS
 
-DOCS = Path(__file__).with_name("docs")
 IMAGES = DOCS / "images"
 CATALOG_FILE = DOCS / "catalog.json"
 CATALOG_SCRIPT_FILE = DOCS / "catalog.js"

@@ -27,16 +27,16 @@ jobs:
         env:
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
           DINGTALK_KEYWORD: ${{ vars.DINGTALK_KEYWORD }}
-        run: python monitor.py
+        run: python scripts/monitor.py
       - name: Build local product catalogue after a change
         run: |
-          git add state.json
+          git add data/state.json
           if git diff --cached --quiet; then exit 0; fi
-          python catalog.py
-          python updates.py
+          python scripts/catalog.py
+          python scripts/updates.py
       - name: Save snapshot and static site
         run: |
-          git add state.json docs
+          git add data/state.json docs
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

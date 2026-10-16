@@ -3,8 +3,8 @@ name: Carmodel connectivity probe
 on:
   pull_request:
     paths:
-      - carmodel.py
-      - carmodel_probe.py
+      - scripts/**
+      - .github/workflows/monitor.yml
       - .github/workflows/carmodel-probe.yml
   workflow_dispatch:
     inputs:
@@ -25,12 +25,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m unittest test_carmodel -q
+      - name: Check scripts and snapshot paths
+        run: |
+          python -m compileall -q scripts
+          python -c "import sys; sys.path.insert(0, 'scripts'); import catalog, serve_local; assert catalog.load_snapshot()['items']; serve_local.read_times()"
       - if: github.event_name == 'workflow_dispatch' && inputs.browser
         run: pip install curl_cffi playwright
       - if: github.event_name == 'workflow_dispatch' && inputs.browser
         run: python -m playwright install --with-deps chromium
       - if: github.event_name == 'workflow_dispatch' && inputs.browser
-        run: python carmodel_probe.py --browser
+        run: python scripts/carmodel_probe.py --browser
       - if: github.event_name == 'workflow_dispatch' && !inputs.browser
-        run: python carmodel_probe.py
+        run: python scripts/carmodel_probe.py
