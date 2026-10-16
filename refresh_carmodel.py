@@ -28,11 +28,16 @@ def main(argv=None):
             y,m=jobs[job]; rows=job.result();products.update(rows);report.append(dict(year=y,model=m,count=len(rows),coming_soon=sum(x['availability']=='Coming soon' for x in rows.values())))
     Path(__file__).with_name('carmodel-coverage.json').write_text(json.dumps(sorted(report,key=lambda x:(x['year'],x['model'])),indent=2),encoding='utf-8')
     added,changed,removed=monitor.compare(old,products)
-    monitor.save_state(products, (x["product_id"] for x in added), (x["product_id"] for x in changed), (x["product_id"] for x in removed))
+    if any((added, changed, removed)):
+        monitor.save_state(products, (x["product_id"] for x in added), (x["product_id"] for x in changed), (x["product_id"] for x in removed))
     print('TOTAL BURAGO',sum(x.get('source')=='carmodel' for x in products.values()))
     if args.build:
         import catalog, updates
         os.environ['CARMODEL_ENABLED'] = 'true'
+        pending = catalog.refresh_ids(products, {p['id']: p for p in catalog.load_catalog()}, {'added': [x['product_id'] for x in added], 'changed': [x['product_id'] for x in changed]})
+        if not any((added, changed, removed)) and not any(products[pid].get('source') == 'carmodel' for pid in pending):
+            print('No Burago changes; existing snapshot, catalogue and history kept')
+            return
         catalog.build_catalog(source='carmodel')
         updates.publish()
 
