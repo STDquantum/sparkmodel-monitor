@@ -3,7 +3,7 @@ import argparse
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import monitor, carmodel
-from paths import DATA, TEMP
+from paths import TEMP
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description='Refresh Burago locally without contacting other model sources or sending notifications.')
@@ -14,7 +14,6 @@ def main(argv=None):
     if old is None:
         raise RuntimeError('Existing state.json is required; no files were changed')
     products={k:v for k,v in old.items() if v.get('source')!='carmodel'}
-    report=[]
     cache=TEMP / 'carmodel'; cache.mkdir(parents=True,exist_ok=True)
     def fetch_cached(y,m):
         path=cache / (y+'-'+m+'.json')
@@ -23,10 +22,9 @@ def main(argv=None):
         path.write_text(json.dumps(rows,ensure_ascii=False),encoding='utf-8')
         return rows
     with ThreadPoolExecutor(max_workers=2) as pool:
-        jobs={pool.submit(fetch_cached,y,m):(y,m) for y,models in carmodel.SEARCHES.items() for m in models}
+        jobs=[pool.submit(fetch_cached,y,m) for y,models in carmodel.SEARCHES.items() for m in models]
         for job in as_completed(jobs):
-            y,m=jobs[job]; rows=job.result();products.update(rows);report.append(dict(year=y,model=m,count=len(rows),coming_soon=sum(x['availability']=='Coming soon' for x in rows.values())))
-    (DATA / 'carmodel-coverage.json').write_text(json.dumps(sorted(report,key=lambda x:(x['year'],x['model'])),indent=2),encoding='utf-8')
+            products.update(job.result())
     added,changed,removed=monitor.compare(old,products)
     if any((added, changed, removed)):
         monitor.save_state(products, (x["product_id"] for x in added), (x["product_id"] for x in changed), (x["product_id"] for x in removed))

@@ -157,9 +157,9 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 python scripts/refresh_carmodel.py --build
 ```
 
-不加 `--build` 时只更新快照及 `data/carmodel-coverage.json`。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
+不加 `--build` 时只更新商品快照。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
 
-本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `data/state.json`、`data/carmodel-coverage.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
+本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `data/state.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
 
 ## GitHub Actions 与 Pages
 
@@ -192,7 +192,7 @@ python scripts/refresh_carmodel.py --build
 
 ## 文件说明
 
-根目录保留说明和三个中文启动文件。采集及服务程序放在 `scripts/`，监控快照和覆盖统计放在 `data/`，本地测试放在已忽略的 `tests/`（不提交）；`docs/` 继续作为网页发布目录。
+根目录保留说明和三个中文启动文件。采集及服务程序放在 `scripts/`，监控快照放在 `data/`，本地测试放在已忽略的 `tests/`（不提交）；`docs/` 继续作为网页发布目录。
 
 | 路径 | 用途 |
 | --- | --- |
@@ -201,7 +201,6 @@ python scripts/refresh_carmodel.py --build
 | `tests/` | 仅本地使用，已加入 `.gitignore` |
 | `scripts/catalog.py` | 详情采集、图片下载与目录生成 |
 | `scripts/carmodel.py` / `scripts/refresh_carmodel.py` | Carmodel 解析与 Burago 单独刷新 |
-| `data/carmodel-coverage.json` | Burago 单独刷新产生的各车型数量记录 |
 | `scripts/updates.py` | 与 Git 基线比较并生成更新记录 |
 | `浏览目录.bat` / `管理商品与时间.bat` / `更新比美高.bat` | 三个日常双击入口 |
 | `scripts/serve_local.py` / `scripts/run_local.bat` | 本地服务与共享启动逻辑 |
