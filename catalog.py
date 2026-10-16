@@ -367,7 +367,8 @@ def refresh_ids(items, products, changes):
              or products.get(product_id, {}).get("image_source") != "sparkmodelshop"
              or listing.get("shop_image_urls") != products.get(product_id, {}).get("shop_image_urls"))
     }
-    return sorted((changed | (set(items) - set(products)) | missing_search_images | changed_covers) & set(items))
+    candidates = (changed | (set(items) - set(products)) | missing_search_images | changed_covers) & set(items)
+    return sorted(pid for pid in candidates if items[pid].get('source') != 'carmodel' or monitor.carmodel.enabled())
 
 
 def year_from_title(name):
@@ -505,7 +506,7 @@ def build_product(product_id, listing):
     }
 
 
-def build_catalog():
+def build_catalog(source=None):
     DOCS.mkdir(exist_ok=True)
     state = load_snapshot()
     items = state["items"]
@@ -515,6 +516,8 @@ def build_catalog():
         products.pop(product_id, None)
         remove_images(product_id)
     product_ids = refresh_ids(items, products, state.get("changes", {}))
+    if source is not None:
+        product_ids = [pid for pid in product_ids if items[pid].get('source') == source]
     with ThreadPoolExecutor(max_workers=int(os.getenv("CATALOG_WORKERS", "6"))) as executor:
         futures = {executor.submit(build_product, product_id, items[product_id]): product_id for product_id in product_ids}
         for number, future in enumerate(as_completed(futures), start=1):
