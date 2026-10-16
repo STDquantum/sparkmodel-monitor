@@ -828,9 +828,13 @@ def fetch_all():
             flush=True,
         )
 
-    for year, models in carmodel.SEARCHES.items():
-        for model in models:
-            fetch_and_merge(f"Burago {year} · {model}", "carmodel", ("carmodel" + year, model), carmodel.fetch, year, model)
+    if carmodel.enabled():
+        for year, models in carmodel.SEARCHES.items():
+            for model in models:
+                fetch_and_merge(f"Burago {year} · {model}", "carmodel", ("carmodel" + year, model), carmodel.fetch, year, model)
+    else:
+        products.update({key: item for key, item in previous.items() if item.get('source') == 'carmodel'})
+        print('Carmodel monitoring is disabled; keeping its last known snapshot', flush=True)
     for search in SPARK_2025_SEARCHES:
         fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", ("spark2025", search), fetch_spark_2025, search)
     for search in SPARK_2026_SEARCHES:

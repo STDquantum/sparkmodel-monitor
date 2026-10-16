@@ -114,7 +114,7 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 
 2026-10-16 实测：GitHub 执行器收到 Cloudflare 验证页（`cf-mitigated: challenge`）；完整浏览器 User-Agent、常见请求头、首页 Cookie、浏览器式 HTTP 连接和启用 JavaScript 的 Chromium 均未取得商品页。本机同一搜索返回 200 和 15 件商品。需要恢复此来源的自动采集时，应使用可访问该站的自托管执行器，或联系来源站方放行；单改请求头并未解决本次限制。
 
-只读排查可运行 `python carmodel_probe.py`，对比原请求头、浏览器请求头和首页 Cookie；它不会保存快照或发送通知。Actions 中的 `Carmodel connectivity probe` 会在相关 PR 上运行基础诊断，也支持手动运行。手动勾选 `browser` 才安装诊断依赖并测试浏览器式连接和 Chromium；正常采集仍只需标准库。诊断任务完成表示检查执行完毕，不代表网站访问成功，需查看输出的 HTTP 状态及商品卡片数。
+只读排查可运行 `python carmodel_probe.py`，对比原请求头、浏览器请求头和首页 Cookie；它不会保存快照或发送通知。Actions 中的 `Carmodel connectivity probe` 在相关 PR 上仅运行离线测试，手动运行才访问来源网站。手动勾选 `browser` 才安装诊断依赖并测试浏览器式连接和 Chromium；正常采集仍只需标准库。诊断任务完成表示检查执行完毕，不代表网站访问成功，需查看输出的 HTTP 状态及商品卡片数。
 
 更新记录默认与 `HEAD` 比较，而不是与上次本地运行比较；未提交结果时重复运行可能重复记录。需要指定其他已提交基线时可运行 `python updates.py --base <提交或分支>`。
 
@@ -125,6 +125,7 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 | `DINGTALK_WEBHOOK` | 无 | 钉钉机器人 HTTPS Webhook，发送通知时必需 |
 | `DINGTALK_KEYWORD` | `成绩` | 钉钉通知关键词 |
 | `MINICHAMPS_ENABLED` | `true` | 设为 `false` 暂停 Minichamps 检索并保留旧快照 |
+| `CARMODEL_ENABLED` | `true` | 设为 `false` 跳过 Carmodel 列表与目录详情采集，保留已有比美高数据；云端工作流固定设为 `false` |
 | `CATALOG_WORKERS` | `6` | 详情采集并发数，需为正整数 |
 | `PYTHON_HOME` | 无 | Windows 启动脚本使用的 Python 所在目录 |
 
@@ -146,15 +147,17 @@ Carmodel 返回 401、403 或 429 时，本轮立即停止请求该来源；临�
 - 2026 Looksmart 按货号匹配 Sparkmodelshop，匹配后优先采用完整 Shop 图库，封面置首并按内容去重；名称、属性、描述仍来自 Looksmart 官网。无匹配时使用官网图片，Shop 请求失败时保留上次成功的 Shop 图库。Shop 图库增图也会触发监控变化。
 - Carmodel 每个车型同时检索普通商品和 Coming soon，跟随分页及 Show all，要求标题含对应年份，按 Carmodel 商品 ID 去重。保留不同货号、比例和套装；预计到货季度存入 `Expected release`。
 
-只刷新 Burago 时，可在已有 `state.json` 的基础上运行：
+比美高改为本地按需更新：Windows 双击 `refresh_carmodel_local.bat`，会在已有 `state.json` 上抓取全部配置车型，更新比美高详情、图片、目录及更新记录。完成后刷新本地目录页即可查看。它不会抓取其他品牌，也不发送钉钉通知，不安装定时任务。Python 的选择顺序与 `start_local.bat` 相同。
+
+也可手动运行：
 
 ```powershell
-python refresh_carmodel.py
-python catalog.py
-python updates.py
+python refresh_carmodel.py --build
 ```
 
-`refresh_carmodel.py` 不发送钉钉通知，更新快照及 `carmodel-coverage.json`。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。
+不加 `--build` 时只更新快照及 `carmodel-coverage.json`。加 `--resume` 可复用 `tmp/carmodel/` 中的缓存，缓存内容不会重新请求。列表采集全部成功后才保存新快照；采集失败请查看窗口报错后重试。
+
+本地刷新不会自动上传。需要更新线上目录时，先同步仓库，再运行本地刷新，将 `state.json`、`carmodel-coverage.json` 和 `docs/` 提交并推送；远端有新提交时先处理同步，避免覆盖其他品牌的云端更新。
 
 ## GitHub Actions 与 Pages
 
@@ -170,6 +173,8 @@ python updates.py
 | `DINGTALK_KEYWORD` | Variable，可选 | 自定义关键词，留空使用 `成绩` |
 
 工作流名为 `Monitor Spark Models`，配置为每 10 分钟触发一次，并支持手动 **Run workflow**。单次任务上限为 30 分钟，同组任务不互相取消。
+
+云端固定使用 `CARMODEL_ENABLED=false`，只监控其他品牌，沿用仓库中的比美高商品和图片，不会将未采集的比美高商品误报为下架。比美高由本地双击入口更新并按需同步。诊断工作流在 PR 上只运行离线测试；仅手动诊断才访问 Carmodel。
 
 工作流先运行监控；只有 `state.json` 相比仓库发生变化时，才执行目录与记录生成。最后将变化的 `state.json` 和 `docs/` 提交并推送到仓库。因此，单件详情失败的重试也需等到目录构建步骤再次执行，或手动运行 `catalog.py`。
 

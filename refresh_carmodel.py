@@ -1,16 +1,24 @@
 import json
-import sys
+import argparse
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import monitor, carmodel
 
-def main():
-    old=monitor.load_state(); products={k:v for k,v in old.items() if v.get('source')!='carmodel'}
+def main(argv=None):
+    parser = argparse.ArgumentParser(description='Refresh Burago locally without contacting other model sources or sending notifications.')
+    parser.add_argument('--resume', action='store_true', help='Reuse previously cached search results')
+    parser.add_argument('--build', action='store_true', help='Also update the local catalogue, images and update history')
+    args = parser.parse_args(argv)
+    old=monitor.load_state()
+    if old is None:
+        raise RuntimeError('Existing state.json is required; no files were changed')
+    products={k:v for k,v in old.items() if v.get('source')!='carmodel'}
     report=[]
     cache=Path(__file__).parent / 'tmp' / 'carmodel'; cache.mkdir(parents=True,exist_ok=True)
     def fetch_cached(y,m):
         path=cache / (y+'-'+m+'.json')
-        if '--resume' in sys.argv and path.exists(): return json.loads(path.read_text(encoding='utf-8'))
+        if args.resume and path.exists(): return json.loads(path.read_text(encoding='utf-8'))
         rows=carmodel.fetch(y,m)
         path.write_text(json.dumps(rows,ensure_ascii=False),encoding='utf-8')
         return rows
@@ -22,6 +30,11 @@ def main():
     added,changed,removed=monitor.compare(old,products)
     monitor.save_state(products, (x["product_id"] for x in added), (x["product_id"] for x in changed), (x["product_id"] for x in removed))
     print('TOTAL BURAGO',sum(x.get('source')=='carmodel' for x in products.values()))
+    if args.build:
+        import catalog, updates
+        os.environ['CARMODEL_ENABLED'] = 'true'
+        catalog.build_catalog(source='carmodel')
+        updates.publish()
 
 if __name__ == "__main__":
     main()

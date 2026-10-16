@@ -1,5 +1,6 @@
 """Carmodel Burago listings and detail pages (independent of Shopware)."""
 import json
+import os
 import re
 import time
 from http.client import IncompleteRead
@@ -23,6 +24,9 @@ SOURCES = tuple(search_url(model) for models in SEARCHES.values() for model in m
 
 class SourceUnavailable(RuntimeError):
     """Stop querying Carmodel for this monitoring run after a source outage."""
+
+def enabled():
+    return os.getenv('CARMODEL_ENABLED', 'true').strip().lower() in {'1', 'true', 'yes', 'on'}
 
 def request(url):
     # Carmodel sets session cookies during its language/currency redirects.

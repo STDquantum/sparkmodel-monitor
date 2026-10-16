@@ -32,5 +32,5 @@ jobs:
         run: python -m playwright install --with-deps chromium
       - if: github.event_name == 'workflow_dispatch' && inputs.browser
         run: python carmodel_probe.py --browser
-      - if: github.event_name != 'workflow_dispatch' || !inputs.browser
+      - if: github.event_name == 'workflow_dispatch' && !inputs.browser
         run: python carmodel_probe.py

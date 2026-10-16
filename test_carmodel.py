@@ -1,4 +1,5 @@
 import unittest
+import os
 from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError, URLError
@@ -6,6 +7,27 @@ from contextlib import ExitStack
 import carmodel
 
 class CarmodelTests(unittest.TestCase):
+    def test_cloud_disabled_keeps_all_burago_without_requests(self):
+        import monitor
+        previous = {'burago-legacy': {'source': 'carmodel', 'name': 'Existing product'}}
+        with ExitStack() as stack:
+            stack.enter_context(patch.dict(os.environ, {'CARMODEL_ENABLED': 'false', 'MINICHAMPS_ENABLED': 'false'}))
+            stack.enter_context(patch.object(monitor, 'load_state', return_value=previous))
+            fetch = stack.enter_context(patch.object(carmodel, 'fetch'))
+            for name in ('SPARK_2025_SEARCHES', 'SPARK_2026_SEARCHES', 'SPARK_SHOP_2025_SEARCHES', 'LOOKSMART_SEARCHES'):
+                stack.enter_context(patch.object(monitor, name, ()))
+            stack.enter_context(patch.object(monitor, 'apply_looksmart_shop_covers'))
+            self.assertEqual(monitor.fetch_all(), previous)
+            fetch.assert_not_called()
+
+    def test_cloud_catalogue_skips_missing_and_changed_burago(self):
+        import catalog
+        items = {'burago-missing': {'source': 'carmodel'}, 'burago-changed': {'source': 'carmodel'}, 'spark-new': {'source': 'sparkmodel'}}
+        with patch.dict(os.environ, {'CARMODEL_ENABLED': 'false'}):
+            self.assertEqual(catalog.refresh_ids(items, {'burago-changed': {}}, {'changed': ['burago-changed']}), ['spark-new'])
+        with patch.dict(os.environ, {'CARMODEL_ENABLED': 'true'}):
+            self.assertEqual(catalog.refresh_ids(items, {'burago-changed': {}}, {'changed': ['burago-changed']}), sorted(items))
+
     def test_access_denied_stops_without_retry(self):
         for status in (401, 403, 429):
             with self.subTest(status=status), patch.object(carmodel, 'build_opener') as build, patch.object(carmodel.time, 'sleep') as sleep:
