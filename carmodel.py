@@ -2,7 +2,9 @@
 import json
 import re
 import time
+from http.client import IncompleteRead
 from http.cookiejar import CookieJar
+from urllib.error import HTTPError, URLError
 from urllib.request import build_opener, HTTPCookieProcessor, Request
 from html import unescape
 from urllib.parse import urlencode, urljoin, urlsplit, parse_qs
@@ -19,17 +21,27 @@ def search_url(model, mode='', page=1):
 
 SOURCES = tuple(search_url(model) for models in SEARCHES.values() for model in models)
 
+class SourceUnavailable(RuntimeError):
+    """Stop querying Carmodel for this monitoring run after a source outage."""
+
 def request(url):
     # Carmodel sets session cookies during its language/currency redirects.
     opener = build_opener(HTTPCookieProcessor(CookieJar()))
-    for attempt in range(5):
+    for attempt in range(3):
         try:
-            with opener.open(Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'en-GB,en;q=0.9'}), timeout=45) as response:
+            with opener.open(Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'en-GB,en;q=0.9'}), timeout=20) as response:
                 return response.read().decode('utf-8')
-        except Exception:
-            if attempt == 4:
+        except HTTPError as error:
+            if error.code in {401, 403, 429}:
+                raise SourceUnavailable(f'Carmodel HTTP {error.code}; stopping requests for this run: {url}') from error
+            if error.code not in {408, 500, 502, 503, 504}:
                 raise
-            time.sleep(min(10 * 2 ** attempt, 60))
+            if attempt == 2:
+                raise SourceUnavailable(f'Carmodel unavailable after 3 attempts: {url} ({error})') from error
+        except (URLError, TimeoutError, IncompleteRead, ConnectionError) as error:
+            if attempt == 2:
+                raise SourceUnavailable(f'Carmodel unavailable after 3 attempts: {url} ({error})') from error
+        time.sleep(2 ** (attempt + 1))
 
 def text(html):
     return ' '.join(unescape(re.sub(r'<[^>]+>', ' ', html)).split())

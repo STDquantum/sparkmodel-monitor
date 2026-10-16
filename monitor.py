@@ -801,12 +801,19 @@ def fetch_all():
     products = {}
     previous = load_state() or {}
     failed_crawls = set()
+    unavailable_sources = set()
 
     def fetch_and_merge(label, source, crawl_key, fetcher, *args):
+        if source in unavailable_sources:
+            failed_crawls.add((source, crawl_key))
+            print(f"Skipped {label}: {source} unavailable this run; keeping previous matching products", flush=True)
+            return
         print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetching {label}", flush=True)
         try:
             batch = fetcher(*args)
         except Exception as error:
+            if isinstance(error, carmodel.SourceUnavailable):
+                unavailable_sources.add(source)
             failed_crawls.add((source, crawl_key))
             print(
                 f"Skipped this crawl for {label}; other crawls will continue and "
