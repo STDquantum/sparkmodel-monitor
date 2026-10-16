@@ -1,6 +1,27 @@
 {
   "updates": [
     {
+      "date": "2026-10-16T22:05:16.194678+00:00",
+      "entries": [
+        {
+          "type": "removed",
+          "id": "minichamps-019a8919b9da704b9258d7e7c8052159",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - AUSTRALIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919b9da704b9258d7e7c8052159?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530256481",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-16T13:19:10.011967+00:00",
       "entries": [
         {
@@ -26353,10 +26374,7 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-2.jpg",
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -26365,10 +26383,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-2.jpg": "a139cd34c97d7865aab87b74ef4dba0d4872a7aa84143da5bbc552de0b42e70e",
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-3.jpg": "78e0ac66bbbaec07c557e3b87270e133d55d5eef300d421dbf0c55b9a8634030"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -29634,15 +29649,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg": "c403d6b59885ea9f1cb9cb7957b13490eef0ba173423d6bcc79752dde5d5fef6"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -33175,15 +33186,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg": "c403d6b59885ea9f1cb9cb7957b13490eef0ba173423d6bcc79752dde5d5fef6"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

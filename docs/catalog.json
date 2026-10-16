@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:19:10.011967+00:00",
+  "generated_at": "2026-10-16T22:05:16.194678+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -11922,35 +11922,6 @@
         "Availability": "in stock",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
-        "Material": "DIECAST",
-        "First delivery": "Calendar week 12/2026"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "25.95",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "Available"
-    },
-    {
-      "id": "minichamps-019a8919b9da704b9258d7e7c8052159",
-      "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - AUSTRALIAN GP 2025",
-      "url": "https://www.minichamps.de/en/detail/019a8919b9da704b9258d7e7c8052159?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [
-        "images/minichamps-019a8919b9da704b9258d7e7c8052159-2.jpg",
-        "images/minichamps-019a8919b9da704b9258d7e7c8052159-3.jpg",
-        "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Product number": "530256481",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
-        "Brand": "MCLAREN",
-        "Driver": "PIASTRI, OSCAR",
         "Material": "DIECAST",
         "First delivery": "Calendar week 12/2026"
       },
