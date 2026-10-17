@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:27:41.342546+00:00",
+  "generated_at": "2026-10-17T04:52:59.881094+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -10282,7 +10282,7 @@
       "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:64",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-164/",
       "images": [
-        "images/looksmart-21437-1.jpeg"
+        "images/looksmart-21437-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -10298,14 +10298,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production"
+      "availability": "Future production",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/ls64046-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp"
+      ]
     },
     {
       "id": "looksmart-21439",
       "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:43",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-143/",
       "images": [
-        "images/looksmart-21439-1.jpeg"
+        "images/looksmart-21439-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -10322,14 +10329,21 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/lsf1094-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp"
+      ]
     },
     {
       "id": "looksmart-21440",
       "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:18",
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-118/",
       "images": [
-        "images/looksmart-21440-1.jpeg"
+        "images/looksmart-21440-shop-gallery-1.webp"
       ],
       "properties": {
         "Manufacturer": "Ferrari",
@@ -10346,7 +10360,14 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Future production PREORDER NOW"
+      "availability": "Future production PREORDER NOW",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/ls18f1093-de",
+      "image_source": "sparkmodelshop",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp"
+      ]
     },
     {
       "id": "minichamps-019a89193bb272329a64a830fd7f80a5",
@@ -26039,7 +26060,8 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Winner Dutch GP 2026\nLando Norris \n(With figurine and pit boards)",
       "url": "https://www.sparkmodel.com/products/78d9a83a-2311-48d0-9ee4-ce5c732eec84",
       "images": [
-        "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-1.webp"
+        "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-1.webp",
+        "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-2.webp"
       ],
       "properties": {
         "Manufacturer": "McLaren",

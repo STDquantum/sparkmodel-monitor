@@ -1,6 +1,136 @@
 {
   "updates": [
     {
+      "date": "2026-10-17T04:52:59.881094+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "looksmart-21437",
+          "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:64",
+          "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-164/",
+          "product_number": "LS64046",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/looksmart-21437-shop-gallery-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/looksmart-21437-shop-gallery-1.webp": "558cc37fff311146eec88f2a116439fe11328b3f45063ae056fd2ab042b08e5b"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "looksmart-21439",
+          "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:43",
+          "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-143/",
+          "product_number": "LSF1094",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/looksmart-21439-shop-gallery-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/looksmart-21439-shop-gallery-1.webp": "558cc37fff311146eec88f2a116439fe11328b3f45063ae056fd2ab042b08e5b"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "looksmart-21440",
+          "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:18",
+          "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-118/",
+          "product_number": "LS18F1093",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/looksmart-21440-shop-gallery-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/looksmart-21440-shop-gallery-1.webp": "558cc37fff311146eec88f2a116439fe11328b3f45063ae056fd2ab042b08e5b"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84",
+          "name": "McLaren Mastercard F1 Team MCL40 No.1 Winner Dutch GP 2026\nLando Norris \n(With figurine and pit boards)",
+          "url": "https://www.sparkmodel.com/products/78d9a83a-2311-48d0-9ee4-ce5c732eec84",
+          "product_number": "S9327",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/313b5822-0cfa-439d-8012-78d1ce41c06b.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b8e7b4ae-e7aa-475d-a5f7-f1e8748662ef.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-1.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 2
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-1.webp": "4123710c2e10607806d8a4d5ae26875dee3325089c0916e8a68b1c8feb292696"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-17T00:27:41.342546+00:00",
       "entries": [
         {
@@ -12396,15 +12526,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/looksmart-21437-1.jpeg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21437-1.jpeg": "5e58c55bc27f6c6ec447ef1187f9c0822b96636898583ab749f3211bcf075b34"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -12420,15 +12546,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/looksmart-21439-1.jpeg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21439-1.jpeg": "5e58c55bc27f6c6ec447ef1187f9c0822b96636898583ab749f3211bcf075b34"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -12444,15 +12566,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/looksmart-21440-1.jpeg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21440-1.jpeg": "5e58c55bc27f6c6ec447ef1187f9c0822b96636898583ab749f3211bcf075b34"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -21262,15 +21380,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84-1.webp": "1ddb805006c6582665fb66e20e08e7edf05de3ef4a80cd3e87d617bde53eb10c"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

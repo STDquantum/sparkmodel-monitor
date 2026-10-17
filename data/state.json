@@ -54,7 +54,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-17T00:27:31.329250+00:00",
+  "updated_at": "2026-10-17T04:52:52.272614+00:00",
   "total": 910,
   "items": {
     "burago-183284": {
@@ -4189,36 +4189,57 @@
     },
     "looksmart-21437": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-164/",
-      "image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp",
       "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:64",
       "source": "looksmart",
       "year": "2026",
       "manufacturer": "Ferrari",
       "product_number": "LS64046",
       "scale": "1/64",
-      "availability": "Future production"
+      "availability": "Future production",
+      "official_image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/ls64046-de",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp"
+      ]
     },
     "looksmart-21439": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-143/",
-      "image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp",
       "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:43",
       "source": "looksmart",
       "year": "2026",
       "manufacturer": "Ferrari",
       "product_number": "LSF1094",
       "scale": "1/43",
-      "availability": "Future production"
+      "availability": "Future production",
+      "official_image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/lsf1094-de",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp"
+      ]
     },
     "looksmart-21440": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-26-singapore-gp-2026-charles-leclerc-2nd-place-scale-118/",
-      "image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp",
       "name": "Ferrari SF-26 Singapore GP 2026 – Charles Leclerc 2nd Place – Scale 1:18",
       "source": "looksmart",
       "year": "2026",
       "manufacturer": "Ferrari",
       "product_number": "LS18F1093",
       "scale": "1/18",
-      "availability": "Future production"
+      "availability": "Future production",
+      "official_image_url": "https://looksmartmodels.com/wp-content/uploads/2026/10/LSF1094-500x333.jpeg",
+      "cover_source": "sparkmodelshop",
+      "cover_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp",
+      "cover_product_url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/ls18f1093-de",
+      "shop_image_urls": [
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp"
+      ]
     },
     "minichamps-019a89193bb272329a64a830fd7f80a5": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - AUSTRALIAN GP 2025",
@@ -9787,7 +9808,7 @@
       "source_id": "78d9a83a-2311-48d0-9ee4-ce5c732eec84",
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Winner Dutch GP 2026\nLando Norris \n(With figurine and pit boards)",
       "url": "https://www.sparkmodel.com/products/78d9a83a-2311-48d0-9ee4-ce5c732eec84",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/313b5822-0cfa-439d-8012-78d1ce41c06b.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b8e7b4ae-e7aa-475d-a5f7-f1e8748662ef.webp",
       "availability": "In development",
       "product_number": "S9327",
       "scale": "1/43",
@@ -10780,10 +10801,13 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-019a8919b9da704b9258d7e7c8052159"
+    "added": [],
+    "changed": [
+      "looksmart-21437",
+      "looksmart-21439",
+      "looksmart-21440",
+      "spark-2026-78d9a83a-2311-48d0-9ee4-ce5c732eec84"
     ],
-    "changed": [],
     "removed": []
   }
 }
