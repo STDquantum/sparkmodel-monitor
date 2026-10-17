@@ -54,8 +54,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-16T22:05:15.804385+00:00",
-  "total": 909,
+  "updated_at": "2026-10-17T00:27:31.329250+00:00",
+  "total": 910,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -4700,6 +4700,15 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER AUSTRALIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919b88c718895a498d68bfea2b0?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "image_url": "https://www.minichamps.de/media/ba/0d/53/1784795191/00_530256404_019f8e15.jpg?ts=1784795191",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Available"
+    },
+    "minichamps-019a8919b9da704b9258d7e7c8052159": {
+      "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - AUSTRALIAN GP 2025",
+      "url": "https://www.minichamps.de/en/detail/019a8919b9da704b9258d7e7c8052159?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/57/9a/b6/1784795191/00_530256481_019f8e15.jpg?ts=1784795191",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -10771,10 +10780,10 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [],
-    "removed": [
+    "added": [
       "minichamps-019a8919b9da704b9258d7e7c8052159"
-    ]
+    ],
+    "changed": [],
+    "removed": []
   }
 }
