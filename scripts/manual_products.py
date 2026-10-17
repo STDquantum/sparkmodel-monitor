@@ -29,7 +29,7 @@ def sync_hashes(catalog=None, data=None):
     data = data if data is not None else read_data()
     sources = {src for p in catalog['products'] for src in p.get('images', [])}
     sources.update(src for entry in data['entries'].values() for src in entry.get('images', []))
-    data['imageHashes'] = {src: image_hash(src) for src in sources}
+    data['imageHashes'] = {src: image_hash(src) for src in sorted(sources)}
     temp = FILE.with_suffix('.js.tmp')
     temp.write_text('window.MANUAL_PRODUCT_DATA=' + json.dumps(data, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')
     temp.replace(FILE)
