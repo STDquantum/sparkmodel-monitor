@@ -1,6 +1,96 @@
 {
   "updates": [
     {
+      "date": "2026-10-19T14:33:50.827426+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660047",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/417260163",
+          "product_number": "417260163",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 43/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660060",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-CHINESE-GP-2026-W-PITBOARD/417260212",
+          "product_number": "417260212",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 43/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-17T04:52:59.881094+00:00",
       "entries": [
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T04:52:59.881094+00:00",
+  "generated_at": "2026-10-19T14:33:50.827426+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -16518,10 +16518,11 @@
         "Product number": "417260163",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
         "Material": "RESIN",
+        "First delivery": "Calendar week 43/2026",
         "Model": "W17"
       },
       "description": "",
@@ -16531,7 +16532,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1660048",
@@ -16845,19 +16846,20 @@
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-CHINESE-GP-2026-W-PITBOARD/417260212",
       "images": [
+        "images/minichamps-minichamps-1660060-1.jpg",
         "images/minichamps-minichamps-1660060-2.jpg",
-        "images/minichamps-minichamps-1660060-3.jpg",
-        "images/minichamps-minichamps-1660060-1.jpg"
+        "images/minichamps-minichamps-1660060-3.jpg"
       ],
       "properties": {
         "Year": "2026",
         "Product number": "417260212",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, KIMI",
         "Material": "RESIN",
+        "First delivery": "Calendar week 43/2026",
         "Model": "W17"
       },
       "description": "",
@@ -16867,7 +16869,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-minichamps-1660061",
