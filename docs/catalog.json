@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T02:13:04.571062+00:00",
+  "generated_at": "2026-10-20T13:05:49.110755+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -20201,7 +20201,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-1ea64a14-a43e-4d8c-aea5-3e7c40fba80a",
@@ -21317,7 +21317,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-2025-6c5153e8-9a95-4d71-937b-2292fdb779a0",
@@ -21446,7 +21446,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-7aa018c0-e9cd-41c7-ac13-a5a67427ca54",
@@ -21551,10 +21551,10 @@
       "name": "MoneyGram  Haas F1 Team VF25 No.87 4th Mexican GP 2025\nOliver Bearman\n( with pit board )",
       "url": "https://www.sparkmodel.com/products/7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7",
       "images": [
+        "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-1.webp",
         "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-2.webp",
         "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-3.webp",
         "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-4.webp",
-        "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-1.webp",
         "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-5.webp",
         "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-6.webp",
         "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-7.webp",
@@ -21581,7 +21581,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-8066577c-e6bc-42b9-a931-cd4e98323b6f",
@@ -21924,7 +21924,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-88466514-a7a6-40ae-bf0f-6dbcc2bbcbc2",
@@ -23527,7 +23527,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-2025-e49a1589-6267-44a4-be5a-2d8c85446e01",
@@ -23705,7 +23705,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-e8a71eb6-80cc-41cb-bbe7-408d3cf085a9",
@@ -23806,7 +23806,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2025-ec24a29e-f5fc-474f-b71c-b272bdb4fdf6",
@@ -24846,7 +24846,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2026-286b4fc1-6543-4f50-bcb8-bd295a31a382",
@@ -24992,7 +24992,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-2026-30e81436-8796-449a-b9f7-cae6f23154a1",
@@ -25550,15 +25550,18 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/568e6629-61b8-407a-89b4-29dd2866aac4",
       "images": [
-        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-1.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-2.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-3.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-4.webp",
+        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-1.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-5.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-6.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-7.webp",
         "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-8.webp",
-        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-9.webp"
+        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-9.webp",
+        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-10.webp",
+        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-11.webp",
+        "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-12.webp"
       ],
       "properties": {
         "Manufacturer": "McLaren",
@@ -25577,7 +25580,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-2026-59215077-4973-4985-922e-b466a335d51b",
@@ -26814,15 +26817,18 @@
       "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto\nWith pit board",
       "url": "https://www.sparkmodel.com/products/a73e7476-f3c6-48ad-a4e1-156a5f260720",
       "images": [
-        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-1.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-2.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-3.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-4.webp",
+        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-1.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-5.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-6.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-7.webp",
         "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-8.webp",
-        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-9.webp"
+        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-9.webp",
+        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-10.webp",
+        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-11.webp",
+        "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-12.webp"
       ],
       "properties": {
         "Manufacturer": "Alpine",
@@ -26841,7 +26847,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-2026-a7da3da9-91c8-49d4-8197-afe5531910c5",
@@ -27099,15 +27105,18 @@
       "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
       "url": "https://www.sparkmodel.com/products/b973da1c-bacd-41bd-9374-353f8b3e74b9",
       "images": [
-        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-1.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-2.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-3.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-4.webp",
+        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-1.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-5.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-6.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-7.webp",
         "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-8.webp",
-        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-9.webp"
+        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-9.webp",
+        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-10.webp",
+        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-11.webp",
+        "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-12.webp"
       ],
       "properties": {
         "Manufacturer": "Alpine",
@@ -27126,7 +27135,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-2026-bb3e2a7b-2d34-482c-952e-2ee3835020f3",
@@ -27940,7 +27949,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-shop-2025-18S1111",

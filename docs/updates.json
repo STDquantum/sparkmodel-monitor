@@ -1,6 +1,549 @@
 {
   "updates": [
     {
+      "date": "2026-10-20T13:05:49.110755+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2025-1d8a2648-6cd9-41c8-b091-740156caa7b1",
+          "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nLiam Lawson",
+          "url": "https://www.sparkmodel.com/products/1d8a2648-6cd9-41c8-b091-740156caa7b1",
+          "product_number": "S9643",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-6c497cf3-32eb-42ce-b4ae-f980a1c59ca9",
+          "name": "Williams FW47 No.55 Williams Racing\n3rd Azerbaijan GP 2025\nCarlos Sainz \n(with pit board)",
+          "url": "https://www.sparkmodel.com/products/6c497cf3-32eb-42ce-b4ae-f980a1c59ca9",
+          "product_number": "S9633",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Latest models"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-7a1f8644-3827-4e7a-9226-177e372dd6ed",
+          "name": "Mercedes W16 No.12 Mercedes-AMG PETRONAS Formula One Team\n4th Australian GP 2025\nKimi Antonelli",
+          "url": "https://www.sparkmodel.com/products/7a1f8644-3827-4e7a-9226-177e372dd6ed",
+          "product_number": "Y421",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7",
+          "name": "MoneyGram  Haas F1 Team VF25 No.87 4th Mexican GP 2025\nOliver Bearman\n( with pit board )",
+          "url": "https://www.sparkmodel.com/products/7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7",
+          "product_number": "S9676",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 4,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-86b34a76-4829-42f0-b0fe-249164f59e8c",
+          "name": "Williams FW47 No.55 Williams Racing\n3rd Sprint Race USA GP 2025\nCarlos Sainz",
+          "url": "https://www.sparkmodel.com/products/86b34a76-4829-42f0-b0fe-249164f59e8c",
+          "product_number": "S9645",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 2,
+                "to": 1
+              },
+              {
+                "from": 3,
+                "to": 2
+              },
+              {
+                "from": 4,
+                "to": 3
+              },
+              {
+                "from": 1,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-de3491b5-e4e2-4187-b96c-0b1e25d6db56",
+          "name": "Aston Martin AMR25 No.18 Aston Martin Aramco Formula One Team\n6th Australian GP 2025\nLance Stroll",
+          "url": "https://www.sparkmodel.com/products/de3491b5-e4e2-4187-b96c-0b1e25d6db56",
+          "product_number": "Y436",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Latest models"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-e824a3f7-afbd-4939-b5a0-0e452b4c2fcd",
+          "name": "Mercedes W16 No.63 Mercedes-AMG PETRONAS Formula One Team\n3rd Australian GP 2025\nGeorge Russell",
+          "url": "https://www.sparkmodel.com/products/e824a3f7-afbd-4939-b5a0-0e452b4c2fcd",
+          "product_number": "Y420",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-eb2e64eb-7575-4ac2-b026-b4b2d4d7d1bb",
+          "name": "Williams FW47 No.23 Williams Racing\nUS GP 2025\nAlexander Albon",
+          "url": "https://www.sparkmodel.com/products/eb2e64eb-7575-4ac2-b026-b4b2d4d7d1bb",
+          "product_number": "S9644",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 4,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-25eb6090-60d8-4ec4-927a-7af93940dfd2",
+          "name": "TGR Haas F1 Team VF-26 No.87 Japanese GP 2026 \nOliver Bearman",
+          "url": "https://www.sparkmodel.com/products/25eb6090-60d8-4ec4-927a-7af93940dfd2",
+          "product_number": "S9387",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-3027d99c-fc17-4e08-bc6a-387f4326c2d2",
+          "name": "TGR Haas F1 Team VF-26 No.31 Japanese GP 2026 \nEsteban Ocon",
+          "url": "https://www.sparkmodel.com/products/3027d99c-fc17-4e08-bc6a-387f4326c2d2",
+          "product_number": "S9386",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Latest models",
+              "after": "Catalogue"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4",
+          "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
+          "url": "https://www.sparkmodel.com/products/568e6629-61b8-407a-89b4-29dd2866aac4",
+          "product_number": "S9378",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Latest models"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-2.webp",
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-3.webp",
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-2.webp": "70372df26bfea784a48da48da2dfd9567e83dee930c3ba1af556983d5211e3b8",
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-3.webp": "4eb895014548338052f55fbb3c5cb8b92b7b6e68f3bac4e6bfdeb10f58de3583",
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-4.webp": "7f4bd5ad83542cb578f4b0bea916ab27a896e99904952ed79ec38f64d3771960"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720",
+          "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto\nWith pit board",
+          "url": "https://www.sparkmodel.com/products/a73e7476-f3c6-48ad-a4e1-156a5f260720",
+          "product_number": "S9367",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Latest models"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-2.webp",
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-3.webp",
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-2.webp": "8fd0f7e45088526d4516e3c33c06bff1bec0676811dc56018bcf6c3c199c044f",
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-3.webp": "584954733d3f2908b2ab173bf07339af209fbe6a783ae794bf0eb74f6b5215f7",
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-4.webp": "b64052722d79406389cb3d3d8ac84f1042da2d2c36e254362178acaba5e038f6"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9",
+          "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
+          "url": "https://www.sparkmodel.com/products/b973da1c-bacd-41bd-9374-353f8b3e74b9",
+          "product_number": "S9366",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Latest models"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-2.webp",
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-3.webp",
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              },
+              {
+                "from": 2,
+                "to": 5
+              },
+              {
+                "from": 3,
+                "to": 6
+              },
+              {
+                "from": 4,
+                "to": 7
+              },
+              {
+                "from": 5,
+                "to": 8
+              },
+              {
+                "from": 6,
+                "to": 9
+              },
+              {
+                "from": 7,
+                "to": 10
+              },
+              {
+                "from": 8,
+                "to": 11
+              },
+              {
+                "from": 9,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-2.webp": "d2cc1ca94c38363863a55a9bc9e4d1e4a0f5b4c6ee48b51b6d9d992262f5f439",
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-3.webp": "de6ddfe05b093180a74d7a8e03ae7ff78f3b7eafa2f70d24c94cf73a6c3a4ab0",
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-4.webp": "f3b37ed34957da6fe600819ce83c587adf4db2e735f37f6d2882a0c7c92c072c"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
+          "url": "https://www.sparkmodel.com/products/fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
+          "product_number": "S9389",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Latest models"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-20T02:13:04.571062+00:00",
       "entries": [
         {
@@ -21033,29 +21576,13 @@
           "fields": [],
           "images": {
             "added": [
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-1.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-2.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-3.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-4.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-5.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-6.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-7.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-8.webp",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-9.webp"
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-1.webp"
             ],
             "changed": [],
             "moved": [],
             "removed_count": 0,
             "hashes": {
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-1.webp": "e8825f17adbe5a9c6e1251a7582142056f3ac0769d5b1694b5b4f066189fbf77",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-2.webp": "b9f8d154ffbc523691fef81b7fe4f2bcd078187fcc727f5aa25715c258e26450",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-3.webp": "2be5fd4f36d8b94323c00cf942ac2987a4a4f37ca51ebe106da640bb42599abd",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-4.webp": "7a27084a0dd1533a69f25cd24527d28871e93ade1a7b480010ea37b84bfeff05",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-5.webp": "303bd190807b5c1d3401947fe6c3e412f954be8cc9e03ae8c134a493bbc9bfa9",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-6.webp": "e2959b1986b10a57166872195e400666e963016919814dcd1787d8117e5376f7",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-7.webp": "28a1521be067de0995bf2d841ee748368425740cc781e3b6a848f53d0dbfd48f",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-8.webp": "ba5514fd54f0a10144ebf6b18f758131473df627d7e57a0e1caeaf6cf79234f7",
-              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-9.webp": "1fb34b411ca32653e9b06bbaad70a0556dd4ca2b26dab76d7f8d7a3e4e7eccf4"
+              "images/spark-2026-568e6629-61b8-407a-89b4-29dd2866aac4-1.webp": "e8825f17adbe5a9c6e1251a7582142056f3ac0769d5b1694b5b4f066189fbf77"
             }
           },
           "image_counts": {
@@ -22239,29 +22766,13 @@
           "fields": [],
           "images": {
             "added": [
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-1.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-2.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-3.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-4.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-5.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-6.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-7.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-8.webp",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-9.webp"
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-1.webp"
             ],
             "changed": [],
             "moved": [],
             "removed_count": 0,
             "hashes": {
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-1.webp": "d6f675edd417b0e4038418d97c7b89161fd33e4ba6b2676979e5a878a8ce942e",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-2.webp": "3be316e787f78faf87dab601759b46db75361c44d93866c3929fb46ba0c609c6",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-3.webp": "f0d3149e656f78d6e273dfe48565c631ee032551d1c29d3fb3d49da9d273b0b7",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-4.webp": "9c174a2e31e442fde41ca4214f347f86a72dd853a2e3f61a039891064d8d3020",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-5.webp": "c1bea7084a320cdff11f29cad346b0abc54129acdf152fc4f3c6d28934104db9",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-6.webp": "cfeaf437996f552d3843877922cfd8e86f34e628e8b726c9c775ac4747405e3d",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-7.webp": "08d542dca54f7043749584ea980acd845c153bec161dcd287f4ad10d09ef69cb",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-8.webp": "aeaadfd0788b6a64f975cc8d224dc979d174acaf223e8b6ee8efac54fa67cbd2",
-              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-9.webp": "979b2656595247d5b99e300819ad43fe7c4e1f6da66274da45bd3df32b4b77b4"
+              "images/spark-2026-a73e7476-f3c6-48ad-a4e1-156a5f260720-1.webp": "d6f675edd417b0e4038418d97c7b89161fd33e4ba6b2676979e5a878a8ce942e"
             }
           },
           "image_counts": {
@@ -22527,29 +23038,13 @@
           "fields": [],
           "images": {
             "added": [
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-1.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-2.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-3.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-4.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-5.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-6.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-7.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-8.webp",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-9.webp"
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-1.webp"
             ],
             "changed": [],
             "moved": [],
             "removed_count": 0,
             "hashes": {
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-1.webp": "47eda5ff5d7b613ec9e2033859831919d1c096aadd4c62f6b005de94c5c425fa",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-2.webp": "a42b142fa3cde189805c1678a5ab037fabef1b2b80ba3c586fd8882690402ba3",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-3.webp": "0a4208fcc8de189d1e10cf674cf790d0bb8e914808ff91c83fdf0a6e1e4d52e7",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-4.webp": "ca336de3de79ba18a71ed49cb0e7c99280000b3b3a9587380e681a0662e70739",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-5.webp": "d9b91348191770d7c5f32eeeb7259f59ee5630b6fc3978c0ca4246c0b3d28fbe",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-6.webp": "91536b9a1ea7ef4c60e9144c80394757e70ce8fc79b7672fb34c8a0dce2f1850",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-7.webp": "7a5052eebd164e0521277242cccee3825b25554cef7c99f435bc40d9b8b3f638",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-8.webp": "ad93a86b8d3605533444d38aee911ab49d4f2cfab269970d63eea7fb2a8e0102",
-              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-9.webp": "900ff5d4706d46b0f2424669a4c554f30d1f1eef6bcf91eb44eb652ec4868d51"
+              "images/spark-2026-b973da1c-bacd-41bd-9374-353f8b3e74b9-1.webp": "47eda5ff5d7b613ec9e2033859831919d1c096aadd4c62f6b005de94c5c425fa"
             }
           },
           "image_counts": {
@@ -51094,8 +51589,6 @@
           ],
           "images": {
             "added": [
-              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-2.webp",
-              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-3.webp",
               "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-4.webp"
             ],
             "changed": [],
@@ -51139,8 +51632,6 @@
             ],
             "removed_count": 0,
             "hashes": {
-              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-2.webp": "a6009255fbb8c29f007438669b7ade730caf56f697d4b76161e3d971faf11af4",
-              "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-3.webp": "dc2fc9a59bb999977468a65ac1f5e24cfc8299f5c450d2887625b5fe93bf5e85",
               "images/spark-2025-7f1d9cc4-2b60-4ad9-9d3c-c605afe3f4c7-4.webp": "2351314b6fbb1badfacddcbbb21f747f9020948f1105279692df41b8b6169849"
             }
           },
