@@ -54,7 +54,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-19T14:33:42.036349+00:00",
+  "updated_at": "2026-10-20T02:12:59.020812+00:00",
   "total": 910,
   "items": {
     "burago-183284": {
@@ -10660,7 +10660,7 @@
       "source_id": "fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/58f0d4b4-7543-4e08-8f62-830af0abf209.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/523505df-2fa7-4965-bbad-6d9149ada03e.webp",
       "availability": "Coming soon",
       "product_number": "S9389",
       "scale": "1/43",
@@ -10803,8 +10803,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-minichamps-1660047",
-      "minichamps-minichamps-1660060"
+      "spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7"
     ],
     "removed": []
   }

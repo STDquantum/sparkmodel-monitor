@@ -1,6 +1,64 @@
 {
   "updates": [
     {
+      "date": "2026-10-20T02:13:04.571062+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
+          "url": "https://www.sparkmodel.com/products/fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
+          "product_number": "S9389",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/58f0d4b4-7543-4e08-8f62-830af0abf209.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/523505df-2fa7-4965-bbad-6d9149ada03e.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-4.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-5.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-6.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-7.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-8.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-9.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-10.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-11.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-12.webp"
+            ],
+            "changed": [
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-1.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-2.webp",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-4.webp": "5c2d686cf33bb64a2ee2212bcd86b4bae38c1873156edc2bbbb5178662b53d3b",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-5.webp": "6269aaa9886a94b088dc84a802c9de8e9e2083668d5afe45df22a6da443e31a4",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-6.webp": "4c2c73a3bc36d7f1df8c464313070926d008e92a594887ee9274435545511699",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-7.webp": "8cf72bff2390e3d1ec3984b9e494807aa15fe767d270b8c994cf17b4a6a0dbc2",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-8.webp": "5772f555bdd68cbfd79d3c32623489e3aa6b4e2c238a5dd42089db797b6d2d31",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-9.webp": "f167789355f7413ee25f65a2b85380608a38baab3366f6281debad2bc55de7d5",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-10.webp": "963089542f5a21628e4351f6f5a0db20b0b855f7cc87cbce3763a2f900a3aad4",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-11.webp": "150318c527129cc0d3728e3212b4c861186de70b8d0fe6fdfbd60896d391cdcf",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-12.webp": "1c5ad4177fcf729039e5ab9f4d7d32ad8d2ef15328791b3796daa7fe5e5cb81c",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-1.webp": "b00b23d130199fe0f13e4b609312d1b06fc74e622fbc20648d627ff92ec8b3c5",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-2.webp": "16887f1b389f4e67e16d97e4faa787ccdd20d0eff4568f79201b064b67e5b3b8",
+              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-3.webp": "2de469824e089613131f97a23dd2ef8f1a4a47c44125c9d85d59ea0d15667381"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-19T14:33:50.827426+00:00",
       "entries": [
         {
@@ -23242,19 +23300,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-1.webp",
-              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-2.webp",
-              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-1.webp": "8fb5b62f748d6299176e002c012f921d950ec6ef047d93fb85818ff4ec09f12e",
-              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-2.webp": "b77e9a8fdf0d4c34415d784b6400e44e1ec8061513048a5f9a3673a3cd81ba60",
-              "images/spark-2026-fd74ba6e-174b-4a94-b6c9-d348f8686dd7-3.webp": "c2b19e644cf97393d55ebc60c743be688c52fabac21011d3737ed5992dc851ec"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
