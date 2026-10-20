@@ -1,6 +1,42 @@
 {
   "updates": [
     {
+      "date": "2026-10-20T18:00:04.107463+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a89194ba672b5b6a2d9fc78daafc4",
+          "name": "ASTON MARTIN ARAMCO FORMULA ONE TEAM AMR25 - LANCE STROLL - CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89194ba672b5b6a2d9fc78daafc4?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417250218",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-20T13:05:49.110755+00:00",
       "entries": [
         {
