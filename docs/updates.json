@@ -1,6 +1,152 @@
 {
   "updates": [
     {
+      "date": "2026-10-21T04:40:25.394232+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-2025-0b4a370a-87fd-404a-b319-c19647893c47",
+          "name": "Atlassian Williams F1 Team FW47 No.55 5th Las Vegas GP 2025\nCarlos Sainz Jr.",
+          "url": "https://www.sparkmodel.com/products/0b4a370a-87fd-404a-b319-c19647893c47",
+          "product_number": "S9672",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/30762db7-b905-4784-a446-7c97b9329622.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/022455b8-6160-4691-bbe7-2d2b3fbe3ccd.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-4.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-5.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-6.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-7.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-8.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-9.webp"
+            ],
+            "changed": [
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-1.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-2.webp",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-4.webp": "576555beac1af6904dd75ed9022497bbf668162f79466058eb466cae37e9c569",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-5.webp": "fa86f24b462f49196ad97ec786e19ee74c1b96512d73b11b6001661b71d2addd",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-6.webp": "0e6f9eccbb94a72d90d98cbae7035ced42effd0a4630f0224e7b649272d8eaca",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-7.webp": "e045f162590244dbb41418eee6dda343ec162a16add1d5e1b1c91b0e85cb8849",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-8.webp": "9ac3f91f70f515f21e7e4f8679c7be8310882c4e2c4787e110b8e7f5cbb1f271",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-9.webp": "83e35e1f3930c41b9501b8572b34ad7a4db2e8cf512e08f4a44f6b50a241df30",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-1.webp": "6bf8dc1fe52f61a4b3a46798040eb91e232382157e011f484572a6d44f0e50b0",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-2.webp": "71af68c7bc9608c60e95e14a540a92894a68eec662ad5c34820f4209b9cf19bb",
+              "images/spark-2025-0b4a370a-87fd-404a-b319-c19647893c47-3.webp": "c31f4ca3ec6a49fef01dbad7348e83bb4326d7433fc4ef009444a243d10959fd"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b",
+          "name": "Red Bull Racing RB21 No.1 Oracle Red Bull Racing \nWinner Azerbaijan GP 2025\nMax Vestappen\n(with pit board)",
+          "url": "https://www.sparkmodel.com/products/0e7e9d38-5711-4fe3-87c0-e4459284b86b",
+          "product_number": "S9634",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/30d30bbc-5b1c-42fa-9d8d-0b2f9df4637b.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7d1b7746-13b8-4ae6-96f6-d602033cb8f5.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-4.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-5.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-6.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-7.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-8.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-9.webp"
+            ],
+            "changed": [
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-1.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-2.webp",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-4.webp": "d4ac09a5c982eb36cfc8c42d54fd6e35100361e9a6d6d0c90d1ea0a72b1968eb",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-5.webp": "7ba612e8514a6f0937f8637517ef631bb76a8efdef588852fecc1fee9cf5e83f",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-6.webp": "8cfd3d1669355c451a3620660d3494e34afcdc866bd5fe7f38a764792975e904",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-7.webp": "543b66ebcd068c671961721d89c4f94579d33aed7a0cbfaba8a669cb25704107",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-8.webp": "f9b4c7199cf2c94a723931c8e393c8885430e5abb18123735df7c747ccbb6420",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-9.webp": "c6cc8558d043c4a2a9c0008e61750dad2c16a6fe088ef67af71fa68c1eb6a238",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-1.webp": "e8b6c3321ab51adcab4f13bf9e9149fcb8f6476ebf29b9073ecc9d21faac19a1",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-2.webp": "84405367a2f4687614245d2c8a0646d786b432fd000e71d520ac4cc9836d894c",
+              "images/spark-2025-0e7e9d38-5711-4fe3-87c0-e4459284b86b-3.webp": "f78bb8a81cb0af1c43c604bdb54cdfaa05c2eef6e0203f8425ca5bcd4f6f269c"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-2025-5586e21a-0c49-4987-92a2-0a979899223e",
+          "name": "Williams FW47 No.23 Williams Racing\n5th Dutch GP 2025\nAlex Albon",
+          "url": "https://www.sparkmodel.com/products/5586e21a-0c49-4987-92a2-0a979899223e",
+          "product_number": "S9638",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e4c3086d-0e4d-4b59-b0ac-1e0849df451b.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a9daf4c6-f370-4f56-8e6c-32a02159bc52.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-4.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-5.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-6.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-7.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-8.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-9.webp"
+            ],
+            "changed": [
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-1.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-2.webp",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-4.webp": "52f03df99887a1b8efb7a49848814722ca775464306493f6f464aa0a4293b152",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-5.webp": "3d0a490fa6d45a726cdf97b99bdce0f5935ea5a459e7fd2c240d979b02e11279",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-6.webp": "3dfb48f80eee84cf0bd96c3321178adef74e43263702cf488c57f1612f7805aa",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-7.webp": "ec2f6fd1035535f9e735c7fa9543bd0b28ba34c8cd92daa9852d0cd49bdcb2ab",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-8.webp": "6b8bccce0749e3ca210b0b196e6593598310ef179b99d9551acd63b6d55d2043",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-9.webp": "73070abbd2f5f704708b3b39de63ca9e6cef6b86a706c9ee3c29f7c21eeebaf2",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-1.webp": "0cd66be947a481af3d9deaf4693feee4275f54f0930445a9d7c25825c96242da",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-2.webp": "c6f3994f9190e0843e417454d15faf303f94e535f960133c84192895b0a9794b",
+              "images/spark-2025-5586e21a-0c49-4987-92a2-0a979899223e-3.webp": "6f8c70b94d14be26da44acd52fbe023a023865e751d1cea7f55347a4d7fd3026"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-20T18:00:04.107463+00:00",
       "entries": [
         {
