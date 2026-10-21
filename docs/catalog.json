@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:40:25.394232+00:00",
+  "generated_at": "2026-10-21T09:40:55.211127+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -13549,18 +13549,18 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970c088718daa7ad7f09b3ffcab?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-1.jpg",
         "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-2.jpg",
         "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-3.jpg",
         "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-4.jpg",
-        "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-5.jpg",
-        "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-1.jpg"
+        "images/minichamps-019ef970c088718daa7ad7f09b3ffcab-5.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "537253704",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MCLAREN",
         "Driver": "NORRIS, LANDO",
         "Material": "RESIN"
@@ -13572,7 +13572,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef970c11172a1812db97dfc4ddb12",

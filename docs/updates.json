@@ -1,6 +1,63 @@
 {
   "updates": [
     {
+      "date": "2026-10-21T09:40:55.211127+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970c088718daa7ad7f09b3ffcab",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970c088718daa7ad7f09b3ffcab?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253704",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 5,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-21T04:40:25.394232+00:00",
       "entries": [
         {
