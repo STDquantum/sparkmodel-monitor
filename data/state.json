@@ -54,7 +54,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-21T09:40:47.714031+00:00",
+  "updated_at": "2026-10-22T10:33:35.336295+00:00",
   "total": 910,
   "items": {
     "burago-183284": {
@@ -3529,17 +3529,17 @@
       "cover_product_url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/lsf1081-de",
       "shop_image_urls": [
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/fb/24/1790142450/7f2602f4d56d4f23920331950ef42a2a.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/17/06/7a/1790142456/80b7d8e4be30402997281cca279ad364.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/4e/7a/1790142463/301cdd7b8d8f468d82265bbb80af20e8.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/dd/9d/50/1789114934/2ab7c27178d5470a8913059cae89da94.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/de/20/75/1789114956/5d608212a09a4a5db727f82923f51ccf.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/16/53/84/1789114944/cf5c7ceba242411988bcd23e5efd6944.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/dd/9d/50/1789114934/2ab7c27178d5470a8913059cae89da94.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/40/63/51/1789114976/573bc31564714b3cb1c98090dc544f99.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e0/d4/60/1789114945/cfcf858755764d42bf99e5efef38feb7.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/61/d1/1789115090/1b352daf074f4735892e2f51a0a0ddb4.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/75/84/7e/1789115098/6e0571aa08b34adca46a289b7c80f944.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/7a/63/1789115063/f5dfcc7ccbbc497889ec6e7494a5279b.webp"
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/7a/63/1789115063/f5dfcc7ccbbc497889ec6e7494a5279b.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/fb/24/1790142450/7f2602f4d56d4f23920331950ef42a2a.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/4e/7a/1790142463/301cdd7b8d8f468d82265bbb80af20e8.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/17/06/7a/1790142456/80b7d8e4be30402997281cca279ad364.webp"
       ]
     },
     "looksmart-20785": {
@@ -10803,7 +10803,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019ef970c088718daa7ad7f09b3ffcab"
+      "looksmart-20784"
     ],
     "removed": []
   }

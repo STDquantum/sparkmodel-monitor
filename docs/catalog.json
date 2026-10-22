@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:40:55.211127+00:00",
+  "generated_at": "2026-10-22T10:33:40.423427+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -9147,17 +9147,17 @@
       "image_source": "sparkmodelshop",
       "shop_image_urls": [
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/fb/24/1790142450/7f2602f4d56d4f23920331950ef42a2a.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/17/06/7a/1790142456/80b7d8e4be30402997281cca279ad364.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/4e/7a/1790142463/301cdd7b8d8f468d82265bbb80af20e8.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/dd/9d/50/1789114934/2ab7c27178d5470a8913059cae89da94.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/de/20/75/1789114956/5d608212a09a4a5db727f82923f51ccf.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/16/53/84/1789114944/cf5c7ceba242411988bcd23e5efd6944.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/dd/9d/50/1789114934/2ab7c27178d5470a8913059cae89da94.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/40/63/51/1789114976/573bc31564714b3cb1c98090dc544f99.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e0/d4/60/1789114945/cfcf858755764d42bf99e5efef38feb7.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/61/d1/1789115090/1b352daf074f4735892e2f51a0a0ddb4.webp",
         "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/75/84/7e/1789115098/6e0571aa08b34adca46a289b7c80f944.webp",
-        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/7a/63/1789115063/f5dfcc7ccbbc497889ec6e7494a5279b.webp"
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e8/7a/63/1789115063/f5dfcc7ccbbc497889ec6e7494a5279b.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/3c/fb/24/1790142450/7f2602f4d56d4f23920331950ef42a2a.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/4e/7a/1790142463/301cdd7b8d8f468d82265bbb80af20e8.webp",
+        "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/17/06/7a/1790142456/80b7d8e4be30402997281cca279ad364.webp"
       ]
     },
     {

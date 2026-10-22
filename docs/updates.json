@@ -1,6 +1,76 @@
 {
   "updates": [
     {
+      "date": "2026-10-22T10:33:40.423427+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "looksmart-20784",
+          "name": "Ferrari SF-26 Chinese GP 2026 – Lewis Hamilton 3rd Place – Scale 1:43",
+          "url": "https://looksmartmodels.com/product/ferrari-sf-26-chinese-gp-2026-lewis-hamilton-3rd-place-scale-143/",
+          "product_number": "LSF1081",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 6,
+                "to": 2
+              },
+              {
+                "from": 7,
+                "to": 3
+              },
+              {
+                "from": 5,
+                "to": 4
+              },
+              {
+                "from": 8,
+                "to": 5
+              },
+              {
+                "from": 9,
+                "to": 6
+              },
+              {
+                "from": 10,
+                "to": 7
+              },
+              {
+                "from": 11,
+                "to": 8
+              },
+              {
+                "from": 12,
+                "to": 9
+              },
+              {
+                "from": 2,
+                "to": 10
+              },
+              {
+                "from": 4,
+                "to": 11
+              },
+              {
+                "from": 3,
+                "to": 12
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-21T09:40:55.211127+00:00",
       "entries": [
         {
@@ -8054,37 +8124,14 @@
             }
           ],
           "images": {
-            "added": [
-              "images/looksmart-20784-shop-gallery-3.webp",
-              "images/looksmart-20784-shop-gallery-4.webp",
-              "images/looksmart-20784-shop-gallery-5.webp",
-              "images/looksmart-20784-shop-gallery-6.webp",
-              "images/looksmart-20784-shop-gallery-7.webp",
-              "images/looksmart-20784-shop-gallery-8.webp",
-              "images/looksmart-20784-shop-gallery-9.webp",
-              "images/looksmart-20784-shop-gallery-10.webp",
-              "images/looksmart-20784-shop-gallery-11.webp",
-              "images/looksmart-20784-shop-gallery-12.webp"
-            ],
+            "added": [],
             "changed": [
-              "images/looksmart-20784-shop-gallery-1.webp",
-              "images/looksmart-20784-shop-gallery-2.webp"
+              "images/looksmart-20784-shop-gallery-1.webp"
             ],
             "moved": [],
             "removed_count": 0,
             "hashes": {
-              "images/looksmart-20784-shop-gallery-3.webp": "feb1529ba0ea49c6244ff5c9c9927f42248f4ab8d2d05fcc8bb94b962933f35b",
-              "images/looksmart-20784-shop-gallery-4.webp": "5e7d72e0924de42f16888e2c8ecd4551867f0c8f19966c740c8dd035540f0931",
-              "images/looksmart-20784-shop-gallery-5.webp": "664a6ffed06f70da7ba47815440d5c59b5ee1445f5963afc39fb08d1b556001d",
-              "images/looksmart-20784-shop-gallery-6.webp": "4c29ec2520df74a730fa7b1c94d3bbc29ac4c89cc7473acfb191c308d609ade7",
-              "images/looksmart-20784-shop-gallery-7.webp": "1c6333db29f72d8bab0c6e211741f8d29eacbd0af5997c107f7302a3e26c7ffd",
-              "images/looksmart-20784-shop-gallery-8.webp": "c624802ab4448ee777eff8abea64509fb136f00e65f79dc3048c61555ed1d04f",
-              "images/looksmart-20784-shop-gallery-9.webp": "b07269fa6ad5eabb15310634d553ec11351fa54aff286bd4dddd4b6142898434",
-              "images/looksmart-20784-shop-gallery-10.webp": "4e4aa3bed2e56cdb7cb9e32e58992cc5905e9b444abc1b3c0c0f4b311d1f61ed",
-              "images/looksmart-20784-shop-gallery-11.webp": "941a8ffcdb5a23ad79aa9648daeb4b649a65ab677b230f69fea60b2a9ec07d4b",
-              "images/looksmart-20784-shop-gallery-12.webp": "e740d97efb14ec0920151ca013f861aeeaaabf395ac750808deb5b5bd53acecf",
-              "images/looksmart-20784-shop-gallery-1.webp": "caebec2edeabd5ccc79aa370f16fb79e7265f406971b2c19c5788cd90572960a",
-              "images/looksmart-20784-shop-gallery-2.webp": "9fa548538c40f1bb4895b3ba144ce52fa1ad705e035f8333a157d64aa19b1483"
+              "images/looksmart-20784-shop-gallery-1.webp": "caebec2edeabd5ccc79aa370f16fb79e7265f406971b2c19c5788cd90572960a"
             }
           },
           "image_counts": {
