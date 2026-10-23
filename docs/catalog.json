@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:33:40.423427+00:00",
+  "generated_at": "2026-10-23T11:31:20.366656+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -13813,7 +13813,7 @@
         "Product number": "BBR254644",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "FERRARI",
         "Driver": "HAMILTON, LEWIS",
         "Material": "RESIN"
@@ -13825,7 +13825,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef971cfc073878d17bd46dc775b23",
@@ -13962,9 +13962,11 @@
     },
     {
       "id": "minichamps-019ef971d31970d3a4ec88a42181e2e2",
-      "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971d31970d3a4ec88a42181e2e2?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-2.jpg",
+        "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-3.jpg",
         "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-1.jpg"
       ],
       "properties": {
@@ -13972,10 +13974,11 @@
         "Product number": "417251863",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 44/2026"
       },
       "description": "",
       "brand": "Minichamps",
@@ -13984,7 +13987,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef971d44972cb8c1914da583cc0e7",
@@ -15840,8 +15843,8 @@
     },
     {
       "id": "minichamps-minichamps-1659915",
-      "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
-      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE CHINESE GP 2026 W/POLE POSITION TYRE",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
       "images": [
         "images/minichamps-minichamps-1659915-1.jpg",
         "images/minichamps-minichamps-1659915-2.jpg",
@@ -15852,7 +15855,7 @@
         "Product number": "417260222",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, KIMI",
         "Material": "RESIN",
@@ -15865,7 +15868,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-minichamps-1659916",
@@ -16276,8 +16279,8 @@
     },
     {
       "id": "minichamps-minichamps-1660039",
-      "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
-      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
+      "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE POS. CHINESE GP 2026 W/POLE POSITION TYRE",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-POS.-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
       "images": [
         "images/minichamps-minichamps-1660039-1.jpg",
         "images/minichamps-minichamps-1660039-2.jpg",
@@ -16291,7 +16294,7 @@
         "Product number": "117260222",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, KIMI",
         "Material": "RESIN",
@@ -16304,7 +16307,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-minichamps-1660040",
@@ -17409,10 +17412,11 @@
         "Product number": "640260131",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "HAAS",
-        "Driver": "OCON; ESTEBAN",
+        "Driver": "OCON, ESTEBAN",
         "Material": "DIECAST",
+        "First delivery": "Calendar week 44/2026",
         "Model": "VF-26"
       },
       "description": "",
@@ -17422,7 +17426,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1661377",
@@ -17512,10 +17516,11 @@
         "Product number": "640260163",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
         "Material": "DIECAST",
+        "First delivery": "Calendar week 44/2026",
         "Model": "W17"
       },
       "description": "",
@@ -17525,7 +17530,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1661381",
@@ -17541,10 +17546,11 @@
         "Product number": "640260187",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "HAAS",
         "Driver": "BEARMAN, OLIVER",
         "Material": "DIECAST",
+        "First delivery": "Calendar week 44/2026",
         "Model": "VF-26"
       },
       "description": "",
@@ -17554,7 +17560,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1661382",
@@ -17619,19 +17625,20 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/640260312",
       "images": [
+        "images/minichamps-minichamps-1661384-1.jpg",
         "images/minichamps-minichamps-1661384-2.jpg",
-        "images/minichamps-minichamps-1661384-3.jpg",
-        "images/minichamps-minichamps-1661384-1.jpg"
+        "images/minichamps-minichamps-1661384-3.jpg"
       ],
       "properties": {
         "Year": "2026",
         "Product number": "640260312",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, KIMI",
         "Material": "DIECAST",
+        "First delivery": "Calendar week 44/2026",
         "Model": "W17"
       },
       "description": "",
@@ -17641,7 +17648,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1661385",
@@ -20400,6 +20407,40 @@
         "Scale": "1/43",
         "Year": "2025",
         "Product number": "S9674"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar \n(with pit board)",
+      "url": "https://www.sparkmodel.com/products/261dbe8d-b468-4da2-b4e4-1491aa956f54",
+      "images": [
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-1.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-2.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-3.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-4.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-5.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-6.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-7.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-8.webp",
+        "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-9.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Product number": "S9637",
+        "Driver": "Isack Hadjar",
+        "Grand Prix": "Dutch Grand Prix",
+        "Result": "3rd"
       },
       "description": "",
       "brand": "Spark",
@@ -23862,6 +23903,40 @@
       "weight": "",
       "length": "",
       "availability": "Catalogue"
+    },
+    {
+      "id": "spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\n6th Azerbaijan GP 2025 \nYuki Tsunoda \n(with pit board)",
+      "url": "https://www.sparkmodel.com/products/ec724ec1-220c-4891-8d1f-9683c2bff502",
+      "images": [
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-1.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-2.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-3.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-4.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-5.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-6.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-7.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-8.webp",
+        "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-9.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Red Bull",
+        "Model": "RB21",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Product number": "S9635",
+        "Driver": "Yuki Tsunoda",
+        "Grand Prix": "Azerbaijan Grand Prix",
+        "Result": "6th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
     },
     {
       "id": "spark-2025-ec879cc5-3743-4ca8-82a4-13930f876f8a",
@@ -28193,70 +28268,6 @@
       "weight": "0.18 kg",
       "length": "100 mm",
       "availability": "Available"
-    },
-    {
-      "id": "spark-shop-2025-S9635",
-      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing 6th Azerbaijan GP 2025 Yuki Tsunoda (with pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-6th-azerbaijan-gp-2025-yuki-tsunoda-with-pit-board/s9635-de",
-      "images": [
-        "images/spark-shop-2025-S9635-1.webp",
-        "images/spark-shop-2025-S9635-2.webp",
-        "images/spark-shop-2025-S9635-3.webp",
-        "images/spark-shop-2025-S9635-4.webp",
-        "images/spark-shop-2025-S9635-5.webp",
-        "images/spark-shop-2025-S9635-6.webp",
-        "images/spark-shop-2025-S9635-7.webp",
-        "images/spark-shop-2025-S9635-8.webp",
-        "images/spark-shop-2025-S9635-9.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/43",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "S9635",
-        "Model": "RB21"
-      },
-      "description": "GTIN/EAN: 9580006996350",
-      "brand": "Spark",
-      "price": "92",
-      "currency": "EUR",
-      "gtin": "9580006996350",
-      "weight": "0.18 kg",
-      "length": "100 mm",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-S9637",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (with pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/s9637-de",
-      "images": [
-        "images/spark-shop-2025-S9637-1.webp",
-        "images/spark-shop-2025-S9637-2.webp",
-        "images/spark-shop-2025-S9637-3.webp",
-        "images/spark-shop-2025-S9637-4.webp",
-        "images/spark-shop-2025-S9637-5.webp",
-        "images/spark-shop-2025-S9637-6.webp",
-        "images/spark-shop-2025-S9637-7.webp",
-        "images/spark-shop-2025-S9637-8.webp",
-        "images/spark-shop-2025-S9637-9.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/43",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "S9637",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9580006996374",
-      "brand": "Spark",
-      "price": "92",
-      "currency": "EUR",
-      "gtin": "9580006996374",
-      "weight": "0.18 kg",
-      "length": "100 mm",
-      "availability": "Pre-order"
     },
     {
       "id": "spark-shop-2025-S9642",

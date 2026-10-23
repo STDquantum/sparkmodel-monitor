@@ -54,7 +54,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-22T10:33:35.336295+00:00",
+  "updated_at": "2026-10-23T11:31:07.483799+00:00",
   "total": 910,
   "items": {
     "burago-183284": {
@@ -5313,7 +5313,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-019ef971cfc073878d17bd46dc775b23": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER ITALIAN GP 2025",
@@ -5365,7 +5365,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019ef971d44972cb8c1914da583cc0e7": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 - WHITE TYRE - EXCL. BBR",
@@ -6000,7 +6000,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-minichamps-1659916": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
@@ -6150,7 +6150,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-minichamps-1660040": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
@@ -6545,7 +6545,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-minichamps-1661377": {
       "name": "VISA CASH APP RB FORMULA ONE VCARB 03 - ARVID LINDBLAD - AUSTRALIAN GP 2026 - 1ST POINTS",
@@ -6582,7 +6582,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-minichamps-1661381": {
       "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTRALIAN GP 2026",
@@ -6592,7 +6592,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-minichamps-1661382": {
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
@@ -6622,7 +6622,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-minichamps-1661385": {
       "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - JAPANESE GP 2026",
@@ -7618,6 +7618,18 @@
       "scale": "1/43",
       "year": "2025",
       "manufacturer": "Williams"
+    },
+    "spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54": {
+      "source": "sparkmodel",
+      "source_id": "261dbe8d-b468-4da2-b4e4-1491aa956f54",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar \n(with pit board)",
+      "url": "https://www.sparkmodel.com/products/261dbe8d-b468-4da2-b4e4-1491aa956f54",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e415e67c-709f-4ad0-b381-d3c471769a5b.webp",
+      "availability": "In development",
+      "product_number": "S9637",
+      "scale": "1/43",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
     },
     "spark-2025-300ba7b9-12f0-466a-ad00-1daf5b14d7fd": {
       "source": "sparkmodel",
@@ -8851,6 +8863,18 @@
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/aa15f6a9-c077-4c36-8a34-f72a651dd793.webp",
       "availability": "Catalogue",
       "product_number": "S9669",
+      "scale": "1/43",
+      "year": "2025",
+      "manufacturer": "Red Bull"
+    },
+    "spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502": {
+      "source": "sparkmodel",
+      "source_id": "ec724ec1-220c-4891-8d1f-9683c2bff502",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\n6th Azerbaijan GP 2025 \nYuki Tsunoda \n(with pit board)",
+      "url": "https://www.sparkmodel.com/products/ec724ec1-220c-4891-8d1f-9683c2bff502",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/50c7e78d-bea5-452c-8280-90905985ab8c.webp",
+      "availability": "In development",
+      "product_number": "S9635",
       "scale": "1/43",
       "year": "2025",
       "manufacturer": "Red Bull"
@@ -10744,28 +10768,6 @@
       "availability": "Available",
       "product_number": "S9618"
     },
-    "spark-shop-2025-S9635": {
-      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing 6th Azerbaijan GP 2025 Yuki Tsunoda (with pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-6th-azerbaijan-gp-2025-yuki-tsunoda-with-pit-board/s9635-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a7/74/f1/1790735811/50c7e78dbea5452c828090905985ab8c.webp?ts=1792035714",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/43",
-      "year": "2025",
-      "product_number": "S9635",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-S9637": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (with pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/s9637-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f9/7c/77/1790736127/e415e67c709f4ad0b381d3c471769a5b.webp?ts=1792035710",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/43",
-      "year": "2025",
-      "product_number": "S9637",
-      "availability": "Pre-order"
-    },
     "spark-shop-2025-S9642": {
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
       "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/s9642-de",
@@ -10801,10 +10803,23 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "looksmart-20784"
+    "added": [
+      "spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54",
+      "spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502"
     ],
-    "removed": []
+    "changed": [
+      "minichamps-019ef971cf207304a60f64134b62f0d8",
+      "minichamps-019ef971d31970d3a4ec88a42181e2e2",
+      "minichamps-minichamps-1659915",
+      "minichamps-minichamps-1660039",
+      "minichamps-minichamps-1661376",
+      "minichamps-minichamps-1661380",
+      "minichamps-minichamps-1661381",
+      "minichamps-minichamps-1661384"
+    ],
+    "removed": [
+      "spark-shop-2025-S9635",
+      "spark-shop-2025-S9637"
+    ]
   }
 }

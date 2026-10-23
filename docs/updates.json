@@ -1,6 +1,450 @@
 {
   "updates": [
     {
+      "date": "2026-10-23T11:31:20.366656+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef971cf207304a60f64134b62f0d8",
+          "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 W/DRIVER FIGURINE",
+          "url": "https://www.minichamps.de/en/detail/019ef971cf207304a60f64134b62f0d8?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR254644",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef971d31970d3a4ec88a42181e2e2",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef971d31970d3a4ec88a42181e2e2?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417251863",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "名称",
+              "before": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025",
+              "after": "MERCEDES-AMG PETRONAS F1 TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 44/2026"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-2.jpg",
+              "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-3.jpg"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-2.jpg": "b50ff95ff9b1a1eeff92534ffc2a5903a4e4017654346be113eb58486028fdc2",
+              "images/minichamps-019ef971d31970d3a4ec88a42181e2e2-3.jpg": "41f2f5de78560a4f6cd1c5469600b07455fdd6639ca59649823b982060d3de69"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1659915",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
+          "product_number": "417260222",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "名称",
+              "before": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+              "after": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE CHINESE GP 2026 W/POLE POSITION TYRE"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "商品链接",
+              "before": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
+              "after": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660039",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE POS. CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-POS.-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
+          "product_number": "117260222",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "名称",
+              "before": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – 1ST POLE POSITION CHINESE GP 2026 W/POLE POSITION TYRE",
+              "after": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE POS. CHINESE GP 2026 W/POLE POSITION TYRE"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "商品链接",
+              "before": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-1ST-POLE-POSITION-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
+              "after": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-POS.-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661376",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTRALIAN-GP-2026/640260131",
+          "product_number": "640260131",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            },
+            {
+              "field": "Driver",
+              "before": "OCON; ESTEBAN",
+              "after": "OCON, ESTEBAN"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 44/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661380",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - G. RUSSELL - WINNER AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-G.-RUSSELL-WINNER-AUSTRALIAN-GP-2026/640260163",
+          "product_number": "640260163",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 44/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661381",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTRALIAN-GP-2026/640260187",
+          "product_number": "640260187",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 44/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661384",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/640260312",
+          "product_number": "640260312",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 44/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar \n(with pit board)",
+          "url": "https://www.sparkmodel.com/products/261dbe8d-b468-4da2-b4e4-1491aa956f54",
+          "product_number": "S9637",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-1.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-2.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-3.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-4.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-5.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-6.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-7.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-8.webp",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-9.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-1.webp": "6e426fe1b2c4ae68e0a859deb5abaeb98f6bda251a668cad83dae2d4531355b9",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-2.webp": "881eaa5b32e0612cec309e2fd273f3349b8841e2a0befe70742865ef9cd7ab97",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-3.webp": "9e6b48e0b908be9053fcfd0bfc430778ec4c53b4882442517911b681c44ecccf",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-4.webp": "0643fba53ea732d73db84ab1f6af18b95998e078b37b59501d3c875f80668e90",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-5.webp": "c9a49e9957e679f9b749e74619c90c6b26b49f84a8a3c9c4675082256eef7f98",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-6.webp": "9c7892778c14ff75bff5baef6a7f149f237db50fbcc2d631e3d3c0c3752efd2a",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-7.webp": "7ae89b9f54f478e793ace561d9602b656c03d29199f73fbceabf963b9d57305c",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-8.webp": "337700a36ec148e0a9646d669b666822a48ecf8242915dced1441254a71b0bac",
+              "images/spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54-9.webp": "51c82d418cdcdcf50cdffbf507a19283a8d230b9e852813e1abeef24edd5b0b1"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502",
+          "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\n6th Azerbaijan GP 2025 \nYuki Tsunoda \n(with pit board)",
+          "url": "https://www.sparkmodel.com/products/ec724ec1-220c-4891-8d1f-9683c2bff502",
+          "product_number": "S9635",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-1.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-2.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-3.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-4.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-5.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-6.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-7.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-8.webp",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-9.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-1.webp": "43e1eb490a98bbaa92987ff197d56511b77936cd649413f4befd6a92075cff99",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-2.webp": "adf7b4f110a21d77f597fcd5bfc19e98eae9a69df061b02ae1d0cda47f10d06f",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-3.webp": "51f62b6fe960171cfe4e5fa8dde38f99ce0c350f76f039fa05529651a205ecdc",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-4.webp": "df8edca86b0f5f4810de8d45446f4a0f76ad40031cbfe49f31650643c1c39000",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-5.webp": "342a76dceed2c4df3cec44718612294fc3dea2e63a7e66a2ce13537252ac287b",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-6.webp": "8d456288bcc1655d20bcf823eb9ac867cecda00a9ca86a78aea43d712e0c016e",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-7.webp": "a4a62b5002ee6a7a2a042ea5657797557b52aaa2ce1ea57cdc9449747c9ef76b",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-8.webp": "632596d083f80793d23852355ed67db660ca18fea4c66cd82d984d90854ce393",
+              "images/spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502-9.webp": "241a44d5838cbc118d0057f38504f7805bf19b7a12f86ef92d734d990b212899"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "spark-shop-2025-S9635",
+          "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing 6th Azerbaijan GP 2025 Yuki Tsunoda (with pit board)",
+          "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-6th-azerbaijan-gp-2025-yuki-tsunoda-with-pit-board/s9635-de",
+          "product_number": "S9635",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "spark-shop-2025-S9637",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (with pit board)",
+          "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/s9637-de",
+          "product_number": "S9637",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-22T10:33:40.423427+00:00",
       "entries": [
         {
@@ -9905,31 +10349,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9635-1.webp",
-              "images/spark-shop-2025-S9635-2.webp",
-              "images/spark-shop-2025-S9635-3.webp",
-              "images/spark-shop-2025-S9635-4.webp",
-              "images/spark-shop-2025-S9635-5.webp",
-              "images/spark-shop-2025-S9635-6.webp",
-              "images/spark-shop-2025-S9635-7.webp",
-              "images/spark-shop-2025-S9635-8.webp",
-              "images/spark-shop-2025-S9635-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9635-1.webp": "43e1eb490a98bbaa92987ff197d56511b77936cd649413f4befd6a92075cff99",
-              "images/spark-shop-2025-S9635-2.webp": "adf7b4f110a21d77f597fcd5bfc19e98eae9a69df061b02ae1d0cda47f10d06f",
-              "images/spark-shop-2025-S9635-3.webp": "51f62b6fe960171cfe4e5fa8dde38f99ce0c350f76f039fa05529651a205ecdc",
-              "images/spark-shop-2025-S9635-4.webp": "df8edca86b0f5f4810de8d45446f4a0f76ad40031cbfe49f31650643c1c39000",
-              "images/spark-shop-2025-S9635-5.webp": "342a76dceed2c4df3cec44718612294fc3dea2e63a7e66a2ce13537252ac287b",
-              "images/spark-shop-2025-S9635-6.webp": "8d456288bcc1655d20bcf823eb9ac867cecda00a9ca86a78aea43d712e0c016e",
-              "images/spark-shop-2025-S9635-7.webp": "a4a62b5002ee6a7a2a042ea5657797557b52aaa2ce1ea57cdc9449747c9ef76b",
-              "images/spark-shop-2025-S9635-8.webp": "632596d083f80793d23852355ed67db660ca18fea4c66cd82d984d90854ce393",
-              "images/spark-shop-2025-S9635-9.webp": "241a44d5838cbc118d0057f38504f7805bf19b7a12f86ef92d734d990b212899"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -9945,31 +10369,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9637-1.webp",
-              "images/spark-shop-2025-S9637-2.webp",
-              "images/spark-shop-2025-S9637-3.webp",
-              "images/spark-shop-2025-S9637-4.webp",
-              "images/spark-shop-2025-S9637-5.webp",
-              "images/spark-shop-2025-S9637-6.webp",
-              "images/spark-shop-2025-S9637-7.webp",
-              "images/spark-shop-2025-S9637-8.webp",
-              "images/spark-shop-2025-S9637-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9637-1.webp": "6e426fe1b2c4ae68e0a859deb5abaeb98f6bda251a668cad83dae2d4531355b9",
-              "images/spark-shop-2025-S9637-2.webp": "881eaa5b32e0612cec309e2fd273f3349b8841e2a0befe70742865ef9cd7ab97",
-              "images/spark-shop-2025-S9637-3.webp": "9e6b48e0b908be9053fcfd0bfc430778ec4c53b4882442517911b681c44ecccf",
-              "images/spark-shop-2025-S9637-4.webp": "0643fba53ea732d73db84ab1f6af18b95998e078b37b59501d3c875f80668e90",
-              "images/spark-shop-2025-S9637-5.webp": "c9a49e9957e679f9b749e74619c90c6b26b49f84a8a3c9c4675082256eef7f98",
-              "images/spark-shop-2025-S9637-6.webp": "9c7892778c14ff75bff5baef6a7f149f237db50fbcc2d631e3d3c0c3752efd2a",
-              "images/spark-shop-2025-S9637-7.webp": "7ae89b9f54f478e793ace561d9602b656c03d29199f73fbceabf963b9d57305c",
-              "images/spark-shop-2025-S9637-8.webp": "337700a36ec148e0a9646d669b666822a48ecf8242915dced1441254a71b0bac",
-              "images/spark-shop-2025-S9637-9.webp": "51c82d418cdcdcf50cdffbf507a19283a8d230b9e852813e1abeef24edd5b0b1"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -10815,31 +11219,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9635-1.webp",
-              "images/spark-shop-2025-S9635-2.webp",
-              "images/spark-shop-2025-S9635-3.webp",
-              "images/spark-shop-2025-S9635-4.webp",
-              "images/spark-shop-2025-S9635-5.webp",
-              "images/spark-shop-2025-S9635-6.webp",
-              "images/spark-shop-2025-S9635-7.webp",
-              "images/spark-shop-2025-S9635-8.webp",
-              "images/spark-shop-2025-S9635-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9635-1.webp": "43e1eb490a98bbaa92987ff197d56511b77936cd649413f4befd6a92075cff99",
-              "images/spark-shop-2025-S9635-2.webp": "adf7b4f110a21d77f597fcd5bfc19e98eae9a69df061b02ae1d0cda47f10d06f",
-              "images/spark-shop-2025-S9635-3.webp": "51f62b6fe960171cfe4e5fa8dde38f99ce0c350f76f039fa05529651a205ecdc",
-              "images/spark-shop-2025-S9635-4.webp": "df8edca86b0f5f4810de8d45446f4a0f76ad40031cbfe49f31650643c1c39000",
-              "images/spark-shop-2025-S9635-5.webp": "342a76dceed2c4df3cec44718612294fc3dea2e63a7e66a2ce13537252ac287b",
-              "images/spark-shop-2025-S9635-6.webp": "8d456288bcc1655d20bcf823eb9ac867cecda00a9ca86a78aea43d712e0c016e",
-              "images/spark-shop-2025-S9635-7.webp": "a4a62b5002ee6a7a2a042ea5657797557b52aaa2ce1ea57cdc9449747c9ef76b",
-              "images/spark-shop-2025-S9635-8.webp": "632596d083f80793d23852355ed67db660ca18fea4c66cd82d984d90854ce393",
-              "images/spark-shop-2025-S9635-9.webp": "241a44d5838cbc118d0057f38504f7805bf19b7a12f86ef92d734d990b212899"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -10855,31 +11239,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9637-1.webp",
-              "images/spark-shop-2025-S9637-2.webp",
-              "images/spark-shop-2025-S9637-3.webp",
-              "images/spark-shop-2025-S9637-4.webp",
-              "images/spark-shop-2025-S9637-5.webp",
-              "images/spark-shop-2025-S9637-6.webp",
-              "images/spark-shop-2025-S9637-7.webp",
-              "images/spark-shop-2025-S9637-8.webp",
-              "images/spark-shop-2025-S9637-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9637-1.webp": "6e426fe1b2c4ae68e0a859deb5abaeb98f6bda251a668cad83dae2d4531355b9",
-              "images/spark-shop-2025-S9637-2.webp": "881eaa5b32e0612cec309e2fd273f3349b8841e2a0befe70742865ef9cd7ab97",
-              "images/spark-shop-2025-S9637-3.webp": "9e6b48e0b908be9053fcfd0bfc430778ec4c53b4882442517911b681c44ecccf",
-              "images/spark-shop-2025-S9637-4.webp": "0643fba53ea732d73db84ab1f6af18b95998e078b37b59501d3c875f80668e90",
-              "images/spark-shop-2025-S9637-5.webp": "c9a49e9957e679f9b749e74619c90c6b26b49f84a8a3c9c4675082256eef7f98",
-              "images/spark-shop-2025-S9637-6.webp": "9c7892778c14ff75bff5baef6a7f149f237db50fbcc2d631e3d3c0c3752efd2a",
-              "images/spark-shop-2025-S9637-7.webp": "7ae89b9f54f478e793ace561d9602b656c03d29199f73fbceabf963b9d57305c",
-              "images/spark-shop-2025-S9637-8.webp": "337700a36ec148e0a9646d669b666822a48ecf8242915dced1441254a71b0bac",
-              "images/spark-shop-2025-S9637-9.webp": "51c82d418cdcdcf50cdffbf507a19283a8d230b9e852813e1abeef24edd5b0b1"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -12523,31 +12887,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9635-1.webp",
-              "images/spark-shop-2025-S9635-2.webp",
-              "images/spark-shop-2025-S9635-3.webp",
-              "images/spark-shop-2025-S9635-4.webp",
-              "images/spark-shop-2025-S9635-5.webp",
-              "images/spark-shop-2025-S9635-6.webp",
-              "images/spark-shop-2025-S9635-7.webp",
-              "images/spark-shop-2025-S9635-8.webp",
-              "images/spark-shop-2025-S9635-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9635-1.webp": "43e1eb490a98bbaa92987ff197d56511b77936cd649413f4befd6a92075cff99",
-              "images/spark-shop-2025-S9635-2.webp": "adf7b4f110a21d77f597fcd5bfc19e98eae9a69df061b02ae1d0cda47f10d06f",
-              "images/spark-shop-2025-S9635-3.webp": "51f62b6fe960171cfe4e5fa8dde38f99ce0c350f76f039fa05529651a205ecdc",
-              "images/spark-shop-2025-S9635-4.webp": "df8edca86b0f5f4810de8d45446f4a0f76ad40031cbfe49f31650643c1c39000",
-              "images/spark-shop-2025-S9635-5.webp": "342a76dceed2c4df3cec44718612294fc3dea2e63a7e66a2ce13537252ac287b",
-              "images/spark-shop-2025-S9635-6.webp": "8d456288bcc1655d20bcf823eb9ac867cecda00a9ca86a78aea43d712e0c016e",
-              "images/spark-shop-2025-S9635-7.webp": "a4a62b5002ee6a7a2a042ea5657797557b52aaa2ce1ea57cdc9449747c9ef76b",
-              "images/spark-shop-2025-S9635-8.webp": "632596d083f80793d23852355ed67db660ca18fea4c66cd82d984d90854ce393",
-              "images/spark-shop-2025-S9635-9.webp": "241a44d5838cbc118d0057f38504f7805bf19b7a12f86ef92d734d990b212899"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -12563,31 +12907,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9637-1.webp",
-              "images/spark-shop-2025-S9637-2.webp",
-              "images/spark-shop-2025-S9637-3.webp",
-              "images/spark-shop-2025-S9637-4.webp",
-              "images/spark-shop-2025-S9637-5.webp",
-              "images/spark-shop-2025-S9637-6.webp",
-              "images/spark-shop-2025-S9637-7.webp",
-              "images/spark-shop-2025-S9637-8.webp",
-              "images/spark-shop-2025-S9637-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9637-1.webp": "6e426fe1b2c4ae68e0a859deb5abaeb98f6bda251a668cad83dae2d4531355b9",
-              "images/spark-shop-2025-S9637-2.webp": "881eaa5b32e0612cec309e2fd273f3349b8841e2a0befe70742865ef9cd7ab97",
-              "images/spark-shop-2025-S9637-3.webp": "9e6b48e0b908be9053fcfd0bfc430778ec4c53b4882442517911b681c44ecccf",
-              "images/spark-shop-2025-S9637-4.webp": "0643fba53ea732d73db84ab1f6af18b95998e078b37b59501d3c875f80668e90",
-              "images/spark-shop-2025-S9637-5.webp": "c9a49e9957e679f9b749e74619c90c6b26b49f84a8a3c9c4675082256eef7f98",
-              "images/spark-shop-2025-S9637-6.webp": "9c7892778c14ff75bff5baef6a7f149f237db50fbcc2d631e3d3c0c3752efd2a",
-              "images/spark-shop-2025-S9637-7.webp": "7ae89b9f54f478e793ace561d9602b656c03d29199f73fbceabf963b9d57305c",
-              "images/spark-shop-2025-S9637-8.webp": "337700a36ec148e0a9646d669b666822a48ecf8242915dced1441254a71b0bac",
-              "images/spark-shop-2025-S9637-9.webp": "51c82d418cdcdcf50cdffbf507a19283a8d230b9e852813e1abeef24edd5b0b1"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -12998,31 +13322,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9635-1.webp",
-              "images/spark-shop-2025-S9635-2.webp",
-              "images/spark-shop-2025-S9635-3.webp",
-              "images/spark-shop-2025-S9635-4.webp",
-              "images/spark-shop-2025-S9635-5.webp",
-              "images/spark-shop-2025-S9635-6.webp",
-              "images/spark-shop-2025-S9635-7.webp",
-              "images/spark-shop-2025-S9635-8.webp",
-              "images/spark-shop-2025-S9635-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9635-1.webp": "43e1eb490a98bbaa92987ff197d56511b77936cd649413f4befd6a92075cff99",
-              "images/spark-shop-2025-S9635-2.webp": "adf7b4f110a21d77f597fcd5bfc19e98eae9a69df061b02ae1d0cda47f10d06f",
-              "images/spark-shop-2025-S9635-3.webp": "51f62b6fe960171cfe4e5fa8dde38f99ce0c350f76f039fa05529651a205ecdc",
-              "images/spark-shop-2025-S9635-4.webp": "df8edca86b0f5f4810de8d45446f4a0f76ad40031cbfe49f31650643c1c39000",
-              "images/spark-shop-2025-S9635-5.webp": "342a76dceed2c4df3cec44718612294fc3dea2e63a7e66a2ce13537252ac287b",
-              "images/spark-shop-2025-S9635-6.webp": "8d456288bcc1655d20bcf823eb9ac867cecda00a9ca86a78aea43d712e0c016e",
-              "images/spark-shop-2025-S9635-7.webp": "a4a62b5002ee6a7a2a042ea5657797557b52aaa2ce1ea57cdc9449747c9ef76b",
-              "images/spark-shop-2025-S9635-8.webp": "632596d083f80793d23852355ed67db660ca18fea4c66cd82d984d90854ce393",
-              "images/spark-shop-2025-S9635-9.webp": "241a44d5838cbc118d0057f38504f7805bf19b7a12f86ef92d734d990b212899"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
@@ -13038,31 +13342,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9637-1.webp",
-              "images/spark-shop-2025-S9637-2.webp",
-              "images/spark-shop-2025-S9637-3.webp",
-              "images/spark-shop-2025-S9637-4.webp",
-              "images/spark-shop-2025-S9637-5.webp",
-              "images/spark-shop-2025-S9637-6.webp",
-              "images/spark-shop-2025-S9637-7.webp",
-              "images/spark-shop-2025-S9637-8.webp",
-              "images/spark-shop-2025-S9637-9.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9637-1.webp": "6e426fe1b2c4ae68e0a859deb5abaeb98f6bda251a668cad83dae2d4531355b9",
-              "images/spark-shop-2025-S9637-2.webp": "881eaa5b32e0612cec309e2fd273f3349b8841e2a0befe70742865ef9cd7ab97",
-              "images/spark-shop-2025-S9637-3.webp": "9e6b48e0b908be9053fcfd0bfc430778ec4c53b4882442517911b681c44ecccf",
-              "images/spark-shop-2025-S9637-4.webp": "0643fba53ea732d73db84ab1f6af18b95998e078b37b59501d3c875f80668e90",
-              "images/spark-shop-2025-S9637-5.webp": "c9a49e9957e679f9b749e74619c90c6b26b49f84a8a3c9c4675082256eef7f98",
-              "images/spark-shop-2025-S9637-6.webp": "9c7892778c14ff75bff5baef6a7f149f237db50fbcc2d631e3d3c0c3752efd2a",
-              "images/spark-shop-2025-S9637-7.webp": "7ae89b9f54f478e793ace561d9602b656c03d29199f73fbceabf963b9d57305c",
-              "images/spark-shop-2025-S9637-8.webp": "337700a36ec148e0a9646d669b666822a48ecf8242915dced1441254a71b0bac",
-              "images/spark-shop-2025-S9637-9.webp": "51c82d418cdcdcf50cdffbf507a19283a8d230b9e852813e1abeef24edd5b0b1"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,
