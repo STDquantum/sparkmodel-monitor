@@ -18,7 +18,8 @@ SEARCHES = {
 
 def search_url(model, mode='', page=1):
     keyword = f'burago F1 {model}' + (' Audi' if model == 'R26' else '')
-    return BASE + '/search?' + urlencode(dict(keyword=keyword, scale='all', country='', nuOb=mode, resultsPerPage=120, page=page))
+    # Include the encyclopedia so sold-out/catalogue models remain searchable.
+    return BASE + '/search?' + urlencode(dict(keyword=keyword, scale='all', country='', nuOb=mode, resultsPerPage=120, page=page, enc=1))
 
 SOURCES = tuple(search_url(model) for models in SEARCHES.values() for model in models)
 

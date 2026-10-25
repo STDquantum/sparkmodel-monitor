@@ -1,22 +1,22 @@
 {
   "sources": [
-    "https://www.carmodel.com/search?keyword=burago+F1+AMR25&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+A525&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+RB21&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+SF-25&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+MCL39&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+W16&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+AMR26&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+A526&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+SF-26&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+RB22&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+MCL40&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+W17&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+VCARB-03&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+VF-26&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+FW48&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+MAC-26&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
-    "https://www.carmodel.com/search?keyword=burago+F1+R26+Audi&scale=all&country=&nuOb=&resultsPerPage=120&page=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+AMR25&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+A525&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+RB21&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+SF-25&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+MCL39&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+W16&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+AMR26&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+A526&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+SF-26&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+RB22&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+MCL40&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+W17&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+VCARB-03&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+VF-26&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+FW48&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+MAC-26&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
+    "https://www.carmodel.com/search?keyword=burago+F1+R26+Audi&scale=all&country=&nuOb=&resultsPerPage=120&page=1&enc=1",
     "https://www.sparkmodelshop.com/de/en/search?search=SF-26&p=1",
     "https://www.sparkmodelshop.com/de/en/search?search=VCARB+02&p=1",
     "https://www.sparkmodelshop.com/de/en/search?search=RB21&p=1",
@@ -54,8 +54,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-23T11:31:07.483799+00:00",
-  "total": 910,
+  "updated_at": "2026-10-25T08:30:28.051260+00:00",
+  "total": 933,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -70,7 +70,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/183284_1-4.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
     },
     "burago-183285": {
       "product_id": "burago-183285",
@@ -85,7 +85,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/183285_1-5.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
     },
     "burago-183286": {
       "product_id": "burago-183286",
@@ -100,7 +100,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/183286_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-183287": {
       "product_id": "burago-183287",
@@ -115,7 +115,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/183287_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-183288": {
       "product_id": "burago-183288",
@@ -130,7 +130,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/183288_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-183289": {
       "product_id": "burago-183289",
@@ -145,7 +145,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/183289_1-5.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-190505": {
       "product_id": "burago-190505",
@@ -160,7 +160,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190505_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "12.30"
+      "price": "12.95"
+    },
+    "burago-190506": {
+      "product_id": "burago-190506",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "FERRARI F1 SF-25 TEAM SCUDERIA FERRARI HP N 44 MIAMI GP 2025 LEWIS HAMILTON",
+      "url": "https://www.carmodel.com/burago/18-36853-h-miami/1-43/ferrari/f1-sf-25-team-scuderia-ferrari-hp-n-44-miami-gp-2025-lewis-hamilton/190506",
+      "product_number": "18-36853-H-MIAMI",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "SF-25",
+      "image_url": "https://bucket.carmodel.com/images/310-228/190506_1-1.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "12.95"
     },
     "burago-190507": {
       "product_id": "burago-190507",
@@ -175,7 +190,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190507_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-190508": {
       "product_id": "burago-190508",
@@ -190,7 +205,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190508_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-190509": {
       "product_id": "burago-190509",
@@ -205,7 +220,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190509_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-190510": {
       "product_id": "burago-190510",
@@ -220,7 +235,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190510_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-190511": {
       "product_id": "burago-190511",
@@ -235,7 +250,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190511_1-6.webp",
       "availability": "Available",
       "release": "",
-      "price": "94.95"
+      "price": "99.95"
     },
     "burago-190512": {
       "product_id": "burago-190512",
@@ -250,7 +265,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190512_1-5.webp",
       "availability": "Available",
       "release": "",
-      "price": "94.95"
+      "price": "99.95"
     },
     "burago-190513": {
       "product_id": "burago-190513",
@@ -265,7 +280,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190513_1-4.webp",
       "availability": "Available",
       "release": "",
-      "price": "94.95"
+      "price": "99.95"
     },
     "burago-190514": {
       "product_id": "burago-190514",
@@ -280,7 +295,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/190514_1-5.webp",
       "availability": "Available",
       "release": "",
-      "price": "94.95"
+      "price": "99.95"
     },
     "burago-191732": {
       "product_id": "burago-191732",
@@ -295,7 +310,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191732_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
+    },
+    "burago-191733": {
+      "product_id": "burago-191733",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "FERRARI F1 SF-25 TEAM SCUDERIA FERRARI HP N 16 SEASON 2025 CHARLES LECLERC",
+      "url": "https://www.carmodel.com/burago/18-56801-l/1-64/ferrari/f1-sf-25-team-scuderia-ferrari-hp-n-16-season-2025-charles-leclerc/191733",
+      "product_number": "18-56801-L",
+      "scale": "1/64",
+      "year": "2025",
+      "model": "SF-25",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191733_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "9.95"
     },
     "burago-191734": {
       "product_id": "burago-191734",
@@ -310,7 +340,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191734_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
+    },
+    "burago-191735": {
+      "product_id": "burago-191735",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
+      "url": "https://www.carmodel.com/burago/18-58003-v/1-64/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen/191735",
+      "product_number": "18-58003-V",
+      "scale": "1/64",
+      "year": "2025",
+      "model": "RB21",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191735_1-2.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "9.95"
     },
     "burago-191736": {
       "product_id": "burago-191736",
@@ -325,7 +370,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191736_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
+    },
+    "burago-191737": {
+      "product_id": "burago-191737",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+      "url": "https://www.carmodel.com/burago/18-58002-a/1-64/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli/191737",
+      "product_number": "18-58002-A",
+      "scale": "1/64",
+      "year": "2025",
+      "model": "W16",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191737_1-2.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "9.95"
     },
     "burago-191738": {
       "product_id": "burago-191738",
@@ -340,7 +400,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191738_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
     },
     "burago-191739": {
       "product_id": "burago-191739",
@@ -355,7 +415,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191739_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
     },
     "burago-191768": {
       "product_id": "burago-191768",
@@ -369,8 +429,8 @@
       "model": "AMR25",
       "image_url": "https://bucket.carmodel.com/images/310-228/191768_1-3.webp",
       "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "31.45"
+      "release": "",
+      "price": "34.95"
     },
     "burago-191769": {
       "product_id": "burago-191769",
@@ -384,8 +444,8 @@
       "model": "AMR25",
       "image_url": "https://bucket.carmodel.com/images/310-228/191769_1-5.webp",
       "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "31.45"
+      "release": "",
+      "price": "34.95"
     },
     "burago-191770": {
       "product_id": "burago-191770",
@@ -400,7 +460,52 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191770_1-4.webp",
       "availability": "Available",
       "release": "",
-      "price": "28.45"
+      "price": "29.95"
+    },
+    "burago-191771": {
+      "product_id": "burago-191771",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT",
+      "url": "https://www.carmodel.com/burago/18-28071-a/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso-with-pilot/191771",
+      "product_number": "18-28071-A",
+      "scale": "1/24",
+      "year": "2025",
+      "model": "AMR25",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191771_1-6.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "29.95"
+    },
+    "burago-191772": {
+      "product_id": "burago-191772",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 18 SEASON 2025 LANCE STROLL - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-28070-s/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-18-season-2025-lance-stroll-with-pilot-and-showcase/191772",
+      "product_number": "18-28070-S",
+      "scale": "1/24",
+      "year": "2025",
+      "model": "AMR25",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191772_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "39.95"
+    },
+    "burago-191773": {
+      "product_id": "burago-191773",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-28070-a/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso-with-pilot-and-showcase/191773",
+      "product_number": "18-28070-A",
+      "scale": "1/24",
+      "year": "2025",
+      "model": "AMR25",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191773_1-4.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "39.95"
     },
     "burago-191775": {
       "product_id": "burago-191775",
@@ -415,7 +520,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191775_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
     },
     "burago-191776": {
       "product_id": "burago-191776",
@@ -430,7 +535,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191776_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
     },
     "burago-191777": {
       "product_id": "burago-191777",
@@ -445,7 +550,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191777_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "113.95"
+      "price": "119.95"
     },
     "burago-191778": {
       "product_id": "burago-191778",
@@ -460,7 +565,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191778_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-191779": {
       "product_id": "burago-191779",
@@ -475,7 +580,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191779_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
+    },
+    "burago-191780": {
+      "product_id": "burago-191780",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS",
+      "url": "https://www.carmodel.com/burago/18-38248-n/1-43/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-season-2025-lando-norris/191780",
+      "product_number": "18-38248-N",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "MCL39",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191780_1-2.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "10.95"
     },
     "burago-191781": {
       "product_id": "burago-191781",
@@ -490,7 +610,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191781_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
+    },
+    "burago-191782": {
+      "product_id": "burago-191782",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "McLAREN F1 - SET 12X - ESPOSITORE - DISPLAY STAND - MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS + N 81 OSCAR PIASTRI",
+      "url": "https://www.carmodel.com/burago/18-38177/1-43/mclaren/f1-set-12x-espositore-display-stand-mcl39-team-mclaren-n-4-world-champion-season-2025-lando-norris-n-81-oscar-piastri/191782",
+      "product_number": "18-38177",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "MCL39",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191782_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "119.95"
     },
     "burago-191783": {
       "product_id": "burago-191783",
@@ -505,7 +640,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191783_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-191784": {
       "product_id": "burago-191784",
@@ -520,7 +655,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191784_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-191785": {
       "product_id": "burago-191785",
@@ -535,7 +670,52 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191785_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
+    },
+    "burago-191786": {
+      "product_id": "burago-191786",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+      "url": "https://www.carmodel.com/burago/18-38237-a/1-43/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli/191786",
+      "product_number": "18-38237-A",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "W16",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191786_1-2.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "10.95"
+    },
+    "burago-191787": {
+      "product_id": "burago-191787",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "MERCEDES GP F1 - SET 12X - ESPOSITORE - DISPLAY STAND - W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI + N 63 GEORGE RUSSELL",
+      "url": "https://www.carmodel.com/burago/18-38176/1-43/mercedes-gp/f1-set-12x-espositore-display-stand-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli-n-63-george-russell/191787",
+      "product_number": "18-38176",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "W16",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191787_1-4.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "119.95"
+    },
+    "burago-191788": {
+      "product_id": "burago-191788",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 63 SEASON 2025 GEORGE RUSSELL - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38238-r/1-43/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-63-season-2025-george-russell-with-pilot-and-showcase/191788",
+      "product_number": "18-38238-R",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "W16",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191788_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "19.95"
     },
     "burago-191789": {
       "product_id": "burago-191789",
@@ -550,7 +730,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191789_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-191790": {
       "product_id": "burago-191790",
@@ -565,7 +745,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191790_1-5.webp",
       "availability": "Available",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
     },
     "burago-191791": {
       "product_id": "burago-191791",
@@ -580,7 +760,112 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191791_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
+    },
+    "burago-191792": {
+      "product_id": "burago-191792",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "RED BULL F1 - SET 12X - ESPOSITORE - DISPLAY STAND - RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN + N 22 YUKI TSUNODA",
+      "url": "https://www.carmodel.com/burago/18-38174/1-43/red-bull/f1-set-12x-espositore-display-stand-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen-n-22-yuki-tsunoda/191792",
+      "product_number": "18-38174",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "RB21",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191792_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "119.95"
+    },
+    "burago-191793": {
+      "product_id": "burago-191793",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 22 SEASON 2025 YUKI TSUNODA - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38234-t/1-43/red-bull/f1-rb21-team-oracle-red-bull-racing-n-22-season-2025-yuki-tsunoda-with-pilot-and-showcase/191793",
+      "product_number": "18-38234-T",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "RB21",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191793_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "19.95"
+    },
+    "burago-191794": {
+      "product_id": "burago-191794",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38234-v/1-43/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen-with-pilot-and-showcase/191794",
+      "product_number": "18-38234-V",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "RB21",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191794_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "19.95"
+    },
+    "burago-191795": {
+      "product_id": "burago-191795",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ALPINE F1 A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO",
+      "url": "https://www.carmodel.com/burago/18-38257-c/1-43/alpine/f1-a525-team-bwt-alpine-n-43-season-2025-franco-colapinto/191795",
+      "product_number": "18-38257-C",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "A525",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191795_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "10.95"
+    },
+    "burago-191796": {
+      "product_id": "burago-191796",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ALPINE F1 A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY",
+      "url": "https://www.carmodel.com/burago/18-38257-g/1-43/alpine/f1-a525-team-bwt-alpine-n-10-season-2025-pierre-gasly/191796",
+      "product_number": "18-38257-G",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "A525",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191796_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "10.95"
+    },
+    "burago-191797": {
+      "product_id": "burago-191797",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ALPINE F1 - SET 12X - ESPOSITORE - DISPLAY STAND - A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY + N 43 FRANCO COLAPINTO",
+      "url": "https://www.carmodel.com/burago/18-38175/1-43/alpine/f1-set-12x-espositore-display-stand-a525-team-bwt-alpine-n-10-season-2025-pierre-gasly-n-43-franco-colapinto/191797",
+      "product_number": "18-38175",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "A525",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191797_1-5.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "119.95"
+    },
+    "burago-191798": {
+      "product_id": "burago-191798",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "ALPINE F1 A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38258-c/1-43/alpine/f1-a525-team-bwt-alpine-n-43-season-2025-franco-colapinto-with-pilot-and-showcase/191798",
+      "product_number": "18-38258-C",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "A525",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191798_1-3.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "19.95"
     },
     "burago-191799": {
       "product_id": "burago-191799",
@@ -595,7 +880,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/191799_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
+    },
+    "burago-191800": {
+      "product_id": "burago-191800",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "FERRARI F1 - SET 12X - ESPOSITORE - DISPLAY STAND - SF-25 TEAM SCUDERIA FERRARI HP N 44 SEASON 2025 LEWIS HAMILTON + N 16 CHARLES LECLERC",
+      "url": "https://www.carmodel.com/burago/18-36810/1-43/ferrari/f1-set-12x-espositore-display-stand-sf-25-team-scuderia-ferrari-hp-n-44-season-2025-lewis-hamilton-n-16-charles-leclerc/191800",
+      "product_number": "18-36810",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "SF-25",
+      "image_url": "https://bucket.carmodel.com/images/310-228/191800_1-1.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "119.95"
     },
     "burago-192366": {
       "product_id": "burago-192366",
@@ -610,7 +910,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/192366_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-192367": {
       "product_id": "burago-192367",
@@ -625,7 +925,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/192367_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-192368": {
       "product_id": "burago-192368",
@@ -640,7 +940,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/192368_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-192369": {
       "product_id": "burago-192369",
@@ -655,7 +955,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/192369_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-194269": {
       "product_id": "burago-194269",
@@ -670,7 +970,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194269_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194270": {
       "product_id": "burago-194270",
@@ -685,7 +985,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194270_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194271": {
       "product_id": "burago-194271",
@@ -700,7 +1000,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194271_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194272": {
       "product_id": "burago-194272",
@@ -715,7 +1015,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194272_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194273": {
       "product_id": "burago-194273",
@@ -730,7 +1030,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194273_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194274": {
       "product_id": "burago-194274",
@@ -745,7 +1045,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194274_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194275": {
       "product_id": "burago-194275",
@@ -760,7 +1060,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194275_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194276": {
       "product_id": "burago-194276",
@@ -775,7 +1075,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194276_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194277": {
       "product_id": "burago-194277",
@@ -790,7 +1090,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194277_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194278": {
       "product_id": "burago-194278",
@@ -805,7 +1105,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194278_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "23.70"
+      "price": "24.95"
     },
     "burago-194429": {
       "product_id": "burago-194429",
@@ -820,7 +1120,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194429_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "12.30"
+      "price": "12.95"
     },
     "burago-194430": {
       "product_id": "burago-194430",
@@ -835,7 +1135,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194430_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "12.30"
+      "price": "12.95"
     },
     "burago-194431": {
       "product_id": "burago-194431",
@@ -850,7 +1150,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194431_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-194432": {
       "product_id": "burago-194432",
@@ -865,7 +1165,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194432_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-194433": {
       "product_id": "burago-194433",
@@ -880,7 +1180,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194433_1-6.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-194434": {
       "product_id": "burago-194434",
@@ -895,7 +1195,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194434_1-5.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-194456": {
       "product_id": "burago-194456",
@@ -910,7 +1210,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194456_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "94.95"
+      "price": "99.95"
     },
     "burago-194457": {
       "product_id": "burago-194457",
@@ -925,7 +1225,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/194457_1-10.webp",
       "availability": "Available",
       "release": "",
-      "price": "94.95"
+      "price": "99.95"
     },
     "burago-196204": {
       "product_id": "burago-196204",
@@ -940,7 +1240,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/196204_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-196205": {
       "product_id": "burago-196205",
@@ -955,7 +1255,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/196205_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "75.95"
+      "price": "79.95"
     },
     "burago-196206": {
       "product_id": "burago-196206",
@@ -970,7 +1270,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/196206_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "12.30"
+      "price": "12.95"
     },
     "burago-196207": {
       "product_id": "burago-196207",
@@ -985,7 +1285,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/196207_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-197133": {
       "product_id": "burago-197133",
@@ -999,8 +1299,8 @@
       "model": "RB21",
       "image_url": "https://bucket.carmodel.com/images/310-228/197133_1-2.webp",
       "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "release": "",
+      "price": "79.95"
     },
     "burago-197491": {
       "product_id": "burago-197491",
@@ -1015,7 +1315,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/197491_1-3.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-197492": {
       "product_id": "burago-197492",
@@ -1030,7 +1330,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/197492_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "12.30"
+      "price": "12.95"
     },
     "burago-198222": {
       "product_id": "burago-198222",
@@ -1045,7 +1345,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198222_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-198223": {
       "product_id": "burago-198223",
@@ -1060,7 +1360,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198223_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-198224": {
       "product_id": "burago-198224",
@@ -1073,9 +1373,9 @@
       "year": "2025",
       "model": "W16",
       "image_url": "https://bucket.carmodel.com/images/310-228/198224_1-2.webp",
-      "availability": "Available",
+      "availability": "Catalogue",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-198225": {
       "product_id": "burago-198225",
@@ -1090,7 +1390,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198225_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-198226": {
       "product_id": "burago-198226",
@@ -1105,7 +1405,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198226_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-198227": {
       "product_id": "burago-198227",
@@ -1120,7 +1420,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198227_1-2.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
     },
     "burago-198228": {
       "product_id": "burago-198228",
@@ -1135,7 +1435,22 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198228_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "18.95"
+      "price": "19.95"
+    },
+    "burago-198532": {
+      "product_id": "burago-198532",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+      "url": "https://www.carmodel.com/burago/18-58001-18-02396/1-64/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-3rd-abu-dhabi-gp-2025-lando-norris/198532",
+      "product_number": "18-58001-18-02396",
+      "scale": "1/64",
+      "year": "2025",
+      "model": "MCL39",
+      "image_url": "https://bucket.carmodel.com/images/310-228/198532.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "9.95"
     },
     "burago-198533": {
       "product_id": "burago-198533",
@@ -1150,7 +1465,37 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/198533_1-1.webp",
       "availability": "Available",
       "release": "",
-      "price": "9.45"
+      "price": "9.95"
+    },
+    "burago-198534": {
+      "product_id": "burago-198534",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+      "url": "https://www.carmodel.com/burago/18-38248-18-02397/1-43/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-3rd-abu-dhabi-gp-2025-lando-norris/198534",
+      "product_number": "18-38248-18-02397",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "MCL39",
+      "image_url": "https://bucket.carmodel.com/images/310-228/198534.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "12.95"
+    },
+    "burago-198535": {
+      "product_id": "burago-198535",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38249-18-02398/1-43/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-3rd-abu-dhabi-gp-2025-lando-norris-with-pilot-and-showcase/198535",
+      "product_number": "18-38249-18-02398",
+      "scale": "1/43",
+      "year": "2025",
+      "model": "MCL39",
+      "image_url": "https://bucket.carmodel.com/images/310-228/198535.webp",
+      "availability": "Catalogue",
+      "release": "",
+      "price": "19.95"
     },
     "burago-201842": {
       "product_id": "burago-201842",
@@ -1164,8 +1509,8 @@
       "model": "RB21",
       "image_url": "https://bucket.carmodel.com/images/310-228/201842_1-2.webp",
       "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "release": "",
+      "price": "79.95"
     },
     "burago-201843": {
       "product_id": "burago-201843",
@@ -1179,8 +1524,8 @@
       "model": "SF-25",
       "image_url": "https://bucket.carmodel.com/images/310-228/201843_1-2.webp",
       "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "release": "",
+      "price": "79.95"
     },
     "burago-201844": {
       "product_id": "burago-201844",
@@ -1194,8 +1539,8 @@
       "model": "SF-25",
       "image_url": "https://bucket.carmodel.com/images/310-228/201844_1-2.webp",
       "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "release": "",
+      "price": "79.95"
     },
     "burago-202740": {
       "product_id": "burago-202740",
@@ -1210,7 +1555,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/202740.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "98.95"
+      "price": "109.95"
     },
     "burago-202741": {
       "product_id": "burago-202741",
@@ -1225,7 +1570,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/202741.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "80.95"
+      "price": "89.95"
     },
     "burago-202743": {
       "product_id": "burago-202743",
@@ -1240,7 +1585,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/202743.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "80.95"
+      "price": "89.95"
     },
     "burago-203219": {
       "product_id": "burago-203219",
@@ -1255,7 +1600,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203219_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "116.95"
+      "price": "129.95"
     },
     "burago-203607": {
       "product_id": "burago-203607",
@@ -1270,7 +1615,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203607.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203608": {
       "product_id": "burago-203608",
@@ -1285,7 +1630,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203608.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203609": {
       "product_id": "burago-203609",
@@ -1300,7 +1645,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203609.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203610": {
       "product_id": "burago-203610",
@@ -1315,7 +1660,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203610.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203611": {
       "product_id": "burago-203611",
@@ -1330,7 +1675,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203611.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203612": {
       "product_id": "burago-203612",
@@ -1345,7 +1690,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203612.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203613": {
       "product_id": "burago-203613",
@@ -1360,7 +1705,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203613.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203614": {
       "product_id": "burago-203614",
@@ -1375,7 +1720,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203614.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203615": {
       "product_id": "burago-203615",
@@ -1390,7 +1735,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203615.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203616": {
       "product_id": "burago-203616",
@@ -1405,7 +1750,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203616.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203617": {
       "product_id": "burago-203617",
@@ -1420,7 +1765,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203617.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203618": {
       "product_id": "burago-203618",
@@ -1435,7 +1780,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203618.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203619": {
       "product_id": "burago-203619",
@@ -1450,7 +1795,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203619.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203620": {
       "product_id": "burago-203620",
@@ -1465,7 +1810,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203620.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203621": {
       "product_id": "burago-203621",
@@ -1480,7 +1825,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203621.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203622": {
       "product_id": "burago-203622",
@@ -1495,7 +1840,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203622-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203623": {
       "product_id": "burago-203623",
@@ -1510,7 +1855,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203623.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203624": {
       "product_id": "burago-203624",
@@ -1525,7 +1870,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203624.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203625": {
       "product_id": "burago-203625",
@@ -1540,7 +1885,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203625.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203626": {
       "product_id": "burago-203626",
@@ -1555,7 +1900,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203626.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203627": {
       "product_id": "burago-203627",
@@ -1570,7 +1915,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203627.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203628": {
       "product_id": "burago-203628",
@@ -1585,7 +1930,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203628.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203630": {
       "product_id": "burago-203630",
@@ -1600,7 +1945,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203630.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203631": {
       "product_id": "burago-203631",
@@ -1615,7 +1960,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203631.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203632": {
       "product_id": "burago-203632",
@@ -1630,7 +1975,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203632.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203633": {
       "product_id": "burago-203633",
@@ -1645,7 +1990,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203633.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203635": {
       "product_id": "burago-203635",
@@ -1660,7 +2005,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203635.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203636": {
       "product_id": "burago-203636",
@@ -1675,7 +2020,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203636.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203637": {
       "product_id": "burago-203637",
@@ -1690,7 +2035,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203637.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203638": {
       "product_id": "burago-203638",
@@ -1705,7 +2050,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203638.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203640": {
       "product_id": "burago-203640",
@@ -1720,7 +2065,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203640.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203641": {
       "product_id": "burago-203641",
@@ -1735,7 +2080,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203641.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203642": {
       "product_id": "burago-203642",
@@ -1750,7 +2095,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203642.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203643": {
       "product_id": "burago-203643",
@@ -1765,7 +2110,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203643.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203645": {
       "product_id": "burago-203645",
@@ -1780,7 +2125,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203645.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203646": {
       "product_id": "burago-203646",
@@ -1795,7 +2140,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203646.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203647": {
       "product_id": "burago-203647",
@@ -1810,7 +2155,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203647.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203648": {
       "product_id": "burago-203648",
@@ -1825,7 +2170,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203648.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203650": {
       "product_id": "burago-203650",
@@ -1840,7 +2185,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203650.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203651": {
       "product_id": "burago-203651",
@@ -1855,7 +2200,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203651.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203652": {
       "product_id": "burago-203652",
@@ -1870,7 +2215,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203652.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203653": {
       "product_id": "burago-203653",
@@ -1885,7 +2230,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203653.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203655": {
       "product_id": "burago-203655",
@@ -1900,7 +2245,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203655.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203656": {
       "product_id": "burago-203656",
@@ -1915,7 +2260,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203656.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203657": {
       "product_id": "burago-203657",
@@ -1930,7 +2275,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203657.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203658": {
       "product_id": "burago-203658",
@@ -1945,7 +2290,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203658-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203660": {
       "product_id": "burago-203660",
@@ -1960,7 +2305,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203660.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203661": {
       "product_id": "burago-203661",
@@ -1975,7 +2320,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203661-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203662": {
       "product_id": "burago-203662",
@@ -1990,7 +2335,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203662.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203663": {
       "product_id": "burago-203663",
@@ -2005,7 +2350,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203663.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203665": {
       "product_id": "burago-203665",
@@ -2020,7 +2365,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203665.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203666": {
       "product_id": "burago-203666",
@@ -2035,7 +2380,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203666.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203667": {
       "product_id": "burago-203667",
@@ -2050,7 +2395,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203667.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203668": {
       "product_id": "burago-203668",
@@ -2065,7 +2410,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203668.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203670": {
       "product_id": "burago-203670",
@@ -2080,7 +2425,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203670.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203671": {
       "product_id": "burago-203671",
@@ -2095,7 +2440,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203671.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203672": {
       "product_id": "burago-203672",
@@ -2110,7 +2455,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203672.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203673": {
       "product_id": "burago-203673",
@@ -2125,7 +2470,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203673.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "9.85"
+      "price": "10.95"
     },
     "burago-203675": {
       "product_id": "burago-203675",
@@ -2140,7 +2485,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203675.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203676": {
       "product_id": "burago-203676",
@@ -2155,7 +2500,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203676.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "20.65"
+      "price": "22.95"
     },
     "burago-203677": {
       "product_id": "burago-203677",
@@ -2170,7 +2515,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203677.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "price": "79.95"
     },
     "burago-203678": {
       "product_id": "burago-203678",
@@ -2185,7 +2530,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203678.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "price": "79.95"
     },
     "burago-203681": {
       "product_id": "burago-203681",
@@ -2197,10 +2542,10 @@
       "scale": "1/18",
       "year": "2026",
       "model": "SF-26",
-      "image_url": "https://bucket.carmodel.com/images/310-228/203681_1-1.webp",
+      "image_url": "https://bucket.carmodel.com/images/310-228/203681_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "price": "79.95"
     },
     "burago-203682": {
       "product_id": "burago-203682",
@@ -2215,7 +2560,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/203682_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "price": "79.95"
     },
     "burago-204788": {
       "product_id": "burago-204788",
@@ -2230,7 +2575,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204788-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204789": {
       "product_id": "burago-204789",
@@ -2245,7 +2590,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204789-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204790": {
       "product_id": "burago-204790",
@@ -2260,7 +2605,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204790-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204791": {
       "product_id": "burago-204791",
@@ -2275,7 +2620,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204791-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204792": {
       "product_id": "burago-204792",
@@ -2290,7 +2635,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204792-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204793": {
       "product_id": "burago-204793",
@@ -2305,7 +2650,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204793-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204794": {
       "product_id": "burago-204794",
@@ -2320,7 +2665,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204794-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204795": {
       "product_id": "burago-204795",
@@ -2335,7 +2680,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204795-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204796": {
       "product_id": "burago-204796",
@@ -2350,7 +2695,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204796-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204797": {
       "product_id": "burago-204797",
@@ -2365,7 +2710,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204797-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204798": {
       "product_id": "burago-204798",
@@ -2380,7 +2725,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204798-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204799": {
       "product_id": "burago-204799",
@@ -2395,7 +2740,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204799-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204800": {
       "product_id": "burago-204800",
@@ -2410,7 +2755,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204800-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204801": {
       "product_id": "burago-204801",
@@ -2425,7 +2770,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204801-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204802": {
       "product_id": "burago-204802",
@@ -2440,7 +2785,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204802-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204803": {
       "product_id": "burago-204803",
@@ -2455,7 +2800,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204803-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204804": {
       "product_id": "burago-204804",
@@ -2470,7 +2815,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204804-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204805": {
       "product_id": "burago-204805",
@@ -2485,7 +2830,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204805-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204806": {
       "product_id": "burago-204806",
@@ -2500,7 +2845,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204806-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-204807": {
       "product_id": "burago-204807",
@@ -2515,7 +2860,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/204807-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "17.95"
+      "price": "19.95"
     },
     "burago-206626": {
       "product_id": "burago-206626",
@@ -2530,7 +2875,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206626_1-3.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "89.95"
+      "price": "99.95"
     },
     "burago-206627": {
       "product_id": "burago-206627",
@@ -2545,7 +2890,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206627_1-3.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "89.95"
+      "price": "99.95"
     },
     "burago-206628": {
       "product_id": "burago-206628",
@@ -2560,7 +2905,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206628.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206629": {
       "product_id": "burago-206629",
@@ -2575,7 +2920,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206629-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206630": {
       "product_id": "burago-206630",
@@ -2590,7 +2935,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206630.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206631": {
       "product_id": "burago-206631",
@@ -2605,7 +2950,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206631.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206632": {
       "product_id": "burago-206632",
@@ -2620,7 +2965,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206632.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206633": {
       "product_id": "burago-206633",
@@ -2635,7 +2980,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206633.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206634": {
       "product_id": "burago-206634",
@@ -2650,7 +2995,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206634.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206635": {
       "product_id": "burago-206635",
@@ -2665,7 +3010,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206635.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206636": {
       "product_id": "burago-206636",
@@ -2680,7 +3025,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206636.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206637": {
       "product_id": "burago-206637",
@@ -2695,7 +3040,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206637.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206638": {
       "product_id": "burago-206638",
@@ -2710,7 +3055,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206638_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206639": {
       "product_id": "burago-206639",
@@ -2725,7 +3070,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206639_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206640": {
       "product_id": "burago-206640",
@@ -2740,7 +3085,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206640_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206641": {
       "product_id": "burago-206641",
@@ -2755,7 +3100,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206641_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206642": {
       "product_id": "burago-206642",
@@ -2770,7 +3115,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206642_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206643": {
       "product_id": "burago-206643",
@@ -2785,7 +3130,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206643_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206644": {
       "product_id": "burago-206644",
@@ -2800,7 +3145,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206644_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206645": {
       "product_id": "burago-206645",
@@ -2815,7 +3160,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206645_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206646": {
       "product_id": "burago-206646",
@@ -2830,7 +3175,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206646_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206647": {
       "product_id": "burago-206647",
@@ -2845,7 +3190,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206647_1-1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206648": {
       "product_id": "burago-206648",
@@ -2860,7 +3205,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206648_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206649": {
       "product_id": "burago-206649",
@@ -2875,7 +3220,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206649_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206650": {
       "product_id": "burago-206650",
@@ -2890,7 +3235,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206650_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206651": {
       "product_id": "burago-206651",
@@ -2905,7 +3250,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206651_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206652": {
       "product_id": "burago-206652",
@@ -2920,7 +3265,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206652_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206653": {
       "product_id": "burago-206653",
@@ -2935,7 +3280,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206653_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206654": {
       "product_id": "burago-206654",
@@ -2950,7 +3295,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206654_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206655": {
       "product_id": "burago-206655",
@@ -2965,7 +3310,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206655_1-3.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206656": {
       "product_id": "burago-206656",
@@ -2980,7 +3325,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206656_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206657": {
       "product_id": "burago-206657",
@@ -2995,7 +3340,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206657_1-2.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "31.45"
+      "price": "34.95"
     },
     "burago-206658": {
       "product_id": "burago-206658",
@@ -3010,7 +3355,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206658.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206659": {
       "product_id": "burago-206659",
@@ -3025,7 +3370,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206659.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206660": {
       "product_id": "burago-206660",
@@ -3040,7 +3385,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206660.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206661": {
       "product_id": "burago-206661",
@@ -3055,7 +3400,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206661.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206662": {
       "product_id": "burago-206662",
@@ -3070,7 +3415,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206662.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206663": {
       "product_id": "burago-206663",
@@ -3085,7 +3430,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206663.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 2/2027",
-      "price": "37.75"
+      "price": "41.95"
     },
     "burago-206670": {
       "product_id": "burago-206670",
@@ -3100,7 +3445,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206670_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206671": {
       "product_id": "burago-206671",
@@ -3115,7 +3460,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206671_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206672": {
       "product_id": "burago-206672",
@@ -3130,7 +3475,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206672_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206673": {
       "product_id": "burago-206673",
@@ -3145,7 +3490,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206673_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206674": {
       "product_id": "burago-206674",
@@ -3160,7 +3505,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206674_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206675": {
       "product_id": "burago-206675",
@@ -3175,7 +3520,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206675_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206676": {
       "product_id": "burago-206676",
@@ -3190,7 +3535,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206676_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206677": {
       "product_id": "burago-206677",
@@ -3205,7 +3550,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206677_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206678": {
       "product_id": "burago-206678",
@@ -3220,7 +3565,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206678_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206679": {
       "product_id": "burago-206679",
@@ -3235,7 +3580,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206679_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "looksmart-19787": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-143/",
@@ -10804,22 +11149,31 @@
   },
   "changes": {
     "added": [
-      "spark-2025-261dbe8d-b468-4da2-b4e4-1491aa956f54",
-      "spark-2025-ec724ec1-220c-4891-8d1f-9683c2bff502"
+      "burago-190506",
+      "burago-191733",
+      "burago-191735",
+      "burago-191737",
+      "burago-191771",
+      "burago-191772",
+      "burago-191773",
+      "burago-191780",
+      "burago-191782",
+      "burago-191786",
+      "burago-191787",
+      "burago-191788",
+      "burago-191792",
+      "burago-191793",
+      "burago-191794",
+      "burago-191795",
+      "burago-191796",
+      "burago-191797",
+      "burago-191798",
+      "burago-191800",
+      "burago-198532",
+      "burago-198534",
+      "burago-198535"
     ],
-    "changed": [
-      "minichamps-019ef971cf207304a60f64134b62f0d8",
-      "minichamps-019ef971d31970d3a4ec88a42181e2e2",
-      "minichamps-minichamps-1659915",
-      "minichamps-minichamps-1660039",
-      "minichamps-minichamps-1661376",
-      "minichamps-minichamps-1661380",
-      "minichamps-minichamps-1661381",
-      "minichamps-minichamps-1661384"
-    ],
-    "removed": [
-      "spark-shop-2025-S9635",
-      "spark-shop-2025-S9637"
-    ]
+    "changed": [],
+    "removed": []
   }
 }

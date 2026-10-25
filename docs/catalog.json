@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:31:20.366656+00:00",
+  "generated_at": "2026-10-25T08:31:33.094751+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -370,6 +370,59 @@
         "https://bucket.carmodel.com/images/cm-lg/190505_7-1.jpg",
         "https://bucket.carmodel.com/images/cm-lg/190505_8-1.jpg",
         "https://bucket.carmodel.com/images/cm-lg/190505_9-1.jpg"
+      ]
+    },
+    {
+      "id": "burago-190506",
+      "name": "FERRARI F1 SF-25 TEAM SCUDERIA FERRARI HP N 44 MIAMI GP 2025 LEWIS HAMILTON",
+      "url": "https://www.carmodel.com/burago/18-36853-h-miami/1-43/ferrari/f1-sf-25-team-scuderia-ferrari-hp-n-44-miami-gp-2025-lewis-hamilton/190506",
+      "images": [
+        "images/burago-190506-1.jpg",
+        "images/burago-190506-2.jpg",
+        "images/burago-190506-3.jpg",
+        "images/burago-190506-4.jpg",
+        "images/burago-190506-5.jpg",
+        "images/burago-190506-6.jpg",
+        "images/burago-190506-7.jpg",
+        "images/burago-190506-8.jpg",
+        "images/burago-190506-9.jpg",
+        "images/burago-190506-10.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "FERRARI",
+        "Model": "F1 SF-25 TEAM SCUDERIA FERRARI HP N 44 MIAMI GP 2025 LEWIS HAMILTON",
+        "Scale": "1/43",
+        "Carmodel code": "CAR190506",
+        "Manufacturer code": "18-36853-H-MIAMI",
+        "Colour": "RED WHITE BLUE",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020898",
+        "Notes": "CARD-BOX",
+        "Product number": "18-36853-H-MIAMI",
+        "Manufacturer": "Burago",
+        "Model code": "SF-25"
+      },
+      "description": "1/43 BURAGO - FERRARI - F1  SF-25 TEAM SCUDERIA FERRARI HP N 44 MIAMI GP 2025 LEWIS HAMILTON",
+      "brand": "Burago",
+      "price": "12.95",
+      "currency": "EUR",
+      "gtin": "4893993020898",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/190506-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_1-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_2-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_3-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_4-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_5-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_6-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_7-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_8-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/190506_9-1.jpg"
       ]
     },
     {
@@ -860,6 +913,43 @@
       ]
     },
     {
+      "id": "burago-191733",
+      "name": "FERRARI F1 SF-25 TEAM SCUDERIA FERRARI HP N 16 SEASON 2025 CHARLES LECLERC",
+      "url": "https://www.carmodel.com/burago/18-56801-l/1-64/ferrari/f1-sf-25-team-scuderia-ferrari-hp-n-16-season-2025-charles-leclerc/191733",
+      "images": [
+        "images/burago-191733-1.jpg",
+        "images/burago-191733-2.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "FERRARI",
+        "Model": "F1 SF-25 TEAM SCUDERIA FERRARI HP N 16 SEASON 2025 CHARLES LECLERC",
+        "Scale": "1/64",
+        "Carmodel code": "CAR191733",
+        "Manufacturer code": "18-56801-L",
+        "Colour": "RED WHITE",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993568017",
+        "Notes": "BLISTER",
+        "Product number": "18-56801-L",
+        "Manufacturer": "Burago",
+        "Model code": "SF-25"
+      },
+      "description": "1/64 BURAGO - FERRARI - F1  SF-25 TEAM SCUDERIA FERRARI HP N 16 SEASON 2025 CHARLES LECLERC",
+      "brand": "Burago",
+      "price": "9.95",
+      "currency": "EUR",
+      "gtin": "4893993568017",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191733-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191733_1-3.jpg"
+      ]
+    },
+    {
       "id": "burago-191734",
       "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 22 SEASON 2025 YUKI TSUNODA",
       "url": "https://www.carmodel.com/burago/18-58003-t/1-64/red-bull/f1-rb21-team-oracle-red-bull-racing-n-22-season-2025-yuki-tsunoda/191734",
@@ -897,6 +987,43 @@
       ]
     },
     {
+      "id": "burago-191735",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
+      "url": "https://www.carmodel.com/burago/18-58003-v/1-64/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen/191735",
+      "images": [
+        "images/burago-191735-1.jpg",
+        "images/burago-191735-2.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "RED BULL",
+        "Model": "F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
+        "Scale": "1/64",
+        "Carmodel code": "CAR191735",
+        "Manufacturer code": "18-58003-V",
+        "Colour": "BLUE YELLOW RED",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993580033",
+        "Notes": "BLISTER",
+        "Product number": "18-58003-V",
+        "Manufacturer": "Burago",
+        "Model code": "RB21"
+      },
+      "description": "1/64 BURAGO - RED BULL - F1  RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
+      "brand": "Burago",
+      "price": "9.95",
+      "currency": "EUR",
+      "gtin": "4893993580033",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191735-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191735_1-2.jpg"
+      ]
+    },
+    {
       "id": "burago-191736",
       "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 63 SEASON 2025 GEORGE RUSSELL",
       "url": "https://www.carmodel.com/burago/18-58002-r/1-64/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-63-season-2025-george-russell/191736",
@@ -931,6 +1058,43 @@
       "image_urls": [
         "https://bucket.carmodel.com/images/cm-lg/191736-2.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191736_1-2.jpg"
+      ]
+    },
+    {
+      "id": "burago-191737",
+      "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+      "url": "https://www.carmodel.com/burago/18-58002-a/1-64/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli/191737",
+      "images": [
+        "images/burago-191737-1.jpg",
+        "images/burago-191737-2.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "MERCEDES GP",
+        "Model": "F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+        "Scale": "1/64",
+        "Carmodel code": "CAR191737",
+        "Manufacturer code": "18-58002-A",
+        "Colour": "BLACK SILVER GREEN",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020003",
+        "Notes": "BLISTER",
+        "Product number": "18-58002-A",
+        "Manufacturer": "Burago",
+        "Model code": "W16"
+      },
+      "description": "1/64 BURAGO - MERCEDES GP - F1  W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+      "brand": "Burago",
+      "price": "9.95",
+      "currency": "EUR",
+      "gtin": "4893993020003",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191737-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191737_1-2.jpg"
       ]
     },
     {
@@ -1134,6 +1298,171 @@
         "https://bucket.carmodel.com/images/cm-lg/191770_7-4.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191770_8-4.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191770_9-4.jpg"
+      ]
+    },
+    {
+      "id": "burago-191771",
+      "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT",
+      "url": "https://www.carmodel.com/burago/18-28071-a/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso-with-pilot/191771",
+      "images": [
+        "images/burago-191771-1.jpg",
+        "images/burago-191771-2.jpg",
+        "images/burago-191771-3.jpg",
+        "images/burago-191771-4.jpg",
+        "images/burago-191771-5.jpg",
+        "images/burago-191771-6.jpg",
+        "images/burago-191771-7.jpg",
+        "images/burago-191771-8.jpg",
+        "images/burago-191771-9.jpg",
+        "images/burago-191771-10.jpg",
+        "images/burago-191771-11.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ASTON MARTIN",
+        "Model": "F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT",
+        "Scale": "1/24",
+        "Carmodel code": "CAR191771",
+        "Manufacturer code": "18-28071-A",
+        "Colour": "GREEN BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993280711",
+        "Notes": "NEW ECONOMIC LINE - CARD BOX + STANDING PILOT FIGURE",
+        "Product number": "18-28071-A",
+        "Manufacturer": "Burago",
+        "Model code": "AMR25"
+      },
+      "description": "1/24 BURAGO - ASTON MARTIN - F1  AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT",
+      "brand": "Burago",
+      "price": "29.95",
+      "currency": "EUR",
+      "gtin": "4893993280711",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191771-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_1-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_2-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_3-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_4-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_5-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_6-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_7-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_8-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_9-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191771_10-6.jpg"
+      ]
+    },
+    {
+      "id": "burago-191772",
+      "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 18 SEASON 2025 LANCE STROLL - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-28070-s/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-18-season-2025-lance-stroll-with-pilot-and-showcase/191772",
+      "images": [
+        "images/burago-191772-1.jpg",
+        "images/burago-191772-2.jpg",
+        "images/burago-191772-3.jpg",
+        "images/burago-191772-4.jpg",
+        "images/burago-191772-5.jpg",
+        "images/burago-191772-6.jpg",
+        "images/burago-191772-7.jpg",
+        "images/burago-191772-8.jpg",
+        "images/burago-191772-9.jpg",
+        "images/burago-191772-10.jpg",
+        "images/burago-191772-11.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ASTON MARTIN",
+        "Model": "F1 AMR25 TEAM ARAMCO COGNIZANT N 18 SEASON 2025 LANCE STROLL - WITH PILOT AND SHOWCASE",
+        "Scale": "1/24",
+        "Carmodel code": "CAR191772",
+        "Manufacturer code": "18-28070-S",
+        "Colour": "GREEN BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020119",
+        "Product number": "18-28070-S",
+        "Manufacturer": "Burago",
+        "Model code": "AMR25"
+      },
+      "description": "1/24 BURAGO - ASTON MARTIN - F1  AMR25 TEAM ARAMCO COGNIZANT N 18 SEASON 2025 LANCE STROLL - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "39.95",
+      "currency": "EUR",
+      "gtin": "4893993020119",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191772-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_7-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_8-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_9-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191772_10-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191773",
+      "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-28070-a/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso-with-pilot-and-showcase/191773",
+      "images": [
+        "images/burago-191773-1.jpg",
+        "images/burago-191773-2.jpg",
+        "images/burago-191773-3.jpg",
+        "images/burago-191773-4.jpg",
+        "images/burago-191773-5.jpg",
+        "images/burago-191773-6.jpg",
+        "images/burago-191773-7.jpg",
+        "images/burago-191773-8.jpg",
+        "images/burago-191773-9.jpg",
+        "images/burago-191773-10.jpg",
+        "images/burago-191773-11.jpg",
+        "images/burago-191773-12.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ASTON MARTIN",
+        "Model": "F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT AND SHOWCASE",
+        "Scale": "1/24",
+        "Carmodel code": "CAR191773",
+        "Manufacturer code": "18-28070-A",
+        "Colour": "GREEN BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993280704",
+        "Product number": "18-28070-A",
+        "Manufacturer": "Burago",
+        "Model code": "AMR25"
+      },
+      "description": "1/24 BURAGO - ASTON MARTIN - F1  AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "39.95",
+      "currency": "EUR",
+      "gtin": "4893993280704",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191773-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_1-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_2-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_3-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_4-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_5-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_6-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_7-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_8-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_9-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_10-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191773_11-4.jpg"
       ]
     },
     {
@@ -1379,6 +1708,55 @@
       ]
     },
     {
+      "id": "burago-191780",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS",
+      "url": "https://www.carmodel.com/burago/18-38248-n/1-43/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-season-2025-lando-norris/191780",
+      "images": [
+        "images/burago-191780-1.jpg",
+        "images/burago-191780-2.jpg",
+        "images/burago-191780-3.jpg",
+        "images/burago-191780-4.jpg",
+        "images/burago-191780-5.jpg",
+        "images/burago-191780-6.jpg",
+        "images/burago-191780-7.jpg",
+        "images/burago-191780-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "McLAREN",
+        "Model": "F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191780",
+        "Manufacturer code": "18-38248-N",
+        "Colour": "ORANGE BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993382484",
+        "Notes": "CARD BOX",
+        "Product number": "18-38248-N",
+        "Manufacturer": "Burago",
+        "Model code": "MCL39"
+      },
+      "description": "1/43 BURAGO - McLAREN - F1  MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS",
+      "brand": "Burago",
+      "price": "10.95",
+      "currency": "EUR",
+      "gtin": "4893993382484",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191780-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_1-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_2-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_3-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_4-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_5-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_6-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191780_7-2.jpg"
+      ]
+    },
+    {
       "id": "burago-191781",
       "name": "McLAREN F1 MCL39 TEAM MCLAREN N 81 SEASON GP 2025 OSCAR PIASTRI",
       "url": "https://www.carmodel.com/burago/18-38248-p/1-43/mclaren/f1-mcl39-team-mclaren-n-81-season-gp-2025-oscar-piastri/191781",
@@ -1425,6 +1803,49 @@
         "https://bucket.carmodel.com/images/cm-lg/191781_5-2.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191781_6-2.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191781_7-2.jpg"
+      ]
+    },
+    {
+      "id": "burago-191782",
+      "name": "McLAREN F1 - SET 12X - ESPOSITORE - DISPLAY STAND - MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS + N 81 OSCAR PIASTRI",
+      "url": "https://www.carmodel.com/burago/18-38177/1-43/mclaren/f1-set-12x-espositore-display-stand-mcl39-team-mclaren-n-4-world-champion-season-2025-lando-norris-n-81-oscar-piastri/191782",
+      "images": [
+        "images/burago-191782-1.jpg",
+        "images/burago-191782-2.jpg",
+        "images/burago-191782-3.jpg",
+        "images/burago-191782-4.jpg",
+        "images/burago-191782-5.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "McLAREN",
+        "Model": "F1 - SET 12X - ESPOSITORE - DISPLAY STAND - MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS + N 81 OSCAR PIASTRI",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191782",
+        "Manufacturer code": "18-38177",
+        "Colour": "ORANGE BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020089",
+        "Notes": "CARD BOX",
+        "Product number": "18-38177",
+        "Manufacturer": "Burago",
+        "Model code": "MCL39"
+      },
+      "description": "1/43 BURAGO - McLAREN - F1 - SET 12X - ESPOSITORE - DISPLAY STAND - MCL39 TEAM MCLAREN N 4 WORLD CHAMPION SEASON 2025 LANDO NORRIS + N 81 OSCAR PIASTRI",
+      "brand": "Burago",
+      "price": "119.95",
+      "currency": "EUR",
+      "gtin": "4893993020089",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191782-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191782_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191782_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191782_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191782_4-3.jpg"
       ]
     },
     {
@@ -1575,6 +1996,147 @@
       ]
     },
     {
+      "id": "burago-191786",
+      "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+      "url": "https://www.carmodel.com/burago/18-38237-a/1-43/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli/191786",
+      "images": [
+        "images/burago-191786-1.jpg",
+        "images/burago-191786-2.jpg",
+        "images/burago-191786-3.jpg",
+        "images/burago-191786-4.jpg",
+        "images/burago-191786-5.jpg",
+        "images/burago-191786-6.jpg",
+        "images/burago-191786-7.jpg",
+        "images/burago-191786-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "MERCEDES GP",
+        "Model": "F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191786",
+        "Manufacturer code": "18-38237-A",
+        "Colour": "BLACK SILVER GREEN",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993019984",
+        "Notes": "CARD BOX",
+        "Product number": "18-38237-A",
+        "Manufacturer": "Burago",
+        "Model code": "W16"
+      },
+      "description": "1/43 BURAGO - MERCEDES GP - F1  W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI",
+      "brand": "Burago",
+      "price": "10.95",
+      "currency": "EUR",
+      "gtin": "4893993019984",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191786-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_1-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_2-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_3-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_4-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_5-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_6-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191786_7-2.jpg"
+      ]
+    },
+    {
+      "id": "burago-191787",
+      "name": "MERCEDES GP F1 - SET 12X - ESPOSITORE - DISPLAY STAND - W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI + N 63 GEORGE RUSSELL",
+      "url": "https://www.carmodel.com/burago/18-38176/1-43/mercedes-gp/f1-set-12x-espositore-display-stand-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli-n-63-george-russell/191787",
+      "images": [
+        "images/burago-191787-1.jpg",
+        "images/burago-191787-2.jpg",
+        "images/burago-191787-3.jpg",
+        "images/burago-191787-4.jpg",
+        "images/burago-191787-5.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "MERCEDES GP",
+        "Model": "F1 - SET 12X - ESPOSITORE - DISPLAY STAND - W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI + N 63 GEORGE RUSSELL",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191787",
+        "Manufacturer code": "18-38176",
+        "Colour": "BLACK SILVER GREEN",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993",
+        "Notes": "CARD BOX",
+        "Product number": "18-38176",
+        "Manufacturer": "Burago",
+        "Model code": "W16"
+      },
+      "description": "1/43 BURAGO - MERCEDES GP - F1 - SET 12X - ESPOSITORE - DISPLAY STAND - W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI + N 63 GEORGE RUSSELL",
+      "brand": "Burago",
+      "price": "119.95",
+      "currency": "EUR",
+      "gtin": "4893993",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191787-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191787_1-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191787_2-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191787_3-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191787_4-4.jpg"
+      ]
+    },
+    {
+      "id": "burago-191788",
+      "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 63 SEASON 2025 GEORGE RUSSELL - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38238-r/1-43/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-63-season-2025-george-russell-with-pilot-and-showcase/191788",
+      "images": [
+        "images/burago-191788-1.jpg",
+        "images/burago-191788-2.jpg",
+        "images/burago-191788-3.jpg",
+        "images/burago-191788-4.jpg",
+        "images/burago-191788-5.jpg",
+        "images/burago-191788-6.jpg",
+        "images/burago-191788-7.jpg",
+        "images/burago-191788-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "MERCEDES GP",
+        "Model": "F1 W16 TEAM AMG PETRONAS MOTORSPORT N 63 SEASON 2025 GEORGE RUSSELL - WITH PILOT AND SHOWCASE",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191788",
+        "Manufacturer code": "18-38238-R",
+        "Colour": "BLACK SILVER GREEN",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993382385",
+        "Notes": "SIGNATURE SERIES",
+        "Product number": "18-38238-R",
+        "Manufacturer": "Burago",
+        "Model code": "W16"
+      },
+      "description": "1/43 BURAGO - MERCEDES GP - F1  W16 TEAM AMG PETRONAS MOTORSPORT N 63 SEASON 2025 GEORGE RUSSELL - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "4893993382385",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191788-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191788_7-3.jpg"
+      ]
+    },
+    {
       "id": "burago-191789",
       "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI - WITH PILOT AND SHOWCASE",
       "url": "https://www.carmodel.com/burago/18-38238-a/1-43/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli-with-pilot-and-showcase/191789",
@@ -1722,6 +2284,337 @@
       ]
     },
     {
+      "id": "burago-191792",
+      "name": "RED BULL F1 - SET 12X - ESPOSITORE - DISPLAY STAND - RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN + N 22 YUKI TSUNODA",
+      "url": "https://www.carmodel.com/burago/18-38174/1-43/red-bull/f1-set-12x-espositore-display-stand-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen-n-22-yuki-tsunoda/191792",
+      "images": [
+        "images/burago-191792-1.jpg",
+        "images/burago-191792-2.jpg",
+        "images/burago-191792-3.jpg",
+        "images/burago-191792-4.jpg",
+        "images/burago-191792-5.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "RED BULL",
+        "Model": "F1 - SET 12X - ESPOSITORE - DISPLAY STAND - RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN + N 22 YUKI TSUNODA",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191792",
+        "Manufacturer code": "18-38174",
+        "Colour": "BLUE YELLOW RED",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993",
+        "Notes": "CARD BOX",
+        "Product number": "18-38174",
+        "Manufacturer": "Burago",
+        "Model code": "RB21"
+      },
+      "description": "1/43 BURAGO - RED BULL - F1 - SET 12X - ESPOSITORE - DISPLAY STAND - RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN + N 22 YUKI TSUNODA",
+      "brand": "Burago",
+      "price": "119.95",
+      "currency": "EUR",
+      "gtin": "4893993",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191792-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191792_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191792_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191792_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191792_4-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191793",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 22 SEASON 2025 YUKI TSUNODA - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38234-t/1-43/red-bull/f1-rb21-team-oracle-red-bull-racing-n-22-season-2025-yuki-tsunoda-with-pilot-and-showcase/191793",
+      "images": [
+        "images/burago-191793-1.jpg",
+        "images/burago-191793-2.jpg",
+        "images/burago-191793-3.jpg",
+        "images/burago-191793-4.jpg",
+        "images/burago-191793-5.jpg",
+        "images/burago-191793-6.jpg",
+        "images/burago-191793-7.jpg",
+        "images/burago-191793-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "RED BULL",
+        "Model": "F1 RB21 TEAM ORACLE RED BULL RACING N 22 SEASON 2025 YUKI TSUNODA - WITH PILOT AND SHOWCASE",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191793",
+        "Manufacturer code": "18-38234-T",
+        "Colour": "BLUE YELLOW RED",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020034",
+        "Notes": "SIGNATURE SERIES",
+        "Product number": "18-38234-T",
+        "Manufacturer": "Burago",
+        "Model code": "RB21"
+      },
+      "description": "1/43 BURAGO - RED BULL - F1  RB21 TEAM ORACLE RED BULL RACING N 22 SEASON 2025 YUKI TSUNODA - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "4893993020034",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191793-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191793_7-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191794",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38234-v/1-43/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen-with-pilot-and-showcase/191794",
+      "images": [
+        "images/burago-191794-1.jpg",
+        "images/burago-191794-2.jpg",
+        "images/burago-191794-3.jpg",
+        "images/burago-191794-4.jpg",
+        "images/burago-191794-5.jpg",
+        "images/burago-191794-6.jpg",
+        "images/burago-191794-7.jpg",
+        "images/burago-191794-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "RED BULL",
+        "Model": "F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN - WITH PILOT AND SHOWCASE",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191794",
+        "Manufacturer code": "18-38234-V",
+        "Colour": "BLUE YELLOW RED",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993382347",
+        "Notes": "SIGNATURE SERIES",
+        "Product number": "18-38234-V",
+        "Manufacturer": "Burago",
+        "Model code": "RB21"
+      },
+      "description": "1/43 BURAGO - RED BULL - F1  RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "4893993382347",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191794-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191794_7-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191795",
+      "name": "ALPINE F1 A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO",
+      "url": "https://www.carmodel.com/burago/18-38257-c/1-43/alpine/f1-a525-team-bwt-alpine-n-43-season-2025-franco-colapinto/191795",
+      "images": [
+        "images/burago-191795-1.jpg",
+        "images/burago-191795-2.jpg",
+        "images/burago-191795-3.jpg",
+        "images/burago-191795-4.jpg",
+        "images/burago-191795-5.jpg",
+        "images/burago-191795-6.jpg",
+        "images/burago-191795-7.jpg",
+        "images/burago-191795-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ALPINE",
+        "Model": "F1 A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191795",
+        "Manufacturer code": "18-38257-C",
+        "Colour": "BLACK BLUE PINK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020171",
+        "Notes": "CARD BOX",
+        "Product number": "18-38257-C",
+        "Manufacturer": "Burago",
+        "Model code": "A525"
+      },
+      "description": "1/43 BURAGO - ALPINE - F1  A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO",
+      "brand": "Burago",
+      "price": "10.95",
+      "currency": "EUR",
+      "gtin": "4893993020171",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191795-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191795_7-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191796",
+      "name": "ALPINE F1 A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY",
+      "url": "https://www.carmodel.com/burago/18-38257-g/1-43/alpine/f1-a525-team-bwt-alpine-n-10-season-2025-pierre-gasly/191796",
+      "images": [
+        "images/burago-191796-1.jpg",
+        "images/burago-191796-2.jpg",
+        "images/burago-191796-3.jpg",
+        "images/burago-191796-4.jpg",
+        "images/burago-191796-5.jpg",
+        "images/burago-191796-6.jpg",
+        "images/burago-191796-7.jpg",
+        "images/burago-191796-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ALPINE",
+        "Model": "F1 A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191796",
+        "Manufacturer code": "18-38257-G",
+        "Colour": "BLACK BLUE PINK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993382576",
+        "Notes": "CARD BOX",
+        "Product number": "18-38257-G",
+        "Manufacturer": "Burago",
+        "Model code": "A525"
+      },
+      "description": "1/43 BURAGO - ALPINE - F1  A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY",
+      "brand": "Burago",
+      "price": "10.95",
+      "currency": "EUR",
+      "gtin": "4893993382576",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191796-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191796_7-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191797",
+      "name": "ALPINE F1 - SET 12X - ESPOSITORE - DISPLAY STAND - A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY + N 43 FRANCO COLAPINTO",
+      "url": "https://www.carmodel.com/burago/18-38175/1-43/alpine/f1-set-12x-espositore-display-stand-a525-team-bwt-alpine-n-10-season-2025-pierre-gasly-n-43-franco-colapinto/191797",
+      "images": [
+        "images/burago-191797-1.jpg",
+        "images/burago-191797-2.jpg",
+        "images/burago-191797-3.jpg",
+        "images/burago-191797-4.jpg",
+        "images/burago-191797-5.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ALPINE",
+        "Model": "F1 - SET 12X - ESPOSITORE - DISPLAY STAND - A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY + N 43 FRANCO COLAPINTO",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191797",
+        "Manufacturer code": "18-38175",
+        "Colour": "BLACK BLUE PINK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993",
+        "Notes": "CARD BOX",
+        "Product number": "18-38175",
+        "Manufacturer": "Burago",
+        "Model code": "A525"
+      },
+      "description": "1/43 BURAGO - ALPINE - F1 - SET 12X - ESPOSITORE - DISPLAY STAND - A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY + N 43 FRANCO COLAPINTO",
+      "brand": "Burago",
+      "price": "119.95",
+      "currency": "EUR",
+      "gtin": "4893993",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191797-5.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191797_1-5.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191797_2-5.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191797_3-5.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191797_4-5.jpg"
+      ]
+    },
+    {
+      "id": "burago-191798",
+      "name": "ALPINE F1 A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38258-c/1-43/alpine/f1-a525-team-bwt-alpine-n-43-season-2025-franco-colapinto-with-pilot-and-showcase/191798",
+      "images": [
+        "images/burago-191798-1.jpg",
+        "images/burago-191798-2.jpg",
+        "images/burago-191798-3.jpg",
+        "images/burago-191798-4.jpg",
+        "images/burago-191798-5.jpg",
+        "images/burago-191798-6.jpg",
+        "images/burago-191798-7.jpg",
+        "images/burago-191798-8.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "ALPINE",
+        "Model": "F1 A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO - WITH PILOT AND SHOWCASE",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191798",
+        "Manufacturer code": "18-38258-C",
+        "Colour": "BLACK BLUE PINK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993020164",
+        "Notes": "SIGNATURE SERIES",
+        "Product number": "18-38258-C",
+        "Manufacturer": "Burago",
+        "Model code": "A525"
+      },
+      "description": "1/43 BURAGO - ALPINE - F1  A525 TEAM BWT ALPINE N 43 SEASON 2025 FRANCO COLAPINTO - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "4893993020164",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191798-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191798_7-3.jpg"
+      ]
+    },
+    {
       "id": "burago-191799",
       "name": "ALPINE F1 A525 TEAM BWT ALPINE N 10 SEASON 2025 PIERRE GASLY - WITH PILOT AND SHOWCASE",
       "url": "https://www.carmodel.com/burago/18-38258-g/1-43/alpine/f1-a525-team-bwt-alpine-n-10-season-2025-pierre-gasly-with-pilot-and-showcase/191799",
@@ -1768,6 +2661,48 @@
         "https://bucket.carmodel.com/images/cm-lg/191799_5-3.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191799_6-3.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191799_7-3.jpg"
+      ]
+    },
+    {
+      "id": "burago-191800",
+      "name": "FERRARI F1 - SET 12X - ESPOSITORE - DISPLAY STAND - SF-25 TEAM SCUDERIA FERRARI HP N 44 SEASON 2025 LEWIS HAMILTON + N 16 CHARLES LECLERC",
+      "url": "https://www.carmodel.com/burago/18-36810/1-43/ferrari/f1-set-12x-espositore-display-stand-sf-25-team-scuderia-ferrari-hp-n-44-season-2025-lewis-hamilton-n-16-charles-leclerc/191800",
+      "images": [
+        "images/burago-191800-1.jpg",
+        "images/burago-191800-2.jpg",
+        "images/burago-191800-3.jpg",
+        "images/burago-191800-4.jpg",
+        "images/burago-191800-5.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "FERRARI",
+        "Model": "F1 - SET 12X - ESPOSITORE - DISPLAY STAND - SF-25 TEAM SCUDERIA FERRARI HP N 44 SEASON 2025 LEWIS HAMILTON + N 16 CHARLES LECLERC",
+        "Scale": "1/43",
+        "Carmodel code": "CAR191800",
+        "Manufacturer code": "18-36810",
+        "Colour": "RED",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "Notes": "CARD BOX",
+        "Product number": "18-36810",
+        "Manufacturer": "Burago",
+        "Model code": "SF-25"
+      },
+      "description": "1/43 BURAGO - FERRARI - F1 - SET 12X - ESPOSITORE - DISPLAY STAND - SF-25 TEAM SCUDERIA FERRARI HP N 44 SEASON 2025 LEWIS HAMILTON + N 16 CHARLES LECLERC",
+      "brand": "Burago",
+      "price": "119.95",
+      "currency": "EUR",
+      "gtin": "191800",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/191800-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191800_1-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191800_2-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191800_3-1.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191800_4-1.jpg"
       ]
     },
     {
@@ -3268,12 +4203,12 @@
       },
       "description": "1/64 BURAGO - MERCEDES GP - SET F1  2X W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI + BRITISH GP 2025 - CON VETRINA - WITH SHOWCASE",
       "brand": "Burago",
-      "price": "18.95",
+      "price": "19.95",
       "currency": "EUR",
       "gtin": "4893993023905",
       "weight": "",
       "length": "",
-      "availability": "Available",
+      "availability": "Catalogue",
       "image_urls": [
         "https://bucket.carmodel.com/images/cm-lg/198224-2.jpg",
         "https://bucket.carmodel.com/images/cm-lg/198224_1-2.jpg",
@@ -3470,6 +4405,41 @@
       ]
     },
     {
+      "id": "burago-198532",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+      "url": "https://www.carmodel.com/burago/18-58001-18-02396/1-64/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-3rd-abu-dhabi-gp-2025-lando-norris/198532",
+      "images": [
+        "images/burago-198532-1.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "McLAREN",
+        "Model": "F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+        "Scale": "1/64",
+        "Carmodel code": "CAR198532",
+        "Manufacturer code": "18-58001-18-02396",
+        "Colour": "ORANGE BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993023967",
+        "Notes": "BLISTER",
+        "Product number": "18-58001-18-02396",
+        "Manufacturer": "Burago",
+        "Model code": "MCL39"
+      },
+      "description": "1/64 BURAGO - McLAREN - F1  MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+      "brand": "Burago",
+      "price": "9.95",
+      "currency": "EUR",
+      "gtin": "4893993023967",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/198532.jpg"
+      ]
+    },
+    {
       "id": "burago-198533",
       "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 WINNER JAPAN GP 2025 MAX VERSTAPPEN",
       "url": "https://www.carmodel.com/burago/18-58003-18-02362/1-64/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-winner-japan-gp-2025-max-verstappen/198533",
@@ -3504,6 +4474,76 @@
       "image_urls": [
         "https://bucket.carmodel.com/images/cm-lg/198533-1.jpg",
         "https://bucket.carmodel.com/images/cm-lg/198533_1-1.jpg"
+      ]
+    },
+    {
+      "id": "burago-198534",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+      "url": "https://www.carmodel.com/burago/18-38248-18-02397/1-43/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-3rd-abu-dhabi-gp-2025-lando-norris/198534",
+      "images": [
+        "images/burago-198534-1.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "McLAREN",
+        "Model": "F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+        "Scale": "1/43",
+        "Carmodel code": "CAR198534",
+        "Manufacturer code": "18-38248-18-02397",
+        "Colour": "ORANGE BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993023974",
+        "Notes": "CARD BOX",
+        "Product number": "18-38248-18-02397",
+        "Manufacturer": "Burago",
+        "Model code": "MCL39"
+      },
+      "description": "1/43 BURAGO - McLAREN - F1  MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS",
+      "brand": "Burago",
+      "price": "12.95",
+      "currency": "EUR",
+      "gtin": "4893993023974",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/198534.jpg"
+      ]
+    },
+    {
+      "id": "burago-198535",
+      "name": "McLAREN F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS - WITH PILOT AND SHOWCASE",
+      "url": "https://www.carmodel.com/burago/18-38249-18-02398/1-43/mclaren/f1-mcl39-team-mclaren-n-4-world-champion-3rd-abu-dhabi-gp-2025-lando-norris-with-pilot-and-showcase/198535",
+      "images": [
+        "images/burago-198535-1.jpg"
+      ],
+      "properties": {
+        "Trademark": "BURAGO",
+        "Brand": "McLAREN",
+        "Model": "F1 MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS - WITH PILOT AND SHOWCASE",
+        "Scale": "1/43",
+        "Carmodel code": "CAR198535",
+        "Manufacturer code": "18-38249-18-02398",
+        "Colour": "ORANGE BLACK",
+        "Material": "DIE-CAST",
+        "Year": "2025",
+        "EAN": "4893993023981",
+        "Notes": "SIGNATURE SERIES",
+        "Product number": "18-38249-18-02398",
+        "Manufacturer": "Burago",
+        "Model code": "MCL39"
+      },
+      "description": "1/43 BURAGO - McLAREN - F1  MCL39 TEAM MCLAREN N 4 WORLD CHAMPION 3rd ABU DHABI GP 2025 LANDO NORRIS - WITH PILOT AND SHOWCASE",
+      "brand": "Burago",
+      "price": "19.95",
+      "currency": "EUR",
+      "gtin": "4893993023981",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue",
+      "image_urls": [
+        "https://bucket.carmodel.com/images/cm-lg/198535.jpg"
       ]
     },
     {
@@ -6017,7 +7057,10 @@
         "images/burago-203681-6.jpg",
         "images/burago-203681-7.jpg",
         "images/burago-203681-8.jpg",
-        "images/burago-203681-9.jpg"
+        "images/burago-203681-9.jpg",
+        "images/burago-203681-10.jpg",
+        "images/burago-203681-11.jpg",
+        "images/burago-203681-12.jpg"
       ],
       "properties": {
         "Trademark": "BURAGO",
@@ -6037,22 +7080,25 @@
       },
       "description": "1/18 BURAGO - FERRARI - F1  SF-26 TEAM SCUDERIA FERRARI HP SF26 N 16 SEASON 2026 CHARLES LECLERC",
       "brand": "Burago",
-      "price": "71.95",
+      "price": "79.95",
       "currency": "EUR",
       "gtin": "4893993168170",
       "weight": "",
       "length": "",
       "availability": "Coming soon",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/203681-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_1-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_2-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_3-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_4-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_5-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_6-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_7-1.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203681_8-1.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/203681-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_1-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_2-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_3-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_4-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_5-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_6-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_7-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_8-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_9-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_10-2.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203681_11-2.jpg"
       ]
     },
     {

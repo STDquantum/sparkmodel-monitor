@@ -16,7 +16,7 @@ def main(argv=None):
     products={k:v for k,v in old.items() if v.get('source')!='carmodel'}
     cache=TEMP / 'carmodel'; cache.mkdir(parents=True,exist_ok=True)
     def fetch_cached(y,m):
-        path=cache / (y+'-'+m+'.json')
+        path=cache / (y+'-'+m+'-all-status.json')
         if args.resume and path.exists(): return json.loads(path.read_text(encoding='utf-8'))
         rows=carmodel.fetch(y,m)
         path.write_text(json.dumps(rows,ensure_ascii=False),encoding='utf-8')
