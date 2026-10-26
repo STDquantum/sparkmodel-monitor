@@ -173,7 +173,7 @@ window.PRODUCT_TIMES={
   },
   "S9378": {
     "published": "2026-03-31",
-    "shipped": ""
+    "shipped": "2026-10-26"
   },
   "S9374": {
     "published": "2026-03-31",
@@ -197,11 +197,11 @@ window.PRODUCT_TIMES={
   },
   "S9367": {
     "published": "2026-03-31",
-    "shipped": ""
+    "shipped": "2026-10-26"
   },
   "S9366": {
     "published": "2026-03-31",
-    "shipped": ""
+    "shipped": "2026-10-26"
   },
   "S9382": {
     "published": "2026-03-31",
@@ -1304,7 +1304,7 @@ window.PRODUCT_TIMES={
     "published": "2026-04-15"
   },
   "Y420": {
-    "shipped": "",
+    "shipped": "2026-10-20",
     "published": "2025-04-12"
   },
   "Y421": {
@@ -1800,7 +1800,7 @@ window.PRODUCT_TIMES={
     "published": "2026-06-06"
   },
   "S9389": {
-    "shipped": "",
+    "shipped": "2026-10-26",
     "published": "2026-06-06"
   },
   "64S125": {
@@ -1924,7 +1924,7 @@ window.PRODUCT_TIMES={
     "published": "2025-12-16"
   },
   "S9683": {
-    "shipped": "",
+    "shipped": "2026-10-26",
     "published": "2025-12-16"
   },
   "64S078": {
