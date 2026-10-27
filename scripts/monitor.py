@@ -356,7 +356,7 @@ def fetch_spark_shop_2025(search):
                 continue
             row["url"] = urljoin(SPARK_SHOP_BASE_URL, row["url"])
             row["product_number"] = number
-            products[f"spark-shop-2025-{number}"] = row
+            products[f"spark-{number}"] = row
         if not next_url:
             if not rows:
                 raise RuntimeError(f"Sparkmodelshop {search} search returned no product cards")
@@ -577,14 +577,16 @@ def fetch_spark_2025(search):
             product_id = product.get("product_id")
             if not product_id:
                 continue
-            products[f"spark-2025-{product_id}"] = {
+            number = (product.get("code") or "").strip().upper()
+            key = f"spark-{number}" if number else f"spark-2025-{product_id}"
+            products[key] = {
                 "source": "sparkmodel",
                 "source_id": product_id,
                 "name": clean_product_name(product.get("name", "")),
                 "url": f"{SPARK_SITE_URL}/products/{product_id}",
                 "image_url": product.get("primary_image_url", ""),
                 "availability": spark_availability(product.get("webcatalogue_state")),
-                "product_number": product.get("code", ""),
+                "product_number": number,
                 "scale": (product.get("scale_name") or "").replace(":", "/"),
                 "year": str(product.get("year") or 2025),
                 "manufacturer": product.get("manufacturer_name", ""),
@@ -614,14 +616,16 @@ def fetch_spark_2026(search):
             scale = (product.get("scale_name") or "").replace(":", "/")
             if not title_has_2026(name) or is_scale_1_5(scale, name):
                 continue
-            products[f"spark-2026-{product_id}"] = {
+            number = (product.get("code") or "").strip().upper()
+            key = f"spark-{number}" if number else f"spark-2026-{product_id}"
+            products[key] = {
                 "source": "sparkmodel",
                 "source_id": product_id,
                 "name": name,
                 "url": f"{SPARK_SITE_URL}/products/{product_id}",
                 "image_url": product.get("primary_image_url", ""),
                 "availability": spark_availability(product.get("webcatalogue_state")),
-                "product_number": product.get("code", ""),
+                "product_number": number,
                 "scale": scale,
                 "year": "2026",
                 "manufacturer": product.get("manufacturer_name", ""),
@@ -834,12 +838,14 @@ def fetch_all():
     else:
         products.update({key: item for key, item in previous.items() if item.get('source') == 'carmodel'})
         print('Carmodel monitoring is disabled; keeping its last known snapshot', flush=True)
+    # Sparkmodelshop must run before the official site: both now key by
+    # product number, and the official entry must win so it overwrites the shop.
+    for search in SPARK_SHOP_2025_SEARCHES:
+        fetch_and_merge(f"Sparkmodelshop 2025 · {search}", "sparkmodelshop", ("sparkshop2025", search), fetch_spark_shop_2025, search)
     for search in SPARK_2025_SEARCHES:
         fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", ("spark2025", search), fetch_spark_2025, search)
     for search in SPARK_2026_SEARCHES:
         fetch_and_merge(f"Spark 2026 · {search}", "sparkmodel", ("spark2026", search), fetch_spark_2026, search)
-    for search in SPARK_SHOP_2025_SEARCHES:
-        fetch_and_merge(f"Sparkmodelshop 2025 · {search}", "sparkmodelshop", ("sparkshop2025", search), fetch_spark_shop_2025, search)
     for search in LOOKSMART_SEARCHES:
         fetch_and_merge(f"Looksmart · {search}", "looksmart", ("looksmart", search), fetch_looksmart, search)
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
