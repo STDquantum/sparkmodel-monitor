@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:00:43.171853+00:00",
+  "generated_at": "2026-10-28T13:40:00.338569+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -17514,7 +17514,11 @@
       "id": "minichamps-minichamps-1660061",
       "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-FERNANDO-ALONSO-JAPANESE-GP-2026/417260314",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660061-1.jpg",
+        "images/minichamps-minichamps-1660061-2.jpg",
+        "images/minichamps-minichamps-1660061-3.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260314",
@@ -24804,7 +24808,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-S9389",
@@ -26805,7 +26809,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-S9635",
@@ -26839,7 +26843,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-S9636",
@@ -26910,7 +26914,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-S9638",
@@ -26944,7 +26948,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-S9639",
@@ -27571,7 +27575,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Coming soon"
     },
     {
       "id": "spark-S9673",
