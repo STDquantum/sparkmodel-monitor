@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:52:36.558963+00:00",
+  "generated_at": "2026-10-29T15:56:31.139288+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -13793,7 +13793,13 @@
       "id": "minichamps-019ef970b36771f0ad447540c4b38569",
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AZERBAIJAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b36771f0ad447540c4b38569?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef970b36771f0ad447540c4b38569-1.jpg",
+        "images/minichamps-019ef970b36771f0ad447540c4b38569-2.jpg",
+        "images/minichamps-019ef970b36771f0ad447540c4b38569-3.jpg",
+        "images/minichamps-019ef970b36771f0ad447540c4b38569-4.jpg",
+        "images/minichamps-019ef970b36771f0ad447540c4b38569-5.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "117251701",
@@ -17355,7 +17361,12 @@
       "id": "minichamps-minichamps-1660055",
       "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTRALIAN-GP-2026/417260131",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660055-1.jpg",
+        "images/minichamps-minichamps-1660055-2.jpg",
+        "images/minichamps-minichamps-1660055-3.jpg",
+        "images/minichamps-minichamps-1660055-4.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260131",
@@ -17363,7 +17374,7 @@
         "Properties": "Download product data sheet as PDF",
         "Availability": "available for preorder",
         "Brand": "HAAS",
-        "Driver": "OCON; ESTEBAN",
+        "Driver": "OCON, ESTEBAN",
         "Material": "RESIN",
         "Model": "VF-26"
       },
@@ -17671,7 +17682,13 @@
       "id": "minichamps-minichamps-1660069",
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-JAPANESE-GP-2026/537262004",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1660069-1.jpg",
+        "images/minichamps-minichamps-1660069-2.jpg",
+        "images/minichamps-minichamps-1660069-3.jpg",
+        "images/minichamps-minichamps-1660069-4.jpg",
+        "images/minichamps-minichamps-1660069-5.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "537262004",
