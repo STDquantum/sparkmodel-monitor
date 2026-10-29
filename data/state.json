@@ -54,7 +54,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-28T13:39:55.088326+00:00",
+  "updated_at": "2026-10-29T08:52:34.662881+00:00",
   "total": 933,
   "items": {
     "burago-183284": {
@@ -7700,7 +7700,7 @@
       "source_id": "1f0573f3-9d2b-4313-b7ce-1437542b0beb",
       "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
       "url": "https://www.sparkmodel.com/products/1f0573f3-9d2b-4313-b7ce-1437542b0beb",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0a168c28-54d8-46c6-8a8f-2597d3f94ab6.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a12cb06a-08bc-44cd-9385-3d69a746350e.webp",
       "availability": "In development",
       "product_number": "18S1263",
       "scale": "1/18",
@@ -7712,7 +7712,7 @@
       "source_id": "2f340c73-9c15-47b9-b43b-6c1cb7608e65",
       "name": "Audi Revolut F1 Team R26 No.5 9th Australian GP 2026 \nGabriel Bortoleto",
       "url": "https://www.sparkmodel.com/products/2f340c73-9c15-47b9-b43b-6c1cb7608e65",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6d941d0b-7efe-4522-adab-07033f66da9e.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6ff1d3f9-bd45-413d-aba6-8a0706cfb19e.webp",
       "availability": "In development",
       "product_number": "18S1264",
       "scale": "1/18",
@@ -10798,13 +10798,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-minichamps-1660061",
-      "spark-S9388",
-      "spark-S9634",
-      "spark-S9635",
-      "spark-S9637",
-      "spark-S9638",
-      "spark-S9672"
+      "spark-18S1263",
+      "spark-18S1264"
     ],
     "removed": []
   }

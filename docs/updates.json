@@ -1,6 +1,81 @@
 {
   "updates": [
     {
+      "date": "2026-10-29T08:52:36.558963+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-18S1263",
+          "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
+          "url": "https://www.sparkmodel.com/products/1f0573f3-9d2b-4313-b7ce-1437542b0beb",
+          "product_number": "18S1263",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0a168c28-54d8-46c6-8a8f-2597d3f94ab6.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a12cb06a-08bc-44cd-9385-3d69a746350e.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-18S1263-2.webp",
+              "images/spark-18S1263-3.webp"
+            ],
+            "changed": [
+              "images/spark-18S1263-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-18S1263-2.webp": "8b1f9ac5030e43d3f168ccbdfcafaf9b3d66803bac4b6b1567b4214767486690",
+              "images/spark-18S1263-3.webp": "b1a6edc0444862f8c79bb97d2166cb7302dee41d9b2d1a9aafd081d967c25ddd",
+              "images/spark-18S1263-1.webp": "d9fde8e2a0c50fdf095da3967fac0aa262289d45ca33b70ae2f5df69cfb755d2"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-18S1264",
+          "name": "Audi Revolut F1 Team R26 No.5 9th Australian GP 2026 \nGabriel Bortoleto",
+          "url": "https://www.sparkmodel.com/products/2f340c73-9c15-47b9-b43b-6c1cb7608e65",
+          "product_number": "18S1264",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6d941d0b-7efe-4522-adab-07033f66da9e.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6ff1d3f9-bd45-413d-aba6-8a0706cfb19e.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-18S1264-2.webp",
+              "images/spark-18S1264-3.webp"
+            ],
+            "changed": [
+              "images/spark-18S1264-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-18S1264-2.webp": "d09d034dcaba883ba8dc99d86649a314a63ef7b4f4ba7e00b77dff6c1cb9a7d5",
+              "images/spark-18S1264-3.webp": "c77d95ae6ca418617fc9986eb596237c7716f71ec18185d54fed60df3d485559",
+              "images/spark-18S1264-1.webp": "236a56b2250d215e869740deb39418dee1d7124d17ea339572a59f26367f9f53"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-28T13:40:00.338569+00:00",
       "entries": [
         {
@@ -1494,15 +1569,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-18S1263-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-18S1263-1.webp": "8a630158b7698e52739088d04300825ebc0653b9aa00330a794d3b1ff5effceb"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -1518,15 +1589,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-18S1264-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-18S1264-1.webp": "5df613cc6c1d06354d01916906fad765ab990d14d15ce01809b834589f563d6e"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
