@@ -54,7 +54,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-29T15:56:22.460463+00:00",
+  "updated_at": "2026-10-30T13:26:57.821842+00:00",
   "total": 933,
   "items": {
     "burago-183284": {
@@ -9275,7 +9275,7 @@
       "source_id": "5986bc64-3ec6-4658-998e-0ece1c86d5e6",
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
       "url": "https://www.sparkmodel.com/products/5986bc64-3ec6-4658-998e-0ece1c86d5e6",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/04cd2321-ed1e-47b0-b222-67d84eb51dee.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/11335561-2d69-49f0-91a8-977ccd6163cb.webp",
       "availability": "Coming soon",
       "product_number": "S9388",
       "scale": "1/43",
@@ -10801,10 +10801,7 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019ef970b36771f0ad447540c4b38569",
-      "minichamps-minichamps-1660055",
-      "minichamps-minichamps-1660069",
-      "spark-S9676"
+      "spark-S9388"
     ],
     "removed": []
   }

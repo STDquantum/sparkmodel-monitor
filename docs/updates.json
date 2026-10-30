@@ -1,6 +1,64 @@
 {
   "updates": [
     {
+      "date": "2026-10-30T13:27:03.377450+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-S9388",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
+          "url": "https://www.sparkmodel.com/products/5986bc64-3ec6-4658-998e-0ece1c86d5e6",
+          "product_number": "S9388",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/04cd2321-ed1e-47b0-b222-67d84eb51dee.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/11335561-2d69-49f0-91a8-977ccd6163cb.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9388-4.webp",
+              "images/spark-S9388-5.webp",
+              "images/spark-S9388-6.webp",
+              "images/spark-S9388-7.webp",
+              "images/spark-S9388-8.webp",
+              "images/spark-S9388-9.webp",
+              "images/spark-S9388-10.webp",
+              "images/spark-S9388-11.webp",
+              "images/spark-S9388-12.webp"
+            ],
+            "changed": [
+              "images/spark-S9388-1.webp",
+              "images/spark-S9388-2.webp",
+              "images/spark-S9388-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9388-4.webp": "7a5483e8ee4ec0018cbb10c1c71b43f500cedd2b4797f3dd8fafe6bd0abd855d",
+              "images/spark-S9388-5.webp": "324166506cbbac9b7c5af56fe99b7d70934d7e3145cd8592b4fb8a3b1afa33cc",
+              "images/spark-S9388-6.webp": "c23cd5d54fac0817d417bca652ed01cd71f9dcefcac2e4aac9ec4a53da629960",
+              "images/spark-S9388-7.webp": "c730df5c8f975b8a5a4c6a4b70ffdcce6cdd574b901819ab05f7d858b0153159",
+              "images/spark-S9388-8.webp": "a0e3de2559abf3e6049c2c4fb9734e5a57764a387838ab6bc69ddbb6662a12d1",
+              "images/spark-S9388-9.webp": "2ccc0e45c753502a950c418fdf3f1ab24b039a1b5adce64b0e373bad2adfece0",
+              "images/spark-S9388-10.webp": "9e1dd06cb9662a0eb0aec20eed1768f96ef7aca25740c7d079c3c0fd4c34bc9e",
+              "images/spark-S9388-11.webp": "e914537a43f3c97b02c1ca6ca05c6deaa3e44d9618e8545241dd7e7c3e926df0",
+              "images/spark-S9388-12.webp": "d70662da87931a2748cf213dbc78fc3890c0de7390cc6637a6e766a4cdbc7833",
+              "images/spark-S9388-1.webp": "d8984bfcfa0b5e349133c77f6bad98634bcf9c7cb55b4c0c7d30933fbeab7c32",
+              "images/spark-S9388-2.webp": "09bfe958f470c23b9387b49fa7fb0588dbe1ca5b19e1fc7813f816cb5938424f",
+              "images/spark-S9388-3.webp": "aa49c136e6a4cfda5a35a4409d73602fcb03c9141bd7e88eb8982a484d7ffb01"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-29T15:56:31.139288+00:00",
       "entries": [
         {
@@ -10452,19 +10510,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9388-1.webp",
-              "images/spark-S9388-2.webp",
-              "images/spark-S9388-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9388-1.webp": "9d1fba7f078799cbc46848369cc75578b35941281de510a4727506ce1f024137",
-              "images/spark-S9388-2.webp": "1c514d32bc0d7a2f9f7fa4242e11853b9a45bf7385c2103e1bce28c6de86223d",
-              "images/spark-S9388-3.webp": "b2b7e959c7f33cc3796a4cf284310afada5a282b9e76d6f4a611f7523da55f85"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
