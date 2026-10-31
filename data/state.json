@@ -54,8 +54,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-10-31T01:54:43.243953+00:00",
-  "total": 932,
+  "updated_at": "2026-10-31T08:06:08.832051+00:00",
+  "total": 933,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -4411,6 +4411,15 @@
       "year": "2025",
       "availability": "Sold out"
     },
+    "minichamps-019a89196184700ca240fb91d6827be9": {
+      "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CN GP 2025",
+      "url": "https://www.minichamps.de/en/detail/019a89196184700ca240fb91d6827be9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/30/5a/a8/1790796758/00_117250263_01a0f3cd.jpg?ts=1790796758",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Available"
+    },
     "minichamps-019a8919638870d59e64744b6de2a5bd": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER JAPANESE GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919638870d59e64744b6de2a5bd?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
@@ -8222,7 +8231,7 @@
       "source_id": "6cb13376-035a-4adc-83e0-95a3356cde75",
       "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
       "url": "https://www.sparkmodel.com/products/6cb13376-035a-4adc-83e0-95a3356cde75",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1dda1841-8d2e-412d-8491-731bc57889c6.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9e3a919b-14c1-4953-89ff-dbfd411fcd06.webp",
       "availability": "In development",
       "product_number": "64S128",
       "scale": "1/64",
@@ -8234,7 +8243,7 @@
       "source_id": "b337f5cf-144a-41aa-8a5d-e76e926aba6c",
       "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto",
       "url": "https://www.sparkmodel.com/products/b337f5cf-144a-41aa-8a5d-e76e926aba6c",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9014fe57-4dd9-48fb-89f7-e69b68cfc989.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f4239906-93a3-48fd-99e2-3f4b2f9035d6.webp",
       "availability": "In development",
       "product_number": "64S129",
       "scale": "1/64",
@@ -10790,10 +10799,13 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [],
-    "removed": [
+    "added": [
       "minichamps-019a89196184700ca240fb91d6827be9"
-    ]
+    ],
+    "changed": [
+      "spark-64S128",
+      "spark-64S129"
+    ],
+    "removed": []
   }
 }

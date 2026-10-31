@@ -1,6 +1,113 @@
 {
   "updates": [
     {
+      "date": "2026-10-31T08:06:17.194608+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-019a89196184700ca240fb91d6827be9",
+          "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89196184700ca240fb91d6827be9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117250263",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg": "c55b63b9b4bf451f75479b1266e872ffe36f0f0ad04bc8a4234b832c103d9ccd",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg": "b751c49feab99602bbe4f5616f98a2d0a52de7d57f2b1aa37f754de07fe97f95",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg": "33a3c3ee76529da5ddb43aa9adf1f31f75963716113f67a34489c8db41c6ecb0",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg": "47b77d1b0175cd85e29ab067b903d3504f9aba8cca0c759c974abf829dd17fdd",
+              "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg": "2cd710c61ae6362efc7ae91689b94e0853dc2ea0de0034f685d7a7cdc605dd11"
+            }
+          },
+          "image_counts": {
+            "added": 5,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S128",
+          "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
+          "url": "https://www.sparkmodel.com/products/6cb13376-035a-4adc-83e0-95a3356cde75",
+          "product_number": "64S128",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1dda1841-8d2e-412d-8491-731bc57889c6.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9e3a919b-14c1-4953-89ff-dbfd411fcd06.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S128-2.webp",
+              "images/spark-64S128-3.webp"
+            ],
+            "changed": [
+              "images/spark-64S128-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S128-2.webp": "a88d9bc897a15c9a212203732dff4f78da257737104715f2f37688b9ea78fcda",
+              "images/spark-64S128-3.webp": "c6a23e453684322f75086a61bf3c8354279e80e39788910ffd2542e1b048fd8f",
+              "images/spark-64S128-1.webp": "a0d74351cad0f10a248e0fa158b93855fb1c3d64940be346c9f78838ef66c2e8"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S129",
+          "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto",
+          "url": "https://www.sparkmodel.com/products/b337f5cf-144a-41aa-8a5d-e76e926aba6c",
+          "product_number": "64S129",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9014fe57-4dd9-48fb-89f7-e69b68cfc989.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f4239906-93a3-48fd-99e2-3f4b2f9035d6.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S129-2.webp",
+              "images/spark-64S129-3.webp"
+            ],
+            "changed": [
+              "images/spark-64S129-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S129-2.webp": "e0521d6ce4299d8a3e37ea0d4d97434048b21c232394929048da1097518a9a49",
+              "images/spark-64S129-3.webp": "3947fbec9bc35d0ee66ad8641857643b841590ee090556684463a86f96d73e1b",
+              "images/spark-64S129-1.webp": "084c0cc21f1c0aaac6522abb61b8f1eac4d9e59c50cbbded7dafa016e13a509f"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-31T01:54:43.777726+00:00",
       "entries": [
         {
@@ -12,7 +119,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -8187,15 +8296,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S128-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S128-1.webp": "b03b3e3d907db86d8d10b839de5b7ebfabee77030300bd1795694276c52064d9"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -8211,15 +8316,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S129-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S129-1.webp": "2f19d528d1a45db7fa4408437228dc9d9c04339e5442214a1df792e447720013"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
