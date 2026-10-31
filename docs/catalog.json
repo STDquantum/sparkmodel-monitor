@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:27:03.377450+00:00",
+  "generated_at": "2026-10-31T01:54:43.777726+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -11584,37 +11584,6 @@
       "weight": "",
       "length": "",
       "availability": "Sold out"
-    },
-    {
-      "id": "minichamps-019a89196184700ca240fb91d6827be9",
-      "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CN GP 2025",
-      "url": "https://www.minichamps.de/en/detail/019a89196184700ca240fb91d6827be9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [
-        "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg",
-        "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg",
-        "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg",
-        "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg",
-        "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Product number": "117250263",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
-        "Brand": "MERCEDES-BENZ",
-        "Driver": "RUSSEL, GEORGE",
-        "Material": "RESIN",
-        "First delivery": "Calendar week 39/2026"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "199.96",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "Available"
     },
     {
       "id": "minichamps-019a8919638870d59e64744b6de2a5bd",

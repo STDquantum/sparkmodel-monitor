@@ -1,6 +1,27 @@
 {
   "updates": [
     {
+      "date": "2026-10-31T01:54:43.777726+00:00",
+      "entries": [
+        {
+          "type": "removed",
+          "id": "minichamps-019a89196184700ca240fb91d6827be9",
+          "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89196184700ca240fb91d6827be9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117250263",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-30T13:27:03.377450+00:00",
       "entries": [
         {
@@ -40651,24 +40672,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg"
-            ],
-            "changed": [
-              "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg"
-            ],
+            "added": [],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg": "b751c49feab99602bbe4f5616f98a2d0a52de7d57f2b1aa37f754de07fe97f95",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg": "33a3c3ee76529da5ddb43aa9adf1f31f75963716113f67a34489c8db41c6ecb0",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg": "47b77d1b0175cd85e29ab067b903d3504f9aba8cca0c759c974abf829dd17fdd",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg": "2cd710c61ae6362efc7ae91689b94e0853dc2ea0de0034f685d7a7cdc605dd11",
-              "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg": "c55b63b9b4bf451f75479b1266e872ffe36f0f0ad04bc8a4234b832c103d9ccd"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
