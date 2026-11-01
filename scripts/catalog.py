@@ -478,7 +478,7 @@ def build_product(product_id, listing):
         if properties["Product number"].strip().upper() != listing["product_number"].strip().upper():
             raise RuntimeError("Sparkmodelshop listing/detail product number mismatch")
         properties = {"Year": listing.get("year", "2025"), "Scale": listing.get("scale", ""), **properties}
-        model = re.search(r"\b(?:RB21|VCARB\s*02)\b", fields.get("name") or listing["name"], re.I)
+        model = re.search(r"\b(?:RB21|VCARB\s*02|SF-26)\b", fields.get("name") or listing["name"], re.I)
         if model:
             properties.setdefault("Model", model.group(0))
     else:
@@ -496,7 +496,7 @@ def build_product(product_id, listing):
         "images": local_images,
         "properties": properties,
         "description": fields.get("description", ""),
-        "brand": "Spark" if source == "sparkmodelshop" else properties.get("Manufacturer", "Spark"),
+        "brand": properties.get("Manufacturer", listing.get("manufacturer", "Spark")),
         "price": fields.get("price", ""),
         "currency": fields.get("priceCurrency", "EUR"),
         "gtin": fields.get("gtin13", ""),

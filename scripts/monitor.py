@@ -19,7 +19,7 @@ from urllib.request import build_opener, HTTPCookieProcessor
 
 SPARK_API_URL = "https://rapi.sparkmodel.com/products"
 SPARK_SITE_URL = "https://www.sparkmodel.com"
-LOOKSMART_SEARCHES = ("SF-25", "SF-26")
+LOOKSMART_SEARCHES = ("SF-25",)
 MINICHAMPS_BASE_URL = "https://www.minichamps.de/"
 MINICHAMPS_URL = "https://www.minichamps.de/en/search"
 MINICHAMPS_WIDGET_URL = "https://www.minichamps.de/en/widgets/search"
@@ -363,6 +363,33 @@ def fetch_spark_shop_2025(search):
             return products
     raise RuntimeError(f"Sparkmodelshop pagination exceeded 100 pages for {search}")
 
+
+
+def fetch_spark_shop_ferrari_2026(search="SF-26"):
+    products = {}
+    for page in range(1, 101):
+        rows, next_url = parse_spark_shop_listing(request(
+            spark_shop_url(search, page), source_request=True, referer=SPARK_SHOP_BASE_URL,
+        ), page)
+        for row in rows:
+            if str(row.get("year")) != "2026" or normalized_model_code(search) not in normalized_model_code(row.get("name", "")):
+                continue
+            row["url"] = urljoin(SPARK_SHOP_BASE_URL, row["url"])
+            from catalog import parse_spark_shop_detail
+            _, properties, _ = parse_spark_shop_detail(request(
+                row["url"], source_request=True, referer=SPARK_SHOP_BASE_URL,
+            ))
+            if properties.get("Manufacturer", "").lower() != "looksmart" or is_scale_1_5(properties.get("Scale"), row.get("name")):
+                continue
+            number = properties["Product number"].strip().upper()
+            row.pop("product_id", None)
+            row.update(product_number=number, manufacturer=properties["Manufacturer"], scale=properties.get("Scale", ""))
+            products[f"shop-ferrari-{number}"] = row
+        if not next_url:
+            if not products:
+                raise RuntimeError("Sparkmodelshop SF-26 returned no matching products")
+            return products
+    raise RuntimeError("Sparkmodelshop SF-26 pagination exceeded 100 pages")
 
 def deduplicate_spark_products(products):
     """Prefer official entries, including retained snapshots after failed crawls."""
@@ -846,6 +873,7 @@ def fetch_all():
         fetch_and_merge(f"Spark 2025 · {search}", "sparkmodel", ("spark2025", search), fetch_spark_2025, search)
     for search in SPARK_2026_SEARCHES:
         fetch_and_merge(f"Spark 2026 · {search}", "sparkmodel", ("spark2026", search), fetch_spark_2026, search)
+    fetch_and_merge("Sparkmodelshop 2026 · SF-26", "sparkmodelshop", ("shopferrari2026", "SF-26"), fetch_spark_shop_ferrari_2026)
     for search in LOOKSMART_SEARCHES:
         fetch_and_merge(f"Looksmart · {search}", "looksmart", ("looksmart", search), fetch_looksmart, search)
     if os.getenv("MINICHAMPS_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}:
@@ -888,6 +916,8 @@ def fetch_all():
                 and str(item.get("year", "")) == "2026"
                 and normalized_model_code(search) in normalized_model_code(name)
             )
+        if crawl_type == "shopferrari2026":
+            return str(item.get("year")) == "2026" and (item.get("source") == "looksmart" or (item.get("source") == "sparkmodelshop" and item.get("manufacturer", "").lower() == "looksmart")) and normalized_model_code(search) in normalized_model_code(name)
         if crawl_type == "looksmart":
             return item.get("source") == "looksmart" and normalized_model_code(search) in normalized_model_code(name)
         if crawl_type == "minichamps2026":
@@ -904,13 +934,12 @@ def fetch_all():
     # including later queries from the same provider, still use fresh results.
     for product_id, item in previous.items():
         if any(
-            item.get("source") == source and matches_crawl(item, crawl_key)
+            (item.get("source") == source or crawl_key[0] == "shopferrari2026") and matches_crawl(item, crawl_key)
             for source, crawl_key in failed_crawls
         ):
             products.setdefault(product_id, item)
 
     products = deduplicate_spark_products(products)
-    apply_looksmart_shop_covers(products, previous)
     print(f"[{datetime.now().astimezone():%H:%M:%S}] Fetch complete: {len(products)} unique products", flush=True)
     return products
 

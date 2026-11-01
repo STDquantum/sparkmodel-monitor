@@ -140,14 +140,14 @@ python scripts/updates.py --base <提交或分支>
 | 来源 | 2025 赛季车型 | 2026 赛季车型 |
 | --- | --- | --- |
 | Spark | C45、A525、FW47、MCL39、W16、RB21、VF-25、VCARB 02、AMR25 | VF26、MAC26、FW48、AMR26、A526、W17、R26、MCL40、VCARB03、RB22 |
-| Sparkmodelshop | VCARB 02、RB21 | SF-26，用于 Looksmart 图片匹配 |
-| Looksmart | SF-25 | SF-26 |
+| Sparkmodelshop | VCARB 02、RB21 | SF-26（Looksmart 商品） |
+| Looksmart | SF-25 | — |
 | Minichamps | 2025 Formula 1 分类 | W17、VF-26、AMR26、VCARB 03、MAC-26、A526、Audi R26、RB22、FW48、MCL40、SF-26 |
 | Carmodel（Burago） | AMR25、A525、RB21、SF-25、MCL39、W16 | AMR26、A526、SF-26、RB22、MCL40、W17、VCARB-03、VF-26、FW48、MAC-26、R26 |
 
 Spark 与 Sparkmodelshop 按货号去重，Spark 官网条目具有优先级。Shop 补充范围为符合配置条件的 2025 Spark 商品。Spark 的 2026 商品按标题年份与比例规则筛选。
 
-2026 Looksmart 按货号匹配 Sparkmodelshop，图片优先使用匹配的 Shop 图库，备选来源为官网图片。名称、属性和描述来自 Looksmart 官网。图库以封面为首图，按内容去重。
+2026 SF-26 Looksmart 商品直接从 Sparkmodelshop 采集商品信息和图片，排除 1/5 比例。
 
 ## GitHub Actions 与 Pages
 
