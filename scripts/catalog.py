@@ -294,30 +294,8 @@ def download_unique_images(urls, product_id, *, workers=1):
             continue
         seen_hashes.add(image_hash)
         local_images.append(relative)
-    # A failed cover refresh must leave the previous cover file usable.
-    previous_covers = [path.name for path in IMAGES.glob(f"{product_id}-shop-cover-*")]
-    remove_images(product_id, [*(Path(image).name for image in local_images), *previous_covers])
+    remove_images(product_id, [Path(image).name for image in local_images])
     return local_images
-
-
-def apply_preferred_cover(product, listing):
-    if listing.get("source") != "looksmart" or str(listing.get("year")) != "2026" or listing.get("cover_source") != "sparkmodelshop" or not listing.get("cover_url"):
-        return product
-    gallery = listing.get("shop_image_urls")
-    if not gallery:
-        _, properties, gallery = parse_spark_shop_detail(monitor.request(
-            listing["cover_product_url"], source_request=True, referer=monitor.SPARK_SHOP_BASE_URL,
-        ))
-        if properties["Product number"].strip().upper() != listing["product_number"].strip().upper():
-            raise RuntimeError("Shop gallery product number mismatch")
-    if not gallery:
-        raise RuntimeError("Shop detail returned no gallery images")
-    images = download_unique_images([listing["cover_url"], *gallery], f"{product['id']}-shop-gallery")
-    return product | {
-        "images": images, "cover_source": "sparkmodelshop",
-        "cover_url": listing["cover_url"], "cover_product_url": listing.get("cover_product_url", ""),
-        "image_source": "sparkmodelshop", "shop_image_urls": gallery,
-    }
 
 
 def load_catalog():
@@ -360,14 +338,7 @@ def refresh_ids(items, products, changes):
         and product_id in products
         and not products[product_id].get("images")
     }
-    changed_covers = {
-        product_id for product_id, listing in items.items()
-        if listing.get("cover_source") == "sparkmodelshop"
-        and (listing.get("cover_url") != products.get(product_id, {}).get("cover_url")
-             or products.get(product_id, {}).get("image_source") != "sparkmodelshop"
-             or listing.get("shop_image_urls") != products.get(product_id, {}).get("shop_image_urls"))
-    }
-    candidates = (changed | (set(items) - set(products)) | missing_search_images | changed_covers) & set(items)
+    candidates = (changed | (set(items) - set(products)) | missing_search_images) & set(items)
     return sorted(pid for pid in candidates if items[pid].get('source') != 'carmodel' or monitor.carmodel.enabled())
 
 
@@ -442,7 +413,7 @@ def build_product(product_id, listing):
         fields, images = parse_looksmart_detail(monitor.request(listing["url"]))
         if not images and listing.get("image_url"):
             images = [listing["image_url"]]
-        local_images = [] if listing.get("cover_source") == "sparkmodelshop" and str(listing.get("year")) == "2026" else download_unique_images(images, product_id)
+        local_images = download_unique_images(images, product_id)
         name = fields.get("name") or listing["name"]
         scale_match = re.search(r"\b1[:/]\s*(5|8|12|18|43|64)\b", name, re.I)
         scale = listing.get("scale") or (f"1/{scale_match.group(1)}" if scale_match else "")
@@ -470,7 +441,7 @@ def build_product(product_id, listing):
             "length": "",
             "availability": fields.get("availability") or listing.get("availability", ""),
         }
-        return apply_preferred_cover(product, listing)
+        return product
     if source == "sparkmodelshop":
         fields, properties, images = parse_spark_shop_detail(monitor.request(
             listing["url"], source_request=True, referer=monitor.SPARK_SHOP_BASE_URL,

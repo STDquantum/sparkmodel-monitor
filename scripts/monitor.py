@@ -407,76 +407,6 @@ def deduplicate_spark_products(products):
     return result
 
 
-def apply_looksmart_shop_covers(products, previous):
-    """Only 2026 Looksmart covers prefer the shop; official records stay primary."""
-    eligible = {
-        product_id: item for product_id, item in products.items()
-        if item.get("source") == "looksmart" and str(item.get("year")) == "2026"
-    }
-    if not eligible:
-        return
-    covers = {}
-    try:
-        for page in range(1, 101):
-            rows, next_url = parse_spark_shop_listing(request(
-                spark_shop_url("SF-26", page), source_request=True, referer=SPARK_SHOP_BASE_URL,
-            ), page)
-            if not rows:
-                raise RuntimeError("Sparkmodelshop SF-26 returned no product cards")
-            for row in rows:
-                if row.get("year") != "2026" or row.get("manufacturer", "").lower() != "looksmart":
-                    continue
-                number = row.get("product_number", "").strip().upper()
-                if number and row.get("image_url"):
-                    covers[number] = row
-            if not next_url:
-                break
-        else:
-            raise RuntimeError("Sparkmodelshop SF-26 pagination exceeded 100 pages")
-    except Exception as error:
-        print(f"Looksmart shop cover lookup failed; retaining previous shop covers ({error})", flush=True)
-        for product_id, item in eligible.items():
-            old = previous.get(product_id, {})
-            if old.get("cover_source") == "sparkmodelshop" and old.get("product_number") == item.get("product_number"):
-                item["official_image_url"] = item.get("image_url", "")
-                for field in ("cover_source", "cover_url", "cover_product_url", "image_url", "shop_image_urls"):
-                    item[field] = old.get(field, "")
-        return
-    for product_id, item in eligible.items():
-        row = covers.get(item.get("product_number", "").strip().upper())
-        if not row:
-            continue
-        # Shopware timestamps change without the underlying image changing.
-        parsed = urlsplit(urljoin(SPARK_SHOP_BASE_URL, row["image_url"]))
-        cover_url = urlunsplit((parsed.scheme, parsed.netloc, parsed.path, "", ""))
-        item.update(
-            official_image_url=item.get("image_url", ""), image_url=cover_url,
-            cover_source="sparkmodelshop", cover_url=cover_url,
-            cover_product_url=urljoin(SPARK_SHOP_BASE_URL, row["url"]),
-        )
-        try:
-            from catalog import parse_spark_shop_detail
-            _, properties, images = parse_spark_shop_detail(request(
-                item["cover_product_url"], source_request=True, referer=SPARK_SHOP_BASE_URL,
-            ))
-            if properties["Product number"].strip().upper() != item["product_number"].strip().upper():
-                raise RuntimeError("Shop gallery product number mismatch")
-            if not images:
-                raise RuntimeError("Shop detail returned no gallery images")
-            normalized = []
-            for image in images:
-                parsed = urlsplit(urljoin(item["cover_product_url"], image))
-                normalized.append(urlunsplit((parsed.scheme, parsed.netloc, parsed.path, "", "")))
-            item["shop_image_urls"] = list(dict.fromkeys(normalized))
-            print(f"Shop gallery {item['product_number']}: {len(item['shop_image_urls'])} images", flush=True)
-        except Exception as error:
-            old = previous.get(product_id, {})
-            if old.get("cover_product_url") == item["cover_product_url"] and old.get("shop_image_urls"):
-                item["shop_image_urls"] = old["shop_image_urls"]
-            print(f"Shop gallery lookup skipped for {item['product_number']}; keeping previous images ({error})", flush=True)
-    print(f"Looksmart 2026 shop covers: {sum(bool(item.get('cover_url')) for item in eligible.values())}/{len(eligible)} matched", flush=True)
-
-
 class LooksmartListingParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -674,17 +604,10 @@ def fetch_looksmart(search):
         rows, next_url = parse_looksmart_listing(request(url, source_request=True, referer=referer))
         for row in rows:
             product_id = row.pop("product_id")
-            if search == "SF-26":
-                if not title_has_2026(row.get("name", "")):
-                    continue
-                if is_scale_1_5(row.get("scale"), row.get("name")):
-                    continue
-                row["year"] = "2026"
             products[f"looksmart-{product_id}"] = row
         if not next_url:
             if not products:
-                qualifier = "matching " if search == "SF-26" else ""
-                raise RuntimeError(f"Looksmart {search} search returned no {qualifier}products")
+                raise RuntimeError(f"Looksmart {search} search returned no products")
             return products
         resolved_url = urljoin(url, next_url)
         parsed_url = urlsplit(resolved_url)
@@ -917,7 +840,7 @@ def fetch_all():
                 and normalized_model_code(search) in normalized_model_code(name)
             )
         if crawl_type == "shopferrari2026":
-            return str(item.get("year")) == "2026" and (item.get("source") == "looksmart" or (item.get("source") == "sparkmodelshop" and item.get("manufacturer", "").lower() == "looksmart")) and normalized_model_code(search) in normalized_model_code(name)
+            return str(item.get("year")) == "2026" and item.get("source") == "sparkmodelshop" and item.get("manufacturer", "").lower() == "looksmart" and normalized_model_code(search) in normalized_model_code(name)
         if crawl_type == "looksmart":
             return item.get("source") == "looksmart" and normalized_model_code(search) in normalized_model_code(name)
         if crawl_type == "minichamps2026":
@@ -934,7 +857,7 @@ def fetch_all():
     # including later queries from the same provider, still use fresh results.
     for product_id, item in previous.items():
         if any(
-            (item.get("source") == source or crawl_key[0] == "shopferrari2026") and matches_crawl(item, crawl_key)
+            item.get("source") == source and matches_crawl(item, crawl_key)
             for source, crawl_key in failed_crawls
         ):
             products.setdefault(product_id, item)
@@ -953,20 +876,15 @@ def load_state():
 
 
 def compare(old, new):
-    def tracked_value(item, field):
-        if field == "image_url" and item.get("cover_source") == "sparkmodelshop":
-            return item.get("cover_url", "")
-        return item.get(field, "")
-
     old_ids, new_ids = set(old), set(new)
     added = [new[item_id] | {"product_id": item_id} for item_id in sorted(new_ids - old_ids)]
     removed = [old[item_id] | {"product_id": item_id} for item_id in sorted(old_ids - new_ids)]
     changed = []
     for item_id in sorted(old_ids & new_ids):
         changes = {
-            field: (tracked_value(old[item_id], field), tracked_value(new[item_id], field))
-            for field in ("image_url", "availability", "shop_image_urls")
-            if tracked_value(old[item_id], field) != tracked_value(new[item_id], field)
+            field: (old[item_id].get(field, ""), new[item_id].get(field, ""))
+            for field in ("image_url", "availability")
+            if old[item_id].get(field, "") != new[item_id].get(field, "")
         }
         if changes:
             changed.append(new[item_id] | {"product_id": item_id, "changes": changes})
@@ -1036,8 +954,6 @@ def changed_line(item):
     labels = []
     if "image_url" in item["changes"]:
         labels.append("封面图片已更新")
-    if "shop_image_urls" in item["changes"]:
-        labels.append("Shop 详情图片已更新")
     if "availability" in item["changes"]:
         old, new = item["changes"]["availability"]
         labels.append(f"Availability：{availability_label(old) or '—'} → {availability_label(new) or '—'}")
@@ -1049,11 +965,10 @@ def build_message(total, added, changed, removed, initial=False):
     if initial:
         return f"### {keyword} Spark Model 监控已启动\n\n已记录 Formula 1 商品，共 **{total}** 件。"
     cover_changes = sum("image_url" in item["changes"] for item in changed)
-    gallery_changes = sum("shop_image_urls" in item["changes"] for item in changed)
     availability_changes = sum("availability" in item["changes"] for item in changed)
     sections = [
         f"### {keyword} Spark Model 变化提醒",
-        f"Formula 1 当前 **{total}** 件；新增 **{len(added)}**，封面变化 **{cover_changes}**，Shop 图库变化 **{gallery_changes}**，Availability 变化 **{availability_changes}**，下架 **{len(removed)}**。",
+        f"Formula 1 当前 **{total}** 件；新增 **{len(added)}**，封面变化 **{cover_changes}**，Availability 变化 **{availability_changes}**，下架 **{len(removed)}**。",
     ]
     for title, items, formatter in (("新增", added, line), ("字段变化", changed, changed_line), ("下架", removed, line)):
         if items:
