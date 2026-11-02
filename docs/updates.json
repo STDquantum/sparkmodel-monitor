@@ -1,6 +1,482 @@
 {
   "updates": [
     {
+      "date": "2026-11-02T18:44:24.470233+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919aa52720db1d38c984d6611f9",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919aa52720db1d38c984d6611f9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537252581",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/be/4b/8b/1784795222/00_537252581_019f8e15.jpg?ts=1784795222",
+              "after": "https://www.minichamps.de/media/ab/24/61/1793624305/00_537252581.jpg?ts=1793624305"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019a8919aa52720db1d38c984d6611f9-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 4,
+            "hashes": {
+              "images/minichamps-019a8919aa52720db1d38c984d6611f9-1.jpg": "518cdaaf01973af763fa9fad71c7f793170891b8461f26a10ea1654eb72cdb4b"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919b9da704b9258d7e7c8052159",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - AUSTRALIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919b9da704b9258d7e7c8052159?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530256481",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/57/9a/b6/1784795191/00_530256481_019f8e15.jpg?ts=1784795191",
+              "after": "https://www.minichamps.de/media/59/d0/34/1793624565/00_530256481.jpg?ts=1793624565"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 2,
+            "hashes": {
+              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg": "9606ebd3508d0f39e2299f263db02771165151d911e7d5c97c80fac5ad4f0f7f"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f27d71289a1cf73da2ba06ab",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f27d71289a1cf73da2ba06ab?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530257504",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/40/26/e5/1788465250/00_530257504_01a068d6.jpg?ts=1788465250",
+              "after": "https://www.minichamps.de/media/03/c5/8a/1793621006/00_530257504.jpg?ts=1793621006"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 2,
+            "hashes": {
+              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg": "688ff95b16ac51ade4bcd5bf608e714639241bd52e2be5481124f1104db6a484"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f74570718a513af8f72e4e9d",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f74570718a513af8f72e4e9d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537255404",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/ee/02/99/1790796767/00_537255404_01a0f3ce.jpg?ts=1790796767",
+              "after": "https://www.minichamps.de/media/53/c9/0a/1793623387/00_537255404.jpg?ts=1793623387"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 2,
+            "hashes": {
+              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg": "47f6b0c9fe41b2b1faa33de5350ab1a7523d32e2d9ea67c9bb51c48e369c223b"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261012",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/117261012",
+          "product_number": "117261012",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261312",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER ITALY GP 2026 W FIGURINE, POSITION, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-ITALY-GP-2026-W-FIGURINE-POSITION-PITBOARD-AND-TROPHY/117261312",
+          "product_number": "117261312",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261412",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPANISH GP 2026 W FIGURINE AND POSITION BOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPANISH-GP-2026-W-FIGURINE-AND-POSITION-BOARD/117261412",
+          "product_number": "117261412",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261831",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/117261831",
+          "product_number": "117261831",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261887",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/117261887",
+          "product_number": "117261887",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261012",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/417261012",
+          "product_number": "417261012",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261312",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER ITALY GP 2026 W FIGURINE, POSITION, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-ITALY-GP-2026-W-FIGURINE-POSITION-PITBOARD-AND-TROPHY/417261312",
+          "product_number": "417261312",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261412",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPANISH GP 2026 W FIGURINE AND POSITION BOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPANISH-GP-2026-W-FIGURINE-AND-POSITION-BOARD/417261412",
+          "product_number": "417261412",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261831",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/417261831",
+          "product_number": "417261831",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261887",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/417261887",
+          "product_number": "417261887",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261950",
+          "name": "TGR HAAS F1 TEAM VF-26 - RYO HIRAKAWA - FIRST POINT MEXICO GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-RYO-HIRAKAWA-FIRST-POINT-MEXICO-GP-2026/417261950",
+          "product_number": "417261950",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261012",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/640261012",
+          "product_number": "640261012",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261312",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER ITALY GP 2026 W FIGURINE, POSITION, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-ITALY-GP-2026-W-FIGURINE-POSITION-PITBOARD-AND-TROPHY/640261312",
+          "product_number": "640261312",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261412",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPANISH GP 2026 W FIGURINE AND POSITION BOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPANISH-GP-2026-W-FIGURINE-AND-POSITION-BOARD/640261412",
+          "product_number": "640261412",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261831",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/640261831",
+          "product_number": "640261831",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261887",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/640261887",
+          "product_number": "640261887",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661384",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/640260312",
+          "product_number": "640260312",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-02T08:27:01.471583+00:00",
       "entries": [
         {
@@ -19320,19 +19796,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg",
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-2.jpg",
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-1.jpg": "c403d6b59885ea9f1cb9cb7957b13490eef0ba173423d6bcc79752dde5d5fef6",
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-2.jpg": "a139cd34c97d7865aab87b74ef4dba0d4872a7aa84143da5bbc552de0b42e70e",
-              "images/minichamps-019a8919b9da704b9258d7e7c8052159-3.jpg": "78e0ac66bbbaec07c557e3b87270e133d55d5eef300d421dbf0c55b9a8634030"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -43755,12 +44223,7 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-2.jpg",
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-3.jpg",
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-4.jpg",
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-5.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -43769,12 +44232,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-2.jpg": "ad43c46f598c95162e8e72d54345f4a0bb4470d9377e2cc1461ae03ddc00ec48",
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-3.jpg": "ca4e49555890621b9bd2750efed7805de098aad761395b52742d1e91fdd9a910",
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-4.jpg": "a19f733509bf412c811844906970dfffb1fe618631d13d3e1db27797f6ace38a",
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-5.jpg": "bb5c08ef481e2045863a2b5314f28621103279447228e22323c6f641ac41ac45"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
@@ -44855,10 +45313,7 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-2.jpg",
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -44867,10 +45322,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-2.jpg": "ddff8cb142534b5ac88d3044624e917ff4b320d12c850d5b296cc666f8a8222d",
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-3.jpg": "c0dcbaf8e73facf511311fc950b123b7f19fe5f853dff17db2f491760fe4717d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -44987,10 +45439,7 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-2.jpg",
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -44999,10 +45448,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-2.jpg": "c0456665be99c4d9693cdcb77b35ffd74e2fa3d6a4d7968bd73a0a622e8fa8fa",
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-3.jpg": "15905ed1aaf375977bda0afda20b99d1963eb9753219570950d26967ba4c4e3a"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -47110,15 +47556,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-1.jpg": "e9b10ce2e3b1110b8a334d019948089e25d3d100339ec185a86366926f996e2f"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -47958,15 +48400,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg": "575ad3951245a1da72a98fc0de402339987fec1dd17dfe9bc26f13d2c1fa0590"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -48054,15 +48492,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg": "d523f19b50b8eb107e266da460f12c5f760bc930a4c45938de28a851025373fb"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -50647,15 +51081,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919aa52720db1d38c984d6611f9-1.jpg": "e9b10ce2e3b1110b8a334d019948089e25d3d100339ec185a86366926f996e2f"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -51495,15 +51925,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f27d71289a1cf73da2ba06ab-1.jpg": "575ad3951245a1da72a98fc0de402339987fec1dd17dfe9bc26f13d2c1fa0590"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -51591,15 +52017,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg": "d523f19b50b8eb107e266da460f12c5f760bc930a4c45938de28a851025373fb"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
