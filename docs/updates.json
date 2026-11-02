@@ -1,6 +1,70 @@
 {
   "updates": [
     {
+      "date": "2026-11-02T02:42:14.108678+00:00",
+      "description": "图片专项对比：以 2026年10月27日 05:49 更新之前的 Sparkmodelshop 商品图片为基线，按货号对应当前目录。",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64034",
+          "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls64034-de",
+          "product_number": "LS64034",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS64034-2.webp",
+              "images/shop-ferrari-LS64034-3.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS64034-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS64034-2.webp": "cf1dd079ecc8254ba16d91078da6e2847194436efc03243881de8dc8f26fca52",
+              "images/shop-ferrari-LS64034-3.webp": "1a6fc37064e73d215fd4369507dcbe86ada686ffdd1b7529e11d23ad0b33c363",
+              "images/shop-ferrari-LS64034-1.webp": "df0e73a8a2aa3b839f8fff73fa555361a0ce6d1267a000bcb8017dc75cbbd089"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64036",
+          "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/ls64036-de",
+          "product_number": "LS64036",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS64036-2.webp",
+              "images/shop-ferrari-LS64036-3.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS64036-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS64036-2.webp": "068719e03524a60283868efe6a5a8a792c2c93a8626cab3215298ed94d9d13b6",
+              "images/shop-ferrari-LS64036-3.webp": "4c12ef39f52c9b0c0b96149dbc48aa5614341304b15073880822d5a36d077ecd",
+              "images/shop-ferrari-LS64036-1.webp": "aa934b472882641fd8c5f7c37043bd1f35e25ee4149ecffa1e3da8df182851de"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-31T08:06:17.194608+00:00",
       "entries": [
         {
@@ -15385,16 +15449,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20777-1.jpg",
-              "images/looksmart-20777-2.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 1,
-            "hashes": {
-              "images/looksmart-20777-1.jpg": "e7d3481ccc9b01f3b7954cf2fbce731c4b54b960fbe84dbf14248ff64f822a18",
-              "images/looksmart-20777-2.jpg": "4fc84637f121189b8b1075a686364ed5acd92a5411a0b1eaeebe2a89f5348a44"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15417,16 +15475,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20779-1.jpg",
-              "images/looksmart-20779-2.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 10,
-            "hashes": {
-              "images/looksmart-20779-1.jpg": "4e20b8613c9d45cb58400df23627080e091bfcedcf17e8f28e35b48de47d43e5",
-              "images/looksmart-20779-2.jpg": "283df46e4bb7439134740dbf5f0ee441b349c096589ffc98947ccc2c3fc5a9c0"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15449,16 +15501,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20780-1.jpg",
-              "images/looksmart-20780-2.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 1,
-            "hashes": {
-              "images/looksmart-20780-1.jpg": "ee25e004c60128e692c63d36a91835174b89f7dc43a3a670c21643d6e130b440",
-              "images/looksmart-20780-2.jpg": "f04a2974cfc58358ebd46905f73fa9a1ab9fda8b7a2c7b6870238165d300fb4b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15481,14 +15527,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20782-1.png"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 2,
-            "hashes": {
-              "images/looksmart-20782-1.png": "5c9f66b643ccd6df0ff33b1576d8141fe58d3f9a7ac8be2145094424f884dfac"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15511,16 +15553,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20784-1.jpg",
-              "images/looksmart-20784-2.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 10,
-            "hashes": {
-              "images/looksmart-20784-1.jpg": "c457f8d473692cd3aa59046acbe683c09c6ba008a67847734792b13569933682",
-              "images/looksmart-20784-2.jpg": "3a38b9971bc8ce9f31d2cd6efe2127af8ac4643bc7ca61fc8d858a21ffaf7c56"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15543,16 +15579,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20785-1.jpg",
-              "images/looksmart-20785-2.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 1,
-            "hashes": {
-              "images/looksmart-20785-1.jpg": "2ee0840bfc1635e2445040805d75fe1d225ce6ebe66685de7a1331530a29739b",
-              "images/looksmart-20785-2.jpg": "88edfc5dd45b3787296bfe2923418bf3f47fd9573b8eb39e66ab6d02037638ad"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15575,14 +15605,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20806-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 11,
-            "hashes": {
-              "images/looksmart-20806-1.jpg": "379de147e127cb42dd6ea87a49d9cd6203ee93935178b17c0472dec062a392b8"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15605,14 +15631,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20808-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 12,
-            "hashes": {
-              "images/looksmart-20808-1.jpg": "8f06465b5bbc09dee19d729453ea25229e3ec6c644bdad51b4c9a68741348228"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15635,16 +15657,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20810-1.jpg",
-              "images/looksmart-20810-2.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 1,
-            "hashes": {
-              "images/looksmart-20810-1.jpg": "5c31a152a8aa8fdcb5de2ea29784decb2af821a0d2f40ff542e6bfff419da942",
-              "images/looksmart-20810-2.jpg": "9d5bbbce47d4791f64b11cf06baa6a84dd0fcb5b82a520726622f33391907a02"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15667,14 +15683,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20811-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 2,
-            "hashes": {
-              "images/looksmart-20811-1.jpg": "8f06465b5bbc09dee19d729453ea25229e3ec6c644bdad51b4c9a68741348228"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15697,14 +15709,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20958-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-20958-1.jpg": "67b77c667ade3c2ef052344ce2211d37fd0d5699d13342f1a31204ee595ab279"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15727,14 +15735,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20960-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 2,
-            "hashes": {
-              "images/looksmart-20960-1.jpg": "67b77c667ade3c2ef052344ce2211d37fd0d5699d13342f1a31204ee595ab279"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15757,14 +15761,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20961-1.png"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-20961-1.png": "5c9f66b643ccd6df0ff33b1576d8141fe58d3f9a7ac8be2145094424f884dfac"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15787,14 +15787,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20963-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-20963-1.jpg": "33571c8a9ef8158cd2b90b939f1c62d72f9e329205fb156c15631b322cadfd48"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15817,14 +15813,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20965-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 2,
-            "hashes": {
-              "images/looksmart-20965-1.jpg": "33571c8a9ef8158cd2b90b939f1c62d72f9e329205fb156c15631b322cadfd48"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15847,14 +15839,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-20966-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-20966-1.jpg": "33571c8a9ef8158cd2b90b939f1c62d72f9e329205fb156c15631b322cadfd48"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15877,14 +15865,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21011-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21011-1.jpg": "92691b95bb5e877bf2e819754ef70e092325ba5d57cd7d38492fd77ba49a95bc"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15907,14 +15891,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21012-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21012-1.jpg": "92691b95bb5e877bf2e819754ef70e092325ba5d57cd7d38492fd77ba49a95bc"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15937,14 +15917,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21014-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21014-1.jpg": "92691b95bb5e877bf2e819754ef70e092325ba5d57cd7d38492fd77ba49a95bc"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15967,14 +15943,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21038-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21038-1.jpg": "b0fbebfb614fd1f92ef23986fbffaeae7255263fd7cc9e0cdc2fa0676c11d2cf"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -15997,14 +15969,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21040-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21040-1.jpg": "b0fbebfb614fd1f92ef23986fbffaeae7255263fd7cc9e0cdc2fa0676c11d2cf"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16027,14 +15995,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21041-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21041-1.jpg": "b0fbebfb614fd1f92ef23986fbffaeae7255263fd7cc9e0cdc2fa0676c11d2cf"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16057,14 +16021,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21042-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21042-1.jpg": "b0fbebfb614fd1f92ef23986fbffaeae7255263fd7cc9e0cdc2fa0676c11d2cf"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16087,14 +16047,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21137-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21137-1.jpg": "682f9ff065f38dcf2525ae5e1fa0650cbb4117eda84ff76f93d22ac1fedb4b40"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16117,14 +16073,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21139-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21139-1.jpg": "682f9ff065f38dcf2525ae5e1fa0650cbb4117eda84ff76f93d22ac1fedb4b40"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16147,14 +16099,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21141-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21141-1.jpg": "682f9ff065f38dcf2525ae5e1fa0650cbb4117eda84ff76f93d22ac1fedb4b40"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16177,14 +16125,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21142-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21142-1.jpg": "682f9ff065f38dcf2525ae5e1fa0650cbb4117eda84ff76f93d22ac1fedb4b40"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16207,14 +16151,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21143-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21143-1.jpg": "b1f9821f5e6ef9d936b67f8ded01cb4cabad659409664608e4b850c1a45211d4"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16237,14 +16177,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21146-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21146-1.jpg": "b1f9821f5e6ef9d936b67f8ded01cb4cabad659409664608e4b850c1a45211d4"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16267,14 +16203,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21160-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21160-1.jpg": "cf7e9ec6df9c4a5c6632865cd892ffca8fd646dc0ee84a31b89042f6536cfcb5"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16297,14 +16229,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21162-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21162-1.jpg": "cf7e9ec6df9c4a5c6632865cd892ffca8fd646dc0ee84a31b89042f6536cfcb5"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16327,14 +16255,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21163-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21163-1.jpg": "e4fa961115166799ae496a995ffaac21efcea9c2329ef309d262a998c39831ce"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16357,14 +16281,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21165-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21165-1.jpg": "e4fa961115166799ae496a995ffaac21efcea9c2329ef309d262a998c39831ce"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16387,14 +16307,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21348-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21348-1.jpg": "7ba04c85a1e88c58de0e5e0118a2c36131f469d20ffa5ee68ef655c2e3b99827"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16417,14 +16333,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21351-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21351-1.jpg": "7ba04c85a1e88c58de0e5e0118a2c36131f469d20ffa5ee68ef655c2e3b99827"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16447,14 +16359,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21352-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21352-1.jpg": "6b9c30a9a06d3cfea178f5589485059f2c34e77bcc464d084596a598d5ec0855"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16477,14 +16385,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21354-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21354-1.jpg": "6b9c30a9a06d3cfea178f5589485059f2c34e77bcc464d084596a598d5ec0855"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16507,14 +16411,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21384-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21384-1.jpg": "7ba04c85a1e88c58de0e5e0118a2c36131f469d20ffa5ee68ef655c2e3b99827"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16537,14 +16437,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21387-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21387-1.jpg": "6b9c30a9a06d3cfea178f5589485059f2c34e77bcc464d084596a598d5ec0855"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16567,14 +16463,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21437-1.jpeg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21437-1.jpeg": "5e58c55bc27f6c6ec447ef1187f9c0822b96636898583ab749f3211bcf075b34"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16597,14 +16489,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21439-1.jpeg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21439-1.jpeg": "5e58c55bc27f6c6ec447ef1187f9c0822b96636898583ab749f3211bcf075b34"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -16627,14 +16515,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/looksmart-21440-1.jpeg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/looksmart-21440-1.jpeg": "5e58c55bc27f6c6ec447ef1187f9c0822b96636898583ab749f3211bcf075b34"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,

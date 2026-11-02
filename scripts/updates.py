@@ -163,6 +163,8 @@ def publish():
             entries.append({"type": "added" if old is None else "changed", "id": product_id, "name": new["name"], "url": new.get("url", ""), **product_meta(new), "fields": fields, "images": images})
     if not entries:
         history = json.loads(REPORT.read_text(encoding="utf-8")) if REPORT.exists() else {"updates": []}
+        prune_old_images(history)
+        REPORT.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         write_report_js(history)
         print("No catalogue changes; update report unchanged")
         return
