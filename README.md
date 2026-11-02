@@ -86,7 +86,6 @@ python scripts/refresh_carmodel.py --build
 | --- | --- |
 | 默认参数 | 采集配置范围内的 Carmodel 商品，保存商品快照 |
 | `--build` | 生成商品详情、图片、目录及差异记录 |
-| `--resume` | 使用 `tmp/carmodel/` 中的检索缓存 |
 
 Carmodel 使用 Encyclopedia（`enc=1`）检索，覆盖符合年份、品牌和车型条件的各类商品状态，支持分页与 Show all。商品以 Carmodel ID 去重，货号、比例和套装作为商品信息保存。`Catalogue` 对应目录收录状态，`Expected release` 保存来源提供的季度信息。
 
@@ -114,7 +113,7 @@ python scripts/updates.py
 
 钉钉通知覆盖初始化及商品差异，每类最多展开 20 件商品。通知成功是对应快照写入的条件。检索失败、详情抓取失败及空图库使用快照或目录中的对应数据，运行输出提供失败信息。
 
-Carmodel 对 HTTP 401、403、429 采用来源级终止策略；临时网络错误与部分服务端错误的尝试上限为 3 次，请求超时为 20 秒，重试间隔为 2、4 秒。来源访问诊断入口为 `python scripts/carmodel_probe.py`，输出包括 HTTP 状态与商品卡片数。
+Carmodel 对 HTTP 401、403、429 采用来源级终止策略；网络错误与部分服务端错误的尝试上限为 3 次，请求超时为 20 秒，重试间隔为 2、4 秒。
 
 差异记录的默认比较基线为 `HEAD`。指定提交或分支的命令：
 
@@ -166,8 +165,6 @@ Spark 与 Sparkmodelshop 按货号去重，Spark 官网条目具有优先级。S
 
 云端采集来源为 Spark、Looksmart 和 Minichamps，Carmodel 数据取自仓库。目录与差异记录的生成条件为 `data/state.json` 与仓库存在差异。工作流将 `data/state.json` 与 `docs/` 中的差异提交并推送，所需权限为 `contents: write`，提交行为受分支保护规则约束。
 
-`Carmodel connectivity probe` 工作流的 PR 检查范围为脚本和数据路径。手动诊断提供网站访问测试，`browser` 选项提供浏览器式连接与 Chromium 测试。
-
 ### 静态站点配置
 
 GitHub Pages 的发布内容为仓库中的完整 `docs/` 目录。在 **Settings → Pages** 选择 **Deploy from a branch**，指定项目分支和 `/docs` 目录，页面提供站点地址。
@@ -182,7 +179,6 @@ GitHub Pages 的发布内容为仓库中的完整 `docs/` 目录。在 **Setting
 | `scripts/paths.py` | 项目路径配置 |
 | `scripts/catalog.py` | 详情采集、图片下载与目录生成 |
 | `scripts/carmodel.py` / `scripts/refresh_carmodel.py` | Carmodel 解析与 Burago 本地采集 |
-| `scripts/carmodel_probe.py` | Carmodel 网站访问诊断 |
 | `scripts/updates.py` | Git 基线比较与差异记录生成 |
 | `浏览目录.bat` / `管理商品与时间.bat` / `更新比美高.bat` | Windows 操作入口 |
 | `scripts/serve_local.py` / `scripts/run_local.bat` | 本地服务与共享启动逻辑 |
