@@ -1,6 +1,74 @@
 {
   "updates": [
     {
+      "date": "2026-11-02T08:27:01.471583+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660038",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - KIMI ANTONELLI – WINNER CHINESE GP 2026 W/PITBOARD",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-CHINESE-GP-2026-W-PITBOARD/117260212",
+          "product_number": "117260212",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/01/05/e5/1790796761/00_117260212_01a0f3ce.jpg?ts=1790796761",
+              "after": "https://www.minichamps.de/media/58/8d/8a/1793605473/00_117260212.jpg?ts=1793605473"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1660038-1.jpg"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              },
+              {
+                "from": 5,
+                "to": 6
+              },
+              {
+                "from": 6,
+                "to": 7
+              },
+              {
+                "from": 7,
+                "to": 8
+              },
+              {
+                "from": 8,
+                "to": 9
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1660038-1.jpg": "3bdb0e31a839050eb888a71ffd7d9cb0678a2ba1d262b8e0322b5bec21e0128a"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-02T03:15:29.263652+00:00",
       "entries": [
         {
@@ -42203,30 +42271,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1660038-2.jpg",
-              "images/minichamps-minichamps-1660038-3.jpg",
-              "images/minichamps-minichamps-1660038-4.jpg",
-              "images/minichamps-minichamps-1660038-5.jpg",
-              "images/minichamps-minichamps-1660038-6.jpg",
-              "images/minichamps-minichamps-1660038-7.jpg",
-              "images/minichamps-minichamps-1660038-8.jpg"
-            ],
-            "changed": [
-              "images/minichamps-minichamps-1660038-1.jpg"
-            ],
+            "added": [],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1660038-2.jpg": "47d198bee2046b98ed72eec40136494de3ce815dbea13da1a809cc8bd03a9eb4",
-              "images/minichamps-minichamps-1660038-3.jpg": "3d23f092b12b69d028f6e76f7b0fe64bfa922f41a70c2354f54d6d3713cd03b0",
-              "images/minichamps-minichamps-1660038-4.jpg": "5c4a96020188d2a41ebcbe8ba9c096f404a21d6e9b4bd6e9f1b25eca579dad8d",
-              "images/minichamps-minichamps-1660038-5.jpg": "3de63a85e74fe6abaf00b4cd979aa360b71c2f305afe5c38cb7fb99def165045",
-              "images/minichamps-minichamps-1660038-6.jpg": "89d39787cd24aa07b2157cb8a6723dc15cd50c488a30a53aef9f9d5d3039926a",
-              "images/minichamps-minichamps-1660038-7.jpg": "2965bf4dfc876e121707a6afcf4f38709bc6df7c0c465ee9f80d0d0cee2919c0",
-              "images/minichamps-minichamps-1660038-8.jpg": "c8848943a88888605d96fa17837e0daae546063a480bb48c93de3f6e052cbbc1",
-              "images/minichamps-minichamps-1660038-1.jpg": "089fcfce6862b8b16757cc190c9efae762c3f607cd9484daf0e92880d1495b9e"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 7,
