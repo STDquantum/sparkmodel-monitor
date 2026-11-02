@@ -1,6 +1,424 @@
 {
   "updates": [
     {
+      "date": "2026-11-02T03:15:29.263652+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "burago-191768",
+          "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 18 SEASON 2025 LANCE STROLL",
+          "url": "https://www.carmodel.com/burago/18-28522-kit/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-18-season-2025-lance-stroll/191768",
+          "product_number": "18-28522-KIT",
+          "scale": "1/24",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "31.45",
+              "after": "33.20"
+            },
+            {
+              "field": "Expected release",
+              "before": "Available within quarter 4/2026",
+              "after": ""
+            },
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/191768_1-3.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/191768_1-4.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/burago-191768-3.jpg",
+              "images/burago-191768-4.jpg"
+            ],
+            "changed": [
+              "images/burago-191768-1.jpg",
+              "images/burago-191768-2.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-191768-3.jpg": "70143306d663a9af186d037a35b5ec95456cb3fca123d08740087516be6cbdcb",
+              "images/burago-191768-4.jpg": "22fd2cebfc0cc0a48a6f0826b442ce97808e1628f4dfc68f2d01ca2270928b4f",
+              "images/burago-191768-1.jpg": "d11fc601426d084c4d180b9889cdb771f784568e56d02bd7bee45072179dd207",
+              "images/burago-191768-2.jpg": "f032ae14a715570bc84afbf89808cb8ba202a900ff9d445797c60439a4fa4b2a"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 2
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-191769",
+          "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO",
+          "url": "https://www.carmodel.com/burago/18-28521-kit/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso/191769",
+          "product_number": "18-28521-KIT",
+          "scale": "1/24",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "31.45",
+              "after": "33.20"
+            },
+            {
+              "field": "Expected release",
+              "before": "Available within quarter 4/2026",
+              "after": ""
+            },
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/191769_1-5.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/191769_1-6.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/burago-191769-3.jpg",
+              "images/burago-191769-4.jpg"
+            ],
+            "changed": [
+              "images/burago-191769-1.jpg",
+              "images/burago-191769-2.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-191769-3.jpg": "5b18a0639499ea71284b333f6c58e0c654c6a71749900b804ff6d65ca54b5e24",
+              "images/burago-191769-4.jpg": "68bf121fa28d2aaae3b740d74dc3a548e3d09ccd10a712d790b7308613b28a61",
+              "images/burago-191769-1.jpg": "e6e7ce40ab5beeeaae18551f864be2951a888edef33d64993bba88de8680c0ba",
+              "images/burago-191769-2.jpg": "672682a14c068f669477f5dcc86ddf4fe348f50d5b090163eab83ae8f76fe342"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 2
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-191776",
+          "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO",
+          "url": "https://www.carmodel.com/burago/18-38250-a/1-43/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso/191776",
+          "product_number": "18-38250-A",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Catalogue"
+            },
+            {
+              "field": "价格",
+              "before": "10.40",
+              "after": "10.95"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-197133",
+          "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
+          "url": "https://www.carmodel.com/burago/18-18005-1/1-18/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen/197133",
+          "product_number": "18-18005-1",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "71.95",
+              "after": "75.95"
+            },
+            {
+              "field": "EAN",
+              "before": "4893993180059",
+              "after": "4893993023820"
+            },
+            {
+              "field": "Expected release",
+              "before": "Available within quarter 4/2026",
+              "after": ""
+            },
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/197133_1-2.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/197133_1-3.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/burago-197133-5.jpg",
+              "images/burago-197133-6.jpg",
+              "images/burago-197133-7.jpg",
+              "images/burago-197133-8.jpg",
+              "images/burago-197133-9.jpg",
+              "images/burago-197133-10.jpg",
+              "images/burago-197133-11.jpg"
+            ],
+            "changed": [
+              "images/burago-197133-1.jpg",
+              "images/burago-197133-2.jpg",
+              "images/burago-197133-3.jpg",
+              "images/burago-197133-4.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-197133-5.jpg": "342c48ec9d9eeedfc30f42c63d1e7baa2d410bb172fcf94d09ca88816db26e67",
+              "images/burago-197133-6.jpg": "d67d678b1f08d3cef2537660f19ca3014b95684513d1bb5a6b66988a8f0eb59e",
+              "images/burago-197133-7.jpg": "343211f80fa990c4a2682712bfd580a82883f1860e32436535b051678adbe77f",
+              "images/burago-197133-8.jpg": "4adc86a6db6bd70797b959af2f206aa8ef65b42a2741ef2a22efb8cce7c6bda4",
+              "images/burago-197133-9.jpg": "05e38da96acb70e6a5f3d2cf875a23d9c89bf561eb8a79c901c556a13548ac7a",
+              "images/burago-197133-10.jpg": "894607774f4c8e86641a968e425adc107e16b1c7bc408e9ebf4059d9fe07c4b5",
+              "images/burago-197133-11.jpg": "f6f20ae1391cfd88f692cb264d15c3184e28354f8ed6882b937ce44f339670e5",
+              "images/burago-197133-1.jpg": "25b3e56c9537dd58fd68105b93d5015734bf4782def792db469a6794b3312ce7",
+              "images/burago-197133-2.jpg": "feac01c86be576b5d0d4047b2039442f0864f4f318156dd1b8238b1f20c3c964",
+              "images/burago-197133-3.jpg": "ab2283681d2705efae101c941fc655b3270e37fe4a07050cfb41f5745fc963b6",
+              "images/burago-197133-4.jpg": "f7084e50eaacae84569d5f6781946a2cd5e2439cd45c4207943ee615cd661552"
+            }
+          },
+          "image_counts": {
+            "added": 7,
+            "changed": 4
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-201842",
+          "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 WINNER JAPAN GP 2025 MAX VERSTAPPEN - WITH PLASTIC BASE AND PILOT",
+          "url": "https://www.carmodel.com/burago/18-18051-kit/1-18/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-winner-japan-gp-2025-max-verstappen-with-plastic-base-and-pilot/201842",
+          "product_number": "18-18051-KIT",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "71.95",
+              "after": "75.95"
+            },
+            {
+              "field": "Expected release",
+              "before": "Available within quarter 4/2026",
+              "after": ""
+            },
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/201842_1-2.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/201842_1-3.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/burago-201842-4.jpg"
+            ],
+            "changed": [
+              "images/burago-201842-1.jpg",
+              "images/burago-201842-2.jpg",
+              "images/burago-201842-3.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-201842-4.jpg": "7d9b31127f75a828c84949cf4e17131de788888d8b866a4168c34cce1e9d7e38",
+              "images/burago-201842-1.jpg": "f3156dbae8f477d71ebac2fb509c3d1d449612f8f96adc6089e041cc09242804",
+              "images/burago-201842-2.jpg": "097b62ee29b6a22fbebd3e3905d96022034f5d3d8f6b3182004b566bc80e2004",
+              "images/burago-201842-3.jpg": "45d184ede146051597b54cda2b4665852f9553ddd2f0dc05e9fad9dd5ac431f6"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-201843",
+          "name": "FERRARI F1 SF-25 TEAM SCUDERIA FERRARI HP SF25 N 16 SEASON 2025 CHARLES LECLERC - WITH PLASTIC BASE AND PILOT",
+          "url": "https://www.carmodel.com/burago/18-16851-kit/1-18/ferrari/f1-sf-25-team-scuderia-ferrari-hp-sf25-n-16-season-2025-charles-leclerc-with-plastic-base-and-pilot/201843",
+          "product_number": "18-16851-KIT",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "71.95",
+              "after": "75.95"
+            },
+            {
+              "field": "Expected release",
+              "before": "Available within quarter 4/2026",
+              "after": ""
+            },
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/201843_1-2.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/201843_1-3.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/burago-201843-1.jpg",
+              "images/burago-201843-2.jpg",
+              "images/burago-201843-3.jpg",
+              "images/burago-201843-4.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-201843-1.jpg": "d1626dec1dbb93de0ab2a5d94e6de7fdf7fa822f810430316c007fc4295d5b04",
+              "images/burago-201843-2.jpg": "f7ca13165611c1dd949703583d24f0c372b928a55a4c6f57fe16886304c21216",
+              "images/burago-201843-3.jpg": "287e59c12012ff39aa4293431cded0ae54343c016c8c89e10b0d243e9113d62e",
+              "images/burago-201843-4.jpg": "cb3d36a596a7ce0b0055b4f0c68996cf8e7a4189af8bf339148f9784096a1f19"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 4
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-201844",
+          "name": "FERRARI F1 SF-25 TEAM SCUDERIA FERRARI HP SF25 N 44 SEASON 2025 LEWIS HAMILTON - WITH PLASTIC BASE AND PILOT",
+          "url": "https://www.carmodel.com/burago/18-16852-kit/1-18/ferrari/f1-sf-25-team-scuderia-ferrari-hp-sf25-n-44-season-2025-lewis-hamilton-with-plastic-base-and-pilot/201844",
+          "product_number": "18-16852-KIT",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Coming soon",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "71.95",
+              "after": "75.95"
+            },
+            {
+              "field": "Expected release",
+              "before": "Available within quarter 4/2026",
+              "after": ""
+            },
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/201844_1-2.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/201844_1-3.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/burago-201844-1.jpg",
+              "images/burago-201844-2.jpg",
+              "images/burago-201844-3.jpg",
+              "images/burago-201844-4.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-201844-1.jpg": "df49d39da1b1480958618bbb1ab83a47ddb9a51be8c692ac2e05d8349fba2760",
+              "images/burago-201844-2.jpg": "037bc7b3fd7da420f4c95feec074ad390f0bdb6b3471e4bd3727f5e0bfa2846b",
+              "images/burago-201844-3.jpg": "f101bed6531fc1b9e0ca5f2d41ad472c987c2789125ab3cd7742fe462979c5b2",
+              "images/burago-201844-4.jpg": "72d5c8103483acad4921a68582520c317d0ba635bf5337d46ed2280360883d78"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 4
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-203682",
+          "name": "FERRARI F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 44 SEASON 2026 LEWIS HAMILTON",
+          "url": "https://www.carmodel.com/burago/18-16817h/1-18/ferrari/f1-sf-26-team-scuderia-ferrari-hp-sf26-n-44-season-2026-lewis-hamilton/203682",
+          "product_number": "18-16817H",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://bucket.carmodel.com/images/310-228/203682_1-2.webp",
+              "after": "https://bucket.carmodel.com/images/310-228/203682_1-4.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/burago-203682-10.jpg",
+              "images/burago-203682-11.jpg",
+              "images/burago-203682-12.jpg"
+            ],
+            "changed": [
+              "images/burago-203682-1.jpg",
+              "images/burago-203682-2.jpg",
+              "images/burago-203682-3.jpg",
+              "images/burago-203682-4.jpg",
+              "images/burago-203682-5.jpg",
+              "images/burago-203682-6.jpg",
+              "images/burago-203682-7.jpg",
+              "images/burago-203682-8.jpg",
+              "images/burago-203682-9.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-203682-10.jpg": "b477bc76df66ff81501c3acc120776ca6451af1a8c7f23dec7a81de2ad8d4660",
+              "images/burago-203682-11.jpg": "c57b2fa28ee25cf3ceb1a07bf9adaf05697e52efcb22b173e093803b2a430926",
+              "images/burago-203682-12.jpg": "126f5d47c305902bfd94db4e403316a63f7bc43baabc80958960333751dd4041",
+              "images/burago-203682-1.jpg": "335a4fa297b22c84a6deb3423e0b85ec92c554633689b9b65945a8a9ef156d03",
+              "images/burago-203682-2.jpg": "5a957e8df10b25974faa2aa1a8770dd3f085b6b8f0b4fc03818cfe05a9200c55",
+              "images/burago-203682-3.jpg": "5e725b006032ec6989ba7655bc377984c1668e593d289ed5c4c5a0b54c9dfc15",
+              "images/burago-203682-4.jpg": "e2b6edc54b279ad89ad4a5062e1de3792f1d39494e4cb321ce721096ccc6461f",
+              "images/burago-203682-5.jpg": "30458505f0b9be1137abb833b977134ca248f1df60d4ee9afc4bd91c2a368ea5",
+              "images/burago-203682-6.jpg": "b5513fe7b5c3c81c6fdd502341e8c88814ea3a0ef661de1697a2841061f3f2c5",
+              "images/burago-203682-7.jpg": "f36fd53f661caaaf50e7efbaa42794233f378d2176c27c6820f0fff20ff2ba14",
+              "images/burago-203682-8.jpg": "323b5836098a175f2211d6548ad2bec289e867373bba95490df905efc5fcdaed",
+              "images/burago-203682-9.jpg": "f338b4728635e900780afdb801c2954ffdc138e499e0d2f1f82fc7e7fd52ba8e"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 9
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-02T02:42:14.108678+00:00",
       "description": "图片专项对比：以 2026年10月27日 05:49 更新之前的 Sparkmodelshop 商品图片为基线，按货号对应当前目录。",
       "entries": [
@@ -19994,17 +20412,11 @@
           "scale": "1/24",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-191768-1.jpg",
-              "images/burago-191768-2.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-191768-1.jpg": "03a38f94af3c7b61168835d0388d503e8258744e9c0b651b1be26182da67d5b1",
-              "images/burago-191768-2.jpg": "8f555aa3d11c1e91f69362d30da7b6fa0b301c0b58080dafd530653fca330daa"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -20020,17 +20432,11 @@
           "scale": "1/24",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-191769-1.jpg",
-              "images/burago-191769-2.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-191769-1.jpg": "0cf5840533850a7292110eb71887a52e25e5edef8b1ed33aa38f37c738c6bab4",
-              "images/burago-191769-2.jpg": "162a5e7fc734dac05fdce74b585c5655406cc54116b1ced33363e67304c38a09"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -21536,21 +21942,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-197133-1.jpg",
-              "images/burago-197133-2.jpg",
-              "images/burago-197133-3.jpg",
-              "images/burago-197133-4.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-197133-1.jpg": "0bab41cfb607585f906b379317114660b5f34773ea1fe06c0e24eda32255229d",
-              "images/burago-197133-2.jpg": "e7a033361b08abdc2c76bfe6c60c0f36459e82f2c772ef9ecffb51ca121fc4d4",
-              "images/burago-197133-3.jpg": "f0fb5d5c78aa51ad3cbdbbae3f955764fced20a45cb01ad7e8e5b25194be850f",
-              "images/burago-197133-4.jpg": "0b88fd7067a4ce9f1148d131ef2a55a06f77c24a3073bce77ebacc06257a25e4"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
@@ -21912,19 +22308,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-201842-1.jpg",
-              "images/burago-201842-2.jpg",
-              "images/burago-201842-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-201842-1.jpg": "fa48b326d0140be0a23c20af33cb2a5781a744e6efd0b27409d15abd686eca37",
-              "images/burago-201842-2.jpg": "be4954d6724564337e0fc702ed62630596d620789d3f26f277f09cbd35cc4c33",
-              "images/burago-201842-3.jpg": "f10357359792c739856169e8a469e70046a85667b55cb2e3045a6d2b2252d6dc"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -21940,21 +22328,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-201843-1.jpg",
-              "images/burago-201843-2.jpg",
-              "images/burago-201843-3.jpg",
-              "images/burago-201843-4.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-201843-1.jpg": "3eff363e1ceefdcfd3782f2f0a0dce23720f2dcc1293307d79d98234cdc69413",
-              "images/burago-201843-2.jpg": "8f8e8faefdde17a8a6f0bd62f51e3b7b806c6a9887ddfbd3733dff865c4c3df3",
-              "images/burago-201843-3.jpg": "fe7b0504fce5dbd7a34035c62eb66285c96a1e39af00c825f1aa4fd4fab10e97",
-              "images/burago-201843-4.jpg": "4fe6114587c4923b3c9839ee3d301481a5d0de2e7efc5191f4ce28d18200d5c8"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
@@ -21970,21 +22348,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-201844-1.jpg",
-              "images/burago-201844-2.jpg",
-              "images/burago-201844-3.jpg",
-              "images/burago-201844-4.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-201844-1.jpg": "8f8e8faefdde17a8a6f0bd62f51e3b7b806c6a9887ddfbd3733dff865c4c3df3",
-              "images/burago-201844-2.jpg": "0bcdb58b2a8651177f4d48e7d38fe3c69250c66c1b82a902b0abf5ed0515fa9c",
-              "images/burago-201844-3.jpg": "e7fa9de289c252519ff4986343a10d1e823f325ffc8f77c450613adee5f290c9",
-              "images/burago-201844-4.jpg": "203a1aced4e7d01a178c243638315cfba0f1e1697567baf2a9eb20f2a2ef7df2"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
@@ -23606,31 +23974,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/burago-203682-1.jpg",
-              "images/burago-203682-2.jpg",
-              "images/burago-203682-3.jpg",
-              "images/burago-203682-4.jpg",
-              "images/burago-203682-5.jpg",
-              "images/burago-203682-6.jpg",
-              "images/burago-203682-7.jpg",
-              "images/burago-203682-8.jpg",
-              "images/burago-203682-9.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/burago-203682-1.jpg": "86babbfa3ef057dad6f778d542a0062c924ebc6866cdd63fa60a168faa1d075e",
-              "images/burago-203682-2.jpg": "1bbc530cceff3167f8b2d4d24c5c6e3810969cd1b0ef467b00fc0014dff63d79",
-              "images/burago-203682-3.jpg": "d165b6d5a123a1681873e5da82fb11f45d4887e0bc7f4659e182cfa23c330acb",
-              "images/burago-203682-4.jpg": "283d67faae98821f212d1be67e2b85b90080569a9888297654e5cccb4866f9b5",
-              "images/burago-203682-5.jpg": "922601ad7c8124a44c9a963911dd277da3f1b14ef3f0c1fbfd450a3a058ad2b9",
-              "images/burago-203682-6.jpg": "d4947f14983774031fcc4dca85795ebebdda8cbe4792e949ee8d3e8aeb6d390b",
-              "images/burago-203682-7.jpg": "1358b9f22106ff25c7da5552005a9497cf7b5665f9f3f685b987e425d1fe783f",
-              "images/burago-203682-8.jpg": "55430aafdeee6cb15b43cbab8a27cff63b9b8d0e7ae20474421a07964359f96a",
-              "images/burago-203682-9.jpg": "ce64f671cf600807ff9fd4d0b524a2cf60a6b693b7ddb44f5f524e8402e1ae65"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,

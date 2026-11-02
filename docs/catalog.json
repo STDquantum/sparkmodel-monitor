@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:50:44.861429+00:00",
+  "generated_at": "2026-11-02T03:15:29.263652+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -1177,7 +1177,9 @@
       "url": "https://www.carmodel.com/burago/18-28522-kit/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-18-season-2025-lance-stroll/191768",
       "images": [
         "images/burago-191768-1.jpg",
-        "images/burago-191768-2.jpg"
+        "images/burago-191768-2.jpg",
+        "images/burago-191768-3.jpg",
+        "images/burago-191768-4.jpg"
       ],
       "properties": {
         "Trademark": "BURAGO",
@@ -1193,20 +1195,21 @@
         "Notes": "MODEL-KIT",
         "Product number": "18-28522-KIT",
         "Manufacturer": "Burago",
-        "Model code": "AMR25",
-        "Expected release": "Available within quarter 4/2026"
+        "Model code": "AMR25"
       },
       "description": "1/24 BURAGO - ASTON MARTIN - F1  AMR25 TEAM ARAMCO COGNIZANT N 18 SEASON 2025 LANCE STROLL",
       "brand": "Burago",
-      "price": "31.45",
+      "price": "33.20",
       "currency": "EUR",
       "gtin": "4893993285228",
       "weight": "",
       "length": "",
-      "availability": "Coming soon",
+      "availability": "Available",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/191768-3.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/191768_1-3.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/191768-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191768_1-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191768_2-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191768_3-4.jpg"
       ]
     },
     {
@@ -1215,7 +1218,9 @@
       "url": "https://www.carmodel.com/burago/18-28521-kit/1-24/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso/191769",
       "images": [
         "images/burago-191769-1.jpg",
-        "images/burago-191769-2.jpg"
+        "images/burago-191769-2.jpg",
+        "images/burago-191769-3.jpg",
+        "images/burago-191769-4.jpg"
       ],
       "properties": {
         "Trademark": "BURAGO",
@@ -1231,20 +1236,21 @@
         "Notes": "MODEL-KIT",
         "Product number": "18-28521-KIT",
         "Manufacturer": "Burago",
-        "Model code": "AMR25",
-        "Expected release": "Available within quarter 4/2026"
+        "Model code": "AMR25"
       },
       "description": "1/24 BURAGO - ASTON MARTIN - F1  AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO",
       "brand": "Burago",
-      "price": "31.45",
+      "price": "33.20",
       "currency": "EUR",
       "gtin": "4893993285211",
       "weight": "",
       "length": "",
-      "availability": "Coming soon",
+      "availability": "Available",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/191769-5.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/191769_1-5.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/191769-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191769_1-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191769_2-6.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/191769_3-6.jpg"
       ]
     },
     {
@@ -1549,12 +1555,12 @@
       },
       "description": "1/43 BURAGO - ASTON MARTIN - F1  AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO",
       "brand": "Burago",
-      "price": "10.40",
+      "price": "10.95",
       "currency": "EUR",
       "gtin": "4893993382507",
       "weight": "",
       "length": "",
-      "availability": "Available",
+      "availability": "Catalogue",
       "image_urls": [
         "https://bucket.carmodel.com/images/cm-lg/191776-3.jpg",
         "https://bucket.carmodel.com/images/cm-lg/191776_1-3.jpg",
@@ -3941,7 +3947,14 @@
         "images/burago-197133-1.jpg",
         "images/burago-197133-2.jpg",
         "images/burago-197133-3.jpg",
-        "images/burago-197133-4.jpg"
+        "images/burago-197133-4.jpg",
+        "images/burago-197133-5.jpg",
+        "images/burago-197133-6.jpg",
+        "images/burago-197133-7.jpg",
+        "images/burago-197133-8.jpg",
+        "images/burago-197133-9.jpg",
+        "images/burago-197133-10.jpg",
+        "images/burago-197133-11.jpg"
       ],
       "properties": {
         "Trademark": "BURAGO",
@@ -3953,25 +3966,31 @@
         "Colour": "BLUE YELLOW RED",
         "Material": "DIE-CAST",
         "Year": "2025",
-        "EAN": "4893993180059",
+        "EAN": "4893993023820",
         "Product number": "18-18005-1",
         "Manufacturer": "Burago",
-        "Model code": "RB21",
-        "Expected release": "Available within quarter 4/2026"
+        "Model code": "RB21"
       },
       "description": "1/18 BURAGO - RED BULL - F1  RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
       "brand": "Burago",
-      "price": "71.95",
+      "price": "75.95",
       "currency": "EUR",
-      "gtin": "4893993180059",
+      "gtin": "4893993023820",
       "weight": "",
       "length": "",
-      "availability": "Coming soon",
+      "availability": "Available",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/197133-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/197133_1-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/197133_2-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/197133_3-2.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/197133-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_3-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_4-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_5-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_6-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_7-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_8-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_9-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/197133_10-3.jpg"
       ]
     },
     {
@@ -4553,7 +4572,8 @@
       "images": [
         "images/burago-201842-1.jpg",
         "images/burago-201842-2.jpg",
-        "images/burago-201842-3.jpg"
+        "images/burago-201842-3.jpg",
+        "images/burago-201842-4.jpg"
       ],
       "properties": {
         "Trademark": "BURAGO",
@@ -4569,21 +4589,21 @@
         "Notes": "MODEL-KIT",
         "Product number": "18-18051-KIT",
         "Manufacturer": "Burago",
-        "Model code": "RB21",
-        "Expected release": "Available within quarter 4/2026"
+        "Model code": "RB21"
       },
       "description": "1/18 BURAGO - RED BULL - F1  RB21 TEAM ORACLE RED BULL RACING N 1 WINNER JAPAN GP 2025 MAX VERSTAPPEN - WITH PLASTIC BASE AND PILOT",
       "brand": "Burago",
-      "price": "71.95",
+      "price": "75.95",
       "currency": "EUR",
       "gtin": "4893993180516",
       "weight": "",
       "length": "",
-      "availability": "Coming soon",
+      "availability": "Available",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/201842-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201842_1-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201842_2-2.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/201842-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201842_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201842_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201842_3-3.jpg"
       ]
     },
     {
@@ -4610,22 +4630,21 @@
         "Notes": "MODEL-KIT",
         "Product number": "18-16851-KIT",
         "Manufacturer": "Burago",
-        "Model code": "SF-25",
-        "Expected release": "Available within quarter 4/2026"
+        "Model code": "SF-25"
       },
       "description": "1/18 BURAGO - FERRARI - F1  SF-25 TEAM SCUDERIA FERRARI HP SF25 N 16 SEASON 2025 CHARLES LECLERC - WITH PLASTIC BASE AND PILOT",
       "brand": "Burago",
-      "price": "71.95",
+      "price": "75.95",
       "currency": "EUR",
       "gtin": "4893993168514",
       "weight": "",
       "length": "",
-      "availability": "Coming soon",
+      "availability": "Available",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/201843-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201843_1-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201843_2-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201843_3-2.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/201843-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201843_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201843_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201843_3-3.jpg"
       ]
     },
     {
@@ -4652,22 +4671,21 @@
         "Notes": "MODEL-KIT",
         "Product number": "18-16852-KIT",
         "Manufacturer": "Burago",
-        "Model code": "SF-25",
-        "Expected release": "Available within quarter 4/2026"
+        "Model code": "SF-25"
       },
       "description": "1/18 BURAGO - FERRARI - F1  SF-25 TEAM SCUDERIA FERRARI HP SF25 N 44 SEASON 2025 LEWIS HAMILTON - WITH PLASTIC BASE AND PILOT",
       "brand": "Burago",
-      "price": "71.95",
+      "price": "75.95",
       "currency": "EUR",
       "gtin": "4893993168521",
       "weight": "",
       "length": "",
-      "availability": "Coming soon",
+      "availability": "Available",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/201844-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201844_1-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201844_2-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/201844_3-2.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/201844-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201844_1-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201844_2-3.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/201844_3-3.jpg"
       ]
     },
     {
@@ -7114,7 +7132,10 @@
         "images/burago-203682-6.jpg",
         "images/burago-203682-7.jpg",
         "images/burago-203682-8.jpg",
-        "images/burago-203682-9.jpg"
+        "images/burago-203682-9.jpg",
+        "images/burago-203682-10.jpg",
+        "images/burago-203682-11.jpg",
+        "images/burago-203682-12.jpg"
       ],
       "properties": {
         "Trademark": "BURAGO",
@@ -7141,15 +7162,18 @@
       "length": "",
       "availability": "Coming soon",
       "image_urls": [
-        "https://bucket.carmodel.com/images/cm-lg/203682-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_1-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_2-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_3-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_4-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_5-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_6-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_7-2.jpg",
-        "https://bucket.carmodel.com/images/cm-lg/203682_8-2.jpg"
+        "https://bucket.carmodel.com/images/cm-lg/203682-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_1-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_2-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_3-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_4-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_5-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_6-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_7-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_8-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_9-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_10-4.jpg",
+        "https://bucket.carmodel.com/images/cm-lg/203682_11-4.jpg"
       ]
     },
     {
