@@ -53,8 +53,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-02T18:44:13.569011+00:00",
-  "total": 949,
+  "updated_at": "2026-11-03T08:03:18.451331+00:00",
+  "total": 942,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -4247,7 +4247,6 @@
     "minichamps-019a8919b88c718895a498d68bfea2b0": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER AUSTRALIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919b88c718895a498d68bfea2b0?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/ba/0d/53/1784795191/00_530256404_019f8e15.jpg?ts=1784795191",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4283,7 +4282,6 @@
     "minichamps-019a8919bd5871eb9c9080ee353c5639": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919bd5871eb9c9080ee353c5639?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/6c/67/1a/1784795192/00_530257104_019f8e15.jpg?ts=1784795192",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4292,7 +4290,7 @@
     "minichamps-019a8919be727364ac6da8d37bab9fc9": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919be727364ac6da8d37bab9fc9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/73/0c/40/1784795192/00_530257181_019f8e15.jpg?ts=1784795192",
+      "image_url": "https://www.minichamps.de/media/6c/72/d0/1793691424/00_530257181.jpg?ts=1793691424",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4497,7 +4495,7 @@
     "minichamps-019a8919f3a97043ad1a3387e95a1e64": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f3a97043ad1a3387e95a1e64?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/40/7b/6a/1788465250/00_530257581_01a068d6.jpg?ts=1788465250",
+      "image_url": "https://www.minichamps.de/media/55/7a/57/1793691885/00_530257581.jpg?ts=1793691885",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4524,7 +4522,7 @@
     "minichamps-019a8919f74570718a513af8f72e4e9d": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f74570718a513af8f72e4e9d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/53/c9/0a/1793623387/00_537255404.jpg?ts=1793623387",
+      "image_url": "https://www.minichamps.de/media/37/98/ee/1793690469/00_537255404.jpg?ts=1793690469",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4533,7 +4531,7 @@
     "minichamps-019a8919f8517060bf66a3368e31e16b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f8517060bf66a3368e31e16b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/df/54/18/1784795224/00_537255481_019f8e15.jpg?ts=1784795224",
+      "image_url": "https://www.minichamps.de/media/e9/62/95/1793692806/00_537255481.jpg?ts=1793692806",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4620,7 +4618,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Sold out"
+      "availability": "Pre-order"
     },
     "minichamps-019ef970b36771f0ad447540c4b38569": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AZERBAIJAN GP 2025",
@@ -4833,7 +4831,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019ef971cf207304a60f64134b62f0d8": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 W/DRIVER FIGURINE",
@@ -5358,24 +5356,6 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-117261831": {
-      "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/117261831",
-      "product_number": "117261831",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-117261887": {
-      "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/117261887",
-      "product_number": "117261887",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
     "minichamps-417261012": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/417261012",
@@ -5461,33 +5441,6 @@
       "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
       "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/417261727",
       "product_number": "417261727",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-417261831": {
-      "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/417261831",
-      "product_number": "417261831",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-417261887": {
-      "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/417261887",
-      "product_number": "417261887",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-417261950": {
-      "name": "TGR HAAS F1 TEAM VF-26 - RYO HIRAKAWA - FIRST POINT MEXICO GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-RYO-HIRAKAWA-FIRST-POINT-MEXICO-GP-2026/417261950",
-      "product_number": "417261950",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -5646,24 +5599,6 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-640261831": {
-      "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/640261831",
-      "product_number": "640261831",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-640261887": {
-      "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/640261887",
-      "product_number": "640261887",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
     "minichamps-minichamps-1659915": {
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
@@ -5692,7 +5627,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-minichamps-1660026": {
       "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - AUSTRALIAN GP 2026",
@@ -10942,31 +10877,26 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-117261012",
-      "minichamps-117261312",
-      "minichamps-117261412",
+    "added": [],
+    "changed": [
+      "minichamps-019a8919b88c718895a498d68bfea2b0",
+      "minichamps-019a8919bd5871eb9c9080ee353c5639",
+      "minichamps-019a8919be727364ac6da8d37bab9fc9",
+      "minichamps-019a8919f3a97043ad1a3387e95a1e64",
+      "minichamps-019a8919f74570718a513af8f72e4e9d",
+      "minichamps-019a8919f8517060bf66a3368e31e16b",
+      "minichamps-019ef970b2d37258976dddf3dc33a82b",
+      "minichamps-019ef971ce8571fda02becb0b0ef10e1",
+      "minichamps-minichamps-1660025"
+    ],
+    "removed": [
       "minichamps-117261831",
       "minichamps-117261887",
-      "minichamps-417261012",
-      "minichamps-417261312",
-      "minichamps-417261412",
       "minichamps-417261831",
       "minichamps-417261887",
       "minichamps-417261950",
-      "minichamps-640261012",
-      "minichamps-640261312",
-      "minichamps-640261412",
       "minichamps-640261831",
       "minichamps-640261887"
-    ],
-    "changed": [
-      "minichamps-019a8919aa52720db1d38c984d6611f9",
-      "minichamps-019a8919b9da704b9258d7e7c8052159",
-      "minichamps-019a8919f27d71289a1cf73da2ba06ab",
-      "minichamps-019a8919f74570718a513af8f72e4e9d",
-      "minichamps-minichamps-1661384"
-    ],
-    "removed": []
+    ]
   }
 }

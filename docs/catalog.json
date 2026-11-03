@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:44:24.470233+00:00",
+  "generated_at": "2026-11-03T08:03:31.795870+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -11720,8 +11720,6 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919be727364ac6da8d37bab9fc9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a8919be727364ac6da8d37bab9fc9-2.jpg",
-        "images/minichamps-019a8919be727364ac6da8d37bab9fc9-3.jpg",
         "images/minichamps-019a8919be727364ac6da8d37bab9fc9-1.jpg"
       ],
       "properties": {
@@ -12396,9 +12394,7 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f3a97043ad1a3387e95a1e64?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-1.jpg",
-        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-2.jpg",
-        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-3.jpg"
+        "images/minichamps-019a8919f3a97043ad1a3387e95a1e64-1.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -12514,9 +12510,7 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f8517060bf66a3368e31e16b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019a8919f8517060bf66a3368e31e16b-1.jpg",
-        "images/minichamps-019a8919f8517060bf66a3368e31e16b-2.jpg",
-        "images/minichamps-019a8919f8517060bf66a3368e31e16b-3.jpg"
+        "images/minichamps-019a8919f8517060bf66a3368e31e16b-1.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -12779,7 +12773,7 @@
         "Product number": "537253181",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "sold out",
+        "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
         "Material": "RESIN"
@@ -12791,7 +12785,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Sold out"
+      "availability": "available for preorder"
     },
     {
       "id": "minichamps-019ef970b36771f0ad447540c4b38569",
@@ -13435,10 +13429,11 @@
         "Product number": "BBR254616",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "FERRARI",
         "Driver": "LECLERC, CHARLES",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 45/2026"
       },
       "description": "",
       "brand": "BBR",
@@ -13447,7 +13442,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef971cf207304a60f64134b62f0d8",
@@ -15038,56 +15033,6 @@
       "availability": "available for preorder"
     },
     {
-      "id": "minichamps-117261831",
-      "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/117261831",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "117261831",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "OCON, ESTEBAN",
-        "Material": "RESIN",
-        "Model": "VF-26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "199.96",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-117261887",
-      "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/117261887",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "117261887",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "BEARMAN, OLIVER",
-        "Material": "RESIN",
-        "Model": "VF-26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "199.96",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
       "id": "minichamps-417261012",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/417261012",
@@ -15327,81 +15272,6 @@
         "Driver": "HULKENBERG, NICO",
         "Material": "RESIN",
         "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-417261831",
-      "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/417261831",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "417261831",
-        "Scale": "1/43",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "OCON, ESTEBAN",
-        "Material": "RESIN",
-        "Model": "VF-26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-417261887",
-      "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/417261887",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "417261887",
-        "Scale": "1/43",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "BEARMAN, OLIVER",
-        "Material": "RESIN",
-        "Model": "VF-26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-417261950",
-      "name": "TGR HAAS F1 TEAM VF-26 - RYO HIRAKAWA - FIRST POINT MEXICO GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-RYO-HIRAKAWA-FIRST-POINT-MEXICO-GP-2026/417261950",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "417261950",
-        "Scale": "1/43",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "HIRAKAWA, RYO",
-        "Material": "RESIN",
-        "Model": "VF-26"
       },
       "description": "",
       "brand": "Minichamps",
@@ -15838,56 +15708,6 @@
       "availability": "available for preorder"
     },
     {
-      "id": "minichamps-640261831",
-      "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-AUSTIN-GP-2026/640261831",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "640261831",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "OCON, ESTEBAN",
-        "Material": "DIECAST",
-        "Model": "VF-26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "26.95",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-640261887",
-      "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - AUSTIN GP 2026",
-      "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-AUSTIN-GP-2026/640261887",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "640261887",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "HAAS",
-        "Driver": "BEARMAN, OLIVER",
-        "Material": "DIECAST",
-        "Model": "VF-26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "26.95",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
       "id": "minichamps-minichamps-1659915",
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-CHINESE-GP-2026-W-POLE-POSITION-TYRE/417260222",
@@ -15962,10 +15782,11 @@
         "Product number": "117260163",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
         "Material": "RESIN",
+        "First delivery": "Calendar week 45/2026",
         "Model": "W17"
       },
       "description": "",
@@ -15975,7 +15796,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1660026",
