@@ -1,6 +1,512 @@
 {
   "updates": [
     {
+      "date": "2026-11-03T16:12:03.700016+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a89196ed9706e9c2e0076229414bd",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - WINNER CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a89196ed9706e9c2e0076229414bd?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537251981",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/2a/1d/5a/1784795221/00_537251981_019f8e15.jpg?ts=1784795221",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919aa52720db1d38c984d6611f9",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919aa52720db1d38c984d6611f9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537252581",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/ab/24/61/1793624305/00_537252581.jpg?ts=1793624305",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919af5972b09cfa4295c02a0561",
+          "name": "FERRARI SF-25 - LEWIS HAMILTON - WINNER SPRINT CHINA GP 2025 W/DRIVER FIGURINE",
+          "url": "https://www.minichamps.de/en/detail/019a8919af5972b09cfa4295c02a0561?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR254344",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 3,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919b6bb700fbb7d9976f3bd7b77",
+          "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025 W/DRIVER FIGURINE",
+          "url": "https://www.minichamps.de/en/detail/019a8919b6bb700fbb7d9976f3bd7b77?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR254544",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919b9da704b9258d7e7c8052159",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - AUSTRALIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919b9da704b9258d7e7c8052159?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530256481",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/59/d0/34/1793624565/00_530256481.jpg?ts=1793624565",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919bb187118a1ebe4ef6fffae08",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919bb187118a1ebe4ef6fffae08?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530256504",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/74/89/3d/1784795191/00_530256504_019f8e15.jpg?ts=1784795191",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919bc457175a62709bc602d3e77",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - WINNER CHINA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919bc457175a62709bc602d3e77?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530256581",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/45/0d/21/1784795191/00_530256581_019f8e15.jpg?ts=1784795191",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919be727364ac6da8d37bab9fc9",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919be727364ac6da8d37bab9fc9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530257181",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/6c/72/d0/1793691424/00_530257181.jpg?ts=1793691424",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f27d71289a1cf73da2ba06ab",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f27d71289a1cf73da2ba06ab?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530257504",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/03/c5/8a/1793621006/00_530257504.jpg?ts=1793621006",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f3a97043ad1a3387e95a1e64",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f3a97043ad1a3387e95a1e64?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "530257581",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/55/7a/57/1793691885/00_530257581.jpg?ts=1793691885",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f74570718a513af8f72e4e9d",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f74570718a513af8f72e4e9d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537255404",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/37/98/ee/1793690469/00_537255404.jpg?ts=1793690469",
+              "after": "https://www.minichamps.de/media/3d/9c/4d/1793694891/00_537255404.jpg?ts=1793694891"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg": "887e3c0e40821dc60807ee3bc7188bbd386102c41cc766727a4764979ec8c00a"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919f8517060bf66a3368e31e16b",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919f8517060bf66a3368e31e16b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537255481",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/e9/62/95/1793692806/00_537255481.jpg?ts=1793692806",
+              "after": ""
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
+          "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef96fb8fd73fc8c9cd149b2ab8540?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR127C44",
+          "scale": "1/12",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 46/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970b2d37258976dddf3dc33a82b",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253181",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/a8/39/67/1790883161/00_537253181_01a0f8f4.jpg?ts=1790883161",
+              "after": "https://www.minichamps.de/media/61/c2/4b/1793694191/00_537253181.jpg?ts=1793694191"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 2,
+            "hashes": {
+              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg": "8e7961a541561fb80630b06454f0c6be7785ccddd5be84b69e3d7a9728826922"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970c11172a1812db97dfc4ddb12",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970c11172a1812db97dfc4ddb12?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253781",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/0d/7b/f7/1790019189/00_537253781_01a0c575.jpg?ts=1790019189",
+              "after": "https://www.minichamps.de/media/61/1d/5c/1793693966/537253781_retu.jpg?ts=1793693966"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 4,
+            "hashes": {
+              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg": "e515712c6fea718318c5ce4dd28083af9c435cd6e2fe54d11e6cffac014fe7f2"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef971dc9c71dd89ab87ec07a7e2ca?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537256281",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/72/e9/01/1788465267/00_537256281_01a068d6.jpg?ts=1788465267",
+              "after": "https://www.minichamps.de/media/1d/29/97/1793694429/00_537256281.jpg?ts=1793694429"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 2,
+            "hashes": {
+              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg": "298ac773f86e8e3f7e29d6a2445623efe5a180b74e3a20deb015741e7338101e"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661390",
+          "name": "TGR HAAS F1 TEAM VF-26 - OLIVER BEARMAN - JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-OLIVER-BEARMAN-JAPANESE-GP-2026/640260387",
+          "product_number": "640260387",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 46/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-03T08:03:31.795870+00:00",
       "entries": [
         {
@@ -131,14 +637,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019a8919f74570718a513af8f72e4e9d-1.jpg": "9878b7b9f55eb75a17a1ac6492d6b23f6e4a96994fb1efc29548e788a938af0d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,
@@ -251,7 +753,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -267,7 +771,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -283,7 +789,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -299,7 +807,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -315,7 +825,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -331,7 +843,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -347,7 +861,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -41855,19 +42371,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg",
-              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-2.jpg",
-              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg": "287b712da5e3945104040d62b07fe6b8b2dc7d7703fda9970ef3301acea30337",
-              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-2.jpg": "fcbbf15ef71a81e99a98abaf8a83784648d5614d52d90f255504e6da63ed7248",
-              "images/minichamps-019ef970b2d37258976dddf3dc33a82b-3.jpg": "b75ca18d50abcf727de5218d5e2b80293d547cb4323e00742db56155bd05a792"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -45900,12 +46408,7 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-2.jpg",
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-3.jpg",
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-4.jpg",
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-5.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -45914,12 +46417,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-2.jpg": "15b7dad5335d8e8cc84f0011242dbe87c789da41530b5758146f17bca90b344a",
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-3.jpg": "4fb7c7ccf0b8082179ed8018515e45d09a5f17d8e969d54949fabc926fd31f13",
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-4.jpg": "45d175f754b6234bc79a298ddeb4821905ad8372e0bcc1a3a358d87b9b6062cd",
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-5.jpg": "7431a097c818cc4fd1256f5f059866af83a6085da5ed19d44db4715e0088e1c4"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
@@ -46076,10 +46574,7 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-2.jpg",
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-3.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [
               {
@@ -46088,10 +46583,7 @@
               }
             ],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-2.jpg": "a54f81681adfafb585d14039180f548991ff4467d4622c112499be8432a05ff8",
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-3.jpg": "691d4eea0dad85cd42d821997933ddfbb09f36074ad787dac5fdaef4d79ce5d8"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -49442,15 +49934,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg": "eabc95f06e5cd39040bc9be589d252a2bc592fa21474df58091588dd2b64a23b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -49990,15 +50478,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg": "903e33d10db915e43f95d41b9d0f6c99a4368ebac88835d9e51b73504317a514"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -52955,15 +53439,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg": "eabc95f06e5cd39040bc9be589d252a2bc592fa21474df58091588dd2b64a23b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -53503,15 +53983,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg": "903e33d10db915e43f95d41b9d0f6c99a4368ebac88835d9e51b73504317a514"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

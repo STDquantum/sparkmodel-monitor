@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:03:31.795870+00:00",
+  "generated_at": "2026-11-03T16:12:03.700016+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -11429,16 +11429,16 @@
       "name": "FERRARI SF-25 - LEWIS HAMILTON - WINNER SPRINT CHINA GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019a8919af5972b09cfa4295c02a0561?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919af5972b09cfa4295c02a0561-1.jpg",
         "images/minichamps-019a8919af5972b09cfa4295c02a0561-2.jpg",
-        "images/minichamps-019a8919af5972b09cfa4295c02a0561-3.jpg",
-        "images/minichamps-019a8919af5972b09cfa4295c02a0561-1.jpg"
+        "images/minichamps-019a8919af5972b09cfa4295c02a0561-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "BBR254344",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "FERRARI",
         "Driver": "HAMILTON, LEWIS",
         "Material": "RESIN",
@@ -11451,7 +11451,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019a8919b18a705294ffbef432cb8bc6",
@@ -11557,7 +11557,7 @@
         "Product number": "BBR254544",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "FERRARI",
         "Driver": "HAMILTON, LEWIS",
         "Material": "RESIN",
@@ -11570,7 +11570,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019a8919b88c718895a498d68bfea2b0",
@@ -12590,10 +12590,11 @@
         "Product number": "BBR127C44",
         "Scale": "1/12",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "FERRARI",
         "Driver": "HAMILTON, LEWIS",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 46/2026"
       },
       "description": "",
       "brand": "BBR",
@@ -12602,7 +12603,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef96fb98473c9b98063c007890577",
@@ -12764,9 +12765,7 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg",
-        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-2.jpg",
-        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-3.jpg"
+        "images/minichamps-019ef970b2d37258976dddf3dc33a82b-1.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -13219,10 +13218,6 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970c11172a1812db97dfc4ddb12?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019ef970c11172a1812db97dfc4ddb12-2.jpg",
-        "images/minichamps-019ef970c11172a1812db97dfc4ddb12-3.jpg",
-        "images/minichamps-019ef970c11172a1812db97dfc4ddb12-4.jpg",
-        "images/minichamps-019ef970c11172a1812db97dfc4ddb12-5.jpg",
         "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg"
       ],
       "properties": {
@@ -13880,9 +13875,7 @@
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971dc9c71dd89ab87ec07a7e2ca?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
-        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg",
-        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-2.jpg",
-        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-3.jpg"
+        "images/minichamps-019ef971dc9c71dd89ab87ec07a7e2ca-1.jpg"
       ],
       "properties": {
         "Year": "2025",
@@ -17679,10 +17672,11 @@
         "Product number": "640260387",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "HAAS",
         "Driver": "BEARMAN, OLIVER",
         "Material": "DIECAST",
+        "First delivery": "Calendar week 46/2026",
         "Model": "VF-26"
       },
       "description": "",
@@ -17692,7 +17686,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-minichamps-1661430",
