@@ -53,8 +53,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-03T16:11:45.847817+00:00",
-  "total": 942,
+  "updated_at": "2026-11-04T08:10:08.655392+00:00",
+  "total": 941,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -5854,15 +5854,6 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-minichamps-1660051": {
-      "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
-      "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
-      "product_number": "417260110",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
     "minichamps-minichamps-1660052": {
       "name": "ALTASSIAN WILLIAMS F1 TEAM FW48 - ALEXANDER ALBON - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/ALTASSIAN-WILLIAMS-F1-TEAM-FW48-ALEXANDER-ALBON-AUSTRALIAN-GP-2026/417260123",
@@ -7243,7 +7234,7 @@
     "shop-ferrari-LSF1082": {
       "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/lsf1082-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp?ts=1792037202",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp?ts=1793759664",
       "source": "sparkmodelshop",
       "manufacturer": "Looksmart",
       "year": "2026",
@@ -10870,24 +10861,10 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019a89196ed9706e9c2e0076229414bd",
-      "minichamps-019a8919aa52720db1d38c984d6611f9",
-      "minichamps-019a8919af5972b09cfa4295c02a0561",
-      "minichamps-019a8919b6bb700fbb7d9976f3bd7b77",
-      "minichamps-019a8919b9da704b9258d7e7c8052159",
-      "minichamps-019a8919bb187118a1ebe4ef6fffae08",
-      "minichamps-019a8919bc457175a62709bc602d3e77",
-      "minichamps-019a8919be727364ac6da8d37bab9fc9",
-      "minichamps-019a8919f27d71289a1cf73da2ba06ab",
-      "minichamps-019a8919f3a97043ad1a3387e95a1e64",
-      "minichamps-019a8919f74570718a513af8f72e4e9d",
-      "minichamps-019a8919f8517060bf66a3368e31e16b",
-      "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
-      "minichamps-019ef970b2d37258976dddf3dc33a82b",
-      "minichamps-019ef970c11172a1812db97dfc4ddb12",
-      "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
-      "minichamps-minichamps-1661390"
+      "shop-ferrari-LSF1082"
     ],
-    "removed": []
+    "removed": [
+      "minichamps-minichamps-1660051"
+    ]
   }
 }
