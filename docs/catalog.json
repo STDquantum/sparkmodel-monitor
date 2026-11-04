@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:10:12.604256+00:00",
+  "generated_at": "2026-11-04T16:18:47.592238+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -13418,7 +13418,10 @@
       "id": "minichamps-019ef971ce8571fda02becb0b0ef10e1",
       "name": "FERRARI SF-25 - CHARLES LECLERC - ITALIAN GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019ef971ce8571fda02becb0b0ef10e1?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971ce8571fda02becb0b0ef10e1-1.jpg",
+        "images/minichamps-019ef971ce8571fda02becb0b0ef10e1-2.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "BBR254616",
@@ -13443,7 +13446,10 @@
       "id": "minichamps-019ef971cf207304a60f64134b62f0d8",
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019ef971cf207304a60f64134b62f0d8?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971cf207304a60f64134b62f0d8-1.jpg",
+        "images/minichamps-019ef971cf207304a60f64134b62f0d8-2.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "BBR254644",
@@ -13452,7 +13458,8 @@
         "Availability": "sold out",
         "Brand": "FERRARI",
         "Driver": "HAMILTON, LEWIS",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 45/2026"
       },
       "description": "",
       "brand": "BBR",
@@ -15019,6 +15026,31 @@
       "description": "",
       "brand": "Minichamps",
       "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417260110",
+      "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417260110",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RENAULT",
+        "Driver": "GASLY, PIERRE",
+        "Material": "RESIN",
+        "Model": "A526"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -17032,7 +17064,10 @@
       "id": "minichamps-minichamps-1661367",
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-JAPANESE-GP-2026/530266604",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1661367-1.jpg",
+        "images/minichamps-minichamps-1661367-2.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "530266604",
@@ -17792,7 +17827,12 @@
       "id": "minichamps-minichamps-1665897",
       "name": "ORACLE RED BULL RACING RB22 - ISACK HADJAR - 5TH PLACE CANADA GP 2026",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-ISACK-HADJAR-5TH-PLACE-CANADA-GP-2026/417260506",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1665897-1.jpg",
+        "images/minichamps-minichamps-1665897-2.jpg",
+        "images/minichamps-minichamps-1665897-3.jpg",
+        "images/minichamps-minichamps-1665897-4.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260506",
@@ -25110,7 +25150,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9389",
@@ -27111,7 +27151,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9635",
@@ -27145,7 +27185,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9636",
@@ -27189,15 +27229,18 @@
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/261dbe8d-b468-4da2-b4e4-1491aa956f54",
       "images": [
-        "images/spark-S9637-1.webp",
         "images/spark-S9637-2.webp",
         "images/spark-S9637-3.webp",
         "images/spark-S9637-4.webp",
+        "images/spark-S9637-1.webp",
         "images/spark-S9637-5.webp",
         "images/spark-S9637-6.webp",
         "images/spark-S9637-7.webp",
         "images/spark-S9637-8.webp",
-        "images/spark-S9637-9.webp"
+        "images/spark-S9637-9.webp",
+        "images/spark-S9637-10.webp",
+        "images/spark-S9637-11.webp",
+        "images/spark-S9637-12.webp"
       ],
       "properties": {
         "Manufacturer": "Racing Bulls",
@@ -27216,7 +27259,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9638",
@@ -27250,7 +27293,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9639",
@@ -27877,7 +27920,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9673",

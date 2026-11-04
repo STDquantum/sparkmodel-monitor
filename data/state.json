@@ -53,8 +53,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-04T08:10:08.655392+00:00",
-  "total": 941,
+  "updated_at": "2026-11-04T16:18:39.836153+00:00",
+  "total": 942,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -3584,7 +3584,7 @@
     "looksmart-19787": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-143/",
       "image_url": "https://looksmartmodels.com/wp-content/uploads/2025/03/ferrari-sf-25-1-1200x800-1-500x333.jpg",
-      "name": "Ferrari SF-25 China Sprint Race 2025 – Lewis Hamilton 1:43",
+      "name": "Ferrari SF-25 China GP Sprint Race Winner 2025 Lewis Hamilton 1:43",
       "source": "looksmart",
       "year": "2025",
       "manufacturer": "Ferrari",
@@ -3595,7 +3595,7 @@
     "looksmart-19789": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-118/",
       "image_url": "https://looksmartmodels.com/wp-content/uploads/2025/03/LS18F1074-8-21-14-500x333.jpg",
-      "name": "Ferrari SF-25 Winner China Sprint Race 2025 – Lewis Hamilton 1:18",
+      "name": "Ferrari SF-25 China GP Sprint Race Winner 2025 Lewis Hamilton 1:18",
       "source": "looksmart",
       "year": "2025",
       "manufacturer": "Ferrari",
@@ -3672,7 +3672,7 @@
     "looksmart-20024": {
       "url": "https://looksmartmodels.com/product/scuderia-ferrari-sf-25-winner-china-sprint-race-2025-scale-164/",
       "image_url": "https://looksmartmodels.com/wp-content/uploads/2025/06/ferrari-sf-25-ls64025-6-500x333.jpg",
-      "name": "Scuderia Ferrari SF-25 Winner China Sprint Race 2025 – Scale 1:64",
+      "name": "Ferrari SF-25 China GP Sprint Race Winner 2025 Lewis Hamilton – Scale 1:64",
       "source": "looksmart",
       "year": "2025",
       "manufacturer": "Ferrari",
@@ -4819,6 +4819,7 @@
     "minichamps-019ef971ce8571fda02becb0b0ef10e1": {
       "name": "FERRARI SF-25 - CHARLES LECLERC - ITALIAN GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019ef971ce8571fda02becb0b0ef10e1?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/4c/5e/f1/1793795296/00_BBR254616.jpg?ts=1793795296",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4827,6 +4828,7 @@
     "minichamps-019ef971cf207304a60f64134b62f0d8": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - ITALIAN GP 2025 W/DRIVER FIGURINE",
       "url": "https://www.minichamps.de/en/detail/019ef971cf207304a60f64134b62f0d8?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/67/b7/c9/1793795258/00_BBR254644.jpg?ts=1793795258",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -5342,6 +5344,15 @@
       "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
       "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/117261727",
       "product_number": "117261727",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417260110": {
+      "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
+      "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
+      "product_number": "417260110",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6052,6 +6063,7 @@
     "minichamps-minichamps-1661367": {
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - JAPANESE GP 2026",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-JAPANESE-GP-2026/530266604",
+      "image_url": "https://www.minichamps.de/media/6f/f9/80/1793781588/00_530266604.jpg?ts=1793781588",
       "product_number": "530266604",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -6321,6 +6333,7 @@
     "minichamps-minichamps-1665897": {
       "name": "ORACLE RED BULL RACING RB22 - ISACK HADJAR - 5TH PLACE CANADA GP 2026",
       "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-ISACK-HADJAR-5TH-PLACE-CANADA-GP-2026/417260506",
+      "image_url": "https://www.minichamps.de/media/9e/78/2b/1793793945/00_417260506.jpg?ts=1793793945",
       "product_number": "417260506",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -9336,7 +9349,7 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
       "url": "https://www.sparkmodel.com/products/5986bc64-3ec6-4658-998e-0ece1c86d5e6",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/11335561-2d69-49f0-91a8-977ccd6163cb.webp",
-      "availability": "Coming soon",
+      "availability": "Latest models",
       "product_number": "S9388",
       "scale": "1/43",
       "year": "2026",
@@ -10092,7 +10105,7 @@
       "name": "Red Bull Racing RB21 No.1 Oracle Red Bull Racing \nWinner Azerbaijan GP 2025\nMax Vestappen\n(with pit board)",
       "url": "https://www.sparkmodel.com/products/0e7e9d38-5711-4fe3-87c0-e4459284b86b",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/7d1b7746-13b8-4ae6-96f6-d602033cb8f5.webp",
-      "availability": "Coming soon",
+      "availability": "Latest models",
       "product_number": "S9634",
       "scale": "1/43",
       "year": "2025",
@@ -10104,7 +10117,7 @@
       "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\n6th Azerbaijan GP 2025 \nYuki Tsunoda \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/ec724ec1-220c-4891-8d1f-9683c2bff502",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/50c7e78d-bea5-452c-8280-90905985ab8c.webp",
-      "availability": "Coming soon",
+      "availability": "Latest models",
       "product_number": "S9635",
       "scale": "1/43",
       "year": "2025",
@@ -10128,7 +10141,7 @@
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/261dbe8d-b468-4da2-b4e4-1491aa956f54",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e415e67c-709f-4ad0-b381-d3c471769a5b.webp",
-      "availability": "Coming soon",
+      "availability": "Latest models",
       "product_number": "S9637",
       "scale": "1/43",
       "year": "2025",
@@ -10140,7 +10153,7 @@
       "name": "Williams FW47 No.23 Williams Racing\n5th Dutch GP 2025\nAlex Albon",
       "url": "https://www.sparkmodel.com/products/5586e21a-0c49-4987-92a2-0a979899223e",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a9daf4c6-f370-4f56-8e6c-32a02159bc52.webp",
-      "availability": "Coming soon",
+      "availability": "Latest models",
       "product_number": "S9638",
       "scale": "1/43",
       "year": "2025",
@@ -10356,7 +10369,7 @@
       "name": "Atlassian Williams F1 Team FW47 No.55 5th Las Vegas GP 2025\nCarlos Sainz Jr.",
       "url": "https://www.sparkmodel.com/products/0b4a370a-87fd-404a-b319-c19647893c47",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/022455b8-6160-4691-bbe7-2d2b3fbe3ccd.webp",
-      "availability": "Coming soon",
+      "availability": "Latest models",
       "product_number": "S9672",
       "scale": "1/43",
       "year": "2025",
@@ -10859,12 +10872,21 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "shop-ferrari-LSF1082"
+    "added": [
+      "minichamps-417260110"
     ],
-    "removed": [
-      "minichamps-minichamps-1660051"
-    ]
+    "changed": [
+      "minichamps-019ef971ce8571fda02becb0b0ef10e1",
+      "minichamps-019ef971cf207304a60f64134b62f0d8",
+      "minichamps-minichamps-1661367",
+      "minichamps-minichamps-1665897",
+      "spark-S9388",
+      "spark-S9634",
+      "spark-S9635",
+      "spark-S9637",
+      "spark-S9638",
+      "spark-S9672"
+    ],
+    "removed": []
   }
 }
