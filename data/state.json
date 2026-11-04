@@ -53,7 +53,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-04T16:18:39.836153+00:00",
+  "updated_at": "2026-11-04T22:00:13.957644+00:00",
   "total": 942,
   "items": {
     "burago-183284": {
@@ -10195,6 +10195,18 @@
       "year": "2025",
       "manufacturer": "McLaren"
     },
+    "spark-S9642": {
+      "source": "sparkmodel",
+      "source_id": "e127c06d-bb32-42a0-a9e1-0ef511cb87ae",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/e127c06d-bb32-42a0-a9e1-0ef511cb87ae",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/2c558811-ecdd-42a2-9bc4-7a4880cb8500.webp",
+      "availability": "Catalogue",
+      "product_number": "S9642",
+      "scale": "1/43",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
+    },
     "spark-S9643": {
       "source": "sparkmodel",
       "source_id": "1d8a2648-6cd9-41c8-b091-740156caa7b1",
@@ -10837,17 +10849,6 @@
       "availability": "Available",
       "product_number": "S9618"
     },
-    "spark-shop-2025-S9642": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/s9642-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9c/44/99/1788852416/2c558811ecdd42a29bc47a4880cb8500.webp?ts=1791910909",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/43",
-      "year": "2025",
-      "availability": "Available",
-      "product_number": "S9642"
-    },
     "spark-shop-2025-S9671": {
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
       "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/s9671-de",
@@ -10873,20 +10874,11 @@
   },
   "changes": {
     "added": [
-      "minichamps-417260110"
+      "spark-S9642"
     ],
-    "changed": [
-      "minichamps-019ef971ce8571fda02becb0b0ef10e1",
-      "minichamps-019ef971cf207304a60f64134b62f0d8",
-      "minichamps-minichamps-1661367",
-      "minichamps-minichamps-1665897",
-      "spark-S9388",
-      "spark-S9634",
-      "spark-S9635",
-      "spark-S9637",
-      "spark-S9638",
-      "spark-S9672"
-    ],
-    "removed": []
+    "changed": [],
+    "removed": [
+      "spark-shop-2025-S9642"
+    ]
   }
 }

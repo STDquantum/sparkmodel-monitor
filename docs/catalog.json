@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:18:47.592238+00:00",
+  "generated_at": "2026-11-04T22:00:18.861584+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -27407,6 +27407,40 @@
       "availability": "Catalogue"
     },
     {
+      "id": "spark-S9642",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/e127c06d-bb32-42a0-a9e1-0ef511cb87ae",
+      "images": [
+        "images/spark-S9642-1.webp",
+        "images/spark-S9642-2.webp",
+        "images/spark-S9642-3.webp",
+        "images/spark-S9642-4.webp",
+        "images/spark-S9642-5.webp",
+        "images/spark-S9642-6.webp",
+        "images/spark-S9642-7.webp",
+        "images/spark-S9642-8.webp",
+        "images/spark-S9642-9.webp",
+        "images/spark-S9642-10.webp",
+        "images/spark-S9642-11.webp",
+        "images/spark-S9642-12.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Product number": "S9642"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue"
+    },
+    {
       "id": "spark-S9643",
       "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nLiam Lawson",
       "url": "https://www.sparkmodel.com/products/1d8a2648-6cd9-41c8-b091-740156caa7b1",
@@ -29256,41 +29290,6 @@
       "price": "89",
       "currency": "EUR",
       "gtin": "9580006996183",
-      "weight": "0.18 kg",
-      "length": "100 mm",
-      "availability": "Available"
-    },
-    {
-      "id": "spark-shop-2025-S9642",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/s9642-de",
-      "images": [
-        "images/spark-shop-2025-S9642-1.webp",
-        "images/spark-shop-2025-S9642-2.webp",
-        "images/spark-shop-2025-S9642-3.webp",
-        "images/spark-shop-2025-S9642-4.webp",
-        "images/spark-shop-2025-S9642-5.webp",
-        "images/spark-shop-2025-S9642-6.webp",
-        "images/spark-shop-2025-S9642-7.webp",
-        "images/spark-shop-2025-S9642-8.webp",
-        "images/spark-shop-2025-S9642-9.webp",
-        "images/spark-shop-2025-S9642-10.webp",
-        "images/spark-shop-2025-S9642-11.webp",
-        "images/spark-shop-2025-S9642-12.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/43",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "S9642",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9580006996428",
-      "brand": "Spark",
-      "price": "89",
-      "currency": "EUR",
-      "gtin": "9580006996428",
       "weight": "0.18 kg",
       "length": "100 mm",
       "availability": "Available"

@@ -1,6 +1,73 @@
 {
   "updates": [
     {
+      "date": "2026-11-04T22:00:18.861584+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "spark-S9642",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+          "url": "https://www.sparkmodel.com/products/e127c06d-bb32-42a0-a9e1-0ef511cb87ae",
+          "product_number": "S9642",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S9642-1.webp",
+              "images/spark-S9642-2.webp",
+              "images/spark-S9642-3.webp",
+              "images/spark-S9642-4.webp",
+              "images/spark-S9642-5.webp",
+              "images/spark-S9642-6.webp",
+              "images/spark-S9642-7.webp",
+              "images/spark-S9642-8.webp",
+              "images/spark-S9642-9.webp",
+              "images/spark-S9642-10.webp",
+              "images/spark-S9642-11.webp",
+              "images/spark-S9642-12.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9642-1.webp": "1546690e1a71720ef249d343253c8bcd761cb4f11c5032dede491bad04b737c9",
+              "images/spark-S9642-2.webp": "b0e7acc5170af1cbe0104658d1777a0eae0ea9a780921369367e62ce1c02a861",
+              "images/spark-S9642-3.webp": "a6686af0a293c51a6ee6345767699f3cdc200a35f39028fa204ede2ff1784d53",
+              "images/spark-S9642-4.webp": "4e87394983c9d771b0a10e0fdf636e1d797fe65ba07739e7f8c16ca1e00fc034",
+              "images/spark-S9642-5.webp": "cafe29b3143f16d37c3b9016a0ad61c688fb341abb6003d8896c5809e91dd146",
+              "images/spark-S9642-6.webp": "15495b67b16707bd092231304ba7bc389dd0105c827a696952f5ca89c2df772a",
+              "images/spark-S9642-7.webp": "0fad0afa0530d1c3e74033e6b0ebad666a6ee0ef6c38505ef4a06f8da06855d9",
+              "images/spark-S9642-8.webp": "ab19f6d1d473f364b070996fa246c7d69170255a28a05276d3074e12b6b7dce1",
+              "images/spark-S9642-9.webp": "61e2c5fb9052205c71a111230dd0a5ebe92409b6a87b738a63093a487f192041",
+              "images/spark-S9642-10.webp": "17308ce9c10a8af5daaa62bb56b883ec95e48bbf2f2d1a473ebde1131360366a",
+              "images/spark-S9642-11.webp": "7ce49c381fd67eccc052c09fbf70fcac6f3a83953c87fec02b2ffa71e2d8d1d4",
+              "images/spark-S9642-12.webp": "aff59b8f919d97bc3aacc29ae310565f63fb6e2dda964eb2169687693390493b"
+            }
+          },
+          "image_counts": {
+            "added": 12,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "spark-shop-2025-S9642",
+          "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
+          "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/s9642-de",
+          "product_number": "S9642",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-04T16:18:47.592238+00:00",
       "entries": [
         {
@@ -29485,37 +29552,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9642-1.webp",
-              "images/spark-shop-2025-S9642-2.webp",
-              "images/spark-shop-2025-S9642-3.webp",
-              "images/spark-shop-2025-S9642-4.webp",
-              "images/spark-shop-2025-S9642-5.webp",
-              "images/spark-shop-2025-S9642-6.webp",
-              "images/spark-shop-2025-S9642-7.webp",
-              "images/spark-shop-2025-S9642-8.webp",
-              "images/spark-shop-2025-S9642-9.webp",
-              "images/spark-shop-2025-S9642-10.webp",
-              "images/spark-shop-2025-S9642-11.webp",
-              "images/spark-shop-2025-S9642-12.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9642-1.webp": "1546690e1a71720ef249d343253c8bcd761cb4f11c5032dede491bad04b737c9",
-              "images/spark-shop-2025-S9642-2.webp": "b0e7acc5170af1cbe0104658d1777a0eae0ea9a780921369367e62ce1c02a861",
-              "images/spark-shop-2025-S9642-3.webp": "a6686af0a293c51a6ee6345767699f3cdc200a35f39028fa204ede2ff1784d53",
-              "images/spark-shop-2025-S9642-4.webp": "4e87394983c9d771b0a10e0fdf636e1d797fe65ba07739e7f8c16ca1e00fc034",
-              "images/spark-shop-2025-S9642-5.webp": "cafe29b3143f16d37c3b9016a0ad61c688fb341abb6003d8896c5809e91dd146",
-              "images/spark-shop-2025-S9642-6.webp": "15495b67b16707bd092231304ba7bc389dd0105c827a696952f5ca89c2df772a",
-              "images/spark-shop-2025-S9642-7.webp": "0fad0afa0530d1c3e74033e6b0ebad666a6ee0ef6c38505ef4a06f8da06855d9",
-              "images/spark-shop-2025-S9642-8.webp": "ab19f6d1d473f364b070996fa246c7d69170255a28a05276d3074e12b6b7dce1",
-              "images/spark-shop-2025-S9642-9.webp": "61e2c5fb9052205c71a111230dd0a5ebe92409b6a87b738a63093a487f192041",
-              "images/spark-shop-2025-S9642-10.webp": "17308ce9c10a8af5daaa62bb56b883ec95e48bbf2f2d1a473ebde1131360366a",
-              "images/spark-shop-2025-S9642-11.webp": "7ce49c381fd67eccc052c09fbf70fcac6f3a83953c87fec02b2ffa71e2d8d1d4",
-              "images/spark-shop-2025-S9642-12.webp": "aff59b8f919d97bc3aacc29ae310565f63fb6e2dda964eb2169687693390493b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 12,
@@ -30324,37 +30365,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9642-1.webp",
-              "images/spark-shop-2025-S9642-2.webp",
-              "images/spark-shop-2025-S9642-3.webp",
-              "images/spark-shop-2025-S9642-4.webp",
-              "images/spark-shop-2025-S9642-5.webp",
-              "images/spark-shop-2025-S9642-6.webp",
-              "images/spark-shop-2025-S9642-7.webp",
-              "images/spark-shop-2025-S9642-8.webp",
-              "images/spark-shop-2025-S9642-9.webp",
-              "images/spark-shop-2025-S9642-10.webp",
-              "images/spark-shop-2025-S9642-11.webp",
-              "images/spark-shop-2025-S9642-12.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9642-1.webp": "1546690e1a71720ef249d343253c8bcd761cb4f11c5032dede491bad04b737c9",
-              "images/spark-shop-2025-S9642-2.webp": "b0e7acc5170af1cbe0104658d1777a0eae0ea9a780921369367e62ce1c02a861",
-              "images/spark-shop-2025-S9642-3.webp": "a6686af0a293c51a6ee6345767699f3cdc200a35f39028fa204ede2ff1784d53",
-              "images/spark-shop-2025-S9642-4.webp": "4e87394983c9d771b0a10e0fdf636e1d797fe65ba07739e7f8c16ca1e00fc034",
-              "images/spark-shop-2025-S9642-5.webp": "cafe29b3143f16d37c3b9016a0ad61c688fb341abb6003d8896c5809e91dd146",
-              "images/spark-shop-2025-S9642-6.webp": "15495b67b16707bd092231304ba7bc389dd0105c827a696952f5ca89c2df772a",
-              "images/spark-shop-2025-S9642-7.webp": "0fad0afa0530d1c3e74033e6b0ebad666a6ee0ef6c38505ef4a06f8da06855d9",
-              "images/spark-shop-2025-S9642-8.webp": "ab19f6d1d473f364b070996fa246c7d69170255a28a05276d3074e12b6b7dce1",
-              "images/spark-shop-2025-S9642-9.webp": "61e2c5fb9052205c71a111230dd0a5ebe92409b6a87b738a63093a487f192041",
-              "images/spark-shop-2025-S9642-10.webp": "17308ce9c10a8af5daaa62bb56b883ec95e48bbf2f2d1a473ebde1131360366a",
-              "images/spark-shop-2025-S9642-11.webp": "7ce49c381fd67eccc052c09fbf70fcac6f3a83953c87fec02b2ffa71e2d8d1d4",
-              "images/spark-shop-2025-S9642-12.webp": "aff59b8f919d97bc3aacc29ae310565f63fb6e2dda964eb2169687693390493b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 12,
@@ -31970,37 +31985,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9642-1.webp",
-              "images/spark-shop-2025-S9642-2.webp",
-              "images/spark-shop-2025-S9642-3.webp",
-              "images/spark-shop-2025-S9642-4.webp",
-              "images/spark-shop-2025-S9642-5.webp",
-              "images/spark-shop-2025-S9642-6.webp",
-              "images/spark-shop-2025-S9642-7.webp",
-              "images/spark-shop-2025-S9642-8.webp",
-              "images/spark-shop-2025-S9642-9.webp",
-              "images/spark-shop-2025-S9642-10.webp",
-              "images/spark-shop-2025-S9642-11.webp",
-              "images/spark-shop-2025-S9642-12.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9642-1.webp": "1546690e1a71720ef249d343253c8bcd761cb4f11c5032dede491bad04b737c9",
-              "images/spark-shop-2025-S9642-2.webp": "b0e7acc5170af1cbe0104658d1777a0eae0ea9a780921369367e62ce1c02a861",
-              "images/spark-shop-2025-S9642-3.webp": "a6686af0a293c51a6ee6345767699f3cdc200a35f39028fa204ede2ff1784d53",
-              "images/spark-shop-2025-S9642-4.webp": "4e87394983c9d771b0a10e0fdf636e1d797fe65ba07739e7f8c16ca1e00fc034",
-              "images/spark-shop-2025-S9642-5.webp": "cafe29b3143f16d37c3b9016a0ad61c688fb341abb6003d8896c5809e91dd146",
-              "images/spark-shop-2025-S9642-6.webp": "15495b67b16707bd092231304ba7bc389dd0105c827a696952f5ca89c2df772a",
-              "images/spark-shop-2025-S9642-7.webp": "0fad0afa0530d1c3e74033e6b0ebad666a6ee0ef6c38505ef4a06f8da06855d9",
-              "images/spark-shop-2025-S9642-8.webp": "ab19f6d1d473f364b070996fa246c7d69170255a28a05276d3074e12b6b7dce1",
-              "images/spark-shop-2025-S9642-9.webp": "61e2c5fb9052205c71a111230dd0a5ebe92409b6a87b738a63093a487f192041",
-              "images/spark-shop-2025-S9642-10.webp": "17308ce9c10a8af5daaa62bb56b883ec95e48bbf2f2d1a473ebde1131360366a",
-              "images/spark-shop-2025-S9642-11.webp": "7ce49c381fd67eccc052c09fbf70fcac6f3a83953c87fec02b2ffa71e2d8d1d4",
-              "images/spark-shop-2025-S9642-12.webp": "aff59b8f919d97bc3aacc29ae310565f63fb6e2dda964eb2169687693390493b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 12,
@@ -32383,37 +32372,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-shop-2025-S9642-1.webp",
-              "images/spark-shop-2025-S9642-2.webp",
-              "images/spark-shop-2025-S9642-3.webp",
-              "images/spark-shop-2025-S9642-4.webp",
-              "images/spark-shop-2025-S9642-5.webp",
-              "images/spark-shop-2025-S9642-6.webp",
-              "images/spark-shop-2025-S9642-7.webp",
-              "images/spark-shop-2025-S9642-8.webp",
-              "images/spark-shop-2025-S9642-9.webp",
-              "images/spark-shop-2025-S9642-10.webp",
-              "images/spark-shop-2025-S9642-11.webp",
-              "images/spark-shop-2025-S9642-12.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-shop-2025-S9642-1.webp": "1546690e1a71720ef249d343253c8bcd761cb4f11c5032dede491bad04b737c9",
-              "images/spark-shop-2025-S9642-2.webp": "b0e7acc5170af1cbe0104658d1777a0eae0ea9a780921369367e62ce1c02a861",
-              "images/spark-shop-2025-S9642-3.webp": "a6686af0a293c51a6ee6345767699f3cdc200a35f39028fa204ede2ff1784d53",
-              "images/spark-shop-2025-S9642-4.webp": "4e87394983c9d771b0a10e0fdf636e1d797fe65ba07739e7f8c16ca1e00fc034",
-              "images/spark-shop-2025-S9642-5.webp": "cafe29b3143f16d37c3b9016a0ad61c688fb341abb6003d8896c5809e91dd146",
-              "images/spark-shop-2025-S9642-6.webp": "15495b67b16707bd092231304ba7bc389dd0105c827a696952f5ca89c2df772a",
-              "images/spark-shop-2025-S9642-7.webp": "0fad0afa0530d1c3e74033e6b0ebad666a6ee0ef6c38505ef4a06f8da06855d9",
-              "images/spark-shop-2025-S9642-8.webp": "ab19f6d1d473f364b070996fa246c7d69170255a28a05276d3074e12b6b7dce1",
-              "images/spark-shop-2025-S9642-9.webp": "61e2c5fb9052205c71a111230dd0a5ebe92409b6a87b738a63093a487f192041",
-              "images/spark-shop-2025-S9642-10.webp": "17308ce9c10a8af5daaa62bb56b883ec95e48bbf2f2d1a473ebde1131360366a",
-              "images/spark-shop-2025-S9642-11.webp": "7ce49c381fd67eccc052c09fbf70fcac6f3a83953c87fec02b2ffa71e2d8d1d4",
-              "images/spark-shop-2025-S9642-12.webp": "aff59b8f919d97bc3aacc29ae310565f63fb6e2dda964eb2169687693390493b"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 12,
