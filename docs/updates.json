@@ -1,6 +1,53 @@
 {
   "updates": [
     {
+      "date": "2026-11-04T08:10:12.604256+00:00",
+      "entries": [
+        {
+          "type": "removed",
+          "id": "minichamps-minichamps-1660051",
+          "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
+          "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
+          "product_number": "417260110",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1082",
+          "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/lsf1082-de",
+          "product_number": "LSF1082",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp?ts=1792037202",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp?ts=1793759664"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-03T16:12:03.700016+00:00",
       "entries": [
         {
