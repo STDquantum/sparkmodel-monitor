@@ -53,8 +53,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-05T09:39:28.702370+00:00",
-  "total": 952,
+  "updated_at": "2026-11-05T17:40:41.409478+00:00",
+  "total": 957,
   "items": {
     "burago-183284": {
       "product_id": "burago-183284",
@@ -4689,6 +4689,7 @@
     "minichamps-019ef96fb86a72e3b5d5e28b4de6598e": {
       "name": "FERRARI SF-25 - CHARLES LECLERC - 2ND PLACE MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef96fb86a72e3b5d5e28b4de6598e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/4e/3c/81/1793888080/00_BBR127C16.jpg?ts=1793888080",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4697,6 +4698,7 @@
     "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef96fb8fd73fc8c9cd149b2ab8540?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/37/00/e7/1793887765/BBR127C44.jpg?ts=1793887765",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4903,7 +4905,7 @@
     "minichamps-019ef970c11172a1812db97dfc4ddb12": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970c11172a1812db97dfc4ddb12?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/61/1d/5c/1793693966/537253781_retu.jpg?ts=1793693966",
+      "image_url": "https://www.minichamps.de/media/aa/16/4a/1793875380/00_537253781.jpg?ts=1793875380",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -5499,6 +5501,24 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-117261912": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/117261912",
+      "product_number": "117261912",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-127261912": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/127261912",
+      "product_number": "127261912",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-417260110": {
       "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
@@ -5593,6 +5613,15 @@
       "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
       "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/417261727",
       "product_number": "417261727",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417261912": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/417261912",
+      "product_number": "417261912",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -5746,6 +5775,24 @@
       "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 8TH PLACE SINGAPORE GP 2026",
       "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-8TH-PLACE-SINGAPORE-GP-2026/640261727",
       "product_number": "640261727",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640261912": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/640261912",
+      "product_number": "640261912",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-800261912": {
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/800261912",
+      "product_number": "800261912",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -11023,12 +11070,17 @@
     }
   },
   "changes": {
-    "added": [],
+    "added": [
+      "minichamps-117261912",
+      "minichamps-127261912",
+      "minichamps-417261912",
+      "minichamps-640261912",
+      "minichamps-800261912"
+    ],
     "changed": [
-      "spark-S9370",
-      "spark-S9371",
-      "spark-S9382",
-      "spark-S9383"
+      "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
+      "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
+      "minichamps-019ef970c11172a1812db97dfc4ddb12"
     ],
     "removed": []
   }

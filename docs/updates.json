@@ -1,6 +1,217 @@
 {
   "updates": [
     {
+      "date": "2026-11-05T17:40:50.846452+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
+          "name": "FERRARI SF-25 - CHARLES LECLERC - 2ND PLACE MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef96fb86a72e3b5d5e28b4de6598e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR127C16",
+          "scale": "1/12",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/4e/3c/81/1793888080/00_BBR127C16.jpg?ts=1793888080"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-1.jpg",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-2.jpg",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-3.jpg",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-4.jpg",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-5.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-1.jpg": "6423d416890c5c67cd6684e197b4ce3023c428f20f41f560193653f3f5d1ef16",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-2.jpg": "75ba0b9aa93db0ba96f5bdfaf2260968f25ef3270b70719af7a50e105e8356b5",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-3.jpg": "47c4b3a5bb6cc287760e0f044ce8e4a0b7c458068ade7ac4cb3581f8b750fe46",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-4.jpg": "e88aebd6fd7a7df5cbcfc62904e5e520302946f8604c7286a85cf4594bf69204",
+              "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-5.jpg": "cb2560c70e89697448ccda7cea376599e51bba2f01838a675458e7d98e7778de"
+            }
+          },
+          "image_counts": {
+            "added": 5,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
+          "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef96fb8fd73fc8c9cd149b2ab8540?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR127C44",
+          "scale": "1/12",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/37/00/e7/1793887765/BBR127C44.jpg?ts=1793887765"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-1.jpg",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-2.jpg",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-3.jpg",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-4.jpg",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-5.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-1.jpg": "c235b63636227de7a87b84db505fe610ab027ffe07d78e17474fde89d01751f8",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-2.jpg": "ab02d083791ddfba0de16d36536592281ddf95db274d00c85fd0b77c08e9a037",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-3.jpg": "7b1261304d2665098bd5ae5b3e1cc0c64de3323ddddd0dfa02539fa88a85d1ee",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-4.jpg": "adf3dd2c9ed31d221b2484c803fb7d2f935b13c178b9668c9d4193d8fa347255",
+              "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-5.jpg": "8febe2165db50cf5d23c6a7cb630fb731b7a6e22e3adbb5affaaf19cf759f701"
+            }
+          },
+          "image_counts": {
+            "added": 5,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef970c11172a1812db97dfc4ddb12",
+          "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef970c11172a1812db97dfc4ddb12?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "537253781",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/61/1d/5c/1793693966/537253781_retu.jpg?ts=1793693966",
+              "after": "https://www.minichamps.de/media/aa/16/4a/1793875380/00_537253781.jpg?ts=1793875380"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg": "a2ec6f9859ed8bb2857e2d6fd9a4cf6764ad556ab67ada31676e803c5fc75bf9"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 1
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117261912",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/117261912",
+          "product_number": "117261912",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-127261912",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/127261912",
+          "product_number": "127261912",
+          "scale": "1/12",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417261912",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/417261912",
+          "product_number": "417261912",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640261912",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/640261912",
+          "product_number": "640261912",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-800261912",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/800261912",
+          "product_number": "800261912",
+          "scale": "1/08",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-05T09:39:31.243156+00:00",
       "entries": [
         {
@@ -5524,14 +5735,10 @@
           ],
           "images": {
             "added": [],
-            "changed": [
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg"
-            ],
+            "changed": [],
             "moved": [],
             "removed_count": 4,
-            "hashes": {
-              "images/minichamps-019ef970c11172a1812db97dfc4ddb12-1.jpg": "e515712c6fea718318c5ce4dd28083af9c435cd6e2fe54d11e6cffac014fe7f2"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 0,

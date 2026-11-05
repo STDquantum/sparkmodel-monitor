@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:39:31.243156+00:00",
+  "generated_at": "2026-11-05T17:40:50.846452+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -12924,7 +12924,13 @@
       "id": "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
       "name": "FERRARI SF-25 - CHARLES LECLERC - 2ND PLACE MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef96fb86a72e3b5d5e28b4de6598e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-1.jpg",
+        "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-2.jpg",
+        "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-3.jpg",
+        "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-4.jpg",
+        "images/minichamps-019ef96fb86a72e3b5d5e28b4de6598e-5.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "BBR127C16",
@@ -12949,7 +12955,13 @@
       "id": "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
       "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef96fb8fd73fc8c9cd149b2ab8540?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-1.jpg",
+        "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-2.jpg",
+        "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-3.jpg",
+        "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-4.jpg",
+        "images/minichamps-019ef96fb8fd73fc8c9cd149b2ab8540-5.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "BBR127C44",
@@ -15404,6 +15416,56 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-117261912",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/117261912",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117261912",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "219.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-127261912",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/127261912",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "127261912",
+        "Scale": "1/12",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "725",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-417260110",
       "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
@@ -15672,6 +15734,31 @@
       "description": "",
       "brand": "Minichamps",
       "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417261912",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/417261912",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417261912",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "99.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -16097,6 +16184,56 @@
       "description": "",
       "brand": "Minichamps",
       "price": "26.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640261912",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/640261912",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640261912",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "DIECAST",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "32.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-800261912",
+      "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
+      "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/800261912",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "800261912",
+        "Scale": "1/08",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "ANTONELLI, KIMI",
+        "Material": "RESIN",
+        "Model": "W17"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "3995",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
