@@ -53,7 +53,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-05T17:40:41.409478+00:00",
+  "updated_at": "2026-11-05T22:54:11.013223+00:00",
   "total": 957,
   "items": {
     "burago-183284": {
@@ -4164,6 +4164,7 @@
     "minichamps-019a89196ed9706e9c2e0076229414bd": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - WINNER CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a89196ed9706e9c2e0076229414bd?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/2d/31/40/1793907160/00_537251981_01a1ad32.jpg?ts=1793907160",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4315,6 +4316,7 @@
     "minichamps-019a8919aa52720db1d38c984d6611f9": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919aa52720db1d38c984d6611f9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/9a/d0/72/1793907160/00_537252581_01a1ad32.jpg?ts=1793907160",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4403,6 +4405,7 @@
     "minichamps-019a8919b9da704b9258d7e7c8052159": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - AUSTRALIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919b9da704b9258d7e7c8052159?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/86/60/9b/1793907159/00_530256481_01a1ad32.jpg?ts=1793907159",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4411,6 +4414,7 @@
     "minichamps-019a8919bb187118a1ebe4ef6fffae08": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919bb187118a1ebe4ef6fffae08?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/5e/a5/cc/1793907159/00_530256504_01a1ad32.jpg?ts=1793907159",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4419,6 +4423,7 @@
     "minichamps-019a8919bc457175a62709bc602d3e77": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - WINNER CHINA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919bc457175a62709bc602d3e77?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/54/83/57/1793907159/00_530256581_01a1ad32.jpg?ts=1793907159",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4427,6 +4432,7 @@
     "minichamps-019a8919bd5871eb9c9080ee353c5639": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919bd5871eb9c9080ee353c5639?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/34/59/46/1793907159/00_530257104_01a1ad32.jpg?ts=1793907159",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4435,6 +4441,7 @@
     "minichamps-019a8919be727364ac6da8d37bab9fc9": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MONACO GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919be727364ac6da8d37bab9fc9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/7e/8c/d9/1793907159/00_530257181_01a1ad32.jpg?ts=1793907159",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4630,6 +4637,7 @@
     "minichamps-019a8919f27d71289a1cf73da2ba06ab": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f27d71289a1cf73da2ba06ab?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/a4/87/b1/1793907159/00_530257504_01a1ad32.jpg?ts=1793907159",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4638,6 +4646,7 @@
     "minichamps-019a8919f3a97043ad1a3387e95a1e64": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f3a97043ad1a3387e95a1e64?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/a7/91/f9/1793907160/00_530257581_01a1ad32.jpg?ts=1793907160",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4664,7 +4673,7 @@
     "minichamps-019a8919f74570718a513af8f72e4e9d": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - LANDO NORRIS - WINNER BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f74570718a513af8f72e4e9d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/3d/9c/4d/1793694891/00_537255404.jpg?ts=1793694891",
+      "image_url": "https://www.minichamps.de/media/e5/5b/7e/1793907161/00_537255404_01a1ad32.jpg?ts=1793907161",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4673,6 +4682,7 @@
     "minichamps-019a8919f8517060bf66a3368e31e16b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - 2ND BRITISH GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919f8517060bf66a3368e31e16b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/48/cd/0e/1793907161/00_537255481_01a1ad32.jpg?ts=1793907161",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4757,7 +4767,7 @@
     "minichamps-019ef970b2d37258976dddf3dc33a82b": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - HUNGARIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b2d37258976dddf3dc33a82b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/61/c2/4b/1793694191/00_537253181.jpg?ts=1793694191",
+      "image_url": "https://www.minichamps.de/media/88/1a/6c/1793907160/00_537253181_01a1ad32.jpg?ts=1793907160",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -4905,7 +4915,7 @@
     "minichamps-019ef970c11172a1812db97dfc4ddb12": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970c11172a1812db97dfc4ddb12?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/aa/16/4a/1793875380/00_537253781.jpg?ts=1793875380",
+      "image_url": "https://www.minichamps.de/media/61/fb/ee/1793907161/00_537253781_01a1ad32.jpg?ts=1793907161",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -5122,7 +5132,7 @@
     "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca": {
       "name": "MCLAREN FORMULA 1 TEAM MCL39 - OSCAR PIASTRI - MEXICAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971dc9c71dd89ab87ec07a7e2ca?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "image_url": "https://www.minichamps.de/media/1d/29/97/1793694429/00_537256281.jpg?ts=1793694429",
+      "image_url": "https://www.minichamps.de/media/59/20/26/1793907162/00_537256281_01a1ad32.jpg?ts=1793907162",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -11070,17 +11080,22 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-117261912",
-      "minichamps-127261912",
-      "minichamps-417261912",
-      "minichamps-640261912",
-      "minichamps-800261912"
-    ],
+    "added": [],
     "changed": [
-      "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
-      "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
-      "minichamps-019ef970c11172a1812db97dfc4ddb12"
+      "minichamps-019a89196ed9706e9c2e0076229414bd",
+      "minichamps-019a8919aa52720db1d38c984d6611f9",
+      "minichamps-019a8919b9da704b9258d7e7c8052159",
+      "minichamps-019a8919bb187118a1ebe4ef6fffae08",
+      "minichamps-019a8919bc457175a62709bc602d3e77",
+      "minichamps-019a8919bd5871eb9c9080ee353c5639",
+      "minichamps-019a8919be727364ac6da8d37bab9fc9",
+      "minichamps-019a8919f27d71289a1cf73da2ba06ab",
+      "minichamps-019a8919f3a97043ad1a3387e95a1e64",
+      "minichamps-019a8919f74570718a513af8f72e4e9d",
+      "minichamps-019a8919f8517060bf66a3368e31e16b",
+      "minichamps-019ef970b2d37258976dddf3dc33a82b",
+      "minichamps-019ef970c11172a1812db97dfc4ddb12",
+      "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca"
     ],
     "removed": []
   }
