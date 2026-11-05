@@ -1,6 +1,349 @@
 {
   "updates": [
     {
+      "date": "2026-11-05T00:25:41.600002+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "burago-191776",
+          "name": "ASTON MARTIN F1 AMR25 TEAM ARAMCO COGNIZANT N 14 SEASON 2025 FERNANDO ALONSO",
+          "url": "https://www.carmodel.com/burago/18-38250-a/1-43/aston-martin/f1-amr25-team-aramco-cognizant-n-14-season-2025-fernando-alonso/191776",
+          "product_number": "18-38250-A",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Catalogue",
+              "after": "Available"
+            },
+            {
+              "field": "价格",
+              "before": "10.95",
+              "after": "10.40"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "burago-191789",
+          "name": "MERCEDES GP F1 W16 TEAM AMG PETRONAS MOTORSPORT N 12 SEASON 2025 ANDREA KIMI ANTONELLI - WITH PILOT AND SHOWCASE",
+          "url": "https://www.carmodel.com/burago/18-38238-a/1-43/mercedes-gp/f1-w16-team-amg-petronas-motorsport-n-12-season-2025-andrea-kimi-antonelli-with-pilot-and-showcase/191789",
+          "product_number": "18-38238-A",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Catalogue"
+            },
+            {
+              "field": "价格",
+              "before": "18.95",
+              "after": "19.95"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-206512",
+          "name": "FERRARI LEWIS HAMILTON - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 44 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-16817mo44/1-18/ferrari/lewis-hamilton-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-44-monza-italy-gp-2026-michael-schumacher-tribute/206512",
+          "product_number": "18-16817MO44",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-206512-1.jpg",
+              "images/burago-206512-2.jpg",
+              "images/burago-206512-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-206512-1.jpg": "43d564195c3cfcd4e3452aeed32a920e841a874568bdc5be80759e315c0653e0",
+              "images/burago-206512-2.jpg": "ac28f81342b5de75322630464c68cf76cb360aec1576b68ceb26ac88478aff6c",
+              "images/burago-206512-3.jpg": "2748f34389b731a642679c391caf2cda9666d7aec25fa90a5b073ff1774636f1"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-206513",
+          "name": "FERRARI CHARLES LECLERC - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 16 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-16817mo16/1-18/ferrari/charles-leclerc-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-16-monza-italy-gp-2026-michael-schumacher-tribute/206513",
+          "product_number": "18-16817MO16",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-206513-1.jpg",
+              "images/burago-206513-2.jpg",
+              "images/burago-206513-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-206513-1.jpg": "f61b2eba731640ea8b79a9e14fd4b06ffea57e7f1c4592829e39d31718b888f3",
+              "images/burago-206513-2.jpg": "a8b111c1ba454dfd2f710286234e7e05d57781cc10caf93715fd34ae022b45c9",
+              "images/burago-206513-3.jpg": "aa112736b3a1ffc3b8654870c979a594b3217d458f33355b64ea07b6a3e7cf2b"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-206514",
+          "name": "FERRARI CHARLES LECLERC - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 16 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-36872mo16/1-43/ferrari/charles-leclerc-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-16-monza-italy-gp-2026-michael-schumacher-tribute/206514",
+          "product_number": "18-36872MO16",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-206514-1.jpg",
+              "images/burago-206514-2.jpg",
+              "images/burago-206514-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-206514-1.jpg": "f61b2eba731640ea8b79a9e14fd4b06ffea57e7f1c4592829e39d31718b888f3",
+              "images/burago-206514-2.jpg": "a8b111c1ba454dfd2f710286234e7e05d57781cc10caf93715fd34ae022b45c9",
+              "images/burago-206514-3.jpg": "aa112736b3a1ffc3b8654870c979a594b3217d458f33355b64ea07b6a3e7cf2b"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-206515",
+          "name": "FERRARI LEWIS HAMILTON - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 44 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-36872mo44/1-43/ferrari/lewis-hamilton-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-44-monza-italy-gp-2026-michael-schumacher-tribute/206515",
+          "product_number": "18-36872MO44",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-206515-1.jpg",
+              "images/burago-206515-2.jpg",
+              "images/burago-206515-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-206515-1.jpg": "43d564195c3cfcd4e3452aeed32a920e841a874568bdc5be80759e315c0653e0",
+              "images/burago-206515-2.jpg": "ac28f81342b5de75322630464c68cf76cb360aec1576b68ceb26ac88478aff6c",
+              "images/burago-206515-3.jpg": "2748f34389b731a642679c391caf2cda9666d7aec25fa90a5b073ff1774636f1"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-206516",
+          "name": "FERRARI WITH SHOWCASE AND PILOT - CHARLES LECLERC - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 16 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-36871mo16/1-43/ferrari/with-showcase-and-pilot-charles-leclerc-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-16-monza-italy-gp-2026-michael-schumacher-tribute/206516",
+          "product_number": "18-36871MO16",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-206516-1.jpg",
+              "images/burago-206516-2.jpg",
+              "images/burago-206516-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-206516-1.jpg": "f61b2eba731640ea8b79a9e14fd4b06ffea57e7f1c4592829e39d31718b888f3",
+              "images/burago-206516-2.jpg": "a8b111c1ba454dfd2f710286234e7e05d57781cc10caf93715fd34ae022b45c9",
+              "images/burago-206516-3.jpg": "aa112736b3a1ffc3b8654870c979a594b3217d458f33355b64ea07b6a3e7cf2b"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-206517",
+          "name": "FERRARI WITH SHOWCASE AND PILOT - LEWIS HAMILTON - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 44 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-36871mo44/1-43/ferrari/with-showcase-and-pilot-lewis-hamilton-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-44-monza-italy-gp-2026-michael-schumacher-tribute/206517",
+          "product_number": "18-36871MO44",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-206517-1.jpg",
+              "images/burago-206517-2.jpg",
+              "images/burago-206517-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-206517-1.jpg": "43d564195c3cfcd4e3452aeed32a920e841a874568bdc5be80759e315c0653e0",
+              "images/burago-206517-2.jpg": "ac28f81342b5de75322630464c68cf76cb360aec1576b68ceb26ac88478aff6c",
+              "images/burago-206517-3.jpg": "2748f34389b731a642679c391caf2cda9666d7aec25fa90a5b073ff1774636f1"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-207678",
+          "name": "MERCEDES GP WITH SHOWCASE - ANDREA KIMI ANTONELLI - F1 W17E PERFORMANCE TEAM AMG PETRONAS N 12 WORLD CHAMPION 2nd BAHRAIN GP IN MALAYSIA 2026 - PETRONAS LIVERY",
+          "url": "https://www.carmodel.com/burago/18-18027-ba12/1-18/mercedes-gp/with-showcase-andrea-kimi-antonelli-f1-w17e-performance-team-amg-petronas-n-12-world-champion-2nd-bahrain-gp-in-malaysia-2026-petronas-livery/207678",
+          "product_number": "18-18027-BA12",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-207678-1.jpg",
+              "images/burago-207678-2.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-207678-1.jpg": "4591d7c766328eb83dcdda80673470a34d4b241ff4a0dc4c7b4b364d0d9f1ac6",
+              "images/burago-207678-2.jpg": "293dc48f4e6f17a032dea3c20cc074802787a1891cbd9ef1733d2c86ba469f03"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-207680",
+          "name": "MERCEDES GP ANDREA KIMI ANTONELLI - F1 W17E PERFORMANCE TEAM AMG PETRONAS N 12 WORLD CHAMPION 2nd BAHRAIN GP IN MALAYSIA 2026 - PETRONAS LIVERY",
+          "url": "https://www.carmodel.com/burago/18-18006-ba12/1-18/mercedes-gp/andrea-kimi-antonelli-f1-w17e-performance-team-amg-petronas-n-12-world-champion-2nd-bahrain-gp-in-malaysia-2026-petronas-livery/207680",
+          "product_number": "18-18006-BA12",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-207680-1.jpg",
+              "images/burago-207680-2.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-207680-1.jpg": "4591d7c766328eb83dcdda80673470a34d4b241ff4a0dc4c7b4b364d0d9f1ac6",
+              "images/burago-207680-2.jpg": "293dc48f4e6f17a032dea3c20cc074802787a1891cbd9ef1733d2c86ba469f03"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-208893",
+          "name": "FERRARI WITH SHOWCASE - LEWIS HAMILTON - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 44 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-16823mo44/1-18/ferrari/with-showcase-lewis-hamilton-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-44-monza-italy-gp-2026-michael-schumacher-tribute/208893",
+          "product_number": "18-16823MO44",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-208893-1.jpg",
+              "images/burago-208893-2.jpg",
+              "images/burago-208893-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-208893-1.jpg": "43d564195c3cfcd4e3452aeed32a920e841a874568bdc5be80759e315c0653e0",
+              "images/burago-208893-2.jpg": "ac28f81342b5de75322630464c68cf76cb360aec1576b68ceb26ac88478aff6c",
+              "images/burago-208893-3.jpg": "2748f34389b731a642679c391caf2cda9666d7aec25fa90a5b073ff1774636f1"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "burago-208894",
+          "name": "FERRARI WITH SHOWCASE - CHARLES LECLERC - F1 SF-26 TEAM SCUDERIA FERRARI HP SF26 N 16 MONZA ITALY GP 2026 - MICHAEL SCHUMACHER TRIBUTE",
+          "url": "https://www.carmodel.com/burago/18-16823mo16/1-18/ferrari/with-showcase-charles-leclerc-f1-sf-26-team-scuderia-ferrari-hp-sf26-n-16-monza-italy-gp-2026-michael-schumacher-tribute/208894",
+          "product_number": "18-16823MO16",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/burago-208894-1.jpg",
+              "images/burago-208894-2.jpg",
+              "images/burago-208894-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/burago-208894-1.jpg": "43d564195c3cfcd4e3452aeed32a920e841a874568bdc5be80759e315c0653e0",
+              "images/burago-208894-2.jpg": "ac28f81342b5de75322630464c68cf76cb360aec1576b68ceb26ac88478aff6c",
+              "images/burago-208894-3.jpg": "2748f34389b731a642679c391caf2cda9666d7aec25fa90a5b073ff1774636f1"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-04T22:00:18.861584+00:00",
       "entries": [
         {
@@ -58,7 +401,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
