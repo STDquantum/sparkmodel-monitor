@@ -1,6 +1,151 @@
 {
   "updates": [
     {
+      "date": "2026-11-05T09:39:31.243156+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-S9370",
+          "name": "Atlassian Williams F1 Team FW48 No.55 Japanese GP 2026 \nCarlos Sainz",
+          "url": "https://www.sparkmodel.com/products/1e7a50c0-4b5f-4193-abb3-b5d9347d3b2d",
+          "product_number": "S9370",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/cc3c0b82-cf2e-4698-9b3c-6369f41e6799.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/494e744d-3d53-4377-bc34-9f67ab4cb48a.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9370-2.webp",
+              "images/spark-S9370-3.webp"
+            ],
+            "changed": [
+              "images/spark-S9370-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9370-2.webp": "7bf816067291f3ebbc22d5fc15ba0f5f311c4e8466a750bd60d86c4e153b1113",
+              "images/spark-S9370-3.webp": "ee92037487dca84f72deeb6c1dd8fa9a40e6e8cc1cd55713c00eb1d54804e264",
+              "images/spark-S9370-1.webp": "337a3699e3f96d47a0ae4e3538396977a6e7948a9c36e65215fe7f68473b321f"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9371",
+          "name": "Atlassian Williams F1 Team FW48 No.23 Japanese GP 2026 \nAlexander Albon",
+          "url": "https://www.sparkmodel.com/products/c1ee9a46-881d-4f48-8f2d-3c6cd319ae66",
+          "product_number": "S9371",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e0bb8223-0c08-4cad-838e-4af192580e8c.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f6eee663-5a7d-4501-88a3-896ca34c799c.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9371-2.webp",
+              "images/spark-S9371-3.webp"
+            ],
+            "changed": [
+              "images/spark-S9371-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9371-2.webp": "34091d9dbad24c2938804e59f6e281e41c5a1b5c4b70992cad409a8f8fc83423",
+              "images/spark-S9371-3.webp": "bea041b512b7700cfe7149c18d56b5f2b42d42147faca540faafe111f5b3f315",
+              "images/spark-S9371-1.webp": "2fc76dbe0947b0706c735db7f520617df3626d2dc0d18108086642bc4f73af9a"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9382",
+          "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 7th Chinese GP 2026 \nLiam Lawson",
+          "url": "https://www.sparkmodel.com/products/dd59f8e8-e8f5-431d-87fb-781a3ab7ce6a",
+          "product_number": "S9382",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8d775d7c-83b5-408c-8c8f-7f2e5e79d39f.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b23de748-1dbe-4ebc-92a1-a1f88a989dc1.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9382-2.webp",
+              "images/spark-S9382-3.webp"
+            ],
+            "changed": [
+              "images/spark-S9382-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9382-2.webp": "65f96e72e21b89fb56e0c0440668a830a77238785eb75897f46fecdeb1b0869e",
+              "images/spark-S9382-3.webp": "0905a4ac943808da058e450923261f1d0bdd60058d83e7526d54917df968d87e",
+              "images/spark-S9382-1.webp": "0c5b86d4f03c82cc5b5fc1cf3d01ef3a413b4afdc64d4fa106966ff8a4d2ac7e"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9383",
+          "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 8th Australian GP 2026 \nArvid Lindblad\nWith pit board",
+          "url": "https://www.sparkmodel.com/products/c84fc5e7-832b-443b-901f-b21b97b545f9",
+          "product_number": "S9383",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c2e03bff-d0cf-49b5-80d1-c4b81299b98c.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/66a96ef4-c68b-4a8f-8d30-80edd6c0e6de.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9383-2.webp",
+              "images/spark-S9383-3.webp"
+            ],
+            "changed": [
+              "images/spark-S9383-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9383-2.webp": "1cc4cc4e1526dd21fa4de6bbbf65c279c862e21dab21d863d0c32de6de3f7ad9",
+              "images/spark-S9383-3.webp": "83985678891340aa3f51994415c8eaec45ef14be1aa7e9a64c1de475a06c6e01",
+              "images/spark-S9383-1.webp": "17085fdcb003d4546df2ccb81a98af14f5bdd2c2100210fcb3c3415457d999b7"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-05T06:27:35.072773+00:00",
       "entries": [
         {
@@ -16879,15 +17024,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9370-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9370-1.webp": "1b2214ad0beb109d7745079e417dc7fc0eeb1b2dde2cb95a6a75dcd8b5b33c0d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -16903,15 +17044,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9371-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9371-1.webp": "e5d6fb9a2d62dd7bb3f5d25d898fb8764bf7bced6fea5a3e0b8c24f545c76c16"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -17289,15 +17426,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9382-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9382-1.webp": "33dbcb1a3401a0b6e95c9e5926b787216e2748541bfab976a57c95ee162aac02"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -17313,15 +17446,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9383-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9383-1.webp": "55453f2f98d4f2e3118fcfb83f5620129d4c1e6fe59c95bc58de84ae3fdb851e"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

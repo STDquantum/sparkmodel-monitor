@@ -53,7 +53,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-05T05:55:13.676795+00:00",
+  "updated_at": "2026-11-05T09:39:28.702370+00:00",
   "total": 952,
   "items": {
     "burago-183284": {
@@ -9282,7 +9282,7 @@
       "source_id": "1e7a50c0-4b5f-4193-abb3-b5d9347d3b2d",
       "name": "Atlassian Williams F1 Team FW48 No.55 Japanese GP 2026 \nCarlos Sainz",
       "url": "https://www.sparkmodel.com/products/1e7a50c0-4b5f-4193-abb3-b5d9347d3b2d",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/cc3c0b82-cf2e-4698-9b3c-6369f41e6799.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/494e744d-3d53-4377-bc34-9f67ab4cb48a.webp",
       "availability": "In development",
       "product_number": "S9370",
       "scale": "1/43",
@@ -9294,7 +9294,7 @@
       "source_id": "c1ee9a46-881d-4f48-8f2d-3c6cd319ae66",
       "name": "Atlassian Williams F1 Team FW48 No.23 Japanese GP 2026 \nAlexander Albon",
       "url": "https://www.sparkmodel.com/products/c1ee9a46-881d-4f48-8f2d-3c6cd319ae66",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e0bb8223-0c08-4cad-838e-4af192580e8c.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f6eee663-5a7d-4501-88a3-896ca34c799c.webp",
       "availability": "In development",
       "product_number": "S9371",
       "scale": "1/43",
@@ -9426,7 +9426,7 @@
       "source_id": "dd59f8e8-e8f5-431d-87fb-781a3ab7ce6a",
       "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 7th Chinese GP 2026 \nLiam Lawson",
       "url": "https://www.sparkmodel.com/products/dd59f8e8-e8f5-431d-87fb-781a3ab7ce6a",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8d775d7c-83b5-408c-8c8f-7f2e5e79d39f.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b23de748-1dbe-4ebc-92a1-a1f88a989dc1.webp",
       "availability": "In development",
       "product_number": "S9382",
       "scale": "1/43",
@@ -9438,7 +9438,7 @@
       "source_id": "c84fc5e7-832b-443b-901f-b21b97b545f9",
       "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 8th Australian GP 2026 \nArvid Lindblad\nWith pit board",
       "url": "https://www.sparkmodel.com/products/c84fc5e7-832b-443b-901f-b21b97b545f9",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c2e03bff-d0cf-49b5-80d1-c4b81299b98c.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/66a96ef4-c68b-4a8f-8d30-80edd6c0e6de.webp",
       "availability": "In development",
       "product_number": "S9383",
       "scale": "1/43",
@@ -11025,8 +11025,10 @@
   "changes": {
     "added": [],
     "changed": [
-      "spark-18S1259",
-      "spark-Y437"
+      "spark-S9370",
+      "spark-S9371",
+      "spark-S9382",
+      "spark-S9383"
     ],
     "removed": []
   }
