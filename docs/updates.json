@@ -1,6 +1,117 @@
 {
   "updates": [
     {
+      "date": "2026-11-05T05:55:17.433022+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-18S1259",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.63 4th Japanese GP 2026\nGeorge Russell",
+          "url": "https://www.sparkmodel.com/products/61703c26-2b2e-41a7-b8ad-05d89ecba8f6",
+          "product_number": "18S1259",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/8c011bb2-bbd4-4b45-ab12-c6de838393e1.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d837edb8-375b-45b7-9a8c-a60b0de45fa0.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-18S1259-4.webp",
+              "images/spark-18S1259-5.webp",
+              "images/spark-18S1259-6.webp",
+              "images/spark-18S1259-7.webp",
+              "images/spark-18S1259-8.webp",
+              "images/spark-18S1259-9.webp",
+              "images/spark-18S1259-10.webp",
+              "images/spark-18S1259-11.webp",
+              "images/spark-18S1259-12.webp"
+            ],
+            "changed": [
+              "images/spark-18S1259-1.webp",
+              "images/spark-18S1259-2.webp",
+              "images/spark-18S1259-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-18S1259-4.webp": "c9518eff983032d7c7a71a61a21e9e32cda6029083d19317aff864ccb2884cb8",
+              "images/spark-18S1259-5.webp": "a0b3e8adc7dbf73570285dfc6c7b4cfd9266db2b4bd275fb4cda54cb95528604",
+              "images/spark-18S1259-6.webp": "35b833da1fc59e7b98e95e8824e2da68a0150fc18c2d30ba0fa1fd3482c6719e",
+              "images/spark-18S1259-7.webp": "92f4e65f5fc7d42e59d22e645ec87b92443137ebd11376979e92012ab6238eb1",
+              "images/spark-18S1259-8.webp": "415c18e6887b13d01c6ceeb952414e9bd0925ccf36c2834beebcae59d5d86624",
+              "images/spark-18S1259-9.webp": "e561eb4915ad77d79075dbb85be33058632b8b60678b7b25fe01ef23d67c1653",
+              "images/spark-18S1259-10.webp": "4ae249177348efef9d0d8a819dbbdb9585fcfb01b0858d4604be4db2f456615f",
+              "images/spark-18S1259-11.webp": "414f3acbba3baf45e82f99dfd84b0b8c47ae7f2cb5171302e201fb9c293ad27f",
+              "images/spark-18S1259-12.webp": "8613948386fdf5499b0e3f962392365ae67267d6f871e265094f032ac79a1373",
+              "images/spark-18S1259-1.webp": "fc5a7f055e01bb79d898b9d38e2a7332667cb854763912abd81fb191f3e3e71c",
+              "images/spark-18S1259-2.webp": "0523199c6cfe84861f754d884c98d005a8f297984a9e74d3c097df8717d638b3",
+              "images/spark-18S1259-3.webp": "b1fb67acb11556ae8197178c6107cd930ee3140a5d9a78aef3115e1fd3d580f3"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-Y437",
+          "name": "Aston Martin AMR25 No.14 Aston Martin Aramco Formula One Team\nJapanese GP 2025\nFernando Alonso",
+          "url": "https://www.sparkmodel.com/products/64f82df1-04cc-4dd3-ad34-5b2ddd97976d",
+          "product_number": "Y437",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ae6f1e4b-5716-47c3-a6d1-fe54a6532468.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0ba0d167-0482-4188-9d3a-ddf70c5024d1.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-Y437-4.webp",
+              "images/spark-Y437-5.webp",
+              "images/spark-Y437-6.webp",
+              "images/spark-Y437-7.webp",
+              "images/spark-Y437-8.webp",
+              "images/spark-Y437-9.webp",
+              "images/spark-Y437-10.webp",
+              "images/spark-Y437-11.webp",
+              "images/spark-Y437-12.webp"
+            ],
+            "changed": [
+              "images/spark-Y437-1.webp",
+              "images/spark-Y437-2.webp",
+              "images/spark-Y437-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-Y437-4.webp": "42074a21b3d848693141cbf78b71ae42f004b0cca7bd548ece57dc5f6b6f305b",
+              "images/spark-Y437-5.webp": "e9166766670af3be201b7fef223f40341ea021e05ff7191fb837a385b1e6365d",
+              "images/spark-Y437-6.webp": "ae9c966714eb26c68695b2ccfd049c2e344310ee0703165049d3d82ae70a22bf",
+              "images/spark-Y437-7.webp": "5a68c3ceee237d3a0d732e0915605bc73134b7da2a7d6da9109153a8d0baee42",
+              "images/spark-Y437-8.webp": "f2ca59820539abeb5c9fb5b99b588c48cbab10576f940b75b23b6f8ae6bdce0e",
+              "images/spark-Y437-9.webp": "833a3381cfc03420e43ebc6154f3adbd16f9d756bf363b8d7736f176addc761a",
+              "images/spark-Y437-10.webp": "5a2b4d8b6cf28ade1831fe91b12ada075242911adee36fdca4b8ae7988689bae",
+              "images/spark-Y437-11.webp": "b101f86d312439aee2af1328b5a23b6db21285ab738bb95cf5d1b9336fb5cfe9",
+              "images/spark-Y437-12.webp": "2d2142c774eac9af8e953da6e4c6d30813130abb66d9aff59b0176bad5dd78d4",
+              "images/spark-Y437-1.webp": "e548d6ea8a3f8f85955f7f7d2f46469d07e4f606f4232ef875c6af93b451de80",
+              "images/spark-Y437-2.webp": "6054e2d3c3312e7b942ea5f22f55d565a74ac4cd395d2f557566a7633b029c5d",
+              "images/spark-Y437-3.webp": "e7b43b3c2a3f4edf3c7619ba0a8dca0de0e068fd30764444e95f8ce33147cf8b"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-05T00:25:41.600002+00:00",
       "entries": [
         {
@@ -4592,19 +4703,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-18S1259-1.webp",
-              "images/spark-18S1259-2.webp",
-              "images/spark-18S1259-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-18S1259-1.webp": "b2759614137456240fcfd0779f39149ea13823437b2f5c76530dcface8f48d27",
-              "images/spark-18S1259-2.webp": "76f2f11bad11abc927d0cd68348110375d0d369b5d08bff70894ff60613670f0",
-              "images/spark-18S1259-3.webp": "caf6f4c9db7659ecabc147d2a619f7df9f91b10a86ce2ff86a19696664ca2ec0"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -17814,19 +17917,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-Y437-1.webp",
-              "images/spark-Y437-2.webp",
-              "images/spark-Y437-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-Y437-1.webp": "aa407c60d6803a0bdb6b833c4579bf64326c1dc978c679d115cda1bffc26fffe",
-              "images/spark-Y437-2.webp": "914e818eecd37dc49e78e3e3d6b21366ac0b61e559d834088c2d63c0ffb5928b",
-              "images/spark-Y437-3.webp": "0193796f2955a6c926517c5b2a8a85302a38f43bb51eb5c2293857817a2120ec"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
