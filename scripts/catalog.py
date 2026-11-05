@@ -498,10 +498,6 @@ def build_catalog(source=None):
             except Exception as error:
                 print(f"[{number}/{len(product_ids)}] {product_id} failed; keeping previous catalog entry: {error}", flush=True)
                 continue
-            previous = products.get(product_id)
-            if not product.get("images") and previous and previous.get("images"):
-                print(f"[{number}/{len(product_ids)}] {product_id} returned no images; keeping previous images", flush=True)
-                product["images"] = previous["images"]
             products[product_id] = product
             print(f"[{number}/{len(product_ids)}] {products[product_id]['name']} ({len(products[product_id]['images'])} image(s))", flush=True)
 
