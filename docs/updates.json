@@ -1,6 +1,346 @@
 {
   "updates": [
     {
+      "date": "2026-11-06T11:10:08.504874+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "spark-S8436",
+          "name": "Mercedes AMG Petronas F1 Team No.12 2nd Mexico GP 2026\n2026 F1 Drivers’ World Champion\nKimi Antonelli \n(Big base, figurine, pit board, World Champion board, Grande Kimi board)",
+          "url": "https://www.sparkmodel.com/products/c727fafe-9c2f-44d6-9b50-2c1fb65f6ffd",
+          "product_number": "S8436",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8436-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8436-1.webp": "cc6b461308a96c38dd63c7908d68b783001598cc5b8c851ff200e7812d27e257"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8438",
+          "name": "Cadillac Formula One Team MA26 No.11 Mexico GP 2026\nSergio Perez - 300th Race\n(With pit board)",
+          "url": "https://www.sparkmodel.com/products/16ffe38f-e388-4d23-abd4-5b64fcfa99e9",
+          "product_number": "S8438",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8438-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8438-1.webp": "fe594e552f7e8d8582bf16e6bbe6badbcd357a663dce60ddf1980466371ee1f4"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8439",
+          "name": "McLaren Mastercard F1 MCL40 No.1 Mexico GP 2026\nLando Norris",
+          "url": "https://www.sparkmodel.com/products/0d9195e3-7696-42fa-ac78-460271f74f9a",
+          "product_number": "S8439",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8439-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8439-1.webp": "8023038b6b0f574e74faf992ad12bec56e7d2314572191984bf6fb42363d6993"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8440",
+          "name": "TGR Haas F1 Team VF-26 No.50 Mexico GP 2026\nRyō Hirakawa - First F1 debut",
+          "url": "https://www.sparkmodel.com/products/f7f5acef-b324-4d3e-af90-035f377570f2",
+          "product_number": "S8440",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8440-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8440-1.webp": "877f84e2de43a23203bd2759ec66405d44b0d4f46f3a82b2bfe34bd4df78d8a6"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8441",
+          "name": "BWT Alpine F1 Team A526 No.43 Mexico GP 2026\nFranco Colapinto",
+          "url": "https://www.sparkmodel.com/products/fa5aa421-89c0-43f5-9512-1af9001e599e",
+          "product_number": "S8441",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8441-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8441-1.webp": "5def8b8a6c753f817d09ec1f262c704d48b001d37bbc2097afa18f862ad591b5"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8442",
+          "name": "Aston Martin Aramco F1 Team AMR26 No.14 USA GP 2026\nFernando Alonso - Honda Racing 500th Race",
+          "url": "https://www.sparkmodel.com/products/ef941b7f-66d0-42ef-8c93-4cee653500e8",
+          "product_number": "S8442",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8442-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8442-1.webp": "c8897906f9b27065eab50bab03ee8fb5ddbfeeb87cf379324a12920fa3824d11"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8443",
+          "name": "TGR Haas F1 Team VF-26 No.87 USA GP 2026\nOliver Bearman",
+          "url": "https://www.sparkmodel.com/products/f588b54f-f790-41fa-8239-191ed245c0a4",
+          "product_number": "S8443",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8443-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8443-1.webp": "1f62d152304f6cddb6d44fb96e5f105ec93f7bb42f4fb8693eb81251a32bcd39"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8444",
+          "name": "Cadillac Formula One Team MA26 No.11 USA GP 2026\nSergio Perez",
+          "url": "https://www.sparkmodel.com/products/b017ffb0-f947-4eae-a1ed-1245d4bc9c4e",
+          "product_number": "S8444",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8444-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8444-1.webp": "d2a296d4740b062600fec6eb58e1c969887b0f8810b32f19ed0335f6b9f0a2b8"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8445",
+          "name": "Mercedes AMG Petronas F1 Team No.12 Winner USA GP 2026\nKimi Antonelli \n(With pit board)",
+          "url": "https://www.sparkmodel.com/products/e31b6c39-6792-47df-828b-fd4e0e180191",
+          "product_number": "S8445",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8445-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8445-1.webp": "96aa5fa171eef91e89f99c80d0e0477535aa692678e05283cdf4dbc78f362e72"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8446",
+          "name": "Oracle Red Bull Racing RB22 No.3 Winner Singapore GP 2026\nMax Verstappen - 250th GP\n(With 2 pit board)",
+          "url": "https://www.sparkmodel.com/products/35592287-4ee6-43b2-b1e1-7a07ef8a42ee",
+          "product_number": "S8446",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8446-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8446-1.webp": "4668ce58800dafc121e1e10dc58a7395610c3e06903ea7c3484bffde3bd528d7"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8447",
+          "name": "Audi Revolut F1 Team R26 No.27 Singapore GP 2026\nNico Hulkenberg",
+          "url": "https://www.sparkmodel.com/products/419621a7-1436-4217-9ea8-1ce5a2ae0954",
+          "product_number": "S8447",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8447-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8447-1.webp": "cb7b68baf0ebd9c74bf66c78289d47bfac3c30a244f858941dea406017c250bd"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "spark-S8448",
+          "name": "BWT Alpine F1 Team A526 No.43 Singapore GP 2026 \nFranco Colapinto - 43 Race start",
+          "url": "https://www.sparkmodel.com/products/b3128072-e3a9-4b6e-9ced-e28331d3f4c0",
+          "product_number": "S8448",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/spark-S8448-1.webp"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S8448-1.webp": "f27b58d05fb21369c9fe41998e284c9da4c883ec46761db4173c95a312c58b25"
+            }
+          },
+          "image_counts": {
+            "added": 1,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9630",
+          "name": "Mercedes-AMG PETRONAS F1 Team F1 W16 E Performance No.63 Winner Singapore GP 2025 \nGeorge Russell",
+          "url": "https://www.sparkmodel.com/products/208cb255-1183-40e9-8370-7368a5a746ab",
+          "product_number": "S9630",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ad926605-054d-4961-ae46-81b245c7d4f1.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d5c611a5-2333-43ac-932e-7d8416c80737.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9630-4.webp",
+              "images/spark-S9630-5.webp",
+              "images/spark-S9630-6.webp",
+              "images/spark-S9630-7.webp",
+              "images/spark-S9630-8.webp",
+              "images/spark-S9630-9.webp"
+            ],
+            "changed": [
+              "images/spark-S9630-1.webp",
+              "images/spark-S9630-2.webp",
+              "images/spark-S9630-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9630-4.webp": "1cd793c9aea6ec341b8032c39d161c420d6494730734eaa64ca2ec3b0aa1cabb",
+              "images/spark-S9630-5.webp": "f575dec2c9eda5ee767fc906c9900a6a9227c207c48badf365d4d10a6a90744f",
+              "images/spark-S9630-6.webp": "18284e4ac9b41e3884592b370ce143986c09dda3d05da8fe2fa3a46728206e74",
+              "images/spark-S9630-7.webp": "58c891902d875b75fff71b556e06e541499caa68bc62d8abcbf8c77822c79235",
+              "images/spark-S9630-8.webp": "060e63e3a3cbbdfc1afd599c0bccd977cfdc574593fd68bf60b14440964dfa55",
+              "images/spark-S9630-9.webp": "90529109b6329a30acde8f91ed730cf03b5f64f1d9f253def24bab31eccfc2a7",
+              "images/spark-S9630-1.webp": "ea5181e1dca64df18c5aed2aa28942fa2fdcb77b529e704060ce7887d43c7cdb",
+              "images/spark-S9630-2.webp": "8223adef209c3436c0a83de5516039137d03cd3a640508730c78a2ddaa886784",
+              "images/spark-S9630-3.webp": "d8596d163f1a807c73bf720a030893b81c9407e04b0a124bd437487305684d3a"
+            }
+          },
+          "image_counts": {
+            "added": 6,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-06T05:24:52.013788+00:00",
       "entries": [
         {
@@ -22222,19 +22562,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9630-1.webp",
-              "images/spark-S9630-2.webp",
-              "images/spark-S9630-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9630-1.webp": "a0ad2342aba5e1f04a5f33d42693f04bd0db636597f23f951ea45336eb870dff",
-              "images/spark-S9630-2.webp": "9e8abc00e788621e8b7904d1ec33daef2614fb399ea0b1343ad4398330fa79ce",
-              "images/spark-S9630-3.webp": "cb3e025006f8a7ca0605dd0e3526aeffd87b21a7859cccd92f8b09f1baa30f01"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,

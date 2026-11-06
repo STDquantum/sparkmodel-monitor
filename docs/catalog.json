@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:24:52.013788+00:00",
+  "generated_at": "2026-11-06T11:10:08.504874+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -25741,6 +25741,282 @@
       "availability": "In development"
     },
     {
+      "id": "spark-S8436",
+      "name": "Mercedes AMG Petronas F1 Team No.12 2nd Mexico GP 2026\n2026 F1 Drivers’ World Champion\nKimi Antonelli \n(Big base, figurine, pit board, World Champion board, Grande Kimi board)",
+      "url": "https://www.sparkmodel.com/products/c727fafe-9c2f-44d6-9b50-2c1fb65f6ffd",
+      "images": [
+        "images/spark-S8436-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Mercedes F1",
+        "Model": "W17",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8436"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8438",
+      "name": "Cadillac Formula One Team MA26 No.11 Mexico GP 2026\nSergio Perez - 300th Race\n(With pit board)",
+      "url": "https://www.sparkmodel.com/products/16ffe38f-e388-4d23-abd4-5b64fcfa99e9",
+      "images": [
+        "images/spark-S8438-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Cadillac",
+        "Model": "MAC-26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8438"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8439",
+      "name": "McLaren Mastercard F1 MCL40 No.1 Mexico GP 2026\nLando Norris",
+      "url": "https://www.sparkmodel.com/products/0d9195e3-7696-42fa-ac78-460271f74f9a",
+      "images": [
+        "images/spark-S8439-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "McLaren",
+        "Model": "MCL40",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8439"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8440",
+      "name": "TGR Haas F1 Team VF-26 No.50 Mexico GP 2026\nRyō Hirakawa - First F1 debut",
+      "url": "https://www.sparkmodel.com/products/f7f5acef-b324-4d3e-af90-035f377570f2",
+      "images": [
+        "images/spark-S8440-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Haas",
+        "Model": "VF-26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8440"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8441",
+      "name": "BWT Alpine F1 Team A526 No.43 Mexico GP 2026\nFranco Colapinto",
+      "url": "https://www.sparkmodel.com/products/fa5aa421-89c0-43f5-9512-1af9001e599e",
+      "images": [
+        "images/spark-S8441-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Alpine",
+        "Model": "A526",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8441"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8442",
+      "name": "Aston Martin Aramco F1 Team AMR26 No.14 USA GP 2026\nFernando Alonso - Honda Racing 500th Race",
+      "url": "https://www.sparkmodel.com/products/ef941b7f-66d0-42ef-8c93-4cee653500e8",
+      "images": [
+        "images/spark-S8442-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Aston Martin",
+        "Model": "AMR",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8442"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8443",
+      "name": "TGR Haas F1 Team VF-26 No.87 USA GP 2026\nOliver Bearman",
+      "url": "https://www.sparkmodel.com/products/f588b54f-f790-41fa-8239-191ed245c0a4",
+      "images": [
+        "images/spark-S8443-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Haas",
+        "Model": "VF-26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8443"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8444",
+      "name": "Cadillac Formula One Team MA26 No.11 USA GP 2026\nSergio Perez",
+      "url": "https://www.sparkmodel.com/products/b017ffb0-f947-4eae-a1ed-1245d4bc9c4e",
+      "images": [
+        "images/spark-S8444-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Cadillac",
+        "Model": "MAC-26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8444"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8445",
+      "name": "Mercedes AMG Petronas F1 Team No.12 Winner USA GP 2026\nKimi Antonelli \n(With pit board)",
+      "url": "https://www.sparkmodel.com/products/e31b6c39-6792-47df-828b-fd4e0e180191",
+      "images": [
+        "images/spark-S8445-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Mercedes F1",
+        "Model": "W17",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8445"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8446",
+      "name": "Oracle Red Bull Racing RB22 No.3 Winner Singapore GP 2026\nMax Verstappen - 250th GP\n(With 2 pit board)",
+      "url": "https://www.sparkmodel.com/products/35592287-4ee6-43b2-b1e1-7a07ef8a42ee",
+      "images": [
+        "images/spark-S8446-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Red Bull",
+        "Model": "RB22",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8446"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8447",
+      "name": "Audi Revolut F1 Team R26 No.27 Singapore GP 2026\nNico Hulkenberg",
+      "url": "https://www.sparkmodel.com/products/419621a7-1436-4217-9ea8-1ce5a2ae0954",
+      "images": [
+        "images/spark-S8447-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Audi",
+        "Model": "R26",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8447"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
+      "id": "spark-S8448",
+      "name": "BWT Alpine F1 Team A526 No.43 Singapore GP 2026 \nFranco Colapinto - 43 Race start",
+      "url": "https://www.sparkmodel.com/products/b3128072-e3a9-4b6e-9ced-e28331d3f4c0",
+      "images": [
+        "images/spark-S8448-1.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Alpine",
+        "Model": "A526",
+        "Scale": "1/43",
+        "Year": "2026",
+        "Product number": "S8448"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
       "id": "spark-S9314",
       "name": "Mercedes-AMG Petronas Formula 1 Team W17 No.12 Winner Madrid GP 2026\nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/53d5e093-7be5-4dc0-8491-abad80f8aad3",
@@ -29081,7 +29357,13 @@
       "images": [
         "images/spark-S9630-1.webp",
         "images/spark-S9630-2.webp",
-        "images/spark-S9630-3.webp"
+        "images/spark-S9630-3.webp",
+        "images/spark-S9630-4.webp",
+        "images/spark-S9630-5.webp",
+        "images/spark-S9630-6.webp",
+        "images/spark-S9630-7.webp",
+        "images/spark-S9630-8.webp",
+        "images/spark-S9630-9.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
