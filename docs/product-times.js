@@ -1404,7 +1404,7 @@ window.PRODUCT_TIMES={
     "published": "2025-11-26"
   },
   "18S1116": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-11-26"
   },
   "S9670": {
@@ -1412,7 +1412,7 @@ window.PRODUCT_TIMES={
     "published": "2025-11-26"
   },
   "S9672": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-11-26"
   },
   "S9673": {
@@ -1452,7 +1452,7 @@ window.PRODUCT_TIMES={
     "published": "2025-10-29"
   },
   "18S1113": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-28"
   },
   "64S092": {
@@ -1536,7 +1536,7 @@ window.PRODUCT_TIMES={
     "published": "2025-10-28"
   },
   "18S1112": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-28"
   },
   "S9630": {
@@ -1556,7 +1556,7 @@ window.PRODUCT_TIMES={
     "published": "2025-10-17"
   },
   "S9634": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-17"
   },
   "S9636": {
@@ -1564,7 +1564,7 @@ window.PRODUCT_TIMES={
     "published": "2025-10-17"
   },
   "S9638": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-17"
   },
   "S9639": {
@@ -1648,7 +1648,7 @@ window.PRODUCT_TIMES={
     "published": "2025-08-15"
   },
   "18S1013": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-08-01"
   },
   "S9617": {
@@ -1724,7 +1724,7 @@ window.PRODUCT_TIMES={
     "published": "2025-12-12"
   },
   "18S1000": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2026-02-05"
   },
   "S9680": {
@@ -1812,7 +1812,7 @@ window.PRODUCT_TIMES={
     "published": "2026-06-06"
   },
   "S9388": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2026-06-06"
   },
   "64S124": {
@@ -1968,11 +1968,11 @@ window.PRODUCT_TIMES={
     "published": "2025-10-28"
   },
   "S9635": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-17"
   },
   "S9637": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-17"
   },
   "S9681": {
@@ -2442,5 +2442,9 @@ window.PRODUCT_TIMES={
   "640261912": {
     "published": "2026-11-04",
     "shipped": ""
+  }
+,
+  "18S1253": {
+    "shipped": "2026-11-06"
   }
 };
