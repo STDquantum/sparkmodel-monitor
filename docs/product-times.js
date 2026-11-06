@@ -329,15 +329,15 @@ window.PRODUCT_TIMES={
   },
   "117260131": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "117260187": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "417260163": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "417260131": {
     "published": "2026-04-24",
@@ -357,23 +357,23 @@ window.PRODUCT_TIMES={
   },
   "417260222": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "417260212": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "417260312": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "117260331": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "117260387": {
     "published": "2026-04-24",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "417260331": {
     "published": "2026-04-24",
@@ -433,7 +433,7 @@ window.PRODUCT_TIMES={
   },
   "640260131": {
     "published": "2026-05-29",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "640260141": {
     "published": "2026-05-29",
@@ -449,7 +449,7 @@ window.PRODUCT_TIMES={
   },
   "640260187": {
     "published": "2026-05-29",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "640260111": {
     "published": "2026-07-21",
@@ -481,7 +481,7 @@ window.PRODUCT_TIMES={
   },
   "640260331": {
     "published": "2026-05-29",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "640260341": {
     "published": "2026-05-29",
@@ -489,7 +489,7 @@ window.PRODUCT_TIMES={
   },
   "640260387": {
     "published": "2026-05-29",
-    "shipped": ""
+    "shipped": "2026-11-06"
   },
   "640260412": {
     "published": "2026-06-23",
@@ -748,11 +748,11 @@ window.PRODUCT_TIMES={
     "published": "2026-07-21"
   },
   "117251601": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-21"
   },
   "117251701": {
-    "shipped": "",
+    "shipped": "2026-11-06",
     "published": "2025-10-21"
   },
   "537253104": {
