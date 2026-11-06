@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:54:23.568385+00:00",
+  "generated_at": "2026-11-06T03:16:26.851831+00:00",
   "products": [
     {
       "id": "burago-183284",
@@ -23639,7 +23639,9 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/762cd635-2f8c-4c9b-9c9d-91140c9ee444",
       "images": [
-        "images/spark-64S138-1.webp"
+        "images/spark-64S138-1.webp",
+        "images/spark-64S138-2.webp",
+        "images/spark-64S138-3.webp"
       ],
       "properties": {
         "Manufacturer": "McLaren",
@@ -23665,7 +23667,9 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri",
       "url": "https://www.sparkmodel.com/products/7227472e-1bd4-4aaf-a987-10ee2c27b600",
       "images": [
-        "images/spark-64S139-1.webp"
+        "images/spark-64S139-1.webp",
+        "images/spark-64S139-2.webp",
+        "images/spark-64S139-3.webp"
       ],
       "properties": {
         "Manufacturer": "McLaren",

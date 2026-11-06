@@ -53,7 +53,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-05T22:54:11.013223+00:00",
+  "updated_at": "2026-11-06T03:16:25.317326+00:00",
   "total": 957,
   "items": {
     "burago-183284": {
@@ -8631,7 +8631,7 @@
       "source_id": "762cd635-2f8c-4c9b-9c9d-91140c9ee444",
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/762cd635-2f8c-4c9b-9c9d-91140c9ee444",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/83936a4e-1765-41df-8c11-a01afee70e3e.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/166166c5-9c34-4ab6-8c50-39fbc2589ffd.webp",
       "availability": "In development",
       "product_number": "64S138",
       "scale": "1/64",
@@ -8643,7 +8643,7 @@
       "source_id": "7227472e-1bd4-4aaf-a987-10ee2c27b600",
       "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri",
       "url": "https://www.sparkmodel.com/products/7227472e-1bd4-4aaf-a987-10ee2c27b600",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c7590cb7-a9b0-428f-b747-07b385b0fb2f.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/90bdc3da-e629-4ab1-b86e-41d837fed604.webp",
       "availability": "In development",
       "product_number": "64S139",
       "scale": "1/64",
@@ -11082,20 +11082,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019a89196ed9706e9c2e0076229414bd",
-      "minichamps-019a8919aa52720db1d38c984d6611f9",
-      "minichamps-019a8919b9da704b9258d7e7c8052159",
-      "minichamps-019a8919bb187118a1ebe4ef6fffae08",
-      "minichamps-019a8919bc457175a62709bc602d3e77",
-      "minichamps-019a8919bd5871eb9c9080ee353c5639",
-      "minichamps-019a8919be727364ac6da8d37bab9fc9",
-      "minichamps-019a8919f27d71289a1cf73da2ba06ab",
-      "minichamps-019a8919f3a97043ad1a3387e95a1e64",
-      "minichamps-019a8919f74570718a513af8f72e4e9d",
-      "minichamps-019a8919f8517060bf66a3368e31e16b",
-      "minichamps-019ef970b2d37258976dddf3dc33a82b",
-      "minichamps-019ef970c11172a1812db97dfc4ddb12",
-      "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca"
+      "spark-64S138",
+      "spark-64S139"
     ],
     "removed": []
   }
