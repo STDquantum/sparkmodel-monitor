@@ -61,7 +61,7 @@ window.PRODUCT_TIMES={
   },
   "LSF1080": {
     "published": "2026-04-03",
-    "shipped": ""
+    "shipped": "2026-10-21"
   },
   "LS18F1080": {
     "published": "2026-04-03",
@@ -73,7 +73,7 @@ window.PRODUCT_TIMES={
   },
   "LSF1081": {
     "published": "2026-04-03",
-    "shipped": ""
+    "shipped": "2026-10-21"
   },
   "LS18F1081": {
     "published": "2026-04-03",
@@ -2421,6 +2421,26 @@ window.PRODUCT_TIMES={
   },
   "640261263": {
     "published": "2026-10-17",
+    "shipped": ""
+  },
+  "800261912": {
+    "published": "2026-11-04",
+    "shipped": ""
+  },
+  "127261912": {
+    "published": "2026-11-04",
+    "shipped": ""
+  },
+  "117261912": {
+    "published": "2026-11-04",
+    "shipped": ""
+  },
+  "417261912": {
+    "published": "2026-11-04",
+    "shipped": ""
+  },
+  "640261912": {
+    "published": "2026-11-04",
     "shipped": ""
   }
 };

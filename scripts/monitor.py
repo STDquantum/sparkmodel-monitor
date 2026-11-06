@@ -124,8 +124,14 @@ def minichamps_2025_url(page=1):
     return f"{MINICHAMPS_BASE_URL}en/Formula-1/?{urlencode({'properties': MINICHAMPS_2025_PROPERTIES, 'p': page, 'order': 'name-asc'})}"
 
 
+BBR_BASE = 'https://www.bbrmodelstore.com/english/'
+BBR_SEARCHES = ('sf26', 'sf-26', 'mercedes')
+BBR_SOURCES = tuple(BBR_BASE + 'car-models-ricerca.aspx?' + urlencode({'q': q}) for q in BBR_SEARCHES)
+
+
 SOURCE_URLS = (
     *carmodel.SOURCES,
+    *BBR_SOURCES,
     spark_shop_url("SF-26"),
     *(spark_shop_url(search) for search in SPARK_SHOP_2025_SEARCHES),
     *(f"{SPARK_SITE_URL}/collections?{urlencode({'q': search, 'pageSize': 48, 'year': 2025})}" for search in SPARK_2025_SEARCHES),
@@ -750,6 +756,73 @@ def fetch_minichamps_2025():
     raise RuntimeError("Minichamps 2025 pagination exceeded 100 pages")
 
 
+class BBRInputs(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.values = {}
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == 'input' and a.get('type', '').lower() == 'hidden' and a.get('name'):
+            self.values[a['name']] = a.get('value', '')
+
+def bbr_plain(s):
+    return ' '.join(html_unescape(re.sub(r'<[^>]*>', ' ', s)).split())
+
+def parse_bbr_listing(html, keyword):
+    products = {}
+    cards = re.split(r'<div class="altezzaPadProdotto prod column">', html)[1:]
+    for card in cards:
+        card = card.split('<div class="altezzaPadProdotto prod column">')[0]
+        link = re.search(r'<a[^>]+_DescrizioneBase_HL"[^>]+href="([^"]+)', card)
+        title = re.search(r'<span[^>]+class="TitleProdottoBox"[^>]*>(.*?)</span>', card, re.S)
+        if not link or not title:
+            raise ValueError('Unrecognized BBR product card')
+        name = bbr_plain(title[1])
+        if keyword == 'mercedes':
+            if not re.search(r'\b2026\b', name) or not re.search('mercedes', name, re.I): continue
+        elif not re.search(r'\bSF\s*-?\s*26\b', name, re.I): continue
+        code = re.search(r'car-model-((?:preo_)?[^_]+)_', link[1], re.I)
+        if not code: raise ValueError('BBR product code missing')
+        number = re.sub(r'^preo_', '', code[1], flags=re.I).upper()
+        pid = 'bbr-' + number.lower()
+        image = re.search(r'<img[^<]+_Prodotto_Img"[^<]+src="([^"]+)', card)
+        scale = re.search(r'/1_(\d+)_bol', card)
+        products[pid] = dict(product_id=pid, source='bbr', manufacturer='BBR', name=name,
+            url=urljoin(BBR_BASE, html_unescape(link[1])), product_number=number, scale='1/'+scale[1] if scale else '',
+            year='2026', model='Mercedes' if keyword == 'mercedes' else 'SF-26',
+            image_url=urljoin(BBR_BASE, html_unescape(image[1])) if image else '',
+            availability='Pre-order' if 'bollinoPreOrder' in card else ('Sold out' if 'soldout' in card.lower() else ''))
+    return products
+
+def fetch_bbr(keyword):
+    opener = build_opener(HTTPCookieProcessor(CookieJar()))
+    url = BBR_BASE + 'car-models-ricerca.aspx?' + urlencode({'q': keyword})
+    def get(data=None):
+        req = Request(url, data=data, headers={'User-Agent':'Mozilla/5.0', 'Content-Type':'application/x-www-form-urlencoded'})
+        with opener.open(req, timeout=45) as response: return response.read().decode('utf-8', 'replace')
+    html = get(); result = {}; visited = set()
+    for page in range(1, 101):
+        rows = parse_bbr_listing(html, keyword); result.update(rows)
+        links = re.findall(r'<a\b([^>]*SimplePaginator1[^>]*Page_LnkBtn[^>]*)>(\d+)</a>', html)
+        targets = {}
+        for attrs, n in links:
+            match = re.search(r'WebForm_PostBackOptions\(&quot;([^&]+)&quot;', attrs)
+            if match: targets[int(n)] = html_unescape(match[1])
+        next_page = page + 1
+        if next_page not in targets: break
+        signature = tuple(sorted(rows))
+        if signature in visited: raise ValueError('BBR pagination repeated a page')
+        visited.add(signature)
+        parser = BBRInputs(); parser.feed(html)
+        parser.values.update({'__EVENTTARGET': targets[next_page], '__EVENTARGUMENT': ''})
+        html = get(urlencode(parser.values).encode())
+    else: raise ValueError('BBR pagination exceeded 100 pages')
+    if not result and 'ListaProdotti_Rep' not in html and not re.search(r'no (?:products|results)|nessun', html, re.I):
+        raise ValueError('Unrecognized BBR search response')
+    print(f'BBR {keyword}: {len(result)} products, {page} pages', flush=True)
+    return result
+
+
+
 def fetch_all():
     products = {}
     previous = load_state() or {}
@@ -781,6 +854,8 @@ def fetch_all():
             flush=True,
         )
 
+    for search in BBR_SEARCHES:
+        fetch_and_merge(f"BBR 2026 · {search}", "bbr", ("bbr", search), fetch_bbr, search)
     if carmodel.enabled():
         for year, models in carmodel.SEARCHES.items():
             for model in models:
@@ -827,6 +902,8 @@ def fetch_all():
     def matches_crawl(item, crawl_key):
         crawl_type, search = crawl_key
         name = item.get("name", "")
+        if crawl_type == "bbr":
+            return item.get("source") == "bbr" and (search != "mercedes" or item.get("model") == "Mercedes") and (search == "mercedes" or item.get("model") == "SF-26")
         if crawl_type.startswith("carmodel"):
             return item.get("source") == "carmodel" and item.get("year") == crawl_type[-4:] and item.get("model") == search
         if crawl_type == "sparkshop2025":

@@ -1,3 +1,5 @@
+from html import unescape as html_unescape
+from urllib.parse import quote, urljoin
 #!/usr/bin/env python3
 import json
 import os
@@ -258,7 +260,10 @@ def parse_spark_shop_detail(html):
 
 
 def download_image(url, product_id, index):
-    suffix = Path(urlsplit(url).path).suffix or ".webp"
+    path = urlsplit(url).path
+    suffix = Path(path).suffix or ".webp"
+    if suffix.lower() == ".aspx" and re.search(r"\.(jpe?g|png|webp)\.aspx$", path, re.I):
+        suffix = "." + re.search(r"\.(jpe?g|png|webp)\.aspx$", path, re.I).group(1).lower()
     relative = Path("images") / f"{product_id}-{index}{suffix}"
     destination = DOCS / relative
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -347,8 +352,24 @@ def year_from_title(name):
     return match.group(0) if match else ""
 
 
+def build_bbr_product(product_id, listing):
+    html = monitor.request(listing['url'], source_request=True, referer=monitor.BBR_BASE)
+    images = re.findall(r'<a\s+href="([^"]*\[SlideShowBig\][^"]+)"', html, re.I)
+    images = list(dict.fromkeys(quote(urljoin(monitor.BBR_BASE, html_unescape(x)), safe=':/%?=&[]') for x in images if '/prodotti/' in x.lower()))
+    if not images and listing.get('image_url'): images = [listing['image_url']]
+    props = {'Year':'2026', 'Product number':listing['product_number'], 'Scale':listing.get('scale',''), 'Model':listing.get('model','')}
+    return dict(id=product_id, name=listing['name'], url=listing['url'], images=download_unique_images(images, product_id),
+                properties={k:v for k,v in props.items() if v}, description='', brand='BBR', price='', currency='EUR', gtin='', weight='', length='', availability=listing.get('availability',''))
+
+
+
+
+
+
 def build_product(product_id, listing):
     source = listing.get("source", "sparkmodel")
+    if source == "bbr":
+        return build_bbr_product(product_id, listing)
     if source == "carmodel":
         return monitor.carmodel.build_product(product_id, listing)
     if source == "minichamps":
