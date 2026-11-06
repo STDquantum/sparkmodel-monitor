@@ -12,6 +12,7 @@ from paths import ROOT, DOCS, STATE_FILE
 CATALOG = DOCS / "catalog.json"
 REPORT = DOCS / "updates.json"
 REPORT_JS = DOCS / "updates.js"
+PRODUCT_UPDATED = DOCS / "product-updated.js"
 BASE_REF = "HEAD"
 
 
@@ -36,6 +37,24 @@ def write_report_js(history):
     payload = json.dumps(history, ensure_ascii=False, separators=(",", ":"))
     payload = payload.replace("</", "<\\/")
     REPORT_JS.write_text(f"window.MODEL_UPDATES={payload};\n", encoding="utf-8")
+
+
+def record_product_updates(entries, timestamp):
+    """Keep the latest report date by product number, using China local dates."""
+    if PRODUCT_UPDATED.exists():
+        source = PRODUCT_UPDATED.read_text(encoding="utf-8").strip()
+        dates = json.loads(source.removeprefix("window.PRODUCT_UPDATED=").removesuffix(";"))
+    else:
+        dates = {}
+    day = datetime.fromisoformat(timestamp.replace("Z", "+00:00")).astimezone(
+        timezone(timedelta(hours=8))
+    ).date().isoformat()
+    for entry in entries:
+        number = str(entry.get("product_number") or "").strip().upper()
+        if number and entry.get("type") in ("added", "changed"):
+            dates[number] = max(dates.get(number, ""), day)
+    payload = json.dumps(dict(sorted(dates.items())), ensure_ascii=False, indent=2)
+    PRODUCT_UPDATED.write_text(f"window.PRODUCT_UPDATED={payload};\n", encoding="utf-8")
 
 
 def image_hashes(product, previous=False):
@@ -176,6 +195,7 @@ def publish():
     for entry in entries:
         stamp_images(entry)
     history["updates"].insert(0, {"date": catalog["generated_at"], "entries": entries})
+    record_product_updates(entries, catalog["generated_at"])
     REPORT.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_report_js(history)
     print(f"Published update report: {len(entries)} products")
