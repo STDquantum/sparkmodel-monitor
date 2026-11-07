@@ -1,6 +1,166 @@
 {
   "updates": [
     {
+      "date": "2026-11-07T12:51:48.705675+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-64S081",
+          "name": "Mercedes-AMG PETRONAS Formula One Team No.63 F1 W16 \nWinner Canadian GP 2025\nGeorge Russell",
+          "url": "https://www.sparkmodel.com/products/8e2a5189-964d-4da2-95cd-d1cb80032575",
+          "product_number": "64S081",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/95cd72bc-e055-498e-ae4b-d1761b3d3f7e.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6a11842a-bafa-4adb-95e8-6da6178d17b4.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S081-4.webp",
+              "images/spark-64S081-5.webp",
+              "images/spark-64S081-6.webp",
+              "images/spark-64S081-7.webp",
+              "images/spark-64S081-8.webp",
+              "images/spark-64S081-9.webp",
+              "images/spark-64S081-10.webp",
+              "images/spark-64S081-11.webp"
+            ],
+            "changed": [
+              "images/spark-64S081-1.webp",
+              "images/spark-64S081-2.webp",
+              "images/spark-64S081-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S081-4.webp": "4ed4674dba1a0059595629a4ab31bd7927ff63632223ee1c3dd7d1cc51231ad6",
+              "images/spark-64S081-5.webp": "6c8683af46c3cdc10bca6e6393280c1f466e0aeae7fd3c20e165972b4163f32b",
+              "images/spark-64S081-6.webp": "3e08be9b531d5b8b91824e943aea5c7ff09689b3f83af0717c21c0f2770a47ed",
+              "images/spark-64S081-7.webp": "27b93ae13815749d526cc3a0482506f6027a8f54b14dba0830b975c9e5b38565",
+              "images/spark-64S081-8.webp": "ab971004c5384192a1347b427733c2af8a672042c344937bacc9713861d5c1d2",
+              "images/spark-64S081-9.webp": "b5525c96ce8cdef2c89702a825c07f45da12c2333e7e353171140d81366d3f4a",
+              "images/spark-64S081-10.webp": "00866031675844da83033257969a222e9855fa4ad7d657ca221ca8d6e20a1185",
+              "images/spark-64S081-11.webp": "f6ba094f0ebea2ae2b5d2680bfcb4fcfff0bc0c4356cf64f2f468b95fd2cc04a",
+              "images/spark-64S081-1.webp": "8fcbd8798f07af69f099957605742ea8e1a8b98c1c73c649b19fe30b7984ecdd",
+              "images/spark-64S081-2.webp": "b72590cd44d867c46a62bb7b73dd49ffdcd9da28af4fd8d4cb91d25e0cea04a6",
+              "images/spark-64S081-3.webp": "d04cebbb79610820557b36ed3577a7cc9b3c6ff50d392db443ece50ea3f4560f"
+            }
+          },
+          "image_counts": {
+            "added": 8,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9365",
+          "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
+          "url": "https://www.sparkmodel.com/products/ccce978f-5ee4-490e-83ca-9a6e0ff04ca3",
+          "product_number": "S9365",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e205ddf1-11f9-48cd-bc6c-38e85cce0aa3.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4819e6a7-1cbc-4af4-bfbf-fd72b644e4f0.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9365-4.webp",
+              "images/spark-S9365-5.webp",
+              "images/spark-S9365-6.webp",
+              "images/spark-S9365-7.webp",
+              "images/spark-S9365-8.webp",
+              "images/spark-S9365-9.webp",
+              "images/spark-S9365-10.webp",
+              "images/spark-S9365-11.webp"
+            ],
+            "changed": [
+              "images/spark-S9365-1.webp",
+              "images/spark-S9365-2.webp",
+              "images/spark-S9365-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9365-4.webp": "bf110ef2d215c48b3ea6286b7e58d05e5ee4565a818995732f515fddc00fd88f",
+              "images/spark-S9365-5.webp": "df4018c1c390297fc8269e4aac982fce2f84e86cea0838f48a6c7ba3bd71066c",
+              "images/spark-S9365-6.webp": "b13f8d9597a2f4a9bd079b81d64e56f5e9b90c88d634e8000a3b1c0b031e4c64",
+              "images/spark-S9365-7.webp": "103eae55f06e6e5cf7489b337b62ad0f8cd2fa69cc0ea7b77743b6206cd8c7f7",
+              "images/spark-S9365-8.webp": "c32a1b2efae91ad2a6718ddeb6736098af0b402ec875955fb619024028bbb34e",
+              "images/spark-S9365-9.webp": "20c612e230ecf13228331e597096a64925254eec7476b18c743ad8abdbb6db49",
+              "images/spark-S9365-10.webp": "bab88192ccc21107e0524777ceacd1a98f1921cdacea3ca034a44607e9e22da8",
+              "images/spark-S9365-11.webp": "c211580636038248a4bea7cdd26f3ae560eb3d34b1f50a27e70a25b02dd6ea0e",
+              "images/spark-S9365-1.webp": "4063a76c8cdcbaf19be189bdb5eea56fc2f08b91fdc88184315898fa1a54062a",
+              "images/spark-S9365-2.webp": "5a02030dc92cb27db34c93f800bea7bc7616602eda074ddcdbcedd294c4d2247",
+              "images/spark-S9365-3.webp": "ef3a545742978e605f7349166a75ba0477b5a0de9f32603617f50a8f6254c204"
+            }
+          },
+          "image_counts": {
+            "added": 8,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9631",
+          "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls\n5th Azerbaijan GP 2025\nLiam Lawson \n(with pit board)",
+          "url": "https://www.sparkmodel.com/products/972cf346-65bc-4ce1-98ec-c0318371040a",
+          "product_number": "S9631",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ba6fa6dc-51f5-4bb4-b4ba-dcbf0e7e126d.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b9e38877-cb1e-4496-87d3-d9998abb9521.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9631-4.webp",
+              "images/spark-S9631-5.webp",
+              "images/spark-S9631-6.webp",
+              "images/spark-S9631-7.webp",
+              "images/spark-S9631-8.webp",
+              "images/spark-S9631-9.webp",
+              "images/spark-S9631-10.webp",
+              "images/spark-S9631-11.webp",
+              "images/spark-S9631-12.webp"
+            ],
+            "changed": [
+              "images/spark-S9631-1.webp",
+              "images/spark-S9631-2.webp",
+              "images/spark-S9631-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9631-4.webp": "d2dd29cd4f65fa73d4f04732dd7ee7054a2fa582873a20e10ed64db4eed36d74",
+              "images/spark-S9631-5.webp": "2171686fabc458986fe7da55ccefba6737b2d549387a807cd347a4fb48a31d15",
+              "images/spark-S9631-6.webp": "c1d6b0ed6b130384cb8b04cf12a7b8f6d882c377234860b128a921a337c4391f",
+              "images/spark-S9631-7.webp": "d7eb061f0969bae5a73e59ef497a0eaffb21d481f3330663a3cbbcc1a1d8ed77",
+              "images/spark-S9631-8.webp": "810735284c4225ef373346881d5fef365dc348a2dcd00b28214d9a98fc9675b1",
+              "images/spark-S9631-9.webp": "7dbd8ca84db14eddb1d140765af828a464382809f0b19b3fef06107d81a4ce8f",
+              "images/spark-S9631-10.webp": "5387c1b0e56701095ac582a0fed81638dd833f66d49f988e3babad74cbfbc69c",
+              "images/spark-S9631-11.webp": "6475f98dd2a7fc2a44117fe5171a5d8c50dc79fa394c05e0a15a2687519d6e53",
+              "images/spark-S9631-12.webp": "397c808bce820b9eec9997050126fb42371acb6567ebd9d894e697423674a334",
+              "images/spark-S9631-1.webp": "2693b8162c834067244659df572d00fa431d075ab4dac2bc0cdc05a5b85bf4c4",
+              "images/spark-S9631-2.webp": "c48397675edae75e0a3e49417f62b83af1357db30f5e9ab6a85573863b2199ce",
+              "images/spark-S9631-3.webp": "732d774dd1a3d6c561bc93b16015a9a6db6db44d175f2c8c9a3177115b3905e6"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-06T11:10:08.504874+00:00",
       "entries": [
         {
@@ -17394,19 +17554,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S081-1.webp",
-              "images/spark-64S081-2.webp",
-              "images/spark-64S081-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S081-1.webp": "c6d7f1ed6b68c882e3522b32a19ae6ba02afc22977935e9064e2f883368213e8",
-              "images/spark-64S081-2.webp": "42c8271d901d5629f5744a34e85e5e0dadde38de1bbad5afd09d724246e295fb",
-              "images/spark-64S081-3.webp": "e1cfb783fce50818119918c0fee67190f4eea86b3d123fcdd098f7afc3801615"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -19670,19 +19822,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9365-1.webp",
-              "images/spark-S9365-2.webp",
-              "images/spark-S9365-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9365-1.webp": "217abe3316efcccf2fc06eb1ea487d7bb2d03dc8db78d830453aa5dc20ae6761",
-              "images/spark-S9365-2.webp": "6fe6a73649f1c8481077f5bfb474bc0bd1bedb859c2370eee17417e2b6074833",
-              "images/spark-S9365-3.webp": "01456ae7bca48364d3c235ec182963b127de34d4b213f5a067a29295d14a47ec"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -22582,19 +22726,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9631-1.webp",
-              "images/spark-S9631-2.webp",
-              "images/spark-S9631-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9631-1.webp": "d6f7fb05e063b351ba5f24e82483c63b7d58d30e576356002462226718d0738f",
-              "images/spark-S9631-2.webp": "e0774b6e970910976a2a8201ad6bab2ad7c8d5e0052ce87b6a8b0b3c7741a5c8",
-              "images/spark-S9631-3.webp": "b58161baa175e953d06b52b4e64f0b91b33ec7cbec3f7a9304c70e43b3ba0ccf"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,

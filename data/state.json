@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-06T11:10:02.213353+00:00",
+  "updated_at": "2026-11-07T12:51:44.804597+00:00",
   "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
@@ -9046,7 +9046,7 @@
       "source_id": "8e2a5189-964d-4da2-95cd-d1cb80032575",
       "name": "Mercedes-AMG PETRONAS Formula One Team No.63 F1 W16 \nWinner Canadian GP 2025\nGeorge Russell",
       "url": "https://www.sparkmodel.com/products/8e2a5189-964d-4da2-95cd-d1cb80032575",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/95cd72bc-e055-498e-ae4b-d1761b3d3f7e.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6a11842a-bafa-4adb-95e8-6da6178d17b4.webp",
       "availability": "In development",
       "product_number": "64S081",
       "scale": "1/64",
@@ -9740,7 +9740,7 @@
     "spark-S8436": {
       "source": "sparkmodel",
       "source_id": "c727fafe-9c2f-44d6-9b50-2c1fb65f6ffd",
-      "name": "Mercedes AMG Petronas F1 Team No.12 2nd Mexico GP 2026\n2026 F1 Drivers’ World Champion\nKimi Antonelli \n(Big base, figurine, pit board, World Champion board, Grande Kimi board)",
+      "name": "Mercedes AMG Petronas F1 Team No.12 3rd Mexico GP 2026\n2026 F1 Drivers’ World Champion\nKimi Antonelli \n(Big base, figurine, pit board, World Champion board, Grande Kimi board)",
       "url": "https://www.sparkmodel.com/products/c727fafe-9c2f-44d6-9b50-2c1fb65f6ffd",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/97a09b4e-9bc7-47ee-8c14-273d80a744e6.webp",
       "availability": "In development",
@@ -10258,7 +10258,7 @@
       "source_id": "ccce978f-5ee4-490e-83ca-9a6e0ff04ca3",
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
       "url": "https://www.sparkmodel.com/products/ccce978f-5ee4-490e-83ca-9a6e0ff04ca3",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e205ddf1-11f9-48cd-bc6c-38e85cce0aa3.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4819e6a7-1cbc-4af4-bfbf-fd72b644e4f0.webp",
       "availability": "In development",
       "product_number": "S9365",
       "scale": "1/43",
@@ -11254,7 +11254,7 @@
       "source_id": "972cf346-65bc-4ce1-98ec-c0318371040a",
       "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls\n5th Azerbaijan GP 2025\nLiam Lawson \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/972cf346-65bc-4ce1-98ec-c0318371040a",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/ba6fa6dc-51f5-4bb4-b4ba-dcbf0e7e126d.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b9e38877-cb1e-4496-87d3-d9998abb9521.webp",
       "availability": "In development",
       "product_number": "S9631",
       "scale": "1/43",
@@ -12059,22 +12059,11 @@
     }
   },
   "changes": {
-    "added": [
-      "spark-S8436",
-      "spark-S8438",
-      "spark-S8439",
-      "spark-S8440",
-      "spark-S8441",
-      "spark-S8442",
-      "spark-S8443",
-      "spark-S8444",
-      "spark-S8445",
-      "spark-S8446",
-      "spark-S8447",
-      "spark-S8448"
-    ],
+    "added": [],
     "changed": [
-      "spark-S9630"
+      "spark-64S081",
+      "spark-S9365",
+      "spark-S9631"
     ],
     "removed": []
   }
