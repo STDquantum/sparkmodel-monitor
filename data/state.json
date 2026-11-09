@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-07T12:51:44.804597+00:00",
+  "updated_at": "2026-11-09T06:03:26.125545+00:00",
   "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
@@ -9466,7 +9466,7 @@
       "source_id": "762cd635-2f8c-4c9b-9c9d-91140c9ee444",
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/762cd635-2f8c-4c9b-9c9d-91140c9ee444",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/166166c5-9c34-4ab6-8c50-39fbc2589ffd.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/86e476da-0677-4292-aae2-4831752288b9.webp",
       "availability": "In development",
       "product_number": "64S138",
       "scale": "1/64",
@@ -9478,7 +9478,7 @@
       "source_id": "7227472e-1bd4-4aaf-a987-10ee2c27b600",
       "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri",
       "url": "https://www.sparkmodel.com/products/7227472e-1bd4-4aaf-a987-10ee2c27b600",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/90bdc3da-e629-4ab1-b86e-41d837fed604.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f90394d2-899a-4e30-a82f-4e83aacd3f77.webp",
       "availability": "In development",
       "product_number": "64S139",
       "scale": "1/64",
@@ -12061,9 +12061,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "spark-64S081",
-      "spark-S9365",
-      "spark-S9631"
+      "spark-64S138",
+      "spark-64S139"
     ],
     "removed": []
   }

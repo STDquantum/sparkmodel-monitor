@@ -1,6 +1,79 @@
 {
   "updates": [
     {
+      "date": "2026-11-09T06:03:28.288837+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-64S138",
+          "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
+          "url": "https://www.sparkmodel.com/products/762cd635-2f8c-4c9b-9c9d-91140c9ee444",
+          "product_number": "64S138",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/166166c5-9c34-4ab6-8c50-39fbc2589ffd.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/86e476da-0677-4292-aae2-4831752288b9.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/spark-64S138-1.webp",
+              "images/spark-64S138-2.webp",
+              "images/spark-64S138-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S138-1.webp": "e8a9d774673215588472581b0cd6429800a735f30c1a63f1a9414ced2a273c45",
+              "images/spark-64S138-2.webp": "d917c4af811d6fc7d61e4ca785831d7bf3a979cf5ea03dc47ddf3ec7d652b282",
+              "images/spark-64S138-3.webp": "ead6dec726082fdb0ee246f95ad9a8bdd02842cce58534b30b9bc6ad1a839b16"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S139",
+          "name": "McLaren Mastercard F1 Team MCL40 No.81 2nd Japanese GP 2026 \nOscar Piastri",
+          "url": "https://www.sparkmodel.com/products/7227472e-1bd4-4aaf-a987-10ee2c27b600",
+          "product_number": "64S139",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/90bdc3da-e629-4ab1-b86e-41d837fed604.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f90394d2-899a-4e30-a82f-4e83aacd3f77.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/spark-64S139-1.webp",
+              "images/spark-64S139-2.webp",
+              "images/spark-64S139-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S139-1.webp": "e0d9aa99302e445d517ac97a4a7e92899d4b61c4c70acbaf51dc043aa361312f",
+              "images/spark-64S139-2.webp": "e4c63de895e851852c590367ac9a2728419dc17c4de0f09d13219e44b2bef485",
+              "images/spark-64S139-3.webp": "e7c72551b3c33d163c71f02b396cff960a99f652e465ca77696b8d805c9c1baf"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-07T12:51:48.705675+00:00",
       "entries": [
         {
@@ -2309,20 +2382,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/spark-64S138-2.webp",
-              "images/spark-64S138-3.webp"
-            ],
-            "changed": [
-              "images/spark-64S138-1.webp"
-            ],
+            "added": [],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S138-2.webp": "e4c63de895e851852c590367ac9a2728419dc17c4de0f09d13219e44b2bef485",
-              "images/spark-64S138-3.webp": "e7c72551b3c33d163c71f02b396cff960a99f652e465ca77696b8d805c9c1baf",
-              "images/spark-64S138-1.webp": "e0d9aa99302e445d517ac97a4a7e92899d4b61c4c70acbaf51dc043aa361312f"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
@@ -2344,20 +2408,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/spark-64S139-2.webp",
-              "images/spark-64S139-3.webp"
-            ],
-            "changed": [
-              "images/spark-64S139-1.webp"
-            ],
+            "added": [],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S139-2.webp": "d917c4af811d6fc7d61e4ca785831d7bf3a979cf5ea03dc47ddf3ec7d652b282",
-              "images/spark-64S139-3.webp": "ead6dec726082fdb0ee246f95ad9a8bdd02842cce58534b30b9bc6ad1a839b16",
-              "images/spark-64S139-1.webp": "e8a9d774673215588472581b0cd6429800a735f30c1a63f1a9414ced2a273c45"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 2,
