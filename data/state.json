@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-09T06:03:26.125545+00:00",
+  "updated_at": "2026-11-09T08:23:56.894466+00:00",
   "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
@@ -1157,9 +1157,9 @@
       "year": "2025",
       "model": "SF-25",
       "image_url": "https://bucket.carmodel.com/images/310-228/191733_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "9.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "8.95"
     },
     "burago-191734": {
       "product_id": "burago-191734",
@@ -1187,9 +1187,9 @@
       "year": "2025",
       "model": "RB21",
       "image_url": "https://bucket.carmodel.com/images/310-228/191735_1-2.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "9.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "8.95"
     },
     "burago-191736": {
       "product_id": "burago-191736",
@@ -1217,9 +1217,9 @@
       "year": "2025",
       "model": "W16",
       "image_url": "https://bucket.carmodel.com/images/310-228/191737_1-2.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "9.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "8.95"
     },
     "burago-191738": {
       "product_id": "burago-191738",
@@ -1337,9 +1337,9 @@
       "year": "2025",
       "model": "AMR25",
       "image_url": "https://bucket.carmodel.com/images/310-228/191773_1-4.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "39.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "35.95"
     },
     "burago-191775": {
       "product_id": "burago-191775",
@@ -1427,9 +1427,9 @@
       "year": "2025",
       "model": "MCL39",
       "image_url": "https://bucket.carmodel.com/images/310-228/191780_1-2.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "10.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "10.75"
     },
     "burago-191781": {
       "product_id": "burago-191781",
@@ -1517,9 +1517,9 @@
       "year": "2025",
       "model": "W16",
       "image_url": "https://bucket.carmodel.com/images/310-228/191786_1-2.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "10.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "10.75"
     },
     "burago-191787": {
       "product_id": "burago-191787",
@@ -1547,9 +1547,9 @@
       "year": "2025",
       "model": "W16",
       "image_url": "https://bucket.carmodel.com/images/310-228/191788_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "19.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "22.45"
     },
     "burago-191789": {
       "product_id": "burago-191789",
@@ -1562,9 +1562,9 @@
       "year": "2025",
       "model": "W16",
       "image_url": "https://bucket.carmodel.com/images/310-228/191789_1-2.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "19.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "22.45"
     },
     "burago-191790": {
       "product_id": "burago-191790",
@@ -1622,9 +1622,9 @@
       "year": "2025",
       "model": "RB21",
       "image_url": "https://bucket.carmodel.com/images/310-228/191793_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "19.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "22.45"
     },
     "burago-191794": {
       "product_id": "burago-191794",
@@ -1637,9 +1637,9 @@
       "year": "2025",
       "model": "RB21",
       "image_url": "https://bucket.carmodel.com/images/310-228/191794_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "19.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "22.45"
     },
     "burago-191795": {
       "product_id": "burago-191795",
@@ -1652,9 +1652,9 @@
       "year": "2025",
       "model": "A525",
       "image_url": "https://bucket.carmodel.com/images/310-228/191795_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "10.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "10.75"
     },
     "burago-191796": {
       "product_id": "burago-191796",
@@ -1667,9 +1667,9 @@
       "year": "2025",
       "model": "A525",
       "image_url": "https://bucket.carmodel.com/images/310-228/191796_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "10.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "10.75"
     },
     "burago-191797": {
       "product_id": "burago-191797",
@@ -1697,9 +1697,9 @@
       "year": "2025",
       "model": "A525",
       "image_url": "https://bucket.carmodel.com/images/310-228/191798_1-3.webp",
-      "availability": "Catalogue",
-      "release": "",
-      "price": "19.95"
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "22.45"
     },
     "burago-191799": {
       "product_id": "burago-191799",
@@ -12061,8 +12061,19 @@
   "changes": {
     "added": [],
     "changed": [
-      "spark-64S138",
-      "spark-64S139"
+      "burago-191733",
+      "burago-191735",
+      "burago-191737",
+      "burago-191773",
+      "burago-191780",
+      "burago-191786",
+      "burago-191788",
+      "burago-191789",
+      "burago-191793",
+      "burago-191794",
+      "burago-191795",
+      "burago-191796",
+      "burago-191798"
     ],
     "removed": []
   }
