@@ -1,6 +1,327 @@
 {
   "updates": [
     {
+      "date": "2026-11-09T16:12:38.080021+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919868f73b99244bc79779b4484",
+          "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER CANADA GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919868f73b99244bc79779b4484?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "117251063",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 6,
+                "to": 1
+              },
+              {
+                "from": 1,
+                "to": 2
+              },
+              {
+                "from": 2,
+                "to": 3
+              },
+              {
+                "from": 3,
+                "to": 4
+              },
+              {
+                "from": 4,
+                "to": 5
+              },
+              {
+                "from": 5,
+                "to": 6
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
+          "name": "FERRARI SF-25 - CHARLES LECLERC - 2ND PLACE MONACO GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef96fb86a72e3b5d5e28b4de6598e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "BBR127C16",
+          "scale": "1/12",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117262005",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/117262005",
+          "product_number": "117262005",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-117262027",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/117262027",
+          "product_number": "117262027",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417262005",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/417262005",
+          "product_number": "417262005",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-417262027",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/417262027",
+          "product_number": "417262027",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640262005",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/640262005",
+          "product_number": "640262005",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640262027",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/640262027",
+          "product_number": "640262027",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1661388",
+          "name": "TGR HAAS F1 TEAM VF-26 - ESTEBAN OCON - JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/TGR-HAAS-F1-TEAM-VF-26-ESTEBAN-OCON-JAPANESE-GP-2026/640260331",
+          "product_number": "640260331",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Available"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "in stock"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9372",
+          "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
+          "url": "https://www.sparkmodel.com/products/df38917a-7ed4-430e-9935-9abe45fd76d8",
+          "product_number": "S9372",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/428c4a69-946d-4090-9b8b-e5526ee9673f.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/57fb5308-0b4a-48a1-9cd6-8d29699efff2.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9372-1.webp",
+              "images/spark-S9372-3.webp",
+              "images/spark-S9372-4.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9372-1.webp": "39997105b4350a045032add258cc72725cd564cb9281d85e4614c185e0cc1761",
+              "images/spark-S9372-3.webp": "8576f1a59d2e75001c77cf5cf9c98e92dfd864946e61a43908e6bb9af9073e61",
+              "images/spark-S9372-4.webp": "8005329f545f1ef4147b3caa0ac930826ed3d241f8dcc199935b3c54b6d4637a"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9373",
+          "name": "Audi Revolut F1 Team R26 No.5 Australian GP 2026\nAudi First Race, First Point \nGabriel Bortoleto",
+          "url": "https://www.sparkmodel.com/products/1e0516d7-3ca4-4ff7-9692-3af3cc243987",
+          "product_number": "S9373",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1a9192c9-97f7-491e-874a-30d112b10aa1.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/3d6c08de-0e11-4ab4-95a8-e6555d1c029f.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9373-1.webp",
+              "images/spark-S9373-2.webp",
+              "images/spark-S9373-3.webp"
+            ],
+            "changed": [],
+            "moved": [
+              {
+                "from": 1,
+                "to": 4
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9373-1.webp": "0fe29bebaa0c35e84546a6411947a14dcfdfc72e5890611d943048df64823ae0",
+              "images/spark-S9373-2.webp": "4f360c3e759650c8378ce75dc68534368be5d8ca8ddf195819bba5541fc6b7a7",
+              "images/spark-S9373-3.webp": "20063d806db283f9a92c5fa725be065abc6c9c3c74af25476d4294b59d43d034"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-09T08:24:13.570266+00:00",
       "entries": [
         {
@@ -20550,15 +20871,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9372-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9372-1.webp": "8a630158b7698e52739088d04300825ebc0653b9aa00330a794d3b1ff5effceb"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -20574,15 +20891,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9373-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9373-1.webp": "979001709cdde6f41d7c1882c3989866efe1394dc00e1b2ced0099ecbb23b2b2"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:24:13.570266+00:00",
+  "generated_at": "2026-11-09T16:12:38.080021+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -13048,19 +13048,19 @@
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER CANADA GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919868f73b99244bc79779b4484?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019a8919868f73b99244bc79779b4484-1.jpg",
         "images/minichamps-019a8919868f73b99244bc79779b4484-2.jpg",
         "images/minichamps-019a8919868f73b99244bc79779b4484-3.jpg",
         "images/minichamps-019a8919868f73b99244bc79779b4484-4.jpg",
         "images/minichamps-019a8919868f73b99244bc79779b4484-5.jpg",
-        "images/minichamps-019a8919868f73b99244bc79779b4484-6.jpg",
-        "images/minichamps-019a8919868f73b99244bc79779b4484-1.jpg"
+        "images/minichamps-019a8919868f73b99244bc79779b4484-6.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "117251063",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "MERCEDES-BENZ",
         "Driver": "RUSSEL, GEORGE",
         "Material": "RESIN",
@@ -13073,7 +13073,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019a89199ff273ab826f67a3d179e7e5",
@@ -14502,7 +14502,7 @@
         "Product number": "BBR127C16",
         "Scale": "1/12",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "FERRARI",
         "Driver": "LECLERC, CHARLES",
         "Material": "RESIN",
@@ -14515,7 +14515,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
@@ -17007,6 +17007,56 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-117262005",
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/117262005",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117262005",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIEL",
+        "Material": "RESIN",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-117262027",
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/117262027",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "117262027",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "RESIN",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-127261912",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/127261912",
@@ -17325,6 +17375,56 @@
       "description": "",
       "brand": "Minichamps",
       "price": "99.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417262005",
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/417262005",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417262005",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIEL",
+        "Material": "RESIN",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-417262027",
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/417262027",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "417262027",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "RESIN",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -17775,6 +17875,56 @@
       "description": "",
       "brand": "Minichamps",
       "price": "32.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640262005",
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/640262005",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640262005",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "BORTOLETO, GABRIEL",
+        "Material": "DIECAST",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640262027",
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/640262027",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640262027",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "AUDI",
+        "Driver": "HULKENBERG, NICO",
+        "Material": "DIECAST",
+        "Model": "R26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -19704,7 +19854,7 @@
         "Product number": "640260331",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "HAAS",
         "Driver": "OCON, ESTEBAN",
         "Material": "DIECAST",
@@ -19718,7 +19868,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-minichamps-1661389",
@@ -27003,7 +27153,10 @@
       "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
       "url": "https://www.sparkmodel.com/products/df38917a-7ed4-430e-9935-9abe45fd76d8",
       "images": [
-        "images/spark-S9372-1.webp"
+        "images/spark-S9372-1.webp",
+        "images/spark-S9372-3.webp",
+        "images/spark-S9372-4.webp",
+        "images/spark-S9372-2.webp"
       ],
       "properties": {
         "Manufacturer": "Audi",
@@ -27029,7 +27182,10 @@
       "name": "Audi Revolut F1 Team R26 No.5 Australian GP 2026\nAudi First Race, First Point \nGabriel Bortoleto",
       "url": "https://www.sparkmodel.com/products/1e0516d7-3ca4-4ff7-9692-3af3cc243987",
       "images": [
-        "images/spark-S9373-1.webp"
+        "images/spark-S9373-1.webp",
+        "images/spark-S9373-2.webp",
+        "images/spark-S9373-3.webp",
+        "images/spark-S9373-4.webp"
       ],
       "properties": {
         "Manufacturer": "Audi",

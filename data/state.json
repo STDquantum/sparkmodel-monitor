@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-09T08:23:56.894466+00:00",
-  "total": 1033,
+  "updated_at": "2026-11-09T16:12:23.585146+00:00",
+  "total": 1039,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -5092,7 +5092,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019a89199ff273ab826f67a3d179e7e5": {
       "name": "BWT ALPINE F1 TEAM A525 - FRANCO COLAPINTO - SPANISH GP 2025",
@@ -5538,7 +5538,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025",
@@ -6355,6 +6355,24 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-117262005": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/117262005",
+      "product_number": "117262005",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-117262027": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/117262027",
+      "product_number": "117262027",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-127261912": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/127261912",
@@ -6467,6 +6485,24 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/417261912",
       "product_number": "417261912",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417262005": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/417262005",
+      "product_number": "417262005",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-417262027": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/417262027",
+      "product_number": "417262027",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6629,6 +6665,24 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/640261912",
       "product_number": "640261912",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640262005": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/640262005",
+      "product_number": "640262005",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640262027": {
+      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/640262027",
+      "product_number": "640262027",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -7306,7 +7360,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-minichamps-1661389": {
       "name": "VISA CASH APP RB FORMULA ONE VCARB 03 - ARVID LINDBLAD - JAPANESE GP 2026",
@@ -10342,7 +10396,7 @@
       "source_id": "df38917a-7ed4-430e-9935-9abe45fd76d8",
       "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
       "url": "https://www.sparkmodel.com/products/df38917a-7ed4-430e-9935-9abe45fd76d8",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/428c4a69-946d-4090-9b8b-e5526ee9673f.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/57fb5308-0b4a-48a1-9cd6-8d29699efff2.webp",
       "availability": "In development",
       "product_number": "S9372",
       "scale": "1/43",
@@ -10354,7 +10408,7 @@
       "source_id": "1e0516d7-3ca4-4ff7-9692-3af3cc243987",
       "name": "Audi Revolut F1 Team R26 No.5 Australian GP 2026\nAudi First Race, First Point \nGabriel Bortoleto",
       "url": "https://www.sparkmodel.com/products/1e0516d7-3ca4-4ff7-9692-3af3cc243987",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1a9192c9-97f7-491e-874a-30d112b10aa1.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/3d6c08de-0e11-4ab4-95a8-e6555d1c029f.webp",
       "availability": "In development",
       "product_number": "S9373",
       "scale": "1/43",
@@ -12059,21 +12113,20 @@
     }
   },
   "changes": {
-    "added": [],
+    "added": [
+      "minichamps-117262005",
+      "minichamps-117262027",
+      "minichamps-417262005",
+      "minichamps-417262027",
+      "minichamps-640262005",
+      "minichamps-640262027"
+    ],
     "changed": [
-      "burago-191733",
-      "burago-191735",
-      "burago-191737",
-      "burago-191773",
-      "burago-191780",
-      "burago-191786",
-      "burago-191788",
-      "burago-191789",
-      "burago-191793",
-      "burago-191794",
-      "burago-191795",
-      "burago-191796",
-      "burago-191798"
+      "minichamps-019a8919868f73b99244bc79779b4484",
+      "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
+      "minichamps-minichamps-1661388",
+      "spark-S9372",
+      "spark-S9373"
     ],
     "removed": []
   }
