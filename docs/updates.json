@@ -1,6 +1,81 @@
 {
   "updates": [
     {
+      "date": "2026-11-10T15:46:38.778454+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660039",
+          "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE POS. CHINESE GP 2026 W/POLE POSITION TYRE",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-POS.-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
+          "product_number": "117260222",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://www.minichamps.de/media/d0/81/58/1791315159/00_117260222_01a112b4.jpg?ts=1791315159",
+              "after": "https://www.minichamps.de/media/9d/d4/ab/1794313638/00_117260222.jpg?ts=1794313638"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/minichamps-minichamps-1660039-1.jpg",
+              "images/minichamps-minichamps-1660039-2.jpg",
+              "images/minichamps-minichamps-1660039-3.jpg",
+              "images/minichamps-minichamps-1660039-4.jpg"
+            ],
+            "moved": [],
+            "removed_count": 1,
+            "hashes": {
+              "images/minichamps-minichamps-1660039-1.jpg": "d726ce4059ebed6425bb099e56ca617ec72d5c8b5067806d071ee30edf223b76",
+              "images/minichamps-minichamps-1660039-2.jpg": "6afae49502669a231b23e803b04b3f162cb2963de96e19b8fe3830e3b8357a5b",
+              "images/minichamps-minichamps-1660039-3.jpg": "4607cbaf07ef3fa8ed530e15e2453ad05784cf3645bd6f77ab27a5a8b0349792",
+              "images/minichamps-minichamps-1660039-4.jpg": "154323f66b6642ad1110b44fd586fb15da08f6a58d24926b84b698ecca01b642"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 4
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1669331",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
+          "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/417260618",
+          "product_number": "417260618",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/b7/06/d3/1794315502/417260618_hs.jpg?ts=1794315502"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1669331-1.jpg",
+              "images/minichamps-minichamps-1669331-2.jpg",
+              "images/minichamps-minichamps-1669331-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1669331-1.jpg": "771dde92938ea110968b0c2e10bafd173efc9bab006cbdb822ac61581dbd43ff",
+              "images/minichamps-minichamps-1669331-2.jpg": "c03514a0a718d36f2b328bd85002ea953cd733efc44adce560bb1fdb1c9acc7c",
+              "images/minichamps-minichamps-1669331-3.jpg": "0be5929f655de2e6c17089db6d93ab78b445df4ff24a0f72aca376ba4350a6c5"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-09T16:12:38.080021+00:00",
       "entries": [
         {
@@ -42525,21 +42600,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/minichamps-minichamps-1660039-1.jpg",
-              "images/minichamps-minichamps-1660039-2.jpg",
-              "images/minichamps-minichamps-1660039-3.jpg",
-              "images/minichamps-minichamps-1660039-4.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/minichamps-minichamps-1660039-1.jpg": "f0267e3f85c0eed1e3f9f7ee14b194e3c072f75777e7aacb44b06769a961c8ed",
-              "images/minichamps-minichamps-1660039-2.jpg": "9b9688999be8b7410fb7936383c14c4dd767fbdc90d7dce69e511822b0754452",
-              "images/minichamps-minichamps-1660039-3.jpg": "3c756e44b7f6eadcc07ac81cf87382066bf76ceae6823d5db516a214ecb493d3",
-              "images/minichamps-minichamps-1660039-4.jpg": "6d925f0a04643a5eff8b944c41418f88193e18062091c0c1e17d6410856629c9"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 6,

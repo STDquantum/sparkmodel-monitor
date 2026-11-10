@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T16:12:38.080021+00:00",
+  "generated_at": "2026-11-10T15:46:38.778454+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -18404,8 +18404,7 @@
         "images/minichamps-minichamps-1660039-2.jpg",
         "images/minichamps-minichamps-1660039-3.jpg",
         "images/minichamps-minichamps-1660039-4.jpg",
-        "images/minichamps-minichamps-1660039-5.jpg",
-        "images/minichamps-minichamps-1660039-6.jpg"
+        "images/minichamps-minichamps-1660039-5.jpg"
       ],
       "properties": {
         "Year": "2026",
@@ -21433,7 +21432,11 @@
       "id": "minichamps-minichamps-1669331",
       "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
       "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/417260618",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1669331-1.jpg",
+        "images/minichamps-minichamps-1669331-2.jpg",
+        "images/minichamps-minichamps-1669331-3.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260618",

@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-09T16:12:23.585146+00:00",
+  "updated_at": "2026-11-10T15:46:30.232745+00:00",
   "total": 1039,
   "items": {
     "bbr-bbr1229c16": {
@@ -6850,7 +6850,7 @@
     "minichamps-minichamps-1660039": {
       "name": "MERCEDES-AMG PETR. F1 TEAM W17 - K. ANTONELLI – 1ST POLE POS. CHINESE GP 2026 W/POLE POSITION TYRE",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETR.-F1-TEAM-W17-K.-ANTONELLI-1ST-POLE-POS.-CHINESE-GP-2026-W-POLE-POSITION-TYRE/117260222",
-      "image_url": "https://www.minichamps.de/media/d0/81/58/1791315159/00_117260222_01a112b4.jpg?ts=1791315159",
+      "image_url": "https://www.minichamps.de/media/9d/d4/ab/1794313638/00_117260222.jpg?ts=1794313638",
       "product_number": "117260222",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -7925,6 +7925,7 @@
     "minichamps-minichamps-1669331": {
       "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
       "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/417260618",
+      "image_url": "https://www.minichamps.de/media/b7/06/d3/1794315502/417260618_hs.jpg?ts=1794315502",
       "product_number": "417260618",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -12113,20 +12114,10 @@
     }
   },
   "changes": {
-    "added": [
-      "minichamps-117262005",
-      "minichamps-117262027",
-      "minichamps-417262005",
-      "minichamps-417262027",
-      "minichamps-640262005",
-      "minichamps-640262027"
-    ],
+    "added": [],
     "changed": [
-      "minichamps-019a8919868f73b99244bc79779b4484",
-      "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
-      "minichamps-minichamps-1661388",
-      "spark-S9372",
-      "spark-S9373"
+      "minichamps-minichamps-1660039",
+      "minichamps-minichamps-1669331"
     ],
     "removed": []
   }
