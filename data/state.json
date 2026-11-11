@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-11T08:06:47.398877+00:00",
-  "total": 1039,
+  "updated_at": "2026-11-11T16:07:55.615828+00:00",
+  "total": 1041,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -603,6 +603,19 @@
       "year": "2026",
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/nIaZnEkt/[Miniatura]BBR332A16_1.jpg.aspx",
+      "availability": ""
+    },
+    "bbr-bbrc332a16pre": {
+      "product_id": "bbr-bbrc332a16pre",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Leclerc - fourth position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a16pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-leclerc---fourth-position.aspx",
+      "product_number": "BBRC332A16PRE",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "SF-26",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/f7uUoglD/[Miniatura]BBRC332A16PRE_1.jpg.aspx",
       "availability": ""
     },
     "bbr-bbrc332a44": {
@@ -6571,6 +6584,15 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-537268104": {
+      "name": "2-CAR SET - MCLAREN MASTERCARD F1 TEAM MCL40 - NORRIS/ PIASTRI - MONACO GP 2026 - 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/en/2-CAR-SET-MCLAREN-MASTERCARD-F1-TEAM-MCL40-NORRIS-PIASTRI-MONACO-GP-2026-1000TH-GP-OF-MCLAREN/537268104",
+      "product_number": "537268104",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-640261012": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/640261012",
@@ -6865,7 +6887,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-minichamps-1660041": {
       "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - JAPANESE GP 2026",
@@ -7637,6 +7659,7 @@
     "minichamps-minichamps-1666146": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER MIAMI GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-MIAMI-GP-2026/117260412",
+      "image_url": "https://www.minichamps.de/media/8b/e9/e6/1794402102/00_117260412.jpg?ts=1794402102",
       "product_number": "117260412",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -10709,7 +10732,7 @@
       "source_id": "c88492a2-d7cf-4a49-8bfe-4f1935fd5c56",
       "name": "BWT Alpine Formula One Team A526 No.43 6th Canada GP 2026 \nFranco Colapinto",
       "url": "https://www.sparkmodel.com/products/c88492a2-d7cf-4a49-8bfe-4f1935fd5c56",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4ddbac66-bd09-44e0-9ef5-295c1919112e.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/92b59584-b584-4688-a457-91c02a3c5a84.webp",
       "availability": "In development",
       "product_number": "S9399",
       "scale": "1/43",
@@ -12114,45 +12137,14 @@
     }
   },
   "changes": {
-    "added": [],
+    "added": [
+      "bbr-bbrc332a16pre",
+      "minichamps-537268104"
+    ],
     "changed": [
-      "shop-ferrari-LS1228",
-      "shop-ferrari-LS18F1080",
-      "shop-ferrari-LS18F1081",
-      "shop-ferrari-LS18F1083",
-      "shop-ferrari-LS18F1084",
-      "shop-ferrari-LS18F1085",
-      "shop-ferrari-LS18F1087",
-      "shop-ferrari-LS18F1088",
-      "shop-ferrari-LS18F1091",
-      "shop-ferrari-LS18F1092",
-      "shop-ferrari-LS18F1093",
-      "shop-ferrari-LS64031",
-      "shop-ferrari-LS64032",
-      "shop-ferrari-LS64033",
-      "shop-ferrari-LS64034",
-      "shop-ferrari-LS64035",
-      "shop-ferrari-LS64036",
-      "shop-ferrari-LS64037",
-      "shop-ferrari-LS64041",
-      "shop-ferrari-LS64044",
-      "shop-ferrari-LS64045",
-      "shop-ferrari-LS64046",
-      "shop-ferrari-LSF1080",
-      "shop-ferrari-LSF1081",
-      "shop-ferrari-LSF1082",
-      "shop-ferrari-LSF1083",
-      "shop-ferrari-LSF1084",
-      "shop-ferrari-LSF1085",
-      "shop-ferrari-LSF1086",
-      "shop-ferrari-LSF1087",
-      "shop-ferrari-LSF1088",
-      "shop-ferrari-LSF1089",
-      "shop-ferrari-LSF1092",
-      "shop-ferrari-LSF1093",
-      "shop-ferrari-LSF1094",
-      "spark-64S080",
-      "spark-64S086"
+      "minichamps-minichamps-1660040",
+      "minichamps-minichamps-1666146",
+      "spark-S9399"
     ],
     "removed": []
   }

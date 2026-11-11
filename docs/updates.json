@@ -1,6 +1,170 @@
 {
   "updates": [
     {
+      "date": "2026-11-11T16:08:04.418524+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "bbr-bbrc332a16pre",
+          "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Leclerc - fourth position",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a16pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-leclerc---fourth-position.aspx",
+          "product_number": "BBRC332A16PRE",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/bbr-bbrc332a16pre-1.jpg",
+              "images/bbr-bbrc332a16pre-2.jpg",
+              "images/bbr-bbrc332a16pre-3.jpg",
+              "images/bbr-bbrc332a16pre-4.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/bbr-bbrc332a16pre-1.jpg": "5fef3b447832af31a34a18d0bd87dde7204af1cf2dd524cdf298766b45807ea0",
+              "images/bbr-bbrc332a16pre-2.jpg": "576f1fa28318fe96dbc7d3d33f7f6170976a03a090d98c6cf3555033ae6763dd",
+              "images/bbr-bbrc332a16pre-3.jpg": "0ddb9518863d49443ada3f214e98bf03841575d3c6c1666768cf2ef10752fe18",
+              "images/bbr-bbrc332a16pre-4.jpg": "f31250f70c4084e8be65eb6c9080cdbddf4ea57cacbe3e2d01cd5f05b99e7d7a"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-537268104",
+          "name": "2-CAR SET - MCLAREN MASTERCARD F1 TEAM MCL40 - NORRIS/ PIASTRI - MONACO GP 2026 - 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/en/2-CAR-SET-MCLAREN-MASTERCARD-F1-TEAM-MCL40-NORRIS-PIASTRI-MONACO-GP-2026-1000TH-GP-OF-MCLAREN/537268104",
+          "product_number": "537268104",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1660040",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER JAPANESE GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-JAPANESE-GP-2026/117260312",
+          "product_number": "117260312",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "available for preorder",
+              "after": "sold out"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 47/2026"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-minichamps-1666146",
+          "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER MIAMI GP 2026",
+          "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-MIAMI-GP-2026/117260412",
+          "product_number": "117260412",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/8b/e9/e6/1794402102/00_117260412.jpg?ts=1794402102"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-minichamps-1666146-1.jpg",
+              "images/minichamps-minichamps-1666146-2.jpg",
+              "images/minichamps-minichamps-1666146-3.jpg",
+              "images/minichamps-minichamps-1666146-4.jpg",
+              "images/minichamps-minichamps-1666146-5.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-minichamps-1666146-1.jpg": "6cd608b719a879e9f61881cd005bc2e895f9277cf31e69fb20a935e3945acd9a",
+              "images/minichamps-minichamps-1666146-2.jpg": "d10494913bce23928826c2b701216c6b866791879478319380528a268313d2f3",
+              "images/minichamps-minichamps-1666146-3.jpg": "69eb138351e219b059813fce869f255fd1505707cf00d2d5a58f285470386e90",
+              "images/minichamps-minichamps-1666146-4.jpg": "d65478880c75ee32b88d886ada07cf80859dddc5cd90581463462ef978e6b575",
+              "images/minichamps-minichamps-1666146-5.jpg": "58b0cf8deb76ead842117db1d53231a60b843b5ca90361b08aa74d4907945a3e"
+            }
+          },
+          "image_counts": {
+            "added": 5,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-S9399",
+          "name": "BWT Alpine Formula One Team A526 No.43 6th Canada GP 2026 \nFranco Colapinto",
+          "url": "https://www.sparkmodel.com/products/c88492a2-d7cf-4a49-8bfe-4f1935fd5c56",
+          "product_number": "S9399",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4ddbac66-bd09-44e0-9ef5-295c1919112e.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/92b59584-b584-4688-a457-91c02a3c5a84.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-S9399-2.webp",
+              "images/spark-S9399-3.webp"
+            ],
+            "changed": [
+              "images/spark-S9399-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-S9399-2.webp": "ad5d1eb49010a94b46a4768a77c52d78cb165142bb6b21b7dff3cecffca0032d",
+              "images/spark-S9399-3.webp": "dec9cfc93e1ac7a92eaa88e32fb73686dd56850ee6ff823ebf26d2e8cccd27f2",
+              "images/spark-S9399-1.webp": "37c6db10cefb1b9fc78cd5914aa9254062faa7b1ae982b0468010cd4bedcc5e7"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-11T08:06:56.717445+00:00",
       "entries": [
         {
@@ -22817,15 +22981,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-S9399-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-S9399-1.webp": "4d1aca72de3600b7801eb51eb5cea614d3b49bb77715d9cc5a23fedbc93cc7d6"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,

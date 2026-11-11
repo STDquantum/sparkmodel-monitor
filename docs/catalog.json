@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T08:06:56.717445+00:00",
+  "generated_at": "2026-11-11T16:08:04.418524+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1026,6 +1026,31 @@
       "properties": {
         "Year": "2026",
         "Product number": "BBRC332A16",
+        "Scale": "1/43",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
+    },
+    {
+      "id": "bbr-bbrc332a16pre",
+      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Leclerc - fourth position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a16pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-leclerc---fourth-position.aspx",
+      "images": [
+        "images/bbr-bbrc332a16pre-1.jpg",
+        "images/bbr-bbrc332a16pre-2.jpg",
+        "images/bbr-bbrc332a16pre-3.jpg",
+        "images/bbr-bbrc332a16pre-4.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRC332A16PRE",
         "Scale": "1/43",
         "Model": "SF-26"
       },
@@ -17607,6 +17632,31 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-537268104",
+      "name": "2-CAR SET - MCLAREN MASTERCARD F1 TEAM MCL40 - NORRIS/ PIASTRI - MONACO GP 2026 - 1000TH GP OF MCLAREN",
+      "url": "https://www.minichamps.de/en/2-CAR-SET-MCLAREN-MASTERCARD-F1-TEAM-MCL40-NORRIS-PIASTRI-MONACO-GP-2026-1000TH-GP-OF-MCLAREN/537268104",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "537268104",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "RESIN",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-640261012",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/640261012",
@@ -18445,10 +18495,11 @@
         "Product number": "117260312",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "sold out",
         "Brand": "MERCEDES-BENZ",
         "Driver": "ANTONELLI, KIMI",
         "Material": "RESIN",
+        "First delivery": "Calendar week 47/2026",
         "Model": "W17"
       },
       "description": "",
@@ -18458,7 +18509,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-minichamps-1660041",
@@ -20632,7 +20683,13 @@
       "id": "minichamps-minichamps-1666146",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER MIAMI GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-MIAMI-GP-2026/117260412",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1666146-1.jpg",
+        "images/minichamps-minichamps-1666146-2.jpg",
+        "images/minichamps-minichamps-1666146-3.jpg",
+        "images/minichamps-minichamps-1666146-4.jpg",
+        "images/minichamps-minichamps-1666146-5.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "117260412",
@@ -27973,7 +28030,9 @@
       "name": "BWT Alpine Formula One Team A526 No.43 6th Canada GP 2026 \nFranco Colapinto",
       "url": "https://www.sparkmodel.com/products/c88492a2-d7cf-4a49-8bfe-4f1935fd5c56",
       "images": [
-        "images/spark-S9399-1.webp"
+        "images/spark-S9399-1.webp",
+        "images/spark-S9399-2.webp",
+        "images/spark-S9399-3.webp"
       ],
       "properties": {
         "Manufacturer": "Alpine",
