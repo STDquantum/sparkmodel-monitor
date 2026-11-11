@@ -1,4 +1,13 @@
 window.PRODUCT_TIMES={
+  "S9589": {
+    "shipped": "2026-11-10"
+  },
+  "18-38299S": {
+    "shipped": "2026-11-11"
+  },
+  "18-38299A": {
+    "shipped": "2026-11-11"
+  },
   "640260222": {
     "published": "2026-05-29",
     "shipped": "2026-08-15"
@@ -2183,7 +2192,8 @@ window.PRODUCT_TIMES={
     "published": "2025-03-17"
   },
   "S9588": {
-    "published": "2025-03-17"
+    "published": "2025-03-17",
+    "shipped": "2026-11-10"
   },
   "S9575": {
     "published": "2025-03-17"
