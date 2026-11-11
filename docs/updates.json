@@ -1,6 +1,1081 @@
 {
   "updates": [
     {
+      "date": "2026-11-11T08:06:56.717445+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS1228",
+          "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls1228-de",
+          "product_number": "LS1228",
+          "scale": "1/12",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/dd/87/1784563091/c956f35d40764a14b8a3a71cd772dda2.webp?ts=1792037299",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8c/dd/87/1784563091/c956f35d40764a14b8a3a71cd772dda2.webp?ts=1794377390"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1080",
+          "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/ls18f1080-de",
+          "product_number": "LS18F1080",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/bb/62/84/1785216978/33230bca64a14e15a9e846c6148cddc7.webp?ts=1792037287",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7a/62/df/1794381451/ed2f2e5737a242b9944b4b59f393edca.webp?ts=1794382264"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS18F1080-4.webp",
+              "images/shop-ferrari-LS18F1080-5.webp",
+              "images/shop-ferrari-LS18F1080-6.webp",
+              "images/shop-ferrari-LS18F1080-7.webp",
+              "images/shop-ferrari-LS18F1080-8.webp",
+              "images/shop-ferrari-LS18F1080-9.webp",
+              "images/shop-ferrari-LS18F1080-10.webp",
+              "images/shop-ferrari-LS18F1080-11.webp",
+              "images/shop-ferrari-LS18F1080-12.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS18F1080-1.webp",
+              "images/shop-ferrari-LS18F1080-2.webp",
+              "images/shop-ferrari-LS18F1080-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS18F1080-4.webp": "0916499455d1a0af865086a0e9828dc809261d4e017d6ee947e32596ba754123",
+              "images/shop-ferrari-LS18F1080-5.webp": "60cbf236cac583ece6953efaa205af778a7511b9ce04d9930c9cf2e647f13620",
+              "images/shop-ferrari-LS18F1080-6.webp": "eba1fc05835951a97f5d9a61e9aefe9c10d00cc0952b1603418b0cae4097cf07",
+              "images/shop-ferrari-LS18F1080-7.webp": "3fbadbc233242c8d6542d4927f6c9b5a41d2c779519918ba809f9f1a6413d318",
+              "images/shop-ferrari-LS18F1080-8.webp": "bb38f31685b38f33ef7f9f08ddb447ec3fc89537b26631d21fa8110ad95e3288",
+              "images/shop-ferrari-LS18F1080-9.webp": "4c135f7417472f9bdeb2012d0b11a160e6096f464219e40d6f4395b3c0da71ab",
+              "images/shop-ferrari-LS18F1080-10.webp": "a2730752c718e662f33c1c5b97587eb893dfacf11ed9bb2c44d9298970ea3a88",
+              "images/shop-ferrari-LS18F1080-11.webp": "35f4a42737d892a3cbfc6c7ec1e4b55f0d011e93c3d8aac8ae3e7b5557b88876",
+              "images/shop-ferrari-LS18F1080-12.webp": "9913faf5cc9e14a3e94bf9995dfd0e85ea284237128f476042ea98b49c49d528",
+              "images/shop-ferrari-LS18F1080-1.webp": "43b51ef35ee2a238956cf61a232e2a37befa05fd33f20d8a38e2c06a87bbf26a",
+              "images/shop-ferrari-LS18F1080-2.webp": "fa3b9426a44c2c04da498471f574335b43da69f1ee37feb04c02afd7f05a7431",
+              "images/shop-ferrari-LS18F1080-3.webp": "d44d73a7ff250cc78aa274cd86f709411232face51ce7e9afde44666e9d48fff"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1081",
+          "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/ls18f1081-de",
+          "product_number": "LS18F1081",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/36/58/44/1785217005/b12d458a0bd3423e85bf8b07c688d0d0.webp?ts=1792037287",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/7f/5b/b1/1794380567/86eece1771594cdab19ea5bd26fdfe35.webp?ts=1794381785"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS18F1081-4.webp",
+              "images/shop-ferrari-LS18F1081-5.webp",
+              "images/shop-ferrari-LS18F1081-6.webp",
+              "images/shop-ferrari-LS18F1081-7.webp",
+              "images/shop-ferrari-LS18F1081-8.webp",
+              "images/shop-ferrari-LS18F1081-9.webp",
+              "images/shop-ferrari-LS18F1081-10.webp",
+              "images/shop-ferrari-LS18F1081-11.webp",
+              "images/shop-ferrari-LS18F1081-12.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS18F1081-1.webp",
+              "images/shop-ferrari-LS18F1081-2.webp",
+              "images/shop-ferrari-LS18F1081-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS18F1081-4.webp": "f4669e5232bf48eb69e987d20c70f2716a1738e0714b36b2ecf7c1eb015912a4",
+              "images/shop-ferrari-LS18F1081-5.webp": "b32a77edc7e45db721b87b0f75de890a0833868fb87bd443fdca112561068adf",
+              "images/shop-ferrari-LS18F1081-6.webp": "06d0d5285df9e2d0ee9eeff4332bf5020732e8d84ed01867f4d3c001dbfd5b4e",
+              "images/shop-ferrari-LS18F1081-7.webp": "93f726fd05a10937e075340edc19d50dd3891edf3aa7bc74bc2d2050d2cb5a66",
+              "images/shop-ferrari-LS18F1081-8.webp": "1906a8205d3a94f1c26cc900f21f8b3b15c964b36ddd77b17426f5786e65a627",
+              "images/shop-ferrari-LS18F1081-9.webp": "bb38f31685b38f33ef7f9f08ddb447ec3fc89537b26631d21fa8110ad95e3288",
+              "images/shop-ferrari-LS18F1081-10.webp": "b486d74b88af61880a7efbddb56496cbcbe75ce74adc6cf0592c0f51c33f533f",
+              "images/shop-ferrari-LS18F1081-11.webp": "120cc0d347e57149a7676b78880e93b3621bcde85e8161e3a3cb417db9acf80b",
+              "images/shop-ferrari-LS18F1081-12.webp": "b84738703aa645d860067061559a8ff670c0dd7b4964bb9ab1ba1b9ba5af0868",
+              "images/shop-ferrari-LS18F1081-1.webp": "420eea6605a8af9d60581c6db972d167361c15e0ed2281594d3a8e976774485a",
+              "images/shop-ferrari-LS18F1081-2.webp": "45479093f03bf3c432acda43cb9dfc4dd71185ecfe2040a1bbd9fd560269523b",
+              "images/shop-ferrari-LS18F1081-3.webp": "19ea6fbcf068139e82c285cdfdccfe196c31fff7b6d70de3ad8b7504ff55761c"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1083",
+          "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls18f1083-de",
+          "product_number": "LS18F1083",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/ca/aa/1784563126/b43ebd3064b34d0d9ab4b2a215c80bac.webp?ts=1792037285",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/ca/aa/1784563126/b43ebd3064b34d0d9ab4b2a215c80bac.webp?ts=1794377399"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1084",
+          "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls18f1084-de",
+          "product_number": "LS18F1084",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/52/9a/3e/1784563130/11ba88c5746b46a7b27ec54632b2e297.webp?ts=1792037284",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/52/9a/3e/1784563130/11ba88c5746b46a7b27ec54632b2e297.webp?ts=1794377399"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1085",
+          "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/ls18f1085-de",
+          "product_number": "LS18F1085",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1b/3a/24/1784563135/e58e753fc7804f0986d5562658e2a6c6.webp?ts=1792037284",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/1b/3a/24/1784563135/e58e753fc7804f0986d5562658e2a6c6.webp?ts=1794377400"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1087",
+          "name": "Ferrari SF-26 No.16 Winner British GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/ls18f1087-de",
+          "product_number": "LS18F1087",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/50/2a/1784563145/32a2fa45497a42898e1396e6a0e18406.webp?ts=1792037282",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/48/50/2a/1784563145/32a2fa45497a42898e1396e6a0e18406.webp?ts=1794377403"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1088",
+          "name": "Ferrari SF-26 No.44 3rd British GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-3rd-british-gp-2026-lewis-hamilton/ls18f1088-de",
+          "product_number": "LS18F1088",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f8/83/73/1784563148/ba8620194ace4589910fd36d2abc3d95.webp?ts=1792037281",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/f8/83/73/1784563148/ba8620194ace4589910fd36d2abc3d95.webp?ts=1794377405"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1091",
+          "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/ls18f1091-de",
+          "product_number": "LS18F1091",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/37/c8/1789464628/2352c4a812634f09942fd4441d4d9286.webp?ts=1792037279",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/39/37/c8/1789464628/2352c4a812634f09942fd4441d4d9286.webp?ts=1794377407"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1092",
+          "name": "Ferrari SF-26 No.16 Italian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/ls18f1092-de",
+          "product_number": "LS18F1092",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/02/32/5e/1789464636/8986de4519bc492eb0997a9e8f705707.webp?ts=1792037278",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/02/32/5e/1789464636/8986de4519bc492eb0997a9e8f705707.webp?ts=1794377408"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1093",
+          "name": "Ferrari SF-26 No.16 2nd Singapore GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/ls18f1093-de",
+          "product_number": "LS18F1093",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp?ts=1792206849",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/31/80/1792206849/e2138248d6004c1086d0ea5ac0f60f64.webp?ts=1794377409"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64031",
+          "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/ls64031-de",
+          "product_number": "LS64031",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a4/b2/59/1784945222/305cc69b435348d6ada8a25a6ef5ff54.webp?ts=1792037225",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a4/b2/59/1784945222/305cc69b435348d6ada8a25a6ef5ff54.webp?ts=1794377433"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64032",
+          "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/ls64032-de",
+          "product_number": "LS64032",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ba/9b/94/1784945249/ede3351f42154d248d8ecf8f351ddc7b.webp?ts=1792037224",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ba/9b/94/1784945249/ede3351f42154d248d8ecf8f351ddc7b.webp?ts=1794377434"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64033",
+          "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/ls64033-de",
+          "product_number": "LS64033",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/6d/aa/1784967199/a57f34012be84f6a964b99569a9d0eb6.webp?ts=1792037223",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/6d/aa/1784967199/a57f34012be84f6a964b99569a9d0eb6.webp?ts=1794377435"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64034",
+          "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls64034-de",
+          "product_number": "LS64034",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/14/a4/43/1793085993/454c615f1f2544c2ac9ca6d8253a99e1.webp?ts=1793086269",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/14/a4/43/1793085993/454c615f1f2544c2ac9ca6d8253a99e1.webp?ts=1794377436"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64035",
+          "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls64035-de",
+          "product_number": "LS64035",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/14/37/1784563323/7ec1e6e381944c8e8aaef8f96b135c91.webp?ts=1792037221",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/14/37/1784563323/7ec1e6e381944c8e8aaef8f96b135c91.webp?ts=1794377438"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64036",
+          "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/ls64036-de",
+          "product_number": "LS64036",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/37/fa/a1/1793086098/068e75bd05a542d0a8f7480b0482b850.webp?ts=1793086353",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/37/fa/a1/1793086098/068e75bd05a542d0a8f7480b0482b850.webp?ts=1794377439"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64037",
+          "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls64037-de",
+          "product_number": "LS64037",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp?ts=1792037220",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp?ts=1794377440"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64041",
+          "name": "Ferrari SF-26 No.16 Winner British GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/ls64041-de",
+          "product_number": "LS64041",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/74/dc/31/1784563348/c81a3e2de91f45ecafeb1fba96ee550e.webp?ts=1792037218",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/74/dc/31/1784563348/c81a3e2de91f45ecafeb1fba96ee550e.webp?ts=1794377441"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64044",
+          "name": "Ferrari SF-26 Italian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-italian-gp-2026-lewis-hamilton/ls64044-de",
+          "product_number": "LS64044",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/91/56/e0/1789638438/66a88060fdbc4e51819546a9bbe19cc4.webp?ts=1792037217",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/91/56/e0/1789638438/66a88060fdbc4e51819546a9bbe19cc4.webp?ts=1794377442"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64045",
+          "name": "Ferrari SF-26 Italian GP 2026 -Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-italian-gp-2026-charles-leclerc/ls64045-de",
+          "product_number": "LS64045",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/86/3d/2a/1789638435/6e7a2057fb2f4548b7bead89b0e5e82e.webp?ts=1792037216",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/86/3d/2a/1789638435/6e7a2057fb2f4548b7bead89b0e5e82e.webp?ts=1794377443"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64046",
+          "name": "Ferrari SF-26 No.16 2nd Singapore GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/ls64046-de",
+          "product_number": "LS64046",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp?ts=1792206858",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4c/ac/8f/1792206858/8369e7f492034212b5ff839c02ea4486.webp?ts=1794377444"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1080",
+          "name": "Scuderia Ferrari HP SF-26 No.16 3rd Australian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.16-3rd-australian-gp-2026-charles-leclerc/lsf1080-de",
+          "product_number": "LSF1080",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/0d/8f/1788850978/31b22d36b39d497f806a2d0dec937602.webp?ts=1792037207",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/20/0d/8f/1788850978/31b22d36b39d497f806a2d0dec937602.webp?ts=1794377444"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1081",
+          "name": "Scuderia Ferrari HP SF-26 No.44 3rd Chinese GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/scuderia-ferrari-hp-sf-26-no.44-3rd-chinese-gp-2026-lewis-hamilton/lsf1081-de",
+          "product_number": "LSF1081",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp?ts=1792656579",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/09/81/1789115036/91bfd4f712d4452a982e78b508cf3cac.webp?ts=1794377447"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1082",
+          "name": "Ferrari SF-26 No.16 3rd Japanese GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-3rd-japanese-gp-2026-charles-leclerc/lsf1082-de",
+          "product_number": "LSF1082",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp?ts=1793759664",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/e5/74/af/1790648336/184ed55b53484316aaf3edc137c7fa2c.webp?ts=1794377451"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1083",
+          "name": "Ferrari SF-26 No.44 Japanese GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-japanese-gp-2026-lewis-hamilton/lsf1083-de",
+          "product_number": "LSF1083",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/ed/26/1790140821/128520d361fe41c3a5a1466d6088af30.webp?ts=1792037200",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ee/ed/26/1790140821/128520d361fe41c3a5a1466d6088af30.webp?ts=1794377454"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1084",
+          "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/lsf1084-de",
+          "product_number": "LSF1084",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/63/2e/1f/1792056419/634be9532f534d97a2ca10f1b0992296.webp?ts=1792056420",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/63/2e/1f/1792056419/634be9532f534d97a2ca10f1b0992296.webp?ts=1794377457"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1085",
+          "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/lsf1085-de",
+          "product_number": "LSF1085",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/c0/97/1792056543/13d499edf2684640aed217070e778240.webp?ts=1792056569",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/b3/c0/97/1792056543/13d499edf2684640aed217070e778240.webp?ts=1794377458"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1086",
+          "name": "Ferrari SF-26 No.44 2nd Monaco GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-monaco-gp-2026-lewis-hamilton/lsf1086-de",
+          "product_number": "LSF1086",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2d/75/fe/1784563427/350c5d30b8d64612b07380f91c173f78.webp?ts=1792037198",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/2d/75/fe/1784563427/350c5d30b8d64612b07380f91c173f78.webp?ts=1794377459"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1087",
+          "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/lsf1087-de",
+          "product_number": "LSF1087",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9e/54/a5/1784563432/c63678ab66a44baea4c094e1f08e010d.webp?ts=1792037198",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9e/54/a5/1784563432/c63678ab66a44baea4c094e1f08e010d.webp?ts=1794377460"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1088",
+          "name": "Ferrari SF-26 No.16 Winner British GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-winner-british-gp-2026-charles-leclerc/lsf1088-de",
+          "product_number": "LSF1088",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/98/36/36/1784563436/743c3e81ea0d4beb93db4bfd62d0c9c8.webp?ts=1792037197",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/98/36/36/1784563436/743c3e81ea0d4beb93db4bfd62d0c9c8.webp?ts=1794377462"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1089",
+          "name": "Ferrari SF-26 No.44 3rd British GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-3rd-british-gp-2026-lewis-hamilton/lsf1089-de",
+          "product_number": "LSF1089",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9d/75/47/1784563440/7d8ec6a6b46f4e79a01f31e81561541e.webp?ts=1792037197",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/9d/75/47/1784563440/7d8ec6a6b46f4e79a01f31e81561541e.webp?ts=1794377463"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1092",
+          "name": "Ferrari SF-26 No.44 Italian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-italian-gp-2026-lewis-hamilton/lsf1092-de",
+          "product_number": "LSF1092",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/21/c1/b0/1789464638/e18bfe2ac4ef4ffb834acb6e4439ba9a.webp?ts=1792037195",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/21/c1/b0/1789464638/e18bfe2ac4ef4ffb834acb6e4439ba9a.webp?ts=1794377464"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1093",
+          "name": "Ferrari SF-26 No.16 Italian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-italian-gp-2026-charles-leclerc/lsf1093-de",
+          "product_number": "LSF1093",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8a/3f/76/1789464630/225e8fb20cef41ba86fd8da20a5c8305.webp?ts=1792037194",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/8a/3f/76/1789464630/225e8fb20cef41ba86fd8da20a5c8305.webp?ts=1794377465"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LSF1094",
+          "name": "Ferrari SF-26 No.16 2nd Singapore GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-2nd-singapore-gp-2026-charles-leclerc/lsf1094-de",
+          "product_number": "LSF1094",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp?ts=1792206854",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c0/c4/12/1792206854/634bcbd89b9049f09abfb06edaf06aba.webp?ts=1794377466"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S080",
+          "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner British GP 2025 \nLando Norris",
+          "url": "https://www.sparkmodel.com/products/d7edb004-d77e-4b4d-8723-89ea6377fdca",
+          "product_number": "64S080",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/51777707-ed71-465e-970d-2e52327c1e45.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6da52d49-ce46-484a-82e4-5093015f8a5d.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S080-4.webp",
+              "images/spark-64S080-5.webp",
+              "images/spark-64S080-6.webp",
+              "images/spark-64S080-7.webp",
+              "images/spark-64S080-8.webp",
+              "images/spark-64S080-9.webp",
+              "images/spark-64S080-10.webp",
+              "images/spark-64S080-11.webp",
+              "images/spark-64S080-12.webp"
+            ],
+            "changed": [
+              "images/spark-64S080-1.webp",
+              "images/spark-64S080-2.webp",
+              "images/spark-64S080-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S080-4.webp": "02265aab6f1f17ef463870f17fcb3df1e3377cf631476fccc9f7eeb08d27e65c",
+              "images/spark-64S080-5.webp": "344a70531e9ee687dd607e208d8015ed3f39b54cc5366e55dcec5cbd0da408e5",
+              "images/spark-64S080-6.webp": "c0dc10c2c4a7651138c9852973d9299982771a0b4fec868d60906e12e0fcbf7b",
+              "images/spark-64S080-7.webp": "3ae035918e03ffa71b5bddf561837cff3400b63068d9b95a887d05d50f8521c1",
+              "images/spark-64S080-8.webp": "87dc2c3b719a4c1432716d0c9c17ca587bcfe2a90dc84a7eead1ee132a23952b",
+              "images/spark-64S080-9.webp": "5695dd2312dbc55528c9121adcb8e36ad4f7a0c68fe2a277726131c167f19347",
+              "images/spark-64S080-10.webp": "f859f7f8b2c1db9649ac9271f533e4daf44247634ff02e8849ad517d51a12e05",
+              "images/spark-64S080-11.webp": "28e20a74738088ebcd65229b258018c37aa9470202b07e1f6a785f184ca05ab6",
+              "images/spark-64S080-12.webp": "9e0623ccd57bbedf4270eef3bd40a2d6a9c18d73d27384d57f98204eb934dd4b",
+              "images/spark-64S080-1.webp": "70a341d0a52473e02fdad301a894e30e19cbc0be439bb2f859d889e743e62cbd",
+              "images/spark-64S080-2.webp": "1229dc72c670a4c6ee84a7140f5a6e8688a51d64a9909ef42ff8f687337d158c",
+              "images/spark-64S080-3.webp": "6195c81b65ff96a3480516c9fa52367adf066dc0817c8cb4fdf7b7e3121472d3"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S086",
+          "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nLiam Lawson",
+          "url": "https://www.sparkmodel.com/products/96b3b9b5-9138-45f6-90ac-020cf7f6e93c",
+          "product_number": "64S086",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/528ecd13-01eb-4423-8e68-e4fd7e65a5d1.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f39903cd-bdff-45ff-8a6f-6fb87ead174b.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S086-4.webp",
+              "images/spark-64S086-5.webp",
+              "images/spark-64S086-6.webp",
+              "images/spark-64S086-7.webp",
+              "images/spark-64S086-8.webp",
+              "images/spark-64S086-9.webp",
+              "images/spark-64S086-10.webp",
+              "images/spark-64S086-11.webp",
+              "images/spark-64S086-12.webp"
+            ],
+            "changed": [
+              "images/spark-64S086-1.webp",
+              "images/spark-64S086-2.webp",
+              "images/spark-64S086-3.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S086-4.webp": "241bc5ea4320a4606e20a1e3e13a9339948700d8c971fcd54b33468a1eed95a6",
+              "images/spark-64S086-5.webp": "6cc6c1ba9c95a424a3870bffaea2853d59bf092a783b810caae7879a5b81a6ac",
+              "images/spark-64S086-6.webp": "e3043aa335c832d904ba7b36d0829ba06e0064d57c0d5da479cd175e8a5f3213",
+              "images/spark-64S086-7.webp": "6c11786fc3481eef86a32e459e8bebddd2e8d3648d0cf55ee4e55704530033cc",
+              "images/spark-64S086-8.webp": "2697d2ff0264b636ead7b6b5a7ccb7ff151960421a1e8b285906bc3aa655bf24",
+              "images/spark-64S086-9.webp": "341162261cb5ded5202838cceabe8772c295871dda9caf8186a06ffe93b2c9ef",
+              "images/spark-64S086-10.webp": "ca62c0ac57c16ce9a0316b6f4aaaba4ea8345bfca2e242832b124aa5b8873795",
+              "images/spark-64S086-11.webp": "d210620a13ca5d8dded0e604685466e80873f20291280089650e1a12f7d5cb9f",
+              "images/spark-64S086-12.webp": "ccad4749a2a789b07acee092b2e76cfc097bfe89d1e2cceec1ff512ce2d20bdb",
+              "images/spark-64S086-1.webp": "58709da5d8bae7497d2f6f06ec75a29182a8f01cd068c5f0d332b842a93f7f75",
+              "images/spark-64S086-2.webp": "2815115fa1112cc78548ba06c88112afe340f3675ca0580041f9b81c6d59ca8e",
+              "images/spark-64S086-3.webp": "4cea2014087ca638839a9b15ed01f9796fc871b9352ae870bdae1528de5c8a65"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 3
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-10T15:46:38.778454+00:00",
       "entries": [
         {
@@ -18450,19 +19525,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S080-1.webp",
-              "images/spark-64S080-2.webp",
-              "images/spark-64S080-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S080-1.webp": "d548356a02eccf39494f72eb5121c18b4524a07df3061372489ab82532373518",
-              "images/spark-64S080-2.webp": "bcdd52714eb7034f3e643ede5ee978c4f3aa2451850c7f7122784fac02ceeb1a",
-              "images/spark-64S080-3.webp": "2f34d7d866bb976e78e2deb233dbdc1ee6c27f99d0c19332546625460f099ec4"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
@@ -18572,19 +19639,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S086-1.webp",
-              "images/spark-64S086-2.webp",
-              "images/spark-64S086-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S086-1.webp": "f81de1501421950d56082d14557fa83b9c0e586940f3b51a542f480466639ad6",
-              "images/spark-64S086-2.webp": "69711c9e7ac09608e2bb272277d18bea48b91157e6e7de735c82ede154050c1a",
-              "images/spark-64S086-3.webp": "2ae0c9bc12c16cb3b9e13189e1edb97d27db95b77df9d3ed5b69e33105dd0ef1"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,
