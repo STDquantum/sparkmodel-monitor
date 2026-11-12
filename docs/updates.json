@@ -1,6 +1,63 @@
 {
   "updates": [
     {
+      "date": "2026-11-12T03:25:48.911307+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-64S080",
+          "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner British GP 2025 \nLando Norris",
+          "url": "https://www.sparkmodel.com/products/d7edb004-d77e-4b4d-8723-89ea6377fdca",
+          "product_number": "64S080",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6da52d49-ce46-484a-82e4-5093015f8a5d.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c4cf6e60-d57d-4efa-bb3d-8eef405f7375.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [
+              "images/spark-64S080-1.webp",
+              "images/spark-64S080-2.webp",
+              "images/spark-64S080-3.webp",
+              "images/spark-64S080-4.webp",
+              "images/spark-64S080-5.webp",
+              "images/spark-64S080-6.webp",
+              "images/spark-64S080-7.webp",
+              "images/spark-64S080-8.webp",
+              "images/spark-64S080-9.webp",
+              "images/spark-64S080-10.webp",
+              "images/spark-64S080-11.webp",
+              "images/spark-64S080-12.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S080-1.webp": "ce1be15e8a91c593fcb367d38696d0850c01eec557e4d44db9719bebb0f933a3",
+              "images/spark-64S080-2.webp": "701a98dd3bd6739539954141a1b7b19d880019523791e8b7d1b93b043a00fe82",
+              "images/spark-64S080-3.webp": "4afcf7ff05f79ed04b548526dc24f394a1236d336cd069708d6822d389a37ea5",
+              "images/spark-64S080-4.webp": "972488572d564c94c20c790018ac1f552dd422cd5164689648bc45f3319e7933",
+              "images/spark-64S080-5.webp": "ee5b06d31abcbee51842de0bf97d74dc0639ca71dc45415f3bccdf2f436cf43c",
+              "images/spark-64S080-6.webp": "068859335f2c6b1510a2d26144cc7b9b83ce5db7e045801aef4aa7a88bc968e7",
+              "images/spark-64S080-7.webp": "7ace130e052c3752303ad172c3c2e4aa9faf79f9c727a9f207a9bb141e21b68d",
+              "images/spark-64S080-8.webp": "7553d7681df884f65102e6876a461559dd71fce1c570f246951817d1dd64c2aa",
+              "images/spark-64S080-9.webp": "77be86e4d1f4d30213b9b189fa38725685e5510f43876d6dfb30b700edc0b9f3",
+              "images/spark-64S080-10.webp": "28f5330cfa94f2fd820a49ba5e1642434f4bbf6f7e3124f0d4dde5a4b9454d64",
+              "images/spark-64S080-11.webp": "ab3d23bf016471f33fe23c3e4a99f28c1e1edbc526d0a417e194663604e3db4f",
+              "images/spark-64S080-12.webp": "fdd652c2de9486e3cba81199ad1403dff9d87fcdb153e5668cd2b63f72edcaea"
+            }
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 12
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-11T16:08:04.418524+00:00",
       "entries": [
         {
@@ -1146,38 +1203,11 @@
             }
           ],
           "images": {
-            "added": [
-              "images/spark-64S080-4.webp",
-              "images/spark-64S080-5.webp",
-              "images/spark-64S080-6.webp",
-              "images/spark-64S080-7.webp",
-              "images/spark-64S080-8.webp",
-              "images/spark-64S080-9.webp",
-              "images/spark-64S080-10.webp",
-              "images/spark-64S080-11.webp",
-              "images/spark-64S080-12.webp"
-            ],
-            "changed": [
-              "images/spark-64S080-1.webp",
-              "images/spark-64S080-2.webp",
-              "images/spark-64S080-3.webp"
-            ],
+            "added": [],
+            "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S080-4.webp": "02265aab6f1f17ef463870f17fcb3df1e3377cf631476fccc9f7eeb08d27e65c",
-              "images/spark-64S080-5.webp": "344a70531e9ee687dd607e208d8015ed3f39b54cc5366e55dcec5cbd0da408e5",
-              "images/spark-64S080-6.webp": "c0dc10c2c4a7651138c9852973d9299982771a0b4fec868d60906e12e0fcbf7b",
-              "images/spark-64S080-7.webp": "3ae035918e03ffa71b5bddf561837cff3400b63068d9b95a887d05d50f8521c1",
-              "images/spark-64S080-8.webp": "87dc2c3b719a4c1432716d0c9c17ca587bcfe2a90dc84a7eead1ee132a23952b",
-              "images/spark-64S080-9.webp": "5695dd2312dbc55528c9121adcb8e36ad4f7a0c68fe2a277726131c167f19347",
-              "images/spark-64S080-10.webp": "f859f7f8b2c1db9649ac9271f533e4daf44247634ff02e8849ad517d51a12e05",
-              "images/spark-64S080-11.webp": "28e20a74738088ebcd65229b258018c37aa9470202b07e1f6a785f184ca05ab6",
-              "images/spark-64S080-12.webp": "9e0623ccd57bbedf4270eef3bd40a2d6a9c18d73d27384d57f98204eb934dd4b",
-              "images/spark-64S080-1.webp": "70a341d0a52473e02fdad301a894e30e19cbc0be439bb2f859d889e743e62cbd",
-              "images/spark-64S080-2.webp": "1229dc72c670a4c6ee84a7140f5a6e8688a51d64a9909ef42ff8f687337d158c",
-              "images/spark-64S080-3.webp": "6195c81b65ff96a3480516c9fa52367adf066dc0817c8cb4fdf7b7e3121472d3"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 9,

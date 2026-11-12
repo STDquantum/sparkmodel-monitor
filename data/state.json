@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-11T16:07:55.615828+00:00",
+  "updated_at": "2026-11-12T03:25:44.710910+00:00",
   "total": 1041,
   "items": {
     "bbr-bbr1229c16": {
@@ -9112,7 +9112,7 @@
       "source_id": "d7edb004-d77e-4b4d-8723-89ea6377fdca",
       "name": "McLaren MCL39 No.4 McLaren Formula 1 Team\nWinner British GP 2025 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/d7edb004-d77e-4b4d-8723-89ea6377fdca",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6da52d49-ce46-484a-82e4-5093015f8a5d.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/c4cf6e60-d57d-4efa-bb3d-8eef405f7375.webp",
       "availability": "In development",
       "product_number": "64S080",
       "scale": "1/64",
@@ -12137,14 +12137,9 @@
     }
   },
   "changes": {
-    "added": [
-      "bbr-bbrc332a16pre",
-      "minichamps-537268104"
-    ],
+    "added": [],
     "changed": [
-      "minichamps-minichamps-1660040",
-      "minichamps-minichamps-1666146",
-      "spark-S9399"
+      "spark-64S080"
     ],
     "removed": []
   }
