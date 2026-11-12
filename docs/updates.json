@@ -1,6 +1,61 @@
 {
   "updates": [
     {
+      "date": "2026-11-12T16:32:21.081825+00:00",
+      "entries": [
+        {
+          "type": "removed",
+          "id": "bbr-bbrc332a16pre",
+          "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Leclerc - fourth position",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a16pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-leclerc---fourth-position.aspx",
+          "product_number": "BBRC332A16PRE",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019ef971d1bf72b09440f671ea41ba2f",
+          "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AZERBAIJAN GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019ef971d1bf72b09440f671ea41ba2f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417251701",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/cf/4c/fd/1794490948/00_417251701.jpg?ts=1794490948"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-1.jpg",
+              "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-2.jpg",
+              "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-1.jpg": "d8f80761b547f89c950436b17cbcce3a680e242805f10243801e1ee2728c6be3",
+              "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-2.jpg": "a4f75acac702a66602f8b6f78aeea23e71519508de2b22d4ab1f60ef4da741ef",
+              "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-3.jpg": "ce0302e99312baf76b9b3df506b63bf1d33410f29096f3958060327afda09d8b"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-12T03:25:48.911307+00:00",
       "entries": [
         {
@@ -69,21 +124,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/bbr-bbrc332a16pre-1.jpg",
-              "images/bbr-bbrc332a16pre-2.jpg",
-              "images/bbr-bbrc332a16pre-3.jpg",
-              "images/bbr-bbrc332a16pre-4.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/bbr-bbrc332a16pre-1.jpg": "5fef3b447832af31a34a18d0bd87dde7204af1cf2dd524cdf298766b45807ea0",
-              "images/bbr-bbrc332a16pre-2.jpg": "576f1fa28318fe96dbc7d3d33f7f6170976a03a090d98c6cf3555033ae6763dd",
-              "images/bbr-bbrc332a16pre-3.jpg": "0ddb9518863d49443ada3f214e98bf03841575d3c6c1666768cf2ef10752fe18",
-              "images/bbr-bbrc332a16pre-4.jpg": "f31250f70c4084e8be65eb6c9080cdbddf4ea57cacbe3e2d01cd5f05b99e7d7a"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,

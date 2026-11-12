@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T03:25:48.911307+00:00",
+  "generated_at": "2026-11-12T16:32:21.081825+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1026,31 +1026,6 @@
       "properties": {
         "Year": "2026",
         "Product number": "BBRC332A16",
-        "Scale": "1/43",
-        "Model": "SF-26"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
-      "id": "bbr-bbrc332a16pre",
-      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Leclerc - fourth position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a16pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-leclerc---fourth-position.aspx",
-      "images": [
-        "images/bbr-bbrc332a16pre-1.jpg",
-        "images/bbr-bbrc332a16pre-2.jpg",
-        "images/bbr-bbrc332a16pre-3.jpg",
-        "images/bbr-bbrc332a16pre-4.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRC332A16PRE",
         "Scale": "1/43",
         "Model": "SF-26"
       },
@@ -15533,7 +15508,11 @@
       "id": "minichamps-019ef971d1bf72b09440f671ea41ba2f",
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AZERBAIJAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971d1bf72b09440f671ea41ba2f?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-1.jpg",
+        "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-2.jpg",
+        "images/minichamps-019ef971d1bf72b09440f671ea41ba2f-3.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "417251701",
