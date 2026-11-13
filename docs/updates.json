@@ -1,6 +1,50 @@
 {
   "updates": [
     {
+      "date": "2026-11-13T07:16:47.954862+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "spark-64S083",
+          "name": "BWT Alpine Formula One Team A525 Abu Dhabi GP 2025\nPierre Gasly & Franco Colapinto\nMerci, Viry",
+          "url": "https://www.sparkmodel.com/products/053ffa6d-fe46-47f2-a7ca-e0eb4704a37a",
+          "product_number": "64S083",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e5612231-58af-41d0-bd97-6c9059dc1132.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/43b6b3b3-64f7-451b-aea4-874b9055e08a.webp"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [
+              {
+                "from": 2,
+                "to": 1
+              },
+              {
+                "from": 3,
+                "to": 2
+              },
+              {
+                "from": 1,
+                "to": 3
+              }
+            ],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-12T16:32:21.081825+00:00",
       "entries": [
         {
@@ -12,7 +56,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -19804,19 +19850,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S083-1.webp",
-              "images/spark-64S083-2.webp",
-              "images/spark-64S083-3.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S083-1.webp": "b79b8798774d95c0ba1491264e3b99d077f60bed166edb8e34ade3073438e7db",
-              "images/spark-64S083-2.webp": "683200ea8ef57e212db742f87532fa2e3b0a264b75bcd2de66a281fa9a666f9e",
-              "images/spark-64S083-3.webp": "b36f7ce6e36b4ff5637b129a62f8e9842d35942b9ebb2fa42cb6c0142e736830"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 3,

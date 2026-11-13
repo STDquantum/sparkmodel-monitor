@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-12T16:32:11.818477+00:00",
+  "updated_at": "2026-11-13T07:16:46.462748+00:00",
   "total": 1040,
   "items": {
     "bbr-bbr1229c16": {
@@ -9124,7 +9124,7 @@
       "source_id": "053ffa6d-fe46-47f2-a7ca-e0eb4704a37a",
       "name": "BWT Alpine Formula One Team A525 Abu Dhabi GP 2025\nPierre Gasly & Franco Colapinto\nMerci, Viry",
       "url": "https://www.sparkmodel.com/products/053ffa6d-fe46-47f2-a7ca-e0eb4704a37a",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/e5612231-58af-41d0-bd97-6c9059dc1132.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/43b6b3b3-64f7-451b-aea4-874b9055e08a.webp",
       "availability": "In development",
       "product_number": "64S083",
       "scale": "1/64",
@@ -12127,10 +12127,8 @@
   "changes": {
     "added": [],
     "changed": [
-      "minichamps-019ef971d1bf72b09440f671ea41ba2f"
+      "spark-64S083"
     ],
-    "removed": [
-      "bbr-bbrc332a16pre"
-    ]
+    "removed": []
   }
 }
