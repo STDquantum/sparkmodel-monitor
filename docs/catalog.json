@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:16:47.954862+00:00",
+  "generated_at": "2026-11-13T15:32:51.341787+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1095,6 +1095,31 @@
       "availability": ""
     },
     {
+      "id": "bbr-bbrc332b44pre",
+      "name": "Ferrari SF26 F1 Japanese Grand Prix - REMIUM EDITION Hamilton - 6th position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b44pre_ferrari-sf26-f1-japanese-grand-prix---remium-edition-hamilton---6th-position.aspx",
+      "images": [
+        "images/bbr-bbrc332b44pre-1.jpg",
+        "images/bbr-bbrc332b44pre-2.jpg",
+        "images/bbr-bbrc332b44pre-3.jpg",
+        "images/bbr-bbrc332b44pre-4.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRC332B44PRE",
+        "Scale": "1/43",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
+    },
+    {
       "id": "bbr-bbrc332c16",
       "name": "Ferrari SF26 F1 Barcelona-Catalunya Grand Prix - metal diecast Leclerc",
       "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrc332c16_ferrari-sf26-f1-barcelona-catalunya-grand-prix----metal-diecast-leclerc.aspx",
@@ -1491,15 +1516,23 @@
       "availability": "Pre-order"
     },
     {
-      "id": "bbr-bbrmin312wdc",
-      "name": "Mercedes-AMG Kimi Antonelli F1 World Champion 2026 GP Mexico 2026 - COFFRET",
-      "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrmin312wdc_mercedes-amg-kimi-antonelli-f1-world-champion-2026---gp-mexico-2026-----coffret.aspx",
+      "id": "bbr-bbrmin022",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
       "images": [
-        "images/bbr-bbrmin312wdc-1.jpg"
+        "images/bbr-bbrmin022-1.jpg",
+        "images/bbr-bbrmin022-2.jpg",
+        "images/bbr-bbrmin022-3.jpg",
+        "images/bbr-bbrmin022-4.jpg",
+        "images/bbr-bbrmin022-5.jpg",
+        "images/bbr-bbrmin022-6.jpg",
+        "images/bbr-bbrmin022-7.jpg",
+        "images/bbr-bbrmin022-8.jpg",
+        "images/bbr-bbrmin022-9.jpg"
       ],
       "properties": {
         "Year": "2026",
-        "Product number": "BBRMIN312WDC",
+        "Product number": "BBRMIN022",
         "Scale": "1/18",
         "Model": "Mercedes"
       },
@@ -1510,18 +1543,54 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": ""
     },
     {
-      "id": "bbr-bbrmin43wdc",
-      "name": "Mercedes-AMG Kimi Antonelli F1 World Champion 2026 GP Mexico 2026- COFFRET",
-      "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrmin43wdc_mercedes-amg-kimi-antonelli-f1-world-champion-2026-gp-mexico-2026---coffret.aspx",
+      "id": "bbr-bbrmin312",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
       "images": [
-        "images/bbr-bbrmin43wdc-1.jpg"
+        "images/bbr-bbrmin312-1.jpg",
+        "images/bbr-bbrmin312-2.jpg",
+        "images/bbr-bbrmin312-3.jpg",
+        "images/bbr-bbrmin312-4.jpg",
+        "images/bbr-bbrmin312-5.jpg",
+        "images/bbr-bbrmin312-6.jpg",
+        "images/bbr-bbrmin312-7.jpg",
+        "images/bbr-bbrmin312-8.jpg",
+        "images/bbr-bbrmin312-9.jpg"
       ],
       "properties": {
         "Year": "2026",
-        "Product number": "BBRMIN43WDC",
+        "Product number": "BBRMIN312",
+        "Scale": "1/18",
+        "Model": "Mercedes"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
+    },
+    {
+      "id": "bbr-bbrmin43212",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli - COFFRET Winner Chinese GP 2026",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin43212_mercedes-amg-f1-e-performance-kimi-antonelli---coffret-winner-chinese-gp-2026.aspx",
+      "images": [
+        "images/bbr-bbrmin43212-1.jpg",
+        "images/bbr-bbrmin43212-2.jpg",
+        "images/bbr-bbrmin43212-3.jpg",
+        "images/bbr-bbrmin43212-4.jpg",
+        "images/bbr-bbrmin43212-5.jpg",
+        "images/bbr-bbrmin43212-6.jpg",
+        "images/bbr-bbrmin43212-7.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRMIN43212",
         "Scale": "1/43",
         "Model": "Mercedes"
       },
@@ -1532,7 +1601,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Pre-order"
+      "availability": ""
     },
     {
       "id": "burago-183284",
@@ -16786,6 +16855,102 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-01a1d075527272b1947db1c83e56cc02",
+      "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - BRAZIL GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d075527272b1947db1c83e56cc02?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "images": [],
+      "properties": {
+        "Year": "2025",
+        "Product number": "417252155",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "RESIN"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a1d07556397154845b25ea6bd6bb8b",
+      "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - LAS VEGAS GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d07556397154845b25ea6bd6bb8b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "images": [],
+      "properties": {
+        "Year": "2025",
+        "Product number": "417252255",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "SAINZ, CARLOS",
+        "Material": "RESIN"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a1d0755a2e70298c4950c19f76405b",
+      "name": "WILLIAMS RACING FW47 - ALEX ALBON - BRAZIL GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d0755a2e70298c4950c19f76405b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "images": [],
+      "properties": {
+        "Year": "2025",
+        "Product number": "417252123",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "RESIN"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-01a1d0755de470b985370be49f1f2d73",
+      "name": "WILLIAMS RACING FW47 - ALEX ALBON - LAS VEGAS GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d0755de470b985370be49f1f2d73?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "images": [],
+      "properties": {
+        "Year": "2025",
+        "Product number": "417252223",
+        "Scale": "1/43",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "WILLIAMS",
+        "Driver": "ALBON, ALEX",
+        "Material": "RESIN"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "79.94",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-117261012",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/117261012",
@@ -17004,56 +17169,6 @@
       "description": "",
       "brand": "Minichamps",
       "price": "219.95",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-117262005",
-      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/117262005",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "117262005",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "AUDI",
-        "Driver": "BORTOLETO, GABRIEL",
-        "Material": "RESIN",
-        "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "199.96",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-117262027",
-      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/117262027",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "117262027",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "AUDI",
-        "Driver": "HULKENBERG, NICO",
-        "Material": "RESIN",
-        "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "199.96",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -17386,56 +17501,6 @@
       "availability": "available for preorder"
     },
     {
-      "id": "minichamps-417262005",
-      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/417262005",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "417262005",
-        "Scale": "1/43",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "AUDI",
-        "Driver": "BORTOLETO, GABRIEL",
-        "Material": "RESIN",
-        "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-417262027",
-      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/417262027",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "417262027",
-        "Scale": "1/43",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "AUDI",
-        "Driver": "HULKENBERG, NICO",
-        "Material": "RESIN",
-        "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
       "id": "minichamps-530267404",
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267404",
@@ -17611,24 +17676,49 @@
       "availability": "available for preorder"
     },
     {
-      "id": "minichamps-537268104",
-      "name": "2-CAR SET - MCLAREN MASTERCARD F1 TEAM MCL40 - NORRIS/ PIASTRI - MONACO GP 2026 - 1000TH GP OF MCLAREN",
-      "url": "https://www.minichamps.de/en/2-CAR-SET-MCLAREN-MASTERCARD-F1-TEAM-MCL40-NORRIS-PIASTRI-MONACO-GP-2026-1000TH-GP-OF-MCLAREN/537268104",
+      "id": "minichamps-640260614",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - SPECIAL MAADEN DESIGN MONACO GP 2026",
+      "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-FERNANDO-ALONSO-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260614",
       "images": [],
       "properties": {
         "Year": "2026",
-        "Product number": "537268104",
-        "Scale": "1/43",
+        "Product number": "640260614",
+        "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
         "Availability": "available for preorder",
-        "Brand": "MCLAREN",
-        "Driver": "NORRIS, LANDO",
-        "Material": "RESIN",
-        "Model": "MCL40"
+        "Brand": "ASTON MARTIN",
+        "Driver": "ALONSO, FERNANDO",
+        "Material": "DIECAST",
+        "Model": "AMR26"
       },
       "description": "",
       "brand": "Minichamps",
-      "price": "79.94",
+      "price": "26.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-640260618",
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
+      "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260618",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "640260618",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "ASTON MARTIN",
+        "Driver": "STROLL, LANCE",
+        "Material": "DIECAST",
+        "Model": "AMR26"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -17904,56 +17994,6 @@
       "description": "",
       "brand": "Minichamps",
       "price": "32.95",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-640262005",
-      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/640262005",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "640262005",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "AUDI",
-        "Driver": "BORTOLETO, GABRIEL",
-        "Material": "DIECAST",
-        "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "26.95",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-640262027",
-      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/640262027",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "640262027",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "AUDI",
-        "Driver": "HULKENBERG, NICO",
-        "Material": "DIECAST",
-        "Model": "R26"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "26.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -22260,7 +22300,9 @@
       "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls64035-de",
       "images": [
-        "images/shop-ferrari-LS64035-1.webp"
+        "images/shop-ferrari-LS64035-1.webp",
+        "images/shop-ferrari-LS64035-2.webp",
+        "images/shop-ferrari-LS64035-3.webp"
       ],
       "properties": {
         "Year": "2026",
@@ -22310,7 +22352,9 @@
       "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls64037-de",
       "images": [
-        "images/shop-ferrari-LS64037-1.webp"
+        "images/shop-ferrari-LS64037-1.webp",
+        "images/shop-ferrari-LS64037-2.webp",
+        "images/shop-ferrari-LS64037-3.webp"
       ],
       "properties": {
         "Year": "2026",

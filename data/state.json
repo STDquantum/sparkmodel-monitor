@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-13T07:16:46.462748+00:00",
-  "total": 1040,
+  "updated_at": "2026-11-13T15:32:40.226175+00:00",
+  "total": 1041,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -631,6 +631,19 @@
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/XXRPVFjy/[Miniatura]BBR332B16DR_1.jpg.aspx",
       "availability": ""
     },
+    "bbr-bbrc332b44pre": {
+      "product_id": "bbr-bbrc332b44pre",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Ferrari SF26 F1 Japanese Grand Prix - REMIUM EDITION Hamilton - 6th position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b44pre_ferrari-sf26-f1-japanese-grand-prix---remium-edition-hamilton---6th-position.aspx",
+      "product_number": "BBRC332B44PRE",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "SF-26",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/DW0J2vUA/[Miniatura]BBRC332B44PRE_1.jpg.aspx",
+      "availability": ""
+    },
     "bbr-bbrc332c16": {
       "product_id": "bbr-bbrc332c16",
       "source": "bbr",
@@ -865,31 +878,44 @@
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Dtj9wPp5/[Miniatura]7.jpg.aspx",
       "availability": "Pre-order"
     },
-    "bbr-bbrmin312wdc": {
-      "product_id": "bbr-bbrmin312wdc",
+    "bbr-bbrmin022": {
+      "product_id": "bbr-bbrmin022",
       "source": "bbr",
       "manufacturer": "BBR",
-      "name": "Mercedes-AMG Kimi Antonelli F1 World Champion 2026 GP Mexico 2026 - COFFRET",
-      "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrmin312wdc_mercedes-amg-kimi-antonelli-f1-world-champion-2026---gp-mexico-2026-----coffret.aspx",
-      "product_number": "BBRMIN312WDC",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
+      "product_number": "BBRMIN022",
       "scale": "1/18",
       "year": "2026",
       "model": "Mercedes",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/ZdHYUrxd/[Miniatura]1.jpg.aspx",
-      "availability": "Pre-order"
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/0SCznVVC/[Miniatura]BBRMIN022_11.jpg.aspx",
+      "availability": ""
     },
-    "bbr-bbrmin43wdc": {
-      "product_id": "bbr-bbrmin43wdc",
+    "bbr-bbrmin312": {
+      "product_id": "bbr-bbrmin312",
       "source": "bbr",
       "manufacturer": "BBR",
-      "name": "Mercedes-AMG Kimi Antonelli F1 World Champion 2026 GP Mexico 2026- COFFRET",
-      "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrmin43wdc_mercedes-amg-kimi-antonelli-f1-world-champion-2026-gp-mexico-2026---coffret.aspx",
-      "product_number": "BBRMIN43WDC",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
+      "product_number": "BBRMIN312",
+      "scale": "1/18",
+      "year": "2026",
+      "model": "Mercedes",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Zb87XxIZ/[Miniatura]BBRMIN312_4.jpg.aspx",
+      "availability": ""
+    },
+    "bbr-bbrmin43212": {
+      "product_id": "bbr-bbrmin43212",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli - COFFRET Winner Chinese GP 2026",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin43212_mercedes-amg-f1-e-performance-kimi-antonelli---coffret-winner-chinese-gp-2026.aspx",
+      "product_number": "BBRMIN43212",
       "scale": "1/43",
       "year": "2026",
       "model": "Mercedes",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/9CBjh2NU/[Miniatura]2.jpg.aspx",
-      "availability": "Pre-order"
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/KjlDa19v/[Miniatura]BBRMIN43212_3.jpg.aspx",
+      "availability": ""
     },
     "burago-183284": {
       "product_id": "burago-183284",
@@ -6275,6 +6301,38 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-01a1d075527272b1947db1c83e56cc02": {
+      "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - BRAZIL GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d075527272b1947db1c83e56cc02?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Pre-order"
+    },
+    "minichamps-01a1d07556397154845b25ea6bd6bb8b": {
+      "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - LAS VEGAS GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d07556397154845b25ea6bd6bb8b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Pre-order"
+    },
+    "minichamps-01a1d0755a2e70298c4950c19f76405b": {
+      "name": "WILLIAMS RACING FW47 - ALEX ALBON - BRAZIL GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d0755a2e70298c4950c19f76405b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Pre-order"
+    },
+    "minichamps-01a1d0755de470b985370be49f1f2d73": {
+      "name": "WILLIAMS RACING FW47 - ALEX ALBON - LAS VEGAS GP 2025",
+      "url": "https://www.minichamps.de/en/detail/01a1d0755de470b985370be49f1f2d73?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2025",
+      "availability": "Pre-order"
+    },
     "minichamps-117261012": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WINNER SPA GP 2026 W FIGURINE, POSITION AND PITBOARD",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WINNER-SPA-GP-2026-W-FIGURINE-POSITION-AND-PITBOARD/117261012",
@@ -6351,24 +6409,6 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/117261912",
       "product_number": "117261912",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-117262005": {
-      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/117262005",
-      "product_number": "117262005",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-117262027": {
-      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/117262027",
-      "product_number": "117262027",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6491,24 +6531,6 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-417262005": {
-      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/417262005",
-      "product_number": "417262005",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-417262027": {
-      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/417262027",
-      "product_number": "417262027",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
     "minichamps-530267404": {
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER HUNGARY GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-HUNGARY-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/530267404",
@@ -6572,10 +6594,19 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-537268104": {
-      "name": "2-CAR SET - MCLAREN MASTERCARD F1 TEAM MCL40 - NORRIS/ PIASTRI - MONACO GP 2026 - 1000TH GP OF MCLAREN",
-      "url": "https://www.minichamps.de/en/2-CAR-SET-MCLAREN-MASTERCARD-F1-TEAM-MCL40-NORRIS-PIASTRI-MONACO-GP-2026-1000TH-GP-OF-MCLAREN/537268104",
-      "product_number": "537268104",
+    "minichamps-640260614": {
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - SPECIAL MAADEN DESIGN MONACO GP 2026",
+      "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-FERNANDO-ALONSO-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260614",
+      "product_number": "640260614",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-640260618": {
+      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
+      "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260618",
+      "product_number": "640260618",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6675,24 +6706,6 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/640261912",
       "product_number": "640261912",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-640262005": {
-      "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/640262005",
-      "product_number": "640262005",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-640262027": {
-      "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
-      "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/640262027",
-      "product_number": "640262027",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -8256,7 +8269,7 @@
     "shop-ferrari-LS64035": {
       "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls64035-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/14/37/1784563323/7ec1e6e381944c8e8aaef8f96b135c91.webp?ts=1794377438",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/71/3e/47/1794559073/e224b55e801442d4ab0ded30434675d6.webp?ts=1794559183",
       "source": "sparkmodelshop",
       "manufacturer": "Looksmart",
       "year": "2026",
@@ -8278,7 +8291,7 @@
     "shop-ferrari-LS64037": {
       "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls64037-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp?ts=1794377440",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/96/34/e5/1794559114/94fba88e583342019ef733a479dc5cc2.webp?ts=1794559228",
       "source": "sparkmodelshop",
       "manufacturer": "Looksmart",
       "year": "2026",
@@ -12125,10 +12138,32 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "spark-64S083"
+    "added": [
+      "bbr-bbrc332b44pre",
+      "bbr-bbrmin022",
+      "bbr-bbrmin312",
+      "bbr-bbrmin43212",
+      "minichamps-01a1d075527272b1947db1c83e56cc02",
+      "minichamps-01a1d07556397154845b25ea6bd6bb8b",
+      "minichamps-01a1d0755a2e70298c4950c19f76405b",
+      "minichamps-01a1d0755de470b985370be49f1f2d73",
+      "minichamps-640260614",
+      "minichamps-640260618"
     ],
-    "removed": []
+    "changed": [
+      "shop-ferrari-LS64035",
+      "shop-ferrari-LS64037"
+    ],
+    "removed": [
+      "bbr-bbrmin312wdc",
+      "bbr-bbrmin43wdc",
+      "minichamps-117262005",
+      "minichamps-117262027",
+      "minichamps-417262005",
+      "minichamps-417262027",
+      "minichamps-537268104",
+      "minichamps-640262005",
+      "minichamps-640262027"
+    ]
   }
 }

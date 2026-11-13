@@ -1,6 +1,491 @@
 {
   "updates": [
     {
+      "date": "2026-11-13T15:32:51.341787+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "bbr-bbrc332b44pre",
+          "name": "Ferrari SF26 F1 Japanese Grand Prix - REMIUM EDITION Hamilton - 6th position",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b44pre_ferrari-sf26-f1-japanese-grand-prix---remium-edition-hamilton---6th-position.aspx",
+          "product_number": "BBRC332B44PRE",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/bbr-bbrc332b44pre-1.jpg",
+              "images/bbr-bbrc332b44pre-2.jpg",
+              "images/bbr-bbrc332b44pre-3.jpg",
+              "images/bbr-bbrc332b44pre-4.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/bbr-bbrc332b44pre-1.jpg": "484cd575976fa5c0607ae67a705262a49b4e4571a6fb4aa4c37856e371597862",
+              "images/bbr-bbrc332b44pre-2.jpg": "c278ae4001180dc0a999fb5fa436f76df6e34bfd3f286a3746c36490ee91f195",
+              "images/bbr-bbrc332b44pre-3.jpg": "06998eb9479ec93708343d89e7259058037501ed313497dc12f8ec17a74b79dc",
+              "images/bbr-bbrc332b44pre-4.jpg": "0eaad35a3f6db5aafcf6962d29f573dc7b446a9507816069ee93ab82743d9fa7"
+            }
+          },
+          "image_counts": {
+            "added": 4,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "bbr-bbrmin022",
+          "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
+          "product_number": "BBRMIN022",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/bbr-bbrmin022-1.jpg",
+              "images/bbr-bbrmin022-2.jpg",
+              "images/bbr-bbrmin022-3.jpg",
+              "images/bbr-bbrmin022-4.jpg",
+              "images/bbr-bbrmin022-5.jpg",
+              "images/bbr-bbrmin022-6.jpg",
+              "images/bbr-bbrmin022-7.jpg",
+              "images/bbr-bbrmin022-8.jpg",
+              "images/bbr-bbrmin022-9.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/bbr-bbrmin022-1.jpg": "80767313da5f4613a31541bdc9b8541b636cf4e5376efa346eb303c824ec1d4d",
+              "images/bbr-bbrmin022-2.jpg": "b23644a7679b603601def0330e7d1810578a9e04c9f6cf566c5f67b10972325c",
+              "images/bbr-bbrmin022-3.jpg": "6023d05ec5a71c10e95d66aaf189d533d829c02a4f19dfec8b695d7f71033421",
+              "images/bbr-bbrmin022-4.jpg": "ca82d00444a17492188c01e1e2ad953c0c0b502e117e45697f09360a42bf4131",
+              "images/bbr-bbrmin022-5.jpg": "925bb90026b13558ff7ea617e49dce58a2399bee0ab300101ea4df16c680c3ae",
+              "images/bbr-bbrmin022-6.jpg": "ffe88712c5da946b7bf52f5b479cd6c842c5fd57186259048fab1e484f62ce6f",
+              "images/bbr-bbrmin022-7.jpg": "e087fedee4da256515271dab5524ff72185bd798b5e335dcb684716080f76976",
+              "images/bbr-bbrmin022-8.jpg": "145949ebd2386b8fd47b54fd01672dde210c69bfc6d7c6757f059d0706690a7c",
+              "images/bbr-bbrmin022-9.jpg": "c9eaa0e3c41b26a7137aef9fb4e7a58b69dedfd2bcf285c6cb8eb75683e9e1b3"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "bbr-bbrmin312",
+          "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
+          "product_number": "BBRMIN312",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/bbr-bbrmin312-1.jpg",
+              "images/bbr-bbrmin312-2.jpg",
+              "images/bbr-bbrmin312-3.jpg",
+              "images/bbr-bbrmin312-4.jpg",
+              "images/bbr-bbrmin312-5.jpg",
+              "images/bbr-bbrmin312-6.jpg",
+              "images/bbr-bbrmin312-7.jpg",
+              "images/bbr-bbrmin312-8.jpg",
+              "images/bbr-bbrmin312-9.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/bbr-bbrmin312-1.jpg": "8b6376ab3a5710f9f946f3239b4a157a0ddc700407c045753b73b481a575b82e",
+              "images/bbr-bbrmin312-2.jpg": "96459057ba0c28643eab4c96feda78ef20136b700e9fbabf7336fffb3f6ee43e",
+              "images/bbr-bbrmin312-3.jpg": "8cb7c9ed7301ce118bb5920d7e914d5ee7e173a6a170bc37a9b8b16b1d7be67a",
+              "images/bbr-bbrmin312-4.jpg": "c3532d60f2bb9f3cdec06dd4ee9923a7b581744673ac6451cbd8f51398bf859e",
+              "images/bbr-bbrmin312-5.jpg": "90a54001fe85969fd21d65f7e0fa66d0f32cad65371587a2a4b0cbc55d02d05d",
+              "images/bbr-bbrmin312-6.jpg": "f2a4a26825b2483f20dfcf5be8935c0359ec43288c59c5f35321af1c327d4090",
+              "images/bbr-bbrmin312-7.jpg": "153abb16c8862ec95a69a2632270428e755c64ef80b78f25120269736572ae74",
+              "images/bbr-bbrmin312-8.jpg": "b65bffd0693f3ccf0916089643c8dbbb8412d8faa8249a1f85760d2141ad5ec1",
+              "images/bbr-bbrmin312-9.jpg": "3780eed517dab947cad3b90aa058dfc3b02c43cf75775cb2087c1d329ebbe930"
+            }
+          },
+          "image_counts": {
+            "added": 9,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "bbr-bbrmin312wdc",
+          "name": "Mercedes-AMG Kimi Antonelli F1 World Champion 2026 GP Mexico 2026 - COFFRET",
+          "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrmin312wdc_mercedes-amg-kimi-antonelli-f1-world-champion-2026---gp-mexico-2026-----coffret.aspx",
+          "product_number": "BBRMIN312WDC",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "bbr-bbrmin43212",
+          "name": "Mercedes-AMG F1 E Performance Kimi Antonelli - COFFRET Winner Chinese GP 2026",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin43212_mercedes-amg-f1-e-performance-kimi-antonelli---coffret-winner-chinese-gp-2026.aspx",
+          "product_number": "BBRMIN43212",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/bbr-bbrmin43212-1.jpg",
+              "images/bbr-bbrmin43212-2.jpg",
+              "images/bbr-bbrmin43212-3.jpg",
+              "images/bbr-bbrmin43212-4.jpg",
+              "images/bbr-bbrmin43212-5.jpg",
+              "images/bbr-bbrmin43212-6.jpg",
+              "images/bbr-bbrmin43212-7.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/bbr-bbrmin43212-1.jpg": "a84a53b516350eec8e621c03eca901590837ba8593e1582328f46b9b2784b6fe",
+              "images/bbr-bbrmin43212-2.jpg": "fca54dc58c77a33f209e333a7495b75b9e4a49ef819d2ff9ec0fd1e7fa618205",
+              "images/bbr-bbrmin43212-3.jpg": "4e0382aab02e1e32637710272136f052b3960322fd3552937cfeaf20a576d944",
+              "images/bbr-bbrmin43212-4.jpg": "b5c266239b7668d53f87f1014198cf73666d85e20fbada4fc732150896379b8a",
+              "images/bbr-bbrmin43212-5.jpg": "d103948c792afb06b7eb0fd800145031f48e42c20e39824c8e7c14b916f30b45",
+              "images/bbr-bbrmin43212-6.jpg": "40b1b06e7de40677b06219a7974018d6231fe4673abbe93e3261a6946463ca1e",
+              "images/bbr-bbrmin43212-7.jpg": "d58f5e027b88914047a16eba892d2041b36a3dde5a51613a841510dbb0400ede"
+            }
+          },
+          "image_counts": {
+            "added": 7,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "bbr-bbrmin43wdc",
+          "name": "Mercedes-AMG Kimi Antonelli F1 World Champion 2026 GP Mexico 2026- COFFRET",
+          "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrmin43wdc_mercedes-amg-kimi-antonelli-f1-world-champion-2026-gp-mexico-2026---coffret.aspx",
+          "product_number": "BBRMIN43WDC",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-01a1d075527272b1947db1c83e56cc02",
+          "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - BRAZIL GP 2025",
+          "url": "https://www.minichamps.de/en/detail/01a1d075527272b1947db1c83e56cc02?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417252155",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-01a1d07556397154845b25ea6bd6bb8b",
+          "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - LAS VEGAS GP 2025",
+          "url": "https://www.minichamps.de/en/detail/01a1d07556397154845b25ea6bd6bb8b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417252255",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-01a1d0755a2e70298c4950c19f76405b",
+          "name": "WILLIAMS RACING FW47 - ALEX ALBON - BRAZIL GP 2025",
+          "url": "https://www.minichamps.de/en/detail/01a1d0755a2e70298c4950c19f76405b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417252123",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-01a1d0755de470b985370be49f1f2d73",
+          "name": "WILLIAMS RACING FW47 - ALEX ALBON - LAS VEGAS GP 2025",
+          "url": "https://www.minichamps.de/en/detail/01a1d0755de470b985370be49f1f2d73?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "417252223",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-117262005",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/117262005",
+          "product_number": "117262005",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-117262027",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/117262027",
+          "product_number": "117262027",
+          "scale": "1/18",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-417262005",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/417262005",
+          "product_number": "417262005",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-417262027",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/417262027",
+          "product_number": "417262027",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-537268104",
+          "name": "2-CAR SET - MCLAREN MASTERCARD F1 TEAM MCL40 - NORRIS/ PIASTRI - MONACO GP 2026 - 1000TH GP OF MCLAREN",
+          "url": "https://www.minichamps.de/en/2-CAR-SET-MCLAREN-MASTERCARD-F1-TEAM-MCL40-NORRIS-PIASTRI-MONACO-GP-2026-1000TH-GP-OF-MCLAREN/537268104",
+          "product_number": "537268104",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640260614",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - SPECIAL MAADEN DESIGN MONACO GP 2026",
+          "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-FERNANDO-ALONSO-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260614",
+          "product_number": "640260614",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "added",
+          "id": "minichamps-640260618",
+          "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
+          "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260618",
+          "product_number": "640260618",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-640262005",
+          "name": "AUDI REVOLUT F1 TEAM R26 - GABRIEL BORTOLETO - BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-GABRIEL-BORTOLETO-BRAZIL-GP-2026/640262005",
+          "product_number": "640262005",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "removed",
+          "id": "minichamps-640262027",
+          "name": "AUDI REVOLUT F1 TEAM R26 - NICO HULKENBERG - 10TH PLACE BRAZIL GP 2026",
+          "url": "https://www.minichamps.de/en/AUDI-REVOLUT-F1-TEAM-R26-NICO-HULKENBERG-10TH-PLACE-BRAZIL-GP-2026/640262027",
+          "product_number": "640262027",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64035",
+          "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls64035-de",
+          "product_number": "LS64035",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/45/14/37/1784563323/7ec1e6e381944c8e8aaef8f96b135c91.webp?ts=1794377438",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/71/3e/47/1794559073/e224b55e801442d4ab0ded30434675d6.webp?ts=1794559183"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS64035-2.webp",
+              "images/shop-ferrari-LS64035-3.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS64035-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS64035-2.webp": "4f928ad36600d0fb2f7761120fbc354319e329114eed2d60fa22f557605692e3",
+              "images/shop-ferrari-LS64035-3.webp": "4e2b29d08de55c963978037360cf6cd45caf7e716734afb749f886dd5d15468e",
+              "images/shop-ferrari-LS64035-1.webp": "b8bccf10a1df7c3925d28594b1e02af2ff252e352f5ae39392b919d190f64df9"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS64037",
+          "name": "Ferrari SF-26 Catalunya GP 2026 - Lewis Hamilton Winner",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-catalunya-gp-2026-lewis-hamilton-winner/ls64037-de",
+          "product_number": "LS64037",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/ab/14/4c/1784563334/1c3f8a7914c7442d9265116b4270f61b.webp?ts=1794377440",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/96/34/e5/1794559114/94fba88e583342019ef733a479dc5cc2.webp?ts=1794559228"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS64037-2.webp",
+              "images/shop-ferrari-LS64037-3.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS64037-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS64037-2.webp": "30bb94f6bfc1c3b9566a885005fa6ae89fc349fc3bda6677146a963e4798bfb8",
+              "images/shop-ferrari-LS64037-3.webp": "65fa5e2097a28b9993aff6ecc6fa505bc3851c7003a8ef26cfc0da13accbcb85",
+              "images/shop-ferrari-LS64037-1.webp": "1b1af58a252f4b49d82db79e00195442bc011e5af761054917f87ca580ce8e7b"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-13T07:16:47.954862+00:00",
       "entries": [
         {
@@ -4552,15 +5037,11 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "added": [
-              "images/bbr-bbrmin312wdc-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/bbr-bbrmin312wdc-1.jpg": "034df73e6096940cb79b36e1760ac94f958e9b613ba9038cd35ff20caab95704"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -4576,15 +5057,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/bbr-bbrmin43wdc-1.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/bbr-bbrmin43wdc-1.jpg": "cae564ad76ee955bfee8980aec95839490be198119a812b3c1fd301d06bb3c91"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
