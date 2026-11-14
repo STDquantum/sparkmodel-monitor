@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:32:51.341787+00:00",
+  "generated_at": "2026-11-14T15:03:42.988325+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1095,31 +1095,6 @@
       "availability": ""
     },
     {
-      "id": "bbr-bbrc332b44pre",
-      "name": "Ferrari SF26 F1 Japanese Grand Prix - REMIUM EDITION Hamilton - 6th position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b44pre_ferrari-sf26-f1-japanese-grand-prix---remium-edition-hamilton---6th-position.aspx",
-      "images": [
-        "images/bbr-bbrc332b44pre-1.jpg",
-        "images/bbr-bbrc332b44pre-2.jpg",
-        "images/bbr-bbrc332b44pre-3.jpg",
-        "images/bbr-bbrc332b44pre-4.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRC332B44PRE",
-        "Scale": "1/43",
-        "Model": "SF-26"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
       "id": "bbr-bbrc332c16",
       "name": "Ferrari SF26 F1 Barcelona-Catalunya Grand Prix - metal diecast Leclerc",
       "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrc332c16_ferrari-sf26-f1-barcelona-catalunya-grand-prix----metal-diecast-leclerc.aspx",
@@ -1514,94 +1489,6 @@
       "weight": "",
       "length": "",
       "availability": "Pre-order"
-    },
-    {
-      "id": "bbr-bbrmin022",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
-      "images": [
-        "images/bbr-bbrmin022-1.jpg",
-        "images/bbr-bbrmin022-2.jpg",
-        "images/bbr-bbrmin022-3.jpg",
-        "images/bbr-bbrmin022-4.jpg",
-        "images/bbr-bbrmin022-5.jpg",
-        "images/bbr-bbrmin022-6.jpg",
-        "images/bbr-bbrmin022-7.jpg",
-        "images/bbr-bbrmin022-8.jpg",
-        "images/bbr-bbrmin022-9.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN022",
-        "Scale": "1/18",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
-      "id": "bbr-bbrmin312",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
-      "images": [
-        "images/bbr-bbrmin312-1.jpg",
-        "images/bbr-bbrmin312-2.jpg",
-        "images/bbr-bbrmin312-3.jpg",
-        "images/bbr-bbrmin312-4.jpg",
-        "images/bbr-bbrmin312-5.jpg",
-        "images/bbr-bbrmin312-6.jpg",
-        "images/bbr-bbrmin312-7.jpg",
-        "images/bbr-bbrmin312-8.jpg",
-        "images/bbr-bbrmin312-9.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN312",
-        "Scale": "1/18",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
-      "id": "bbr-bbrmin43212",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli - COFFRET Winner Chinese GP 2026",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin43212_mercedes-amg-f1-e-performance-kimi-antonelli---coffret-winner-chinese-gp-2026.aspx",
-      "images": [
-        "images/bbr-bbrmin43212-1.jpg",
-        "images/bbr-bbrmin43212-2.jpg",
-        "images/bbr-bbrmin43212-3.jpg",
-        "images/bbr-bbrmin43212-4.jpg",
-        "images/bbr-bbrmin43212-5.jpg",
-        "images/bbr-bbrmin43212-6.jpg",
-        "images/bbr-bbrmin43212-7.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN43212",
-        "Scale": "1/43",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
     },
     {
       "id": "burago-183284",
@@ -23015,7 +22902,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1004",
@@ -23289,7 +23176,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1014",
@@ -23433,7 +23320,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1113",
@@ -23468,7 +23355,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1116",
@@ -23505,7 +23392,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1118",
@@ -23653,7 +23540,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1252",
@@ -23690,7 +23577,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1253",
@@ -23727,7 +23614,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Coming soon"
+      "availability": "Latest models"
     },
     {
       "id": "spark-18S1255",
