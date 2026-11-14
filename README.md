@@ -89,7 +89,7 @@ python scripts/refresh_carmodel.py --build
 
 Carmodel 使用 Encyclopedia（`enc=1`）检索，覆盖符合年份、品牌和车型条件的各类商品状态，支持分页与 Show all。商品以 Carmodel ID 去重，货号、比例和套装作为商品信息保存。`Catalogue` 对应目录收录状态，`Expected release` 保存来源提供的季度信息。
 
-线上目录的数据来源为仓库中的 `data/state.json` 和 `docs/`。本地采集结果通过 Git 提交与推送发布。
+线上目录的数据来源为仓库中的 `data/state.json` 和 `docs/`。
 
 ### 监控、目录与差异记录
 

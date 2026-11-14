@@ -25,7 +25,6 @@ call :python scripts\refresh_carmodel.py --build
 if errorlevel 1 goto finished
 echo.
 echo 比美高本地刷新完成。刷新目录页即可查看。
-echo 如需同步线上，请提交并推送 data 和 docs 中的更新。
 
 :finished
 set "TASK_EXIT=%errorlevel%"
