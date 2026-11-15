@@ -1,6 +1,27 @@
 {
   "updates": [
     {
+      "date": "2026-11-15T17:37:00.411593+00:00",
+      "entries": [
+        {
+          "type": "removed",
+          "id": "bbr-bbrc332b16dr",
+          "name": "Ferrari SF26 F1 Japanese Grand Prix - DRIVER INCLUDED - metal diecast Leclerc - third position",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16dr_ferrari-sf26-f1-japanese-grand-prix---driver-included---metal-diecast-leclerc---third-position.aspx",
+          "product_number": "BBRC332B16DR",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-14T15:03:42.988325+00:00",
       "entries": [
         {
@@ -12,7 +33,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -28,7 +51,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -44,7 +69,9 @@
           "scale": "1/18",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -60,7 +87,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -4798,27 +4827,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/bbr-bbrc332b16dr-1.jpg",
-              "images/bbr-bbrc332b16dr-2.jpg",
-              "images/bbr-bbrc332b16dr-3.jpg",
-              "images/bbr-bbrc332b16dr-4.jpg",
-              "images/bbr-bbrc332b16dr-5.jpg",
-              "images/bbr-bbrc332b16dr-6.jpg",
-              "images/bbr-bbrc332b16dr-7.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/bbr-bbrc332b16dr-1.jpg": "a0606e27495be3d173927434cea23cd0a0daca07e10668bc6981fa329a24c0ea",
-              "images/bbr-bbrc332b16dr-2.jpg": "df2cc3e33cfb1df5bfa182fa022e8de5e3074e76b25820af53e75cdfb50281d9",
-              "images/bbr-bbrc332b16dr-3.jpg": "e2f0bd06dfea6ae4842e5fe8d3f9d0d20f5b9944975c1f0db0ec5eeb26c1a1d5",
-              "images/bbr-bbrc332b16dr-4.jpg": "d5e2c26be5be8fa264adc6663d411f9f342009b43fe78a6004a010e0c5cf5b53",
-              "images/bbr-bbrc332b16dr-5.jpg": "042041292f267fe7496984bb58a25037efc5a74efa1c85bb70acb7caed517126",
-              "images/bbr-bbrc332b16dr-6.jpg": "610f65aced0c88ca71060320b517080e2f5c0a76bb44f00ec61f80f74fa740c7",
-              "images/bbr-bbrc332b16dr-7.jpg": "ad2db8876d6b6b367df1ccfa1b7bfe3e4af4b39d374af46d082ce3c065d83afb"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 7,

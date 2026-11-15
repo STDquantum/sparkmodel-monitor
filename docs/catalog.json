@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T15:03:42.988325+00:00",
+  "generated_at": "2026-11-15T17:37:00.411593+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1054,34 +1054,6 @@
       "properties": {
         "Year": "2026",
         "Product number": "BBRC332A44",
-        "Scale": "1/43",
-        "Model": "SF-26"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
-      "id": "bbr-bbrc332b16dr",
-      "name": "Ferrari SF26 F1 Japanese Grand Prix - DRIVER INCLUDED - metal diecast Leclerc - third position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16dr_ferrari-sf26-f1-japanese-grand-prix---driver-included---metal-diecast-leclerc---third-position.aspx",
-      "images": [
-        "images/bbr-bbrc332b16dr-1.jpg",
-        "images/bbr-bbrc332b16dr-2.jpg",
-        "images/bbr-bbrc332b16dr-3.jpg",
-        "images/bbr-bbrc332b16dr-4.jpg",
-        "images/bbr-bbrc332b16dr-5.jpg",
-        "images/bbr-bbrc332b16dr-6.jpg",
-        "images/bbr-bbrc332b16dr-7.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRC332B16DR",
         "Scale": "1/43",
         "Model": "SF-26"
       },
