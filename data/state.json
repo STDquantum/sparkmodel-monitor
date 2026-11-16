@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-16T09:27:16.873560+00:00",
-  "total": 1036,
+  "updated_at": "2026-11-16T19:48:28.001738+00:00",
+  "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -618,6 +618,19 @@
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/LWFpLdhb/[Miniatura]BBRC332A44_1.jpg.aspx",
       "availability": ""
     },
+    "bbr-bbrc332a44pre": {
+      "product_id": "bbr-bbrc332a44pre",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Hamilton - third position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a44pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-hamilton---third-position.aspx",
+      "product_number": "BBRC332A44PRE",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "SF-26",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/WjAVMfPP/[Miniatura]BBRC332A44PRE_1.jpg.aspx",
+      "availability": ""
+    },
     "bbr-bbrc332c16": {
       "product_id": "bbr-bbrc332c16",
       "source": "bbr",
@@ -851,6 +864,32 @@
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Dtj9wPp5/[Miniatura]7.jpg.aspx",
       "availability": "Pre-order"
+    },
+    "bbr-bbrmin022": {
+      "product_id": "bbr-bbrmin022",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
+      "product_number": "BBRMIN022",
+      "scale": "1/18",
+      "year": "2026",
+      "model": "Mercedes",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/0SCznVVC/[Miniatura]BBRMIN022_11.jpg.aspx",
+      "availability": ""
+    },
+    "bbr-bbrmin312": {
+      "product_id": "bbr-bbrmin312",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
+      "product_number": "BBRMIN312",
+      "scale": "1/18",
+      "year": "2026",
+      "model": "Mercedes",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Zb87XxIZ/[Miniatura]BBRMIN312_4.jpg.aspx",
+      "availability": ""
     },
     "burago-183284": {
       "product_id": "burago-183284",
@@ -5933,7 +5972,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Pre-order"
+      "availability": "Sold out"
     },
     "minichamps-019ef971dd44737d94c4b2802c43fb29": {
       "name": "MONEYGRAM HAAS F1 TEAM VF-25 - ESTEBAN OCON - AUSTIN GP 2025",
@@ -6141,32 +6180,32 @@
       "availability": "Pre-order"
     },
     "minichamps-019f620733c17178bbab08a59e2421b9": {
-      "name": "FERRARI SF-26 - CHARLES LECLERC - CHINA GP 2026 W/DRIVER FIGURINE",
-      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-CHINA-GP-2026-W-DRIVER-FIGURINE/BBR264316",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - CHINA GP 2026 W/DRIVER FIGURINE (C332A16DR)",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-CHINA-GP-2026-W-DRIVER-FIGURINE-C332A16DR/BBR264316",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019f62073563701ea1869b902ed6cb4d": {
-      "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE CHINA GP 2026 W/DRIVER FIGURINE",
-      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-CHINA-GP-2026-W-DRIVER-FIGURINE/BBR264344",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE CHINA GP 2026 W/DRIVER FIGURINE (C332A44DR)",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-CHINA-GP-2026-W-DRIVER-FIGURINE-C332A44DR/BBR264344",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
+      "availability": "Available"
     },
     "minichamps-019f620736fc71e386ba8e1c59f76866": {
-      "name": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE",
-      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR264416",
+      "name": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE (C332B16DR)",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B16DR/BBR264416",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
       "availability": "Pre-order"
     },
     "minichamps-019f62073883733e97e4525dcb1638d6": {
-      "name": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE",
-      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR264444",
+      "name": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE (C332B44DR)",
+      "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B44DR/BBR264444",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6234,38 +6273,6 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-01a1d075527272b1947db1c83e56cc02": {
-      "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - BRAZIL GP 2025",
-      "url": "https://www.minichamps.de/en/detail/01a1d075527272b1947db1c83e56cc02?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2025",
-      "availability": "Pre-order"
-    },
-    "minichamps-01a1d07556397154845b25ea6bd6bb8b": {
-      "name": "WILLIAMS RACING FW47 - CARLOS SAINZ - LAS VEGAS GP 2025",
-      "url": "https://www.minichamps.de/en/detail/01a1d07556397154845b25ea6bd6bb8b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2025",
-      "availability": "Pre-order"
-    },
-    "minichamps-01a1d0755a2e70298c4950c19f76405b": {
-      "name": "WILLIAMS RACING FW47 - ALEX ALBON - BRAZIL GP 2025",
-      "url": "https://www.minichamps.de/en/detail/01a1d0755a2e70298c4950c19f76405b?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2025",
-      "availability": "Pre-order"
-    },
-    "minichamps-01a1d0755de470b985370be49f1f2d73": {
-      "name": "WILLIAMS RACING FW47 - ALEX ALBON - LAS VEGAS GP 2025",
-      "url": "https://www.minichamps.de/en/detail/01a1d0755de470b985370be49f1f2d73?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2025",
       "availability": "Pre-order"
     },
     "minichamps-117261012": {
@@ -6524,24 +6531,6 @@
       "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - WINNER ZANDVOORT GP 2026 W FIGURINE, POSITION BOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-WINNER-ZANDVOORT-GP-2026-W-FIGURINE-POSITION-BOARD-AND-TROPHY/537265404",
       "product_number": "537265404",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-640260614": {
-      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - FERNANDO ALONSO - SPECIAL MAADEN DESIGN MONACO GP 2026",
-      "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-FERNANDO-ALONSO-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260614",
-      "product_number": "640260614",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-640260618": {
-      "name": "ASTON MARTIN ARAMCO F1 TEAM AMR26 - LANCE STROLL - SPECIAL MAADEN DESIGN MONACO GP 2026",
-      "url": "https://www.minichamps.de/en/ASTON-MARTIN-ARAMCO-F1-TEAM-AMR26-LANCE-STROLL-SPECIAL-MAADEN-DESIGN-MONACO-GP-2026/640260618",
-      "product_number": "640260618",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -12074,10 +12063,22 @@
   },
   "changes": {
     "added": [
-      "minichamps-019a89196184700ca240fb91d6827be9",
-      "minichamps-019ef97237dc731295fd1db5f8b3c007"
+      "bbr-bbrc332a44pre",
+      "bbr-bbrmin022",
+      "bbr-bbrmin312"
     ],
-    "changed": [],
-    "removed": []
+    "changed": [
+      "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
+      "minichamps-019f620733c17178bbab08a59e2421b9",
+      "minichamps-019f62073563701ea1869b902ed6cb4d"
+    ],
+    "removed": [
+      "minichamps-01a1d075527272b1947db1c83e56cc02",
+      "minichamps-01a1d07556397154845b25ea6bd6bb8b",
+      "minichamps-01a1d0755a2e70298c4950c19f76405b",
+      "minichamps-01a1d0755de470b985370be49f1f2d73",
+      "minichamps-640260614",
+      "minichamps-640260618"
+    ]
   }
 }
