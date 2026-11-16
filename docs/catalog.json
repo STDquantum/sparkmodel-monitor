@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T01:59:43.852448+00:00",
+  "generated_at": "2026-11-16T09:27:29.835866+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -12467,6 +12467,37 @@
       "availability": "Sold out"
     },
     {
+      "id": "minichamps-019a89196184700ca240fb91d6827be9",
+      "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - 3RD PLACE CN GP 2025",
+      "url": "https://www.minichamps.de/en/detail/019a89196184700ca240fb91d6827be9?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "images": [
+        "images/minichamps-019a89196184700ca240fb91d6827be9-1.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-2.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-3.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-4.jpg",
+        "images/minichamps-019a89196184700ca240fb91d6827be9-5.jpg"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Product number": "117250263",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "in stock",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "RUSSEL, GEORGE",
+        "Material": "RESIN",
+        "First delivery": "Calendar week 39/2026"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Available"
+    },
+    {
       "id": "minichamps-019a8919638870d59e64744b6de2a5bd",
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER JAPANESE GP 2025",
       "url": "https://www.minichamps.de/en/detail/019a8919638870d59e64744b6de2a5bd?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
@@ -16095,6 +16126,32 @@
         "Availability": "available for preorder",
         "Brand": "MCLAREN",
         "Driver": "PIASTRI, OSCAR",
+        "Material": "DIECAST"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "25.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-019ef97237dc731295fd1db5f8b3c007",
+      "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - GEORGE RUSSELL - WINNER SINGAPORE GP 2025",
+      "url": "https://www.minichamps.de/en/detail/019ef97237dc731295fd1db5f8b3c007?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "images": [
+        "images/minichamps-019ef97237dc731295fd1db5f8b3c007-1.jpg"
+      ],
+      "properties": {
+        "Year": "2025",
+        "Product number": "640251863",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MERCEDES-BENZ",
+        "Driver": "RUSSEL, GEORGE",
         "Material": "DIECAST"
       },
       "description": "",
