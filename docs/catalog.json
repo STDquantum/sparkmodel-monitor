@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:11:52.085283+00:00",
+  "generated_at": "2026-11-17T19:52:54.238340+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1067,31 +1067,6 @@
       "availability": ""
     },
     {
-      "id": "bbr-bbrc332a44pre",
-      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Hamilton - third position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a44pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-hamilton---third-position.aspx",
-      "images": [
-        "images/bbr-bbrc332a44pre-1.jpg",
-        "images/bbr-bbrc332a44pre-2.jpg",
-        "images/bbr-bbrc332a44pre-3.jpg",
-        "images/bbr-bbrc332a44pre-4.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRC332A44PRE",
-        "Scale": "1/43",
-        "Model": "SF-26"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
       "id": "bbr-bbrc332c16",
       "name": "Ferrari SF26 F1 Barcelona-Catalunya Grand Prix - metal diecast Leclerc",
       "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrc332c16_ferrari-sf26-f1-barcelona-catalunya-grand-prix----metal-diecast-leclerc.aspx",
@@ -1486,36 +1461,6 @@
       "weight": "",
       "length": "",
       "availability": "Pre-order"
-    },
-    {
-      "id": "bbr-bbrmin022",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
-      "images": [
-        "images/bbr-bbrmin022-1.jpg",
-        "images/bbr-bbrmin022-2.jpg",
-        "images/bbr-bbrmin022-3.jpg",
-        "images/bbr-bbrmin022-4.jpg",
-        "images/bbr-bbrmin022-5.jpg",
-        "images/bbr-bbrmin022-6.jpg",
-        "images/bbr-bbrmin022-7.jpg",
-        "images/bbr-bbrmin022-8.jpg",
-        "images/bbr-bbrmin022-9.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN022",
-        "Scale": "1/18",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
     },
     {
       "id": "bbr-bbrmin312",
