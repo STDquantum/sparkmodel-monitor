@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-16T19:48:28.001738+00:00",
+  "updated_at": "2026-11-17T02:40:31.230686+00:00",
   "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
@@ -8028,7 +8028,7 @@
     "shop-ferrari-LS18F1083": {
       "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026 Lewis Hamilton",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls18f1083-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/ca/aa/1784563126/b43ebd3064b34d0d9ab4b2a215c80bac.webp?ts=1794377399",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c5/2b/c0/1794877359/7c5519d86ccb45719f755d53f7a8e672.webp?ts=1794877416",
       "source": "sparkmodelshop",
       "manufacturer": "Looksmart",
       "year": "2026",
@@ -8039,7 +8039,7 @@
     "shop-ferrari-LS18F1084": {
       "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
       "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls18f1084-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/52/9a/3e/1784563130/11ba88c5746b46a7b27ec54632b2e297.webp?ts=1794377399",
+      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a6/fa/23/1794877393/48386c747be745bba0cdaf375b98319e.webp?ts=1794877440",
       "source": "sparkmodelshop",
       "manufacturer": "Looksmart",
       "year": "2026",
@@ -12062,23 +12062,11 @@
     }
   },
   "changes": {
-    "added": [
-      "bbr-bbrc332a44pre",
-      "bbr-bbrmin022",
-      "bbr-bbrmin312"
-    ],
+    "added": [],
     "changed": [
-      "minichamps-019ef971dc9c71dd89ab87ec07a7e2ca",
-      "minichamps-019f620733c17178bbab08a59e2421b9",
-      "minichamps-019f62073563701ea1869b902ed6cb4d"
+      "shop-ferrari-LS18F1083",
+      "shop-ferrari-LS18F1084"
     ],
-    "removed": [
-      "minichamps-01a1d075527272b1947db1c83e56cc02",
-      "minichamps-01a1d07556397154845b25ea6bd6bb8b",
-      "minichamps-01a1d0755a2e70298c4950c19f76405b",
-      "minichamps-01a1d0755de470b985370be49f1f2d73",
-      "minichamps-640260614",
-      "minichamps-640260618"
-    ]
+    "removed": []
   }
 }

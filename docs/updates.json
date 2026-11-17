@@ -1,6 +1,81 @@
 {
   "updates": [
     {
+      "date": "2026-11-17T02:40:32.671943+00:00",
+      "entries": [
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1083",
+          "name": "Ferrari SF-26 No.44 2nd Canadian GP 2026 Lewis Hamilton",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.44-2nd-canadian-gp-2026-lewis-hamilton/ls18f1083-de",
+          "product_number": "LS18F1083",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c3/ca/aa/1784563126/b43ebd3064b34d0d9ab4b2a215c80bac.webp?ts=1794377399",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c5/2b/c0/1794877359/7c5519d86ccb45719f755d53f7a8e672.webp?ts=1794877416"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS18F1083-2.webp",
+              "images/shop-ferrari-LS18F1083-3.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS18F1083-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS18F1083-2.webp": "38f158642278d6948ca39b6c1321d816af9f402d9bc7fc12c35d18a11ce2f8f8",
+              "images/shop-ferrari-LS18F1083-3.webp": "4d930fd813863ffd567e1019fb83fd4f730b70b773e004f7573ca830b32de23e",
+              "images/shop-ferrari-LS18F1083-1.webp": "7cc66df19ba037b4f9658e2aa62c37904a7a6b46c0347ad49c9c534008c2003b"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "shop-ferrari-LS18F1084",
+          "name": "Ferrari SF-26 No.16 Canadian GP 2026 Charles Leclerc",
+          "url": "https://www.sparkmodelshop.com/de/en/ferrari-sf-26-no.16-canadian-gp-2026-charles-leclerc/ls18f1084-de",
+          "product_number": "LS18F1084",
+          "scale": "1/18",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/52/9a/3e/1784563130/11ba88c5746b46a7b27ec54632b2e297.webp?ts=1794377399",
+              "after": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a6/fa/23/1794877393/48386c747be745bba0cdaf375b98319e.webp?ts=1794877440"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/shop-ferrari-LS18F1084-2.webp",
+              "images/shop-ferrari-LS18F1084-3.webp"
+            ],
+            "changed": [
+              "images/shop-ferrari-LS18F1084-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/shop-ferrari-LS18F1084-2.webp": "2fcfd68332802a6d21e98e7ca2f76ddacf95bd588d2e03fd064743870b577180",
+              "images/shop-ferrari-LS18F1084-3.webp": "72cd368e4ba0fe4195d2d33104fb6b60f63ddca122100f5c1bebf98b29d9ece2",
+              "images/shop-ferrari-LS18F1084-1.webp": "622f9f2b9f9b18571d9d22a73940521f19c1fbf9e8aa0264b222af57fc3baed2"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-16T19:48:34.730585+00:00",
       "entries": [
         {
@@ -245,7 +320,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -261,7 +338,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -277,7 +356,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -293,7 +374,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -309,7 +392,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -325,7 +410,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
