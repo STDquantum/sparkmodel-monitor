@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-17T02:40:31.230686+00:00",
+  "updated_at": "2026-11-17T11:11:46.560799+00:00",
   "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
@@ -6182,6 +6182,7 @@
     "minichamps-019f620733c17178bbab08a59e2421b9": {
       "name": "FERRARI SF-26 - CHARLES LECLERC - CHINA GP 2026 W/DRIVER FIGURINE (C332A16DR)",
       "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-CHINA-GP-2026-W-DRIVER-FIGURINE-C332A16DR/BBR264316",
+      "image_url": "https://www.minichamps.de/media/a6/29/e2/1794908411/00_BBR264316.jpg?ts=1794908411",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6190,6 +6191,7 @@
     "minichamps-019f62073563701ea1869b902ed6cb4d": {
       "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE CHINA GP 2026 W/DRIVER FIGURINE (C332A44DR)",
       "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-CHINA-GP-2026-W-DRIVER-FIGURINE-C332A44DR/BBR264344",
+      "image_url": "https://www.minichamps.de/media/d3/47/8f/1794908342/00_BBR264344.jpg?ts=1794908342",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -10561,7 +10563,7 @@
       "source_id": "da9655c3-8ccc-49b1-937a-d4e703cbce22",
       "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 Japanese GP 2026 \nLiam Lawson",
       "url": "https://www.sparkmodel.com/products/da9655c3-8ccc-49b1-937a-d4e703cbce22",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a1c9606f-9139-4c91-b1b8-d7882702591c.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/a9e69059-399f-4b74-88ab-77b551ae6de9.webp",
       "availability": "In development",
       "product_number": "S9390",
       "scale": "1/43",
@@ -10573,7 +10575,7 @@
       "source_id": "dd08cc87-81bf-4cb1-8bbc-94ea27fce466",
       "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 Japanese GP 2026 \nArvid Lindblad",
       "url": "https://www.sparkmodel.com/products/dd08cc87-81bf-4cb1-8bbc-94ea27fce466",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/bee1cf32-a1a4-42ee-8ad1-6ba9327c4c27.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/3a1e1d17-3163-46f8-98e6-b1859c9e00c2.webp",
       "availability": "In development",
       "product_number": "S9391",
       "scale": "1/43",
@@ -12064,8 +12066,10 @@
   "changes": {
     "added": [],
     "changed": [
-      "shop-ferrari-LS18F1083",
-      "shop-ferrari-LS18F1084"
+      "minichamps-019f620733c17178bbab08a59e2421b9",
+      "minichamps-019f62073563701ea1869b902ed6cb4d",
+      "spark-S9390",
+      "spark-S9391"
     ],
     "removed": []
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T02:40:32.671943+00:00",
+  "generated_at": "2026-11-17T11:11:52.085283+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -16502,7 +16502,10 @@
       "id": "minichamps-019f620733c17178bbab08a59e2421b9",
       "name": "FERRARI SF-26 - CHARLES LECLERC - CHINA GP 2026 W/DRIVER FIGURINE (C332A16DR)",
       "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-CHINA-GP-2026-W-DRIVER-FIGURINE-C332A16DR/BBR264316",
-      "images": [],
+      "images": [
+        "images/minichamps-019f620733c17178bbab08a59e2421b9-1.jpg",
+        "images/minichamps-019f620733c17178bbab08a59e2421b9-2.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "BBR264316",
@@ -16528,7 +16531,10 @@
       "id": "minichamps-019f62073563701ea1869b902ed6cb4d",
       "name": "FERRARI SF-26 - LEWIS HAMILTON - 3RD PLACE CHINA GP 2026 W/DRIVER FIGURINE (C332A44DR)",
       "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-3RD-PLACE-CHINA-GP-2026-W-DRIVER-FIGURINE-C332A44DR/BBR264344",
-      "images": [],
+      "images": [
+        "images/minichamps-019f62073563701ea1869b902ed6cb4d-1.jpg",
+        "images/minichamps-019f62073563701ea1869b902ed6cb4d-2.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "BBR264344",
@@ -27663,7 +27669,9 @@
       "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.30 Japanese GP 2026 \nLiam Lawson",
       "url": "https://www.sparkmodel.com/products/da9655c3-8ccc-49b1-937a-d4e703cbce22",
       "images": [
-        "images/spark-S9390-1.webp"
+        "images/spark-S9390-1.webp",
+        "images/spark-S9390-2.webp",
+        "images/spark-S9390-3.webp"
       ],
       "properties": {
         "Manufacturer": "Racing Bulls",
@@ -27689,7 +27697,9 @@
       "name": "Visa Cash App Racing Bulls Formula One Team VCARB 03 No.41 Japanese GP 2026 \nArvid Lindblad",
       "url": "https://www.sparkmodel.com/products/dd08cc87-81bf-4cb1-8bbc-94ea27fce466",
       "images": [
-        "images/spark-S9391-1.webp"
+        "images/spark-S9391-1.webp",
+        "images/spark-S9391-2.webp",
+        "images/spark-S9391-3.webp"
       ],
       "properties": {
         "Manufacturer": "Racing Bulls",
