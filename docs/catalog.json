@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:52:54.238340+00:00",
+  "generated_at": "2026-11-18T18:53:51.514565+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1461,36 +1461,6 @@
       "weight": "",
       "length": "",
       "availability": "Pre-order"
-    },
-    {
-      "id": "bbr-bbrmin312",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
-      "images": [
-        "images/bbr-bbrmin312-1.jpg",
-        "images/bbr-bbrmin312-2.jpg",
-        "images/bbr-bbrmin312-3.jpg",
-        "images/bbr-bbrmin312-4.jpg",
-        "images/bbr-bbrmin312-5.jpg",
-        "images/bbr-bbrmin312-6.jpg",
-        "images/bbr-bbrmin312-7.jpg",
-        "images/bbr-bbrmin312-8.jpg",
-        "images/bbr-bbrmin312-9.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN312",
-        "Scale": "1/18",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
     },
     {
       "id": "burago-183284",
@@ -16995,6 +16965,31 @@
       "description": "",
       "brand": "Minichamps",
       "price": "725",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-147262003",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER MEXICO GP 2026 - 1:18 MODEL WITH RAISED ARM",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-MEXICO-GP-2026-1-18-MODEL-WITH-RAISED-ARM/147262003",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "147262003",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
       "currency": "EUR",
       "gtin": "",
       "weight": "",

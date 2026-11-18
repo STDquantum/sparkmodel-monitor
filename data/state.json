@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-17T19:52:53.183475+00:00",
+  "updated_at": "2026-11-18T18:53:47.170368+00:00",
   "total": 1031,
   "items": {
     "bbr-bbr1229c16": {
@@ -851,19 +851,6 @@
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Dtj9wPp5/[Miniatura]7.jpg.aspx",
       "availability": "Pre-order"
-    },
-    "bbr-bbrmin312": {
-      "product_id": "bbr-bbrmin312",
-      "source": "bbr",
-      "manufacturer": "BBR",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
-      "product_number": "BBRMIN312",
-      "scale": "1/18",
-      "year": "2026",
-      "model": "Mercedes",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Zb87XxIZ/[Miniatura]BBRMIN312_4.jpg.aspx",
-      "availability": ""
     },
     "burago-183284": {
       "product_id": "burago-183284",
@@ -6338,6 +6325,16 @@
       "product_number": "127261912",
       "source": "minichamps",
       "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-147262003": {
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER MEXICO GP 2026 - 1:18 MODEL WITH RAISED ARM",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-MEXICO-GP-2026-1-18-MODEL-WITH-RAISED-ARM/147262003",
+      "product_number": "147262003",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "scale": "1/18",
       "year": "2026",
       "availability": "Pre-order"
     },
@@ -12038,11 +12035,12 @@
     }
   },
   "changes": {
-    "added": [],
+    "added": [
+      "minichamps-147262003"
+    ],
     "changed": [],
     "removed": [
-      "bbr-bbrc332a44pre",
-      "bbr-bbrmin022"
+      "bbr-bbrmin312"
     ]
   }
 }
