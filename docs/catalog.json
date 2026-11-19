@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:53:51.514565+00:00",
+  "generated_at": "2026-11-19T17:39:47.649734+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -15613,7 +15613,11 @@
       "id": "minichamps-019ef971d918717d88f33676584eb03d",
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AUSTIN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971d918717d88f33676584eb03d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971d918717d88f33676584eb03d-1.jpg",
+        "images/minichamps-019ef971d918717d88f33676584eb03d-2.jpg",
+        "images/minichamps-019ef971d918717d88f33676584eb03d-3.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "417251901",
@@ -15933,7 +15937,11 @@
       "id": "minichamps-019ef971e0b870c487a3afaf31c24f6e",
       "name": "ORACLE RED BULL RACING RB21 - YUKI TSUNODA - AUSTIN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971e0b870c487a3afaf31c24f6e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971e0b870c487a3afaf31c24f6e-1.jpg",
+        "images/minichamps-019ef971e0b870c487a3afaf31c24f6e-2.jpg",
+        "images/minichamps-019ef971e0b870c487a3afaf31c24f6e-3.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "417251922",
@@ -19769,7 +19777,10 @@
       "id": "minichamps-minichamps-1665893",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER MIAMI GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-MIAMI-GP-2026/417260412",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1665893-1.jpg",
+        "images/minichamps-minichamps-1665893-2.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260412",
@@ -26870,7 +26881,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9367",
@@ -26907,7 +26918,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9368",
@@ -27240,7 +27251,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9379",
@@ -27602,7 +27613,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9390",
@@ -29553,7 +29564,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9634",
@@ -31354,7 +31365,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-Y437",
