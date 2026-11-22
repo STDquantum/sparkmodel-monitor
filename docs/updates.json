@@ -1,6 +1,31 @@
 {
   "updates": [
     {
+      "date": "2026-11-22T23:21:31.358906+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "minichamps-530267204",
+          "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - SILVERSTONE GP 2026",
+          "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-SILVERSTONE-GP-2026/530267204",
+          "product_number": "530267204",
+          "scale": "1/64",
+          "fields": [],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-22T17:55:06.575483+00:00",
       "entries": [
         {
@@ -12,7 +37,9 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
