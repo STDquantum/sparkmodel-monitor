@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:21:31.358906+00:00",
+  "generated_at": "2026-11-23T13:46:22.221563+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -14577,21 +14577,22 @@
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER ITALIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef970b1b87244b3c6accd8cecea50?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019ef970b1b87244b3c6accd8cecea50-1.jpg",
         "images/minichamps-019ef970b1b87244b3c6accd8cecea50-2.jpg",
         "images/minichamps-019ef970b1b87244b3c6accd8cecea50-3.jpg",
         "images/minichamps-019ef970b1b87244b3c6accd8cecea50-4.jpg",
-        "images/minichamps-019ef970b1b87244b3c6accd8cecea50-5.jpg",
-        "images/minichamps-019ef970b1b87244b3c6accd8cecea50-1.jpg"
+        "images/minichamps-019ef970b1b87244b3c6accd8cecea50-5.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "117251601",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "RED BULL RACING",
         "Driver": "VERSTAPPEN, MAX",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 48/2026"
       },
       "description": "",
       "brand": "Minichamps",
@@ -14600,7 +14601,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef970b2407212bdda29f3bd3534f7",
@@ -15350,19 +15351,20 @@
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER ITALIAN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971cfc073878d17bd46dc775b23?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
       "images": [
+        "images/minichamps-019ef971cfc073878d17bd46dc775b23-1.jpg",
         "images/minichamps-019ef971cfc073878d17bd46dc775b23-2.jpg",
-        "images/minichamps-019ef971cfc073878d17bd46dc775b23-3.jpg",
-        "images/minichamps-019ef971cfc073878d17bd46dc775b23-1.jpg"
+        "images/minichamps-019ef971cfc073878d17bd46dc775b23-3.jpg"
       ],
       "properties": {
         "Year": "2025",
         "Product number": "417251601",
         "Scale": "1/43",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
+        "Availability": "in stock",
         "Brand": "RED BULL RACING",
         "Driver": "VERSTAPPEN, MAX",
-        "Material": "RESIN"
+        "Material": "RESIN",
+        "First delivery": "Calendar week 48/2026"
       },
       "description": "",
       "brand": "Minichamps",
@@ -15371,7 +15373,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "available for preorder"
+      "availability": "Available"
     },
     {
       "id": "minichamps-019ef971d0567103891f6a8241c0771b",
