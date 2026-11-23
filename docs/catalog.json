@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:11:52.085283+00:00",
+  "generated_at": "2026-11-22T23:21:31.358906+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1067,31 +1067,6 @@
       "availability": ""
     },
     {
-      "id": "bbr-bbrc332a44pre",
-      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Hamilton - third position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a44pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-hamilton---third-position.aspx",
-      "images": [
-        "images/bbr-bbrc332a44pre-1.jpg",
-        "images/bbr-bbrc332a44pre-2.jpg",
-        "images/bbr-bbrc332a44pre-3.jpg",
-        "images/bbr-bbrc332a44pre-4.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRC332A44PRE",
-        "Scale": "1/43",
-        "Model": "SF-26"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
       "id": "bbr-bbrc332c16",
       "name": "Ferrari SF26 F1 Barcelona-Catalunya Grand Prix - metal diecast Leclerc",
       "url": "https://www.bbrmodelstore.com/english/car-model-preo_bbrc332c16_ferrari-sf26-f1-barcelona-catalunya-grand-prix----metal-diecast-leclerc.aspx",
@@ -1486,66 +1461,6 @@
       "weight": "",
       "length": "",
       "availability": "Pre-order"
-    },
-    {
-      "id": "bbr-bbrmin022",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
-      "images": [
-        "images/bbr-bbrmin022-1.jpg",
-        "images/bbr-bbrmin022-2.jpg",
-        "images/bbr-bbrmin022-3.jpg",
-        "images/bbr-bbrmin022-4.jpg",
-        "images/bbr-bbrmin022-5.jpg",
-        "images/bbr-bbrmin022-6.jpg",
-        "images/bbr-bbrmin022-7.jpg",
-        "images/bbr-bbrmin022-8.jpg",
-        "images/bbr-bbrmin022-9.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN022",
-        "Scale": "1/18",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
-    },
-    {
-      "id": "bbr-bbrmin312",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
-      "images": [
-        "images/bbr-bbrmin312-1.jpg",
-        "images/bbr-bbrmin312-2.jpg",
-        "images/bbr-bbrmin312-3.jpg",
-        "images/bbr-bbrmin312-4.jpg",
-        "images/bbr-bbrmin312-5.jpg",
-        "images/bbr-bbrmin312-6.jpg",
-        "images/bbr-bbrmin312-7.jpg",
-        "images/bbr-bbrmin312-8.jpg",
-        "images/bbr-bbrmin312-9.jpg"
-      ],
-      "properties": {
-        "Year": "2026",
-        "Product number": "BBRMIN312",
-        "Scale": "1/18",
-        "Model": "Mercedes"
-      },
-      "description": "",
-      "brand": "BBR",
-      "price": "",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": ""
     },
     {
       "id": "burago-183284",
@@ -13010,7 +12925,7 @@
         "Product number": "117250887",
         "Scale": "1/18",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "HAAS",
         "Driver": "OCON, ESTEBAN",
         "Material": "RESIN",
@@ -13023,7 +12938,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019a891984847330be3e01088ab3aab7",
@@ -15698,7 +15613,11 @@
       "id": "minichamps-019ef971d918717d88f33676584eb03d",
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AUSTIN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971d918717d88f33676584eb03d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971d918717d88f33676584eb03d-1.jpg",
+        "images/minichamps-019ef971d918717d88f33676584eb03d-2.jpg",
+        "images/minichamps-019ef971d918717d88f33676584eb03d-3.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "417251901",
@@ -16018,7 +15937,11 @@
       "id": "minichamps-019ef971e0b870c487a3afaf31c24f6e",
       "name": "ORACLE RED BULL RACING RB21 - YUKI TSUNODA - AUSTIN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971e0b870c487a3afaf31c24f6e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
-      "images": [],
+      "images": [
+        "images/minichamps-019ef971e0b870c487a3afaf31c24f6e-1.jpg",
+        "images/minichamps-019ef971e0b870c487a3afaf31c24f6e-2.jpg",
+        "images/minichamps-019ef971e0b870c487a3afaf31c24f6e-3.jpg"
+      ],
       "properties": {
         "Year": "2025",
         "Product number": "417251922",
@@ -17057,6 +16980,31 @@
       "availability": "available for preorder"
     },
     {
+      "id": "minichamps-147262003",
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER MEXICO GP 2026 - 1:18 MODEL WITH RAISED ARM",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-MEXICO-GP-2026-1-18-MODEL-WITH-RAISED-ARM/147262003",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "147262003",
+        "Scale": "1/18",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "RED BULL RACING",
+        "Driver": "VERSTAPPEN, MAX",
+        "Material": "RESIN",
+        "Model": "RB22"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "199.96",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
       "id": "minichamps-417260110",
       "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
@@ -17350,6 +17298,31 @@
       "description": "",
       "brand": "Minichamps",
       "price": "99.95",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "available for preorder"
+    },
+    {
+      "id": "minichamps-530267204",
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-SILVERSTONE-GP-2026/530267204",
+      "images": [],
+      "properties": {
+        "Year": "2026",
+        "Product number": "530267204",
+        "Scale": "1/64",
+        "Properties": "Download product data sheet as PDF",
+        "Availability": "available for preorder",
+        "Brand": "MCLAREN",
+        "Driver": "NORRIS, LANDO",
+        "Material": "DIECAST",
+        "Model": "MCL40"
+      },
+      "description": "",
+      "brand": "Minichamps",
+      "price": "26.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -19829,7 +19802,10 @@
       "id": "minichamps-minichamps-1665893",
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER MIAMI GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-MIAMI-GP-2026/417260412",
-      "images": [],
+      "images": [
+        "images/minichamps-minichamps-1665893-1.jpg",
+        "images/minichamps-minichamps-1665893-2.jpg"
+      ],
       "properties": {
         "Year": "2026",
         "Product number": "417260412",
@@ -21179,31 +21155,6 @@
       "description": "",
       "brand": "Minichamps",
       "price": "79.94",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
-      "id": "minichamps-minichamps-1668711",
-      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - SILVERSTONE GP 2026",
-      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-SILVERSTONE-GP-2026/530267204",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "530267204",
-        "Scale": "1/64",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "MCLAREN",
-        "Driver": "NORRIS, LANDO",
-        "Material": "DIECAST",
-        "Model": "MCL40"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "26.95",
       "currency": "EUR",
       "gtin": "",
       "weight": "",
@@ -26930,7 +26881,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9367",
@@ -26967,7 +26918,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9368",
@@ -27300,7 +27251,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9379",
@@ -27662,7 +27613,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9390",
@@ -29613,7 +29564,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-S9634",
@@ -31414,7 +31365,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Latest models"
+      "availability": "Catalogue"
     },
     {
       "id": "spark-Y437",

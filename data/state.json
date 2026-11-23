@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-17T11:11:46.560799+00:00",
-  "total": 1033,
+  "updated_at": "2026-11-22T23:21:27.363357+00:00",
+  "total": 1031,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -618,19 +618,6 @@
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/LWFpLdhb/[Miniatura]BBRC332A44_1.jpg.aspx",
       "availability": ""
     },
-    "bbr-bbrc332a44pre": {
-      "product_id": "bbr-bbrc332a44pre",
-      "source": "bbr",
-      "manufacturer": "BBR",
-      "name": "Ferrari SF26 F1 Chinese Grand Prix - PREMIUM EDITION Hamilton - third position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a44pre_ferrari-sf26-f1-chinese-grand-prix---premium-edition-hamilton---third-position.aspx",
-      "product_number": "BBRC332A44PRE",
-      "scale": "1/43",
-      "year": "2026",
-      "model": "SF-26",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/WjAVMfPP/[Miniatura]BBRC332A44PRE_1.jpg.aspx",
-      "availability": ""
-    },
     "bbr-bbrc332c16": {
       "product_id": "bbr-bbrc332c16",
       "source": "bbr",
@@ -864,32 +851,6 @@
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Dtj9wPp5/[Miniatura]7.jpg.aspx",
       "availability": "Pre-order"
-    },
-    "bbr-bbrmin022": {
-      "product_id": "bbr-bbrmin022",
-      "source": "bbr",
-      "manufacturer": "BBR",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Pole position Chinese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin022_mercedes-amg-f1-e-performance-kimi-antonelli--pole-position-chinese-gp-2026---luxury-pack.aspx",
-      "product_number": "BBRMIN022",
-      "scale": "1/18",
-      "year": "2026",
-      "model": "Mercedes",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/0SCznVVC/[Miniatura]BBRMIN022_11.jpg.aspx",
-      "availability": ""
-    },
-    "bbr-bbrmin312": {
-      "product_id": "bbr-bbrmin312",
-      "source": "bbr",
-      "manufacturer": "BBR",
-      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli Winner Japanese GP 2026 - LUXURY PACK",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin312_mercedes-amg-f1-e-performance-kimi-antonelli--winner-japanese--gp-2026---luxury-pack.aspx",
-      "product_number": "BBRMIN312",
-      "scale": "1/18",
-      "year": "2026",
-      "model": "Mercedes",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/Zb87XxIZ/[Miniatura]BBRMIN312_4.jpg.aspx",
-      "availability": ""
     },
     "burago-183284": {
       "product_id": "burago-183284",
@@ -5074,7 +5035,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     "minichamps-019a891984847330be3e01088ab3aab7": {
       "name": "MERCEDES-AMG PETRONAS FORMULA ONE TEAM F1 W16 E PERFORMANCE - K. ANTONELLI - 3RD PLACE CAN GP 2025",
@@ -5919,6 +5880,7 @@
     "minichamps-019ef971d918717d88f33676584eb03d": {
       "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER AUSTIN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971d918717d88f33676584eb03d?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/90/3c/b1/1795085038/00_417251901.jpg?ts=1795085038",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -6025,6 +5987,7 @@
     "minichamps-019ef971e0b870c487a3afaf31c24f6e": {
       "name": "ORACLE RED BULL RACING RB21 - YUKI TSUNODA - AUSTIN GP 2025",
       "url": "https://www.minichamps.de/en/detail/019ef971e0b870c487a3afaf31c24f6e?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+      "image_url": "https://www.minichamps.de/media/46/8b/e7/1795084924/00_417251922.jpg?ts=1795084924",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
@@ -6367,6 +6330,16 @@
       "year": "2026",
       "availability": "Pre-order"
     },
+    "minichamps-147262003": {
+      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER MEXICO GP 2026 - 1:18 MODEL WITH RAISED ARM",
+      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-MEXICO-GP-2026-1-18-MODEL-WITH-RAISED-ARM/147262003",
+      "product_number": "147262003",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "scale": "1/18",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
     "minichamps-417260110": {
       "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
@@ -6470,6 +6443,15 @@
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - K. ANTONELLI - WORLD CHAMPION - MEXICO GP 2026 W FIGURINE, PITBOARD AND TROPHY",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-K.-ANTONELLI-WORLD-CHAMPION-MEXICO-GP-2026-W-FIGURINE-PITBOARD-AND-TROPHY/417261912",
       "product_number": "417261912",
+      "source": "minichamps",
+      "manufacturer": "Minichamps",
+      "year": "2026",
+      "availability": "Pre-order"
+    },
+    "minichamps-530267204": {
+      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - SILVERSTONE GP 2026",
+      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-SILVERSTONE-GP-2026/530267204",
+      "product_number": "530267204",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -7342,6 +7324,7 @@
     "minichamps-minichamps-1665893": {
       "name": "MERCEDES-AMG PETRONAS F1 TEAM W17 - KIMI ANTONELLI - WINNER MIAMI GP 2026",
       "url": "https://www.minichamps.de/en/MERCEDES-AMG-PETRONAS-F1-TEAM-W17-KIMI-ANTONELLI-WINNER-MIAMI-GP-2026/417260412",
+      "image_url": "https://www.minichamps.de/media/28/0a/61/1795086245/00_417260412.jpg?ts=1795086245",
       "product_number": "417260412",
       "source": "minichamps",
       "manufacturer": "Minichamps",
@@ -7822,15 +7805,6 @@
       "name": "CADILLAC FORMULA 1 TEAM MAC-26 - VALTTERI BOTTAS - BRITISH GP 2026",
       "url": "https://www.minichamps.de/en/CADILLAC-FORMULA-1-TEAM-MAC-26-VALTTERI-BOTTAS-BRITISH-GP-2026/417260977",
       "product_number": "417260977",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
-    "minichamps-minichamps-1668711": {
-      "name": "MCLAREN MASTERCARD F1 TEAM MCL40 - LANDO NORRIS - SILVERSTONE GP 2026",
-      "url": "https://www.minichamps.de/en/MCLAREN-MASTERCARD-F1-TEAM-MCL40-LANDO-NORRIS-SILVERSTONE-GP-2026/530267204",
-      "product_number": "530267204",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -10276,7 +10250,7 @@
       "name": "BWT Alpine Formula One Team A526 No.10 6th Chinese GP 2026 \nPierre Gasly",
       "url": "https://www.sparkmodel.com/products/b973da1c-bacd-41bd-9374-353f8b3e74b9",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/aa7170db-54a3-4c55-9985-b343cfbf5a5b.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "S9366",
       "scale": "1/43",
       "year": "2026",
@@ -10288,7 +10262,7 @@
       "name": "BWT Alpine Formula One Team A526 No.43 10th Chinese GP 2026 \nFranco Colapinto\nWith pit board",
       "url": "https://www.sparkmodel.com/products/a73e7476-f3c6-48ad-a4e1-156a5f260720",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/aab4ba34-cfa5-4dc6-bd7f-ca77315b944b.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "S9367",
       "scale": "1/43",
       "year": "2026",
@@ -10420,7 +10394,7 @@
       "name": "McLaren Mastercard F1 Team MCL40 No.1 Australian GP 2026 \nLando Norris",
       "url": "https://www.sparkmodel.com/products/568e6629-61b8-407a-89b4-29dd2866aac4",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/699f8e87-bb34-4258-babb-5575314ec8a0.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "S9378",
       "scale": "1/43",
       "year": "2026",
@@ -10552,7 +10526,7 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026\nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/fd74ba6e-174b-4a94-b6c9-d348f8686dd7",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/523505df-2fa7-4965-bbad-6d9149ada03e.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "S9389",
       "scale": "1/43",
       "year": "2026",
@@ -11284,7 +11258,7 @@
       "name": "Williams FW47 No.55 Williams Racing\n3rd Azerbaijan GP 2025\nCarlos Sainz \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/6c497cf3-32eb-42ce-b4ae-f980a1c59ca9",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/92269da2-71e8-4496-8a1b-166dc3127215.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "S9633",
       "scale": "1/43",
       "year": "2025",
@@ -11896,7 +11870,7 @@
       "name": "Aston Martin AMR25 No.18 Aston Martin Aramco Formula One Team\n6th Australian GP 2025\nLance Stroll",
       "url": "https://www.sparkmodel.com/products/de3491b5-e4e2-4187-b96c-0b1e25d6db56",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/bddccd3e-64a0-4101-a755-6ed087a0e9c2.webp",
-      "availability": "Latest models",
+      "availability": "Catalogue",
       "product_number": "Y436",
       "scale": "1/64",
       "year": "2025",
@@ -12064,13 +12038,10 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "minichamps-019f620733c17178bbab08a59e2421b9",
-      "minichamps-019f62073563701ea1869b902ed6cb4d",
-      "spark-S9390",
-      "spark-S9391"
+    "added": [
+      "minichamps-530267204"
     ],
+    "changed": [],
     "removed": []
   }
 }
