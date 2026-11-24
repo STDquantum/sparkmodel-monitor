@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-24T11:07:43.741404+00:00",
-  "total": 1031,
+  "updated_at": "2026-11-24T21:09:35.847906+00:00",
+  "total": 1032,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -629,6 +629,19 @@
       "year": "2026",
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/eNUJeZ7J/[Miniatura]BBRC332A44DRSET_4.jpg.aspx",
+      "availability": ""
+    },
+    "bbr-bbrc332b16drset": {
+      "product_id": "bbr-bbrc332b16drset",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Ferrari SF26 F1 Japanese Grand Prix Hamilton - Leclerc",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16drset_ferrari-sf26-f1-japanese-grand-prix-hamilton---leclerc-.aspx",
+      "product_number": "BBRC332B16DRSET",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "SF-26",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/AOuMesmp/[Miniatura]BBRC332B16DRSET_3.jpg.aspx",
       "availability": ""
     },
     "bbr-bbrc332c16": {
@@ -9065,7 +9078,7 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team No.63 F1 W16 \nWinner Canadian GP 2025\nGeorge Russell",
       "url": "https://www.sparkmodel.com/products/8e2a5189-964d-4da2-95cd-d1cb80032575",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/6a11842a-bafa-4adb-95e8-6da6178d17b4.webp",
-      "availability": "In development",
+      "availability": "Latest models",
       "product_number": "64S081",
       "scale": "1/64",
       "year": "2025",
@@ -10301,7 +10314,7 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
       "url": "https://www.sparkmodel.com/products/ccce978f-5ee4-490e-83ca-9a6e0ff04ca3",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/4819e6a7-1cbc-4af4-bfbf-fd72b644e4f0.webp",
-      "availability": "In development",
+      "availability": "Latest models",
       "product_number": "S9365",
       "scale": "1/43",
       "year": "2026",
@@ -11309,7 +11322,7 @@
       "name": "Racing Bulls VCARB 02 No.30 Visa Cash App Racing Bulls\n5th Azerbaijan GP 2025\nLiam Lawson \n(with pit board)",
       "url": "https://www.sparkmodel.com/products/972cf346-65bc-4ce1-98ec-c0318371040a",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/b9e38877-cb1e-4496-87d3-d9998abb9521.webp",
-      "availability": "In development",
+      "availability": "Latest models",
       "product_number": "S9631",
       "scale": "1/43",
       "year": "2025",
@@ -11621,7 +11634,7 @@
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n6th Las Vegas GP 2025\nIsack Hadjar",
       "url": "https://www.sparkmodel.com/products/da8e0541-3689-42e7-a4ea-838090b7bbe1",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/83a448d7-b1b4-4b34-ab88-50cc73a8d3b6.webp",
-      "availability": "In development",
+      "availability": "Latest models",
       "product_number": "S9671",
       "scale": "1/43",
       "year": "2025",
@@ -11741,7 +11754,7 @@
       "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nAbu Dhabi GP 2025\nIsack Hadjar\n(with pit board)",
       "url": "https://www.sparkmodel.com/products/90176ca4-bd2c-4493-9022-98bfc807b1d1",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1a03b6f8-3eb5-4849-86c8-a77dbf5a2417.webp",
-      "availability": "In development",
+      "availability": "Latest models",
       "product_number": "S9681",
       "scale": "1/43",
       "year": "2025",
@@ -11981,7 +11994,7 @@
       "name": "Aston Martin AMR25 No.14 Aston Martin Aramco Formula One Team\nJapanese GP 2025\nFernando Alonso",
       "url": "https://www.sparkmodel.com/products/64f82df1-04cc-4dd3-ad34-5b2ddd97976d",
       "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/0ba0d167-0482-4188-9d3a-ddf70c5024d1.webp",
-      "availability": "In development",
+      "availability": "Latest models",
       "product_number": "Y437",
       "scale": "1/64",
       "year": "2025",
@@ -12050,29 +12063,16 @@
   },
   "changes": {
     "added": [
-      "spark-18S1111",
-      "spark-18S1114",
-      "spark-18S1117",
-      "spark-64S082",
-      "spark-64S085",
-      "spark-S9618",
-      "spark-S9671",
-      "spark-S9681"
+      "bbr-bbrc332b16drset"
     ],
     "changed": [
-      "spark-18S1255",
-      "spark-18S1256",
-      "spark-S9342"
+      "spark-64S081",
+      "spark-S9365",
+      "spark-S9631",
+      "spark-S9671",
+      "spark-S9681",
+      "spark-Y437"
     ],
-    "removed": [
-      "spark-shop-2025-18S1111",
-      "spark-shop-2025-18S1114",
-      "spark-shop-2025-18S1117",
-      "spark-shop-2025-64S082",
-      "spark-shop-2025-64S085",
-      "spark-shop-2025-S9618",
-      "spark-shop-2025-S9671",
-      "spark-shop-2025-S9681"
-    ]
+    "removed": []
   }
 }

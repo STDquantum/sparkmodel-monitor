@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:07:50.679597+00:00",
+  "generated_at": "2026-11-24T21:09:43.792946+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1084,6 +1084,37 @@
       "properties": {
         "Year": "2026",
         "Product number": "BBRC332A44DRSET",
+        "Scale": "1/43",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
+    },
+    {
+      "id": "bbr-bbrc332b16drset",
+      "name": "Ferrari SF26 F1 Japanese Grand Prix Hamilton - Leclerc",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16drset_ferrari-sf26-f1-japanese-grand-prix-hamilton---leclerc-.aspx",
+      "images": [
+        "images/bbr-bbrc332b16drset-1.jpg",
+        "images/bbr-bbrc332b16drset-2.jpg",
+        "images/bbr-bbrc332b16drset-3.jpg",
+        "images/bbr-bbrc332b16drset-4.jpg",
+        "images/bbr-bbrc332b16drset-5.jpg",
+        "images/bbr-bbrc332b16drset-6.jpg",
+        "images/bbr-bbrc332b16drset-7.jpg",
+        "images/bbr-bbrc332b16drset-8.jpg",
+        "images/bbr-bbrc332b16drset-9.jpg",
+        "images/bbr-bbrc332b16drset-10.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRC332B16DRSET",
         "Scale": "1/43",
         "Model": "SF-26"
       },
@@ -24381,7 +24412,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Latest models"
     },
     {
       "id": "spark-64S082",
@@ -26946,8 +26977,8 @@
       "name": "Mercedes-AMG PETRONAS F1 Team W17 No.12 Winner Japanese GP 2026 \nKimi Antonelli\n(With figurine)",
       "url": "https://www.sparkmodel.com/products/ccce978f-5ee4-490e-83ca-9a6e0ff04ca3",
       "images": [
-        "images/spark-S9365-1.webp",
         "images/spark-S9365-2.webp",
+        "images/spark-S9365-1.webp",
         "images/spark-S9365-3.webp",
         "images/spark-S9365-4.webp",
         "images/spark-S9365-5.webp",
@@ -26956,7 +26987,8 @@
         "images/spark-S9365-8.webp",
         "images/spark-S9365-9.webp",
         "images/spark-S9365-10.webp",
-        "images/spark-S9365-11.webp"
+        "images/spark-S9365-11.webp",
+        "images/spark-S9365-12.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
@@ -26975,7 +27007,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9366",
@@ -29645,7 +29677,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9632",
@@ -30568,7 +30600,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9672",
@@ -30921,7 +30953,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Latest models"
     },
     {
       "id": "spark-S9682",
@@ -31631,7 +31663,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "In development"
+      "availability": "Latest models"
     },
     {
       "id": "spark-Y438",
