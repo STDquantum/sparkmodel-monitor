@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-23T13:46:13.779360+00:00",
+  "updated_at": "2026-11-24T01:17:29.664284+00:00",
   "total": 1031,
   "items": {
     "bbr-bbr1229c16": {
@@ -616,6 +616,19 @@
       "year": "2026",
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/LWFpLdhb/[Miniatura]BBRC332A44_1.jpg.aspx",
+      "availability": ""
+    },
+    "bbr-bbrc332a44drset": {
+      "product_id": "bbr-bbrc332a44drset",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Ferrari SF26 F1 Chinese Grand Prix Hamilton - Leclerc",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a44drset_ferrari-sf26-f1-chinese-grand-prix-hamilton---leclerc.aspx",
+      "product_number": "BBRC332A44DRSET",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "SF-26",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/eNUJeZ7J/[Miniatura]BBRC332A44DRSET_4.jpg.aspx",
       "availability": ""
     },
     "bbr-bbrc332c16": {
@@ -6330,16 +6343,6 @@
       "year": "2026",
       "availability": "Pre-order"
     },
-    "minichamps-147262003": {
-      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER MEXICO GP 2026 - 1:18 MODEL WITH RAISED ARM",
-      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-MEXICO-GP-2026-1-18-MODEL-WITH-RAISED-ARM/147262003",
-      "product_number": "147262003",
-      "source": "minichamps",
-      "manufacturer": "Minichamps",
-      "scale": "1/18",
-      "year": "2026",
-      "availability": "Pre-order"
-    },
     "minichamps-417260110": {
       "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
@@ -9397,7 +9400,7 @@
       "source_id": "7bb91d82-8a78-45d1-9acc-6abaddee5b59",
       "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
       "url": "https://www.sparkmodel.com/products/7bb91d82-8a78-45d1-9acc-6abaddee5b59",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/199a36cc-5009-494f-ad5b-b661c82cb915.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/47ad606a-7858-446b-b154-32731331d8cf.webp",
       "availability": "In development",
       "product_number": "64S134",
       "scale": "1/64",
@@ -9409,7 +9412,7 @@
       "source_id": "13b561f1-bf62-492f-932f-656a92b3f34b",
       "name": "Audi Revolut F1 Team R26 No.5 9th Australian GP 2026 \nGabriel Bortoleto",
       "url": "https://www.sparkmodel.com/products/13b561f1-bf62-492f-932f-656a92b3f34b",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/add3b6e0-c1e2-4d96-9cd7-d838702528c8.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/f96ce3e3-d92d-43f7-a1ae-b15ee29b3903.webp",
       "availability": "In development",
       "product_number": "64S135",
       "scale": "1/64",
@@ -12038,11 +12041,15 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "minichamps-019ef970b1b87244b3c6accd8cecea50",
-      "minichamps-019ef971cfc073878d17bd46dc775b23"
+    "added": [
+      "bbr-bbrc332a44drset"
     ],
-    "removed": []
+    "changed": [
+      "spark-64S134",
+      "spark-64S135"
+    ],
+    "removed": [
+      "minichamps-147262003"
+    ]
   }
 }

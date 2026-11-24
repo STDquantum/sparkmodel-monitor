@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:46:22.221563+00:00",
+  "generated_at": "2026-11-24T01:17:39.757678+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1054,6 +1054,36 @@
       "properties": {
         "Year": "2026",
         "Product number": "BBRC332A44",
+        "Scale": "1/43",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
+    },
+    {
+      "id": "bbr-bbrc332a44drset",
+      "name": "Ferrari SF26 F1 Chinese Grand Prix Hamilton - Leclerc",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332a44drset_ferrari-sf26-f1-chinese-grand-prix-hamilton---leclerc.aspx",
+      "images": [
+        "images/bbr-bbrc332a44drset-1.jpg",
+        "images/bbr-bbrc332a44drset-2.jpg",
+        "images/bbr-bbrc332a44drset-3.jpg",
+        "images/bbr-bbrc332a44drset-4.jpg",
+        "images/bbr-bbrc332a44drset-5.jpg",
+        "images/bbr-bbrc332a44drset-6.jpg",
+        "images/bbr-bbrc332a44drset-7.jpg",
+        "images/bbr-bbrc332a44drset-8.jpg",
+        "images/bbr-bbrc332a44drset-9.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRC332A44DRSET",
         "Scale": "1/43",
         "Model": "SF-26"
       },
@@ -16982,31 +17012,6 @@
       "availability": "available for preorder"
     },
     {
-      "id": "minichamps-147262003",
-      "name": "ORACLE RED BULL RACING RB22 - MAX VERSTAPPEN - WINNER MEXICO GP 2026 - 1:18 MODEL WITH RAISED ARM",
-      "url": "https://www.minichamps.de/en/ORACLE-RED-BULL-RACING-RB22-MAX-VERSTAPPEN-WINNER-MEXICO-GP-2026-1-18-MODEL-WITH-RAISED-ARM/147262003",
-      "images": [],
-      "properties": {
-        "Year": "2026",
-        "Product number": "147262003",
-        "Scale": "1/18",
-        "Properties": "Download product data sheet as PDF",
-        "Availability": "available for preorder",
-        "Brand": "RED BULL RACING",
-        "Driver": "VERSTAPPEN, MAX",
-        "Material": "RESIN",
-        "Model": "RB22"
-      },
-      "description": "",
-      "brand": "Minichamps",
-      "price": "199.96",
-      "currency": "EUR",
-      "gtin": "",
-      "weight": "",
-      "length": "",
-      "availability": "available for preorder"
-    },
-    {
       "id": "minichamps-417260110",
       "name": "BWT ALPINE F1 TEAM A526 - PIERRE GASLY - AUSTRALIAN GP 2026",
       "url": "https://www.minichamps.de/en/BWT-ALPINE-F1-TEAM-A526-PIERRE-GASLY-AUSTRALIAN-GP-2026/417260110",
@@ -25117,7 +25122,9 @@
       "name": "Audi Revolut F1 Team R26 No.27 Australian GP 2026 \nNico Hulkenberg",
       "url": "https://www.sparkmodel.com/products/7bb91d82-8a78-45d1-9acc-6abaddee5b59",
       "images": [
-        "images/spark-64S134-1.webp"
+        "images/spark-64S134-1.webp",
+        "images/spark-64S134-2.webp",
+        "images/spark-64S134-3.webp"
       ],
       "properties": {
         "Manufacturer": "Audi",
@@ -25143,7 +25150,9 @@
       "name": "Audi Revolut F1 Team R26 No.5 9th Australian GP 2026 \nGabriel Bortoleto",
       "url": "https://www.sparkmodel.com/products/13b561f1-bf62-492f-932f-656a92b3f34b",
       "images": [
-        "images/spark-64S135-1.webp"
+        "images/spark-64S135-1.webp",
+        "images/spark-64S135-2.webp",
+        "images/spark-64S135-3.webp"
       ],
       "properties": {
         "Manufacturer": "Audi",
