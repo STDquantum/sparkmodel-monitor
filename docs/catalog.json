@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T01:17:39.757678+00:00",
+  "generated_at": "2026-11-24T11:07:50.679597+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -23167,6 +23167,30 @@
       "availability": "Coming soon"
     },
     {
+      "id": "spark-18S1111",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar\n(With pit board)",
+      "url": "https://www.sparkmodel.com/products/d6ac4b2d-1d45-4971-b111-0f78c03b8df7",
+      "images": [],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/18",
+        "Year": "2025",
+        "Product number": "18S1111",
+        "Driver": "Isack Hadjar",
+        "Grand Prix": "Dutch Grand Prix",
+        "Result": "3rd"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Coming soon"
+    },
+    {
       "id": "spark-18S1112",
       "name": "McLaren MCL39 No.81 McLaren Formula 1 Team\nWinner Belgian GP 2025\nOscar Piastri",
       "url": "https://www.sparkmodel.com/products/50e0b7e5-3095-4bfe-aa70-0fea4432ce06",
@@ -23239,6 +23263,27 @@
       "availability": "Latest models"
     },
     {
+      "id": "spark-18S1114",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/c3adaf0e-3fbf-4d9a-ac86-3925ff226aa9",
+      "images": [],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/18",
+        "Year": "2025",
+        "Product number": "18S1114"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Coming soon"
+    },
+    {
       "id": "spark-18S1116",
       "name": "Oracle Red Bull Racing RB21 No.1 Winner Las Vegas GP 2025\nMax Verstappen\n( with pit board )",
       "url": "https://www.sparkmodel.com/products/83fb50d7-3958-434f-865a-fe8f1e146f2e",
@@ -23274,6 +23319,30 @@
       "weight": "",
       "length": "",
       "availability": "Latest models"
+    },
+    {
+      "id": "spark-18S1117",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n6th Las Vegas GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/77cd0b9a-d986-471a-9570-cfe72fb92b39",
+      "images": [],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/18",
+        "Year": "2025",
+        "Product number": "18S1117",
+        "Driver": "Isack Hadjar",
+        "Grand Prix": "Las Vegas Grand Prix",
+        "Result": "6th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Coming soon"
     },
     {
       "id": "spark-18S1118",
@@ -23502,7 +23571,9 @@
       "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026\nSergio Perez",
       "url": "https://www.sparkmodel.com/products/49538452-3a86-4fcd-8dc1-25f585732999",
       "images": [
-        "images/spark-18S1255-1.webp"
+        "images/spark-18S1255-1.webp",
+        "images/spark-18S1255-2.webp",
+        "images/spark-18S1255-3.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",
@@ -23528,7 +23599,9 @@
       "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026\nValtteri Bottas",
       "url": "https://www.sparkmodel.com/products/68817a48-1a6a-419c-a903-886842ab20fe",
       "images": [
-        "images/spark-18S1256-1.webp"
+        "images/spark-18S1256-1.webp",
+        "images/spark-18S1256-2.webp",
+        "images/spark-18S1256-3.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",
@@ -24311,6 +24384,30 @@
       "availability": "In development"
     },
     {
+      "id": "spark-64S082",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\nCanadian GP 2025\nYuki Tsunoda\nYuki’s 100th Race",
+      "url": "https://www.sparkmodel.com/products/bc651285-b7f2-4cdf-8140-a0bb6ad30a88",
+      "images": [],
+      "properties": {
+        "Manufacturer": "Red Bull",
+        "Model": "RB21",
+        "Scale": "1/64",
+        "Year": "2025",
+        "Product number": "64S082",
+        "Driver": "Yuki Tsunoda",
+        "Grand Prix": "Canadian Grand Prix",
+        "Result": "12th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
       "id": "spark-64S083",
       "name": "BWT Alpine Formula One Team A525 Abu Dhabi GP 2025\nPierre Gasly & Franco Colapinto\nMerci, Viry",
       "url": "https://www.sparkmodel.com/products/053ffa6d-fe46-47f2-a7ca-e0eb4704a37a",
@@ -24368,6 +24465,27 @@
       "weight": "",
       "length": "",
       "availability": "Catalogue"
+    },
+    {
+      "id": "spark-64S085",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/aa20d59a-dcb5-4fa9-8af1-05d5cd159bb1",
+      "images": [],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/64",
+        "Year": "2025",
+        "Product number": "64S085"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
     },
     {
       "id": "spark-64S086",
@@ -26590,7 +26708,9 @@
       "name": "BWT Alpine Formula One Team A526 No.10 7th Monaco GP 2026\nPierre Gasly",
       "url": "https://www.sparkmodel.com/products/85a57dfe-f5c4-41c9-8464-cb53f561eb18",
       "images": [
-        "images/spark-S9342-1.webp"
+        "images/spark-S9342-1.webp",
+        "images/spark-S9342-2.webp",
+        "images/spark-S9342-3.webp"
       ],
       "properties": {
         "Manufacturer": "Alpine",
@@ -29054,6 +29174,30 @@
       "availability": "Catalogue"
     },
     {
+      "id": "spark-S9618",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\nCanadian GP 2025\nYuki Tsunoda\nYuki’s 100th Race",
+      "url": "https://www.sparkmodel.com/products/af7c0e53-5580-4878-b279-1ffecc36ee9c",
+      "images": [],
+      "properties": {
+        "Manufacturer": "Red Bull",
+        "Model": "RB21",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Product number": "S9618",
+        "Driver": "Yuki Tsunoda",
+        "Grand Prix": "Canadian Grand Prix",
+        "Result": "12th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "Catalogue"
+    },
+    {
       "id": "spark-S9619",
       "name": "Haas VF-25 No.31 MoneyGram Haas F1 Team\nCanadian GP 2025 - 200th GP\nEsteban Ocon",
       "url": "https://www.sparkmodel.com/products/654186dc-bb3b-44ac-b073-9584af8a7538",
@@ -30390,6 +30534,43 @@
       "availability": "Catalogue"
     },
     {
+      "id": "spark-S9671",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n6th Las Vegas GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/da8e0541-3689-42e7-a4ea-838090b7bbe1",
+      "images": [
+        "images/spark-S9671-1.webp",
+        "images/spark-S9671-2.webp",
+        "images/spark-S9671-3.webp",
+        "images/spark-S9671-4.webp",
+        "images/spark-S9671-5.webp",
+        "images/spark-S9671-6.webp",
+        "images/spark-S9671-7.webp",
+        "images/spark-S9671-8.webp",
+        "images/spark-S9671-9.webp",
+        "images/spark-S9671-10.webp",
+        "images/spark-S9671-11.webp",
+        "images/spark-S9671-12.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Product number": "S9671",
+        "Driver": "Isack Hadjar",
+        "Grand Prix": "Las Vegas Grand Prix",
+        "Result": "6th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
+    },
+    {
       "id": "spark-S9672",
       "name": "Atlassian Williams F1 Team FW47 No.55 5th Las Vegas GP 2025\nCarlos Sainz Jr.",
       "url": "https://www.sparkmodel.com/products/0b4a370a-87fd-404a-b319-c19647893c47",
@@ -30704,6 +30885,43 @@
       "weight": "",
       "length": "",
       "availability": "Catalogue"
+    },
+    {
+      "id": "spark-S9681",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nAbu Dhabi GP 2025\nIsack Hadjar\n(with pit board)",
+      "url": "https://www.sparkmodel.com/products/90176ca4-bd2c-4493-9022-98bfc807b1d1",
+      "images": [
+        "images/spark-S9681-1.webp",
+        "images/spark-S9681-2.webp",
+        "images/spark-S9681-3.webp",
+        "images/spark-S9681-4.webp",
+        "images/spark-S9681-5.webp",
+        "images/spark-S9681-6.webp",
+        "images/spark-S9681-7.webp",
+        "images/spark-S9681-8.webp",
+        "images/spark-S9681-9.webp",
+        "images/spark-S9681-10.webp",
+        "images/spark-S9681-11.webp",
+        "images/spark-S9681-12.webp"
+      ],
+      "properties": {
+        "Manufacturer": "Racing Bulls",
+        "Model": "VCARB 02",
+        "Scale": "1/43",
+        "Year": "2025",
+        "Product number": "S9681",
+        "Driver": "Isack Hadjar",
+        "Grand Prix": "Abu Dhabi Grand Prix",
+        "Result": "17th"
+      },
+      "description": "",
+      "brand": "Spark",
+      "price": "",
+      "currency": "",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": "In development"
     },
     {
       "id": "spark-S9682",
@@ -31580,262 +31798,6 @@
       "weight": "",
       "length": "",
       "availability": "Catalogue"
-    },
-    {
-      "id": "spark-shop-2025-18S1111",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (With pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/18s1111-de",
-      "images": [
-        "images/spark-shop-2025-18S1111-1.webp",
-        "images/spark-shop-2025-18S1111-2.webp",
-        "images/spark-shop-2025-18S1111-3.webp",
-        "images/spark-shop-2025-18S1111-4.webp",
-        "images/spark-shop-2025-18S1111-5.webp",
-        "images/spark-shop-2025-18S1111-6.webp",
-        "images/spark-shop-2025-18S1111-7.webp",
-        "images/spark-shop-2025-18S1111-8.webp",
-        "images/spark-shop-2025-18S1111-9.webp",
-        "images/spark-shop-2025-18S1111-10.webp",
-        "images/spark-shop-2025-18S1111-11.webp",
-        "images/spark-shop-2025-18S1111-12.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/18",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "18S1111",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9581677811119",
-      "brand": "Spark",
-      "price": "220",
-      "currency": "EUR",
-      "gtin": "9581677811119",
-      "weight": "2 kg",
-      "length": "",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-18S1114",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/18s1114-de",
-      "images": [
-        "images/spark-shop-2025-18S1114-1.webp",
-        "images/spark-shop-2025-18S1114-2.webp",
-        "images/spark-shop-2025-18S1114-3.webp",
-        "images/spark-shop-2025-18S1114-4.webp",
-        "images/spark-shop-2025-18S1114-5.webp",
-        "images/spark-shop-2025-18S1114-6.webp",
-        "images/spark-shop-2025-18S1114-7.webp",
-        "images/spark-shop-2025-18S1114-8.webp",
-        "images/spark-shop-2025-18S1114-9.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/18",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "18S1114",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9581677811140",
-      "brand": "Spark",
-      "price": "220",
-      "currency": "EUR",
-      "gtin": "9581677811140",
-      "weight": "2 kg",
-      "length": "",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-18S1117",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/18s1117-de",
-      "images": [
-        "images/spark-shop-2025-18S1117-1.webp",
-        "images/spark-shop-2025-18S1117-2.webp",
-        "images/spark-shop-2025-18S1117-3.webp",
-        "images/spark-shop-2025-18S1117-4.webp",
-        "images/spark-shop-2025-18S1117-5.webp",
-        "images/spark-shop-2025-18S1117-6.webp",
-        "images/spark-shop-2025-18S1117-7.webp",
-        "images/spark-shop-2025-18S1117-8.webp",
-        "images/spark-shop-2025-18S1117-9.webp",
-        "images/spark-shop-2025-18S1117-10.webp",
-        "images/spark-shop-2025-18S1117-11.webp",
-        "images/spark-shop-2025-18S1117-12.webp",
-        "images/spark-shop-2025-18S1117-13.webp",
-        "images/spark-shop-2025-18S1117-14.webp",
-        "images/spark-shop-2025-18S1117-15.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/18",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "18S1117",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9581677811171",
-      "brand": "Spark",
-      "price": "220",
-      "currency": "EUR",
-      "gtin": "9581677811171",
-      "weight": "2 kg",
-      "length": "",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-64S082",
-      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
-      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/64s082-de",
-      "images": [
-        "images/spark-shop-2025-64S082-1.webp",
-        "images/spark-shop-2025-64S082-2.webp",
-        "images/spark-shop-2025-64S082-3.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/64",
-        "Material": "Diecast",
-        "Manufacturer": "Spark",
-        "Product number": "64S082",
-        "Model": "RB21"
-      },
-      "description": "GTIN/EAN: 9580006360823",
-      "brand": "Spark",
-      "price": "19.95",
-      "currency": "EUR",
-      "gtin": "9580006360823",
-      "weight": "0.06 kg",
-      "length": "",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-64S085",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/64s085-de",
-      "images": [
-        "images/spark-shop-2025-64S085-1.webp",
-        "images/spark-shop-2025-64S085-2.webp",
-        "images/spark-shop-2025-64S085-3.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/64",
-        "Material": "Diecast",
-        "Manufacturer": "Spark",
-        "Product number": "64S085",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9580006360854",
-      "brand": "Spark",
-      "price": "19.95",
-      "currency": "EUR",
-      "gtin": "9580006360854",
-      "weight": "0.06 kg",
-      "length": "",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-S9618",
-      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
-      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/s9618-de",
-      "images": [
-        "images/spark-shop-2025-S9618-1.webp",
-        "images/spark-shop-2025-S9618-2.webp",
-        "images/spark-shop-2025-S9618-3.webp",
-        "images/spark-shop-2025-S9618-4.webp",
-        "images/spark-shop-2025-S9618-5.webp",
-        "images/spark-shop-2025-S9618-6.webp",
-        "images/spark-shop-2025-S9618-7.webp",
-        "images/spark-shop-2025-S9618-8.webp",
-        "images/spark-shop-2025-S9618-9.webp",
-        "images/spark-shop-2025-S9618-10.webp",
-        "images/spark-shop-2025-S9618-11.webp",
-        "images/spark-shop-2025-S9618-12.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/43",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "S9618",
-        "Model": "RB21"
-      },
-      "description": "GTIN/EAN: 9580006996183",
-      "brand": "Spark",
-      "price": "89",
-      "currency": "EUR",
-      "gtin": "9580006996183",
-      "weight": "0.18 kg",
-      "length": "",
-      "availability": "Available"
-    },
-    {
-      "id": "spark-shop-2025-S9671",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/s9671-de",
-      "images": [
-        "images/spark-shop-2025-S9671-1.webp",
-        "images/spark-shop-2025-S9671-4.webp",
-        "images/spark-shop-2025-S9671-5.webp",
-        "images/spark-shop-2025-S9671-7.webp",
-        "images/spark-shop-2025-S9671-8.webp",
-        "images/spark-shop-2025-S9671-9.webp",
-        "images/spark-shop-2025-S9671-10.webp",
-        "images/spark-shop-2025-S9671-11.webp",
-        "images/spark-shop-2025-S9671-12.webp",
-        "images/spark-shop-2025-S9671-13.webp",
-        "images/spark-shop-2025-S9671-14.webp",
-        "images/spark-shop-2025-S9671-15.webp",
-        "images/spark-shop-2025-S9671-2.webp",
-        "images/spark-shop-2025-S9671-3.webp",
-        "images/spark-shop-2025-S9671-6.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/43",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "S9671",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9580006996718",
-      "brand": "Spark",
-      "price": "89",
-      "currency": "EUR",
-      "gtin": "9580006996718",
-      "weight": "0.18 kg",
-      "length": "",
-      "availability": "Pre-order"
-    },
-    {
-      "id": "spark-shop-2025-S9681",
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team Abu Dhabi GP 2025 Isack Hadjar (with pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-abu-dhabi-gp-2025-isack-hadjar-with-pit-board/s9681-de",
-      "images": [
-        "images/spark-shop-2025-S9681-1.webp",
-        "images/spark-shop-2025-S9681-2.webp",
-        "images/spark-shop-2025-S9681-3.webp"
-      ],
-      "properties": {
-        "Year": "2025",
-        "Scale": "1/43",
-        "Material": "Resin",
-        "Manufacturer": "Spark",
-        "Product number": "S9681",
-        "Model": "VCARB 02"
-      },
-      "description": "GTIN/EAN: 9580006996817",
-      "brand": "Spark",
-      "price": "92",
-      "currency": "EUR",
-      "gtin": "9580006996817",
-      "weight": "0.18 kg",
-      "length": "",
-      "availability": "Pre-order"
     }
   ]
 }

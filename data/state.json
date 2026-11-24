@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-24T01:17:29.664284+00:00",
+  "updated_at": "2026-11-24T11:07:43.741404+00:00",
   "total": 1031,
   "items": {
     "bbr-bbr1229c16": {
@@ -8591,6 +8591,18 @@
       "year": "2025",
       "manufacturer": "Mercedes F1"
     },
+    "spark-18S1111": {
+      "source": "sparkmodel",
+      "source_id": "d6ac4b2d-1d45-4971-b111-0f78c03b8df7",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n3rd Dutch GP 2025\nIsack Hadjar\n(With pit board)",
+      "url": "https://www.sparkmodel.com/products/d6ac4b2d-1d45-4971-b111-0f78c03b8df7",
+      "image_url": null,
+      "availability": "Coming soon",
+      "product_number": "18S1111",
+      "scale": "1/18",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
+    },
     "spark-18S1112": {
       "source": "sparkmodel",
       "source_id": "50e0b7e5-3095-4bfe-aa70-0fea4432ce06",
@@ -8615,6 +8627,18 @@
       "year": "2025",
       "manufacturer": "Red Bull"
     },
+    "spark-18S1114": {
+      "source": "sparkmodel",
+      "source_id": "c3adaf0e-3fbf-4d9a-ac86-3925ff226aa9",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/c3adaf0e-3fbf-4d9a-ac86-3925ff226aa9",
+      "image_url": null,
+      "availability": "Coming soon",
+      "product_number": "18S1114",
+      "scale": "1/18",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
+    },
     "spark-18S1116": {
       "source": "sparkmodel",
       "source_id": "83fb50d7-3958-434f-865a-fe8f1e146f2e",
@@ -8626,6 +8650,18 @@
       "scale": "1/18",
       "year": "2025",
       "manufacturer": "Red Bull"
+    },
+    "spark-18S1117": {
+      "source": "sparkmodel",
+      "source_id": "77cd0b9a-d986-471a-9570-cfe72fb92b39",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n6th Las Vegas GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/77cd0b9a-d986-471a-9570-cfe72fb92b39",
+      "image_url": null,
+      "availability": "Coming soon",
+      "product_number": "18S1117",
+      "scale": "1/18",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
     },
     "spark-18S1118": {
       "source": "sparkmodel",
@@ -8704,7 +8740,7 @@
       "source_id": "49538452-3a86-4fcd-8dc1-25f585732999",
       "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026\nSergio Perez",
       "url": "https://www.sparkmodel.com/products/49538452-3a86-4fcd-8dc1-25f585732999",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/972b68fd-cea8-4861-b979-ba743cf5d7a3.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/eaca192e-e89e-4e85-9b88-f12d7b718b74.webp",
       "availability": "In development",
       "product_number": "18S1255",
       "scale": "1/18",
@@ -8716,7 +8752,7 @@
       "source_id": "68817a48-1a6a-419c-a903-886842ab20fe",
       "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026\nValtteri Bottas",
       "url": "https://www.sparkmodel.com/products/68817a48-1a6a-419c-a903-886842ab20fe",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/df655159-5b82-4ffa-8bcf-aa8a874371fa.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/2073aacf-ecde-40c5-8c32-5e95860491f3.webp",
       "availability": "In development",
       "product_number": "18S1256",
       "scale": "1/18",
@@ -9035,6 +9071,18 @@
       "year": "2025",
       "manufacturer": "Mercedes F1"
     },
+    "spark-64S082": {
+      "source": "sparkmodel",
+      "source_id": "bc651285-b7f2-4cdf-8140-a0bb6ad30a88",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\nCanadian GP 2025\nYuki Tsunoda\nYuki’s 100th Race",
+      "url": "https://www.sparkmodel.com/products/bc651285-b7f2-4cdf-8140-a0bb6ad30a88",
+      "image_url": null,
+      "availability": "In development",
+      "product_number": "64S082",
+      "scale": "1/64",
+      "year": "2025",
+      "manufacturer": "Red Bull"
+    },
     "spark-64S083": {
       "source": "sparkmodel",
       "source_id": "053ffa6d-fe46-47f2-a7ca-e0eb4704a37a",
@@ -9058,6 +9106,18 @@
       "scale": "1/64",
       "year": "2025",
       "manufacturer": "McLaren"
+    },
+    "spark-64S085": {
+      "source": "sparkmodel",
+      "source_id": "aa20d59a-dcb5-4fa9-8af1-05d5cd159bb1",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nUS GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/aa20d59a-dcb5-4fa9-8af1-05d5cd159bb1",
+      "image_url": null,
+      "availability": "In development",
+      "product_number": "64S085",
+      "scale": "1/64",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
     },
     "spark-64S086": {
       "source": "sparkmodel",
@@ -10132,7 +10192,7 @@
       "source_id": "85a57dfe-f5c4-41c9-8464-cb53f561eb18",
       "name": "BWT Alpine Formula One Team A526 No.10 7th Monaco GP 2026\nPierre Gasly",
       "url": "https://www.sparkmodel.com/products/85a57dfe-f5c4-41c9-8464-cb53f561eb18",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/56b70faa-11dd-4695-8d14-39fe40d0e3fa.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/21c2734b-eda2-41ac-a3f9-c1e558ef33b6.webp",
       "availability": "In development",
       "product_number": "S9342",
       "scale": "1/43",
@@ -11087,6 +11147,18 @@
       "year": "2025",
       "manufacturer": "Mercedes F1"
     },
+    "spark-S9618": {
+      "source": "sparkmodel",
+      "source_id": "af7c0e53-5580-4878-b279-1ffecc36ee9c",
+      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing\nCanadian GP 2025\nYuki Tsunoda\nYuki’s 100th Race",
+      "url": "https://www.sparkmodel.com/products/af7c0e53-5580-4878-b279-1ffecc36ee9c",
+      "image_url": null,
+      "availability": "Catalogue",
+      "product_number": "S9618",
+      "scale": "1/43",
+      "year": "2025",
+      "manufacturer": "Red Bull"
+    },
     "spark-S9619": {
       "source": "sparkmodel",
       "source_id": "654186dc-bb3b-44ac-b073-9584af8a7538",
@@ -11543,6 +11615,18 @@
       "year": "2025",
       "manufacturer": "Mercedes F1"
     },
+    "spark-S9671": {
+      "source": "sparkmodel",
+      "source_id": "da8e0541-3689-42e7-a4ea-838090b7bbe1",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\n6th Las Vegas GP 2025\nIsack Hadjar",
+      "url": "https://www.sparkmodel.com/products/da8e0541-3689-42e7-a4ea-838090b7bbe1",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/83a448d7-b1b4-4b34-ab88-50cc73a8d3b6.webp",
+      "availability": "In development",
+      "product_number": "S9671",
+      "scale": "1/43",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
+    },
     "spark-S9672": {
       "source": "sparkmodel",
       "source_id": "0b4a370a-87fd-404a-b319-c19647893c47",
@@ -11650,6 +11734,18 @@
       "scale": "1/43",
       "year": "2025",
       "manufacturer": "Red Bull"
+    },
+    "spark-S9681": {
+      "source": "sparkmodel",
+      "source_id": "90176ca4-bd2c-4493-9022-98bfc807b1d1",
+      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team\nAbu Dhabi GP 2025\nIsack Hadjar\n(with pit board)",
+      "url": "https://www.sparkmodel.com/products/90176ca4-bd2c-4493-9022-98bfc807b1d1",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/1a03b6f8-3eb5-4849-86c8-a77dbf5a2417.webp",
+      "availability": "In development",
+      "product_number": "S9681",
+      "scale": "1/43",
+      "year": "2025",
+      "manufacturer": "Racing Bulls"
     },
     "spark-S9682": {
       "source": "sparkmodel",
@@ -11950,106 +12046,33 @@
       "scale": "1/64",
       "year": "2025",
       "manufacturer": "Red Bull"
-    },
-    "spark-shop-2025-18S1111": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 3rd Dutch GP 2025 Isack Hadjar (With pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-3rd-dutch-gp-2025-isack-hadjar-with-pit-board/18s1111-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/08/34/cd/1788244429/2f63bc1f6de44b73a88e88c2c226532a.webp?ts=1791883487",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/18",
-      "year": "2025",
-      "product_number": "18S1111",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-18S1114": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/18s1114-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/a6/ca/5e/1791769339/db13ac5ddd9b4a67a29dfb53ac7c0573.webp?ts=1791883564",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/18",
-      "year": "2025",
-      "product_number": "18S1114",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-18S1117": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/18s1117-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/c4/03/65/1789116472/5855f6fc0b9d4c59a93acb31185a3f9d.webp?ts=1791883633",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/18",
-      "year": "2025",
-      "product_number": "18S1117",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-64S082": {
-      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
-      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/64s082-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/cf/c5/64/1784560558/c45c93a63ffd4e74ab70d63c4b593354.webp?ts=1791893137",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/64",
-      "year": "2025",
-      "product_number": "64S082",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-64S085": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team US GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-us-gp-2025-isack-hadjar/64s085-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/4d/4e/c1/1784560600/5d20ea2824e149e2977092e49b7ab0af.webp?ts=1791893165",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/64",
-      "year": "2025",
-      "product_number": "64S085",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-S9618": {
-      "name": "Red Bull Racing RB21 No.22 Oracle Red Bull Racing Canadian GP 2025 Yuki Tsunoda Yuki’s 100th Race",
-      "url": "https://www.sparkmodelshop.com/de/en/red-bull-racing-rb21-no.22-oracle-red-bull-racing-canadian-gp-2025-yuki-tsunoda-yuki-s-100th-race/s9618-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/fd/62/c3/1784567202/6e8a820cde4a4be0834ee79815476169.webp?ts=1792035731",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/43",
-      "year": "2025",
-      "availability": "Available",
-      "product_number": "S9618"
-    },
-    "spark-shop-2025-S9671": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team 6th Las Vegas GP 2025 Isack Hadjar",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-6th-las-vegas-gp-2025-isack-hadjar/s9671-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/15/19/23/1784686443/d7d1486216434a76ba48b981db5651c2.webp?ts=1792035690",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/43",
-      "year": "2025",
-      "product_number": "S9671",
-      "availability": "Pre-order"
-    },
-    "spark-shop-2025-S9681": {
-      "name": "Racing Bulls VCARB 02 No.6 Visa Cash App Racing Bulls Formula One Team Abu Dhabi GP 2025 Isack Hadjar (with pit board)",
-      "url": "https://www.sparkmodelshop.com/de/en/racing-bulls-vcarb-02-no.6-visa-cash-app-racing-bulls-formula-one-team-abu-dhabi-gp-2025-isack-hadjar-with-pit-board/s9681-de",
-      "image_url": "https://spark-shopware.fra1.cdn.digitaloceanspaces.com/media/af/c1/ed/1784567762/a81524576f2b48fa873b425d86c49be9.webp?ts=1792035682",
-      "source": "sparkmodelshop",
-      "manufacturer": "Spark",
-      "scale": "1/43",
-      "year": "2025",
-      "product_number": "S9681",
-      "availability": "Pre-order"
     }
   },
   "changes": {
     "added": [
-      "bbr-bbrc332a44drset"
+      "spark-18S1111",
+      "spark-18S1114",
+      "spark-18S1117",
+      "spark-64S082",
+      "spark-64S085",
+      "spark-S9618",
+      "spark-S9671",
+      "spark-S9681"
     ],
     "changed": [
-      "spark-64S134",
-      "spark-64S135"
+      "spark-18S1255",
+      "spark-18S1256",
+      "spark-S9342"
     ],
     "removed": [
-      "minichamps-147262003"
+      "spark-shop-2025-18S1111",
+      "spark-shop-2025-18S1114",
+      "spark-shop-2025-18S1117",
+      "spark-shop-2025-64S082",
+      "spark-shop-2025-64S085",
+      "spark-shop-2025-S9618",
+      "spark-shop-2025-S9671",
+      "spark-shop-2025-S9681"
     ]
   }
 }
