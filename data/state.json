@@ -56,7 +56,7 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-24T21:09:35.847906+00:00",
+  "updated_at": "2026-11-25T14:23:29.451261+00:00",
   "total": 1032,
   "items": {
     "bbr-bbr1229c16": {
@@ -5525,7 +5525,7 @@
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2025",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540": {
       "name": "FERRARI SF-25 - LEWIS HAMILTON - MONACO GP 2025",
@@ -10421,7 +10421,7 @@
       "source_id": "64b10d69-0aec-4d91-864b-15a56a8d709b",
       "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026 \nSergio Perez\nWith pit board",
       "url": "https://www.sparkmodel.com/products/64b10d69-0aec-4d91-864b-15a56a8d709b",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/eed6c070-114b-4815-bd2b-e546e1bb270d.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/509e46b5-5b2d-4ed1-83af-ed5f3bf1d477.webp",
       "availability": "In development",
       "product_number": "S9374",
       "scale": "1/43",
@@ -10433,7 +10433,7 @@
       "source_id": "a7da3da9-91c8-49d4-8197-afe5531910c5",
       "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026 \nValtteri Bottas\nWith pit board",
       "url": "https://www.sparkmodel.com/products/a7da3da9-91c8-49d4-8197-afe5531910c5",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/9abd18e3-6231-4810-82fe-67603496ac61.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/3c5ec159-9464-49ef-97c8-cc2598d5b7e3.webp",
       "availability": "In development",
       "product_number": "S9375",
       "scale": "1/43",
@@ -10685,7 +10685,7 @@
       "source_id": "aeabdf69-e02e-47d6-a54e-86783523db33",
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Canada GP 2026 \nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/aeabdf69-e02e-47d6-a54e-86783523db33",
-      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/46d05172-fa26-4901-96fe-79307e62198c.webp",
+      "image_url": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d95e0840-8341-4811-808b-83a68d0829f2.webp",
       "availability": "In development",
       "product_number": "S9396",
       "scale": "1/43",
@@ -12062,16 +12062,12 @@
     }
   },
   "changes": {
-    "added": [
-      "bbr-bbrc332b16drset"
-    ],
+    "added": [],
     "changed": [
-      "spark-64S081",
-      "spark-S9365",
-      "spark-S9631",
-      "spark-S9671",
-      "spark-S9681",
-      "spark-Y437"
+      "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
+      "spark-S9374",
+      "spark-S9375",
+      "spark-S9396"
     ],
     "removed": []
   }

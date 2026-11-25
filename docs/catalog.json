@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:09:43.792946+00:00",
+  "generated_at": "2026-11-25T14:23:38.356790+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -14491,7 +14491,7 @@
         "Product number": "BBR127C16",
         "Scale": "1/12",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "FERRARI",
         "Driver": "LECLERC, CHARLES",
         "Material": "RESIN",
@@ -14504,7 +14504,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019ef96fb8fd73fc8c9cd149b2ab8540",
@@ -27256,7 +27256,13 @@
       "images": [
         "images/spark-S9374-1.webp",
         "images/spark-S9374-2.webp",
-        "images/spark-S9374-3.webp"
+        "images/spark-S9374-3.webp",
+        "images/spark-S9374-4.webp",
+        "images/spark-S9374-5.webp",
+        "images/spark-S9374-6.webp",
+        "images/spark-S9374-7.webp",
+        "images/spark-S9374-8.webp",
+        "images/spark-S9374-9.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",
@@ -27284,7 +27290,13 @@
       "images": [
         "images/spark-S9375-1.webp",
         "images/spark-S9375-2.webp",
-        "images/spark-S9375-3.webp"
+        "images/spark-S9375-3.webp",
+        "images/spark-S9375-4.webp",
+        "images/spark-S9375-5.webp",
+        "images/spark-S9375-6.webp",
+        "images/spark-S9375-7.webp",
+        "images/spark-S9375-8.webp",
+        "images/spark-S9375-9.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",
@@ -27935,7 +27947,9 @@
       "name": "Mercedes-AMG PETRONAS Formula One Team W17 No.12 Winner Canada GP 2026 \nKimi Antonelli",
       "url": "https://www.sparkmodel.com/products/aeabdf69-e02e-47d6-a54e-86783523db33",
       "images": [
-        "images/spark-S9396-1.webp"
+        "images/spark-S9396-1.webp",
+        "images/spark-S9396-2.webp",
+        "images/spark-S9396-3.webp"
       ],
       "properties": {
         "Manufacturer": "Mercedes F1",
