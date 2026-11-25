@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:23:38.356790+00:00",
+  "generated_at": "2026-11-25T23:15:05.083296+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1115,6 +1115,31 @@
       "properties": {
         "Year": "2026",
         "Product number": "BBRC332B16DRSET",
+        "Scale": "1/43",
+        "Model": "SF-26"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
+    },
+    {
+      "id": "bbr-bbrc332b16pre",
+      "name": "Ferrari SF26 F1 Japanese Grand Prix - PREMIUM EDITION Leclerc - third position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16pre_ferrari-sf26-f1-japanese-grand-prix---premium-edition-leclerc---third-position.aspx",
+      "images": [
+        "images/bbr-bbrc332b16pre-1.jpg",
+        "images/bbr-bbrc332b16pre-2.jpg",
+        "images/bbr-bbrc332b16pre-3.jpg",
+        "images/bbr-bbrc332b16pre-4.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRC332B16PRE",
         "Scale": "1/43",
         "Model": "SF-26"
       },
