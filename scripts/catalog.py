@@ -528,6 +528,8 @@ def build_catalog(source=None):
     CATALOG_SCRIPT_FILE.write_text(f"window.MODEL_CATALOG={catalog_data};\n", encoding="utf-8")
     remove_unused_images(catalog["products"])
     manual_products.sync_hashes(catalog)
+    import shards
+    shards.publish()
     print(f"Updated {len(products)} products in {DOCS}")
 
 

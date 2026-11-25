@@ -137,4 +137,6 @@ def save_product(payload):
         if src not in entry['images']: entry['images'].append(src)
     data['entries'][product_id] = entry
     data = sync_hashes(catalog, data)
+    import shards
+    shards.publish()
     return {'id': product_id, 'catalog': merge(catalog, data)}

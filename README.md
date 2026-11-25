@@ -33,13 +33,17 @@ python scripts/serve_local.py --page index.html
 
 [商品目录](docs/index.html)与[差异记录](docs/updates.html)支持直接打开 HTML 文件浏览。商品管理的保存接口由本地服务提供。
 
+浏览页面通过统一的 `docs/toc.json` 定位数据。商品目录先加载全量搜索索引，每页展示 48 件商品，仅请求当前页的详情分片；差异记录先加载历史索引，再按左侧目录请求所选批次。搜索与筛选覆盖全部商品和历史记录，匹配结果显示在目录中，点击目录切换正文。页面不再加载完整的 `catalog.js`、`updates.js` 或重复请求完整 JSON。
+
+分片位于 `docs/data/`，文件名包含内容哈希，内容不变时沿用浏览器缓存。每份 JSON 配有 JS 副本以支持 `file://` 浏览。采集、差异报告生成及本地商品保存会自动更新 TOC 和分片；手动修改源数据文件后，运行 `python scripts/shards.py` 重新生成。发布时需包含完整的 `docs/`。旧分片保留，供已打开的页面继续访问。
+
 ## 目录功能
 
 - 搜索商品名称、车型、年份、车手等商品文本。
 - 按年份、车队、厂商、大奖赛、比例、Availability、样品及出货状态筛选。
 - 按日期、大奖赛、车队、货号、比例、Availability 和样品排序，支持升序与降序。
 - 查看商品属性、描述、来源链接、缩略图和大图。
-- 图片查看支持滚轮缩放、拖动及双击缩放。
+- 商品目录与差异报告的大图均支持滚轮缩放、拖动及双击缩放；移动端支持双指缩放（1–8 倍）、放大后单指拖动、双击放大或复原，原始大小下单指左右滑动切图。
 - 浏览器保存搜索、筛选和排序条件，清除按钮用于重置条件。
 
 大奖赛筛选依赖年份选择，`OTHERS` 用于容纳其余分类。样品状态依据图片数量及来源类型判断；出货状态依据 `shipped` 字段判断。Availability 对应来源网站的商品属性。
@@ -180,6 +184,8 @@ GitHub Pages 的发布内容为仓库中的完整 `docs/` 目录。在 **Setting
 | `scripts/catalog.py` | 详情采集、图片下载与目录生成 |
 | `scripts/carmodel.py` / `scripts/refresh_carmodel.py` | Carmodel 解析与 Burago 本地采集 |
 | `scripts/updates.py` | Git 基线比较与差异记录生成 |
+| `scripts/shards.py` / `docs/toc.json` | 统一数据目录、搜索索引与分片生成 |
+| `docs/data-loader.js` / `docs/data/` | 按需加载、缓存与静态分片 |
 | `浏览目录.bat` / `管理商品与时间.bat` / `更新比美高.bat` | Windows 操作入口 |
 | `scripts/serve_local.py` / `scripts/run_local.bat` | 本地服务与共享启动逻辑 |
 | `scripts/manual_products.py` | 手动商品合并、校验与图片指纹管理 |

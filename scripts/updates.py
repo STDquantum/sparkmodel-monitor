@@ -38,6 +38,8 @@ def write_report_js(history):
     payload = json.dumps(history, ensure_ascii=False, separators=(",", ":"))
     payload = payload.replace("</", "<\\/")
     REPORT_JS.write_text(f"window.MODEL_UPDATES={payload};\n", encoding="utf-8")
+    import shards
+    shards.publish()
 
 
 def record_product_updates(entries, timestamp):
