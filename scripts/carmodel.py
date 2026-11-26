@@ -22,6 +22,7 @@ def search_url(model, mode='', page=1):
     return BASE + '/search?' + urlencode(dict(keyword=keyword, scale='all', country='', nuOb=mode, resultsPerPage=120, page=page, enc=1))
 
 SOURCES = tuple(search_url(model) for models in SEARCHES.values() for model in models)
+browser_session = None
 
 class SourceUnavailable(RuntimeError):
     """Stop querying Carmodel for this monitoring run after a source outage."""
@@ -29,15 +30,26 @@ class SourceUnavailable(RuntimeError):
 def enabled():
     return os.getenv('CARMODEL_ENABLED', 'true').strip().lower() in {'1', 'true', 'yes', 'on'}
 
-def request(url):
+def request(url, *, binary=False):
+    if browser_session is not None and browser_session.active:
+        return browser_request(url, binary=binary)
     # Carmodel sets session cookies during its language/currency redirects.
     opener = build_opener(HTTPCookieProcessor(CookieJar()))
     for attempt in range(3):
         try:
             with opener.open(Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'en-GB,en;q=0.9'}), timeout=20) as response:
-                return response.read().decode('utf-8')
+                data = response.read()
+                challenge = response.headers.get('cf-mitigated') == 'challenge'
+            if challenge:
+                if browser_session is not None:
+                    return browser_request(url, binary=binary)
+                raise SourceUnavailable(f'Carmodel Cloudflare browser challenge: {url}')
+            return data if binary else data.decode('utf-8')
         except HTTPError as error:
             if error.code in {401, 403, 429}:
+                if browser_session is not None and error.headers.get('cf-mitigated') == 'challenge':
+                    print('检测到 Cloudflare 验证，切换到可见浏览器，等待手动验证。', flush=True)
+                    return browser_request(url, binary=binary)
                 challenge = ' (Cloudflare browser challenge)' if error.headers.get('cf-mitigated') == 'challenge' else ''
                 raise SourceUnavailable(f'Carmodel HTTP {error.code}{challenge}; stopping requests for this run: {url}') from error
             if error.code not in {408, 500, 502, 503, 504}:
@@ -48,6 +60,18 @@ def request(url):
             if attempt == 2:
                 raise SourceUnavailable(f'Carmodel unavailable after 3 attempts: {url} ({error})') from error
         time.sleep(2 ** (attempt + 1))
+
+
+def browser_request(url, *, binary=False):
+    from carmodel_browser import BrowserUnavailable
+    try:
+        return browser_session.get(url, image=binary)
+    except BrowserUnavailable as error:
+        raise SourceUnavailable(str(error)) from error
+
+
+def image_bytes(url):
+    return request(url, binary=True)
 
 def text(html):
     return ' '.join(unescape(re.sub(r'<[^>]+>', ' ', html)).split())
@@ -138,7 +162,7 @@ def build_product(product_id, listing):
         props['Expected release'] = listing['release']
     offer = data.get('offers', {})
     return dict(id=product_id, name=listing['name'], url=listing['url'],
-                images=catalog.download_unique_images(images, product_id, workers=4), properties=props,
+                images=catalog.download_unique_images(images, product_id, workers=1, fetch=image_bytes), properties=props,
                 description=data.get('description', ''), brand='Burago', price=str(offer.get('price', '')),
                 currency=offer.get('priceCurrency', 'EUR'), gtin=data.get('gtin', ''), weight='', length='',
                 availability=listing['availability'], image_urls=images)

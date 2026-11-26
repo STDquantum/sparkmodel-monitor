@@ -259,7 +259,7 @@ def parse_spark_shop_detail(html):
     return fields, properties, images
 
 
-def download_image(url, product_id, index):
+def download_image(url, product_id, index, *, fetch=None):
     path = urlsplit(url).path
     suffix = Path(path).suffix or ".webp"
     if suffix.lower() == ".aspx" and re.search(r"\.(jpe?g|png|webp)\.aspx$", path, re.I):
@@ -269,8 +269,11 @@ def download_image(url, product_id, index):
     destination.parent.mkdir(parents=True, exist_ok=True)
     for attempt in range(3):
         try:
-            with urlopen(Request(url, headers={"User-Agent": monitor.USER_AGENT}), timeout=90) as response:
-                destination.write_bytes(response.read())
+            if fetch is not None:
+                destination.write_bytes(fetch(url))
+            else:
+                with urlopen(Request(url, headers={"User-Agent": monitor.USER_AGENT}), timeout=90) as response:
+                    destination.write_bytes(response.read())
             break
         except (HTTPError, URLError, TimeoutError, IncompleteRead):
             if attempt == 2:
@@ -279,7 +282,7 @@ def download_image(url, product_id, index):
     return relative.as_posix()
 
 
-def download_unique_images(urls, product_id, *, workers=1):
+def download_unique_images(urls, product_id, *, workers=1, fetch=None):
     """Download a product's images and discard byte-identical duplicates."""
     if not urls:
         return []
@@ -288,9 +291,9 @@ def download_unique_images(urls, product_id, *, workers=1):
     indexed = list(enumerate(dict.fromkeys(urls), start=1))
     if workers > 1:
         with ThreadPoolExecutor(max_workers=workers) as executor:
-            downloaded = list(executor.map(lambda pair: download_image(pair[1], product_id, pair[0]), indexed))
+            downloaded = list(executor.map(lambda pair: download_image(pair[1], product_id, pair[0], fetch=fetch), indexed))
     else:
-        downloaded = [download_image(url, product_id, index) for index, url in indexed]
+        downloaded = [download_image(url, product_id, index, fetch=fetch) for index, url in indexed]
     for relative in downloaded:
         image_path = DOCS / relative
         image_hash = hashlib.sha256(image_path.read_bytes()).digest()
@@ -517,6 +520,8 @@ def build_catalog(source=None):
             try:
                 product = future.result()
             except Exception as error:
+                if source == 'carmodel' and isinstance(error, monitor.carmodel.SourceUnavailable):
+                    raise
                 print(f"[{number}/{len(product_ids)}] {product_id} failed; keeping previous catalog entry: {error}", flush=True)
                 continue
             products[product_id] = product

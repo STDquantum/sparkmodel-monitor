@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-25T23:15:00.390520+00:00",
-  "total": 1033,
+  "updated_at": "2026-11-26T03:35:18.563891+00:00",
+  "total": 1035,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -1367,9 +1367,9 @@
       "year": "2025",
       "model": "AMR25",
       "image_url": "https://bucket.carmodel.com/images/310-228/191776_1-3.webp",
-      "availability": "Available",
+      "availability": "Catalogue",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
     },
     "burago-191777": {
       "product_id": "burago-191777",
@@ -1502,9 +1502,9 @@
       "year": "2025",
       "model": "W16",
       "image_url": "https://bucket.carmodel.com/images/310-228/191785_1-2.webp",
-      "availability": "Available",
+      "availability": "Catalogue",
       "release": "",
-      "price": "10.40"
+      "price": "10.95"
     },
     "burago-191786": {
       "product_id": "burago-191786",
@@ -2125,8 +2125,8 @@
       "product_id": "burago-197133",
       "source": "carmodel",
       "manufacturer": "Burago",
-      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 SEASON 2025 MAX VERSTAPPEN",
-      "url": "https://www.carmodel.com/burago/18-18005-1/1-18/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-season-2025-max-verstappen/197133",
+      "name": "RED BULL F1 RB21 TEAM ORACLE RED BULL RACING N 1 BAHRAIN GP 2025 MAX VERSTAPPEN",
+      "url": "https://www.carmodel.com/burago/18-18005-1/1-18/red-bull/f1-rb21-team-oracle-red-bull-racing-n-1-bahrain-gp-2025-max-verstappen/197133",
       "product_number": "18-18005-1",
       "scale": "1/18",
       "year": "2025",
@@ -2431,7 +2431,7 @@
       "scale": "1/18",
       "year": "2026",
       "model": "W17",
-      "image_url": "https://bucket.carmodel.com/images/310-228/203219_1-1.webp",
+      "image_url": "https://bucket.carmodel.com/images/310-228/203219_1-3.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 4/2026",
       "price": "116.95"
@@ -3376,10 +3376,10 @@
       "scale": "1/18",
       "year": "2026",
       "model": "SF-26",
-      "image_url": "https://bucket.carmodel.com/images/310-228/203681_1-2.webp",
-      "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "image_url": "https://bucket.carmodel.com/images/310-228/203681_1-3.webp",
+      "availability": "Available",
+      "release": "",
+      "price": "75.95"
     },
     "burago-203682": {
       "product_id": "burago-203682",
@@ -3391,10 +3391,10 @@
       "scale": "1/18",
       "year": "2026",
       "model": "SF-26",
-      "image_url": "https://bucket.carmodel.com/images/310-228/203682_1-4.webp",
-      "availability": "Coming soon",
-      "release": "Available within quarter 4/2026",
-      "price": "71.95"
+      "image_url": "https://bucket.carmodel.com/images/310-228/203682_1-5.webp",
+      "availability": "Available",
+      "release": "",
+      "price": "75.95"
     },
     "burago-204788": {
       "product_id": "burago-204788",
@@ -4196,8 +4196,8 @@
       "source": "carmodel",
       "manufacturer": "Burago",
       "name": "MERCEDES GP ANDREA KIMI ANTONELLI - F1 W17E PERFORMANCE TEAM AMG PETRONAS N 12 WORLD CHAMPION SEASON 2026",
-      "url": "https://www.carmodel.com/burago/18-28540-kit/1-24/mercedes-gp/andrea-kimi-antonelli-f1-w17e-performance-team-amg-petronas-n-12-world-champion-season-2026/206653",
-      "product_number": "18-28540-KIT",
+      "url": "https://www.carmodel.com/burago/18-28538-kit/1-24/mercedes-gp/andrea-kimi-antonelli-f1-w17e-performance-team-amg-petronas-n-12-world-champion-season-2026/206653",
+      "product_number": "18-28538-KIT",
       "scale": "1/24",
       "year": "2026",
       "model": "W17",
@@ -4369,7 +4369,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206670_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206671": {
       "product_id": "burago-206671",
@@ -4384,7 +4384,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206671_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206672": {
       "product_id": "burago-206672",
@@ -4399,7 +4399,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206672_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206673": {
       "product_id": "burago-206673",
@@ -4414,7 +4414,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206673_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206674": {
       "product_id": "burago-206674",
@@ -4429,14 +4429,14 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206674_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206675": {
       "product_id": "burago-206675",
       "source": "carmodel",
       "manufacturer": "Burago",
-      "name": "MERCEDES GP BLISTER BOX WITH STANDING FIGURE - ANDREA KIMI ANTONELLI - F1 W17E PERFORMANCE TEAM AMG PETRONAS N 12 WORLD CHAMPION SEASON 2026",
-      "url": "https://www.carmodel.com/burago/18-58307-12/1-64/mercedes-gp/blister-box-with-standing-figure-andrea-kimi-antonelli-f1-w17e-performance-team-amg-petronas-n-12-world-champion-season-2026/206675",
+      "name": "MERCEDES GP BLISTER BOX WITH STANDING FIGURE - ANDREA KIMI ANTONELLI - WORLD CHAMPION - F1 W17E PERFORMANCE TEAM AMG PETRONAS N 12 SEASON 2026",
+      "url": "https://www.carmodel.com/burago/18-58307-12/1-64/mercedes-gp/blister-box-with-standing-figure-andrea-kimi-antonelli-world-champion-f1-w17e-performance-team-amg-petronas-n-12-season-2026/206675",
       "product_number": "18-58307-12",
       "scale": "1/64",
       "year": "2026",
@@ -4459,7 +4459,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206676_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206677": {
       "product_id": "burago-206677",
@@ -4474,7 +4474,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206677_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206678": {
       "product_id": "burago-206678",
@@ -4489,7 +4489,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206678_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-206679": {
       "product_id": "burago-206679",
@@ -4504,7 +4504,7 @@
       "image_url": "https://bucket.carmodel.com/images/310-228/206679_1.webp",
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
-      "price": "15.25"
+      "price": "16.95"
     },
     "burago-207678": {
       "product_id": "burago-207678",
@@ -4565,6 +4565,36 @@
       "availability": "Coming soon",
       "release": "Available within quarter 1/2027",
       "price": "107.95"
+    },
+    "burago-209553": {
+      "product_id": "burago-209553",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "MERCEDES GP SET F1 2X W17 TEAM MERCEDES-AMG PETRONAS FORMULA ONE N 12 WORLD CHAMPION SEASON 2026 ANDREA KIMI ANTONELLI + N 63 GEORGE RUSSELL",
+      "url": "https://www.carmodel.com/burago/18-38115a-pack2/1-43/mercedes-gp/set-f1-2x-w17-team-mercedes-amg-petronas-formula-one-n-12-world-champion-season-2026-andrea-kimi-antonelli-n-63-george-russell/209553",
+      "product_number": "18-38115A-PACK2",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "W17",
+      "image_url": "https://bucket.carmodel.com/images/310-228/209553.webp",
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "22.45"
+    },
+    "burago-209554": {
+      "product_id": "burago-209554",
+      "source": "carmodel",
+      "manufacturer": "Burago",
+      "name": "MERCEDES GP SET F1 ANDREA KIMI ANTONELLI 4X W17 + W16 TEAM MERCEDES-AMG PETRONAS FORMULA ONE N 12 WORLD CHAMPION SEASON LIVERY - BAHRAIN LIVERY - USA AUSTIN GP LIVERY 2026 + SEASON LIVERY 2025",
+      "url": "https://www.carmodel.com/burago/18-38744-pack/1-43/mercedes-gp/set-f1-andrea-kimi-antonelli-4x-w17-w16-team-mercedes-amg-petronas-formula-one-n-12-world-champion-season-livery-bahrain-livery-usa-austin-gp-livery-2026-season-livery-2025/209554",
+      "product_number": "18-38744-PACK",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "W17",
+      "image_url": "https://bucket.carmodel.com/images/310-228/209554_1.webp",
+      "availability": "Coming soon",
+      "release": "Available within quarter 1/2027",
+      "price": "44.95"
     },
     "looksmart-19787": {
       "url": "https://looksmartmodels.com/product/ferrari-sf-25-china-sprint-race-2025-lewis-hamilton-143/",
@@ -12076,9 +12106,16 @@
   },
   "changes": {
     "added": [
-      "bbr-bbrc332b16pre"
+      "burago-209553",
+      "burago-209554"
     ],
-    "changed": [],
+    "changed": [
+      "burago-191776",
+      "burago-191785",
+      "burago-203219",
+      "burago-203681",
+      "burago-203682"
+    ],
     "removed": []
   }
 }

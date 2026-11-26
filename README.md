@@ -2,7 +2,7 @@
 
 采集 Spark、Looksmart、Minichamps 和 Carmodel（Burago）的 Formula 1 车模信息，整理商品属性、详情和图片，生成支持本地浏览与 GitHub Pages 发布的静态目录。项目提供商品搜索、条件筛选、图片查看、手动编辑、日期标注和钉钉通知功能。
 
-采集程序与本地服务使用 Python 标准库，网页使用 HTML、CSS 和 JavaScript。
+采集程序与本地服务使用 Python 标准库，网页使用 HTML、CSS 和 JavaScript。Carmodel 的可见浏览器验证模式额外使用 Playwright 和本机 Chrome / Edge。
 
 ## 本地使用
 
@@ -90,6 +90,21 @@ python scripts/refresh_carmodel.py --build
 | --- | --- |
 | 默认参数 | 采集配置范围内的 Carmodel 商品，保存商品快照 |
 | `--build` | 生成商品详情、图片、目录及差异记录 |
+| `--browser` | 从启动起使用可见浏览器；不指定时仅在遇到 Cloudflare 验证后自动切换 |
+| `--http-only` | 禁用浏览器模式，使用纯 HTTP 请求 |
+| `--browser-channel msedge` | 使用 Edge；默认使用 Chrome |
+| `--verification-timeout 120` | 等待验证或页面正常显示的最长秒数，默认 120 秒；超时停止 |
+
+默认本地刷新遇到 Cloudflare 验证时会弹出独立 Chrome 窗口，暂停采集。请手动完成验证，等正常商品页面显示后脚本会自动继续；再次遇到验证时仍会等待手动操作。整个任务的页面和图片共用该浏览器会话，请保持窗口打开。关闭窗口或在终端按 `Ctrl+C` 可取消；列表未采集完成时不会保存部分列表。
+
+首次使用需在运行脚本的同一个 Python 环境安装依赖（已有 Chrome / Edge 时无需下载额外浏览器）：
+
+```powershell
+python -m pip install playwright
+python scripts/refresh_carmodel.py --build --browser
+```
+
+双击 `更新比美高.bat` 同样支持自动弹出验证。脚本先按普通方式启动本机 Chrome / Edge，再通过仅限本机的调试端口连接；沿用浏览器实际的语言、User-Agent 和图形环境，不覆盖网页 API。会话使用 `.carmodel-browser/native-chrome/` 或 `native-msedge/` 专用目录，保留旧目录及日常浏览器的数据。专用目录已加入 Git 忽略；请勿同时启动多个比美高刷新任务。页面请求串行进行，间隔至少 3 秒。此模式不会自动解验证码，是否放行仍由 Carmodel 决定；默认等待超过 120 秒会停止，避免一直循环验证。
 
 Carmodel 使用 Encyclopedia（`enc=1`）检索，覆盖符合年份、品牌和车型条件的各类商品状态，支持分页与 Show all。商品以 Carmodel ID 去重，货号、比例和套装作为商品信息保存。`Catalogue` 对应目录收录状态，`Expected release` 保存来源提供的季度信息。
 
@@ -117,7 +132,7 @@ python scripts/updates.py
 
 钉钉通知覆盖初始化及商品差异，每类最多展开 20 件商品。通知成功是对应快照写入的条件。检索失败、详情抓取失败及空图库使用快照或目录中的对应数据，运行输出提供失败信息。
 
-Carmodel 对 HTTP 401、403、429 采用来源级终止策略；网络错误与部分服务端错误的尝试上限为 3 次，请求超时为 20 秒，重试间隔为 2、4 秒。
+Carmodel 对 HTTP 401、403、429 默认采用来源级终止策略；本地 `refresh_carmodel.py` 检测到 Cloudflare 验证时会切换到上述可见浏览器模式。网络错误与部分服务端错误的尝试上限为 3 次；纯 HTTP 请求超时为 20 秒，重试间隔为 2、4 秒。
 
 差异记录的默认比较基线为 `HEAD`。指定提交或分支的命令：
 
