@@ -1,9 +1,40 @@
 """Publish a shared TOC, small search indexes and cacheable detail shards."""
 import hashlib
 import json
+import re
 
 from paths import DOCS
 import manual_products
+
+SHARD_BYTES = 512 * 1024
+
+
+def payload_bytes(data):
+    return len(json.dumps(data, ensure_ascii=False, separators=(',', ':')).encode('utf-8')) + 1
+
+
+def batches(items, wrap, limit=SHARD_BYTES):
+    """Bound the actual UTF-8 JSON size, keeping individual records intact."""
+    start = 0
+    while start < len(items):
+        low, high = start + 1, len(items)
+        if payload_bytes(wrap(items[start:low])) > limit:
+            yield items[start:low]  # One oversized record must remain readable.
+            start = low
+            continue
+        while low < high:
+            middle = (low + high + 1) // 2
+            if payload_bytes(wrap(items[start:middle])) <= limit:
+                low = middle
+            else:
+                high = middle - 1
+        yield items[start:low]
+        start = low
+
+
+def index_parts(items, key, metadata=None):
+    wrap = lambda batch: pack({**(metadata or {}), key: batch})
+    return [shard('indexes', wrap(batch)) for batch in batches(items, wrap)] or [shard('indexes', wrap([]))]
 
 
 def pack(data):
@@ -42,7 +73,7 @@ def write_data(path, data):
         if destination.exists() and destination.read_text(encoding='utf-8') == text:
             continue
         temporary = destination.with_suffix(destination.suffix + '.tmp')
-        temporary.write_text(text, encoding='utf-8')
+        temporary.write_text(text, encoding='utf-8', newline='\n')
         temporary.replace(destination)
     return key
 
@@ -60,27 +91,36 @@ def publish():
     history = json.loads((DOCS / 'updates.json').read_text(encoding='utf-8')) if (DOCS / 'updates.json').exists() else {'updates': []}
     products = catalog['products']
     summaries = []
-    for start in range(0, len(products), 48):
-        batch = products[start:start + 48]
+    for batch in batches(products, lambda batch: {'products': batch}):
         path = shard('catalog', {'products': batch})
         for product in batch:
             summaries.append({**{key: value for key, value in product.items() if key != 'image_urls'}, 'images': product.get('images', [])[:1],
                               'image_count': len(product.get('images', [])), '_shard': path})
     brands = {str(p['id']): p.get('brand', '') for p in products}
-    runs = []
-    for run in history['updates']:
-        path = shard('updates', run)
-        entries = []
-        for entry in run.get('entries', []):
+    runs = [{key: value for key, value in run.items() if key != 'entries'} for run in history['updates']]
+    records = [(run_index, entry) for run_index, run in enumerate(history['updates']) for entry in run.get('entries', [])]
+    entries = []
+    for batch in batches(records, lambda batch: {'entries': [entry for _, entry in batch]}):
+        path = shard('updates', {'entries': [entry for _, entry in batch]})
+        for offset, (run_index, entry) in enumerate(batch):
             summary = {key: entry[key] for key in ('id', 'name', 'url', 'type', 'product_number', 'scale', 'brand') if key in entry}
             summary['brand'] = entry.get('brand') or brands.get(str(entry.get('id')), '')
             summary['_search'] = ' '.join(str(field.get(key, '')) for field in entry.get('fields', []) for key in ('field', 'before', 'after'))
+            summary.update(_run=run_index, _shard=path, _offset=offset)
             entries.append(summary)
-        runs.append({'date': run['date'], '_shard': path, 'entries': entries})
-    catalog_index = shard('indexes', pack({'generated_at': catalog.get('generated_at'), 'products': summaries}))
-    updates_index = shard('indexes', pack({'updates': runs}))
-    write_data(DOCS / 'toc.json', {'version': 1, 'catalog': catalog_index, 'updates': updates_index,
+    catalog_index = index_parts(summaries, 'products', {'generated_at': catalog.get('generated_at')})
+    updates_index = index_parts(entries, 'entries', {'runs': runs})
+    write_data(DOCS / 'toc.json', {'version': 2, 'shard_bytes': SHARD_BYTES,
+                                 'catalog': catalog_index, 'updates': updates_index,
                                  'product_count': len(products), 'run_count': len(runs)})
+    keep = set(catalog_index + updates_index)
+    keep.update(product['_shard'] for product in summaries)
+    keep.update(entry['_shard'] for entry in entries)
+    for kind in ('catalog', 'updates', 'indexes'):
+        for path in (DOCS / 'data' / kind).glob('*'):
+            if re.fullmatch(r'[0-9a-f]{20}\.(json|js)', path.name):
+                if path.with_suffix('.json').relative_to(DOCS).as_posix() not in keep:
+                    path.unlink()
     print(f'Published TOC: {len(products)} products, {len(runs)} update groups')
 
 

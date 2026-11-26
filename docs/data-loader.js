@@ -25,12 +25,29 @@ window.SiteData=(()=>{
     }
     return decode(data.packed);
   }
-  const index=kind=>(toc||(toc=load('toc.json').catch(error=>{toc=null;throw error}))).then(data=>load(data[kind])).then(unpack);
+  const index=kind=>(toc||(toc=load('toc.json').catch(error=>{toc=null;throw error}))).then(async data=>{
+    const paths=Array.isArray(data[kind])?data[kind]:[data[kind]];
+    const parts=(await Promise.all(paths.map(load))).map(unpack);
+    if(kind==='catalog')return {generated_at:parts[0].generated_at,products:parts.flatMap(part=>part.products)};
+    if(parts[0].updates)return {updates:parts[0].updates.map(run=>({...run,entries:run.entries.map((entry,index)=>({...entry,_shard:run._shard,_offset:index}))}))};
+    const runs=parts[0].runs.map(run=>({...run,entries:[]}));
+    for(const entry of parts.flatMap(part=>part.entries))runs[entry._run].entries.push(entry);
+    return {updates:runs};
+  });
   async function hydrate(products){
     const paths=[...new Set(products.map(p=>p._shard).filter(Boolean))];
     const batches=await Promise.all(paths.map(load));
     const full=new Map(batches.flatMap(batch=>batch.products).map(p=>[String(p.id),p]));
     for(const product of products){const detail=full.get(String(product.id));if(detail){Object.assign(product,detail);delete product._shard}}
   }
-  return {load,index,hydrate};
+  async function hydrateUpdates(entries){
+    const paths=[...new Set(entries.map(entry=>entry._shard).filter(Boolean))];
+    const batches=new Map(await Promise.all(paths.map(async path=>[path,await load(path)])));
+    for(const entry of entries){
+      if(!entry._shard)continue;
+      const detail=batches.get(entry._shard).entries[entry._offset];
+      Object.assign(entry,detail);delete entry._shard;delete entry._offset;
+    }
+  }
+  return {load,index,hydrate,hydrateUpdates};
 })();
