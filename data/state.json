@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-26T03:35:18.563891+00:00",
-  "total": 1035,
+  "updated_at": "2026-11-26T15:17:16.669812+00:00",
+  "total": 1034,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -642,19 +642,6 @@
       "year": "2026",
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/AOuMesmp/[Miniatura]BBRC332B16DRSET_3.jpg.aspx",
-      "availability": ""
-    },
-    "bbr-bbrc332b16pre": {
-      "product_id": "bbr-bbrc332b16pre",
-      "source": "bbr",
-      "manufacturer": "BBR",
-      "name": "Ferrari SF26 F1 Japanese Grand Prix - PREMIUM EDITION Leclerc - third position",
-      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16pre_ferrari-sf26-f1-japanese-grand-prix---premium-edition-leclerc---third-position.aspx",
-      "product_number": "BBRC332B16PRE",
-      "scale": "1/43",
-      "year": "2026",
-      "model": "SF-26",
-      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/73kTd38A/[Miniatura]BBRC332B16PRE_1.jpg.aspx",
       "availability": ""
     },
     "bbr-bbrc332c16": {
@@ -6232,6 +6219,7 @@
     "minichamps-019f620736fc71e386ba8e1c59f76866": {
       "name": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE (C332B16DR)",
       "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B16DR/BBR264416",
+      "image_url": "https://www.minichamps.de/media/f4/24/20/1795697252/00_BBR264416.jpg?ts=1795697252",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -6240,6 +6228,7 @@
     "minichamps-019f62073883733e97e4525dcb1638d6": {
       "name": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE (C332B44DR)",
       "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B44DR/BBR264444",
+      "image_url": "https://www.minichamps.de/media/8c/fc/59/1795697309/00_BBR264444.jpg?ts=1795697309",
       "source": "minichamps",
       "manufacturer": "Minichamps",
       "year": "2026",
@@ -12105,17 +12094,13 @@
     }
   },
   "changes": {
-    "added": [
-      "burago-209553",
-      "burago-209554"
-    ],
+    "added": [],
     "changed": [
-      "burago-191776",
-      "burago-191785",
-      "burago-203219",
-      "burago-203681",
-      "burago-203682"
+      "minichamps-019f620736fc71e386ba8e1c59f76866",
+      "minichamps-019f62073883733e97e4525dcb1638d6"
     ],
-    "removed": []
+    "removed": [
+      "bbr-bbrc332b16pre"
+    ]
   }
 }

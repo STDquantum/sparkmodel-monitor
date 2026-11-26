@@ -1,6 +1,125 @@
 {
   "updates": [
     {
+      "date": "2026-11-26T15:17:25.250486+00:00",
+      "entries": [
+        {
+          "type": "removed",
+          "id": "bbr-bbrc332b16pre",
+          "name": "Ferrari SF26 F1 Japanese Grand Prix - PREMIUM EDITION Leclerc - third position",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16pre_ferrari-sf26-f1-japanese-grand-prix---premium-edition-leclerc---third-position.aspx",
+          "product_number": "BBRC332B16PRE",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019f620736fc71e386ba8e1c59f76866",
+          "name": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE (C332B16DR)",
+          "url": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B16DR/BBR264416",
+          "product_number": "BBR264416",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "名称",
+              "before": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE",
+              "after": "FERRARI SF-26 - CHARLES LECLERC - 3RD PLACE JAPAN GP 2026 W/DRIVER FIGURINE (C332B16DR)"
+            },
+            {
+              "field": "商品链接",
+              "before": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR264416",
+              "after": "https://www.minichamps.de/en/FERRARI-SF-26-CHARLES-LECLERC-3RD-PLACE-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B16DR/BBR264416"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 49/2026"
+            },
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/f4/24/20/1795697252/00_BBR264416.jpg?ts=1795697252"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019f620736fc71e386ba8e1c59f76866-1.jpg",
+              "images/minichamps-019f620736fc71e386ba8e1c59f76866-2.jpg",
+              "images/minichamps-019f620736fc71e386ba8e1c59f76866-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019f620736fc71e386ba8e1c59f76866-1.jpg": "452d5602a83a60ebc42b611ea1d7e553bc25c91d519ad8cbb6bfdefef358f9ed",
+              "images/minichamps-019f620736fc71e386ba8e1c59f76866-2.jpg": "c585d0d6897fbfaf4127999b44d2c73d5338435b5a66b30db1afff9a6c214f9b",
+              "images/minichamps-019f620736fc71e386ba8e1c59f76866-3.jpg": "f2300d66c0e14dd03b50ebafa8d720dd3cb8e7eb1a90b94719bf8da329c007a0"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019f62073883733e97e4525dcb1638d6",
+          "name": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE (C332B44DR)",
+          "url": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B44DR/BBR264444",
+          "product_number": "BBR264444",
+          "scale": "1/43",
+          "fields": [
+            {
+              "field": "名称",
+              "before": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE",
+              "after": "FERRARI SF-26 - LEWIS HAMILTON - JAPAN GP 2026 W/DRIVER FIGURINE (C332B44DR)"
+            },
+            {
+              "field": "商品链接",
+              "before": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE/BBR264444",
+              "after": "https://www.minichamps.de/en/FERRARI-SF-26-LEWIS-HAMILTON-JAPAN-GP-2026-W-DRIVER-FIGURINE-C332B44DR/BBR264444"
+            },
+            {
+              "field": "First delivery",
+              "before": "",
+              "after": "Calendar week 49/2026"
+            },
+            {
+              "field": "封面链接",
+              "before": "",
+              "after": "https://www.minichamps.de/media/8c/fc/59/1795697309/00_BBR264444.jpg?ts=1795697309"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/minichamps-019f62073883733e97e4525dcb1638d6-1.jpg",
+              "images/minichamps-019f62073883733e97e4525dcb1638d6-2.jpg",
+              "images/minichamps-019f62073883733e97e4525dcb1638d6-3.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/minichamps-019f62073883733e97e4525dcb1638d6-1.jpg": "62ea52d582ab4d9b19d11e9c2ecef1571a7d700fd3dc1d467d64f0dc1fd51b99",
+              "images/minichamps-019f62073883733e97e4525dcb1638d6-2.jpg": "c8668f0d1663482ecce9b4e7fddcff27bdc0cc9d4ba853d633598773185c74b6",
+              "images/minichamps-019f62073883733e97e4525dcb1638d6-3.jpg": "bed663166fb6c056f9788e3373e273c19d2d8743c35b1c80dd11e726dd780653"
+            }
+          },
+          "image_counts": {
+            "added": 3,
+            "changed": 0
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-26T03:38:19.020111+00:00",
       "entries": [
         {
@@ -363,21 +482,11 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "added": [
-              "images/bbr-bbrc332b16pre-1.jpg",
-              "images/bbr-bbrc332b16pre-2.jpg",
-              "images/bbr-bbrc332b16pre-3.jpg",
-              "images/bbr-bbrc332b16pre-4.jpg"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/bbr-bbrc332b16pre-1.jpg": "c2574dba3e0fb23abb6c568e7f6c3af4adcec5e2c7b12a9c45f9101d6acc2da0",
-              "images/bbr-bbrc332b16pre-2.jpg": "255996f250b74e50128dcf5246588711b0fa8e4b74fe2190e6f719c62bd19a06",
-              "images/bbr-bbrc332b16pre-3.jpg": "c136c625495ca8b853b491f380bd605fbd9a56eb1181ffc9ebc1aefa25a6d6e3",
-              "images/bbr-bbrc332b16pre-4.jpg": "aed778e40365596c08a20b8d0ace69a13139a642dfbab7ae3d5d4689a9a150f0"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 4,
