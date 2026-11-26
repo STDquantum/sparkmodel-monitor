@@ -56,8 +56,8 @@
     "https://www.minichamps.de/en/search?p=1&order=score&search=SF-26",
     "https://www.minichamps.de/en/Formula-1/?properties=019a86b46f8b7431bab8f63c093a3507&p=1&order=name-asc"
   ],
-  "updated_at": "2026-11-25T14:23:29.451261+00:00",
-  "total": 1032,
+  "updated_at": "2026-11-25T23:15:00.390520+00:00",
+  "total": 1033,
   "items": {
     "bbr-bbr1229c16": {
       "product_id": "bbr-bbr1229c16",
@@ -642,6 +642,19 @@
       "year": "2026",
       "model": "SF-26",
       "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/AOuMesmp/[Miniatura]BBRC332B16DRSET_3.jpg.aspx",
+      "availability": ""
+    },
+    "bbr-bbrc332b16pre": {
+      "product_id": "bbr-bbrc332b16pre",
+      "source": "bbr",
+      "manufacturer": "BBR",
+      "name": "Ferrari SF26 F1 Japanese Grand Prix - PREMIUM EDITION Leclerc - third position",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrc332b16pre_ferrari-sf26-f1-japanese-grand-prix---premium-edition-leclerc---third-position.aspx",
+      "product_number": "BBRC332B16PRE",
+      "scale": "1/43",
+      "year": "2026",
+      "model": "SF-26",
+      "image_url": "https://www.bbrmodelstore.com/public/img/eCommerce/prodotti/73kTd38A/[Miniatura]BBRC332B16PRE_1.jpg.aspx",
       "availability": ""
     },
     "bbr-bbrc332c16": {
@@ -12062,13 +12075,10 @@
     }
   },
   "changes": {
-    "added": [],
-    "changed": [
-      "minichamps-019ef96fb86a72e3b5d5e28b4de6598e",
-      "spark-S9374",
-      "spark-S9375",
-      "spark-S9396"
+    "added": [
+      "bbr-bbrc332b16pre"
     ],
+    "changed": [],
     "removed": []
   }
 }
