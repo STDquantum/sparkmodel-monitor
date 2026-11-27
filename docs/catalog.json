@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:17:25.250486+00:00",
+  "generated_at": "2026-11-27T17:28:51.216516+00:00",
   "products": [
     {
       "id": "bbr-bbr1229c16",
@@ -1522,6 +1522,34 @@
       "weight": "",
       "length": "",
       "availability": "Pre-order"
+    },
+    {
+      "id": "bbr-bbrmin43212",
+      "name": "Mercedes-AMG F1 E Performance Kimi Antonelli - COFFRET Winner Chinese GP 2026",
+      "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin43212_mercedes-amg-f1-e-performance-kimi-antonelli---coffret-winner-chinese-gp-2026.aspx",
+      "images": [
+        "images/bbr-bbrmin43212-1.jpg",
+        "images/bbr-bbrmin43212-2.jpg",
+        "images/bbr-bbrmin43212-3.jpg",
+        "images/bbr-bbrmin43212-4.jpg",
+        "images/bbr-bbrmin43212-5.jpg",
+        "images/bbr-bbrmin43212-6.jpg",
+        "images/bbr-bbrmin43212-7.jpg"
+      ],
+      "properties": {
+        "Year": "2026",
+        "Product number": "BBRMIN43212",
+        "Scale": "1/43",
+        "Model": "Mercedes"
+      },
+      "description": "",
+      "brand": "BBR",
+      "price": "",
+      "currency": "EUR",
+      "gtin": "",
+      "weight": "",
+      "length": "",
+      "availability": ""
     },
     {
       "id": "burago-183284",
@@ -13817,7 +13845,7 @@
         "Product number": "640250301",
         "Scale": "1/64",
         "Properties": "Download product data sheet as PDF",
-        "Availability": "in stock",
+        "Availability": "sold out",
         "Brand": "RED BULL RACING",
         "Driver": "VERSTAPPEN, MAX",
         "Material": "DIECAST",
@@ -13830,7 +13858,7 @@
       "gtin": "",
       "weight": "",
       "length": "",
-      "availability": "Available"
+      "availability": "Sold out"
     },
     {
       "id": "minichamps-019a8919c45571f9a17b04847c22aa2e",
@@ -24993,7 +25021,9 @@
       "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026\nSergio Perez",
       "url": "https://www.sparkmodel.com/products/1c80ac7e-05df-4cd1-b0fc-8bc08207db9b",
       "images": [
-        "images/spark-64S120-1.webp"
+        "images/spark-64S120-1.webp",
+        "images/spark-64S120-2.webp",
+        "images/spark-64S120-3.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",
@@ -25019,7 +25049,9 @@
       "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026\nValtteri Bottas",
       "url": "https://www.sparkmodel.com/products/2b83464d-39bf-4008-a1d9-20f95d27b055",
       "images": [
-        "images/spark-64S121-1.webp"
+        "images/spark-64S121-1.webp",
+        "images/spark-64S121-2.webp",
+        "images/spark-64S121-3.webp"
       ],
       "properties": {
         "Manufacturer": "Cadillac",

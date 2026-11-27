@@ -1,6 +1,148 @@
 {
   "updates": [
     {
+      "date": "2026-11-27T17:28:51.216516+00:00",
+      "entries": [
+        {
+          "type": "added",
+          "id": "bbr-bbrmin43212",
+          "name": "Mercedes-AMG F1 E Performance Kimi Antonelli - COFFRET Winner Chinese GP 2026",
+          "url": "https://www.bbrmodelstore.com/english/car-model-bbrmin43212_mercedes-amg-f1-e-performance-kimi-antonelli---coffret-winner-chinese-gp-2026.aspx",
+          "product_number": "BBRMIN43212",
+          "scale": "1/43",
+          "fields": [],
+          "images": {
+            "added": [
+              "images/bbr-bbrmin43212-1.jpg",
+              "images/bbr-bbrmin43212-2.jpg",
+              "images/bbr-bbrmin43212-3.jpg",
+              "images/bbr-bbrmin43212-4.jpg",
+              "images/bbr-bbrmin43212-5.jpg",
+              "images/bbr-bbrmin43212-6.jpg",
+              "images/bbr-bbrmin43212-7.jpg"
+            ],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/bbr-bbrmin43212-1.jpg": "a84a53b516350eec8e621c03eca901590837ba8593e1582328f46b9b2784b6fe",
+              "images/bbr-bbrmin43212-2.jpg": "fca54dc58c77a33f209e333a7495b75b9e4a49ef819d2ff9ec0fd1e7fa618205",
+              "images/bbr-bbrmin43212-3.jpg": "4e0382aab02e1e32637710272136f052b3960322fd3552937cfeaf20a576d944",
+              "images/bbr-bbrmin43212-4.jpg": "b5c266239b7668d53f87f1014198cf73666d85e20fbada4fc732150896379b8a",
+              "images/bbr-bbrmin43212-5.jpg": "d103948c792afb06b7eb0fd800145031f48e42c20e39824c8e7c14b916f30b45",
+              "images/bbr-bbrmin43212-6.jpg": "40b1b06e7de40677b06219a7974018d6231fe4673abbe93e3261a6946463ca1e",
+              "images/bbr-bbrmin43212-7.jpg": "d58f5e027b88914047a16eba892d2041b36a3dde5a51613a841510dbb0400ede"
+            }
+          },
+          "image_counts": {
+            "added": 7,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "minichamps-019a8919c2d1721ea132b269f7b78c26",
+          "name": "ORACLE RED BULL RACING RB21 - MAX VERSTAPPEN - WINNER JAPANESE GP 2025",
+          "url": "https://www.minichamps.de/en/detail/019a8919c2d1721ea132b269f7b78c26?referrerCategoryId=019eabdcae5d7487a3c0099c336f2286",
+          "product_number": "640250301",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "Availability",
+              "before": "Available",
+              "after": "Sold out"
+            },
+            {
+              "field": "Availability",
+              "before": "in stock",
+              "after": "sold out"
+            }
+          ],
+          "images": {
+            "added": [],
+            "changed": [],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {}
+          },
+          "image_counts": {
+            "added": 0,
+            "changed": 0
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S120",
+          "name": "Cadillac Formula 1 Team MAC-26 No.11 Australian GP 2026\nSergio Perez",
+          "url": "https://www.sparkmodel.com/products/1c80ac7e-05df-4cd1-b0fc-8bc08207db9b",
+          "product_number": "64S120",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/afd9481c-eb61-4ded-b241-bf6637eb506a.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/d2571825-1407-4df0-a67f-34fbdb1b7a10.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S120-2.webp",
+              "images/spark-64S120-3.webp"
+            ],
+            "changed": [
+              "images/spark-64S120-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S120-2.webp": "86421ce68249ad17d5528c74cc910619f7ca0ee76f307173b72afd296627a973",
+              "images/spark-64S120-3.webp": "72a059e67db0bd47dc2e2e6d2a1aabe65fe1057ff7bbd237adb8ccf66255ca4b",
+              "images/spark-64S120-1.webp": "1983cf1550a39dbebd3bb28a769e7f578cffec802bd13ba264f4d189389c5bbd"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        },
+        {
+          "type": "changed",
+          "id": "spark-64S121",
+          "name": "Cadillac Formula 1 Team MAC-26 No.77 Australian GP 2026\nValtteri Bottas",
+          "url": "https://www.sparkmodel.com/products/2b83464d-39bf-4008-a1d9-20f95d27b055",
+          "product_number": "64S121",
+          "scale": "1/64",
+          "fields": [
+            {
+              "field": "封面链接",
+              "before": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/89b5aa65-3f6a-47ea-9eae-4f444af761da.webp",
+              "after": "https://minimax.fra1.cdn.digitaloceanspaces.com/published/495774db-d367-4f41-b2e6-7564f6f20928.webp"
+            }
+          ],
+          "images": {
+            "added": [
+              "images/spark-64S121-2.webp",
+              "images/spark-64S121-3.webp"
+            ],
+            "changed": [
+              "images/spark-64S121-1.webp"
+            ],
+            "moved": [],
+            "removed_count": 0,
+            "hashes": {
+              "images/spark-64S121-2.webp": "970a2055149be8c9df8fa293813129946ecd2546ecd092f3d1fd4c2a04dc8e69",
+              "images/spark-64S121-3.webp": "73321e77ac0c044855b2b4ba63f2e5876332a89a2970bd4c8c4b0d06d2d24e3d",
+              "images/spark-64S121-1.webp": "8e0de3bd0892303520acb12e4c104f6c1e247da5f602c09aa1d8e78f47b58dec"
+            }
+          },
+          "image_counts": {
+            "added": 2,
+            "changed": 1
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-26T15:17:25.250486+00:00",
       "entries": [
         {
@@ -12,7 +154,9 @@
           "scale": "1/43",
           "fields": [],
           "images": {
-            "hashes": {}
+            "hashes": {},
+            "added": [],
+            "changed": []
           },
           "image_counts": {
             "added": 0,
@@ -23644,15 +23788,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S120-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S120-1.webp": "9f8483b8a21a75371c97c4d2a44709c238fd18ad747d33d1f29ccaa904cbb66d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
@@ -23668,15 +23808,11 @@
           "scale": "1/64",
           "fields": [],
           "images": {
-            "added": [
-              "images/spark-64S121-1.webp"
-            ],
+            "added": [],
             "changed": [],
             "moved": [],
             "removed_count": 0,
-            "hashes": {
-              "images/spark-64S121-1.webp": "48645dd8d82c459890cd4d2742567220fa015fb2c78c53421088351dd2bda66d"
-            }
+            "hashes": {}
           },
           "image_counts": {
             "added": 1,
